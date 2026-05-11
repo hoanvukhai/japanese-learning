@@ -1,5 +1,4 @@
 // src/pages/Practice/KeigoDashboard.tsx
-import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Keyboard, CheckSquare, Zap } from 'lucide-react';
 import { motion, type Variants } from 'framer-motion';
