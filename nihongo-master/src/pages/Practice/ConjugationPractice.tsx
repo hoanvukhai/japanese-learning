@@ -339,9 +339,9 @@ export default function Practice() {
       </div>
 
       {/* CONTENT AREA */}
-      <div className="flex flex-col items-center justify-center min-h-[400px]">
+      <div className="w-full max-w-md mx-auto flex flex-col items-center justify-center min-h-[400px] px-3">
         {mode === 'flashcard' ? (
-          <div className="flex flex-col items-center animate-in fade-in zoom-in-95 duration-300">
+          <div className="w-full flex flex-col items-center animate-in fade-in zoom-in-95 duration-300">
 
             {/* QUIZ – Màn hoàn thành */}
             {isQuizMode && isFinished ? (
@@ -374,12 +374,14 @@ export default function Practice() {
                     onSwipeRight={() => handleQuizSwipe(true)}
                     onFlip={() => setIsFlipped(!isFlipped)}
                   >
-                    <FlipCard
-                      word={currentCard.word}
-                      isFlipped={isFlipped}
-                      targetFormsOverride={currentCard.targetForms}
-                      cardSeed={currentCard.randomSeed}
-                    />
+                    <div className="w-full">
+                      <FlipCard
+                        word={currentCard.word}
+                        isFlipped={isFlipped}
+                        targetFormsOverride={currentCard.targetForms}
+                        cardSeed={currentCard.randomSeed}
+                      />
+                    </div>
                   </SwipeableCard>
                 )}
 

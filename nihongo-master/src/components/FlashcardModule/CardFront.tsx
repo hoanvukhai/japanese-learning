@@ -182,7 +182,7 @@ export default function CardFront({ word, isFlipped, actualSourceForm, actualTar
       </div>
 
       {/* Body */}
-      <div className="flex flex-col items-center justify-center flex-1 w-full mt-4">
+      <div className="flex flex-col items-center justify-center flex-1 w-full mt-4 overflow-y-auto custom-scrollbar py-2">
         {showConjugation && (
           <>
             {showFurigana && furiganaText && (
@@ -190,7 +190,7 @@ export default function CardFront({ word, isFlipped, actualSourceForm, actualTar
                 {furiganaText}
               </span>
             )}
-            <h2 className="text-5xl sm:text-6xl font-bold text-slate-800 dark:text-slate-100 mb-4 text-center px-4 leading-tight">
+            <h2 className="text-4xl font-bold text-slate-800 dark:text-slate-100 mb-4 text-center px-2 leading-tight break-all">
               {mainText}
             </h2>
           </>

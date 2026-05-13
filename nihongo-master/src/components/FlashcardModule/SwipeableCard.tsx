@@ -40,7 +40,7 @@ const x = useMotionValue(0);
 
   return (
 <motion.div
-      className={`${dragEnabled ? 'cursor-grab active:cursor-grabbing' : 'cursor-pointer'} origin-bottom`}
+      className={`w-full ${dragEnabled ? 'cursor-grab active:cursor-grabbing' : 'cursor-pointer'} origin-bottom`}
       animate={controls}
       style={dragEnabled ? { x, rotate, opacity } : { }}
       drag={dragEnabled ? "x" : false}

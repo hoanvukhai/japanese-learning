@@ -39,10 +39,18 @@ export default function FlipCard({ word, isFlipped, targetFormsOverride, cardSee
   const sourceForm = settings.sourceForm;
   const baseTargetForms = targetFormsOverride || settings.targetForms;
 
-  const actualSourceForm = useMemo(
-    () => resolveForm(sourceForm, cardSeed + 99, 0, word, []),
-    [sourceForm, cardSeed, word]
-  );
+  const actualSourceForm = useMemo(() => {
+    // Nếu sourceForms có nhiều entry (multi-select mặt trước): random 1 thể từ danh sách
+    const multiSources = settings.sourceForms ?? [];
+    const effectiveSourceForm: FormType = multiSources.length > 0
+      ? (() => {
+          // Dùng seed ổn định: chọn theo (cardSeed + 31) % len
+          const idx = (cardSeed + 31) % multiSources.length;
+          return multiSources[idx];
+        })()
+      : sourceForm;
+    return resolveForm(effectiveSourceForm, cardSeed + 99, 0, word, []);
+  }, [sourceForm, settings.sourceForms, cardSeed, word]);
 
   const actualTargetForms = useMemo(
     () => {
@@ -57,11 +65,12 @@ export default function FlipCard({ word, isFlipped, targetFormsOverride, cardSee
   );
 
   return (
-    <div className="w-80 h-96 sm:w-[30rem] sm:h-[26rem] [perspective:1000px]">
+    <div className="w-full max-w-sm sm:max-w-[30rem] [perspective:1000px] px-2">
       <div
-        className={`relative w-full h-full transition-all duration-500 [transform-style:preserve-3d] shadow-2xl rounded-2xl ${
+        className={`relative w-full transition-all duration-500 [transform-style:preserve-3d] shadow-2xl rounded-2xl ${
           isFlipped ? '[transform:rotateY(180deg)]' : ''
           }`}
+        style={{ minHeight: '22rem' }}
       >
         <CardFront
           word={word}

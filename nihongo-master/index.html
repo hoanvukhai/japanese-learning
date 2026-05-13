@@ -1,10 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" href="/test.png" />
+    <link rel="apple-touch-icon" href="/test.png" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Viewport & Theme -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nihongo-master</title>
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- SEO -->
+    <meta name="description" content="Website created by Vu Khai Hoan" />
+    <meta name="author" content="Vu Khai Hoan" />
+
+    <title>Nihongo Master | Luyện tiếng Nhật</title>
+
+    <style>
+      /* ── Global body baseline ── */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* ── #message toast / status block ── */
+      #message {
+        position: fixed;
+        bottom: 1.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        color: #fff;
+        font-size: 0.875rem;
+        font-weight: 600;
+        padding: 0.6rem 1.4rem;
+        border-radius: 9999px;
+        box-shadow: 0 8px 32px rgba(99, 102, 241, 0.35);
+        letter-spacing: 0.02em;
+        pointer-events: none;
+        z-index: 9999;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      #message.visible {
+        opacity: 1;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>

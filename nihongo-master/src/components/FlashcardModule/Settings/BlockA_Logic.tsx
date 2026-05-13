@@ -54,6 +54,7 @@ export default function BlockA_Logic() {
   const levels = settings.levels?.length ? settings.levels : ['N5'];
   const wordTypes = settings.wordTypes || ['verb', 'adj_i', 'adj_na', 'noun'];
   const sourceForm = settings.sourceForm || 'jisho';
+  const sourceForms = settings.sourceForms ?? [];
   const targetForms = settings.targetForms || ['te'];
   const playMode = settings.playMode || 'endless';
   const displayLogic = settings.displayLogic || 'mixed';
@@ -65,13 +66,14 @@ export default function BlockA_Logic() {
       cardsUnit: ' cards',
       endlessTip: '*Endless mode browses infinitely through all cards at the selected level.',
       wordscopeTitle: 'Word Types',
-      frontTitle: 'Front Side – Question',
+      frontTitle: 'Front Side – Question (multi-select = random from list)',
       backTitle: 'Back Side – Answer',
       queryTitle: 'Card Logic',
       mixedTitle: 'Combined',
       mixedDesc: '1 card carries all forms. The back shows the full list.',
       focusedTitle: 'Split (Cross-multiply)',
       focusedDesc: 'Splits into multiple cards. Each card tests only 1 form.',
+      randomFront: 'Random (from selected)',
     }
     : {
       scopeTitle: 'Phạm Vi Ôn Tập',
@@ -79,13 +81,14 @@ export default function BlockA_Logic() {
       cardsUnit: ' thẻ',
       endlessTip: '*Endless sẽ lướt vô tận qua toàn bộ kho từ của cấp độ đã chọn.',
       wordscopeTitle: 'Loại Từ Thể Hiện',
-      frontTitle: 'Mặt Trước – Hỏi',
+      frontTitle: 'Mặt Trước – Hỏi (chọn nhiều = random trong danh sách)',
       backTitle: 'Mặt Sau – Đáp Án',
       queryTitle: 'Kiểu Hỏi (Logic Thẻ)',
       mixedTitle: 'Tổng Hợp',
       mixedDesc: '1 thẻ gánh tất cả thể. Mặt sau hiện danh sách đầy đủ.',
       focusedTitle: 'Tách Lẻ (Nhân chéo)',
       focusedDesc: 'Xé nhỏ thành nhiều thẻ. Mỗi thẻ chỉ kiểm tra 1 thể.',
+      randomFront: 'Random (trong danh sách chọn)',
     };
 
   const isWordTypeLocked = (type: WordType) => {
@@ -237,22 +240,95 @@ export default function BlockA_Logic() {
         </div>
       </div>
 
-      {/* 3. FRONT SIDE */}
+      {/* 3. FRONT SIDE – multi-select chip */}
       <div>
-        <h3 className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-          <Database size={14} /> {t.frontTitle}
-        </h3>
-        <select
-          value={sourceForm}
-          onChange={(e) => updateSettings({ sourceForm: e.target.value as FormType })}
-          className="w-full bg-slate-50 dark:bg-slate-700 border border-gray-200 dark:border-slate-600 text-slate-800 dark:text-white rounded-lg p-2.5 outline-none font-medium text-sm"
-        >
-          {FORM_REGISTRY.map(opt => (
-            <option key={`src-${opt.id}`} value={opt.id}>
-              {language === 'en' ? opt.labelEn : opt.label}
-            </option>
-          ))}
-        </select>
+        <div className="flex items-center justify-between mb-1">
+          <h3 className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center gap-2">
+            <Database size={14} /> {t.frontTitle}
+          </h3>
+          <div className="flex gap-2">
+            <button 
+              onClick={() => updateSettings({ sourceForms: FORM_REGISTRY.map(f => f.id) as any })}
+              className="text-[10px] font-bold text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
+            >
+              {language === 'en' ? 'Select All' : 'Chọn tất cả'}
+            </button>
+            <button 
+              onClick={() => updateSettings({ sourceForms: ['dictionary'] as any })}
+              className="text-[10px] font-bold text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
+            >
+              {language === 'en' ? 'Reset' : 'Mặc định'}
+            </button>
+          </div>
+        </div>
+        <p className="text-[10px] text-slate-400 dark:text-slate-500 italic mb-2">
+          {language === 'en'
+            ? 'Check multiple to randomly pick 1 per card.'
+            : 'Tích nhiều để mỗi thẻ random 1 thể từ danh sách.'}
+        </p>
+        {FORM_GROUPS.map(grp => {
+          const formsInGroup = FORM_REGISTRY.filter(f => f.group === grp.group);
+          if (formsInGroup.length === 0) return null;
+          return (
+            <div key={grp.group} className="mb-2">
+              <p className="text-[10px] text-slate-400 dark:text-slate-500 font-medium mb-1">
+                {language === 'en' ? grp.labelEn : grp.labelVi}
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                {formsInGroup.map(opt => {
+                  // Multi-select mode: track via sourceForms
+                  // If sourceForms is empty, sourceForm (legacy) is selected
+                  const isInMulti = sourceForms.includes(opt.id as FormType);
+                  const isLegacySelected = sourceForms.length === 0 && opt.id === sourceForm;
+                  const isSelected = isInMulti || isLegacySelected;
+                  return (
+                    <button
+                      key={`src-${opt.id}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        const id = opt.id as FormType;
+                        if (sourceForms.length === 0) {
+                          // Chuyển từ legacy → multi: add cả 2 lên (trừ khi click chính sourceForm cũ)
+                          if (id === sourceForm) {
+                            // Bắt đầu multi với chỉ mình nó
+                            updateSettings({ sourceForms: [id], sourceForm: id });
+                          } else {
+                            updateSettings({ sourceForms: [sourceForm as FormType, id], sourceForm: id });
+                          }
+                        } else if (isInMulti) {
+                          const next = sourceForms.filter(f => f !== id);
+                          if (next.length === 0) {
+                            // Reset về single
+                            updateSettings({ sourceForms: [], sourceForm: id });
+                          } else {
+                            updateSettings({ sourceForms: next, sourceForm: next[0] });
+                          }
+                        } else {
+                          updateSettings({ sourceForms: [...sourceForms, id] });
+                        }
+                      }}
+                      className={`px-2 py-1 rounded-lg text-xs font-medium border transition-colors ${
+                        isSelected
+                          ? 'bg-emerald-50 border-emerald-400 text-emerald-700 dark:bg-emerald-900/30 dark:border-emerald-600 dark:text-emerald-300'
+                          : 'bg-white dark:bg-slate-800 border-gray-200 dark:border-slate-600 text-gray-500 dark:text-gray-400 hover:border-emerald-300'
+                      }`}
+                    >
+                      {language === 'en' ? opt.labelEn : opt.label}
+                      {sourceForms.length > 1 && isInMulti && (
+                        <span className="ml-1 text-[9px] opacity-60">✓</span>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+        {sourceForms.length > 1 && (
+          <p className="mt-1 text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold">
+            ✨ {sourceForms.length} {language === 'en' ? 'forms selected – each card picks 1 randomly' : 'thể đang chọn – mỗi thẻ random 1 thể'}
+          </p>
+        )}
       </div>
 
       {/* 4. BACK SIDE */}

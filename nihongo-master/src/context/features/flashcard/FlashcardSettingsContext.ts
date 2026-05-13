@@ -18,7 +18,8 @@ export interface FlashcardSettingsState {
 
   // ── FORMS & WORD TYPES ────────────────────────────────
   wordTypes: WordType[]; // Chỉ ôn các loại từ được tick
-  sourceForm: FormType;
+  sourceForm: FormType;       // Thể mặt trước (legacy – single)
+  sourceForms: FormType[];    // Thể mặt trước (multi-select) – override sourceForm nếu length > 0
   targetForms: FormType[];
   displayLogic: 'focused' | 'mixed';
 
@@ -53,6 +54,7 @@ export const defaultFlashcardSettings: FlashcardSettingsState = {
 
   wordTypes: ['verb', 'adj_i', 'adj_na', 'noun'],
   sourceForm: 'jisho',
+  sourceForms: [],           // [] = chỉ dùng sourceForm đơn
   targetForms: ['te'],
   displayLogic: 'focused',
 
