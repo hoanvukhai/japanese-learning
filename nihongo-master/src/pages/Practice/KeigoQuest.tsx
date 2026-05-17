@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Star, Zap, RefreshCw, Heart, X, Check } from 'lucide-react';
 import { keigoVerbs } from '../../data/keigoDb';
 import type { KeigoVerb, KeigoFormKey } from '../../types/keigo';
-import { getKeigoResult, generateDistractors } from '../../lib/keigoEngine';
+import { getKeigoResult, generateDistractors, buildRuleExplanation } from '../../lib/keigoEngine';
 import { useSettings } from '../../context/global/useSettings';
 
 // ── CHARACTERS ────────────────────────────────────────────────
@@ -108,18 +108,25 @@ const buildScenarios = (): Scenario[] => {
 const buildQ = (s: Scenario): Question => {
   const correct = getKeigoResult(s.verb, s.tmpl.formKey);
   const distractors = generateDistractors(s.verb, s.tmpl.formKey, 3);
-  while (distractors.length < 3) distractors.push(s.verb.kanji + 'ます');
+  // Fallback được xử lý hoàn toàn trong generateDistractors (cross-verb pool)
   const choices = shuffle([correct, ...distractors.slice(0, 3)]);
   const isSpecial = s.verb[s.tmpl.formKey].type === 'special';
+
+  const buildEx = (lang: 'vi' | 'en') => {
+    if (isSpecial) {
+      return lang === 'vi'
+        ? `“${correct}” là dạng ĐẶC BIỆT của “${s.verb.kanji}” (${s.verb.meaning.vi}). Bắt buộc học thuộc!`
+        : `“${correct}” is the SPECIAL form of “${s.verb.kanji}” (${s.verb.meaning.en}). Must memorize!`;
+    }
+    const rule = buildRuleExplanation(s.tmpl.formKey, s.verb, lang);
+    return `“${correct}” — ${rule}`;
+  };
+
   return {
     scenario: s, correct, choices,
     correctIdx: choices.indexOf(correct),
-    exVi: isSpecial
-      ? `"${correct}" là dạng ĐẶC BIỆT của "${s.verb.kanji}" (${s.verb.meaning.vi}). Cần học thuộc!`
-      : `"${correct}" theo quy tắc: [Prefix] + Masu-stem + ${s.tmpl.formKey === 'sonkei' ? 'になる' : s.tmpl.formKey === 'kenjou' ? 'する' : 'ます'}`,
-    exEn: isSpecial
-      ? `"${correct}" is the SPECIAL form of "${s.verb.kanji}" (${s.verb.meaning.en}). Must memorize!`
-      : `"${correct}" follows the rule: [Prefix] + Masu-stem + ${s.tmpl.formKey === 'sonkei' ? 'になる' : s.tmpl.formKey === 'kenjou' ? 'する' : 'ます'}`,
+    exVi: buildEx('vi'),
+    exEn: buildEx('en'),
   };
 };
 

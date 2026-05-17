@@ -12,6 +12,12 @@ import KeigoFlashcards from './pages/Practice/KeigoFlashcards';
 import KeigoQuest from './pages/Practice/KeigoQuest';
 import Study from './pages/Study';
 import Settings from './pages/Settings';
+import VocabDashboard from './pages/Vocabulary/VocabDashboard';
+import VocabFlashcard from './pages/Vocabulary/VocabFlashcard';
+import VocabQuiz from './pages/Vocabulary/VocabQuiz';
+import VocabMatching from './pages/Vocabulary/VocabMatching';
+import VocabTyping from './pages/Vocabulary/VocabTyping';
+import VocabStudy from './pages/Vocabulary/VocabStudy';
 
 export default function App() {
   return (
@@ -32,6 +38,12 @@ export default function App() {
               <Route path="/practice/keigo/flashcards" element={<KeigoFlashcards />} />
               <Route path="/practice/keigo/quest" element={<KeigoQuest />} />
               <Route path="/settings" element={<Settings />} />
+              <Route path="/vocabulary" element={<VocabDashboard />} />
+              <Route path="/vocabulary/flashcard" element={<VocabFlashcard />} />
+              <Route path="/vocabulary/quiz" element={<VocabQuiz />} />
+              <Route path="/vocabulary/matching" element={<VocabMatching />} />
+              <Route path="/vocabulary/typing" element={<VocabTyping />} />
+              <Route path="/vocabulary/study" element={<VocabStudy />} />
             </Routes>
           </main>
         </div>

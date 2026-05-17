@@ -27,6 +27,8 @@ export default function Dictionary() {
       adjI: 'Tính từ đuôi I',
       adjNa: 'Tính từ đuôi NA',
       noun: 'Danh từ',
+      adv: 'Trạng từ',
+      expression: 'Cụm từ / Biểu đạt',
       thKanji: 'Kanji / Từ gốc',
       thHiragana: 'Cách đọc',
       thMeaning: 'Ý nghĩa',
@@ -51,6 +53,8 @@ export default function Dictionary() {
       adjI: 'I-Adjective',
       adjNa: 'Na-Adjective',
       noun: 'Noun',
+      adv: 'Adverb',
+      expression: 'Expression',
       thKanji: 'Kanji / Base',
       thHiragana: 'Reading',
       thMeaning: 'Meaning',
@@ -72,6 +76,7 @@ export default function Dictionary() {
     const meaningText = typeof word.meaning === 'object' ? word.meaning[language as 'vi' | 'en'] : word.meaning;
     const matchesSearch = 
       word.kanji.includes(searchTerm) || 
+      (word.alt_kanji && word.alt_kanji.includes(searchTerm)) ||
       word.hiragana.includes(searchTerm) || 
       (meaningText || '').toLowerCase().includes(searchTerm.toLowerCase());
     
@@ -81,6 +86,8 @@ export default function Dictionary() {
       (filterType === 'verb3' && word.type === 'verb' && word.group === 3) ||
       (filterType === 'adj_i' && word.type === 'adj_i') ||
       (filterType === 'adj_na' && word.type === 'adj_na') ||
+      (filterType === 'adv' && word.type === 'adv') ||
+      (filterType === 'expression' && word.type === 'expression') ||
       (filterType === 'noun' && word.type === 'noun');
 
     return matchesSearch && matchesFilter;
@@ -156,6 +163,8 @@ export default function Dictionary() {
               <option value="adj_i">{t.adjI}</option>
               <option value="adj_na">{t.adjNa}</option>
               <option value="noun">{t.noun}</option>
+              <option value="adv">{t.adv}</option>
+              <option value="expression">{t.expression}</option>
             </select>
           </div>
         )}
@@ -189,7 +198,10 @@ export default function Dictionary() {
                 filteredWords.length > 0 ? (
                   filteredWords.map((word) => (
                     <tr key={word.id} className="border-b border-gray-50 dark:border-slate-700 hover:bg-slate-50/50 dark:hover:bg-slate-700/50 transition-colors">
-                      <td className="py-4 px-6 font-bold text-lg text-slate-800 dark:text-white whitespace-nowrap">{word.kanji}</td>
+                      <td className="py-4 px-6 font-bold text-lg text-slate-800 dark:text-white whitespace-nowrap">
+                        {word.kanji}
+                        {word.alt_kanji && <span className="text-sm font-normal text-slate-500 dark:text-slate-400 ml-1">({word.alt_kanji})</span>}
+                      </td>
                       <td className="py-4 px-6 text-slate-600 dark:text-slate-300 whitespace-nowrap">{word.hiragana}</td>
                       <td className="py-4 px-6 text-slate-700 dark:text-slate-200 min-w-[150px]">
                         {typeof word.meaning === 'object' ? word.meaning[language as 'vi' | 'en'] : word.meaning}
@@ -200,6 +212,8 @@ export default function Dictionary() {
                               ? (language === 'en' ? `Verb G${word.group}` : `Động từ N${word.group}`)
                               : word.type === 'adj_i' ? (language === 'en' ? 'I-Adj' : 'Tính từ I')
                               : word.type === 'adj_na' ? (language === 'en' ? 'Na-Adj' : 'Tính từ NA')
+                              : word.type === 'adv' ? (language === 'en' ? 'Adverb' : 'Trạng từ')
+                              : word.type === 'expression' ? (language === 'en' ? 'Expression' : 'Cụm từ')
                               : (language === 'en' ? 'Noun' : 'Danh từ')}
                         </span>
                       </td>

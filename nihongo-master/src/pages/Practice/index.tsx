@@ -31,10 +31,10 @@ export default function PracticeDashboard() {
       color:'text-orange-500', bgLight:'bg-orange-100 dark:bg-orange-900/30', borderColor:'hover:border-orange-500', disabled:true,
     },
     {
-      name: lang==='en'?'Vocabulary':'Từ Vựng',
-      path:'#', icon: Puzzle,
-      desc: lang==='en'?'Smart flashcard vocabulary training':'Học từ vựng qua thẻ ghi nhớ thông minh',
-      color:'text-purple-500', bgLight:'bg-purple-100 dark:bg-purple-900/30', borderColor:'hover:border-purple-500', disabled:true,
+      name: lang==='en'?'Vocabulary':'Từ Vựng N3',
+      path:'/vocabulary', icon: Puzzle,
+      desc: lang==='en'?'Flashcard, quiz, matching & typing for N3 vocab':'Lật thẻ, trắc nghiệm, nối từ & nhập liệu từ vựng N3',
+      color:'text-purple-500', bgLight:'bg-purple-100 dark:bg-purple-900/30', borderColor:'hover:border-purple-500', disabled:false,
     },
     {
       name: lang==='en'?'Kanji':'Chữ Hán (Kanji)',
