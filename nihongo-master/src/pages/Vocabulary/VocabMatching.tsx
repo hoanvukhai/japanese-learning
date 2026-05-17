@@ -143,6 +143,7 @@ export default function VocabMatching() {
           </button>
           <div className="flex items-center gap-4 text-sm">
             <span className="text-slate-500 dark:text-slate-400">Vòng {round + 1}</span>
+            <span className="text-blue-500 dark:text-blue-400">Điểm: {totalCorrect}</span>
             <span className="text-emerald-500 flex items-center gap-1">
               <CheckCircle2 size={14} /> {matched.size}/{pairs.length}
             </span>
@@ -163,13 +164,12 @@ export default function VocabMatching() {
                   onClick={() => handleLeftClick(item.pairId, item.id)}
                   disabled={isMatched}
                   whileTap={{ scale: isMatched ? 1 : 0.95 }}
-                  className={`w-full py-4 px-3 rounded-2xl border-2 font-bold text-center transition-all ${
-                    isMatched
+                  className={`w-full py-4 px-3 rounded-2xl border-2 font-bold text-center transition-all ${isMatched
                       ? 'border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70'
                       : isSelected
-                      ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-md'
-                      : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm'
-                  }`}
+                        ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-md'
+                        : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm'
+                    }`}
                 >
                   <div className="text-xl">{item.label}</div>
                   <div className="text-xs text-slate-400 dark:text-slate-500 mt-1">{item.sub}</div>
@@ -193,17 +193,16 @@ export default function VocabMatching() {
                   whileTap={{ scale: isMatched ? 1 : 0.95 }}
                   animate={isWrong ? { x: [0, -8, 8, -6, 6, 0] } : {}}
                   transition={{ duration: 0.3 }}
-                  className={`w-full py-4 px-3 rounded-2xl border-2 font-medium text-center transition-all ${
-                    isMatched
+                  className={`w-full py-4 px-3 rounded-2xl border-2 font-medium text-center transition-all ${isMatched
                       ? 'border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70'
                       : isWrong
-                      ? 'border-red-400 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400'
-                      : isHighlighted
-                      ? 'border-blue-300 dark:border-blue-600 bg-blue-50 dark:bg-blue-900/20'
-                      : selectedLeft
-                      ? 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm cursor-pointer'
-                      : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white opacity-80 cursor-default'
-                  }`}
+                        ? 'border-red-400 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400'
+                        : isHighlighted
+                          ? 'border-blue-300 dark:border-blue-600 bg-blue-50 dark:bg-blue-900/20'
+                          : selectedLeft
+                            ? 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm cursor-pointer'
+                            : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white opacity-80 cursor-default'
+                    }`}
                 >
                   <div className="text-sm leading-snug">{item.label}</div>
                 </motion.button>

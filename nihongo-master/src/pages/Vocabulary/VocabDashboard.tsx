@@ -1,7 +1,7 @@
 // src/pages/Vocabulary/VocabDashboard.tsx
 import { Link } from 'react-router-dom';
 import { motion, type Variants } from 'framer-motion';
-import { Layers, ListChecks, GitMerge, Keyboard, BookOpen, Lock } from 'lucide-react';
+import { Layers, ListChecks, GitMerge, Keyboard, Lock } from 'lucide-react';
 
 const container: Variants = {
   hidden: { opacity: 0 },
@@ -93,11 +93,10 @@ export default function VocabDashboard() {
               <motion.div variants={item} key={mod.id} className="h-full">
                 <Link
                   to={mod.disabled ? '#' : mod.path}
-                  className={`group relative flex flex-col h-full bg-white dark:bg-slate-800 p-6 rounded-2xl border-2 transition-all duration-200 ${
-                    mod.disabled
+                  className={`group relative flex flex-col h-full bg-white dark:bg-slate-800 p-6 rounded-2xl border-2 transition-all duration-200 ${mod.disabled
                       ? 'border-slate-200 dark:border-slate-700 opacity-55 cursor-not-allowed grayscale-[0.4]'
                       : `border-slate-200 dark:border-slate-700 ${mod.border} hover:shadow-xl hover:-translate-y-1 hover:border-b-[6px] active:border-b-2 active:translate-y-0`
-                  }`}
+                    }`}
                 >
                   {mod.disabled && (
                     <div className="absolute top-4 right-4 flex items-center bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs font-bold px-3 py-1.5 rounded-full">
