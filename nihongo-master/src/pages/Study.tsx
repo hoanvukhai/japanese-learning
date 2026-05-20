@@ -17,6 +17,8 @@ export default function Study() {
       keigoDesc: 'Học cách nói tôn kính, khiêm nhường chuẩn Nhật.',
       vocab: 'Học Từ Vựng',
       vocabDesc: 'Học từ vựng theo bài với ví dụ cụ thể.',
+      kanji: 'Học Kanji',
+      kanjiDesc: 'Tra cứu chữ Hán, âm On/Kun và từ ghép.',
     },
     en: {
       title: 'Learning Path',
@@ -27,6 +29,8 @@ export default function Study() {
       keigoDesc: 'Learn proper honorifics and humble forms.',
       vocab: 'Vocabulary Study',
       vocabDesc: 'Study vocabulary by lesson with specific examples.',
+      kanji: 'Kanji Study',
+      kanjiDesc: 'Look up Kanji characters, On/Kun readings.',
     }
   };
   const t = translations[language as keyof typeof translations] || translations.vi;
@@ -39,7 +43,7 @@ export default function Study() {
           <p className="text-lg text-slate-500 dark:text-slate-400 transition-colors">{t.description}</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
           <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.1}}>
             <Link to="/practice/conjugation" className="group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-500 rounded-2xl shadow-sm hover:shadow-xl transition-all h-full">
               <div className="p-4 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-full mb-4 group-hover:scale-110 transition-transform">
@@ -67,6 +71,16 @@ export default function Study() {
               </div>
               <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.vocab}</h2>
               <p className="text-slate-500 dark:text-slate-400">{t.vocabDesc}</p>
+            </Link>
+          </motion.div>
+
+          <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.4}}>
+            <Link to="/kanji/study" className="group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-amber-500 dark:hover:border-amber-500 rounded-2xl shadow-sm hover:shadow-xl transition-all h-full">
+              <div className="p-4 bg-amber-100 dark:bg-amber-900/30 text-amber-600 rounded-full mb-4 group-hover:scale-110 transition-transform">
+                <BookOpen size={32} />
+              </div>
+              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.kanji}</h2>
+              <p className="text-slate-500 dark:text-slate-400">{t.kanjiDesc}</p>
             </Link>
           </motion.div>
         </div>

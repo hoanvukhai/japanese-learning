@@ -1,0 +1,651 @@
+[
+    {
+        "id": "k_14_01",
+        "character": "紹",
+        "hanViet": "THIỆU",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_01_1",
+                "word": "自己紹介",
+                "hanVietWord": "TỰ KỶ THIỆU GIỚI",
+                "hiragana": "じこしょうかい",
+                "meaning": {
+                    "vi": "Giới thiệu bản thân",
+                    "en": "Self-introduction"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "クラスの皆の前で自己紹介をする。",
+                        "vi": "Giới thiệu bản thân trước mọi người trong lớp.",
+                        "en": "Introduce myself in front of the class."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_01_2",
+                "word": "紹介する",
+                "hanVietWord": "THIỆU GIỚI",
+                "hiragana": "しょうかいする",
+                "meaning": {
+                    "vi": "Giới thiệu",
+                    "en": "To introduce"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "友達に私の兄を紹介する。",
+                        "vi": "Giới thiệu anh trai tôi với bạn bè.",
+                        "en": "Introduce my older brother to my friends."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_02",
+        "character": "給",
+        "hanViet": "CẤP",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_02_1",
+                "word": "給料日",
+                "hanVietWord": "CẤP LIỆU NHẬT",
+                "hiragana": "きゅうりょうび",
+                "meaning": {
+                    "vi": "Ngày nhận lương",
+                    "en": "Payday"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明日は待ちに待った給料日だ。",
+                        "vi": "Ngày mai là ngày nhận lương mà tôi hằng mong đợi.",
+                        "en": "Tomorrow is the long-awaited payday."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_02_2",
+                "word": "給食",
+                "hanVietWord": "CẤP THỰC",
+                "hiragana": "きゅうしょく",
+                "meaning": {
+                    "vi": "Bữa ăn tập thể (trường học)",
+                    "en": "School lunch"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "小学校の給食は美味しかった。",
+                        "vi": "Bữa ăn tập thể ở trường tiểu học rất ngon.",
+                        "en": "The school lunch at elementary school was delicious."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_02_3",
+                "word": "支給する",
+                "hanVietWord": "CHI CẤP",
+                "hiragana": "しきゅうする",
+                "meaning": {
+                    "vi": "Cấp phát / Trợ cấp",
+                    "en": "To provide / To supply"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会社から交通費が支給される。",
+                        "vi": "Được công ty cấp phát chi phí đi lại.",
+                        "en": "Transportation expenses are provided by the company."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_02_4",
+                "word": "給与",
+                "hanVietWord": "CẤP DỮ",
+                "hiragana": "きゅうよ",
+                "meaning": {
+                    "vi": "Tiền lương",
+                    "en": "Salary / Wages"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "給与の明細を確認する。",
+                        "vi": "Kiểm tra chi tiết tiền lương.",
+                        "en": "Check the salary details."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_03",
+        "character": "結",
+        "hanViet": "KẾT",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_03_1",
+                "word": "結ぶ",
+                "hanVietWord": "KẾT",
+                "hiragana": "むすぶ",
+                "meaning": {
+                    "vi": "Buộc / Kết / Nối",
+                    "en": "To tie / To connect"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "靴のひもを結ぶ。",
+                        "vi": "Buộc dây giày.",
+                        "en": "Tie the shoelaces."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_03_2",
+                "word": "結婚",
+                "hanVietWord": "KẾT HÔN",
+                "hiragana": "けっこん",
+                "meaning": {
+                    "vi": "Kết hôn",
+                    "en": "Marriage"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "来月、彼女と結婚します。",
+                        "vi": "Tháng sau tôi sẽ kết hôn với cô ấy.",
+                        "en": "I will marry her next month."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_03_3",
+                "word": "結果",
+                "hanVietWord": "KẾT QUẢ",
+                "hiragana": "けっか",
+                "meaning": {
+                    "vi": "Kết quả",
+                    "en": "Result"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "テストの結果が良かった。",
+                        "vi": "Kết quả bài kiểm tra rất tốt.",
+                        "en": "The test results were good."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_03_4",
+                "word": "結局",
+                "hanVietWord": "KẾT CỤC",
+                "hiragana": "けっきょく",
+                "meaning": {
+                    "vi": "Rốt cuộc / Cuối cùng",
+                    "en": "After all / Eventually"
+                },
+                "type": "adv",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "いろいろ悩んだが、結局やめた。",
+                        "vi": "Trăn trở rất nhiều nhưng rốt cuộc tôi đã từ bỏ.",
+                        "en": "I worried a lot, but after all, I quit."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_03_5",
+                "word": "結論",
+                "hanVietWord": "KẾT LUẬN",
+                "hiragana": "けつろん",
+                "meaning": {
+                    "vi": "Kết luận",
+                    "en": "Conclusion"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "話し合いの結論を出しましょう。",
+                        "vi": "Hãy đưa ra kết luận của buổi thảo luận.",
+                        "en": "Let's draw a conclusion from the discussion."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_04",
+        "character": "約",
+        "hanViet": "ƯỚC",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_04_1",
+                "word": "約束",
+                "hanVietWord": "ƯỚC THÚC",
+                "hiragana": "やくそく",
+                "meaning": {
+                    "vi": "Lời hứa",
+                    "en": "Promise / Appointment"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "友達との約束を守る。",
+                        "vi": "Giữ lời hứa với bạn bè.",
+                        "en": "Keep a promise with a friend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_04_2",
+                "word": "契約",
+                "hanVietWord": "KHẾ ƯỚC",
+                "hiragana": "けいやく",
+                "meaning": {
+                    "vi": "Hợp đồng",
+                    "en": "Contract"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "アパートの契約をする。",
+                        "vi": "Ký hợp đồng căn hộ.",
+                        "en": "Make a contract for the apartment."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_04_3",
+                "word": "予約",
+                "hanVietWord": "DỰ ƯỚC",
+                "hiragana": "よやく",
+                "meaning": {
+                    "vi": "Đặt trước",
+                    "en": "Reservation / Booking"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "レストランを予約した。",
+                        "vi": "Tôi đã đặt trước nhà hàng.",
+                        "en": "I made a reservation at the restaurant."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_04_4",
+                "word": "節約",
+                "hanVietWord": "TIẾT ƯỚC",
+                "hiragana": "せつやく",
+                "meaning": {
+                    "vi": "Tiết kiệm",
+                    "en": "Saving / Economy"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "電気代を節約する。",
+                        "vi": "Tiết kiệm tiền điện.",
+                        "en": "Save on the electricity bill."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_04_5",
+                "word": "約～",
+                "hanVietWord": "ƯỚC",
+                "hiragana": "やく～",
+                "meaning": {
+                    "vi": "Khoảng ~",
+                    "en": "Approximately"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "駅から家まで約10分です。",
+                        "vi": "Từ ga đến nhà mất khoảng 10 phút.",
+                        "en": "It takes approximately 10 minutes from the station to my house."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_05",
+        "character": "続",
+        "hanViet": "TỤC",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_05_1",
+                "word": "連続",
+                "hanVietWord": "LIÊN TỤC",
+                "hiragana": "れんぞく",
+                "meaning": {
+                    "vi": "Liên tục",
+                    "en": "Continuity / Succession"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "三日間連続で雨が降った。",
+                        "vi": "Trời mưa 3 ngày liên tục.",
+                        "en": "It rained for three consecutive days."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_05_2",
+                "word": "接続する",
+                "hanVietWord": "TIẾP TỤC",
+                "hiragana": "せつぞくする",
+                "meaning": {
+                    "vi": "Kết nối",
+                    "en": "To connect"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "インターネットに接続する。",
+                        "vi": "Kết nối với internet.",
+                        "en": "Connect to the internet."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_05_3",
+                "word": "続き",
+                "hanVietWord": "TỤC",
+                "hiragana": "つづき",
+                "meaning": {
+                    "vi": "Phần tiếp / Diễn biến tiếp",
+                    "en": "Continuation / Sequel"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ドラマの続きが早く見たい。",
+                        "vi": "Tôi muốn xem nhanh phần tiếp theo của bộ phim.",
+                        "en": "I want to watch the continuation of the drama soon."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_05_4",
+                "word": "手続き",
+                "hanVietWord": "THỦ TỤC",
+                "hiragana": "てつづき",
+                "meaning": {
+                    "vi": "Thủ tục",
+                    "en": "Procedure"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "市役所で引っ越しの手続きをする。",
+                        "vi": "Làm thủ tục chuyển nhà ở tòa thị chính.",
+                        "en": "Do the moving procedures at the city hall."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_06",
+        "character": "経",
+        "hanViet": "KINH",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_06_1",
+                "word": "経済",
+                "hanVietWord": "KINH TẾ",
+                "hiragana": "けいざい",
+                "meaning": {
+                    "vi": "Kinh tế",
+                    "en": "Economy"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "国の経済が発展する。",
+                        "vi": "Kinh tế của đất nước phát triển.",
+                        "en": "The country's economy develops."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_06_2",
+                "word": "経営する",
+                "hanVietWord": "KINH DOANH",
+                "hiragana": "けいえいする",
+                "meaning": {
+                    "vi": "Quản lý kinh doanh",
+                    "en": "To manage / To run a business"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "父はレストランを経営している。",
+                        "vi": "Bố tôi đang quản lý kinh doanh nhà hàng.",
+                        "en": "My father runs a restaurant."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_06_3",
+                "word": "経費",
+                "hanVietWord": "KINH PHÍ",
+                "hiragana": "けいひ",
+                "meaning": {
+                    "vi": "Chi phí",
+                    "en": "Expenses / Costs"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "出張の経費を計算する。",
+                        "vi": "Tính toán chi phí của chuyến công tác.",
+                        "en": "Calculate the expenses of the business trip."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_06_4",
+                "word": "経過する",
+                "hanVietWord": "KINH QUÁ",
+                "hiragana": "けいかする",
+                "meaning": {
+                    "vi": "Trôi qua (thời gian)",
+                    "en": "To pass / To elapse"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "手術から一週間が経過した。",
+                        "vi": "Một tuần đã trôi qua kể từ khi phẫu thuật.",
+                        "en": "One week has passed since the surgery."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_06_5",
+                "word": "経つ",
+                "hanVietWord": "KINH",
+                "hiragana": "たつ",
+                "meaning": {
+                    "vi": "Thời gian trôi qua",
+                    "en": "To pass (time)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "日本に来てから３年が経った。",
+                        "vi": "Đã 3 năm trôi qua kể từ khi tôi đến Nhật.",
+                        "en": "Three years have passed since I came to Japan."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_07",
+        "character": "泉",
+        "hanViet": "TUYỀN",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_07_1",
+                "word": "温泉",
+                "hanVietWord": "ÔN TUYỀN",
+                "hiragana": "おんせん",
+                "meaning": {
+                    "vi": "Suối nước nóng",
+                    "en": "Hot spring"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "冬は温泉に入るのが一番だ。",
+                        "vi": "Mùa đông tắm suối nước nóng là tuyệt nhất.",
+                        "en": "Taking a hot spring bath is the best in winter."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_07_2",
+                "word": "泉",
+                "hanVietWord": "TUYỀN",
+                "hiragana": "いずみ",
+                "meaning": {
+                    "vi": "Suối",
+                    "en": "Spring / Fountain"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "森の中で美しい泉を見つけた。",
+                        "vi": "Tôi đã tìm thấy một con suối tuyệt đẹp trong rừng.",
+                        "en": "I found a beautiful spring in the forest."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_14_08",
+        "character": "線",
+        "hanViet": "TUYẾN",
+        "level": "N3",
+        "lesson": "Bài 14",
+        "words": [
+            {
+                "id": "kw_14_08_1",
+                "word": "線",
+                "hanVietWord": "TUYẾN",
+                "hiragana": "せん",
+                "meaning": {
+                    "vi": "Đường / Tuyến / Nét kẻ",
+                    "en": "Line"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ノートに赤い線を引く。",
+                        "vi": "Kẻ một đường màu đỏ vào vở.",
+                        "en": "Draw a red line in the notebook."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_08_2",
+                "word": "新幹線",
+                "hanVietWord": "TÂN CÁN TUYẾN",
+                "hiragana": "しんかんせん",
+                "meaning": {
+                    "vi": "Tàu cao tốc Shinkansen",
+                    "en": "Bullet train (Shinkansen)"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新幹線で京都へ行く。",
+                        "vi": "Đi đến Kyoto bằng tàu Shinkansen.",
+                        "en": "Go to Kyoto by Shinkansen."
+                    }
+                ]
+            },
+            {
+                "id": "kw_14_08_3",
+                "word": "路線図",
+                "hanVietWord": "LỘ TUYẾN ĐỒ",
+                "hiragana": "ろせんず",
+                "meaning": {
+                    "vi": "Bản đồ tuyến đường",
+                    "en": "Route map"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "駅で電車の路線図を見る。",
+                        "vi": "Xem bản đồ tuyến tàu điện ở ga.",
+                        "en": "Look at the train route map at the station."
+                    }
+                ]
+            }
+        ]
+    }
+]

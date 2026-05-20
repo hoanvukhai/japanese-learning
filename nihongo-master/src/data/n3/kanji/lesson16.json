@@ -1,0 +1,654 @@
+[
+    {
+        "id": "k_16_01",
+        "character": "訓",
+        "hanViet": "HUẤN",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_01_1",
+                "word": "訓練",
+                "hanVietWord": "HUẤN LUYỆN",
+                "hiragana": "くんれん",
+                "meaning": {
+                    "vi": "Huấn luyện",
+                    "en": "Training"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "厳しい訓練を受ける。",
+                        "vi": "Trải qua đợt huấn luyện nghiêm ngặt.",
+                        "en": "Undergo strict training."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_01_2",
+                "word": "教訓",
+                "hanVietWord": "GIÁO HUẤN",
+                "hiragana": "きょうくん",
+                "meaning": {
+                    "vi": "Bài học / Lời dạy",
+                    "en": "Lesson / Precept"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "過去の失敗を教訓にする。",
+                        "vi": "Lấy thất bại trong quá khứ làm bài học.",
+                        "en": "Learn a lesson from past mistakes."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_02",
+        "character": "調",
+        "hanViet": "ĐIỀU",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_02_1",
+                "word": "調べる",
+                "hanVietWord": "ĐIỀU",
+                "hiragana": "しらべる",
+                "meaning": {
+                    "vi": "Tìm hiểu / Tra cứu",
+                    "en": "To investigate / To look up"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "わからない言葉を辞書で調べる。",
+                        "vi": "Tra cứu từ không hiểu bằng từ điển.",
+                        "en": "Look up unknown words in a dictionary."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_02_2",
+                "word": "日程調整",
+                "hanVietWord": "NHẬT TRÌNH ĐIỀU CHỈNH",
+                "hiragana": "にっていちょうせい",
+                "meaning": {
+                    "vi": "Điều chỉnh lịch trình",
+                    "en": "Schedule adjustment"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会議の日程調整をお願いします。",
+                        "vi": "Xin hãy điều chỉnh lịch trình cuộc họp.",
+                        "en": "Please adjust the schedule for the meeting."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_02_3",
+                "word": "調査する",
+                "hanVietWord": "ĐIỀU TRA",
+                "hiragana": "ちょうさする",
+                "meaning": {
+                    "vi": "Điều tra",
+                    "en": "To survey / To investigate"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "事故の原因を調査する。",
+                        "vi": "Điều tra nguyên nhân vụ tai nạn.",
+                        "en": "Investigate the cause of the accident."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_03",
+        "character": "談",
+        "hanViet": "ĐÀM",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_03_1",
+                "word": "相談する",
+                "hanVietWord": "TƯƠNG ĐÀM",
+                "hiragana": "そうだんする",
+                "meaning": {
+                    "vi": "Bàn bạc / Thảo luận",
+                    "en": "To consult / To discuss"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "悩みを友達に相談する。",
+                        "vi": "Thảo luận nỗi lo với bạn bè.",
+                        "en": "Discuss worries with a friend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_03_2",
+                "word": "冗談",
+                "hanVietWord": "NHŨNG ĐÀM",
+                "hiragana": "じょうだん",
+                "meaning": {
+                    "vi": "Nói đùa",
+                    "en": "Joke"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼の冗談でみんなが笑った。",
+                        "vi": "Mọi người đều cười vì trò đùa của anh ấy.",
+                        "en": "Everyone laughed at his joke."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_04",
+        "character": "訳",
+        "hanViet": "DỊCH",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_04_1",
+                "word": "翻訳",
+                "hanVietWord": "PHIÊN DỊCH",
+                "hiragana": "ほんやく",
+                "meaning": {
+                    "vi": "Biên dịch",
+                    "en": "Translation (written)"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本の小説を英語に翻訳する。",
+                        "vi": "Biên dịch tiểu thuyết Nhật sang tiếng Anh.",
+                        "en": "Translate a Japanese novel into English."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_04_2",
+                "word": "通訳",
+                "hanVietWord": "THÔNG DỊCH",
+                "hiragana": "つうやく",
+                "meaning": {
+                    "vi": "Phiên dịch (dịch nói)",
+                    "en": "Interpretation (spoken)"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会議で通訳の仕事をする。",
+                        "vi": "Làm công việc phiên dịch tại cuộc họp.",
+                        "en": "Work as an interpreter at the meeting."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_04_3",
+                "word": "訳す",
+                "hanVietWord": "DỊCH",
+                "hiragana": "やくす",
+                "meaning": {
+                    "vi": "Dịch",
+                    "en": "To translate"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "この文を日本語に訳してください。",
+                        "vi": "Hãy dịch câu này sang tiếng Nhật.",
+                        "en": "Please translate this sentence into Japanese."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_04_4",
+                "word": "申し訳",
+                "hanVietWord": "THÂN DỊCH",
+                "hiragana": "もうしわけ",
+                "meaning": {
+                    "vi": "Lý do / Cớ (dùng khi xin lỗi)",
+                    "en": "Excuse / Apology"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "遅れてしまい、申し訳ありません。",
+                        "vi": "Tôi đã đến muộn, ngàn lần xin lỗi (không có cớ gì để bào chữa).",
+                        "en": "I am terribly sorry for being late."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_05",
+        "character": "誌",
+        "hanViet": "CHÍ",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_05_1",
+                "word": "雑誌",
+                "hanVietWord": "TẠP CHÍ",
+                "hiragana": "ざっし",
+                "meaning": {
+                    "vi": "Tạp chí",
+                    "en": "Magazine"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "コンビニでファッション雑誌を買う。",
+                        "vi": "Mua tạp chí thời trang ở cửa hàng tiện lợi.",
+                        "en": "Buy a fashion magazine at the convenience store."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_05_2",
+                "word": "日誌",
+                "hanVietWord": "NHẬT CHÍ",
+                "hiragana": "にっし",
+                "meaning": {
+                    "vi": "Nhật ký công việc",
+                    "en": "Daily log / Journal"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "仕事の終わりに日誌をつける。",
+                        "vi": "Ghi nhật ký công việc vào cuối giờ làm.",
+                        "en": "Keep a daily log at the end of work."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_06",
+        "character": "議",
+        "hanViet": "NGHỊ",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_06_1",
+                "word": "会議",
+                "hanVietWord": "HỘI NGHỊ",
+                "hiragana": "かいぎ",
+                "meaning": {
+                    "vi": "Cuộc họp",
+                    "en": "Meeting / Conference"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "午後から重要な会議がある。",
+                        "vi": "Từ buổi chiều có một cuộc họp quan trọng.",
+                        "en": "There is an important meeting from the afternoon."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_06_2",
+                "word": "不思議",
+                "hiragana": "ふしぎ",
+                "meaning": {
+                    "vi": "Kỳ lạ / Bí ẩn",
+                    "en": "Mysterious / Strange"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この町には不思議な伝説がある。",
+                        "vi": "Thị trấn này có một truyền thuyết bí ẩn.",
+                        "en": "This town has a mysterious legend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_06_3",
+                "word": "議員",
+                "hanVietWord": "NGHỊ VIÊN",
+                "hiragana": "ぎいん",
+                "meaning": {
+                    "vi": "Nghị viên",
+                    "en": "Member of an assembly"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は市議会議員として働いている。",
+                        "vi": "Ông ấy đang làm việc với tư cách là nghị viên hội đồng thành phố.",
+                        "en": "He works as a city council member."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_07",
+        "character": "確",
+        "hanViet": "XÁC",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_07_1",
+                "word": "確か",
+                "hiragana": "たしか",
+                "meaning": {
+                    "vi": "Quả thật / Chắc là",
+                    "en": "If I remember correctly / Certain"
+                },
+                "type": "adj_na",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼の言ったことは確かな情報だ。",
+                        "vi": "Những gì anh ấy nói là thông tin chắc chắn.",
+                        "en": "What he said is certain information."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_07_2",
+                "word": "確認する",
+                "hanVietWord": "XÁC NHẬN",
+                "hiragana": "かくにんする",
+                "meaning": {
+                    "vi": "Xác nhận",
+                    "en": "To confirm"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "出発前にパスポートを確認する。",
+                        "vi": "Xác nhận lại hộ chiếu trước khi xuất phát.",
+                        "en": "Confirm your passport before departure."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_07_3",
+                "word": "正確",
+                "hanVietWord": "CHÍNH XÁC",
+                "hiragana": "せいかく",
+                "meaning": {
+                    "vi": "Chính xác",
+                    "en": "Accurate / Exact"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この時計はとても正確だ。",
+                        "vi": "Chiếc đồng hồ này cực kỳ chính xác.",
+                        "en": "This clock is very accurate."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_08",
+        "character": "進",
+        "hanViet": "TIẾN",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_08_1",
+                "word": "進む",
+                "hanVietWord": "TIẾN",
+                "hiragana": "すすむ",
+                "meaning": {
+                    "vi": "Tiến lên / Tiến triển",
+                    "en": "To advance / To go forward"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "工事が順調に進んでいる。",
+                        "vi": "Công trình đang tiến triển thuận lợi.",
+                        "en": "The construction is progressing smoothly."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_08_2",
+                "word": "進める",
+                "hanVietWord": "TIẾN",
+                "hiragana": "すすめる",
+                "meaning": {
+                    "vi": "Tiến hành / Thúc đẩy",
+                    "en": "To move forward / To advance something"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "計画を前に進める。",
+                        "vi": "Thúc đẩy kế hoạch tiến về phía trước.",
+                        "en": "Move the plan forward."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_08_3",
+                "word": "進学する",
+                "hanVietWord": "TIẾN HỌC",
+                "hiragana": "しんがくする",
+                "meaning": {
+                    "vi": "Học lên",
+                    "en": "To go on to higher education"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大学へ進学するために勉強する。",
+                        "vi": "Học để học lên đại học.",
+                        "en": "Study to go on to university."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_08_4",
+                "word": "進化する",
+                "hanVietWord": "TIẾN HÓA",
+                "hiragana": "しんかする",
+                "meaning": {
+                    "vi": "Tiến hóa",
+                    "en": "To evolve"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "人間は猿から進化した。",
+                        "vi": "Con người tiến hóa từ loài vượn.",
+                        "en": "Humans evolved from apes."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_09",
+        "character": "集",
+        "hanViet": "TẬP",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_09_1",
+                "word": "集まる",
+                "hanVietWord": "TẬP",
+                "hiragana": "あつまる",
+                "meaning": {
+                    "vi": "Tập trung / Tụ tập",
+                    "en": "To gather (intransitive)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "広場にたくさんの人が集まっている。",
+                        "vi": "Rất nhiều người đang tụ tập ở quảng trường.",
+                        "en": "Many people are gathering in the plaza."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_09_2",
+                "word": "集める",
+                "hanVietWord": "TẬP",
+                "hiragana": "あつめる",
+                "meaning": {
+                    "vi": "Thu thập",
+                    "en": "To collect (transitive)"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "趣味で切手をごみ集めている。",
+                        "vi": "Tôi thu thập tem vì sở thích.",
+                        "en": "I collect stamps as a hobby."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_09_3",
+                "word": "集中する",
+                "hanVietWord": "TẬP TRUNG",
+                "hiragana": "しゅうちゅうする",
+                "meaning": {
+                    "vi": "Tập trung",
+                    "en": "To concentrate"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "勉強に集中できない。",
+                        "vi": "Không thể tập trung vào việc học.",
+                        "en": "I can't concentrate on studying."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_16_10",
+        "character": "雑",
+        "hanViet": "TẠP",
+        "level": "N3",
+        "lesson": "Bài 16",
+        "words": [
+            {
+                "id": "kw_16_10_1",
+                "word": "混雑する",
+                "hanVietWord": "HỖN TẠP",
+                "hiragana": "こんざつする",
+                "meaning": {
+                    "vi": "Đông đúc / Tắc nghẽn",
+                    "en": "To be crowded / congested"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "朝の通勤電車はひどく混雑する。",
+                        "vi": "Tàu điện đi làm buổi sáng tắc nghẽn kinh khủng.",
+                        "en": "The morning commuter train is terribly crowded."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_10_2",
+                "word": "雑",
+                "hanVietWord": "TẠP",
+                "hiragana": "ざつ",
+                "meaning": {
+                    "vi": "Lộn xộn / Tạp / Cẩu thả",
+                    "en": "Rough / Careless"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼の仕事はいつも雑だ。",
+                        "vi": "Công việc của anh ta lúc nào cũng cẩu thả.",
+                        "en": "His work is always careless."
+                    }
+                ]
+            },
+            {
+                "id": "kw_16_10_3",
+                "word": "雑談",
+                "hanVietWord": "TẠP ĐÀM",
+                "hiragana": "ざつだん",
+                "meaning": {
+                    "vi": "Nói chuyện phiếm",
+                    "en": "Chat / Idle talk"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "仕事の合間に同僚と雑談する。",
+                        "vi": "Nói chuyện phiếm với đồng nghiệp trong thời gian nghỉ giữa giờ.",
+                        "en": "Chat with a colleague during a break from work."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,695 @@
+[
+    {
+        "id": "k_29_01",
+        "character": "兆",
+        "hanViet": "TRIỆU",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_01_1",
+                "word": "～兆",
+                "hanVietWord": "TRIỆU",
+                "hiragana": "～ちょう",
+                "meaning": {
+                    "vi": "Nghìn tỷ",
+                    "en": "Trillion"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "国の借金が何百兆円もある。",
+                        "vi": "Khoản nợ của quốc gia lên tới mấy trăm nghìn tỷ yên.",
+                        "en": "The country's debt amounts to hundreds of trillions of yen."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_01_2",
+                "word": "兆",
+                "hanVietWord": "TRIỆU",
+                "hiragana": "きざし",
+                "meaning": {
+                    "vi": "Dấu hiệu, điềm báo",
+                    "en": "Sign / Omen"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "景気回復の兆しが見える。",
+                        "vi": "Có thể thấy dấu hiệu của sự phục hồi kinh tế.",
+                        "en": "Signs of economic recovery can be seen."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_02",
+        "character": "逃",
+        "hanViet": "ĐÀO",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_02_1",
+                "word": "逃げる",
+                "hanVietWord": "ĐÀO",
+                "hiragana": "にげる",
+                "meaning": {
+                    "vi": "Chạy trốn",
+                    "en": "To run away / To escape"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "犯人が海外へ逃げた。",
+                        "vi": "Tội phạm đã chạy trốn ra nước ngoài.",
+                        "en": "The criminal escaped overseas."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_02_2",
+                "word": "逃す",
+                "hanVietWord": "ĐÀO",
+                "hiragana": "のがす",
+                "meaning": {
+                    "vi": "Bỏ lỡ",
+                    "en": "To let slip / To miss"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "大きなチャンスを逃してしまった。",
+                        "vi": "Tôi đã bỏ lỡ một cơ hội lớn.",
+                        "en": "I missed a big chance."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_03",
+        "character": "求",
+        "hanViet": "CẦU",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_03_1",
+                "word": "要求",
+                "hanVietWord": "YÊU CẦU",
+                "hiragana": "ようきゅう",
+                "meaning": {
+                    "vi": "Yêu cầu",
+                    "en": "Demand / Request"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "社員が会社に給料アップを要求する。",
+                        "vi": "Nhân viên yêu cầu công ty tăng lương.",
+                        "en": "Employees demand a salary increase from the company."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_03_2",
+                "word": "追求",
+                "hanVietWord": "TRUY CẦU",
+                "hiragana": "ついきゅう",
+                "meaning": {
+                    "vi": "Theo đuổi, truy cầu",
+                    "en": "Pursuit"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "理想の生活を追求する。",
+                        "vi": "Theo đuổi một cuộc sống lý tưởng.",
+                        "en": "Pursue an ideal life."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_03_3",
+                "word": "請求する",
+                "hanVietWord": "THỈNH CẦU",
+                "hiragana": "せいきゅうする",
+                "meaning": {
+                    "vi": "Yêu cầu thanh toán / đòi tiền",
+                    "en": "To claim / To bill"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "修理代を請求する。",
+                        "vi": "Yêu cầu thanh toán phí sửa chữa.",
+                        "en": "Claim the repair fee."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_03_4",
+                "word": "求める",
+                "hanVietWord": "CẦU",
+                "hiragana": "もとめる",
+                "meaning": {
+                    "vi": "Tìm kiếm / Yêu cầu",
+                    "en": "To seek / To request"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "良い人材を求める。",
+                        "vi": "Tìm kiếm nhân tài tốt.",
+                        "en": "Seek good human resources."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_04",
+        "character": "球",
+        "hanViet": "CẦU",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_04_1",
+                "word": "地球温暖化",
+                "hanVietWord": "ĐỊA CẦU ÔN NOÃN HÓA",
+                "hiragana": "ちきゅうおんだんか",
+                "meaning": {
+                    "vi": "Sự nóng lên toàn cầu",
+                    "en": "Global warming"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "地球温暖化を防ぐ。",
+                        "vi": "Ngăn chặn sự nóng lên toàn cầu.",
+                        "en": "Prevent global warming."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_04_2",
+                "word": "野球",
+                "hanVietWord": "DÃ CẦU",
+                "hiragana": "やきゅう",
+                "meaning": {
+                    "vi": "Bóng chày",
+                    "en": "Baseball"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日曜日には野球をする。",
+                        "vi": "Tôi chơi bóng chày vào Chủ Nhật.",
+                        "en": "I play baseball on Sundays."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_04_3",
+                "word": "電球",
+                "hanVietWord": "ĐIỆN CẦU",
+                "hiragana": "でんきゅう",
+                "meaning": {
+                    "vi": "Bóng đèn",
+                    "en": "Light bulb"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "部屋の電球が切れた。",
+                        "vi": "Bóng đèn trong phòng đã bị cháy (đứt bóng).",
+                        "en": "The light bulb in the room burned out."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_05",
+        "character": "象",
+        "hanViet": "TƯỢNG",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_05_1",
+                "word": "象",
+                "hanVietWord": "TƯỢNG",
+                "hiragana": "ぞう",
+                "meaning": {
+                    "vi": "Con voi",
+                    "en": "Elephant"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "動物園で象を見た。",
+                        "vi": "Tôi đã xem voi ở sở thú.",
+                        "en": "I saw an elephant at the zoo."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_05_2",
+                "word": "対象",
+                "hanVietWord": "ĐỐI TƯỢNG",
+                "hiragana": "たいしょう",
+                "meaning": {
+                    "vi": "Đối tượng",
+                    "en": "Target / Object"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "子供を対象にしたおもちゃ。",
+                        "vi": "Đồ chơi có đối tượng hướng đến là trẻ em.",
+                        "en": "Toys targeted at children."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_05_3",
+                "word": "印象",
+                "hanVietWord": "ẤN TƯỢNG",
+                "hiragana": "いんしょう",
+                "meaning": {
+                    "vi": "Ấn tượng",
+                    "en": "Impression"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼の第一印象は良かった。",
+                        "vi": "Ấn tượng đầu tiên về anh ấy rất tốt.",
+                        "en": "The first impression of him was good."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_05_4",
+                "word": "映像",
+                "hanVietWord": "ÁNH TƯỢNG",
+                "hiragana": "えいぞう",
+                "meaning": {
+                    "vi": "Hình ảnh / Video",
+                    "en": "Video / Image"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この映画は映像が美しい。",
+                        "vi": "Bộ phim này có hình ảnh rất đẹp.",
+                        "en": "This movie has beautiful images."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_05_5",
+                "word": "想像",
+                "hanVietWord": "TƯỞNG TƯỢNG",
+                "hiragana": "そうぞう",
+                "meaning": {
+                    "vi": "Tưởng tượng",
+                    "en": "Imagination"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "未来の生活を想像する。",
+                        "vi": "Tưởng tượng về cuộc sống tương lai.",
+                        "en": "Imagine future life."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_05_6",
+                "word": "銅像",
+                "hanVietWord": "ĐỒNG TƯỢNG",
+                "hiragana": "どうぞう",
+                "meaning": {
+                    "vi": "Tượng đồng",
+                    "en": "Bronze statue"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "公園に偉人の銅像がある。",
+                        "vi": "Có bức tượng đồng của vĩ nhân ở công viên.",
+                        "en": "There is a bronze statue of a great man in the park."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_06",
+        "character": "部",
+        "hanViet": "BỘ",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_06_1",
+                "word": "部屋",
+                "hanVietWord": "BỘ ỐC",
+                "hiragana": "へや",
+                "meaning": {
+                    "vi": "Căn phòng",
+                    "en": "Room"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "自分の部屋を掃除する。",
+                        "vi": "Dọn dẹp căn phòng của bản thân.",
+                        "en": "Clean my own room."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_06_2",
+                "word": "全部",
+                "hanVietWord": "TOÀN BỘ",
+                "hiragana": "ぜんぶ",
+                "meaning": {
+                    "vi": "Tất cả",
+                    "en": "All / Entirely"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "宿題は全部終わりました。",
+                        "vi": "Bài tập đã làm xong tất cả rồi.",
+                        "en": "I finished all my homework."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_06_3",
+                "word": "部分",
+                "hanVietWord": "BỘ PHẬN",
+                "hiragana": "ぶぶん",
+                "meaning": {
+                    "vi": "Phần",
+                    "en": "Part / Section"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この部分がわかりません。",
+                        "vi": "Tôi không hiểu phần này.",
+                        "en": "I don't understand this part."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_06_4",
+                "word": "食品部",
+                "hanVietWord": "THỰC PHẨM BỘ",
+                "hiragana": "しょくひんぶ",
+                "meaning": {
+                    "vi": "Bộ phận thực phẩm",
+                    "en": "Food department"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "デパートの食品部で働く。",
+                        "vi": "Làm việc ở bộ phận thực phẩm của bách hóa.",
+                        "en": "Work at the food department of a department store."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_06_5",
+                "word": "部長",
+                "hanVietWord": "BỘ TRƯỞNG",
+                "hiragana": "ぶちょう",
+                "meaning": {
+                    "vi": "Trưởng bộ phận",
+                    "en": "Department manager"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい部長に挨拶する。",
+                        "vi": "Chào hỏi trưởng phòng mới.",
+                        "en": "Greet the new department manager."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_07",
+        "character": "都",
+        "hanViet": "ĐÔ",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_07_1",
+                "word": "首都",
+                "hanVietWord": "THỦ ĐÔ",
+                "hiragana": "しゅと",
+                "meaning": {
+                    "vi": "Thủ đô",
+                    "en": "Capital city"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本の首都は東京です。",
+                        "vi": "Thủ đô của Nhật Bản là Tokyo.",
+                        "en": "The capital of Japan is Tokyo."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_07_2",
+                "word": "大都市",
+                "hanVietWord": "ĐẠI ĐÔ THỊ",
+                "hiragana": "だいとし",
+                "meaning": {
+                    "vi": "Thành phố lớn",
+                    "en": "Large city / Metropolis"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大都市は交通が便利だ。",
+                        "vi": "Thành phố lớn giao thông rất tiện lợi.",
+                        "en": "Transportation is convenient in large cities."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_07_3",
+                "word": "東京都",
+                "hanVietWord": "ĐÔNG KINH ĐÔ",
+                "hiragana": "とうきょうと",
+                "meaning": {
+                    "vi": "Tokyo",
+                    "en": "Tokyo (Metropolis)"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "東京都に住んでいる。",
+                        "vi": "Đang sống ở thủ đô Tokyo.",
+                        "en": "Living in Tokyo."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_07_4",
+                "word": "京都",
+                "hanVietWord": "KINH ĐÔ",
+                "hiragana": "きょうと",
+                "meaning": {
+                    "vi": "Kyoto",
+                    "en": "Kyoto"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "京都のお寺を見学する。",
+                        "vi": "Tham quan đền chùa ở Kyoto.",
+                        "en": "Visit temples in Kyoto."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_07_5",
+                "word": "都",
+                "hanVietWord": "ĐÔ",
+                "hiragana": "みやこ",
+                "meaning": {
+                    "vi": "Kinh đô",
+                    "en": "Capital / City"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "昔の日本の都は京都だった。",
+                        "vi": "Kinh đô của Nhật Bản ngày xưa là Kyoto.",
+                        "en": "The ancient capital of Japan was Kyoto."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_08",
+        "character": "婦",
+        "hanViet": "PHỤ",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_08_1",
+                "word": "夫婦",
+                "hanVietWord": "PHU PHỤ",
+                "hiragana": "ふうふ",
+                "meaning": {
+                    "vi": "Vợ chồng",
+                    "en": "Married couple"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "あの夫婦はとても仲がいい。",
+                        "vi": "Vợ chồng đó rất thân thiết với nhau.",
+                        "en": "That married couple is very close."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_08_2",
+                "word": "主婦",
+                "hanVietWord": "CHỦ PHỤ",
+                "hiragana": "しゅふ",
+                "meaning": {
+                    "vi": "Nội trợ",
+                    "en": "Housewife"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "母は専業主婦です。",
+                        "vi": "Mẹ tôi là một người nội trợ toàn thời gian.",
+                        "en": "My mother is a full-time housewife."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_29_09",
+        "character": "婚",
+        "hanViet": "HÔN",
+        "level": "N3",
+        "lesson": "Bài 29",
+        "words": [
+            {
+                "id": "kw_29_09_1",
+                "word": "結婚",
+                "hanVietWord": "KẾT HÔN",
+                "hiragana": "けっこん",
+                "meaning": {
+                    "vi": "Kết hôn",
+                    "en": "Marriage"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "来月、彼女と結婚します。",
+                        "vi": "Tháng sau tôi sẽ kết hôn với cô ấy.",
+                        "en": "I will marry her next month."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_09_2",
+                "word": "離婚",
+                "hanVietWord": "LY HÔN",
+                "hiragana": "りこん",
+                "meaning": {
+                    "vi": "Ly hôn",
+                    "en": "Divorce"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "両親が離婚した。",
+                        "vi": "Bố mẹ tôi đã ly hôn.",
+                        "en": "My parents got divorced."
+                    }
+                ]
+            },
+            {
+                "id": "kw_29_09_3",
+                "word": "新婚",
+                "hanVietWord": "TÂN HÔN",
+                "hiragana": "しんこん",
+                "meaning": {
+                    "vi": "Mới cưới",
+                    "en": "Newlywed"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新婚旅行でハワイへ行く。",
+                        "vi": "Đi Hawaii để hưởng tuần trăng mật.",
+                        "en": "Go to Hawaii for a honeymoon."
+                    }
+                ]
+            }
+        ]
+    }
+]

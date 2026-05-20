@@ -1,0 +1,630 @@
+[
+    {
+        "id": "k_06_01",
+        "character": "悲",
+        "hanViet": "BI",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_01_1",
+                "word": "悲観的",
+                "hanVietWord": "BI QUAN ĐÍCH",
+                "hiragana": "ひかんてき",
+                "meaning": {
+                    "vi": "Bi quan",
+                    "en": "Pessimistic"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は物事を悲観的に考える。",
+                        "vi": "Anh ấy hay nghĩ về mọi việc một cách bi quan.",
+                        "en": "He thinks about things pessimistically."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_01_2",
+                "word": "悲しい",
+                "hanVietWord": "BI",
+                "hiragana": "かなしい",
+                "meaning": {
+                    "vi": "Buồn",
+                    "en": "Sad"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "悲しい映画を見て泣いた。",
+                        "vi": "Tôi xem bộ phim buồn và đã khóc.",
+                        "en": "I watched a sad movie and cried."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_01_3",
+                "word": "悲しみ",
+                "hanVietWord": "BI",
+                "hiragana": "かなしみ",
+                "meaning": {
+                    "vi": "Nỗi buồn",
+                    "en": "Sadness / Sorrow"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "深い悲しみに沈む。",
+                        "vi": "Chìm trong nỗi buồn sâu thẳm.",
+                        "en": "Sink into deep sorrow."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_02",
+        "character": "性",
+        "hanViet": "TÍNH",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_02_1",
+                "word": "男性",
+                "hanVietWord": "NAM TÍNH",
+                "hiragana": "だんせい",
+                "meaning": {
+                    "vi": "Nam giới",
+                    "en": "Male"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この店は男性の客が多い。",
+                        "vi": "Cửa hàng này có nhiều khách nam giới.",
+                        "en": "This shop has many male customers."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_02_2",
+                "word": "女性",
+                "hanVietWord": "NỮ TÍNH",
+                "hiragana": "じょせい",
+                "meaning": {
+                    "vi": "Nữ giới",
+                    "en": "Female"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "女性の働きやすい職場。",
+                        "vi": "Nơi làm việc mà nữ giới dễ làm.",
+                        "en": "A workplace where women can easily work."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_02_3",
+                "word": "性質",
+                "hanVietWord": "TÍNH CHẤT",
+                "hiragana": "せいしつ",
+                "meaning": {
+                    "vi": "Tính chất",
+                    "en": "Nature / Property"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "水と油は性質が違う。",
+                        "vi": "Nước và dầu có tính chất khác nhau.",
+                        "en": "Water and oil have different properties."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_02_4",
+                "word": "性格",
+                "hanVietWord": "TÍNH CÁCH",
+                "hiragana": "せいかく",
+                "meaning": {
+                    "vi": "Tính cách",
+                    "en": "Personality / Character"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼女は明るい性格だ。",
+                        "vi": "Cô ấy có tính cách vui vẻ tươi sáng.",
+                        "en": "She has a bright personality."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_03",
+        "character": "悩",
+        "hanViet": "NÃO",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_03_1",
+                "word": "苦悩する",
+                "hanVietWord": "KHỔ NÃO",
+                "hiragana": "くのうする",
+                "meaning": {
+                    "vi": "Đau khổ / Phiền não",
+                    "en": "To suffer / To agonize"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "人間関係に苦悩する。",
+                        "vi": "Đau khổ vì các mối quan hệ con người.",
+                        "en": "Suffer from human relationships."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_03_2",
+                "word": "悩み",
+                "hanVietWord": "NÃO",
+                "hiragana": "なやみ",
+                "meaning": {
+                    "vi": "Nỗi lo / Phiền muộn",
+                    "en": "Worry / Trouble"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "友達に悩みを相談する。",
+                        "vi": "Thảo luận nỗi lo phiền muộn với bạn bè.",
+                        "en": "Discuss worries with a friend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_03_3",
+                "word": "悩む",
+                "hanVietWord": "NÃO",
+                "hiragana": "なやむ",
+                "meaning": {
+                    "vi": "Lo lắng / Trăn trở",
+                    "en": "To worry / To be troubled"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "将来のことで悩んでいる。",
+                        "vi": "Tôi đang trăn trở về chuyện tương lai.",
+                        "en": "I am troubled about the future."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_04",
+        "character": "情",
+        "hanViet": "TÌNH",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_04_1",
+                "word": "表情",
+                "hanVietWord": "BIỂU TÌNH",
+                "hiragana": "ひょうじょう",
+                "meaning": {
+                    "vi": "Biểu cảm",
+                    "en": "Facial expression"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼女の表情が明るくなった。",
+                        "vi": "Biểu cảm của cô ấy trở nên tươi sáng hơn.",
+                        "en": "Her facial expression became brighter."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_04_2",
+                "word": "事情",
+                "hanVietWord": "SỰ TÌNH",
+                "hiragana": "じじょう",
+                "meaning": {
+                    "vi": "Tình hình / Hoàn cảnh",
+                    "en": "Circumstances / Reasons"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "家庭の事情で退職する。",
+                        "vi": "Nghỉ việc vì hoàn cảnh gia đình.",
+                        "en": "Retire due to family circumstances."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_04_3",
+                "word": "愛情",
+                "hanVietWord": "ÁI TÌNH",
+                "hiragana": "あいじょう",
+                "meaning": {
+                    "vi": "Tình cảm / Tình thương",
+                    "en": "Love / Affection"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ペットに愛情を注ぐ。",
+                        "vi": "Trút tình cảm yêu thương cho thú cưng.",
+                        "en": "Pour affection onto a pet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_05",
+        "character": "精",
+        "hanViet": "TINH",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_05_1",
+                "word": "精神的",
+                "hanVietWord": "TINH THẦN ĐÍCH",
+                "hiragana": "せいしんてき",
+                "meaning": {
+                    "vi": "Mang tính tinh thần",
+                    "en": "Mental / Psychological"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "精神的なストレスが大きい。",
+                        "vi": "Áp lực tinh thần rất lớn.",
+                        "en": "Mental stress is huge."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_05_2",
+                "word": "精一杯",
+                "hanVietWord": "TINH NHẤT BÔI",
+                "hiragana": "せいいっぱい",
+                "meaning": {
+                    "vi": "Hết sức / Hết khả năng",
+                    "en": "With all one's might"
+                },
+                "type": "adv",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "最後まで精一杯頑張る。",
+                        "vi": "Cố gắng hết sức cho đến cuối cùng.",
+                        "en": "Do one's best until the end."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_06",
+        "character": "支",
+        "hanViet": "CHI",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_06_1",
+                "word": "支社",
+                "hanVietWord": "CHI XÃ",
+                "hiragana": "ししゃ",
+                "meaning": {
+                    "vi": "Chi nhánh",
+                    "en": "Branch office"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "東京の支社に転勤する。",
+                        "vi": "Chuyển công tác đến chi nhánh ở Tokyo.",
+                        "en": "Be transferred to the branch office in Tokyo."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_06_2",
+                "word": "支持する",
+                "hanVietWord": "CHI TRÌ",
+                "hiragana": "しじする",
+                "meaning": {
+                    "vi": "Ủng hộ / Ủng hộ quan điểm",
+                    "en": "To support / To back"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼の意見を支持する。",
+                        "vi": "Ủng hộ ý kiến của anh ấy.",
+                        "en": "Support his opinion."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_06_3",
+                "word": "支える",
+                "hanVietWord": "CHI",
+                "hiragana": "ささえる",
+                "meaning": {
+                    "vi": "Hỗ trợ / Nâng đỡ",
+                    "en": "To support / To hold up"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "家族の生活を支える。",
+                        "vi": "Nâng đỡ hỗ trợ cuộc sống gia đình.",
+                        "en": "Support the family's living."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_07",
+        "character": "技",
+        "hanViet": "KỸ",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_07_1",
+                "word": "技術",
+                "hanVietWord": "KỸ THUẬT",
+                "hiragana": "ぎじゅつ",
+                "meaning": {
+                    "vi": "Kỹ thuật",
+                    "en": "Technology / Technique"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "最新の技術を使う。",
+                        "vi": "Sử dụng kỹ thuật mới nhất.",
+                        "en": "Use the latest technology."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_07_2",
+                "word": "演技",
+                "hanVietWord": "DIỄN KỸ",
+                "hiragana": "えんぎ",
+                "meaning": {
+                    "vi": "Diễn xuất",
+                    "en": "Acting / Performance"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "あの俳優は演技が素晴らしい。",
+                        "vi": "Nam diễn viên đó diễn xuất thật tuyệt vời.",
+                        "en": "That actor's acting is wonderful."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_08",
+        "character": "席",
+        "hanViet": "TỊCH",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_08_1",
+                "word": "出席",
+                "hanVietWord": "XUẤT TỊCH",
+                "hiragana": "しゅっせき",
+                "meaning": {
+                    "vi": "Tham dự",
+                    "en": "Attendance / Presence"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明日の会議に出席する。",
+                        "vi": "Tham dự cuộc họp ngày mai.",
+                        "en": "Attend tomorrow's meeting."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_08_2",
+                "word": "着席",
+                "hanVietWord": "TRƯỚC TỊCH",
+                "hiragana": "ちゃくせき",
+                "meaning": {
+                    "vi": "Ngồi xuống / An tọa",
+                    "en": "Taking a seat"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ベルが鳴ったら着席してください。",
+                        "vi": "Chuông reo thì xin hãy ngồi xuống an tọa.",
+                        "en": "Please take a seat when the bell rings."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_08_3",
+                "word": "座席",
+                "hanVietWord": "TỌA TỊCH",
+                "hiragana": "ざせき",
+                "meaning": {
+                    "vi": "Chỗ ngồi / Ghế",
+                    "en": "Seat"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "映画館の座席を予約する。",
+                        "vi": "Đặt trước chỗ ngồi ở rạp chiếu phim.",
+                        "en": "Reserve a seat at the movie theater."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_09",
+        "character": "度",
+        "hanViet": "ĐỘ",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_09_1",
+                "word": "温度",
+                "hanVietWord": "ÔN ĐỘ",
+                "hiragana": "おんど",
+                "meaning": {
+                    "vi": "Nhiệt độ",
+                    "en": "Temperature"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "エアコンの温度を下げる。",
+                        "vi": "Giảm nhiệt độ của máy điều hòa.",
+                        "en": "Lower the air conditioner's temperature."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_09_2",
+                "word": "～度",
+                "hanVietWord": "ĐỘ",
+                "hiragana": "～ど",
+                "meaning": {
+                    "vi": "~ độ",
+                    "en": "~ degrees"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "今日の気温は30度だ。",
+                        "vi": "Nhiệt độ hôm nay là 30 độ.",
+                        "en": "Today's temperature is 30 degrees."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_09_3",
+                "word": "度々",
+                "hanVietWord": "ĐỘ",
+                "hiragana": "たびたび",
+                "meaning": {
+                    "vi": "Nhiều lần / Lặp lại",
+                    "en": "Often / Frequently"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "度々ご迷惑をかけてすみません。",
+                        "vi": "Xin lỗi vì đã nhiều lần làm phiền.",
+                        "en": "Sorry for frequently causing trouble."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_06_10",
+        "character": "渡",
+        "hanViet": "ĐỘ",
+        "level": "N3",
+        "lesson": "Bài 6",
+        "words": [
+            {
+                "id": "kw_06_10_1",
+                "word": "渡る",
+                "hanVietWord": "ĐỘ",
+                "hiragana": "わたる",
+                "meaning": {
+                    "vi": "Băng qua / Vượt qua",
+                    "en": "To cross over"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "横断歩道を渡る。",
+                        "vi": "Băng qua vạch kẻ đường.",
+                        "en": "Cross the pedestrian crossing."
+                    }
+                ]
+            },
+            {
+                "id": "kw_06_10_2",
+                "word": "渡す",
+                "hanVietWord": "ĐỘ",
+                "hiragana": "わたす",
+                "meaning": {
+                    "vi": "Đưa / Trao",
+                    "en": "To hand over"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "友達にプレゼントを渡す。",
+                        "vi": "Đưa quà cho bạn bè.",
+                        "en": "Hand a present to a friend."
+                    }
+                ]
+            }
+        ]
+    }
+]

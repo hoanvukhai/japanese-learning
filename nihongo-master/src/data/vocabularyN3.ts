@@ -1,6 +1,6 @@
 // src/data/vocabularyN3.ts
 import type { Word } from '../types';
-import { vocabularyN3 as n3Data } from './n3';
+import { vocabularyN3 as n3Data } from './n3/vocabulary';
 
 // Export dữ liệu từ vựng N3 (đã gộp từ lesson01 đến lesson12)
 export const vocabularyN3: Word[] = n3Data;

@@ -1,0 +1,666 @@
+[
+    {
+        "id": "k_23_01",
+        "character": "座",
+        "hanViet": "TỌA",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_01_1",
+                "word": "座る",
+                "hanVietWord": "TỌA",
+                "hiragana": "すわる",
+                "meaning": {
+                    "vi": "Ngồi",
+                    "en": "To sit"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "椅子に座ってください。",
+                        "vi": "Xin hãy ngồi vào ghế.",
+                        "en": "Please sit on the chair."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_01_2",
+                "word": "座席",
+                "hanVietWord": "TỌA TỊCH",
+                "hiragana": "ざせき",
+                "meaning": {
+                    "vi": "Chỗ ngồi / Ghế ngồi",
+                    "en": "Seat"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "電車の座席を予約する。",
+                        "vi": "Đặt trước chỗ ngồi trên tàu.",
+                        "en": "Reserve a seat on the train."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_01_3",
+                "word": "正座",
+                "hanVietWord": "CHÍNH TỌA",
+                "hiragana": "せいざ",
+                "meaning": {
+                    "vi": "Ngồi quỳ kiểu Nhật",
+                    "en": "Sitting on the floor Japanese style"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "畳の上で正座する。",
+                        "vi": "Ngồi quỳ đúng tư thế trên chiếu Tatami.",
+                        "en": "Sit Japanese style on the tatami mat."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_02",
+        "character": "庭",
+        "hanViet": "ĐÌNH",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_02_1",
+                "word": "庭",
+                "hanVietWord": "ĐÌNH",
+                "hiragana": "にわ",
+                "meaning": {
+                    "vi": "Vườn",
+                    "en": "Garden / Yard"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "庭に花を植える。",
+                        "vi": "Trồng hoa trong vườn.",
+                        "en": "Plant flowers in the garden."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_02_2",
+                "word": "庭園",
+                "hanVietWord": "ĐÌNH VIÊN",
+                "hiragana": "ていえん",
+                "meaning": {
+                    "vi": "Khu vườn",
+                    "en": "Garden / Park"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "美しい庭園を散歩する。",
+                        "vi": "Đi dạo ở khu vườn tuyệt đẹp.",
+                        "en": "Take a walk in a beautiful garden."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_02_3",
+                "word": "家庭教育",
+                "hanVietWord": "GIA ĐÌNH GIÁO DỤC",
+                "hiragana": "かていきょういく",
+                "meaning": {
+                    "vi": "Giáo dục tại gia",
+                    "en": "Home education"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "家庭教育の重要性について考える。",
+                        "vi": "Suy nghĩ về tầm quan trọng của việc giáo dục tại gia.",
+                        "en": "Think about the importance of home education."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_03",
+        "character": "痛",
+        "hanViet": "THỐNG",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_03_1",
+                "word": "痛い",
+                "hanVietWord": "THỐNG",
+                "hiragana": "いたい",
+                "meaning": {
+                    "vi": "Đau",
+                    "en": "Painful / Sore"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "転んで足が痛い。",
+                        "vi": "Tôi bị ngã nên chân bị đau.",
+                        "en": "I fell and my leg hurts."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_03_2",
+                "word": "頭痛",
+                "hanVietWord": "ĐẦU THỐNG",
+                "hiragana": "ずつう",
+                "meaning": {
+                    "vi": "Đau đầu",
+                    "en": "Headache"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "風邪で頭痛がする。",
+                        "vi": "Tôi bị đau đầu do cảm cúm.",
+                        "en": "I have a headache from a cold."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_04",
+        "character": "疲",
+        "hanViet": "BÌ",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_04_1",
+                "word": "疲れる",
+                "hanVietWord": "BÌ",
+                "hiragana": "つかれる",
+                "meaning": {
+                    "vi": "Mệt",
+                    "en": "To get tired"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "たくさん歩いて疲れた。",
+                        "vi": "Đi bộ nhiều nên tôi đã thấm mệt.",
+                        "en": "I walked a lot and got tired."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_04_2",
+                "word": "疲労",
+                "hanVietWord": "BÌ LAO",
+                "hiragana": "ひろう",
+                "meaning": {
+                    "vi": "Mệt mỏi",
+                    "en": "Fatigue / Exhaustion"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "仕事の疲労がたまっている。",
+                        "vi": "Sự mệt mỏi trong công việc đang tích tụ lại.",
+                        "en": "Fatigue from work is accumulating."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_05",
+        "character": "彼",
+        "hanViet": "BỈ",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_05_1",
+                "word": "彼",
+                "hanVietWord": "BỈ",
+                "hiragana": "かれ",
+                "meaning": {
+                    "vi": "Anh ấy",
+                    "en": "He / Him"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼は私の友達です。",
+                        "vi": "Anh ấy là bạn của tôi.",
+                        "en": "He is my friend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_05_2",
+                "word": "彼氏",
+                "hanVietWord": "BỈ THỊ",
+                "hiragana": "かれし",
+                "meaning": {
+                    "vi": "Bạn trai",
+                    "en": "Boyfriend"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼女には彼氏がいる。",
+                        "vi": "Cô ấy đã có bạn trai rồi.",
+                        "en": "She has a boyfriend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_05_3",
+                "word": "彼女",
+                "hanVietWord": "BỈ NỮ",
+                "hiragana": "かのじょ",
+                "meaning": {
+                    "vi": "Cô ấy / Bạn gái",
+                    "en": "She / Girlfriend"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼女はとても優しいです。",
+                        "vi": "Cô ấy rất dịu dàng.",
+                        "en": "She is very kind."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_06",
+        "character": "波",
+        "hanViet": "BA",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_06_1",
+                "word": "波",
+                "hanVietWord": "BA",
+                "hiragana": "なみ",
+                "meaning": {
+                    "vi": "Sóng",
+                    "en": "Wave"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "今日の海は波が高い。",
+                        "vi": "Biển hôm nay sóng rất cao.",
+                        "en": "The waves are high in the sea today."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_06_2",
+                "word": "津波警報",
+                "hanVietWord": "TÂN BA CẢNH BÁO",
+                "hiragana": "つなみけいほう",
+                "meaning": {
+                    "vi": "Cảnh báo sóng thần",
+                    "en": "Tsunami warning"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "津波警報が出された。",
+                        "vi": "Cảnh báo sóng thần đã được ban bố.",
+                        "en": "A tsunami warning was issued."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_06_3",
+                "word": "波長",
+                "hanVietWord": "BA TRƯỜNG",
+                "hiragana": "はちょう",
+                "meaning": {
+                    "vi": "Bước sóng",
+                    "en": "Wavelength"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼とは波長が合う。",
+                        "vi": "Tôi và anh ấy bắt được bước sóng của nhau (hợp nhau).",
+                        "en": "He and I are on the same wavelength."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_07",
+        "character": "皿",
+        "hanViet": "MÃNH",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_07_1",
+                "word": "皿",
+                "hanVietWord": "MÃNH",
+                "hiragana": "さら",
+                "meaning": {
+                    "vi": "Cái đĩa",
+                    "en": "Plate / Dish"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "料理を皿に盛り付ける。",
+                        "vi": "Bày biện món ăn ra đĩa.",
+                        "en": "Serve food on a plate."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_07_2",
+                "word": "灰皿",
+                "hanVietWord": "TRO MÃNH",
+                "hiragana": "はいざら",
+                "meaning": {
+                    "vi": "Cái gạt tàn",
+                    "en": "Ashtray"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "タバコの吸い殻を灰皿に捨てる。",
+                        "vi": "Vứt tàn thuốc lá vào gạt tàn.",
+                        "en": "Put cigarette butts in the ashtray."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_07_3",
+                "word": "大皿",
+                "hanVietWord": "ĐẠI MÃNH",
+                "hiragana": "おおざら",
+                "meaning": {
+                    "vi": "Đĩa lớn",
+                    "en": "Large plate"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大皿に料理を取り分ける。",
+                        "vi": "Chia đồ ăn ra các đĩa lớn.",
+                        "en": "Serve the food on a large plate."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_08",
+        "character": "血",
+        "hanViet": "HUYẾT",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_08_1",
+                "word": "血",
+                "hanVietWord": "HUYẾT",
+                "hiragana": "ち",
+                "meaning": {
+                    "vi": "Máu",
+                    "en": "Blood"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "怪我をして血が出た。",
+                        "vi": "Bị thương nên máu đã chảy ra.",
+                        "en": "I got injured and bled."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_08_2",
+                "word": "鼻血",
+                "hanVietWord": "TỊ HUYẾT",
+                "hiragana": "はなぢ",
+                "meaning": {
+                    "vi": "Chảy máu mũi",
+                    "en": "Nosebleed"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "転んで鼻血が出た。",
+                        "vi": "Tôi bị ngã và chảy máu mũi.",
+                        "en": "I fell and got a nosebleed."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_08_3",
+                "word": "貧血",
+                "hanVietWord": "BẦN HUYẾT",
+                "hiragana": "ひんけつ",
+                "meaning": {
+                    "vi": "Thiếu máu",
+                    "en": "Anemia"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "貧血で倒れてしまった。",
+                        "vi": "Tôi đã ngã gục do thiếu máu.",
+                        "en": "I collapsed from anemia."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_08_4",
+                "word": "血液",
+                "hanVietWord": "HUYẾT DỊCH",
+                "hiragana": "けつえき",
+                "meaning": {
+                    "vi": "Máu",
+                    "en": "Blood"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "血液の検査をする。",
+                        "vi": "Tiến hành kiểm tra máu.",
+                        "en": "Do a blood test."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_09",
+        "character": "冊",
+        "hanViet": "SÁCH",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_09_1",
+                "word": "～冊",
+                "hanVietWord": "SÁCH",
+                "hiragana": "～さつ",
+                "meaning": {
+                    "vi": "Quyển (đếm sách)",
+                    "en": "Counter for books"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "本を三冊買いました。",
+                        "vi": "Tôi đã mua 3 cuốn sách.",
+                        "en": "I bought three books."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_09_2",
+                "word": "短冊",
+                "hanVietWord": "ĐOẢN SÁCH",
+                "hiragana": "たんざく",
+                "meaning": {
+                    "vi": "Dải giấy",
+                    "en": "Strip of paper"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "七夕に短冊に願い事を書く。",
+                        "vi": "Viết điều ước lên dải giấy vào ngày lễ Thất Tịch.",
+                        "en": "Write a wish on a strip of paper for Tanabata."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_23_10",
+        "character": "曲",
+        "hanViet": "KHÚC",
+        "level": "N3",
+        "lesson": "Bài 23",
+        "words": [
+            {
+                "id": "kw_23_10_1",
+                "word": "曲線",
+                "hanVietWord": "KHÚC TUYẾN",
+                "hiragana": "きょくせん",
+                "meaning": {
+                    "vi": "Đường cong",
+                    "en": "Curve"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "美しい曲線を描く。",
+                        "vi": "Vẽ một đường cong tuyệt đẹp.",
+                        "en": "Draw a beautiful curve."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_10_2",
+                "word": "曲",
+                "hanVietWord": "KHÚC",
+                "hiragana": "きょく",
+                "meaning": {
+                    "vi": "Bài hát / Bản nhạc",
+                    "en": "Song / Music piece"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "好きな曲を聴く。",
+                        "vi": "Nghe bài hát yêu thích.",
+                        "en": "Listen to my favorite song."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_10_3",
+                "word": "曲名",
+                "hanVietWord": "KHÚC DANH",
+                "hiragana": "きょくめい",
+                "meaning": {
+                    "vi": "Tên bài hát",
+                    "en": "Song title"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この曲の曲名を教えてください。",
+                        "vi": "Hãy cho tôi biết tên bài hát này.",
+                        "en": "Please tell me the title of this song."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_10_4",
+                "word": "曲がる",
+                "hanVietWord": "KHÚC",
+                "hiragana": "まがる",
+                "meaning": {
+                    "vi": "Cong",
+                    "en": "To bend / To curve"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "釘が曲がっている。",
+                        "vi": "Cái đinh đang bị cong.",
+                        "en": "The nail is bent."
+                    }
+                ]
+            },
+            {
+                "id": "kw_23_10_5",
+                "word": "曲げる",
+                "hanVietWord": "KHÚC",
+                "hiragana": "まげる",
+                "meaning": {
+                    "vi": "Uốn cong",
+                    "en": "To bend (something)"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "針金を力で曲げる。",
+                        "vi": "Uốn cong sợi dây thép bằng sức lực.",
+                        "en": "Bend the wire with force."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,528 @@
+[
+    {
+        "id": "k_12_01",
+        "character": "科",
+        "hanViet": "KHOA",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_01_1",
+                "word": "科目",
+                "hanVietWord": "KHOA MỤC",
+                "hiragana": "かもく",
+                "meaning": {
+                    "vi": "Môn học",
+                    "en": "Subject"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "好きな科目は数学です。",
+                        "vi": "Môn học yêu thích là Toán học.",
+                        "en": "My favorite subject is mathematics."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_01_2",
+                "word": "内科",
+                "hanVietWord": "NỘI KHOA",
+                "hiragana": "ないか",
+                "meaning": {
+                    "vi": "Nội khoa",
+                    "en": "Internal medicine"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "風邪をひいたので内科に行く。",
+                        "vi": "Vì bị cảm nên tôi đi khám nội khoa.",
+                        "en": "I caught a cold, so I go to internal medicine."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_01_3",
+                "word": "外科",
+                "hanVietWord": "NGOẠI KHOA",
+                "hiragana": "げか",
+                "meaning": {
+                    "vi": "Ngoại khoa",
+                    "en": "Surgery department"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大怪我をして外科で診てもらう。",
+                        "vi": "Bị chấn thương lớn nên được khám ở ngoại khoa.",
+                        "en": "I got a major injury and had it checked at surgery."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_02",
+        "character": "秒",
+        "hanViet": "MIỂU",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_02_1",
+                "word": "一秒",
+                "hanVietWord": "NHẤT MIỂU",
+                "hiragana": "いちびょう",
+                "meaning": {
+                    "vi": "Một giây",
+                    "en": "One second"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "一秒も無駄にできない。",
+                        "vi": "Không thể lãng phí dù chỉ một giây.",
+                        "en": "Can't waste even a single second."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_02_2",
+                "word": "秒針",
+                "hanVietWord": "MIỂU CHÂM",
+                "hiragana": "びょうしん",
+                "meaning": {
+                    "vi": "Kim giây",
+                    "en": "Second hand"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "時計の秒針が動く。",
+                        "vi": "Kim giây của đồng hồ di chuyển.",
+                        "en": "The second hand of the clock moves."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_03",
+        "character": "移",
+        "hanViet": "DI",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_03_1",
+                "word": "移す",
+                "hanVietWord": "DI",
+                "hiragana": "うつす",
+                "meaning": {
+                    "vi": "Chuyển / Di chuyển sang",
+                    "en": "To move / To transfer (something)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "荷物を隣の部屋に移す。",
+                        "vi": "Chuyển hành lý sang phòng bên cạnh.",
+                        "en": "Move luggage to the next room."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_03_2",
+                "word": "移る",
+                "hanVietWord": "DI",
+                "hiragana": "うつる",
+                "meaning": {
+                    "vi": "Chuyển sang / Lây (bệnh)",
+                    "en": "To move / To catch (a cold)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "新しい席に移る。",
+                        "vi": "Chuyển sang chỗ ngồi mới.",
+                        "en": "Move to a new seat."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_03_3",
+                "word": "移動する",
+                "hanVietWord": "DI ĐỘNG",
+                "hiragana": "いどうする",
+                "meaning": {
+                    "vi": "Di chuyển",
+                    "en": "To move / To travel"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "バスで目的地へ移動する。",
+                        "vi": "Di chuyển đến đích bằng xe buýt.",
+                        "en": "Move to the destination by bus."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_04",
+        "character": "税",
+        "hanViet": "THUẾ",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_04_1",
+                "word": "税金",
+                "hanVietWord": "THUẾ KIM",
+                "hiragana": "ぜいきん",
+                "meaning": {
+                    "vi": "Tiền thuế",
+                    "en": "Tax"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "高い税金を払う。",
+                        "vi": "Nộp tiền thuế cao.",
+                        "en": "Pay expensive taxes."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_04_2",
+                "word": "消費税",
+                "hanVietWord": "TIÊU PHÍ THUẾ",
+                "hiragana": "しょうひぜい",
+                "meaning": {
+                    "vi": "Thuế tiêu dùng",
+                    "en": "Consumption tax"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本の消費税は何パーセントですか。",
+                        "vi": "Thuế tiêu dùng ở Nhật là bao nhiêu phần trăm vậy?",
+                        "en": "What percent is Japan's consumption tax?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_05",
+        "character": "効",
+        "hanViet": "HIỆU",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_05_1",
+                "word": "効く",
+                "hanVietWord": "HIỆU",
+                "hiragana": "きく",
+                "meaning": {
+                    "vi": "Có hiệu lực / Có tác dụng",
+                    "en": "To be effective"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "この薬は頭痛によく効く。",
+                        "vi": "Thuốc này tác dụng tốt với chứng đau đầu.",
+                        "en": "This medicine works well for headaches."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_05_2",
+                "word": "効果",
+                "hanVietWord": "HIỆU QUẢ",
+                "hiragana": "こうか",
+                "meaning": {
+                    "vi": "Hiệu quả",
+                    "en": "Effect"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ダイエットの効果が出た。",
+                        "vi": "Hiệu quả của việc ăn kiêng đã xuất hiện.",
+                        "en": "The effect of the diet showed up."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_05_3",
+                "word": "効率",
+                "hanVietWord": "HIỆU SUẤT",
+                "hiragana": "こうりつ",
+                "meaning": {
+                    "vi": "Hiệu suất",
+                    "en": "Efficiency"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "仕事の効率を上げる。",
+                        "vi": "Nâng cao hiệu suất công việc.",
+                        "en": "Improve work efficiency."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_06",
+        "character": "協",
+        "hanViet": "HIỆP",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_06_1",
+                "word": "協力",
+                "hanVietWord": "HIỆP LỰC",
+                "hiragana": "きょうりょく",
+                "meaning": {
+                    "vi": "Hợp tác",
+                    "en": "Cooperation"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "みんなで協力して片付ける。",
+                        "vi": "Mọi người cùng hợp tác dọn dẹp.",
+                        "en": "Cooperate with everyone to clean up."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_07",
+        "character": "加",
+        "hanViet": "GIA",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_07_1",
+                "word": "参加",
+                "hanVietWord": "THAM GIA",
+                "hiragana": "さんか",
+                "meaning": {
+                    "vi": "Tham gia",
+                    "en": "Participation"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ボランティア活動に参加する。",
+                        "vi": "Tham gia hoạt động tình nguyện.",
+                        "en": "Participate in volunteer activities."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_07_2",
+                "word": "増加",
+                "hanVietWord": "TĂNG GIA",
+                "hiragana": "ぞうか",
+                "meaning": {
+                    "vi": "Gia tăng",
+                    "en": "Increase"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "人口が増加している。",
+                        "vi": "Dân số đang gia tăng.",
+                        "en": "The population is increasing."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_07_3",
+                "word": "加える",
+                "hanVietWord": "GIA",
+                "hiragana": "くわえる",
+                "meaning": {
+                    "vi": "Thêm vào",
+                    "en": "To add"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "スープに塩を加える。",
+                        "vi": "Thêm muối vào súp.",
+                        "en": "Add salt to the soup."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_08",
+        "character": "助",
+        "hanViet": "TRỢ",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_08_1",
+                "word": "助ける",
+                "hanVietWord": "TRỢ",
+                "hiragana": "たすける",
+                "meaning": {
+                    "vi": "Giúp đỡ / Cứu giúp",
+                    "en": "To help / To save"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "困っている人を助ける。",
+                        "vi": "Giúp đỡ người đang gặp khó khăn.",
+                        "en": "Help people in trouble."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_08_2",
+                "word": "助かる",
+                "hanVietWord": "TRỢ",
+                "hiragana": "たすかる",
+                "meaning": {
+                    "vi": "Được cứu / Được giúp",
+                    "en": "To be saved / To be helpful"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "アドバイスをもらって助かった。",
+                        "vi": "Nhận được lời khuyên nên tôi đã được giúp ích rất nhiều.",
+                        "en": "It was helpful to get advice."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_08_3",
+                "word": "援助",
+                "hanVietWord": "VIỆN TRỢ",
+                "hiragana": "えんじょ",
+                "meaning": {
+                    "vi": "Viện trợ / Hỗ trợ",
+                    "en": "Assistance / Aid"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "政府が経済的な援助をする。",
+                        "vi": "Chính phủ hỗ trợ viện trợ về mặt kinh tế.",
+                        "en": "The government provides economic aid."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_12_09",
+        "character": "勤",
+        "hanViet": "CẦN",
+        "level": "N3",
+        "lesson": "Bài 12",
+        "words": [
+            {
+                "id": "kw_12_09_1",
+                "word": "出勤",
+                "hanVietWord": "XUẤT CẦN",
+                "hiragana": "しゅっきん",
+                "meaning": {
+                    "vi": "Đi làm / Đi làm việc",
+                    "en": "Attendance at work"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "毎朝8時に出勤する。",
+                        "vi": "Mỗi sáng đi làm lúc 8 giờ.",
+                        "en": "Commute to work at 8 AM every morning."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_09_2",
+                "word": "欠勤",
+                "hanVietWord": "KHUYẾT CẦN",
+                "hiragana": "けっきん",
+                "meaning": {
+                    "vi": "Nghỉ làm (vắng mặt)",
+                    "en": "Absence from work"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "病気で欠勤する。",
+                        "vi": "Nghỉ làm vì bị bệnh.",
+                        "en": "Be absent from work due to illness."
+                    }
+                ]
+            },
+            {
+                "id": "kw_12_09_3",
+                "word": "勤める",
+                "hanVietWord": "CẦN",
+                "hiragana": "つとめる",
+                "meaning": {
+                    "vi": "Làm việc / Công tác tại ~",
+                    "en": "To work for / To be employed at"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "銀行に勤めている。",
+                        "vi": "Tôi đang làm việc tại một ngân hàng.",
+                        "en": "I work for a bank."
+                    }
+                ]
+            }
+        ]
+    }
+]

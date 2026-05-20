@@ -18,6 +18,12 @@ import VocabQuiz from './pages/Vocabulary/VocabQuiz';
 import VocabMatching from './pages/Vocabulary/VocabMatching';
 import VocabTyping from './pages/Vocabulary/VocabTyping';
 import VocabStudy from './pages/Vocabulary/VocabStudy';
+import KanjiDashboard from './pages/Kanji/KanjiDashboard';
+import KanjiStudy from './pages/Kanji/KanjiStudy';
+import KanjiFlashcard from './pages/Kanji/KanjiFlashcard';
+import KanjiQuiz from './pages/Kanji/KanjiQuiz';
+import KanjiMatching from './pages/Kanji/KanjiMatching';
+import KanjiTyping from './pages/Kanji/KanjiTyping';
 
 export default function App() {
   return (
@@ -44,6 +50,12 @@ export default function App() {
               <Route path="/vocabulary/matching" element={<VocabMatching />} />
               <Route path="/vocabulary/typing" element={<VocabTyping />} />
               <Route path="/vocabulary/study" element={<VocabStudy />} />
+              <Route path="/kanji" element={<KanjiDashboard />} />
+              <Route path="/kanji/study" element={<KanjiStudy />} />
+              <Route path="/kanji/flashcard" element={<KanjiFlashcard />} />
+              <Route path="/kanji/quiz" element={<KanjiQuiz />} />
+              <Route path="/kanji/matching" element={<KanjiMatching />} />
+              <Route path="/kanji/typing" element={<KanjiTyping />} />
             </Routes>
           </main>
         </div>

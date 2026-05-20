@@ -1,4 +1,4 @@
-import type { Word } from '../../types';
+import type { Word } from '../../../types';
 
 import lesson01 from './lesson01.json';
 import lesson02 from './lesson02.json';

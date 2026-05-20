@@ -1,0 +1,383 @@
+[
+    {
+        "id": "k_31_01",
+        "character": "予",
+        "hanViet": "DỰ",
+        "level": "N3",
+        "lesson": "Bài 31",
+        "words": [
+            {
+                "id": "kw_31_01_1",
+                "word": "天気予報",
+                "hanVietWord": "THIÊN KHÍ DỰ BÁO",
+                "hiragana": "てんきよほう",
+                "meaning": {
+                    "vi": "Dự báo thời tiết",
+                    "en": "Weather forecast"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明日の天気予報を見る。",
+                        "vi": "Xem dự báo thời tiết ngày mai.",
+                        "en": "Look at tomorrow's weather forecast."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_01_2",
+                "word": "予算",
+                "hanVietWord": "DỰ TOÁN",
+                "hiragana": "よさん",
+                "meaning": {
+                    "vi": "Ngân sách",
+                    "en": "Budget"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "旅行の予算を決める。",
+                        "vi": "Quyết định ngân sách cho chuyến đi.",
+                        "en": "Decide the budget for the trip."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_01_3",
+                "word": "予習",
+                "hanVietWord": "DỰ TẬP",
+                "hiragana": "よしゅう",
+                "meaning": {
+                    "vi": "Chuẩn bị bài",
+                    "en": "Preparation for a lesson"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "授業の前に予習する。",
+                        "vi": "Chuẩn bị bài trước giờ học.",
+                        "en": "Prepare for the lesson before class."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_31_02",
+        "character": "残",
+        "hanViet": "TÀN",
+        "level": "N3",
+        "lesson": "Bài 31",
+        "words": [
+            {
+                "id": "kw_31_02_1",
+                "word": "残念",
+                "hanVietWord": "TÀN NIỆM",
+                "hiragana": "ざんねん",
+                "meaning": {
+                    "vi": "Đáng tiếc",
+                    "en": "Regrettable / Disappointing"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "試合に負けて残念だ。",
+                        "vi": "Thật đáng tiếc vì thua trận.",
+                        "en": "It is disappointing to lose the game."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_02_2",
+                "word": "残す",
+                "hanVietWord": "TÀN",
+                "hiragana": "のこす",
+                "meaning": {
+                    "vi": "Để lại / Để thừa",
+                    "en": "To leave behind"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ご飯を残してはいけません。",
+                        "vi": "Không được để thừa cơm.",
+                        "en": "You must not leave rice uneaten."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_02_3",
+                "word": "残る",
+                "hanVietWord": "TÀN",
+                "hiragana": "のこる",
+                "meaning": {
+                    "vi": "Còn lại / Dư",
+                    "en": "To remain"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "冷蔵庫にケーキが残っている。",
+                        "vi": "Vẫn còn lại bánh kem trong tủ lạnh.",
+                        "en": "There is cake remaining in the fridge."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_31_03",
+        "character": "独",
+        "hanViet": "ĐỘC",
+        "level": "N3",
+        "lesson": "Bài 31",
+        "words": [
+            {
+                "id": "kw_31_03_1",
+                "word": "独立心",
+                "hanVietWord": "ĐỘC LẬP TÂM",
+                "hiragana": "どくりつしん",
+                "meaning": {
+                    "vi": "Tính tự lập",
+                    "en": "Independent spirit"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は独立心が強い。",
+                        "vi": "Anh ấy có tính tự lập cao.",
+                        "en": "He has a strong independent spirit."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_03_2",
+                "word": "一生独身",
+                "hanVietWord": "NHẤT SINH ĐỘC THÂN",
+                "hiragana": "いっしょうどくしん",
+                "meaning": {
+                    "vi": "Độc thân suốt đời",
+                    "en": "Lifelong single"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "一生独身でいるつもりはない。",
+                        "vi": "Tôi không có ý định độc thân suốt đời.",
+                        "en": "I don't intend to stay single for my whole life."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_03_3",
+                "word": "独立",
+                "hanVietWord": "ĐỘC LẬP",
+                "hiragana": "どくりつ",
+                "meaning": {
+                    "vi": "Độc lập",
+                    "en": "Independence"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "親から独立して暮らす。",
+                        "vi": "Sống độc lập khỏi cha mẹ.",
+                        "en": "Live independently from parents."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_31_04",
+        "character": "各",
+        "hanViet": "CÁC",
+        "level": "N3",
+        "lesson": "Bài 31",
+        "words": [
+            {
+                "id": "kw_31_04_1",
+                "word": "各国",
+                "hanVietWord": "CÁC QUỐC",
+                "hiragana": "かっこく",
+                "meaning": {
+                    "vi": "Mỗi quốc gia / Các nước",
+                    "en": "Each country"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "各国の代表が集まる。",
+                        "vi": "Đại diện của các nước tập trung lại.",
+                        "en": "Representatives from each country gather."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_04_2",
+                "word": "各地",
+                "hanVietWord": "CÁC ĐỊA",
+                "hiragana": "かくち",
+                "meaning": {
+                    "vi": "Mỗi nơi / Các địa phương",
+                    "en": "Every place / Various parts"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "全国各地で祭りが開かれる。",
+                        "vi": "Lễ hội được mở ở các địa phương trên toàn quốc.",
+                        "en": "Festivals are held in various parts of the country."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_31_05",
+        "character": "落",
+        "hanViet": "LẠC",
+        "level": "N3",
+        "lesson": "Bài 31",
+        "words": [
+            {
+                "id": "kw_31_05_1",
+                "word": "落ちる",
+                "hanVietWord": "LẠC",
+                "hiragana": "おちる",
+                "meaning": {
+                    "vi": "Rơi xuống",
+                    "en": "To fall"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "木からりんごが落ちる。",
+                        "vi": "Quả táo rơi xuống từ trên cây.",
+                        "en": "An apple falls from the tree."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_05_2",
+                "word": "落とす",
+                "hanVietWord": "LẠC",
+                "hiragana": "おとす",
+                "meaning": {
+                    "vi": "Làm rơi",
+                    "en": "To drop"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "財布を落としてしまった。",
+                        "vi": "Tôi đã làm rơi mất ví.",
+                        "en": "I dropped my wallet."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_05_3",
+                "word": "転落注意",
+                "hanVietWord": "CHUYỂN LẠC CHÚ Ý",
+                "hiragana": "てんらくちゅうい",
+                "meaning": {
+                    "vi": "Cẩn thận bị ngã",
+                    "en": "Caution against falling"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "階段に転落注意と書いてある。",
+                        "vi": "Có viết 'cẩn thận bị ngã' trên cầu thang.",
+                        "en": "It says 'caution against falling' on the stairs."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_31_06",
+        "character": "路",
+        "hanViet": "LỘ",
+        "level": "N3",
+        "lesson": "Bài 31",
+        "words": [
+            {
+                "id": "kw_31_06_1",
+                "word": "道路",
+                "hanVietWord": "ĐẠO LỘ",
+                "hiragana": "どうろ",
+                "meaning": {
+                    "vi": "Đường / Đường sá",
+                    "en": "Road"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "道路が混んでいる。",
+                        "vi": "Đường đang đông.",
+                        "en": "The road is crowded."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_06_2",
+                "word": "進路",
+                "hanVietWord": "TIẾN LỘ",
+                "hiragana": "しんろ",
+                "meaning": {
+                    "vi": "Lộ trình / Hướng đi tương lai",
+                    "en": "Course / Career path"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "先生と進路について相談する。",
+                        "vi": "Thảo luận với giáo viên về hướng đi tương lai.",
+                        "en": "Discuss my career path with the teacher."
+                    }
+                ]
+            },
+            {
+                "id": "kw_31_06_3",
+                "word": "高速道路",
+                "hanVietWord": "CAO TỐC ĐẠO LỘ",
+                "hiragana": "こうそくどうろ",
+                "meaning": {
+                    "vi": "Đường cao tốc",
+                    "en": "Highway / Expressway"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "高速道路を車で走る。",
+                        "vi": "Chạy xe trên đường cao tốc.",
+                        "en": "Drive a car on the highway."
+                    }
+                ]
+            }
+        ]
+    }
+]

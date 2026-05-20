@@ -1,0 +1,644 @@
+[
+    {
+        "id": "k_02_11",
+        "character": "仲",
+        "hanViet": "TRỌNG",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_11_1",
+                "word": "仲",
+                "hanVietWord": "TRỌNG",
+                "hiragana": "なか",
+                "meaning": {
+                    "vi": "Mối quan hệ",
+                    "en": "Relationship"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "私たちは仲がいい。",
+                        "vi": "Chúng tôi có mối quan hệ rất tốt.",
+                        "en": "We are on good terms."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_11_2",
+                "word": "仲間",
+                "hanVietWord": "TRỌNG GIAN",
+                "hiragana": "なかま",
+                "meaning": {
+                    "vi": "Bạn bè / Đồng đội",
+                    "en": "Comrade / Group"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "会社の仲間と飲みに行く。",
+                        "vi": "Đi nhậu cùng đồng đội ở công ty.",
+                        "en": "Go drinking with colleagues from work."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_11_3",
+                "word": "仲介",
+                "hanVietWord": "TRỌNG GIỚI",
+                "hiragana": "ちゅうかい",
+                "meaning": {
+                    "vi": "Môi giới / Trung gian",
+                    "en": "Mediation / Agency"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "不動産屋の仲介で家を買う。",
+                        "vi": "Mua nhà qua sự môi giới của công ty bất động sản.",
+                        "en": "Buy a house through the mediation of a real estate agent."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_12",
+        "character": "借",
+        "hanViet": "TÁ",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_12_1",
+                "word": "借金",
+                "hanVietWord": "TÁ KIM",
+                "hiragana": "しゃっきん",
+                "meaning": {
+                    "vi": "Khoản nợ",
+                    "en": "Debt / Loan"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "銀行に借金がある。",
+                        "vi": "Tôi có khoản nợ ở ngân hàng.",
+                        "en": "Have a debt with the bank."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_12_2",
+                "word": "借りる",
+                "hanVietWord": "TÁ",
+                "hiragana": "かりる",
+                "meaning": {
+                    "vi": "Vay / Mượn",
+                    "en": "To borrow"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "友達にペンを借りる。",
+                        "vi": "Mượn bút của bạn.",
+                        "en": "Borrow a pen from a friend."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_13",
+        "character": "供",
+        "hanViet": "CUNG",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_13_1",
+                "word": "供給",
+                "hanVietWord": "CUNG CẤP",
+                "hiragana": "きょうきゅう",
+                "meaning": {
+                    "vi": "Cung cấp",
+                    "en": "Supply"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "電気の供給がストップした。",
+                        "vi": "Việc cung cấp điện đã bị dừng lại.",
+                        "en": "The electricity supply has stopped."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_13_2",
+                "word": "提供",
+                "hanVietWord": "ĐỀ CUNG",
+                "hiragana": "ていきょう",
+                "meaning": {
+                    "vi": "Cung cấp / Đưa ra",
+                    "en": "Provision / Offering"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "番組のスポンサーが資金を提供する。",
+                        "vi": "Nhà tài trợ chương trình cung cấp tiền vốn.",
+                        "en": "The program's sponsor provides funds."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_13_3",
+                "word": "子供",
+                "hanVietWord": "TỬ CUNG",
+                "hiragana": "こども",
+                "meaning": {
+                    "vi": "Trẻ em / Con cái",
+                    "en": "Child"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "公園で子供が遊んでいる。",
+                        "vi": "Trẻ em đang chơi ở công viên.",
+                        "en": "Children are playing in the park."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_14",
+        "character": "他",
+        "hanViet": "THA",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_14_1",
+                "word": "他人",
+                "hanVietWord": "THA NHÂN",
+                "hiragana": "たにん",
+                "meaning": {
+                    "vi": "Người khác / Người ngoài",
+                    "en": "Other people / Stranger"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "他人の迷惑になることはやめよう。",
+                        "vi": "Hãy bỏ những việc làm phiền đến người khác đi.",
+                        "en": "Let's stop doing things that bother others."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_14_2",
+                "word": "他の人",
+                "hanVietWord": "THA NHÂN",
+                "hiragana": "ほかのひと",
+                "meaning": {
+                    "vi": "Người khác",
+                    "en": "Another person"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "この仕事は他の人にお願いします。",
+                        "vi": "Công việc này xin hãy nhờ người khác.",
+                        "en": "Please ask someone else for this job."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_14_3",
+                "word": "他に",
+                "hanVietWord": "THA",
+                "hiragana": "ほかに",
+                "meaning": {
+                    "vi": "Ngoài ra / Khác",
+                    "en": "Besides / In addition"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "他に質問はありますか。",
+                        "vi": "Ngoài ra còn có câu hỏi nào khác không?",
+                        "en": "Do you have any other questions?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_15",
+        "character": "候",
+        "hanViet": "HẬU",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_15_1",
+                "word": "気候",
+                "hanVietWord": "KHÍ HẬU",
+                "hiragana": "きこう",
+                "meaning": {
+                    "vi": "Khí hậu",
+                    "en": "Climate"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本の気候は四季がある。",
+                        "vi": "Khí hậu Nhật Bản có 4 mùa.",
+                        "en": "Japan's climate has four seasons."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_15_2",
+                "word": "代表候補",
+                "hanVietWord": "ĐẠI BIỂU HẬU BỔ",
+                "hiragana": "だいひょうこうほ",
+                "meaning": {
+                    "vi": "Ứng cử viên đại diện",
+                    "en": "Representative candidate"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼はオリンピックの代表候補だ。",
+                        "vi": "Anh ấy là ứng cử viên đại diện cho Olympic.",
+                        "en": "He is a representative candidate for the Olympics."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_15_3",
+                "word": "候補者",
+                "hanVietWord": "HẬU BỔ GIẢ",
+                "hiragana": "こうほしゃ",
+                "meaning": {
+                    "vi": "Ứng cử viên",
+                    "en": "Candidate"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "選挙の候補者が演説する。",
+                        "vi": "Ứng cử viên bầu cử đang diễn thuyết.",
+                        "en": "The election candidate gives a speech."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_16",
+        "character": "価",
+        "hanViet": "GIÁ",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_16_1",
+                "word": "評価",
+                "hanVietWord": "ĐÁNH GIÁ",
+                "hiragana": "ひょうか",
+                "meaning": {
+                    "vi": "Đánh giá",
+                    "en": "Evaluation / Assessment"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼の仕事は高く評価されている。",
+                        "vi": "Công việc của anh ấy đang được đánh giá cao.",
+                        "en": "His work is highly evaluated."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_16_2",
+                "word": "価格",
+                "hanVietWord": "GIÁ CÁCH",
+                "hiragana": "かかく",
+                "meaning": {
+                    "vi": "Giá cả / Giá thị trường",
+                    "en": "Price"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "商品の価格が上がる。",
+                        "vi": "Giá cả hàng hóa tăng lên.",
+                        "en": "The price of the goods goes up."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_17",
+        "character": "便",
+        "hanViet": "TIỆN",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_17_1",
+                "word": "便利",
+                "hanVietWord": "TIỆN LỢI",
+                "hiragana": "べんり",
+                "meaning": {
+                    "vi": "Tiện lợi",
+                    "en": "Convenient"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "コンビニが近くて便利だ。",
+                        "vi": "Có cửa hàng tiện lợi ở gần nên rất tiện.",
+                        "en": "It is convenient to have a convenience store nearby."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_17_2",
+                "word": "不便",
+                "hanVietWord": "BẤT TIỆN",
+                "hiragana": "ふべん",
+                "meaning": {
+                    "vi": "Bất tiện",
+                    "en": "Inconvenient"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "田舎は交通が不便だ。",
+                        "vi": "Ở quê giao thông đi lại bất tiện.",
+                        "en": "Transportation in the countryside is inconvenient."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_17_3",
+                "word": "郵便局",
+                "hanVietWord": "BƯU TIỆN CỤC",
+                "hiragana": "ゆうびんきょく",
+                "meaning": {
+                    "vi": "Bưu điện",
+                    "en": "Post office"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "郵便局で手紙を出す。",
+                        "vi": "Gửi thư ở bưu điện.",
+                        "en": "Send a letter at the post office."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_18",
+        "character": "停",
+        "hanViet": "ĐÌNH",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_18_1",
+                "word": "停電",
+                "hanVietWord": "ĐÌNH ĐIỆN",
+                "hiragana": "ていでん",
+                "meaning": {
+                    "vi": "Mất điện",
+                    "en": "Power outage"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "台風で停電になった。",
+                        "vi": "Do bão nên đã bị mất điện.",
+                        "en": "There was a power outage due to the typhoon."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_18_2",
+                "word": "停止",
+                "hanVietWord": "ĐÌNH CHỈ",
+                "hiragana": "ていし",
+                "meaning": {
+                    "vi": "Dừng / Tạm dừng",
+                    "en": "Stop / Suspension"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "機械の動きが停止した。",
+                        "vi": "Chuyển động của máy móc đã dừng lại.",
+                        "en": "The machine's movement stopped."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_18_3",
+                "word": "バス停",
+                "hanVietWord": "ĐÌNH",
+                "hiragana": "バスてい",
+                "meaning": {
+                    "vi": "Bến xe buýt",
+                    "en": "Bus stop"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "バス停でバスを待つ。",
+                        "vi": "Đợi xe buýt ở bến.",
+                        "en": "Wait for a bus at the bus stop."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_19",
+        "character": "係",
+        "hanViet": "HỆ",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_19_1",
+                "word": "関係",
+                "hanVietWord": "QUAN HỆ",
+                "hiragana": "かんけい",
+                "meaning": {
+                    "vi": "Mối quan hệ",
+                    "en": "Relationship / Connection"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "二人はいい関係だ。",
+                        "vi": "Hai người đó có mối quan hệ tốt.",
+                        "en": "The two have a good relationship."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_19_2",
+                "word": "掃除係",
+                "hanVietWord": "TẢO TRỪ HỆ",
+                "hiragana": "そうじがかり",
+                "meaning": {
+                    "vi": "Người phụ trách dọn dẹp",
+                    "en": "Person in charge of cleaning"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "今日の掃除係は私です。",
+                        "vi": "Người phụ trách dọn dẹp hôm nay là tôi.",
+                        "en": "The person in charge of cleaning today is me."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_19_3",
+                "word": "受付係",
+                "hanVietWord": "THỤ PHÓ HỆ",
+                "hiragana": "うけつけがかり",
+                "meaning": {
+                    "vi": "Nhân viên lễ tân",
+                    "en": "Receptionist"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "受付係に名前を言う。",
+                        "vi": "Nói tên cho nhân viên lễ tân.",
+                        "en": "Tell one's name to the receptionist."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_19_4",
+                "word": "係員",
+                "hanVietWord": "HỆ VIÊN",
+                "hiragana": "かかりいん",
+                "meaning": {
+                    "vi": "Nhân viên phụ trách",
+                    "en": "Clerk in charge"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "係員の指示に従う。",
+                        "vi": "Tuân theo chỉ thị của nhân viên phụ trách.",
+                        "en": "Follow the instructions of the clerk in charge."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_02_20",
+        "character": "優",
+        "hanViet": "ƯU",
+        "level": "N3",
+        "lesson": "Bài 2",
+        "words": [
+            {
+                "id": "kw_02_20_1",
+                "word": "優勝",
+                "hanVietWord": "ƯU THẮNG",
+                "hiragana": "ゆうしょう",
+                "meaning": {
+                    "vi": "Vô địch",
+                    "en": "Championship / Victory"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大会で優勝した。",
+                        "vi": "Tôi đã vô địch tại đại hội.",
+                        "en": "Won the championship in the tournament."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_20_2",
+                "word": "女優",
+                "hanVietWord": "NỮ ƯU",
+                "hiragana": "じょゆう",
+                "meaning": {
+                    "vi": "Nữ diễn viên",
+                    "en": "Actress"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "有名な女優に会った。",
+                        "vi": "Tôi đã gặp một nữ diễn viên nổi tiếng.",
+                        "en": "Met a famous actress."
+                    }
+                ]
+            },
+            {
+                "id": "kw_02_20_3",
+                "word": "優秀",
+                "hanVietWord": "ƯU TÚ",
+                "hiragana": "ゆうしゅう",
+                "meaning": {
+                    "vi": "Ưu tú / Xuất sắc",
+                    "en": "Excellent / Outstanding"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は優秀な学生だ。",
+                        "vi": "Cậu ấy là một sinh viên ưu tú.",
+                        "en": "He is an excellent student."
+                    }
+                ]
+            }
+        ]
+    }
+]

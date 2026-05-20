@@ -2,8 +2,9 @@
 import { useState } from 'react';
 import { vocabulary } from '../data';
 import { keigoVerbs } from '../data/keigoDb';
+import { kanjiN3 } from '../data/kanjiN3';
 import type { Word } from '../types';
-import { Search, Filter, Book, GraduationCap } from 'lucide-react';
+import { Search, Filter, Book, GraduationCap, PenTool } from 'lucide-react';
 import { useSettings } from '../context/global/useSettings';
 import { getKeigoResult } from '../lib/keigoEngine';
 
@@ -11,7 +12,7 @@ export default function Dictionary() {
   const words = (Array.isArray(vocabulary) ? vocabulary : []) as Word[];
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState<string>('all');
-  const [dictMode, setDictMode] = useState<'general' | 'keigo'>('general');
+  const [dictMode, setDictMode] = useState<'general' | 'keigo' | 'kanji'>('general');
   const { language } = useSettings();
 
   const translations = {
@@ -39,7 +40,11 @@ export default function Dictionary() {
       thTeinei: 'Lịch sự (Teinei)',
       notFound: 'Không tìm thấy kết quả nào phù hợp.',
       genMode: 'Từ vựng chung',
-      keigoMode: 'Kính ngữ (Keigo)'
+      keigoMode: 'Kính ngữ (Keigo)',
+      kanjiMode: 'Chữ Hán (Kanji)',
+      thKanjiBase: 'Chữ Hán',
+      thHanViet: 'Hán Việt',
+      thKanjiWords: 'Từ vựng đi kèm'
     },
     en: {
       title: 'Dictionary',
@@ -65,7 +70,11 @@ export default function Dictionary() {
       thTeinei: 'Polite (Teinei)',
       notFound: 'No matching results found.',
       genMode: 'General Vocab',
-      keigoMode: 'Keigo Dictionary'
+      keigoMode: 'Keigo Dictionary',
+      kanjiMode: 'Kanji',
+      thKanjiBase: 'Kanji',
+      thHanViet: 'HanViet',
+      thKanjiWords: 'Words'
     }
   };
 
@@ -100,13 +109,24 @@ export default function Dictionary() {
            (meaningText || '').toLowerCase().includes(searchTerm.toLowerCase());
   });
 
+  const filteredKanji = kanjiN3.filter(k => {
+    return k.character.includes(searchTerm) || 
+           k.hanViet.toLowerCase().includes(searchTerm.toLowerCase()) || 
+           k.words.some(w => 
+             w.word.includes(searchTerm) || 
+             w.meaning.vi.toLowerCase().includes(searchTerm.toLowerCase()) || 
+             (w.meaning.en && w.meaning.en.toLowerCase().includes(searchTerm.toLowerCase())) ||
+             w.hiragana.includes(searchTerm)
+           );
+  });
+
   return (
     <div className="p-4 md:p-8 max-w-6xl mx-auto animate-in fade-in duration-500">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
         <div>
           <h1 className="text-3xl font-bold text-slate-800 dark:text-white transition-colors">{t.title}</h1>
           <p className="text-gray-500 dark:text-gray-400 mt-1 transition-colors">
-            {t.total} {dictMode === 'general' ? words.length : keigoVerbs.length} {t.wordsInDb}
+            {t.total} {dictMode === 'general' ? words.length : dictMode === 'keigo' ? keigoVerbs.length : kanjiN3.length} {t.wordsInDb}
           </p>
         </div>
         
@@ -131,6 +151,16 @@ export default function Dictionary() {
             }`}
           >
             <GraduationCap size={18} /> <span className="hidden sm:inline">{t.keigoMode}</span>
+          </button>
+          <button
+            onClick={() => setDictMode('kanji')}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all ${
+              dictMode === 'kanji' 
+                ? 'bg-white dark:bg-slate-600 shadow-sm text-amber-600 dark:text-amber-400' 
+                : 'text-gray-500 dark:text-gray-400'
+            }`}
+          >
+            <PenTool size={18} /> <span className="hidden sm:inline">{t.kanjiMode}</span>
           </button>
         </div>
       </div>
@@ -184,11 +214,17 @@ export default function Dictionary() {
                     <th className="py-4 px-6 font-semibold text-center">{t.thType}</th>
                     <th className="py-4 px-6 font-semibold text-center">{t.thLevel}</th>
                   </>
-                ) : (
+                ) : dictMode === 'keigo' ? (
                   <>
                     <th className="py-4 px-6 font-semibold">{t.thSonkei}</th>
                     <th className="py-4 px-6 font-semibold">{t.thKenjou}</th>
                     <th className="py-4 px-6 font-semibold">{t.thTeinei}</th>
+                  </>
+                ) : (
+                  <>
+                    <th className="py-4 px-6 font-semibold">{t.thHanViet}</th>
+                    <th className="py-4 px-6 font-semibold">{t.thKanjiWords}</th>
+                    <th className="py-4 px-6 font-semibold text-center">{t.thLevel}</th>
                   </>
                 )}
               </tr>
@@ -229,7 +265,7 @@ export default function Dictionary() {
                     </td>
                   </tr>
                 )
-              ) : (
+              ) : dictMode === 'keigo' ? (
                 filteredKeigo.length > 0 ? (
                   filteredKeigo.map(verb => {
                     const renderKeigoCell = (formType: 'sonkei' | 'kenjou' | 'teinei') => {
@@ -266,6 +302,44 @@ export default function Dictionary() {
                 ) : (
                   <tr>
                     <td colSpan={5} className="py-12 text-center text-gray-400 dark:text-gray-500">
+                      {t.notFound}
+                    </td>
+                  </tr>
+                )
+              ) : (
+                filteredKanji.length > 0 ? (
+                  filteredKanji.map(k => (
+                    <tr key={k.id} className="border-b border-gray-50 dark:border-slate-700 hover:bg-slate-50/50 dark:hover:bg-slate-700/50 transition-colors">
+                      <td className="py-4 px-6 font-bold text-3xl text-slate-800 dark:text-white whitespace-nowrap">
+                        {k.character}
+                      </td>
+                      <td className="py-4 px-6 text-lg font-bold text-amber-600 dark:text-amber-400 whitespace-nowrap">
+                        {k.hanViet}
+                      </td>
+                      <td className="py-4 px-6">
+                        <div className="space-y-2">
+                          {k.words.map((w, idx) => (
+                            <div key={idx} className="flex gap-2 items-center text-sm">
+                              <span className="font-bold text-slate-800 dark:text-white min-w-[4rem]">{w.word}</span>
+                              <span className="text-slate-500 dark:text-slate-400 min-w-[5rem]">{w.hiragana}</span>
+                              <span className="text-slate-600 dark:text-slate-300">- {language === 'en' && w.meaning.en ? w.meaning.en : w.meaning.vi}</span>
+                              {w.type && (
+                                <span className="ml-2 px-2 py-0.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded text-[10px] font-medium uppercase tracking-wider">
+                                  {w.type === 'verb' ? `Verb ${w.group ? `G${w.group}` : ''}` : w.type}
+                                </span>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </td>
+                      <td className="py-4 px-6 text-center text-slate-500 dark:text-slate-400 font-medium">
+                        {k.level}
+                      </td>
+                    </tr>
+                  ))
+                ) : (
+                  <tr>
+                    <td colSpan={4} className="py-12 text-center text-gray-400 dark:text-gray-500">
                       {t.notFound}
                     </td>
                   </tr>

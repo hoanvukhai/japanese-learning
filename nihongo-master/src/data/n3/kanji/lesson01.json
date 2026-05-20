@@ -1,0 +1,671 @@
+[
+    {
+        "id": "k_01_01",
+        "character": "任",
+        "hanViet": "NHIỆM",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_01_1",
+                "word": "責任",
+                "hanVietWord": "TRÁCH NHIỆM",
+                "hiragana": "せきにん",
+                "meaning": {
+                    "vi": "Trách nhiệm",
+                    "en": "Responsibility"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "自分の行動に責任を持つ。",
+                        "vi": "Chịu trách nhiệm cho hành động của mình.",
+                        "en": "Take responsibility for one's actions."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_01_2",
+                "word": "担任",
+                "hanVietWord": "ĐẢM NHIỆM",
+                "hiragana": "たんにん",
+                "meaning": {
+                    "vi": "Đại diện / Chủ nhiệm",
+                    "en": "Homeroom teacher / In charge"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "私のクラスの担任は山田先生です。",
+                        "vi": "Giáo viên chủ nhiệm lớp tôi là thầy Yamada.",
+                        "en": "The homeroom teacher for my class is Mr. Yamada."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_01_3",
+                "word": "任せる",
+                "hanVietWord": "NHIỆM",
+                "hiragana": "まかせる",
+                "meaning": {
+                    "vi": "Phó thác / Giao phó",
+                    "en": "To entrust"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "この仕事は彼に任せよう。",
+                        "vi": "Hãy giao phó công việc này cho anh ấy.",
+                        "en": "Let's entrust this work to him."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_02",
+        "character": "信",
+        "hanViet": "TÍN",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_02_1",
+                "word": "信じる",
+                "hanVietWord": "TÍN",
+                "hiragana": "しんじる",
+                "meaning": {
+                    "vi": "Tin tưởng",
+                    "en": "To believe"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼の言葉を信じる。",
+                        "vi": "Tôi tin lời anh ấy.",
+                        "en": "I believe his words."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_02_2",
+                "word": "通信",
+                "hanVietWord": "THÔNG TÍN",
+                "hiragana": "つうしん",
+                "meaning": {
+                    "vi": "Truyền thông / Giao tiếp",
+                    "en": "Communication"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "通信技術が発達した。",
+                        "vi": "Kỹ thuật truyền thông đã phát triển.",
+                        "en": "Communication technology has developed."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_02_3",
+                "word": "信用",
+                "hanVietWord": "TÍN DỤNG",
+                "hiragana": "しんよう",
+                "meaning": {
+                    "vi": "Tin tưởng / Tín nhiệm",
+                    "en": "Trust / Credit"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は信用できる人だ。",
+                        "vi": "Anh ấy là người có thể tín nhiệm được.",
+                        "en": "He is a trustworthy person."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_03",
+        "character": "伸",
+        "hanViet": "THÂN",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_03_1",
+                "word": "伸びる",
+                "hanVietWord": "THÂN",
+                "hiragana": "のびる",
+                "meaning": {
+                    "vi": "Dài ra / Lớn lên",
+                    "en": "To stretch / To grow"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "髪が伸びた。",
+                        "vi": "Tóc đã dài ra.",
+                        "en": "My hair has grown."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_03_2",
+                "word": "伸ばす",
+                "hanVietWord": "THÂN",
+                "hiragana": "のばす",
+                "meaning": {
+                    "vi": "Kéo dài / Duỗi ra",
+                    "en": "To extend / To stretch"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "腕をまっすぐ伸ばす。",
+                        "vi": "Duỗi thẳng cánh tay ra.",
+                        "en": "Stretch one's arms straight out."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_04",
+        "character": "代",
+        "hanViet": "ĐẠI",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_04_1",
+                "word": "代表",
+                "hanVietWord": "ĐẠI BIỂU",
+                "hiragana": "だいひょう",
+                "meaning": {
+                    "vi": "Đại diện / Đại biểu",
+                    "en": "Representative"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本の代表として会議に出る。",
+                        "vi": "Tham dự cuộc họp với tư cách đại diện Nhật Bản.",
+                        "en": "Attend the meeting as a representative of Japan."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_04_2",
+                "word": "代金",
+                "hanVietWord": "ĐẠI KIM",
+                "hiragana": "だいきん",
+                "meaning": {
+                    "vi": "Tiền hàng / Phí cần trả",
+                    "en": "Price / Payment"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "商品の代金を払う。",
+                        "vi": "Tranh toán tiền hàng hóa.",
+                        "en": "Pay for the goods."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_04_3",
+                "word": "時代",
+                "hanVietWord": "THỜI ĐẠI",
+                "hiragana": "じだい",
+                "meaning": {
+                    "vi": "Thời đại",
+                    "en": "Era / Period"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "今はインターネットの時代だ。",
+                        "vi": "Bây giờ là thời đại của internet.",
+                        "en": "Now is the era of the internet."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_04_4",
+                "word": "代える",
+                "hanVietWord": "ĐẠI",
+                "hiragana": "かえる",
+                "meaning": {
+                    "vi": "Trao đổi / Thay thế",
+                    "en": "To exchange / To replace"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "命に代えることはできない。",
+                        "vi": "Không thể đánh đổi bằng sinh mạng.",
+                        "en": "Cannot be exchanged for a life."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_04_5",
+                "word": "代わる",
+                "hanVietWord": "ĐẠI",
+                "hiragana": "かわる",
+                "meaning": {
+                    "vi": "Thay thế (ai đó)",
+                    "en": "To take the place of"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "社長が代わる。",
+                        "vi": "Giám đốc được thay thế.",
+                        "en": "The president is replaced."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_05",
+        "character": "付",
+        "hanViet": "PHÓ",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_05_1",
+                "word": "付近",
+                "hanVietWord": "PHÓ CẬN",
+                "hiragana": "ふきん",
+                "meaning": {
+                    "vi": "Gần / Khu vực lân cận",
+                    "en": "Vicinity / Nearby"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "駅の付近にコンビニがある。",
+                        "vi": "Có cửa hàng tiện lợi ở gần ga.",
+                        "en": "There is a convenience store near the station."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_05_2",
+                "word": "付ける",
+                "hanVietWord": "PHÓ",
+                "hiragana": "つける",
+                "meaning": {
+                    "vi": "Gắn vào / Bật",
+                    "en": "To attach / To turn on"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "服に名札を付ける。",
+                        "vi": "Gắn thẻ tên lên áo.",
+                        "en": "Attach a name tag to one's clothes."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_05_3",
+                "word": "付く",
+                "hanVietWord": "PHÓ",
+                "hiragana": "つく",
+                "meaning": {
+                    "vi": "Dính / Gắn",
+                    "en": "To be attached"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "靴に泥が付く。",
+                        "vi": "Bùn dính vào giày.",
+                        "en": "Mud sticks to the shoes."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_06",
+        "character": "件",
+        "hanViet": "KIỆN",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_06_1",
+                "word": "事件",
+                "hanVietWord": "SỰ KIỆN",
+                "hiragana": "じけん",
+                "meaning": {
+                    "vi": "Vụ án / Sự kiện",
+                    "en": "Incident / Case"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "殺人事件が起きた。",
+                        "vi": "Một vụ án mạng đã xảy ra.",
+                        "en": "A murder case occurred."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_06_2",
+                "word": "条件",
+                "hanVietWord": "ĐIỀU KIỆN",
+                "hiragana": "じょうけん",
+                "meaning": {
+                    "vi": "Điều kiện",
+                    "en": "Condition"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "良い条件の仕事を探す。",
+                        "vi": "Tìm công việc có điều kiện tốt.",
+                        "en": "Look for a job with good conditions."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_06_3",
+                "word": "用件",
+                "hanVietWord": "DỤNG KIỆN",
+                "hiragana": "ようけん",
+                "meaning": {
+                    "vi": "Công chuyện / Vụ việc",
+                    "en": "Business / Matter"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ご用件は何でしょうか。",
+                        "vi": "Công chuyện của anh là gì vậy?",
+                        "en": "What is your business?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_07",
+        "character": "位",
+        "hanViet": "VỊ",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_07_1",
+                "word": "位置",
+                "hanVietWord": "VỊ TRÍ",
+                "hiragana": "いち",
+                "meaning": {
+                    "vi": "Vị trí",
+                    "en": "Position / Location"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "机の位置を変える。",
+                        "vi": "Thay đổi vị trí của cái bàn.",
+                        "en": "Change the position of the desk."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_07_2",
+                "word": "単位",
+                "hanVietWord": "ĐƠN VỊ",
+                "hiragana": "たんい",
+                "meaning": {
+                    "vi": "Đơn vị / Tín chỉ",
+                    "en": "Unit / Credit"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "長さの単位はメートルだ。",
+                        "vi": "Đơn vị của độ dài là mét.",
+                        "en": "The unit of length is the meter."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_07_3",
+                "word": "一位",
+                "hanVietWord": "NHẤT VỊ",
+                "hiragana": "いちい",
+                "meaning": {
+                    "vi": "Vị trí số 1",
+                    "en": "First place"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大会で一位になった。",
+                        "vi": "Đã giành được vị trí số 1 tại đại hội.",
+                        "en": "Won first place in the tournament."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_08",
+        "character": "倍",
+        "hanViet": "BỘI",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_08_1",
+                "word": "何倍",
+                "hanVietWord": "HÀ BỘI",
+                "hiragana": "なんばい",
+                "meaning": {
+                    "vi": "Bao nhiêu lần",
+                    "en": "How many times"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "そのケーキはこれの何倍もあります。",
+                        "vi": "Cái bánh kem đó to gấp mấy lần cái này.",
+                        "en": "That cake is many times bigger than this one."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_08_2",
+                "word": "二倍",
+                "hanVietWord": "NHỊ BỘI",
+                "hiragana": "にばい",
+                "meaning": {
+                    "vi": "Gấp 2 lần",
+                    "en": "Twice / Double"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "値段が二倍になった。",
+                        "vi": "Giá cả đã tăng gấp đôi.",
+                        "en": "The price has doubled."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_09",
+        "character": "保",
+        "hanViet": "BẢO",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_09_1",
+                "word": "保存",
+                "hanVietWord": "BẢO TỒN",
+                "hiragana": "ほぞん",
+                "meaning": {
+                    "vi": "Lưu trữ / Bảo quản",
+                    "en": "Preservation / Saving"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "データを保存する。",
+                        "vi": "Lưu trữ dữ liệu.",
+                        "en": "Save the data."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_09_2",
+                "word": "保険",
+                "hanVietWord": "BẢO HIỂM",
+                "hiragana": "ほけん",
+                "meaning": {
+                    "vi": "Bảo hiểm",
+                    "en": "Insurance"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "生命保険に入る。",
+                        "vi": "Tham gia bảo hiểm nhân thọ.",
+                        "en": "Take out life insurance."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_09_3",
+                "word": "保つ",
+                "hanVietWord": "BẢO",
+                "hiragana": "たもつ",
+                "meaning": {
+                    "vi": "Giữ gìn / Duy trì",
+                    "en": "To keep / To maintain"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "健康を保つために運動する。",
+                        "vi": "Vận động để duy trì sức khỏe.",
+                        "en": "Exercise to maintain health."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_01_10",
+        "character": "個",
+        "hanViet": "CÁ",
+        "level": "N3",
+        "lesson": "Bài 1",
+        "words": [
+            {
+                "id": "kw_01_10_1",
+                "word": "個性的",
+                "hanVietWord": "CÁ TÍNH ĐÍCH",
+                "hiragana": "こせいてき",
+                "meaning": {
+                    "vi": "Cá tính",
+                    "en": "Individual / Unique"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼女は個性的な服を着ている。",
+                        "vi": "Cô ấy đang mặc một bộ quần áo rất cá tính.",
+                        "en": "She is wearing unique clothes."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_10_2",
+                "word": "個人",
+                "hanVietWord": "CÁ NHÂN",
+                "hiragana": "こじん",
+                "meaning": {
+                    "vi": "Cá nhân",
+                    "en": "Individual / Personal"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "個人の意見を尊重する。",
+                        "vi": "Tôn trọng ý kiến cá nhân.",
+                        "en": "Respect individual opinions."
+                    }
+                ]
+            },
+            {
+                "id": "kw_01_10_3",
+                "word": "一個",
+                "hanVietWord": "NHẤT CÁ",
+                "hiragana": "いっこ",
+                "meaning": {
+                    "vi": "1 cái",
+                    "en": "One piece"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "りんごを一個ください。",
+                        "vi": "Cho tôi 1 quả táo.",
+                        "en": "Please give me one apple."
+                    }
+                ]
+            }
+        ]
+    }
+]

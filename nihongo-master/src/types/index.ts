@@ -37,3 +37,35 @@ export interface FlashcardSettingsState {
   playMode: FlashcardMode;
   autoPlayAudio: boolean;
 }
+
+// Kanji types
+export interface KanjiWord {
+  id: string;               // Nên có ID cho từng từ (VD: 'kw_01_01')
+  word: string;             // Từ vựng (VD: '責任')
+  hiragana: string;         // Cách đọc (VD: 'seki-nin')
+  hanVietWord?: string;     // Âm Hán Việt tương ứng của từ
+  
+  meaning: {
+    vi: string;             // Nghĩa tiếng Việt (VD: 'Trách nhiệm')
+    en?: string;            // Nghĩa tiếng Anh (VD: 'Responsibility')
+  };
+  
+  type: WordType;           // RẤT QUAN TRỌNG: Để ném vào Máy chia thể
+  group?: 1 | 2 | 3;        // Nhóm động từ (nếu type là 'verb')
+  readingType: '音' | '訓'; // Âm On hay Âm Kun
+  
+  examples?: {              // Câu ví dụ
+    jp: string;
+    vi: string;
+  }[];
+}
+
+export interface Kanji {
+  id: string;               // VD: 'k_01_01'
+  character: string;        // Chữ Hán (VD: '任')
+  hanViet: string;          // Âm Hán Việt (VD: 'NHIỆM')
+  level: JLPTLevel;         // 'N3'
+  lesson: string;           // 'Bài 1'
+  
+  words: KanjiWord[];       // Mảng chứa các từ vựng ghép với chữ Hán này
+}

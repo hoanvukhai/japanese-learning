@@ -38,9 +38,9 @@ export default function PracticeDashboard() {
     },
     {
       name: lang==='en'?'Kanji':'Chữ Hán (Kanji)',
-      path:'#', icon: Award,
+      path:'/kanji', icon: Award,
       desc: lang==='en'?'Recognize and write Kanji daily':'Nhận diện và viết Kanji mỗi ngày',
-      color:'text-rose-500', bgLight:'bg-rose-100 dark:bg-rose-900/30', borderColor:'hover:border-rose-500', disabled:true,
+      color:'text-rose-500', bgLight:'bg-rose-100 dark:bg-rose-900/30', borderColor:'hover:border-rose-500', disabled:false,
     },
     {
       name: lang==='en'?'Leaderboard':'Đua Top',
