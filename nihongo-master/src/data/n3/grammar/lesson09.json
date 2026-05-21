@@ -1,0 +1,147 @@
+[
+    {
+        "id": "g_09_01",
+        "structure": "〜始める",
+        "meaning": {
+            "vi": "Bắt đầu...",
+            "en": "Start doing..."
+        },
+        "formation": [
+            "V(bỏ ます) + 始める"
+        ],
+        "lesson": "Bài 9",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nhấn mạnh vào THỜI ĐIỂM bắt đầu của một hành động có ý thức hoặc một sự thay đổi tự nhiên. Khác với ~出す (bắt đầu một cách đột ngột, bất thình lình).",
+            "en": "⚠️ JLPT Trap: Emphasizes the STARTING MOMENT of an intentional action or a natural change. Different from ~出す (which means to start suddenly or unexpectedly)."
+        },
+        "examples": [
+            {
+                "jp": "雨が降り始めました。",
+                "vi": "Trời đã bắt đầu rơi mưa.",
+                "en": "It has started to rain."
+            },
+            {
+                "jp": "昨日から新しい小説を読み始めた。",
+                "vi": "Tôi đã bắt đầu đọc cuốn tiểu thuyết mới từ hôm qua.",
+                "en": "I started reading a new novel yesterday."
+            }
+        ]
+    },
+    {
+        "id": "g_09_02",
+        "structure": "〜終わる",
+        "meaning": {
+            "vi": "Làm xong... / Kết thúc...",
+            "en": "Finish doing..."
+        },
+        "formation": [
+            "V(bỏ ます) + 終わる"
+        ],
+        "lesson": "Bài 9",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chỉ dùng khi một hành động đã hoàn tất trọn vẹn từ đầu đến cuối.",
+            "en": "⚠️ JLPT Trap: Used only when an action has been completely finished from beginning to end."
+        },
+        "examples": [
+            {
+                "jp": "この本はもう読み終わりました。",
+                "vi": "Cuốn sách này tôi đã đọc xong rồi.",
+                "en": "I have already finished reading this book."
+            },
+            {
+                "jp": "ご飯を食べ終わったら、片付けてください。",
+                "vi": "Sau khi ăn xong thì hãy dọn dẹp đi nhé.",
+                "en": "Please clean up after you finish eating."
+            }
+        ]
+    },
+    {
+        "id": "g_09_03",
+        "structure": "〜続ける",
+        "meaning": {
+            "vi": "Tiếp tục...",
+            "en": "Continue doing..."
+        },
+        "formation": [
+            "V(bỏ ます) + 続ける"
+        ],
+        "lesson": "Bài 9",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Diễn tả một hành động hoặc trạng thái được duy trì liên tục, không ngừng nghỉ trong một khoảng thời gian.",
+            "en": "⚠️ JLPT Trap: Describes an action or state that is maintained continuously without stopping for a period of time."
+        },
+        "examples": [
+            {
+                "jp": "朝からずっと雨が降り続いている。",
+                "vi": "Trời cứ tiếp tục mưa rả rích suốt từ sáng.",
+                "en": "It has been continuing to rain since morning."
+            },
+            {
+                "jp": "彼は日本に住み続けるつもりだ。",
+                "vi": "Anh ấy dự định sẽ tiếp tục sinh sống ở Nhật.",
+                "en": "He intends to continue living in Japan."
+            }
+        ]
+    },
+    {
+        "id": "g_09_04",
+        "structure": "〜直す",
+        "meaning": {
+            "vi": "Làm lại... (từ đầu)",
+            "en": "Do something over again"
+        },
+        "formation": [
+            "V(bỏ ます) + 直す"
+        ],
+        "lesson": "Bài 9",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Hàm ý là trước đó đã làm rồi nhưng bị hỏng, bị sai, hoặc không ưng ý nên bây giờ phải làm lại một lần nữa cho tử tế.",
+            "en": "⚠️ JLPT Trap: Implies that the action was done before but failed, was wrong, or unsatisfactory, so it must be done over again properly."
+        },
+        "examples": [
+            {
+                "jp": "間違いが多かったので、作文を書き直した。",
+                "vi": "Vì có quá nhiều lỗi sai nên tôi đã viết lại bài văn.",
+                "en": "Because there were many mistakes, I rewrote the essay."
+            },
+            {
+                "jp": "もう一度よく考え直してください。",
+                "vi": "Xin hãy suy nghĩ lại một lần nữa cho thật kỹ.",
+                "en": "Please think it over carefully one more time."
+            }
+        ]
+    },
+    {
+        "id": "g_09_05",
+        "structure": "〜出す",
+        "meaning": {
+            "vi": "Bắt đầu... một cách đột ngột / Bật (khóc, cười)...",
+            "en": "Suddenly start to... / Burst into..."
+        },
+        "formation": [
+            "V(bỏ ます) + 出す"
+        ],
+        "lesson": "Bài 9",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nhấn mạnh vào sự BẤT THÌNH LÌNH, không báo trước của sự việc. Rất hay đi chung với 「急に」 (đột nhiên). Thường dùng cho các phản xạ sinh lý (khóc, cười) hoặc hiện tượng tự nhiên (mưa).",
+            "en": "⚠️ JLPT Trap: Emphasizes the SUDDENNESS and unpredictability of an event. Often used with 「急に」 (suddenly). Frequently used for physiological reflexes (crying, laughing) or natural phenomena (rain)."
+        },
+        "examples": [
+            {
+                "jp": "空が暗くなって、急に雨が降り出した。",
+                "vi": "Bầu trời tối sầm lại và trời đột nhiên đổ mưa.",
+                "en": "The sky darkened and it suddenly started to rain."
+            },
+            {
+                "jp": "赤ちゃんが突然泣き出した。",
+                "vi": "Em bé đột nhiên bật khóc.",
+                "en": "The baby suddenly burst into tears."
+            }
+        ]
+    }
+]

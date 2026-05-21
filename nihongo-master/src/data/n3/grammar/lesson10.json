@@ -1,0 +1,92 @@
+[
+    {
+        "id": "g_10_01",
+        "structure": "尊敬語（そんけいご）",
+        "meaning": {
+            "vi": "Tôn kính ngữ (Nâng cao hành động của đối phương)",
+            "en": "Honorific form (Elevating the listener's action)"
+        },
+        "formation": [
+            "1. お + V(bỏ ます) + になる",
+            "2. Chia động từ về thể Bị động (Vれる・られる)",
+            "3. Dùng các động từ đặc biệt (いらっしゃる, 召し上がる, おっしゃる...)"
+        ],
+        "lesson": "Bài 10",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: ĐÂY LÀ PHẦN DỄ SAI NHẤT. Tuyệt đối KHÔNG BAO GIỜ dùng Tôn kính ngữ cho hành động của BẢN THÂN mình hoặc NGƯỜI NHÀ mình. Chỉ dùng để miêu tả hành động của cấp trên, khách hàng, giáo viên.",
+            "en": "⚠️ JLPT Trap: THIS IS THE MOST ERROR-PRONE PART. NEVER use the Honorific form for the actions of YOURSELF or your IN-GROUP members. Only use it to describe the actions of superiors, customers, or teachers."
+        },
+        "examples": [
+            {
+                "jp": "社長はもうお帰りになりました。",
+                "vi": "Giám đốc đã đi về rồi ạ.",
+                "en": "The company president has already gone home."
+            },
+            {
+                "jp": "先生は何を召し上がりますか。",
+                "vi": "Thầy/Cô sẽ dùng (ăn/uống) món gì ạ?",
+                "en": "What will you eat/drink, professor?"
+            }
+        ]
+    },
+    {
+        "id": "g_10_02",
+        "structure": "謙譲語（けんじょうご）",
+        "meaning": {
+            "vi": "Khiêm nhường ngữ (Hạ thấp hành động của bản thân)",
+            "en": "Humble form (Lowering one's own action)"
+        },
+        "formation": [
+            "1. お / ご + V(bỏ ます / N) + する / いたす",
+            "2. Dùng các động từ đặc biệt (参る, いただく, 申す, 拝見する...)"
+        ],
+        "lesson": "Bài 10",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Ngược lại với Tôn kính ngữ, Khiêm nhường ngữ CHỈ ĐƯỢC DÙNG cho hành động của BẢN THÂN hoặc NGƯỜI NHÀ (thuộc nhóm của mình) nhằm mục đích hạ mình xuống để tôn trọng đối phương.",
+            "en": "⚠️ JLPT Trap: Unlike the Honorific form, the Humble form MUST ONLY BE USED for the actions of YOURSELF or your IN-GROUP members in order to lower oneself and show respect to the listener."
+        },
+        "examples": [
+            {
+                "jp": "私が荷物をお持ちします。",
+                "vi": "Để tôi mang hành lý cho ạ.",
+                "en": "I will carry the luggage for you."
+            },
+            {
+                "jp": "私はベトナムから参りました。",
+                "vi": "Tôi (xin khiêm nhường) đến từ Việt Nam.",
+                "en": "I come from Vietnam."
+            }
+        ]
+    },
+    {
+        "id": "g_10_03",
+        "structure": "丁寧形（ていねいけい）",
+        "meaning": {
+            "vi": "Thể lịch sự (Làm mềm mại câu nói)",
+            "en": "Polite form (Softening the speech)"
+        },
+        "formation": [
+            "です / ます / ございます / ～ております"
+        ],
+        "lesson": "Bài 10",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đây là cách nói lịch sự cơ bản nhất, không phân chia vế trên - vế dưới khắt khe như Tôn kính ngữ hay Khiêm nhường ngữ. 「ございます」 là cách nói trang trọng hơn của 「あります / です」.",
+            "en": "⚠️ JLPT Trap: This is the most basic polite speech, without strictly dividing upper and lower status like Honorific or Humble forms. 「ございます」 is a more formal way to say 「あります / です」."
+        },
+        "examples": [
+            {
+                "jp": "あちらがトイレでございます。",
+                "vi": "Đằng kia là nhà vệ sinh ạ.",
+                "en": "The restroom is over there."
+            },
+            {
+                "jp": "私は今、東京に住んでおります。",
+                "vi": "Hiện tại tôi đang sinh sống ở Tokyo.",
+                "en": "I am currently living in Tokyo."
+            }
+        ]
+    }
+]

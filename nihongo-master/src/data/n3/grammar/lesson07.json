@@ -1,0 +1,121 @@
+[
+    {
+        "id": "g_07_01",
+        "structure": "〜など / 〜なんか / 〜なんて",
+        "meaning": {
+            "vi": "Cỡ như... / Những thứ như... (đưa ra ví dụ hoặc xem nhẹ)",
+            "en": "Things like... / Such as... (giving examples or belittling)"
+        },
+        "formation": [
+            "N + など / なんか / なんて"
+        ],
+        "lesson": "Bài 7",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đây là cách nói trong hội thoại. Dùng để đưa ra ví dụ, hoặc mang sắc thái XEM NHẸ/KHINH THƯỜNG (với người khác/sự vật), hoặc KHIÊM TỐN (nếu nói về bản thân).",
+            "en": "⚠️ JLPT Trap: Used in conversation. Can be used to give examples, or to show CONTEMPT/BELITTLING (towards others/things), or HUMILITY (when referring to oneself)."
+        },
+        "examples": [
+            {
+                "jp": "ゲームなんかする時間はない。",
+                "vi": "Tôi không có thời gian cho những thứ như trò chơi điện tử đâu.",
+                "en": "I don't have time for things like video games."
+            },
+            {
+                "jp": "私なんて、まだまだです。",
+                "vi": "Cỡ như tôi thì vẫn còn kém lắm (khiêm tốn).",
+                "en": "Someone like me still has a long way to go."
+            }
+        ]
+    },
+    {
+        "id": "g_07_02",
+        "structure": "〜くらい / 〜ぐらい",
+        "meaning": {
+            "vi": "Khoảng... / Cỡ như... / Ít nhất là...",
+            "en": "About... / To the extent that... / At least..."
+        },
+        "formation": [
+            "N / Thể thông thường + くらい / ぐらい"
+        ],
+        "lesson": "Bài 7",
+        "group": "Comparison_Degree",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Có 2 nghĩa hay thi: (1) Chỉ mức độ nhẹ nhất, tối thiểu nhất ('Ít nhất là hãy làm quen đi'). (2) Nêu lên mức độ của một trạng thái ('Đau đến mức muốn khóc').",
+            "en": "⚠️ JLPT Trap: Two common meanings in exams: (1) Indicates the minimum acceptable level ('At least do this'). (2) Shows the extent of a state ('So painful that I want to cry')."
+        },
+        "examples": [
+            {
+                "jp": "痛くて泣きたいくらいだった。",
+                "vi": "Đau đến mức tôi muốn khóc.",
+                "en": "It was so painful that I almost wanted to cry."
+            },
+            {
+                "jp": "自分の名前くらい漢字で書ける。",
+                "vi": "Ít nhất là tên của mình thì tôi có thể viết bằng chữ Hán.",
+                "en": "I can at least write my own name in kanji."
+            }
+        ]
+    },
+    {
+        "id": "g_07_03",
+        "structure": "〜ほど / 〜ほど〜ない",
+        "meaning": {
+            "vi": "Đến mức... / Không... bằng...",
+            "en": "To the extent that... / Not as... as..."
+        },
+        "formation": [
+            "N / Vる / Vない + ほど",
+            "N + ほど 〜 ない (Không bằng...)"
+        ],
+        "lesson": "Bài 7",
+        "group": "Comparison_Degree",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Khi dùng ở thể khẳng định, nó chỉ mức độ RẤT CAO ('Mệt đến mức muốn ngã'). Khi dùng ở thể phủ định (A は B ほど～ない), nó mang nghĩa so sánh 'A không bằng B'.",
+            "en": "⚠️ JLPT Trap: In the affirmative, it shows a VERY HIGH degree ('So tired I could collapse'). In the negative (A は B ほど～ない), it means 'A is not as... as B'."
+        },
+        "examples": [
+            {
+                "jp": "死ぬほど疲れた。",
+                "vi": "Tôi mệt đến mức như sắp chết.",
+                "en": "I am so tired I could die."
+            },
+            {
+                "jp": "今年の冬は去年ほど寒くない。",
+                "vi": "Mùa đông năm nay không lạnh bằng năm ngoái.",
+                "en": "This winter is not as cold as last year."
+            }
+        ]
+    },
+    {
+        "id": "g_07_04",
+        "structure": "〜ば〜ほど",
+        "meaning": {
+            "vi": "Càng... càng...",
+            "en": "The more... the more..."
+        },
+        "formation": [
+            "Vば + Vる + ほど",
+            "Aければ + Aい + ほど",
+            "Aなら(ば) + Aな + ほど"
+        ],
+        "lesson": "Bài 7",
+        "group": "Comparison_Degree",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Động từ hoặc tính từ ở vế trước và vế sau của 「ほど」 phải là CÙNG MỘT TỪ. Sự biến đổi của vế A sẽ kéo theo sự biến đổi tỉ lệ thuận của vế B.",
+            "en": "⚠️ JLPT Trap: The verb or adjective before and after 「ほど」 must be the EXACT SAME WORD. The change in clause A proportionally causes a change in clause B."
+        },
+        "examples": [
+            {
+                "jp": "日本語は勉強すればするほど、難しくなる。",
+                "vi": "Tiếng Nhật càng học thì càng trở nên khó.",
+                "en": "The more you study Japanese, the more difficult it becomes."
+            },
+            {
+                "jp": "スーパーは家から近ければ近いほど便利だ。",
+                "vi": "Siêu thị càng gần nhà thì càng tiện lợi.",
+                "en": "The closer the supermarket is to home, the more convenient it is."
+            }
+        ]
+    }
+]

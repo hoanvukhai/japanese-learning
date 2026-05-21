@@ -1,0 +1,149 @@
+[
+    {
+        "id": "g_02_01",
+        "structure": "〜ことにしている",
+        "meaning": {
+            "vi": "Quyết định (tạo thành thói quen cho bản thân)",
+            "en": "Make it a rule to... / Decide to..."
+        },
+        "formation": [
+            "Vる / Vない + ことにしている"
+        ],
+        "lesson": "Bài 2",
+        "group": "Habit_Rule",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nhấn mạnh vào thói quen do BẢN THÂN tự quyết định và vẫn đang duy trì ở hiện tại. Phân biệt với ことにする (quyết định chỉ diễn ra tại thời điểm nói).",
+            "en": "⚠️ JLPT Trap: Emphasizes a habit decided by ONESELF that is currently maintained. Differentiate from ことにする (a decision made at the moment of speaking)."
+        },
+        "examples": [
+            {
+                "jp": "健康のため、毎朝走ることにしている。",
+                "vi": "Vì sức khỏe, tôi quyết định (tạo thói quen) chạy bộ mỗi sáng.",
+                "en": "For my health, I make it a rule to run every morning."
+            },
+            {
+                "jp": "夜10時以降は何も食べないことにしている。",
+                "vi": "Tôi quyết định không ăn gì sau 10 giờ đêm.",
+                "en": "I make it a rule not to eat anything after 10 PM."
+            }
+        ]
+    },
+    {
+        "id": "g_02_02",
+        "structure": "〜ことになっている",
+        "meaning": {
+            "vi": "Được quy định là... / Đã được quyết định là...",
+            "en": "It has been decided that... / It is a rule that..."
+        },
+        "formation": [
+            "Vる / Vない + ことになっている"
+        ],
+        "lesson": "Bài 2",
+        "group": "Habit_Rule",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chỉ các quy tắc, luật lệ, hoặc lịch trình do NGƯỜI KHÁC hoặc TẬP THỂ đặt ra, bản thân mình phải tuân theo.",
+            "en": "⚠️ JLPT Trap: Refers to rules, regulations, or schedules set by OTHERS or SOCIETY, which you must follow."
+        },
+        "examples": [
+            {
+                "jp": "この教室では、日本語しか話せないことになっている。",
+                "vi": "Ở phòng học này, được quy định là chỉ được nói tiếng Nhật.",
+                "en": "In this classroom, it is a rule that we can only speak Japanese."
+            },
+            {
+                "jp": "明日、友達と映画に行くことになっている。",
+                "vi": "Đã có lịch hẹn (được quyết định) đi xem phim với bạn vào ngày mai.",
+                "en": "It has been decided that I will go to a movie with a friend tomorrow."
+            }
+        ]
+    },
+    {
+        "id": "g_02_03",
+        "structure": "〜だけでなく / 〜ばかりでなく",
+        "meaning": {
+            "vi": "Không chỉ... mà còn...",
+            "en": "Not only... but also..."
+        },
+        "formation": [
+            "N + だけでなく",
+            "Thể thông thường (Aな/N + な/である) + だけでなく / ばかりでなく"
+        ],
+        "lesson": "Bài 2",
+        "group": "Addition_Emphasis",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: ばかりでなく mang sắc thái trang trọng hơn và mức độ nhấn mạnh lớn hơn だけでなく. Vế sau thường đi kèm với も, まで.",
+            "en": "⚠️ JLPT Trap: ばかりでなく has a more formal nuance and a stronger emphasis than だけでなく. The following clause often includes も or まで."
+        },
+        "examples": [
+            {
+                "jp": "彼は英語だけでなく、フランス語も話せる。",
+                "vi": "Anh ấy không chỉ nói được tiếng Anh mà còn nói được tiếng Pháp.",
+                "en": "He can speak not only English but also French."
+            },
+            {
+                "jp": "このレストランは味が良いばかりでなく、サービスも素晴らしい。",
+                "vi": "Nhà hàng này không chỉ vị ngon mà dịch vụ cũng tuyệt vời.",
+                "en": "This restaurant not only has good food but also excellent service."
+            }
+        ]
+    },
+    {
+        "id": "g_02_04",
+        "structure": "〜ようとする / 〜ようとしない",
+        "meaning": {
+            "vi": "Cố gắng làm gì... / Định làm gì... / Không hề có ý định làm gì",
+            "en": "Try to... / Be about to... / Have no intention of..."
+        },
+        "formation": [
+            "V(ý hướng - よう) + とする / としない"
+        ],
+        "lesson": "Bài 2",
+        "group": "Effort_Intention",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Vようとする diễn tả khoảnh khắc chuẩn bị làm gì đó hoặc đang nỗ lực làm. Vようとしない (chủ ngữ là người thứ 3) dùng để phê phán ai đó KHÔNG hề có ý định làm gì.",
+            "en": "⚠️ JLPT Trap: Vようとする describes the moment of being about to do something or making an effort. Vようとしない (3rd person subject) criticizes someone for having NO intention of doing something."
+        },
+        "examples": [
+            {
+                "jp": "電車に乗ろうとしたとき、ドアが閉まってしまった。",
+                "vi": "Đúng lúc tôi định lên tàu thì cửa đóng lại.",
+                "en": "Just as I was about to get on the train, the doors closed."
+            },
+            {
+                "jp": "彼は自分の間違いを認めようとしない。",
+                "vi": "Anh ta hoàn toàn không có ý định thừa nhận lỗi sai của mình.",
+                "en": "He doesn't even try to admit his mistakes."
+            }
+        ]
+    },
+    {
+        "id": "g_02_05",
+        "structure": "〜つもりだった",
+        "meaning": {
+            "vi": "Đã định làm... (nhưng lại không làm) / Cứ ngỡ là...",
+            "en": "Intended to... (but didn't) / Convinced oneself that..."
+        },
+        "formation": [
+            "Vる / Vない + つもりだった",
+            "Vた / Vている / Aい / Aな / Nの + つもりだった (Cứ ngỡ là...)"
+        ],
+        "lesson": "Bài 2",
+        "group": "Effort_Intention",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Khi dùng với Vた/A/N, nó mang nghĩa 'Bản thân cứ đinh ninh là/nghĩ là như vậy (nhưng sự thật khách quan lại không phải thế)'.",
+            "en": "⚠️ JLPT Trap: When used with Vた/A/N, it means 'Convinced oneself of being a certain way (but objective reality is different)'."
+        },
+        "examples": [
+            {
+                "jp": "昨日買い物に行くつもりだったが、雨で行かなかった。",
+                "vi": "Hôm qua tôi đã định đi mua sắm nhưng trời mưa nên lại không đi.",
+                "en": "I intended to go shopping yesterday, but I didn't go because of the rain."
+            },
+            {
+                "jp": "若いつもりだったが、階段を上ると息が切れる。",
+                "vi": "Tôi cứ ngỡ là mình còn trẻ, nhưng cứ leo cầu thang là lại đứt hơi.",
+                "en": "I thought I was still young, but I lose my breath when I climb the stairs."
+            }
+        ]
+    }
+]

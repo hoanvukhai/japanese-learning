@@ -1,0 +1,118 @@
+[
+    {
+        "id": "g_08_01",
+        "structure": "〜ぎみ",
+        "meaning": {
+            "vi": "Có vẻ / Cảm thấy hơi...",
+            "en": "Feeling a bit... / Looking like..."
+        },
+        "formation": [
+            "N / V(bỏ ます) + ぎみ"
+        ],
+        "lesson": "Bài 8",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chỉ dùng cho những trạng thái sinh lý hoặc tâm lý mang tính TIÊU CỰC, mệt mỏi ở hiện tại (Ví dụ: 風邪ぎみ - hơi cảm, 疲れぎみ - hơi mệt, 遅れぎみ - hơi trễ). Không dùng cho thói quen.",
+            "en": "⚠️ JLPT Trap: Exclusively used for NEGATIVE physiological or psychological states at the present moment (e.g., slightly sick, slightly tired, running late). Not used for habits."
+        },
+        "examples": [
+            {
+                "jp": "最近、少し疲れぎみなので、早く寝ます。",
+                "vi": "Gần đây tôi cảm thấy hơi mệt nên sẽ đi ngủ sớm.",
+                "en": "Lately, I've been feeling a bit tired, so I will go to bed early."
+            },
+            {
+                "jp": "新入社員は緊張ぎみの顔をしている。",
+                "vi": "Nhân viên mới đang mang khuôn mặt có vẻ căng thẳng.",
+                "en": "The new employee has a slightly nervous face."
+            }
+        ]
+    },
+    {
+        "id": "g_08_02",
+        "structure": "〜がち",
+        "meaning": {
+            "vi": "Thường hay / Dễ bị...",
+            "en": "Tend to... / Prone to..."
+        },
+        "formation": [
+            "N / V(bỏ ます) + がち"
+        ],
+        "lesson": "Bài 8",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Rất hay bị lừa với 「〜ぎみ」. 「〜がち」 dùng để chỉ TẦN SUẤT, THÓI QUEN xấu lặp đi lặp lại nhiều lần (Ví dụ: 忘れがち - hay quên, 休みがち - hay nghỉ).",
+            "en": "⚠️ JLPT Trap: Very often confused with 「〜ぎみ」. 「〜がち」 is used to indicate a negative FREQUENCY or HABIT that repeats multiple times (e.g., tend to forget, tend to be absent)."
+        },
+        "examples": [
+            {
+                "jp": "子供の頃、病気がちでよく学校を休んだ。",
+                "vi": "Hồi còn nhỏ, tôi rất hay bị ốm nên thường nghỉ học.",
+                "en": "When I was a child, I was prone to illness and often missed school."
+            },
+            {
+                "jp": "雪の日は電車が遅れがちだ。",
+                "vi": "Những ngày có tuyết thì tàu điện thường hay bị trễ.",
+                "en": "On snowy days, trains tend to be delayed."
+            }
+        ]
+    },
+    {
+        "id": "g_08_03",
+        "structure": "〜てたまらない / 〜でたまらない",
+        "meaning": {
+            "vi": "Vô cùng... / Không thể chịu nổi...",
+            "en": "Extremely... / Can't help but... / Unbearably..."
+        },
+        "formation": [
+            "Vて / Aくて / A(bỏ な)で + たまらない"
+        ],
+        "lesson": "Bài 8",
+        "group": "Emotion_Desire",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chủ ngữ thường là ngôi thứ nhất (Tôi). Dùng để diễn tả một cảm giác, cảm xúc sinh lý hoặc tâm lý bùng phát đến mức không thể kiềm chế được (Ví dụ: Đau không chịu nổi, muốn gặp không chịu nổi).",
+            "en": "⚠️ JLPT Trap: The subject is usually the first person (I). Used to express a physiological or psychological feeling that bursts out to the point where it cannot be controlled."
+        },
+        "examples": [
+            {
+                "jp": "クーラーが壊れて、暑くてたまらない。",
+                "vi": "Máy lạnh bị hỏng rồi, nóng không thể chịu nổi.",
+                "en": "The air conditioner is broken, and it is unbearably hot."
+            },
+            {
+                "jp": "国にいる家族に会いたくてたまらない。",
+                "vi": "Tôi muốn gặp gia đình ở trong nước vô cùng.",
+                "en": "I want to see my family back in my home country so badly."
+            }
+        ]
+    },
+    {
+        "id": "g_08_04",
+        "structure": "〜むき / 〜むけ",
+        "meaning": {
+            "vi": "Phù hợp với... (むき) / Dành cho... (むけ)",
+            "en": "Suitable for... (むき) / Made for... (むけ)"
+        },
+        "formation": [
+            "N + むき / むけ"
+        ],
+        "lesson": "Bài 8",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đây là cặp bài trùng đánh đố trong JLPT. 「〜向き」 (Muki) là bản chất TỰ NHIÊN nó đã phù hợp với đối tượng đó. Còn 「〜向け」 (Muke) là do con người CỐ TÌNH tạo ra/thiết kế riêng cho đối tượng đó.",
+            "en": "⚠️ JLPT Trap: A classic tricky pair in JLPT. 「〜向き」 (Muki) means it is NATURALLY suitable for that target. 「〜向け」 (Muke) means it was INTENTIONALLY designed/made for that target."
+        },
+        "examples": [
+            {
+                "jp": "この仕事は体力が必要なので、若い人向きだ。",
+                "vi": "Công việc này cần thể lực nên (bản chất nó) phù hợp với người trẻ.",
+                "en": "This job requires physical strength, so it is naturally suitable for young people."
+            },
+            {
+                "jp": "これは外国人向けに作られた辞書です。",
+                "vi": "Đây là cuốn từ điển được (cố ý) làm ra dành cho người nước ngoài.",
+                "en": "This is a dictionary specifically made for foreigners."
+            }
+        ]
+    }
+]

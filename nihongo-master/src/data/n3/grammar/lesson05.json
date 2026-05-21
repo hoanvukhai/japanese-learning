@@ -1,0 +1,118 @@
+[
+    {
+        "id": "g_05_01",
+        "structure": "〜たて",
+        "meaning": {
+            "vi": "Vừa mới... xong (còn tươi mới, nóng hổi)",
+            "en": "Freshly... / Just done..."
+        },
+        "formation": [
+            "V(bỏ ます) + たて"
+        ],
+        "lesson": "Bài 5",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chỉ kết hợp với một số động từ nhất định để chỉ sự tươi mới, tích cực (Ví dụ: 焼きたて - mới nướng, できたて - mới làm xong, 炊きたて - mới nấu, 採れたて - mới hái). Không dùng cho các hành động thông thường như 'mới đọc xong', 'mới ăn xong'.",
+            "en": "⚠️ JLPT Trap: Only combined with certain verbs to indicate freshness or a positive state (e.g., freshly baked, freshly picked). Not used for ordinary actions like 'just finished reading'."
+        },
+        "examples": [
+            {
+                "jp": "焼きたてのパンはとても美味しい。",
+                "vi": "Bánh mì vừa mới nướng xong rất ngon.",
+                "en": "Freshly baked bread is very delicious."
+            },
+            {
+                "jp": "これは海で採れたての魚です。",
+                "vi": "Đây là cá vừa mới đánh bắt ngoài biển về.",
+                "en": "This is freshly caught fish from the sea."
+            }
+        ]
+    },
+    {
+        "id": "g_05_02",
+        "structure": "〜てくる",
+        "meaning": {
+            "vi": "Bắt đầu... / ...Đến (hướng về phía người nói) / ...Cho đến nay",
+            "en": "To come... / To start... / Have been doing (up to now)"
+        },
+        "formation": [
+            "Vて + くる"
+        ],
+        "lesson": "Bài 5",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Có 3 nghĩa chính: (1) Hành động hướng về phía người nói, (2) Sự việc bắt đầu xảy ra (như mưa rơi, buồn ngủ), (3) Hành động kéo dài từ quá khứ ĐẾN HIỆN TẠI.",
+            "en": "⚠️ JLPT Trap: Has 3 main meanings: (1) Action moving towards the speaker, (2) An event starting to happen, (3) An action continuing from the past UP TO NOW."
+        },
+        "examples": [
+            {
+                "jp": "雨が降ってきた。早く帰ろう。",
+                "vi": "Trời đã bắt đầu đổ mưa rồi. Mau về thôi.",
+                "en": "It has started to rain. Let's go home quickly."
+            },
+            {
+                "jp": "今まで日本語を３年間勉強してきました。",
+                "vi": "Từ trước cho đến nay, tôi đã học tiếng Nhật được 3 năm rồi.",
+                "en": "I have been studying Japanese for 3 years up to now."
+            }
+        ]
+    },
+    {
+        "id": "g_05_03",
+        "structure": "〜ていく",
+        "meaning": {
+            "vi": "...Đi (rời xa người nói) / Tiếp tục... (từ nay về sau)",
+            "en": "To go... / To continue (from now on)"
+        },
+        "formation": [
+            "Vて + いく"
+        ],
+        "lesson": "Bài 5",
+        "group": "CompoundVerbs",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Ngược lại với ~てくる. Dùng để diễn tả một hành động/sự biến đổi sẽ TIẾP TỤC kéo dài từ hiện tại đến tương lai, hoặc hành động di chuyển ra xa khỏi người nói.",
+            "en": "⚠️ JLPT Trap: The opposite of ~てくる. Used to describe an action/change that will CONTINUE from the present into the future, or moving away from the speaker."
+        },
+        "examples": [
+            {
+                "jp": "鳥が空へ飛んでいった。",
+                "vi": "Chú chim đã bay đi mất lên bầu trời.",
+                "en": "The bird flew away into the sky."
+            },
+            {
+                "jp": "これからも日本語の勉強を続けていくつもりです。",
+                "vi": "Từ nay về sau tôi vẫn dự định tiếp tục việc học tiếng Nhật.",
+                "en": "I intend to continue studying Japanese from now on."
+            }
+        ]
+    },
+    {
+        "id": "g_05_04",
+        "structure": "〜ば / 〜たら･･･よかった（のに）/ いいのに",
+        "meaning": {
+            "vi": "Giá mà... thì tốt biết mấy (thể hiện sự nuối tiếc, hối hận)",
+            "en": "I wish I had... / It would be great if..."
+        },
+        "formation": [
+            "Vば / Vたら / Vなければ / Vなかったら + よかった / いいのに"
+        ],
+        "lesson": "Bài 5",
+        "group": "Emotion_Desire",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Tận cùng bằng 「～よかった」 dùng để HỐI HẬN về việc trong quá khứ. Tận cùng bằng 「～いいのに」 dùng để MONG ƯỚC một điều trái với hiện tại hoặc tương lai.",
+            "en": "⚠️ JLPT Trap: Ending with 「～よかった」 expresses REGRET about the past. Ending with 「～いいのに」 expresses a WISH contrary to the present or future."
+        },
+        "examples": [
+            {
+                "jp": "もっと早く勉強を始めればよかった。",
+                "vi": "Giá mà tôi bắt đầu học sớm hơn thì đã tốt (thực tế là tôi đã không học).",
+                "en": "I wish I had started studying earlier (but I didn't)."
+            },
+            {
+                "jp": "明日、雨が降らなければいいのに。",
+                "vi": "Giá mà ngày mai trời đừng mưa thì tốt biết mấy.",
+                "en": "It would be great if it didn't rain tomorrow."
+            }
+        ]
+    }
+]

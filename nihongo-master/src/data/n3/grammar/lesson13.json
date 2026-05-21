@@ -1,0 +1,148 @@
+[
+    {
+        "id": "g_13_01",
+        "structure": "〜ことか",
+        "meaning": {
+            "vi": "Thật là... / Biết bao nhiêu (nhấn mạnh cảm xúc)",
+            "en": "How...! / So much... (emphasizing emotion)"
+        },
+        "formation": [
+            "Thể thông thường (Nな / Aな) + ことか",
+            "Thường đi kèm với: どんなに, どれほど, 何回..."
+        ],
+        "lesson": "Bài 13",
+        "group": "Emotion_Desire",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Mẫu câu dùng để bộc lộ cảm xúc cực độ (vui, buồn, khó khăn, nhớ nhung) từ tận đáy lòng. Luôn đi kèm với các từ để hỏi chỉ mức độ (どんなに, どれだけ...).",
+            "en": "⚠️ JLPT Trap: Used to express extreme emotions (joy, sadness, difficulty, longing) from the bottom of one's heart. Always accompanied by interrogative words indicating degree (どんなに, どれだけ...)."
+        },
+        "examples": [
+            {
+                "jp": "合格できたと知ったとき、どんなに嬉しかったことか。",
+                "vi": "Khi biết mình đã thi đỗ, tôi đã vui mừng biết bao nhiêu.",
+                "en": "How happy I was when I found out I had passed."
+            },
+            {
+                "jp": "日本での生活は、最初どれほど大変だったことか。",
+                "vi": "Cuộc sống ở Nhật Bản thời gian đầu đã vất vả biết nhường nào.",
+                "en": "How difficult life in Japan was at the beginning."
+            }
+        ]
+    },
+    {
+        "id": "g_13_02",
+        "structure": "〜一方で（は）",
+        "meaning": {
+            "vi": "Một mặt thì... mặt khác thì...",
+            "en": "On the one hand... on the other hand..."
+        },
+        "formation": [
+            "Thể thông thường (Nである / Aな / Aである) + 一方で"
+        ],
+        "lesson": "Bài 13",
+        "group": "Contrast",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thể hiện hai mặt đối lập (hoặc song song) của CÙNG MỘT sự vật, sự việc hoặc một người. Khác với 反面 (chỉ dùng cho sự đối lập trái ngược hoàn toàn).",
+            "en": "⚠️ JLPT Trap: Expresses two opposing (or parallel) sides of the SAME object, event, or person. Different from 反面 (which is used exclusively for complete opposites)."
+        },
+        "examples": [
+            {
+                "jp": "この仕事は給料が高い一方で、ストレスも大きい。",
+                "vi": "Công việc này một mặt thì lương cao, nhưng mặt khác thì áp lực cũng lớn.",
+                "en": "While this job pays well, on the other hand, it is also highly stressful."
+            },
+            {
+                "jp": "彼女は女優として活躍する一方で、親善大使としても働いている。",
+                "vi": "Cô ấy một mặt hoạt động với tư cách là diễn viên, mặt khác cũng làm việc như một đại sứ thiện chí.",
+                "en": "While she is active as an actress, she also works as a goodwill ambassador."
+            }
+        ]
+    },
+    {
+        "id": "g_13_03",
+        "structure": "〜を中心に（して） / 〜を中心として",
+        "meaning": {
+            "vi": "Lấy... làm trung tâm / Trọng tâm là...",
+            "en": "Centered around... / Focusing on..."
+        },
+        "formation": [
+            "N + を中心に / を中心にして / を中心として"
+        ],
+        "lesson": "Bài 13",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chỉ ra một nhân vật, địa điểm, hoặc chủ đề làm cốt lõi, từ đó các hành động, sự việc khác xoay quanh và lan rộng ra.",
+            "en": "⚠️ JLPT Trap: Indicates a person, place, or topic as the core, around which other actions or events revolve and expand."
+        },
+        "examples": [
+            {
+                "jp": "東京を中心に、広い範囲で地震がありました。",
+                "vi": "Đã có động đất trên diện rộng, lấy Tokyo làm trung tâm.",
+                "en": "There was an earthquake over a wide area, centered around Tokyo."
+            },
+            {
+                "jp": "文法を中心に日本語を勉強している。",
+                "vi": "Tôi đang học tiếng Nhật với trọng tâm là ngữ pháp.",
+                "en": "I am studying Japanese focusing primarily on grammar."
+            }
+        ]
+    },
+    {
+        "id": "g_13_04",
+        "structure": "〜に違いない",
+        "meaning": {
+            "vi": "Chắc chắn là... / Không thể sai được",
+            "en": "There is no doubt that... / Must be..."
+        },
+        "formation": [
+            "Thể thông thường (N / A(bỏ だ)) + に違いない"
+        ],
+        "lesson": "Bài 13",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thể hiện sự phán đoán mang tính CHỦ QUAN của người nói với mức độ tin tưởng 100% dựa trên một căn cứ nào đó. Nghĩa tương đương với 「～はずだ」 nhưng mang sắc thái khẳng định mạnh mẽ hơn.",
+            "en": "⚠️ JLPT Trap: Expresses the speaker's SUBJECTIVE judgment with 100% confidence based on some evidence. Similar to 「～はずだ」 but carries a stronger assertive nuance."
+        },
+        "examples": [
+            {
+                "jp": "鍵がない。どこかに落としたに違いない。",
+                "vi": "Không thấy chìa khóa đâu. Chắc chắn là tôi đã làm rơi ở đâu đó rồi.",
+                "en": "The key is missing. I must have dropped it somewhere."
+            },
+            {
+                "jp": "あんなに練習したのだから、彼は合格するに違いない。",
+                "vi": "Luyện tập nhiều đến thế cơ mà, cậu ấy chắc chắn sẽ đỗ thôi.",
+                "en": "Since he practiced that much, there is no doubt he will pass."
+            }
+        ]
+    },
+    {
+        "id": "g_13_05",
+        "structure": "〜に従い / 〜に従って",
+        "meaning": {
+            "vi": "Cùng với sự thay đổi của A... thì B cũng thay đổi / Tuân theo...",
+            "en": "As A changes, B also changes / In accordance with..."
+        },
+        "formation": [
+            "Vる / N + に従い（にしたがい）/ に従って（にしたがって）"
+        ],
+        "lesson": "Bài 13",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Có 2 nghĩa. Nghĩa 1: Kéo theo sự biến đổi (giống につれて / に伴って). Nghĩa 2: Tuân theo (quy tắc, chỉ thị, pháp luật).",
+            "en": "⚠️ JLPT Trap: Has 2 meanings. Meaning 1: Accompanying a change (similar to につれて / に伴って). Meaning 2: To obey/follow (rules, instructions, laws)."
+        },
+        "examples": [
+            {
+                "jp": "町が発展するに従って、自然が少なくなってきた。",
+                "vi": "Cùng với sự phát triển của thị trấn, thiên nhiên ngày càng ít đi.",
+                "en": "As the town develops, nature has become scarce."
+            },
+            {
+                "jp": "先生の指示に従って、テストを始めてください。",
+                "vi": "Hãy tuân theo chỉ thị của giáo viên và bắt đầu bài kiểm tra.",
+                "en": "Please follow the teacher's instructions and start the test."
+            }
+        ]
+    }
+]

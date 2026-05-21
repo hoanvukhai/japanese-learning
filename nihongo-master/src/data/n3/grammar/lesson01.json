@@ -1,0 +1,122 @@
+[
+  {
+    "id": "g_01_01",
+    "structure": "〜がる / 〜がっている",
+    "meaning": {
+      "vi": "Cảm thấy... / Tỏ ra... (cảm xúc của người thứ ba)",
+      "en": "To show signs of... / To feel... (third person's emotion)"
+    },
+    "formation": [
+      "A(bỏ い) + がる",
+      "A(bỏ な) + がる",
+      "Vたい(bỏ い) + がる"
+    ],
+    "lesson": "Bài 1",
+    "group": "StateTendency",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Tuyệt đối KHÔNG dùng ~がる để nói về cảm xúc/mong muốn của bản thân mình. Chỉ dùng để miêu tả biểu hiện, cảm xúc của NGƯỜI KHÁC.",
+      "en": "⚠️ JLPT Trap: NEVER use ~がる to describe your own emotions or desires. It is exclusively used for describing the feelings of OTHERS."
+    },
+    "examples": [
+      {
+        "jp": "妹は犬を怖がる。",
+        "vi": "Em gái tôi tỏ ra sợ chó.",
+        "en": "My younger sister shows fear of dogs."
+      },
+      {
+        "jp": "彼は新しいゲームを欲しがっている。",
+        "vi": "Thằng bé đang tỏ ra rất muốn có trò chơi mới.",
+        "en": "He is showing that he wants the new game."
+      }
+    ]
+  },
+  {
+    "id": "g_01_02",
+    "structure": "〜てほしい / 〜てもらいたい / 〜ていただきたい",
+    "meaning": {
+      "vi": "Muốn (ai đó) làm gì cho mình",
+      "en": "Want someone to do something"
+    },
+    "formation": [
+      "Vて / Vないで + ほしい",
+      "Vて / Vないで + もらいたい / いただきたい"
+    ],
+    "lesson": "Bài 1",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Phân biệt với Vたい (Mình muốn TỰ LÀM). ～てほしい là mình muốn NGƯỜI KHÁC làm hành động đó. Người thực hiện hành động được đi kèm với trợ từ 「に」.",
+      "en": "⚠️ JLPT Trap: Differentiate from Vたい (wanting to do something yourself). ～てほしい means you want SOMEONE ELSE to do it. The person performing the action is marked with the particle 「に」."
+    },
+    "examples": [
+      {
+        "jp": "親には長生きしてほしい。",
+        "vi": "Tôi muốn bố mẹ sống thật lâu.",
+        "en": "I want my parents to live a long life."
+      },
+      {
+        "jp": "このことは誰にも言わないでもらいたい。",
+        "vi": "Tôi muốn bạn đừng nói chuyện này với bất kỳ ai.",
+        "en": "I want you not to tell anyone about this."
+      }
+    ]
+  },
+  {
+    "id": "g_01_03",
+    "structure": "〜って",
+    "meaning": {
+      "vi": "Nghe nói là... / Cái gọi là...",
+      "en": "I heard that... / The thing called..."
+    },
+    "formation": [
+      "Thể thông thường (普通形) + って"
+    ],
+    "lesson": "Bài 1",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Dùng trong văn nói thân mật, thay thế cho 「～と言っていました」 (Nghe nói), 「～という」 (Cái gọi là) hoặc 「～とは」 (Định nghĩa).",
+      "en": "⚠️ JLPT Trap: Used in casual spoken language, replacing 「～と言っていました」 (heard that), 「～という」 (called), or 「～とは」 (definition)."
+    },
+    "examples": [
+      {
+        "jp": "山田さん、明日の会議に遅れるって。",
+        "vi": "Yamada bảo là ngày mai sẽ đến họp muộn đấy.",
+        "en": "Yamada said he will be late for tomorrow's meeting."
+      },
+      {
+        "jp": "「君の名は」って映画、見た？",
+        "vi": "Cậu đã xem bộ phim (có tên) là 'Your Name' chưa?",
+        "en": "Have you seen the movie called 'Your Name'?"
+      }
+    ]
+  },
+  {
+    "id": "g_01_04",
+    "structure": "〜ずに",
+    "meaning": {
+      "vi": "Không làm... mà làm... (Bỏ qua hành động A để làm B)",
+      "en": "Without doing... (Doing B instead of A)"
+    },
+    "formation": [
+      "Vない(bỏ ない) + ずに",
+      "※Ngoại lệ: する ➔ せずに"
+    ],
+    "lesson": "Bài 1",
+    "group": "Condition_Negative",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Đồng nghĩa với 「～ないで」. Hãy nhớ kỹ ngoại lệ duy nhất: する biến thành せずに (đáp án thi rất hay lừa chỗ này).",
+      "en": "⚠️ JLPT Trap: Synonymous with 「～ないで」. Remember the only exception: する becomes せずに (a very common trap in exams)."
+    },
+    "examples": [
+      {
+        "jp": "辞書を使わずに、日本語の新聞を読んだ。",
+        "vi": "Tôi đã đọc báo tiếng Nhật mà không dùng từ điển.",
+        "en": "I read a Japanese newspaper without using a dictionary."
+      },
+      {
+        "jp": "昨夜は歯を磨かずに寝てしまった。",
+        "vi": "Đêm qua tôi đã ngủ thiếp đi mà không đánh răng.",
+        "en": "I fell asleep last night without brushing my teeth."
+      }
+    ]
+  }
+]

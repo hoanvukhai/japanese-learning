@@ -1,0 +1,181 @@
+[
+    {
+        "id": "g_06_01",
+        "structure": "〜だらけ",
+        "meaning": {
+            "vi": "Đầy, toàn là... (nghĩa tiêu cực)",
+            "en": "Full of... / Covered with... (negative nuance)"
+        },
+        "formation": [
+            "N + だらけ"
+        ],
+        "lesson": "Bài 6",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Chỉ dùng cho những thứ MANG TÍNH TIÊU CỰC, gây khó chịu (Ví dụ: 泥だらけ - đầy bùn, 傷だらけ - đầy vết thương, ゴミだらけ - đầy rác, 間違いだらけ - đầy lỗi sai). Tuyệt đối không dùng cho thứ tốt (như 'đầy tiền').",
+            "en": "⚠️ JLPT Trap: Exclusively used for NEGATIVE, unpleasant things (e.g., covered in mud, full of mistakes, full of garbage). Never use for positive things like 'full of money'."
+        },
+        "examples": [
+            {
+                "jp": "雨の中を歩いたので、靴が泥だらけになった。",
+                "vi": "Vì đi bộ trong mưa nên giày của tôi dính đầy bùn.",
+                "en": "Because I walked in the rain, my shoes got covered with mud."
+            },
+            {
+                "jp": "彼のテストの答案は間違いだらけだった。",
+                "vi": "Phiếu trả lời bài kiểm tra của cậu ấy đầy rẫy lỗi sai.",
+                "en": "His test answer sheet was full of mistakes."
+            }
+        ]
+    },
+    {
+        "id": "g_06_02",
+        "structure": "〜ばかり / 〜てばかりいる",
+        "meaning": {
+            "vi": "Toàn là... / Chỉ toàn làm...",
+            "en": "Only... / Doing nothing but..."
+        },
+        "formation": [
+            "N + ばかり / ばかりだ",
+            "Vて + ばかりいる"
+        ],
+        "lesson": "Bài 6",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thường mang hàm ý CHỈ TRÍCH, phê phán vì một trạng thái cứ lặp đi lặp lại hoặc chiếm số lượng quá nhiều. Khác với だけ (chỉ) mang tính trung lập.",
+            "en": "⚠️ JLPT Trap: Often carries a nuance of CRITICISM because a state repeats or occupies too much quantity. Different from だけ (only), which is neutral."
+        },
+        "examples": [
+            {
+                "jp": "うちの息子は、毎日ゲームをしてばかりいる。",
+                "vi": "Con trai tôi ngày nào cũng chỉ toàn chơi game (chẳng làm gì khác).",
+                "en": "My son does nothing but play games every day."
+            },
+            {
+                "jp": "甘いものばかり食べると、太りますよ。",
+                "vi": "Nếu chỉ toàn ăn đồ ngọt thôi là sẽ bị béo đấy.",
+                "en": "If you only eat sweet things, you will gain weight."
+            }
+        ]
+    },
+    {
+        "id": "g_06_03",
+        "structure": "〜たびに",
+        "meaning": {
+            "vi": "Cứ mỗi lần... thì lại...",
+            "en": "Every time... / Whenever..."
+        },
+        "formation": [
+            "Vる + たびに",
+            "Nの + たびに"
+        ],
+        "lesson": "Bài 6",
+        "group": "TimeSequence",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Vế sau thường là một cảm xúc, sự thay đổi. KHÔNG dùng cho các thói quen hoặc sự thật hiển nhiên (Ví dụ không nói 'Cứ mỗi lần sáng thức dậy tôi lại đánh răng').",
+            "en": "⚠️ JLPT Trap: The latter clause is usually an emotion or a change. NOT used for obvious daily habits (e.g., do not say 'Every time I wake up, I brush my teeth')."
+        },
+        "examples": [
+            {
+                "jp": "この曲を聞くたびに、昔の恋人を思い出す。",
+                "vi": "Cứ mỗi lần nghe bài hát này, tôi lại nhớ về người yêu cũ.",
+                "en": "Every time I hear this song, I remember my ex-lover."
+            },
+            {
+                "jp": "彼は会うたびに、髪の毛の色が違う。",
+                "vi": "Cậu ta cứ mỗi lần gặp là màu tóc lại khác nhau.",
+                "en": "Every time I meet him, his hair color is different."
+            }
+        ]
+    },
+    {
+        "id": "g_06_04",
+        "structure": "〜ついでに",
+        "meaning": {
+            "vi": "Nhân tiện... (tiện thể làm việc A thì làm luôn việc B)",
+            "en": "While (doing A), incidentally (doing B)"
+        },
+        "formation": [
+            "Vる / Vた + ついでに",
+            "Nの + ついでに"
+        ],
+        "lesson": "Bài 6",
+        "group": "TimeSequence",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Hành động ở vế trước là hành động CHÍNH (có chủ đích), hành động ở vế sau là hành động PHỤ (được thực hiện kèm theo trên cùng một lộ trình).",
+            "en": "⚠️ JLPT Trap: The preceding action is the MAIN action (intentional), and the following action is the SECONDARY action (done along the way)."
+        },
+        "examples": [
+            {
+                "jp": "散歩のついでに、コンビニで牛乳を買ってきた。",
+                "vi": "Nhân tiện đi dạo, tôi đã ghé cửa hàng tiện lợi mua sữa về.",
+                "en": "While taking a walk, I incidentally bought milk at the convenience store."
+            },
+            {
+                "jp": "郵便局へ行くついでに、手紙を出してくれませんか。",
+                "vi": "Nhân tiện đi đến bưu điện, bạn có thể gửi bức thư này giúp tôi được không?",
+                "en": "While you are going to the post office, could you mail this letter for me?"
+            }
+        ]
+    },
+    {
+        "id": "g_06_05",
+        "structure": "〜うちに",
+        "meaning": {
+            "vi": "Trong lúc / Nhân lúc... (trạng thái chưa thay đổi)",
+            "en": "While... (before the state changes)"
+        },
+        "formation": [
+            "Vる / Vている / Vない + うちに",
+            "Aい / Aな / Nの + うちに"
+        ],
+        "lesson": "Bài 6",
+        "group": "TimeSequence",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nhấn mạnh vào việc 'Phải tranh thủ làm ngay, nếu để trạng thái thay đổi mất thì sẽ không làm được nữa'. Rất hay nhầm với 間に.",
+            "en": "⚠️ JLPT Trap: Emphasizes 'Must do it now, because if the state changes, it will be impossible to do'. Very often confused with 間に."
+        },
+        "examples": [
+            {
+                "jp": "アイスクリームが溶けないうちに食べてください。",
+                "vi": "Nhân lúc kem còn chưa tan thì hãy ăn đi.",
+                "en": "Please eat the ice cream while it hasn't melted."
+            },
+            {
+                "jp": "若いうちに、いろいろなことを経験したほうがいい。",
+                "vi": "Trong lúc còn trẻ thì nên trải nghiệm nhiều thứ.",
+                "en": "While you are young, it is better to experience various things."
+            }
+        ]
+    },
+    {
+        "id": "g_06_06",
+        "structure": "〜あいだ / 〜あいだに",
+        "meaning": {
+            "vi": "Trong suốt lúc / Trong lúc...",
+            "en": "While / During..."
+        },
+        "formation": [
+            "Vている + あいだ / あいだに",
+            "Nの + あいだ / あいだに"
+        ],
+        "lesson": "Bài 6",
+        "group": "TimeSequence",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: 「あいだ」 dùng khi hành động vế 2 KÉO DÀI LIÊN TỤC song song với vế 1. 「あいだに」 dùng khi hành động vế 2 chỉ XẢY RA TRONG CHỐC LÁT rồi kết thúc.",
+            "en": "⚠️ JLPT Trap: 「あいだ」 is used when the second action CONTINUES in parallel with the first. 「あいだに」 is used when the second action OCCURS MOMENTARILY and ends."
+        },
+        "examples": [
+            {
+                "jp": "夏休みのあいだ、ずっとゲームをしていた。",
+                "vi": "Trong suốt kỳ nghỉ hè, tôi chỉ toàn chơi game (hành động kéo dài liên tục).",
+                "en": "During the entire summer vacation, I was playing games."
+            },
+            {
+                "jp": "母が昼寝をしているあいだに、こっそり遊びに出かけた。",
+                "vi": "Trong lúc mẹ đang ngủ trưa, tôi đã lén lút đi chơi (hành động diễn ra rồi kết thúc ngay).",
+                "en": "While my mother was taking a nap, I secretly went out to play."
+            }
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "id": "g_03_01",
+        "structure": "〜そうもない / 〜そうに(も)ない",
+        "meaning": {
+            "vi": "Rất khó có khả năng... / Không có vẻ gì là...",
+            "en": "Very unlikely to... / Showing no signs of..."
+        },
+        "formation": [
+            "V(bỏ ます) + そうもない / そうにない"
+        ],
+        "lesson": "Bài 3",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để phủ định mạnh mẽ khả năng xảy ra của một sự việc dựa trên tình hình quan sát được ở hiện tại.",
+            "en": "⚠️ JLPT Trap: Used to strongly deny the possibility of an event occurring based on the current observed situation."
+        },
+        "examples": [
+            {
+                "jp": "雨が降り続いていて、すぐには止みそうもない。",
+                "vi": "Mưa cứ rơi liên tục, chẳng có vẻ gì là sẽ tạnh ngay cả.",
+                "en": "It keeps raining and shows no signs of stopping soon."
+            },
+            {
+                "jp": "今日の仕事は夕方までに終わりそうにない。",
+                "vi": "Công việc hôm nay rất khó có khả năng xong trước chiều tối.",
+                "en": "Today's work is very unlikely to be finished by evening."
+            }
+        ]
+    },
+    {
+        "id": "g_03_02",
+        "structure": "〜はずがない",
+        "meaning": {
+            "vi": "Chắc chắn không... / Làm gì có chuyện...",
+            "en": "Definitely not... / It is impossible that..."
+        },
+        "formation": [
+            "Thể thông thường (Nの / Aな) + はずがない"
+        ],
+        "lesson": "Bài 3",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thể hiện sự phủ định mang tính chủ quan, dựa trên căn cứ logic vững chắc của người nói. Đồng nghĩa với 「わけがない」.",
+            "en": "⚠️ JLPT Trap: Expresses a strong subjective denial based on the speaker's logical reasoning. Synonymous with 「わけがない」."
+        },
+        "examples": [
+            {
+                "jp": "あんなに真面目な彼が、嘘をつくはずがない。",
+                "vi": "Một người chăm chỉ như anh ấy làm gì có chuyện nói dối.",
+                "en": "It is impossible that such an earnest person like him would lie."
+            }
+        ]
+    },
+    {
+        "id": "g_03_03",
+        "structure": "〜たところ",
+        "meaning": {
+            "vi": "Sau khi (thử) làm... thì (phát hiện ra điều gì đó / kết quả là)",
+            "en": "When I (tried doing)..., I found that..."
+        },
+        "formation": [
+            "Vた + ところ"
+        ],
+        "lesson": "Bài 3",
+        "group": "TimeSequence",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Vế sau thường là một kết quả bất ngờ hoặc một sự thật mới được phát hiện. KHÔNG dùng để diễn tả lịch trình định sẵn.",
+            "en": "⚠️ JLPT Trap: The latter clause often describes an unexpected result or a newly discovered fact. Do NOT use it for planned schedules."
+        },
+        "examples": [
+            {
+                "jp": "先生に聞いてみたところ、テストは来週だと言われた。",
+                "vi": "Sau khi thử hỏi giáo viên, tôi được bảo rằng bài kiểm tra là vào tuần sau.",
+                "en": "When I asked the teacher, I was told the test is next week."
+            },
+            {
+                "jp": "久しぶりに体重を量ったところ、３キロも増えていた。",
+                "vi": "Sau một thời gian dài mới cân thử, tôi phát hiện ra mình đã tăng tận 3 cân.",
+                "en": "When I weighed myself after a long time, I found I had gained 3 kilos."
+            }
+        ]
+    },
+    {
+        "id": "g_03_04",
+        "structure": "〜ところを / 〜ところへ / 〜ところに / 〜ところで",
+        "meaning": {
+            "vi": "Đúng vào lúc / Đúng khoảnh khắc...",
+            "en": "Just when... / At the moment of..."
+        },
+        "formation": [
+            "Vている / Vた / Aい / Aな / Nの + ところ + Trợ từ"
+        ],
+        "lesson": "Bài 3",
+        "group": "TimeSequence",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Trợ từ phía sau phụ thuộc hoàn toàn vào động từ của vế chính. Cản trở hành động (ところを), hướng tới/bước vào (ところへ/に), diễn ra sự thay đổi cục diện (ところで).",
+            "en": "⚠️ JLPT Trap: The following particle depends entirely on the main verb. E.g., interrupting an action (ところを), directing towards (ところへ/に), or ending/changing a phase (ところで)."
+        },
+        "examples": [
+            {
+                "jp": "お忙しいところを申し訳ありません。",
+                "vi": "Xin lỗi vì đã làm phiền đúng vào lúc anh/chị đang bận rộn.",
+                "en": "I apologize for interrupting you right when you are busy."
+            },
+            {
+                "jp": "出かけようとしているところへ、客が来た。",
+                "vi": "Đúng lúc tôi đang định đi ra ngoài thì có khách đến.",
+                "en": "Just as I was about to go out, a guest arrived."
+            }
+        ]
+    },
+    {
+        "id": "g_03_05",
+        "structure": "〜から〜にかけて",
+        "meaning": {
+            "vi": "Từ... đến... (khoảng thời gian/không gian không rõ rệt)",
+            "en": "From... to... / Over a span of..."
+        },
+        "formation": [
+            "N(Thời gian/Địa điểm) + から + N(Thời gian/Địa điểm) + にかけて"
+        ],
+        "lesson": "Bài 3",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Khác với 「～から～まで」 (chỉ điểm bắt đầu và kết thúc rõ ràng), 「～にかけて」 chỉ một phạm vi đại khái, liên tục trải dài trong khoảng đó.",
+            "en": "⚠️ JLPT Trap: Unlike 「～から～まで」 (clear start and end points), 「～にかけて」 indicates a rough, continuous span over time or space."
+        },
+        "examples": [
+            {
+                "jp": "明日は関東から東北にかけて大雨になるでしょう。",
+                "vi": "Ngày mai trời sẽ mưa lớn trải dài từ vùng Kanto đến vùng Tohoku.",
+                "en": "Tomorrow there will be heavy rain spreading from the Kanto to the Tohoku region."
+            }
+        ]
+    },
+    {
+        "id": "g_03_06",
+        "structure": "〜しかない / 〜(より)ほかない",
+        "meaning": {
+            "vi": "Không còn cách nào khác / Chỉ còn cách...",
+            "en": "Have no choice but to... / Nothing left but to..."
+        },
+        "formation": [
+            "Vる + しかない / (より)ほかない"
+        ],
+        "lesson": "Bài 3",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thường mang sắc thái cam chịu, dù không muốn nhưng đành phải làm vì không có phương án thay thế nào khác.",
+            "en": "⚠️ JLPT Trap: Often carries a nuance of resignation; doing something unwillingly because there are no alternative options."
+        },
+        "examples": [
+            {
+                "jp": "終電に乗り遅れたから、タクシーで帰るしかない。",
+                "vi": "Bị lỡ mất chuyến tàu cuối rồi nên chỉ còn cách đi taxi về.",
+                "en": "I missed the last train, so I have no choice but to take a taxi home."
+            }
+        ]
+    }
+]

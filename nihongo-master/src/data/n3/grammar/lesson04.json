@@ -1,0 +1,92 @@
+[
+    {
+        "id": "g_04_01",
+        "structure": "Vとく / Vてる / Vちゃう / Vなきゃ",
+        "meaning": {
+            "vi": "Dạng rút gọn trong văn nói của Vておく, Vている, Vてしまう, Vなければ",
+            "en": "Spoken abbreviations of Vておく, Vている, Vてしまう, Vなければ"
+        },
+        "formation": [
+            "Vておく ➔ Vとく",
+            "Vている ➔ Vてる",
+            "Vてしまう ➔ Vちゃう",
+            "Vなければ ➔ Vなきゃ"
+        ],
+        "lesson": "Bài 4",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Rất hay xuất hiện trong bài thi Nghe hiểu (Choukai). Cần phản xạ nhanh để biết nó đang thay thế cho mẫu ngữ pháp gốc nào.",
+            "en": "⚠️ JLPT Trap: Appears very frequently in the Listening section (Choukai). Requires quick reflexes to identify the original grammatical structure."
+        },
+        "examples": [
+            {
+                "jp": "パソコン、消しといて。（＝消しておいて）",
+                "vi": "Hãy tắt máy tính đi nhé.",
+                "en": "Please turn off the computer."
+            },
+            {
+                "jp": "あ、忘れちゃった！（＝忘れてしまった）",
+                "vi": "Á, tôi trót quên mất rồi!",
+                "en": "Ah, I forgot it!"
+            }
+        ]
+    },
+    {
+        "id": "g_04_02",
+        "structure": "〜んじゃない(か) / 〜のではないか / 〜だろうか",
+        "meaning": {
+            "vi": "Chẳng phải là... hay sao? / Tôi nghĩ là...",
+            "en": "Isn't it that...? / I think that..."
+        },
+        "formation": [
+            "Thể thông thường (N / Aな) + んじゃない(か) / のではないか"
+        ],
+        "lesson": "Bài 4",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Mặc dù có hình thức phủ định (ない), nhưng ý nghĩa lại là KHẲNG ĐỊNH. Dùng để nêu ý kiến của bản thân một cách nhẹ nhàng, rụt rè.",
+            "en": "⚠️ JLPT Trap: Despite the negative form (ない), the meaning is AFFIRMATIVE. Used to express one's own opinion softly or hesitantly."
+        },
+        "examples": [
+            {
+                "jp": "山田さんはまだ来ていませんね。遅れるんじゃないですか。",
+                "vi": "Yamada vẫn chưa đến nhỉ. Chẳng phải là cậu ấy sẽ đến muộn sao?",
+                "en": "Yamada hasn't arrived yet. Isn't it that he will be late?"
+            },
+            {
+                "jp": "この料理、ちょっと味が薄いのではないかと思う。",
+                "vi": "Món ăn này, tôi nghĩ là vị hơi nhạt thì phải.",
+                "en": "I think this dish might be a little bland."
+            }
+        ]
+    },
+    {
+        "id": "g_04_03",
+        "structure": "〜っぽい",
+        "meaning": {
+            "vi": "Trông có vẻ... / Hay (quên, nổi cáu) / Cứ như là...",
+            "en": "-ish / Looks like... / Tends to..."
+        },
+        "formation": [
+            "N / V(bỏ ます) / A(bỏ い) + っぽい"
+        ],
+        "lesson": "Bài 4",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thường mang sắc thái chê bai, tiêu cực (VD: 子供っぽい - trẻ con, 怒りっぽい - hay cáu, 忘れっぽい - hay quên). Cách chia ngữ pháp phía sau giống hệt tính từ đuôi い.",
+            "en": "⚠️ JLPT Trap: Often carries a critical or negative nuance (e.g., 子供っぽい - childish, 怒りっぽい - hot-tempered). Conjugates exactly like an い-adjective."
+        },
+        "examples": [
+            {
+                "jp": "彼はもう20歳なのに、話し方が子供っぽい。",
+                "vi": "Cậu ấy đã 20 tuổi rồi mà cách nói chuyện cứ như trẻ con.",
+                "en": "Even though he is 20 years old, his way of speaking is childish."
+            },
+            {
+                "jp": "最近、忘れっぽくなって困っている。",
+                "vi": "Gần đây tôi rất hay quên, thật là phiền phức.",
+                "en": "Lately, I've become forgetful, which is troublesome."
+            }
+        ]
+    }
+]

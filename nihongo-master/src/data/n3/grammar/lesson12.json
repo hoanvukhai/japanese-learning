@@ -1,0 +1,148 @@
+[
+    {
+        "id": "g_12_01",
+        "structure": "〜らしい",
+        "meaning": {
+            "vi": "Đúng chuẩn... / Ra dáng... / Đậm chất...",
+            "en": "Typical of... / Like a true..."
+        },
+        "formation": [
+            "N + らしい"
+        ],
+        "lesson": "Bài 12",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để khen ngợi/đánh giá một sự vật thể hiện ĐÚNG BẢN CHẤT LÝ TƯỞNG của nó (VD: Đàn ông ra dáng đàn ông). Khác với みたい (chỉ so sánh bề ngoài với một thứ khác biệt).",
+            "en": "⚠️ JLPT Trap: Used to praise/evaluate something that exhibits its TRUE IDEAL NATURE (e.g., a man acting like a true man). Different from みたい (which compares appearance to something different)."
+        },
+        "examples": [
+            {
+                "jp": "今日は春らしい暖かい一日だった。",
+                "vi": "Hôm nay là một ngày ấm áp đúng chuẩn mùa xuân.",
+                "en": "Today was a warm day typical of spring."
+            },
+            {
+                "jp": "もっと自分らしい生き方をしたい。",
+                "vi": "Tôi muốn sống một cách sống đậm chất bản thân mình hơn.",
+                "en": "I want to live a life that is more true to myself."
+            }
+        ]
+    },
+    {
+        "id": "g_12_02",
+        "structure": "〜おかげで / 〜おかげだ",
+        "meaning": {
+            "vi": "Nhờ có... (Mang lại kết quả tốt)",
+            "en": "Thanks to... (Positive result)"
+        },
+        "formation": [
+            "Thể thông thường (Nの / Aな) + おかげで"
+        ],
+        "lesson": "Bài 12",
+        "group": "Cause_Reason",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Luôn mang sắc thái biết ơn, dẫn đến kết quả TÍCH CỰC (Ví dụ: Nhờ có thầy mà em đã thi đỗ). Rất hiếm khi dùng để mỉa mai trong đề thi JLPT.",
+            "en": "⚠️ JLPT Trap: Always carries a nuance of gratitude, leading to a POSITIVE result (e.g., Thanks to the teacher, I passed). Very rarely used for sarcasm in JLPT."
+        },
+        "examples": [
+            {
+                "jp": "先生が教えてくれたおかげで、試験に合格できました。",
+                "vi": "Nhờ có thầy giáo dạy bảo mà em đã có thể thi đỗ kỳ thi.",
+                "en": "Thanks to the teacher teaching me, I was able to pass the exam."
+            },
+            {
+                "jp": "天気が良かったおかげで、旅行が楽しかった。",
+                "vi": "Nhờ thời tiết đẹp mà chuyến đi du lịch rất vui vẻ.",
+                "en": "Thanks to the good weather, the trip was enjoyable."
+            }
+        ]
+    },
+    {
+        "id": "g_12_03",
+        "structure": "〜せいで / 〜せいか / 〜せいだ",
+        "meaning": {
+            "vi": "Tại vì... / Do lỗi của... (Dẫn đến kết quả xấu)",
+            "en": "Due to... / Because of... (Negative result)"
+        },
+        "formation": [
+            "Thể thông thường (Nの / Aな) + せいで / せいか"
+        ],
+        "lesson": "Bài 12",
+        "group": "Cause_Reason",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Ngược lại hoàn toàn với おかげで. Luôn dẫn đến kết quả TIÊU CỰC, mang hàm ý đổ lỗi. Nếu dùng 「せいか」 thì mang nghĩa 'Không biết có phải tại vì... không'.",
+            "en": "⚠️ JLPT Trap: The exact opposite of おかげで. Always leads to a NEGATIVE result, implying blame. If 「せいか」 is used, it means 'Perhaps because of...'."
+        },
+        "examples": [
+            {
+                "jp": "バスが遅れたせいで、会議に間に合わなかった。",
+                "vi": "Tại vì xe buýt trễ nên tôi đã không kịp giờ họp.",
+                "en": "Because the bus was delayed, I didn't make it to the meeting in time."
+            },
+            {
+                "jp": "疲れているせいか、頭が痛い。",
+                "vi": "Không biết có phải tại vì mệt mỏi hay không mà tôi bị đau đầu.",
+                "en": "Perhaps because I'm tired, I have a headache."
+            }
+        ]
+    },
+    {
+        "id": "g_12_04",
+        "structure": "〜のだから / 〜んだから",
+        "meaning": {
+            "vi": "Bởi vì... (Nên đương nhiên là)",
+            "en": "Because... (It is natural that...)"
+        },
+        "formation": [
+            "Thể thông thường (Nな / Aな) + のだから / んだから"
+        ],
+        "lesson": "Bài 12",
+        "group": "Cause_Reason",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nêu ra một lý do, sự thật mà CẢ NGƯỜI NÓI VÀ NGƯỜI NGHE ĐỀU BIẾT. Vế sau thường là đánh giá, phán đoán, hoặc lời khuyên, mệnh lệnh, rủ rê.",
+            "en": "⚠️ JLPT Trap: States a reason or fact KNOWN TO BOTH THE SPEAKER AND LISTENER. The following clause is often an evaluation, advice, command, or invitation."
+        },
+        "examples": [
+            {
+                "jp": "あなたはもう大人なんだから、自分のことは自分で決めなさい。",
+                "vi": "Bởi vì con đã là người lớn rồi nên chuyện của mình hãy tự mình quyết định đi.",
+                "en": "Because you are already an adult, you should decide your own matters."
+            },
+            {
+                "jp": "せっかく海に来たんだから、泳ごうよ。",
+                "vi": "Bởi vì cất công đến biển rồi nên đương nhiên là phải bơi thôi.",
+                "en": "Since we took the trouble to come to the sea, let's swim."
+            }
+        ]
+    },
+    {
+        "id": "g_12_05",
+        "structure": "〜まま",
+        "meaning": {
+            "vi": "Cứ để nguyên như vậy / Giữ nguyên tình trạng...",
+            "en": "Leaving as is / Remaining..."
+        },
+        "formation": [
+            "Vた / Vない + まま",
+            "Nの / Aい / Aな + まま"
+        ],
+        "lesson": "Bài 12",
+        "group": "StateTendency",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Diễn tả việc giữ nguyên một trạng thái mà LẼ RA PHẢI THAY ĐỔI. Đặc biệt chú ý động từ luôn chia ở thể Vた (Ví dụ: 眼鏡をかけたまま寝る - Ngủ mà vẫn để nguyên kính).",
+            "en": "⚠️ JLPT Trap: Describes keeping a state that NORMALLY SHOULD CHANGE. Pay special attention to verbs being in the Vた form (e.g., sleeping while still wearing glasses)."
+        },
+        "examples": [
+            {
+                "jp": "昨夜はテレビをつけたまま寝てしまった。",
+                "vi": "Đêm qua tôi đã ngủ thiếp đi mà cứ để nguyên tivi bật.",
+                "en": "Last night I fell asleep leaving the TV on."
+            },
+            {
+                "jp": "靴のまま家に入らないでください。",
+                "vi": "Xin đừng cứ để nguyên giày như vậy mà đi vào nhà.",
+                "en": "Please do not enter the house with your shoes on."
+            }
+        ]
+    }
+]

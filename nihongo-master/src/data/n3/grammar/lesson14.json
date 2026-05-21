@@ -1,0 +1,179 @@
+[
+    {
+        "id": "g_14_01",
+        "structure": "〜（の）に対して",
+        "meaning": {
+            "vi": "Trái ngược với... / Trái lại...",
+            "en": "In contrast to... / While..."
+        },
+        "formation": [
+            "Thể thông thường (Nな/である / Aな/である) + のに対して",
+            "N + に対して"
+        ],
+        "lesson": "Bài 14",
+        "group": "Contrast",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để so sánh sự đối lập, khác biệt rõ rệt giữa 2 SỰ VẬT/SỰ VIỆC khác nhau (VD: Anh trai thì... trái lại em trai thì...). Khác với 一方で (chỉ 2 mặt của CÙNG 1 sự vật).",
+            "en": "⚠️ JLPT Trap: Used to compare a clear contrast or difference between TWO DIFFERENT things/events (e.g., The older brother is... while the younger brother is...). Different from 一方で (which describes 2 sides of the SAME thing)."
+        },
+        "examples": [
+            {
+                "jp": "兄が活発なのに対して、弟はおとなしい。",
+                "vi": "Trái ngược với người anh trai hoạt bát, cậu em trai lại rất trầm tính.",
+                "en": "In contrast to the active older brother, the younger brother is quiet."
+            },
+            {
+                "jp": "日本の夏が蒸し暑いのに対して、こちらの夏は乾燥している。",
+                "vi": "Trái ngược với mùa hè oi bức ở Nhật Bản, mùa hè ở đây lại hanh khô.",
+                "en": "While summer in Japan is humid, summer here is dry."
+            }
+        ]
+    },
+    {
+        "id": "g_14_02",
+        "structure": "〜に対して",
+        "meaning": {
+            "vi": "Đối với... / Hướng về...",
+            "en": "Towards... / Against... / Regarding..."
+        },
+        "formation": [
+            "N + に対して / に対し / に対する + N"
+        ],
+        "lesson": "Bài 14",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Biểu thị thái độ, hành động hướng trực tiếp vào một đối tượng mục tiêu (khách hàng, cấp trên, vấn đề...). Vế sau thường là các động từ chỉ thái độ (cười, giận, trả lời).",
+            "en": "⚠️ JLPT Trap: Indicates an attitude or action directed towards a target (customers, superiors, issues). The following clause usually contains verbs showing attitude (smile, get angry, reply)."
+        },
+        "examples": [
+            {
+                "jp": "お客様に対して、失礼なことを言ってはいけない。",
+                "vi": "Không được nói những lời thất lễ đối với khách hàng.",
+                "en": "You must not say rude things towards customers."
+            },
+            {
+                "jp": "目上の人に対する言葉遣いに気をつける。",
+                "vi": "Chú ý cách sử dụng từ ngữ đối với người bề trên.",
+                "en": "Be careful with your wording towards superiors."
+            }
+        ]
+    },
+    {
+        "id": "g_14_03",
+        "structure": "〜にとって（は / も）",
+        "meaning": {
+            "vi": "Đối với... (Đứng từ lập trường/quan điểm của...)",
+            "en": "For... / To... (From the perspective of...)"
+        },
+        "formation": [
+            "N + にとって"
+        ],
+        "lesson": "Bài 14",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: LỖI SAI KINH ĐIỂN: Rất hay nhầm với に対して. 「にとって」 Dùng để đưa ra ĐÁNH GIÁ, NHẬN XÉT từ góc nhìn của đối tượng đó. Vế sau luôn là câu đánh giá (Aい/Aな/N), KHÔNG BAO GIỜ là câu chỉ hành động.",
+            "en": "⚠️ JLPT Trap: CLASSIC MISTAKE: Often confused with に対して. 「にとって」 is used to give an EVALUATION from that subject's perspective. The following clause is ALWAYS an evaluation (Adjective/Noun), NEVER an action."
+        },
+        "examples": [
+            {
+                "jp": "私にとって、家族は一番大切なものです。",
+                "vi": "Đối với tôi (đứng từ góc độ của tôi), gia đình là thứ quan trọng nhất.",
+                "en": "To me, family is the most important thing."
+            },
+            {
+                "jp": "現代人にとって、スマホはなくてはならない存在だ。",
+                "vi": "Đối với người hiện đại, điện thoại thông minh là một tồn tại không thể thiếu.",
+                "en": "For modern people, a smartphone is an indispensable existence."
+            }
+        ]
+    },
+    {
+        "id": "g_14_04",
+        "structure": "〜に比べて / 〜と比べて",
+        "meaning": {
+            "vi": "So với...",
+            "en": "Compared to..."
+        },
+        "formation": [
+            "N + に比べて / と比べて"
+        ],
+        "lesson": "Bài 14",
+        "group": "Contrast",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đơn giản là đặt hai sự vật, sự việc lên bàn cân để xem xét mức độ (A hơn B hoặc A kém B).",
+            "en": "⚠️ JLPT Trap: Simply places two things/events on a scale to compare their degrees (A is more/less than B)."
+        },
+        "examples": [
+            {
+                "jp": "今年は去年に比べて、雪の量が多い。",
+                "vi": "Năm nay lượng tuyết nhiều hơn so với năm ngoái.",
+                "en": "Compared to last year, there is more snow this year."
+            },
+            {
+                "jp": "田舎は都会と比べて、物価が安い。",
+                "vi": "So với thành thị thì ở nông thôn vật giá rẻ hơn.",
+                "en": "Compared to the city, prices in the countryside are cheaper."
+            }
+        ]
+    },
+    {
+        "id": "g_14_05",
+        "structure": "〜において / 〜における",
+        "meaning": {
+            "vi": "Tại / Ở / Trong (bối cảnh, thời đại, lĩnh vực)",
+            "en": "At / In / During (context, era, field)"
+        },
+        "formation": [
+            "N + において",
+            "N + における + N"
+        ],
+        "lesson": "Bài 14",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đây là cách nói TRANG TRỌNG (dùng trong văn viết, tin tức) của trợ từ 「で」 (chỉ địa điểm, thời gian xảy ra sự việc).",
+            "en": "⚠️ JLPT Trap: This is a FORMAL equivalent (used in writing and news) of the particle 「で」 (indicating the place or time an event occurs)."
+        },
+        "examples": [
+            {
+                "jp": "卒業式は体育館において行われます。",
+                "vi": "Lễ tốt nghiệp sẽ được tổ chức tại nhà thi đấu.",
+                "en": "The graduation ceremony will be held at the gymnasium."
+            },
+            {
+                "jp": "これは教育における重要な問題です。",
+                "vi": "Đây là một vấn đề quan trọng trong lĩnh vực giáo dục.",
+                "en": "This is an important issue in the field of education."
+            }
+        ]
+    },
+    {
+        "id": "g_14_06",
+        "structure": "〜について / 〜についての",
+        "meaning": {
+            "vi": "Về (vấn đề, chủ đề gì đó)...",
+            "en": "About... / Regarding..."
+        },
+        "formation": [
+            "N + について",
+            "N + についての + N"
+        ],
+        "lesson": "Bài 14",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nêu lên nội dung, chủ đề của hành động. Vế sau bắt buộc phải là các động từ liên quan đến truyền đạt, tư duy (話す, 書く, 考える, 調べる...).",
+            "en": "⚠️ JLPT Trap: States the content or topic of an action. The following clause MUST contain verbs related to communication or thinking (talk, write, think, investigate...)."
+        },
+        "examples": [
+            {
+                "jp": "日本の文化について調べています。",
+                "vi": "Tôi đang tìm hiểu về văn hóa Nhật Bản.",
+                "en": "I am investigating about Japanese culture."
+            },
+            {
+                "jp": "環境問題についての作文を書いた。",
+                "vi": "Tôi đã viết một bài văn về vấn đề môi trường.",
+                "en": "I wrote an essay about environmental issues."
+            }
+        ]
+    }
+]

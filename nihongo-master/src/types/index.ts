@@ -69,3 +69,27 @@ export interface Kanji {
   
   words: KanjiWord[];       // Mảng chứa các từ vựng ghép với chữ Hán này
 }
+
+// Grammar types
+export interface GrammarExample {
+  jp: string;               // Câu ví dụ tiếng Nhật
+  vi: string;               // Nghĩa tiếng Việt
+  en?: string;              // Nghĩa tiếng Anh (optional)
+}
+
+export interface GrammarItem {
+  id: string;               // VD: 'g_01_01'
+  structure: string;        // Cấu trúc (VD: '〜がる / 〜がっている')
+  meaning: {
+    vi: string;
+    en?: string;
+  };                        // Nghĩa tiếng Việt và tiếng Anh ngắn gọn
+  formation: string[];      // Cách thành lập (mảng các dạng biến thể)
+  lesson: string;           // 'Bài 1' — dùng cho chế độ Học theo bài
+  group: string;            // 'Emotion_Desire' — dùng cho Game đối kháng
+  caution: {
+    vi: string;
+    en?: string;
+  };                        // Lời nhắc bẫy JLPT
+  examples: GrammarExample[]; // Câu ví dụ
+}

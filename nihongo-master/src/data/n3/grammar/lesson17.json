@@ -1,0 +1,178 @@
+[
+    {
+        "id": "g_17_01",
+        "structure": "〜とは / 〜というのは",
+        "meaning": {
+            "vi": "Nghĩa là... / Cái gọi là... (Định nghĩa)",
+            "en": "Means... / The term... (Definition)"
+        },
+        "formation": [
+            "N + とは / というのは"
+        ],
+        "lesson": "Bài 17",
+        "group": "Hearsay_Quotation",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để giải thích ý nghĩa của một từ vựng, thuật ngữ hoặc một khái niệm. Vế sau thường đi với 「～のことだ」, 「～という意味だ」.",
+            "en": "⚠️ JLPT Trap: Used to explain the meaning of a vocabulary word, term, or concept. The following clause often ends with 「～のことだ」 or 「～という意味だ」."
+        },
+        "examples": [
+            {
+                "jp": "「デジカメ」とは、デジタルカメラのことです。",
+                "vi": "「Dejikame」 nghĩa là máy ảnh kỹ thuật số.",
+                "en": "The term 'Dejikame' refers to a digital camera."
+            },
+            {
+                "jp": "「立入禁止」というのは、ここに入ってはいけないという意味だ。",
+                "vi": "「Tachiiri kinshi」 có nghĩa là không được phép vào đây.",
+                "en": "'Tachiiri kinshi' means that you must not enter here."
+            }
+        ]
+    },
+    {
+        "id": "g_17_02",
+        "structure": "〜ということだ / 〜とのことだ",
+        "meaning": {
+            "vi": "Nghe nói là... / Tức là... (Kết luận)",
+            "en": "I heard that... / It means that..."
+        },
+        "formation": [
+            "Thể thông thường + ということだ",
+            "N / Câu + とのことだ"
+        ],
+        "lesson": "Bài 17",
+        "group": "Hearsay_Quotation",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Có 2 ý nghĩa hoàn toàn khác nhau: (1) Truyền đạt lại thông tin (giống そうだ/らしい). (2) Tóm tắt, rút ra kết luận từ một sự việc (Tức là...). Riêng 「とのことだ」 thường dùng để truyền đạt lại lời nhắn một cách lịch sự.",
+            "en": "⚠️ JLPT Trap: Has 2 completely different meanings: (1) Relaying information (like そうだ/らしい). (2) Summarizing or drawing a conclusion (It means that...). 「とのことだ」 is often used to politely relay a message."
+        },
+        "examples": [
+            {
+                "jp": "ニュースによると、明日は大雪になるということだ。",
+                "vi": "Theo tin tức, nghe nói là ngày mai sẽ có tuyết lớn.",
+                "en": "According to the news, I heard that there will be heavy snow tomorrow."
+            },
+            {
+                "jp": "ご意見がないということは、賛成ということですね。",
+                "vi": "Việc không có ý kiến gì, tức là mọi người đều tán thành đúng không?",
+                "en": "Having no objections means that you agree, right?"
+            }
+        ]
+    },
+    {
+        "id": "g_17_03",
+        "structure": "〜こと",
+        "meaning": {
+            "vi": "Phải... / Không được... (Quy tắc, mệnh lệnh)",
+            "en": "Must... / Must not... (Rule, command)"
+        },
+        "formation": [
+            "Vる / Vない + こと"
+        ],
+        "lesson": "Bài 17",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng trong văn viết, đặc biệt xuất hiện trên các bảng nội quy, thông báo, hoặc lời nhắc nhở mạnh mẽ. Luôn đứng ở cuối câu.",
+            "en": "⚠️ JLPT Trap: Used in written language, especially appearing on rule boards, notices, or strong warnings. Always placed at the end of a sentence."
+        },
+        "examples": [
+            {
+                "jp": "図書館では静かにすること。",
+                "vi": "Trong thư viện phải giữ trật tự.",
+                "en": "You must be quiet in the library."
+            },
+            {
+                "jp": "テスト中は携帯電話を使わないこと。",
+                "vi": "Trong giờ kiểm tra không được sử dụng điện thoại di động.",
+                "en": "You must not use mobile phones during the test."
+            }
+        ]
+    },
+    {
+        "id": "g_17_04",
+        "structure": "〜ないことはない / 〜ないこともない",
+        "meaning": {
+            "vi": "Không phải là không... (Nhưng...)",
+            "en": "It's not that I don't/can't... (But...)"
+        },
+        "formation": [
+            "Vない / A(bỏ い)くない / A(bỏ な)ではない / Nではない + ことはない"
+        ],
+        "lesson": "Bài 17",
+        "group": "Contrast",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Phủ định của phủ định để biểu thị sự khẳng định yếu ớt. Hàm ý: 'Có thể làm được, nhưng phải tốn thời gian/có điều kiện đi kèm' hoặc 'Không hoàn toàn từ chối'.",
+            "en": "⚠️ JLPT Trap: A double negative used to express a weak affirmative. Implies: 'It can be done, but it takes time/has conditions' or 'I don't completely refuse'."
+        },
+        "examples": [
+            {
+                "jp": "納豆は食べられないことはないですが、あまり好きではありません。",
+                "vi": "Natto thì không phải là tôi không ăn được, nhưng tôi không thích lắm.",
+                "en": "It's not that I can't eat natto, but I don't really like it."
+            },
+            {
+                "jp": "走れば、電車の時間に間に合わないこともない。",
+                "vi": "Nếu chạy thì không phải là không kịp giờ tàu (vẫn có thể kịp).",
+                "en": "If we run, it's not impossible to make it in time for the train."
+            }
+        ]
+    },
+    {
+        "id": "g_17_05",
+        "structure": "〜ことはない",
+        "meaning": {
+            "vi": "Không cần thiết phải... / Việc gì phải...",
+            "en": "There is no need to... / You don't have to..."
+        },
+        "formation": [
+            "Vる + ことはない"
+        ],
+        "lesson": "Bài 17",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để khuyên nhủ, động viên người khác (Ví dụ: 'Việc gì phải khóc', 'Không cần phải lo'). TUYỆT ĐỐI KHÔNG dùng để nói về hành động của bản thân mình.",
+            "en": "⚠️ JLPT Trap: Used to advise or encourage others (e.g., 'There's no need to cry', 'You don't have to worry'). ABSOLUTELY NEVER use it to talk about your own actions."
+        },
+        "examples": [
+            {
+                "jp": "君が謝ることはないよ。君は悪くないんだから。",
+                "vi": "Cậu không cần thiết phải xin lỗi đâu. Cậu không có lỗi mà.",
+                "en": "There is no need for you to apologize. It's not your fault."
+            },
+            {
+                "jp": "そんなに心配することはありません。すぐに治りますよ。",
+                "vi": "Không có việc gì phải lo lắng đến mức đó đâu. Sẽ khỏi ngay thôi.",
+                "en": "There is no need to worry that much. It will heal soon."
+            }
+        ]
+    },
+    {
+        "id": "g_17_06",
+        "structure": "〜べきだ / 〜べきではない",
+        "meaning": {
+            "vi": "Nên / Không nên (Trách nhiệm, đạo lý)",
+            "en": "Should / Should not (Duty, morality)"
+        },
+        "formation": [
+            "Vる + べきだ",
+            "※Ngoại lệ: する ➔ すべきだ / するべきだ"
+        ],
+        "lesson": "Bài 17",
+        "group": "SpokenAdvice",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thể hiện lời khuyên mang tính đạo lý, trách nhiệm, hoặc lẽ thường (Ai cũng nghĩ thế). Tránh dùng trực tiếp với người lớn tuổi vì mang sắc thái dạy đời. Chú ý ngoại lệ của động từ する.",
+            "en": "⚠️ JLPT Trap: Expresses advice based on morality, duty, or common sense (everyone thinks so). Avoid using directly with older people as it sounds preachy. Note the exception for the verb する."
+        },
+        "examples": [
+            {
+                "jp": "約束は守るべきだ。",
+                "vi": "Đã hứa thì (theo lẽ thường) nên giữ lời.",
+                "en": "You should keep your promises."
+            },
+            {
+                "jp": "子供にそんなひどいことを言うべきではない。",
+                "vi": "Không nên nói những lời tồi tệ như vậy với trẻ em.",
+                "en": "You should not say such terrible things to children."
+            }
+        ]
+    }
+]

@@ -24,6 +24,13 @@ import KanjiFlashcard from './pages/Kanji/KanjiFlashcard';
 import KanjiQuiz from './pages/Kanji/KanjiQuiz';
 import KanjiMatching from './pages/Kanji/KanjiMatching';
 import KanjiTyping from './pages/Kanji/KanjiTyping';
+import GrammarDashboard from './pages/Grammar/GrammarDashboard';
+import GrammarStudy from './pages/Grammar/GrammarStudy';
+import GrammarFlashcard from './pages/Grammar/GrammarFlashcard';
+import GrammarQuiz from './pages/Grammar/GrammarQuiz';
+import GrammarWordOrder from './pages/Grammar/GrammarWordOrder';
+import GrammarMatching from './pages/Grammar/GrammarMatching';
+import GrammarFillBlank from './pages/Grammar/GrammarFillBlank';
 
 export default function App() {
   return (
@@ -56,6 +63,13 @@ export default function App() {
               <Route path="/kanji/quiz" element={<KanjiQuiz />} />
               <Route path="/kanji/matching" element={<KanjiMatching />} />
               <Route path="/kanji/typing" element={<KanjiTyping />} />
+              <Route path="/grammar" element={<GrammarDashboard />} />
+              <Route path="/grammar/study" element={<GrammarStudy />} />
+              <Route path="/grammar/flashcard" element={<GrammarFlashcard />} />
+              <Route path="/grammar/quiz" element={<GrammarQuiz />} />
+              <Route path="/grammar/wordorder" element={<GrammarWordOrder />} />
+              <Route path="/grammar/matching" element={<GrammarMatching />} />
+              <Route path="/grammar/fillblank" element={<GrammarFillBlank />} />
             </Routes>
           </main>
         </div>

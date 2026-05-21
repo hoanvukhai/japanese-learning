@@ -1,0 +1,149 @@
+[
+    {
+        "id": "g_19_01",
+        "structure": "〜に決まっている",
+        "meaning": {
+            "vi": "Chắc chắn là... / Hiển nhiên là...",
+            "en": "Bound to be... / Must be..."
+        },
+        "formation": [
+            "Thể thông thường (N / A(bỏ だ)) + に決まっている"
+        ],
+        "lesson": "Bài 19",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Khác với 「に違いない」 (suy luận có căn cứ), 「に決まっている」 mang tính chủ quan, cảm tính của người nói kiểu 'Không cần nghĩ cũng biết chắc chắn là như thế'.",
+            "en": "⚠️ JLPT Trap: Unlike 「に違いない」 (inference based on evidence), 「に決まっている」 is subjective and intuitive, meaning 'It's obvious without even thinking about it'."
+        },
+        "examples": [
+            {
+                "jp": "そんなうまい話、嘘に決まっている。",
+                "vi": "Câu chuyện ngon ăn như thế, chắc chắn là nói dối rồi.",
+                "en": "Such a good story is bound to be a lie."
+            },
+            {
+                "jp": "彼がやったに決まっている。",
+                "vi": "Chắc chắn là cậu ta đã làm.",
+                "en": "He must be the one who did it."
+            }
+        ]
+    },
+    {
+        "id": "g_19_02",
+        "structure": "〜に関して / 〜に関する",
+        "meaning": {
+            "vi": "Liên quan đến... / Về vấn đề...",
+            "en": "Regarding... / In relation to..."
+        },
+        "formation": [
+            "N + に関して",
+            "N + に関する + N"
+        ],
+        "lesson": "Bài 19",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Ý nghĩa giống với 「について」 nhưng 「に関して」 mang sắc thái TRANG TRỌNG hơn và bao hàm một phạm vi rộng hơn xung quanh vấn đề đó.",
+            "en": "⚠️ JLPT Trap: Similar in meaning to 「について」, but 「に関して」 has a more FORMAL nuance and covers a broader scope around the topic."
+        },
+        "examples": [
+            {
+                "jp": "この事件に関して、新しい情報が入りました。",
+                "vi": "Liên quan đến vụ án này, đã có thêm thông tin mới.",
+                "en": "Regarding this incident, new information has come in."
+            },
+            {
+                "jp": "パソコンに関する知識が豊富だ。",
+                "vi": "Kiến thức liên quan đến máy tính rất phong phú.",
+                "en": "I have abundant knowledge related to computers."
+            }
+        ]
+    },
+    {
+        "id": "g_19_03",
+        "structure": "〜に加えて",
+        "meaning": {
+            "vi": "Thêm vào đó... / Không chỉ... mà còn...",
+            "en": "In addition to... / Plus..."
+        },
+        "formation": [
+            "N + に加えて"
+        ],
+        "lesson": "Bài 19",
+        "group": "Addition_Emphasis",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để biểu thị việc một sự vật/tình huống được cộng gộp thêm vào một cái đã có sẵn (Thường dẫn đến kết quả tăng tiến).",
+            "en": "⚠️ JLPT Trap: Used to indicate that a thing/situation is added to something already existing (Usually leading to an escalating result)."
+        },
+        "examples": [
+            {
+                "jp": "大雨に加えて、風も強くなってきた。",
+                "vi": "Thêm vào trời mưa to, gió cũng bắt đầu thổi mạnh lên.",
+                "en": "In addition to the heavy rain, the wind has also become stronger."
+            },
+            {
+                "jp": "のどの痛みに加えて、熱も出てきた。",
+                "vi": "Không chỉ đau họng mà tôi còn bị sốt nữa.",
+                "en": "In addition to a sore throat, I also developed a fever."
+            }
+        ]
+    },
+    {
+        "id": "g_19_04",
+        "structure": "〜かわりに",
+        "meaning": {
+            "vi": "Thay vì / Thay cho / Đổi lại thì...",
+            "en": "Instead of... / In exchange for..."
+        },
+        "formation": [
+            "Vる / Nの + かわりに (Thay thế cho)",
+            "Thể thông thường (Aな/Nの) + かわりに (Đổi lại thì / Bù lại)"
+        ],
+        "lesson": "Bài 19",
+        "group": "Contrast",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Có 2 nghĩa chính: (1) Hành động B được làm để thay thế cho hành động A. (2) Thể hiện sự bù trừ (Mặt lợi đổi lấy mặt hại, hoặc ngược lại).",
+            "en": "⚠️ JLPT Trap: Has 2 main meanings: (1) Action B is done as a substitute for action A. (2) Expresses a trade-off (Pros in exchange for cons, or vice versa)."
+        },
+        "examples": [
+            {
+                "jp": "社長のかわりに、私が会議に出席します。",
+                "vi": "Tôi sẽ tham dự cuộc họp thay cho giám đốc.",
+                "en": "I will attend the meeting instead of the president."
+            },
+            {
+                "jp": "この仕事は給料が高いかわりに、休みが少ない。",
+                "vi": "Công việc này lương cao nhưng đổi lại thì ngày nghỉ lại ít.",
+                "en": "This job pays well, but in exchange, there are few days off."
+            }
+        ]
+    },
+    {
+        "id": "g_19_05",
+        "structure": "〜はもちろん / 〜はもとより",
+        "meaning": {
+            "vi": "...Thì là đương nhiên rồi (nhưng mà ngay cả... cũng)",
+            "en": "...is obvious, but also..."
+        },
+        "formation": [
+            "N + はもちろん / はもとより"
+        ],
+        "lesson": "Bài 19",
+        "group": "Addition_Emphasis",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Nhấn mạnh vế A là điều hiển nhiên không cần bàn cãi, nhưng đáng ngạc nhiên là vế B cũng có tính chất tương tự. 「はもとより」 dùng trong văn viết, trang trọng hơn.",
+            "en": "⚠️ JLPT Trap: Emphasizes that A is an unquestionable given, but surprisingly B also shares the same trait. 「はもとより」 is used in writing and is more formal."
+        },
+        "examples": [
+            {
+                "jp": "彼は英語はもちろん、フランス語も話せる。",
+                "vi": "Tiếng Anh thì đương nhiên rồi, anh ấy còn nói được cả tiếng Pháp nữa.",
+                "en": "He speaks English, of course, but he can also speak French."
+            },
+            {
+                "jp": "平日はもとより、休日も仕事をしている。",
+                "vi": "Ngày thường thì tất nhiên rồi, ngày nghỉ tôi cũng phải làm việc.",
+                "en": "I work on weekdays, of course, but also on holidays."
+            }
+        ]
+    }
+]

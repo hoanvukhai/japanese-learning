@@ -1,0 +1,90 @@
+[
+    {
+        "id": "g_11_01",
+        "structure": "〜ように（と）/ 〜よう",
+        "meaning": {
+            "vi": "Hãy... / Bảo là... (Trích dẫn gián tiếp mệnh lệnh, nhờ vả)",
+            "en": "Tell someone to... / Ask someone to..."
+        },
+        "formation": [
+            "Vる / Vない + ように（と）",
+            "Thường đi cùng: 言う (nói), 頼む (nhờ), 注意する (nhắc nhở), 伝える (truyền đạt)..."
+        ],
+        "lesson": "Bài 11",
+        "group": "Hearsay_Quotation",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để tường thuật gián tiếp lại một lời mệnh lệnh hoặc khuyên nhủ. Khác với trích dẫn trực tiếp dùng 「～てください」と.",
+            "en": "⚠️ JLPT Trap: Used for indirectly quoting a command, request, or advice. Different from direct quotation which uses 「～てください」と."
+        },
+        "examples": [
+            {
+                "jp": "先生に遅刻しないように注意された。",
+                "vi": "Tôi bị giáo viên nhắc nhở là không được đi muộn.",
+                "en": "I was warned by the teacher not to be late."
+            },
+            {
+                "jp": "母に、早く帰るようにと言われました。",
+                "vi": "Tôi bị mẹ bảo là hãy về nhà sớm.",
+                "en": "I was told by my mother to go home early."
+            }
+        ]
+    },
+    {
+        "id": "g_11_02",
+        "structure": "〜ようだ / 〜ような / 〜ように",
+        "meaning": {
+            "vi": "Giống như là... / Có vẻ như là...",
+            "en": "It seems like... / Looks like..."
+        },
+        "formation": [
+            "Thể thông thường (Nの / Aな) + ようだ / ような / ように"
+        ],
+        "lesson": "Bài 11",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Dùng để so sánh ví von (A cứ như là B), hoặc đưa ra phán đoán mang tính chủ quan bằng ngũ quan. ような bổ nghĩa cho Danh từ, ように bổ nghĩa cho Động từ/Tính từ.",
+            "en": "⚠️ JLPT Trap: Used for similes (A is like B) or subjective judgments based on the five senses. ような modifies Nouns, ように modifies Verbs/Adjectives."
+        },
+        "examples": [
+            {
+                "jp": "氷のように冷たい手。",
+                "vi": "Đôi bàn tay lạnh như là đá.",
+                "en": "Hands as cold as ice."
+            },
+            {
+                "jp": "誰もいないようだ。部屋の電気が消えている。",
+                "vi": "Có vẻ như không có ai ở nhà. Điện trong phòng đang tắt.",
+                "en": "It seems like no one is home. The lights in the room are off."
+            }
+        ]
+    },
+    {
+        "id": "g_11_03",
+        "structure": "〜みたいだ / 〜みたいな / 〜みたいに",
+        "meaning": {
+            "vi": "Giống như là... / Có vẻ như là... (Văn nói)",
+            "en": "It seems like... / Looks like... (Spoken form)"
+        },
+        "formation": [
+            "Thể thông thường (N / A(bỏ だ)) + みたいだ / みたいな / みたいに"
+        ],
+        "lesson": "Bài 11",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đây chính là thể VĂN NÓI thân mật của 「ようだ」. Đặc biệt lưu ý cách chia: Danh từ ghép trực tiếp với みたい (KHÔNG dùng の giống như ようだ).",
+            "en": "⚠️ JLPT Trap: This is the casual SPOKEN equivalent of 「ようだ」. Pay special attention to the conjugation: Nouns attach directly to みたい (DO NOT use の like with ようだ)."
+        },
+        "examples": [
+            {
+                "jp": "彼は子供みたいに泣いた。",
+                "vi": "Cậu ấy đã khóc giống y như một đứa trẻ con.",
+                "en": "He cried like a child."
+            },
+            {
+                "jp": "明日は雨みたいだね。",
+                "vi": "Ngày mai có vẻ trời sẽ mưa nhỉ.",
+                "en": "It looks like it will rain tomorrow, doesn't it?"
+            }
+        ]
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "id": "g_15_01",
+        "structure": "〜によって / 〜により / 〜による",
+        "meaning": {
+            "vi": "Bởi / Tùy thuộc vào / Bằng cách / Do...",
+            "en": "By / Depending on / By means of / Due to..."
+        },
+        "formation": [
+            "N + によって / により",
+            "N + による + N"
+        ],
+        "lesson": "Bài 15",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Siêu bẫy với 4 ý nghĩa khác nhau: (1) Nguyên nhân (Do bão...), (2) Phương thức (Bằng internet...), (3) Tùy thuộc vào (Tùy từng người...), (4) Được tạo ra/phát minh BỞI ai đó (Trong câu bị động).",
+            "en": "⚠️ JLPT Trap: A super trap with 4 different meanings: (1) Cause (Due to the typhoon...), (2) Means/Method (By the internet...), (3) Dependency (Depending on the person...), (4) Created/invented BY someone (In passive sentences)."
+        },
+        "examples": [
+            {
+                "jp": "人によって考え方が違います。",
+                "vi": "Tùy thuộc vào từng người mà cách suy nghĩ khác nhau.",
+                "en": "Ways of thinking differ depending on the person."
+            },
+            {
+                "jp": "この絵はピカソによって描かれた。",
+                "vi": "Bức tranh này được vẽ bởi Picasso.",
+                "en": "This painting was drawn by Picasso."
+            }
+        ]
+    },
+    {
+        "id": "g_15_02",
+        "structure": "〜として（は / も / の）",
+        "meaning": {
+            "vi": "Với tư cách là / Như là / Dưới danh nghĩa là...",
+            "en": "As... / In the capacity of..."
+        },
+        "formation": [
+            "N + として / としては / としても",
+            "N + としての + N"
+        ],
+        "lesson": "Bài 15",
+        "group": "Particles",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Luôn đi sau danh từ chỉ người, lập trường, tư cách, hoặc tên gọi. Dùng để nhấn mạnh vai trò của đối tượng đó trong hành động.",
+            "en": "⚠️ JLPT Trap: Always follows a noun indicating a person, position, capacity, or title. Used to emphasize the role of that subject in the action."
+        },
+        "examples": [
+            {
+                "jp": "彼は留学生として日本に来た。",
+                "vi": "Anh ấy đã đến Nhật Bản với tư cách là lưu học sinh.",
+                "en": "He came to Japan as an international student."
+            },
+            {
+                "jp": "この病気はまだ治らないものとして知られている。",
+                "vi": "Căn bệnh này được biết đến như là một bệnh chưa thể chữa khỏi.",
+                "en": "This disease is known as something that cannot be cured yet."
+            }
+        ]
+    },
+    {
+        "id": "g_15_03",
+        "structure": "〜としても / 〜にしても / 〜にしろ / 〜にせよ",
+        "meaning": {
+            "vi": "Cho dù... thì cũng...",
+            "en": "Even if... / Assuming that..."
+        },
+        "formation": [
+            "Thể thông thường + としても / にしても / にしろ / にせよ"
+        ],
+        "lesson": "Bài 15",
+        "group": "Contrast",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Thể hiện sự nhượng bộ. Cho dù điều kiện/giả định ở vế trước có xảy ra thì vế sau cũng không bị ảnh hưởng, hoặc vẫn mang tính phán đoán, đánh giá của người nói. にしろ và にせよ trang trọng hơn.",
+            "en": "⚠️ JLPT Trap: Expresses concession. Even if the condition/assumption in the first clause happens, the second clause is unaffected or remains the speaker's judgment. にしろ and にせよ are more formal."
+        },
+        "examples": [
+            {
+                "jp": "たとえ雨が降ったとしても、試合は行われます。",
+                "vi": "Cho dù trời có mưa đi chăng nữa, trận đấu vẫn sẽ được diễn ra.",
+                "en": "Even if it rains, the game will be held."
+            },
+            {
+                "jp": "冗談にしても、言っていいことと悪いことがある。",
+                "vi": "Cho dù là nói đùa thì cũng có những điều được nói và không được nói.",
+                "en": "Even if it's a joke, there are things you can say and things you shouldn't."
+            }
+        ]
+    },
+    {
+        "id": "g_15_04",
+        "structure": "〜としたら / 〜とすると / 〜とすれば",
+        "meaning": {
+            "vi": "Giả sử như... / Nếu như...",
+            "en": "If it were the case that... / Assuming that..."
+        },
+        "formation": [
+            "Thể thông thường + としたら / とすると / とすれば"
+        ],
+        "lesson": "Bài 15",
+        "group": "Inference",
+        "caution": {
+            "vi": "⚠️ Bẫy JLPT: Đưa ra một giả định không có thật hoặc một khả năng rất thấp ở hiện tại. Vế sau là kết quả, phán đoán dựa trên giả định đó.",
+            "en": "⚠️ JLPT Trap: Proposes an unreal assumption or a very low possibility in the present. The following clause is the result or judgment based on that assumption."
+        },
+        "examples": [
+            {
+                "jp": "もし１億円あるとしたら、何に使いますか。",
+                "vi": "Giả sử nếu có 100 triệu yên, bạn sẽ dùng vào việc gì?",
+                "en": "If you had 100 million yen, what would you use it for?"
+            },
+            {
+                "jp": "その話が本当だとすると、彼は嘘をついていることになる。",
+                "vi": "Nếu câu chuyện đó là thật, điều đó có nghĩa là anh ta đang nói dối.",
+                "en": "Assuming that story is true, it means he is lying."
+            }
+        ]
+    }
+]

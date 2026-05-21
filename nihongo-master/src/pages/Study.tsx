@@ -1,89 +1,89 @@
 // src/pages/Study.tsx
 import { Link } from 'react-router-dom';
 import { useSettings } from '../context/global/useSettings';
-import { Pen, GraduationCap, BookOpen } from 'lucide-react';
+import { Pen, GraduationCap, BookOpen, PenLine } from 'lucide-react';
 import { motion } from 'framer-motion';
+
+const container = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.08 } } };
+const itemVar = { hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { type: 'spring' as const, stiffness: 300, damping: 24 } } };
 
 export default function Study() {
   const { language } = useSettings();
 
-  const translations = {
-    vi: {
-      title: 'Lộ Trình Học Tập',
-      description: 'Chọn bài học bạn muốn tập trung hôm nay.',
-      conjugation: 'Học Chia Thể',
-      conjugationDesc: 'Nắm vững quy tắc chia động từ, tính từ.',
-      keigo: 'Học Kính Ngữ',
-      keigoDesc: 'Học cách nói tôn kính, khiêm nhường chuẩn Nhật.',
-      vocab: 'Học Từ Vựng',
-      vocabDesc: 'Học từ vựng theo bài với ví dụ cụ thể.',
-      kanji: 'Học Kanji',
-      kanjiDesc: 'Tra cứu chữ Hán, âm On/Kun và từ ghép.',
+  const modules = [
+    {
+      to: '/practice/conjugation',
+      icon: Pen,
+      label: language === 'en' ? 'Conjugation' : 'Học Chia Thể',
+      desc: language === 'en' ? 'Master verb & adjective conjugation rules.' : 'Nắm vững quy tắc chia động từ, tính từ.',
+      color: 'text-blue-600', bg: 'bg-blue-100 dark:bg-blue-900/30', border: 'hover:border-blue-500',
     },
-    en: {
-      title: 'Learning Path',
-      description: 'Choose what you want to focus on today.',
-      conjugation: 'Conjugation Study',
-      conjugationDesc: 'Master rules for verbs and adjectives.',
-      keigo: 'Keigo Study',
-      keigoDesc: 'Learn proper honorifics and humble forms.',
-      vocab: 'Vocabulary Study',
-      vocabDesc: 'Study vocabulary by lesson with specific examples.',
-      kanji: 'Kanji Study',
-      kanjiDesc: 'Look up Kanji characters, On/Kun readings.',
-    }
-  };
-  const t = translations[language as keyof typeof translations] || translations.vi;
+    {
+      to: '/practice/keigo',
+      icon: GraduationCap,
+      label: language === 'en' ? 'Keigo' : 'Học Kính Ngữ',
+      desc: language === 'en' ? 'Learn polite, honorific and humble forms.' : 'Học cách nói tôn kính, khiêm nhường chuẩn Nhật.',
+      color: 'text-green-600', bg: 'bg-green-100 dark:bg-green-900/30', border: 'hover:border-green-500',
+    },
+    {
+      to: '/vocabulary/study',
+      icon: BookOpen,
+      label: language === 'en' ? 'Vocabulary' : 'Học Từ Vựng',
+      desc: language === 'en' ? 'Study vocabulary by lesson with examples.' : 'Học từ vựng theo bài với ví dụ cụ thể.',
+      color: 'text-rose-600', bg: 'bg-rose-100 dark:bg-rose-900/30', border: 'hover:border-rose-500',
+    },
+    {
+      to: '/kanji/study',
+      icon: BookOpen,
+      label: language === 'en' ? 'Kanji' : 'Học Kanji',
+      desc: language === 'en' ? 'Look up Kanji, On/Kun readings and compounds.' : 'Tra cứu chữ Hán, âm On/Kun và từ ghép.',
+      color: 'text-amber-600', bg: 'bg-amber-100 dark:bg-amber-900/30', border: 'hover:border-amber-500',
+    },
+    {
+      to: '/grammar/study',
+      icon: PenLine,
+      label: language === 'en' ? 'Grammar' : 'Học Ngữ Pháp',
+      desc: language === 'en' ? 'Study N3 grammar structures, formations and JLPT traps.' : 'Học cấu trúc ngữ pháp N3, cách thành lập và bẫy JLPT.',
+      color: 'text-teal-600', bg: 'bg-teal-100 dark:bg-teal-900/30', border: 'hover:border-teal-500',
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors p-6 md:p-12 font-sans">
-      <div className="max-w-4xl mx-auto flex flex-col items-center">
-        <motion.div initial={{opacity:0, y:-20}} animate={{opacity:1, y:0}} className="text-center mb-10">
-          <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white mb-4 transition-colors">{t.title}</h1>
-          <p className="text-lg text-slate-500 dark:text-slate-400 transition-colors">{t.description}</p>
+      <div className="max-w-5xl mx-auto flex flex-col items-center">
+        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
+          <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white mb-4 transition-colors">
+            {language === 'en' ? 'Learning Path' : 'Lộ Trình Học Tập'}
+          </h1>
+          <p className="text-lg text-slate-500 dark:text-slate-400 transition-colors">
+            {language === 'en' ? 'Choose what you want to focus on today.' : 'Chọn bài học bạn muốn tập trung hôm nay.'}
+          </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
-          <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.1}}>
-            <Link to="/practice/conjugation" className="group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-500 rounded-2xl shadow-sm hover:shadow-xl transition-all h-full">
-              <div className="p-4 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-full mb-4 group-hover:scale-110 transition-transform">
-                <Pen size={32} />
-              </div>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.conjugation}</h2>
-              <p className="text-slate-500 dark:text-slate-400">{t.conjugationDesc}</p>
-            </Link>
-          </motion.div>
-
-          <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.2}}>
-            <Link to="/practice/keigo" className="group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-green-500 dark:hover:border-green-500 rounded-2xl shadow-sm hover:shadow-xl transition-all h-full">
-              <div className="p-4 bg-green-100 dark:bg-green-900/30 text-green-600 rounded-full mb-4 group-hover:scale-110 transition-transform">
-                <GraduationCap size={32} />
-              </div>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.keigo}</h2>
-              <p className="text-slate-500 dark:text-slate-400">{t.keigoDesc}</p>
-            </Link>
-          </motion.div>
-
-          <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.3}}>
-            <Link to="/vocabulary/study" className="group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-rose-500 dark:hover:border-rose-500 rounded-2xl shadow-sm hover:shadow-xl transition-all h-full">
-              <div className="p-4 bg-rose-100 dark:bg-rose-900/30 text-rose-600 rounded-full mb-4 group-hover:scale-110 transition-transform">
-                <BookOpen size={32} />
-              </div>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.vocab}</h2>
-              <p className="text-slate-500 dark:text-slate-400">{t.vocabDesc}</p>
-            </Link>
-          </motion.div>
-
-          <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay:0.4}}>
-            <Link to="/kanji/study" className="group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-amber-500 dark:hover:border-amber-500 rounded-2xl shadow-sm hover:shadow-xl transition-all h-full">
-              <div className="p-4 bg-amber-100 dark:bg-amber-900/30 text-amber-600 rounded-full mb-4 group-hover:scale-110 transition-transform">
-                <BookOpen size={32} />
-              </div>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.kanji}</h2>
-              <p className="text-slate-500 dark:text-slate-400">{t.kanjiDesc}</p>
-            </Link>
-          </motion.div>
-        </div>
+        <motion.div
+          variants={container}
+          initial="hidden"
+          animate="show"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full"
+        >
+          {modules.map((mod) => {
+            const Icon = mod.icon;
+            return (
+              <motion.div variants={itemVar} key={mod.to}>
+                <Link
+                  to={mod.to}
+                  className={`group flex flex-col items-center text-center p-8 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 ${mod.border} rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all h-full`}
+                >
+                  <div className={`p-4 ${mod.bg} ${mod.color} rounded-full mb-4 group-hover:scale-110 transition-transform`}>
+                    <Icon size={32} />
+                  </div>
+                  <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{mod.label}</h2>
+                  <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{mod.desc}</p>
+                </Link>
+              </motion.div>
+            );
+          })}
+        </motion.div>
       </div>
     </div>
   );
