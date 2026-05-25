@@ -1,6 +1,6 @@
-// src/pages/Practice/KeigoDashboard.tsx
+// src/pages/Practice/ConjugationDashboard.tsx
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, BookOpen, CheckSquare } from 'lucide-react';
+import { ArrowLeft, Gamepad2, BookOpen } from 'lucide-react';
 import { motion, type Variants } from 'framer-motion';
 import { useSettings } from '../../context/global/useSettings';
 
@@ -14,7 +14,7 @@ const item: Variants = {
   show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
 };
 
-const KeigoDashboard = () => {
+const ConjugationDashboard = () => {
   const navigate = useNavigate();
   const { language } = useSettings();
   const lang = (language ?? 'vi') as 'vi' | 'en';
@@ -22,15 +22,15 @@ const KeigoDashboard = () => {
   const t = {
     vi: {
       back: 'Quay lại',
-      title: 'Luyện Kính Ngữ',
-      desc: 'Chọn một chế độ chơi để bắt đầu cày cuốc.',
+      title: 'Luyện Chia Thể',
+      desc: 'Luyện tập chia động từ và tính từ thần tốc.',
       newBadge: '🔥 Mới',
       soonBadge: 'Sắp ra mắt'
     },
     en: {
       back: 'Back',
-      title: 'Keigo Practice',
-      desc: 'Choose a game mode to start grinding.',
+      title: 'Conjugation Practice',
+      desc: 'Speed-run verb and adjective conjugations.',
       newBadge: '🔥 New',
       soonBadge: 'Coming soon'
     }
@@ -38,25 +38,14 @@ const KeigoDashboard = () => {
 
   const gameModes = [
     {
-      name: lang === 'en' ? 'Flashcards' : 'Lật Thẻ (Flashcards)',
-      path: '/practice/keigo/flashcards',
-      icon: BookOpen,
-      description: lang === 'en' ? 'Quick review with 2-sided flashcards: Sonkei / Kenjou / Teinei' : 'Ôn tập nhanh qua thẻ ghi nhớ 2 mặt: Tôn kính / Khiêm nhường / Lịch sự',
+      name: lang === 'en' ? 'Conjugation Game' : 'Mini-game Chia thể',
+      path: '/practice/conjugation/game',
+      icon: Gamepad2,
+      description: lang === 'en' ? 'Practice flashcard and typing modes for 13+ forms!' : 'Luyện tập chế độ lật thẻ và gõ đáp án cho hơn 13 dạng thể!',
       color: 'text-blue-500',
       bg: 'bg-blue-100 dark:bg-blue-900/30',
       border: 'hover:border-blue-500',
       badge: null,
-      disabled: false
-    },
-    {
-      name: lang === 'en' ? '⚔️ Keigo Quest' : '⚔️ Keigo Quest (Nhập Vai)',
-      path: '/practice/keigo/quest',
-      icon: CheckSquare,
-      description: lang === 'en' ? 'Real scenarios: Boss, Client, Colleague. Choose the right honorifics to score!' : 'Tình huống thực tế: Sếp, Khách hàng, Đồng nghiệp. Chọn kính ngữ đúng để ghi điểm!',
-      color: 'text-rose-500',
-      bg: 'bg-rose-100 dark:bg-rose-900/30',
-      border: 'hover:border-rose-500',
-      badge: t.newBadge,
       disabled: false
     }
   ];
@@ -73,8 +62,8 @@ const KeigoDashboard = () => {
               >
                 <ArrowLeft size={20} />
               </button>
-              <span className="px-3 py-1 bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400 text-sm font-bold rounded-full">
-                JLPT N4-N3
+              <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 text-sm font-bold rounded-full">
+                JLPT N5-N3
               </span>
             </div>
             <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-3">
@@ -87,11 +76,11 @@ const KeigoDashboard = () => {
 
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
             <Link
-              to="/study/keigo"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              to="/conjugation/study"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <BookOpen size={16} />
-              Học Kính Ngữ
+              Học Chia Thể
             </Link>
           </div>
         </header>
@@ -109,8 +98,8 @@ const KeigoDashboard = () => {
                 <Link
                   to={mode.disabled ? '#' : mode.path}
                   className={`group flex flex-col h-full bg-white dark:bg-slate-800 rounded-3xl p-6 border-2 transition-all duration-200 shadow-sm ${mode.disabled
-                      ? 'border-slate-100 dark:border-slate-700 opacity-60 cursor-not-allowed'
-                      : `border-slate-100 dark:border-slate-700 ${mode.border} hover:shadow-xl hover:-translate-y-1 hover:border-b-[6px] active:border-b-2 active:translate-y-0`
+                    ? 'border-slate-100 dark:border-slate-700 opacity-60 cursor-not-allowed'
+                    : `border-slate-100 dark:border-slate-700 ${mode.border} hover:shadow-xl hover:-translate-y-1 hover:border-b-[6px] active:border-b-2 active:translate-y-0`
                     }`}
                 >
                   <div className="flex justify-between items-start mb-6">
@@ -139,4 +128,4 @@ const KeigoDashboard = () => {
   );
 };
 
-export default KeigoDashboard;
+export default ConjugationDashboard;

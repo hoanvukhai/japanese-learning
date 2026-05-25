@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Search, Volume2 } from 'lucide-react';
+import { Search, ArrowLeft, Volume2, Gamepad2 } from 'lucide-react';
 import { kanjiN3 } from '../../data/kanjiN3';
 
 export default function KanjiStudy() {
@@ -32,24 +32,34 @@ export default function KanjiStudy() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-5xl mx-auto">
-        <header className="mb-8">
-          <Link to="/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-6 transition-colors font-medium">
-            <ArrowLeft size={18} /> Quay lại Dashboard
-          </Link>
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <header className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+          <div className="flex items-center gap-4">
+            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 transition-colors">
+              <ArrowLeft size={18} /> Quay lại
+            </Link>
             <div>
-              <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">Học Kanji</h1>
+              <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⛩️ Học Kanji</h1>
               <p className="text-slate-500 dark:text-slate-400">Danh sách chữ Hán và từ vựng ghép.</p>
             </div>
-            <div className="bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-xl font-bold">
+          </div>
+          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm">
               Tổng số: {filteredKanji.length}
             </div>
+            <Link
+              to="/practice/kanji"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+            >
+              <Gamepad2 size={16} />
+              Thực hành ngay
+            </Link>
           </div>
         </header>
 
-        {/* Filters */}
-        <div className="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 mb-8 flex flex-col md:flex-row gap-4">
-          <div className="flex-1 relative">
+        {/* Lesson chip filter + search */}
+        <div className="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 mb-8 space-y-3">
+          {/* Search */}
+          <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
             <input
               type="text"
@@ -59,16 +69,30 @@ export default function KanjiStudy() {
               className="w-full pl-12 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-blue-500 dark:text-white transition-colors"
             />
           </div>
-          <select
-            value={selectedLesson}
-            onChange={e => setSelectedLesson(e.target.value)}
-            className="w-full md:w-48 px-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-blue-500 dark:text-white transition-colors font-medium cursor-pointer"
-          >
-            <option value="all">Tất cả bài học</option>
+          {/* Chip lesson filter */}
+          <div className="flex gap-2 flex-wrap">
+            <button
+              onClick={() => setSelectedLesson('all')}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === 'all'
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                }`}
+            >
+              Tất cả ({kanjiN3.length})
+            </button>
             {lessons.map(l => (
-              <option key={l} value={l}>{l}</option>
+              <button
+                key={l}
+                onClick={() => setSelectedLesson(l)}
+                className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === l
+                    ? 'bg-blue-600 text-white shadow-sm'
+                    : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  }`}
+              >
+                {l.split(':')[0]} ({kanjiN3.filter(k => k.lesson === l).length})
+              </button>
             ))}
-          </select>
+          </div>
         </div>
 
         {/* List */}

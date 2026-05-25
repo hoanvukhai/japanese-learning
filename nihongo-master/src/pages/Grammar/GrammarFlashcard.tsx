@@ -78,7 +78,7 @@ export default function GrammarFlashcard() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ Ngữ Pháp</h1>
@@ -180,7 +180,7 @@ export default function GrammarFlashcard() {
             >
               <RotateCcw size={16} /> Ôn lại tất cả
             </button>
-            <Link to="/grammar" className="block w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to="/practice/grammar" className="block w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>
@@ -197,7 +197,7 @@ export default function GrammarFlashcard() {
 
         <div className="flex items-center justify-between mb-6">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors">
-            <ArrowLeft size={18} /> Cài đặt
+            <ArrowLeft size={18} /> Quay lại
           </button>
           <div className="text-sm text-slate-500 dark:text-slate-400">
             {known.length + learning.length} / {known.length + learning.length + queue.length}

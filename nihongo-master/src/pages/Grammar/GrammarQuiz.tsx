@@ -1,8 +1,8 @@
 // src/pages/Grammar/GrammarQuiz.tsx
 import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, RotateCcw, AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowLeft, RotateCcw, AlertTriangle, CheckCircle2, XCircle, Swords } from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
 
@@ -23,6 +23,8 @@ interface QuizItem {
 export default function GrammarQuiz() {
   const { language } = useSettings();
   const lessons = getN3GrammarLessons();
+  const [searchParams] = useSearchParams();
+  const isArenaMode = searchParams.get('mode') === 'arena'; // UI-08 fix
   const [selectedLesson, setSelectedLesson] = useState<string>('all');
   const [direction, setDirection] = useState<'structure-meaning' | 'meaning-structure'>('structure-meaning');
   const [started, setStarted] = useState(false);
@@ -83,19 +85,20 @@ export default function GrammarQuiz() {
       .filter(item => item.id !== current.id)
       .map(item => item.correctAnswer);
 
-    const deduplicated = Array.from(new Set([...sameGroup, ...allAnswers]))
+    // BUG-05 fix: Fallback từ toàn bộ grammarN3 thay vì dùng '---'
+    const globalFallback = grammarN3
+      .filter(g => g.id !== current.id)
+      .map(g => direction === 'structure-meaning'
+        ? (g.meaning[language as 'vi' | 'en'] || g.meaning.vi)
+        : g.structure
+      );
+
+    const deduplicated = Array.from(new Set([...sameGroup, ...allAnswers, ...globalFallback]))
       .filter(ans => ans !== current.correctAnswer);
 
     const distractors = shuffle(deduplicated).slice(0, 3);
-    const allOptions = shuffle([current.correctAnswer, ...distractors]);
-
-    // Đảm bảo luôn có đúng 4 đáp án
-    while (allOptions.length < 4) {
-      allOptions.push(`---`);
-    }
-
-    return allOptions.slice(0, 4);
-  }, [current, pool, direction]);
+    return shuffle([current.correctAnswer, ...distractors]).slice(0, 4);
+  }, [current, pool, direction, language]);
 
   const handleStart = () => {
     setQueue(pool);
@@ -143,13 +146,27 @@ export default function GrammarQuiz() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-sky-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-sky-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
-          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⚔️ Trắc nghiệm Bẫy</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">
-            Đáp án nhiễu được bốc từ <strong className="text-sky-600 dark:text-sky-400">cùng nhóm ngữ pháp</strong> — cực thực chiến!
-          </p>
+          {/* UI-08 fix: Tiêu đề khác nhau cho Arena vs Quiz */}
+          {isArenaMode ? (
+            <>
+              <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2 flex items-center gap-2">
+                <Swords size={28} className="text-red-500" /> Bẫy đối kháng
+              </h1>
+              <p className="text-slate-500 dark:text-slate-400 mb-8">
+                Chế độ <strong className="text-red-600 dark:text-red-400">KILLER</strong>: đáp án nhiễu 100% từ cùng nhóm ngữ pháp — cực hóc búa!
+              </p>
+            </>
+          ) : (
+            <>
+              <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⚔️ Trắc nghiệm Bẫy</h1>
+              <p className="text-slate-500 dark:text-slate-400 mb-8">
+                Đáp án nhiễu được bốc từ <strong className="text-sky-600 dark:text-sky-400">cùng nhóm ngữ pháp</strong> — cực thực chiến!
+              </p>
+            </>
+          )}
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
             <div>
@@ -237,7 +254,7 @@ export default function GrammarQuiz() {
             >
               <RotateCcw size={16} /> Làm lại
             </button>
-            <Link to="/grammar" className="block w-full py-3 bg-sky-600 hover:bg-sky-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to="/practice/grammar" className="block w-full py-3 bg-sky-600 hover:bg-sky-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>

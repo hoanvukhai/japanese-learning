@@ -1,6 +1,6 @@
 // src/pages/Vocabulary/VocabMatching.tsx
 // Nối từ: bên trái là từ Nhật, bên phải là nghĩa tiếng Việt
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, RotateCcw, Trophy } from 'lucide-react';
@@ -51,40 +51,51 @@ export default function VocabMatching() {
   const rightItems = useMemo(() => shuffle(pairs.map(p => ({ id: p.viId, label: getMeaning(p.word), pairId: p.word.id }))), [pairs]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null);
+  const [selectedRight, setSelectedRight] = useState<string | null>(null);
   const [matched, setMatched] = useState<Set<string>>(new Set()); // pairId của những cặp đúng
-  const [wrong, setWrong] = useState<string | null>(null); // pairId sai tạm thời
+  const [errorPair, setErrorPair] = useState<{ l: string, r: string } | null>(null);
 
   const isComplete = matched.size === pairs.length;
 
+  useEffect(() => {
+    if (selectedLeft && selectedRight) {
+      const leftPairId = leftItems.find(l => l.id === selectedLeft)?.pairId;
+      const rightPairId = rightItems.find(r => r.id === selectedRight)?.pairId;
+
+      if (leftPairId === rightPairId && leftPairId) {
+        // Đúng
+        setMatched(prev => new Set([...prev, leftPairId]));
+        setTotalCorrect(c => c + 1);
+        setSelectedLeft(null);
+        setSelectedRight(null);
+      } else {
+        // Sai
+        setErrorPair({ l: selectedLeft, r: selectedRight });
+        setTimeout(() => {
+          setSelectedLeft(null);
+          setSelectedRight(null);
+          setErrorPair(null);
+        }, 800);
+      }
+    }
+  }, [selectedLeft, selectedRight, leftItems, rightItems]);
+
   const handleLeftClick = (pairId: string, id: string) => {
-    if (matched.has(pairId)) return;
+    if (errorPair || matched.has(pairId)) return;
     setSelectedLeft(id === selectedLeft ? null : id);
-    setWrong(null);
   };
 
-  const handleRightClick = (pairId: string) => {
-    if (!selectedLeft) return;
-    if (matched.has(pairId)) return;
-
-    const leftPairId = leftItems.find(l => l.id === selectedLeft)?.pairId;
-    if (leftPairId === pairId) {
-      // Đúng
-      setMatched(prev => new Set([...prev, pairId]));
-      setTotalCorrect(c => c + 1);
-      setSelectedLeft(null);
-      setWrong(null);
-    } else {
-      // Sai
-      setWrong(pairId);
-      setTimeout(() => setWrong(null), 600);
-    }
+  const handleRightClick = (pairId: string, id: string) => {
+    if (errorPair || matched.has(pairId)) return;
+    setSelectedRight(id === selectedRight ? null : id);
   };
 
   const handleNextRound = () => {
     setRound(r => r + 1);
     setMatched(new Set());
     setSelectedLeft(null);
-    setWrong(null);
+    setSelectedRight(null);
+    setErrorPair(null);
   };
 
   // ──────────── SETUP ────────────
@@ -92,7 +103,7 @@ export default function VocabMatching() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-8 transition-colors">
+          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🔗 Nối từ</h1>
@@ -131,7 +142,6 @@ export default function VocabMatching() {
   }
 
   // ──────────── GAME ────────────
-  const selectedLeftPairId = leftItems.find(l => l.id === selectedLeft)?.pairId;
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
@@ -139,7 +149,7 @@ export default function VocabMatching() {
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 transition-colors">
-            <ArrowLeft size={18} /> Cài đặt
+            <ArrowLeft size={18} /> Quay lại
           </button>
           <div className="flex items-center gap-4 text-sm">
             <span className="text-slate-500 dark:text-slate-400">Vòng {round + 1}</span>
@@ -158,18 +168,22 @@ export default function VocabMatching() {
             {leftItems.map(item => {
               const isMatched = matched.has(item.pairId);
               const isSelected = selectedLeft === item.id;
+              const isWrong = errorPair?.l === item.id;
+              
+              let btnClass = "border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm";
+              if (isMatched) btnClass = "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70 cursor-default";
+              else if (isWrong) btnClass = "border-red-400 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400";
+              else if (isSelected) btnClass = "border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-md";
+
               return (
                 <motion.button
                   key={item.id}
                   onClick={() => handleLeftClick(item.pairId, item.id)}
                   disabled={isMatched}
                   whileTap={{ scale: isMatched ? 1 : 0.95 }}
-                  className={`w-full py-4 px-3 rounded-2xl border-2 font-bold text-center transition-all ${isMatched
-                      ? 'border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70'
-                      : isSelected
-                        ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-md'
-                        : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm'
-                    }`}
+                  animate={isWrong ? { x: [0, -8, 8, -6, 6, 0] } : {}}
+                  transition={{ duration: 0.3 }}
+                  className={`w-full py-4 px-3 rounded-2xl border-2 font-bold text-center transition-all ${btnClass}`}
                 >
                   <div className="text-xl">{item.label}</div>
                   <div className="text-xs text-slate-400 dark:text-slate-500 mt-1">{item.sub}</div>
@@ -183,26 +197,23 @@ export default function VocabMatching() {
             <div className="text-xs font-bold text-center text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-4">🇻🇳 Nghĩa</div>
             {rightItems.map(item => {
               const isMatched = matched.has(item.pairId);
-              const isWrong = wrong === item.pairId;
-              const isHighlighted = selectedLeftPairId === item.pairId && !isMatched;
+              const isSelected = selectedRight === item.id;
+              const isWrong = errorPair?.r === item.id;
+
+              let btnClass = "border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm cursor-pointer";
+              if (isMatched) btnClass = "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70 cursor-default";
+              else if (isWrong) btnClass = "border-red-400 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400";
+              else if (isSelected) btnClass = "border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-md cursor-pointer";
+
               return (
                 <motion.button
                   key={item.id}
-                  onClick={() => handleRightClick(item.pairId)}
-                  disabled={isMatched || !selectedLeft}
+                  onClick={() => handleRightClick(item.pairId, item.id)}
+                  disabled={isMatched}
                   whileTap={{ scale: isMatched ? 1 : 0.95 }}
                   animate={isWrong ? { x: [0, -8, 8, -6, 6, 0] } : {}}
                   transition={{ duration: 0.3 }}
-                  className={`w-full py-4 px-3 rounded-2xl border-2 font-medium text-center transition-all ${isMatched
-                      ? 'border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70'
-                      : isWrong
-                        ? 'border-red-400 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400'
-                        : isHighlighted
-                          ? 'border-blue-300 dark:border-blue-600 bg-blue-50 dark:bg-blue-900/20'
-                          : selectedLeft
-                            ? 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-emerald-400 hover:shadow-sm cursor-pointer'
-                            : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white opacity-80 cursor-default'
-                    }`}
+                  className={`w-full py-4 px-3 rounded-2xl border-2 font-medium text-center transition-all ${btnClass}`}
                 >
                   <div className="text-sm leading-snug">{item.label}</div>
                 </motion.button>
@@ -232,7 +243,7 @@ export default function VocabMatching() {
                   >
                     <RotateCcw size={16} /> Vòng mới
                   </button>
-                  <Link to="/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-emerald-400 transition-all text-center">
+                  <Link to="/practice/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-emerald-400 transition-all text-center">
                     Về dashboard
                   </Link>
                 </div>

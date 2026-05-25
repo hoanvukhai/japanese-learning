@@ -80,6 +80,7 @@ export default function GrammarFillBlank() {
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showCaution, setShowCaution] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false); // BUG-04 fix: thay thế auto-advance
 
   const current = queue[0];
 
@@ -103,6 +104,7 @@ export default function GrammarFillBlank() {
     setScore(0);
     setSelectedAnswer(null);
     setShowCaution(false);
+    setShowSuccess(false);
     setStarted(true);
   };
 
@@ -111,11 +113,8 @@ export default function GrammarFillBlank() {
     setSelectedAnswer(ans);
     if (ans === current.correctAnswer) {
       setScore(s => s + 1);
-      setTimeout(() => {
-        setQueue(q => q.slice(1));
-        setSelectedAnswer(null);
-        setShowCaution(false);
-      }, 1300);
+      // BUG-04 fix: Không auto-advance, hiển thị banner chính xác và chờ người dùng bấm tiếp
+      setShowSuccess(true);
     } else {
       setShowCaution(true);
     }
@@ -125,13 +124,14 @@ export default function GrammarFillBlank() {
     setQueue(q => q.slice(1));
     setSelectedAnswer(null);
     setShowCaution(false);
+    setShowSuccess(false);
   };
 
   if (!started) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">📝 Điền vào chỗ trống</h1>
@@ -196,7 +196,7 @@ export default function GrammarFillBlank() {
             >
               <RotateCcw size={16} /> Làm lại
             </button>
-            <Link to="/grammar" className="block w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to="/practice/grammar" className="block w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>
@@ -281,6 +281,32 @@ export default function GrammarFillBlank() {
               </div>
             </div>
 
+            {/* BUG-04 fix: Banner ch\u00ednh x\u00e1c v\u1edbi n\u00fat ti\u1ebfp theo th\u1ee7 c\u00f4ng */}
+            <AnimatePresence>
+              {showSuccess && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800/50 rounded-2xl p-5"
+                >
+                  <div className="flex items-center gap-2 mb-3">
+                    <CheckCircle2 size={18} className="text-green-500" />
+                    <span className="text-sm font-bold text-green-700 dark:text-green-400">Chính xác!</span>
+                  </div>
+                  <div className="text-xs text-green-700 dark:text-green-400 mb-4 font-mono bg-green-100 dark:bg-green-900/40 rounded-lg px-3 py-2">
+                    {current.fullSentence}
+                  </div>
+                  <button
+                    onClick={handleNext}
+                    className="w-full py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl transition-all"
+                  >
+                    Câu tiếp theo →
+                  </button>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
             {/* Caution after wrong answer */}
             <AnimatePresence>
               {showCaution && (
@@ -312,6 +338,7 @@ export default function GrammarFillBlank() {
             </AnimatePresence>
           </motion.div>
         </AnimatePresence>
+
       </div>
     </div>
   );

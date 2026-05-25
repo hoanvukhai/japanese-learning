@@ -1,7 +1,6 @@
-// src/pages/Grammar/GrammarDashboard.tsx
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookMarked, Layers, CheckSquare, Shuffle, GitMerge, Swords, PenLine } from 'lucide-react';
+import { Layers, CheckSquare, Shuffle, GitMerge, Swords, PenLine, ArrowLeft, BookOpen } from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 
 const containerVariants = {
@@ -36,7 +35,7 @@ const basicModes = [
   {
     id: 'flashcard',
     name: 'Lật thẻ',
-    path: '/grammar/flashcard',
+    path: '/practice/grammar/flashcard',
     icon: Layers,
     desc: 'Luyện phản xạ nhớ cấu trúc và nghĩa. Lọc theo Bài hoặc Nhóm bẫy.',
     color: 'text-teal-600 dark:text-teal-400',
@@ -46,7 +45,7 @@ const basicModes = [
   {
     id: 'fillblank',
     name: 'Điền vào chỗ trống',
-    path: '/grammar/fillblank',
+    path: '/practice/grammar/fillblank',
     icon: PenLine,
     desc: '📝 Đúng dạng JLPT Part 5: đọc câu ví dụ, chọn cấu trúc ngữ pháp phù hợp.',
     color: 'text-cyan-600 dark:text-cyan-400',
@@ -56,7 +55,7 @@ const basicModes = [
   {
     id: 'quiz',
     name: 'Trắc nghiệm',
-    path: '/grammar/quiz',
+    path: '/practice/grammar/quiz',
     icon: CheckSquare,
     desc: 'Cấu trúc → Nghĩa (hoặc ngược lại). 4 đáp án với nhiễu từ cùng nhóm.',
     color: 'text-sky-600 dark:text-sky-400',
@@ -70,7 +69,7 @@ const advancedModes = [
   {
     id: 'matching',
     name: 'Nối từ',
-    path: '/grammar/matching',
+    path: '/practice/grammar/matching',
     icon: GitMerge,
     desc: 'Nối cấu trúc với nghĩa tiếng Việt hoặc cách thành lập. 6 cặp mỗi vòng.',
     color: 'text-violet-600 dark:text-violet-400',
@@ -81,7 +80,7 @@ const advancedModes = [
   {
     id: 'wordorder',
     name: 'Xếp câu',
-    path: '/grammar/wordorder',
+    path: '/practice/grammar/wordorder',
     icon: Shuffle,
     desc: 'Bấm các mảnh ghép theo đúng thứ tự để tái tạo câu ví dụ hoàn chỉnh.',
     color: 'text-indigo-600 dark:text-indigo-400',
@@ -92,7 +91,7 @@ const advancedModes = [
   {
     id: 'arena',
     name: 'Bẫy đối kháng',
-    path: '/grammar/quiz',
+    path: '/practice/grammar/quiz',
     icon: Swords,
     desc: 'Đáp án nhiễu đều là mẫu cùng nhóm. Cực hóc búa — cực thực chiến!',
     color: 'text-red-600 dark:text-red-400',
@@ -125,6 +124,7 @@ function ModeCard({ mode }: { mode: (typeof basicModes)[0] & { badge?: string } 
 }
 
 export default function GrammarDashboard() {
+  const navigate = useNavigate();
   const lessons = getN3GrammarLessons();
   const groups = [...new Set(grammarN3.map(g => g.group))];
 
@@ -133,30 +133,43 @@ export default function GrammarDashboard() {
       <div className="max-w-4xl mx-auto">
 
         {/* Header */}
-        <motion.header initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }} className="mb-10">
-          <div className="flex flex-wrap items-center gap-3 mb-4">
-            <span className="px-3 py-1 bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300 text-sm font-bold rounded-full">
-              JLPT N3
-            </span>
-            <span className="text-sm text-slate-500 dark:text-slate-400">
+        <motion.header 
+          initial={{ opacity: 0, y: -20 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6"
+        >
+          <div className="flex-1 text-center md:text-left">
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-4">
+              <button
+                onClick={() => navigate('/practice')}
+                className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
+              >
+                <ArrowLeft size={20} />
+              </button>
+              <span className="px-3 py-1 bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300 text-sm font-bold rounded-full">
+                JLPT N3
+              </span>
+            </div>
+            <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-3">
+              📝 Ngữ Pháp N3
+            </h1>
+            <p className="text-slate-500 dark:text-slate-400 text-base">
+              Hệ thống kép: học theo bài (Riki) · luyện game theo nhóm bẫy
+            </p>
+          </div>
+          
+          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
+            <span className="text-sm font-medium text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 px-4 py-2 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
               {grammarN3.length} mẫu · {lessons.length} bài · {groups.length} nhóm bẫy
             </span>
+            <Link 
+              to="/study/grammar" 
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+            >
+              <BookOpen size={16} />
+              Học lý thuyết Ngữ pháp
+            </Link>
           </div>
-          <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-2">
-            📝 Ngữ Pháp N3
-          </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-base mb-5">
-            Hệ thống kép: học theo bài (Riki) · luyện game theo nhóm bẫy
-          </p>
-
-          {/* Nút học lý thuyết — nhỏ gọn, không phải game card */}
-          <Link
-            to="/grammar/study"
-            className="inline-flex items-center gap-2 bg-white dark:bg-slate-800 hover:bg-teal-50 dark:hover:bg-teal-900/20 border border-slate-200 dark:border-slate-700 hover:border-teal-400 text-slate-700 dark:text-slate-200 font-semibold text-sm px-5 py-2.5 rounded-full shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
-          >
-            <BookMarked size={16} className="text-teal-500" />
-            Học lý thuyết Ngữ Pháp
-          </Link>
         </motion.header>
 
         {/* Game sections */}

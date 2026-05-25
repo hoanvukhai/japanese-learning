@@ -75,7 +75,7 @@ export default function GrammarWordOrder() {
       });
     });
     return shuffle(cards);
-  }, [selectedLesson]);
+  }, [selectedLesson, language]);
 
   const [queue, setQueue] = useState<WordOrderCard[]>([]);
   const [score, setScore] = useState(0);
@@ -102,7 +102,9 @@ export default function GrammarWordOrder() {
   };
 
   const initCard = useCallback((card: WordOrderCard) => {
-    setRemaining(card.tokens.map((t, i) => ({ token: t, idx: i })));
+    // BUG-02 fix: Luôn shuffle lại correctTokens để retry không bị trùng thứ tự
+    const reshuffled = shuffle(card.correctTokens);
+    setRemaining(reshuffled.map((t, i) => ({ token: t, idx: i })));
     setSelected([]);
     setStatus('idle');
   }, []);
@@ -149,7 +151,7 @@ export default function GrammarWordOrder() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🔀 Xếp câu</h1>
@@ -177,11 +179,13 @@ export default function GrammarWordOrder() {
               </p>
             </div>
 
+            {/* UI-01 fix: Disable nút khi không có câu nào */}
             <button
               onClick={handleStart}
-              className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all active:scale-[0.98] shadow-lg shadow-indigo-500/20"
+              disabled={pool.length === 0}
+              className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold rounded-xl transition-all active:scale-[0.98] shadow-lg shadow-indigo-500/20"
             >
-              Bắt đầu ({pool.length} câu)
+              {pool.length === 0 ? 'Bài học này chưa có câu ví dụ' : `Bắt đầu (${pool.length} câu)`}
             </button>
           </div>
         </div>
@@ -205,7 +209,7 @@ export default function GrammarWordOrder() {
             <button onClick={handleStart} className="w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-indigo-400 transition-all flex items-center justify-center gap-2">
               <RotateCcw size={16} /> Làm lại
             </button>
-            <Link to="/grammar" className="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to="/practice/grammar" className="block w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>
@@ -334,23 +338,26 @@ export default function GrammarWordOrder() {
               )}
             </AnimatePresence>
 
-            {/* Token bank */}
-            {status === 'idle' && (
-              <div className="flex flex-wrap gap-2">
-                {remaining.map((item) => (
-                  <motion.button
-                    key={item.idx}
-                    layout
-                    initial={{ scale: 0.8, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    onClick={() => handlePickToken(item)}
-                    className="px-4 py-2.5 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 rounded-xl text-sm font-bold hover:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-all active:scale-95 shadow-sm"
-                  >
-                    {item.token}
-                  </motion.button>
-                ))}
-              </div>
-            )}
+            {/* Token bank — BUG-03 fix: luôn hiển thị, chỉ disable khi không ở idle */}
+            <div className="flex flex-wrap gap-2 min-h-[2.5rem]">
+              {remaining.map((item) => (
+                <motion.button
+                  key={item.idx}
+                  layout
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  onClick={() => handlePickToken(item)}
+                  disabled={status !== 'idle'}
+                  className={`px-4 py-2.5 border-2 rounded-xl text-sm font-bold transition-all shadow-sm ${
+                    status === 'wrong'
+                      ? 'bg-slate-100 dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-400 dark:text-slate-500 cursor-default'
+                      : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 active:scale-95'
+                  }`}
+                >
+                  {item.token}
+                </motion.button>
+              ))}
+            </div>
           </motion.div>
         </AnimatePresence>
 

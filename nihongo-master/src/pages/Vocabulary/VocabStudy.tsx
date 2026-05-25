@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
+import { ArrowLeft, ChevronDown, ChevronUp, BookOpen, Gamepad2 } from 'lucide-react';
 import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
 import type { Word } from '../../types';
 
@@ -99,15 +99,26 @@ export default function VocabStudy() {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-2xl mx-auto">
         {/* Header */}
-        <div className="flex items-center gap-4 mb-8">
-          <Link to="/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-rose-600 transition-colors">
-            <ArrowLeft size={18} />
-          </Link>
-          <div>
-            <h1 className="text-2xl font-extrabold text-slate-800 dark:text-white flex items-center gap-2">
-              <BookOpen size={22} className="text-rose-500" /> Học theo bài
-            </h1>
-            <p className="text-slate-500 dark:text-slate-400 text-sm mt-0.5">Nhấn vào từ để xem ví dụ</p>
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+          <div className="flex items-center gap-4">
+            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-rose-600 transition-colors">
+              <ArrowLeft size={18} /> Quay lại
+            </Link>
+            <div>
+              <h1 className="text-2xl font-extrabold text-slate-800 dark:text-white flex items-center gap-2">
+                <BookOpen size={22} className="text-rose-500" /> Học theo bài
+              </h1>
+              <p className="text-slate-500 dark:text-slate-400 text-sm mt-0.5">Nhấn vào từ để xem ví dụ</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
+            <Link
+              to="/practice/vocabulary"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-rose-600 to-pink-600 hover:from-rose-700 hover:to-pink-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+            >
+              <Gamepad2 size={16} />
+              Thực hành ngay
+            </Link>
           </div>
         </div>
 
@@ -115,11 +126,10 @@ export default function VocabStudy() {
         <div className="flex gap-2 flex-wrap mb-6">
           <button
             onClick={() => setSelectedLesson('all')}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-              selectedLesson === 'all'
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedLesson === 'all'
                 ? 'bg-rose-500 text-white shadow-sm'
                 : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-rose-400'
-            }`}
+              }`}
           >
             Tất cả ({vocabularyN3.length})
           </button>
@@ -127,11 +137,10 @@ export default function VocabStudy() {
             <button
               key={l}
               onClick={() => setSelectedLesson(l)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                selectedLesson === l
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedLesson === l
                   ? 'bg-rose-500 text-white shadow-sm'
                   : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:border-rose-400'
-              }`}
+                }`}
             >
               {l.split(':')[0]} ({vocabularyN3.filter(w => w.lesson === l).length})
             </button>

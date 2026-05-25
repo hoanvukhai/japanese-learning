@@ -26,7 +26,7 @@ export default function PracticeDashboard() {
     },
     {
       name: lang === 'en' ? 'Grammar N3' : 'Ngữ Pháp N3',
-      path: '/grammar', icon: PenLine,
+      path: '/practice/grammar', icon: PenLine,
       desc: lang === 'en'
         ? '6 game modes: Flashcard, Quiz, Matching, Word Order & Arena Trap'
         : '6 game: Lật thẻ, Trắc nghiệm, Nối từ, Xếp câu & Bẫy đối kháng',
@@ -34,13 +34,13 @@ export default function PracticeDashboard() {
     },
     {
       name: lang === 'en' ? 'Vocabulary N3' : 'Từ Vựng N3',
-      path: '/vocabulary', icon: Puzzle,
+      path: '/practice/vocabulary', icon: Puzzle,
       desc: lang === 'en' ? 'Flashcard, quiz, matching & typing for N3 vocab' : 'Lật thẻ, trắc nghiệm, nối từ & nhập liệu từ vựng N3',
       color: 'text-purple-500', bgLight: 'bg-purple-100 dark:bg-purple-900/30', borderColor: 'hover:border-purple-500', disabled: false,
     },
     {
       name: lang === 'en' ? 'Kanji' : 'Chữ Hán (Kanji)',
-      path: '/kanji', icon: Award,
+      path: '/practice/kanji', icon: Award,
       desc: lang === 'en' ? 'Recognize and write Kanji daily' : 'Nhận diện và viết Kanji mỗi ngày',
       color: 'text-rose-500', bgLight: 'bg-rose-100 dark:bg-rose-900/30', borderColor: 'hover:border-rose-500', disabled: false,
     },

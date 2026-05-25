@@ -136,7 +136,7 @@ export default function KanjiTyping() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-8 transition-colors">
+          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⌨️ Nhập chữ Kanji</h1>
@@ -266,7 +266,7 @@ export default function KanjiTyping() {
             >
               <RotateCcw size={16} /> Gõ lại
             </button>
-            <Link to="/kanji" className="block w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all text-center">
+            <Link to="/practice/kanji" className="block w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>

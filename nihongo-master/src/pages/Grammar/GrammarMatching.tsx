@@ -45,6 +45,7 @@ export default function GrammarMatching() {
     setSelectedLeft(null);
     setSelectedRight(null);
     setErrorPair(null);
+    setRoundScore(0); // BUG-06 fix: Reset score mỗi vòng mới
     setTotalRounds(t => t + 1);
     setStarted(true);
   };
@@ -96,7 +97,7 @@ export default function GrammarMatching() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🔗 Nối Ngữ Pháp</h1>
@@ -158,7 +159,7 @@ export default function GrammarMatching() {
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-8">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors font-medium">
-            <ArrowLeft size={18} /> Cài đặt
+            <ArrowLeft size={18} /> Quay lại
           </button>
           <div className="text-sm font-semibold text-slate-500 dark:text-slate-400">
             {mode === 'structure-meaning' ? 'Nối Cấu trúc ↔ Nghĩa' : 'Nối Cấu trúc ↔ Thành lập'}
@@ -183,7 +184,7 @@ export default function GrammarMatching() {
             >
               <RotateCcw size={18} /> Chơi tiếp (bộ mới)
             </button>
-            <Link to="/grammar" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
+            <Link to="/practice/grammar" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
               Về dashboard
             </Link>
           </motion.div>

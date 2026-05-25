@@ -168,7 +168,7 @@ export default function KanjiQuiz() {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-lg mx-auto">
-          <Link to="/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-8 transition-colors">
+          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🎯 Trắc nghiệm Kanji</h1>
@@ -293,7 +293,7 @@ export default function KanjiQuiz() {
             >
               <RotateCcw size={16} /> Làm lại
             </button>
-            <Link to="/kanji" className="block w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to="/practice/kanji" className="block w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>

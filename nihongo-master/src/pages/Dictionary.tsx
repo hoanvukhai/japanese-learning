@@ -235,27 +235,31 @@ export default function Dictionary() {
           <table className="w-full text-left border-collapse">
             <thead>
               <tr className="bg-slate-50 dark:bg-slate-900 border-b border-gray-100 dark:border-slate-700 text-slate-600 dark:text-slate-300 transition-colors">
-                <th className="py-4 px-6 font-semibold whitespace-nowrap">{t.thKanji}</th>
-                {dictMode === 'general' && <th className="py-4 px-6 font-semibold">{t.thHiragana}</th>}
-                <th className="py-4 px-6 font-semibold">{t.thMeaning}</th>
                 {dictMode === 'general' ? (
                   <>
+                    <th className="py-4 px-6 font-semibold whitespace-nowrap">{t.thKanji}</th>
+                    <th className="py-4 px-6 font-semibold">{t.thHiragana}</th>
+                    <th className="py-4 px-6 font-semibold">{t.thMeaning}</th>
                     <th className="py-4 px-6 font-semibold text-center">{t.thType}</th>
                     <th className="py-4 px-6 font-semibold text-center">{t.thLevel}</th>
                   </>
                 ) : dictMode === 'keigo' ? (
                   <>
+                    <th className="py-4 px-6 font-semibold whitespace-nowrap">{t.thKanji}</th>
+                    <th className="py-4 px-6 font-semibold">{t.thMeaning}</th>
                     <th className="py-4 px-6 font-semibold">{t.thSonkei}</th>
                     <th className="py-4 px-6 font-semibold">{t.thKenjou}</th>
                     <th className="py-4 px-6 font-semibold">{t.thTeinei}</th>
                   </>
                 ) : dictMode === 'kanji' ? (
                   <>
+                    <th className="py-4 px-6 font-semibold whitespace-nowrap">{t.thKanjiBase}</th>
                     <th className="py-4 px-6 font-semibold">{t.thHanViet}</th>
                     <th className="py-4 px-6 font-semibold">{t.thKanjiWords}</th>
                     <th className="py-4 px-6 font-semibold text-center">{t.thLevel}</th>
                   </>
                 ) : (
+                  /* grammar mode — chỉ có đúng các cột grammar */
                   <>
                     <th className="py-4 px-6 font-semibold whitespace-nowrap">{t.thStructure}</th>
                     <th className="py-4 px-6 font-semibold">{t.thMeaning}</th>
@@ -385,11 +389,18 @@ export default function Dictionary() {
                 filteredGrammar.length > 0 ? (
                   filteredGrammar.map(g => (
                     <tr key={g.id} className="border-b border-gray-50 dark:border-slate-700 hover:bg-slate-50/50 dark:hover:bg-slate-700/50 transition-colors">
-                      <td className="py-4 px-6 font-bold text-xl text-teal-600 dark:text-teal-400 whitespace-nowrap">
+                      <td className="py-4 px-6 font-bold text-lg text-teal-600 dark:text-teal-400">
                         {g.structure}
                       </td>
-                      <td className="py-4 px-6 font-medium text-slate-800 dark:text-white min-w-[150px]">
-                        {g.meaning[language as 'vi' | 'en'] || g.meaning.vi}
+                      <td className="py-4 px-6 min-w-[250px]">
+                        <div className="font-medium text-slate-800 dark:text-white mb-2">
+                          {g.meaning[language as 'vi' | 'en'] || g.meaning.vi}
+                        </div>
+                        {g.caution && (
+                          <div className="text-xs text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20 p-2 rounded border border-amber-200 dark:border-amber-800/50">
+                            <strong>⚠️ {language === 'en' ? 'Trap:' : 'Bẫy:'}</strong> {(g.caution[language as 'vi' | 'en'] || g.caution.vi).replace(/⚠️ Bẫy JLPT: |⚠️ JLPT Trap: /g, '')}
+                          </div>
+                        )}
                       </td>
                       <td className="py-4 px-6">
                         <div className="space-y-1">

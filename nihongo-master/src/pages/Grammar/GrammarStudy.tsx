@@ -1,7 +1,7 @@
 // src/pages/Grammar/GrammarStudy.tsx
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Search, Volume2, ChevronDown, ChevronUp, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Search, Volume2, ChevronDown, ChevronUp, AlertTriangle, Gamepad2, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import type { GrammarItem } from '../../types';
@@ -146,24 +146,37 @@ export default function GrammarStudy() {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-3xl mx-auto">
 
-        <header className="mb-8">
-          <Link to="/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-6 transition-colors font-medium">
-            <ArrowLeft size={18} /> Quay lại Dashboard
-          </Link>
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-            <div>
-              <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-1">📖 Học Ngữ Pháp</h1>
-              <p className="text-slate-500 dark:text-slate-400">Cấu trúc, cách dùng và bẫy JLPT cho từng mẫu.</p>
+        <header className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div className="flex-1">
+            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-4 transition-colors font-medium">
+              <ArrowLeft size={18} /> Quay lại
+            </Link>
+            <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">
+              <BookOpen size={28} className="inline-block text-teal-500 mr-2 -mt-1" />
+              Học Ngữ pháp
+            </h1>
+            <p className="text-slate-500 dark:text-slate-400">
+              Danh sách các cấu trúc ngữ pháp N3 phân theo bài học hoặc nhóm bẫy JLPT.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm shadow-sm">
+              Đang chọn: {filtered.length} mẫu
             </div>
-            <div className="bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300 px-4 py-2 rounded-xl font-bold text-sm">
-              Hiển thị: {filtered.length} mẫu
-            </div>
+            <Link
+              to="/practice/grammar"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+            >
+              <Gamepad2 size={16} />
+              Thực hành ngay
+            </Link>
           </div>
         </header>
 
         {/* Filters */}
-        <div className="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 mb-8 flex flex-col md:flex-row gap-3">
-          <div className="flex-1 relative">
+        <div className="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 mb-8 space-y-3">
+          <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
             <input
               type="text"
@@ -173,16 +186,29 @@ export default function GrammarStudy() {
               className="w-full pl-11 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-teal-500 dark:text-white transition-colors text-sm"
             />
           </div>
-          <select
-            value={selectedLesson}
-            onChange={e => setSelectedLesson(e.target.value)}
-            className="w-full md:w-40 px-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-teal-500 dark:text-white transition-colors font-medium cursor-pointer text-sm"
-          >
-            <option value="all">Tất cả bài</option>
+          <div className="flex gap-2 flex-wrap">
+            <button
+              onClick={() => setSelectedLesson('all')}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === 'all'
+                  ? 'bg-teal-600 text-white shadow-sm'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                }`}
+            >
+              Tất cả ({grammarN3.length})
+            </button>
             {lessons.map(l => (
-              <option key={l} value={l}>{l}</option>
+              <button
+                key={l}
+                onClick={() => setSelectedLesson(l)}
+                className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === l
+                    ? 'bg-teal-600 text-white shadow-sm'
+                    : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  }`}
+              >
+                {l} ({grammarN3.filter(g => g.lesson === l).length})
+              </button>
             ))}
-          </select>
+          </div>
         </div>
 
         {/* List */}

@@ -302,7 +302,7 @@ export default function Practice() {
       {/* HEADER */}
       <div className="w-full max-w-md mb-8 space-y-4">
         <button 
-          onClick={() => navigate('/practice')} 
+          onClick={() => navigate('/practice/conjugation')} 
           className="group flex items-center text-slate-500 hover:text-indigo-600 font-semibold mb-2 transition-colors"
         >
           <ArrowLeft className="mr-2 h-5 w-5 group-hover:-translate-x-1 transition-transform" />

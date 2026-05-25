@@ -12,35 +12,35 @@ export default function Study() {
 
   const modules = [
     {
-      to: '/practice/conjugation',
+      to: '/study/conjugation',
       icon: Pen,
       label: language === 'en' ? 'Conjugation' : 'Học Chia Thể',
       desc: language === 'en' ? 'Master verb & adjective conjugation rules.' : 'Nắm vững quy tắc chia động từ, tính từ.',
       color: 'text-blue-600', bg: 'bg-blue-100 dark:bg-blue-900/30', border: 'hover:border-blue-500',
     },
     {
-      to: '/practice/keigo',
+      to: '/study/keigo',
       icon: GraduationCap,
       label: language === 'en' ? 'Keigo' : 'Học Kính Ngữ',
       desc: language === 'en' ? 'Learn polite, honorific and humble forms.' : 'Học cách nói tôn kính, khiêm nhường chuẩn Nhật.',
       color: 'text-green-600', bg: 'bg-green-100 dark:bg-green-900/30', border: 'hover:border-green-500',
     },
     {
-      to: '/vocabulary/study',
+      to: '/study/vocabulary',
       icon: BookOpen,
       label: language === 'en' ? 'Vocabulary' : 'Học Từ Vựng',
       desc: language === 'en' ? 'Study vocabulary by lesson with examples.' : 'Học từ vựng theo bài với ví dụ cụ thể.',
       color: 'text-rose-600', bg: 'bg-rose-100 dark:bg-rose-900/30', border: 'hover:border-rose-500',
     },
     {
-      to: '/kanji/study',
+      to: '/study/kanji',
       icon: BookOpen,
       label: language === 'en' ? 'Kanji' : 'Học Kanji',
       desc: language === 'en' ? 'Look up Kanji, On/Kun readings and compounds.' : 'Tra cứu chữ Hán, âm On/Kun và từ ghép.',
       color: 'text-amber-600', bg: 'bg-amber-100 dark:bg-amber-900/30', border: 'hover:border-amber-500',
     },
     {
-      to: '/grammar/study',
+      to: '/study/grammar',
       icon: PenLine,
       label: language === 'en' ? 'Grammar' : 'Học Ngữ Pháp',
       desc: language === 'en' ? 'Study N3 grammar structures, formations and JLPT traps.' : 'Học cấu trúc ngữ pháp N3, cách thành lập và bẫy JLPT.',
