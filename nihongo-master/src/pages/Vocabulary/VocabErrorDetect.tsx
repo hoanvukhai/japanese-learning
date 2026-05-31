@@ -1,0 +1,462 @@
+import { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowLeft, CheckCircle2, XCircle, Eye, EyeOff, Shuffle, MousePointerClick, ShieldAlert } from 'lucide-react';
+import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
+import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
+
+function shuffle<T>(arr: T[]): T[] {
+  return [...arr].sort(() => Math.random() - 0.5);
+}
+
+interface ErrorItem {
+  id: string;
+  isCorrect: boolean; // Dùng cho chế độ truefalse
+  word: string;
+  hiragana: string;
+  displayedMeaning: string;
+  actualMeaning: string;
+  wrongMeaningSourceWord?: string; // Nếu sai thì lấy nghĩa của từ nào
+  lesson: string;
+}
+
+type GameMode = 'truefalse' | 'pickwrong';
+
+export default function VocabErrorDetect() {
+  const lessons = getN3Lessons();
+  const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
+  const [started, setStarted] = useState(false);
+  const [showFurigana, setShowFurigana] = useState(false);
+  const [gameMode, setGameMode] = useState<GameMode>('truefalse');
+
+  const pool = useMemo<ErrorItem[]>(() => {
+    let base = selectedLessons.length > 0
+      ? vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''))
+      : vocabularyN3;
+
+    if (base.length < 4) return [];
+
+    const items: ErrorItem[] = [];
+    base.forEach(w => {
+      const isCorrect = Math.random() > 0.5;
+      const actualMeaning = typeof w.meaning === 'object' ? w.meaning.vi : w.meaning;
+      let displayedMeaning = actualMeaning;
+      let wrongMeaningSourceWord = undefined;
+
+      if (!isCorrect) {
+        // Lấy ngẫu nhiên nghĩa của từ khác
+        const otherWords = base.filter(ow => ow.id !== w.id);
+        if (otherWords.length > 0) {
+          const randWord = otherWords[Math.floor(Math.random() * otherWords.length)];
+          displayedMeaning = typeof randWord.meaning === 'object' ? randWord.meaning.vi : randWord.meaning;
+          wrongMeaningSourceWord = randWord.kanji || randWord.hiragana;
+        }
+      }
+
+      items.push({
+        id: w.id,
+        isCorrect,
+        word: w.kanji || w.hiragana,
+        hiragana: w.hiragana,
+        displayedMeaning,
+        actualMeaning,
+        wrongMeaningSourceWord,
+        lesson: w.lesson || '',
+      });
+    });
+
+    return shuffle(items);
+  }, [selectedLessons]);
+
+  const [queue, setQueue] = useState<ErrorItem[]>([]);
+  const [score, setScore] = useState(0);
+  const [status, setStatus] = useState<'idle' | 'success' | 'fail'>('idle');
+  const [selectedAnswerTF, setSelectedAnswerTF] = useState<boolean | null>(null);
+  const [selectedAnswerPW, setSelectedAnswerPW] = useState<string | null>(null);
+
+  const current = queue[0];
+
+  // Options cho chế độ Pick Wrong
+  const pwOptions = useMemo(() => {
+    if (!current || gameMode !== 'pickwrong') return [];
+    
+    // Tìm 3 từ khác có nghĩa đúng
+    const otherItemsPool = pool.filter(p => p.id !== current.id);
+    const shuffledOthers = shuffle(otherItemsPool).slice(0, 3);
+    
+    const correctOptions = shuffledOthers.map(p => ({
+      id: p.id,
+      word: p.word,
+      hiragana: p.hiragana,
+      meaning: p.actualMeaning, // Ép nghĩa đúng
+      isWrongPairing: false
+    }));
+
+    const wrongOption = {
+      id: current.id,
+      word: current.word,
+      hiragana: current.hiragana,
+      meaning: current.isCorrect ? current.actualMeaning : current.displayedMeaning,
+      isWrongPairing: true
+    };
+    
+    // Đảm bảo option sai luôn có nghĩa sai (nếu current ngẫu nhiên là câu đúng thì đổi nó thành sai)
+    if (current.isCorrect) {
+      const randOther = shuffledOthers[0];
+      if (randOther) wrongOption.meaning = randOther.actualMeaning;
+    }
+
+    return shuffle([...correctOptions, wrongOption]);
+  }, [current, pool, gameMode]);
+
+  const handleStart = () => {
+    setQueue(pool);
+    setScore(0);
+    setStatus('idle');
+    setSelectedAnswerTF(null);
+    setSelectedAnswerPW(null);
+    setStarted(true);
+  };
+
+  const handleAnswerTF = (answer: boolean) => {
+    if (status !== 'idle') return;
+    setSelectedAnswerTF(answer);
+    
+    if (answer === current.isCorrect) {
+      setStatus('success');
+      setScore(s => s + 1);
+    } else {
+      setStatus('fail');
+    }
+  };
+
+  const handleAnswerPW = (opt: typeof pwOptions[0]) => {
+    if (status !== 'idle') return;
+    setSelectedAnswerPW(opt.id);
+    
+    if (opt.isWrongPairing) {
+      setStatus('success');
+      setScore(s => s + 1);
+    } else {
+      setStatus('fail');
+    }
+  };
+
+  const handleNext = () => {
+    setQueue(q => q.slice(1));
+    setStatus('idle');
+    setSelectedAnswerTF(null);
+    setSelectedAnswerPW(null);
+  };
+
+  // ──────────── SETUP SCREEN ────────────
+  if (!started) {
+    return (
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans text-slate-800 dark:text-slate-100 transition-colors duration-300">
+        <div className="max-w-3xl mx-auto">
+          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-rose-600 mb-8 transition-colors">
+            <ArrowLeft size={18} /> Quay lại
+          </Link>
+
+          <div className="mb-10 text-center">
+            <h1 className="text-3xl md:text-4xl font-extrabold mb-4 flex items-center justify-center gap-3">
+              <ShieldAlert className="text-rose-500" size={36} /> Tìm lỗi sai (Từ Vựng)
+            </h1>
+            <p className="text-slate-500 dark:text-slate-400">
+              Phát hiện nghĩa sai hoặc tìm cặp từ bị ghép sai nghĩa.
+            </p>
+          </div>
+
+          <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-200 dark:border-slate-700 space-y-8">
+            <VocabLessonChips
+              options={lessons}
+              selected={selectedLessons}
+              onToggle={(val) => {
+                setSelectedLessons(prev =>
+                  prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+                );
+              }}
+              onSelectAll={() => setSelectedLessons([])}
+              totalCount={vocabularyN3.length}
+              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+            />
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Game Mode */}
+              <div>
+                <label className="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
+                  Chế độ chơi
+                </label>
+                <div className="grid grid-cols-1 gap-2">
+                  <button
+                    onClick={() => setGameMode('truefalse')}
+                    className={`p-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
+                      gameMode === 'truefalse'
+                        ? 'border-rose-500 bg-rose-50 dark:bg-rose-900/20'
+                        : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className={`p-2 rounded-lg ${gameMode === 'truefalse' ? 'bg-rose-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500'}`}>
+                      <Shuffle size={20} />
+                    </div>
+                    <div className="text-left">
+                      <div className="font-bold text-sm">Đúng hay Sai</div>
+                      <div className="text-xs text-slate-500 opacity-80">Phán đoán nghĩa hiển thị</div>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => setGameMode('pickwrong')}
+                    className={`p-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
+                      gameMode === 'pickwrong'
+                        ? 'border-rose-500 bg-rose-50 dark:bg-rose-900/20'
+                        : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className={`p-2 rounded-lg ${gameMode === 'pickwrong' ? 'bg-rose-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500'}`}>
+                      <MousePointerClick size={20} />
+                    </div>
+                    <div className="text-left">
+                      <div className="font-bold text-sm">Tìm cặp sai</div>
+                      <div className="text-xs text-slate-500 opacity-80">Chọn 1 từ bị ghép sai nghĩa</div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              {/* Toggles */}
+              <div>
+                <label className="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">
+                  Hiển thị Kana
+                </label>
+                <button
+                  onClick={() => setShowFurigana(!showFurigana)}
+                  className={`w-full p-4 rounded-xl border-2 transition-all flex items-center justify-between ${
+                    showFurigana
+                      ? 'border-rose-500 bg-rose-50 dark:bg-rose-900/20 text-rose-700 dark:text-rose-400'
+                      : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
+                  }`}
+                >
+                  <div className="flex items-center gap-3 font-bold">
+                    {showFurigana ? <Eye size={20} /> : <EyeOff size={20} />}
+                    {showFurigana ? 'Đang bật' : 'Đang ẩn'}
+                  </div>
+                  <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#f43f5e' : '' }}>
+                    <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-all ${showFurigana ? 'left-5' : 'left-1'}`} />
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <button
+              onClick={handleStart}
+              disabled={pool.length < 4}
+              className="w-full py-4 bg-rose-600 hover:bg-rose-700 disabled:bg-slate-300 text-white font-bold rounded-2xl transition-all shadow-md active:scale-95 text-lg"
+            >
+              {pool.length < 4 ? 'Cần chọn ít nhất 4 từ' : `Bắt đầu (${pool.length} câu)`}
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ──────────── DONE SCREEN ────────────
+  if (queue.length === 0) {
+    const total = pool.length;
+    const pct = Math.round((score / total) * 100);
+    return (
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+        <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center">
+          <div className="text-6xl mb-6">🏁</div>
+          <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Hoàn thành!</h2>
+          <div className="text-6xl font-black text-rose-500 my-6">{pct}%</div>
+          <p className="text-slate-500 mb-8">Bạn đã trả lời đúng {score}/{total} câu.</p>
+          <div className="space-y-3">
+            <button onClick={handleStart} className="w-full py-3 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-xl transition-all">
+              Chơi lại
+            </button>
+            <Link to="/practice/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
+              Về Dashboard
+            </Link>
+          </div>
+        </motion.div>
+      </div>
+    );
+  }
+
+  // ──────────── IN-GAME ────────────
+  const progress = ((pool.length - queue.length) / pool.length) * 100;
+
+  return (
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans text-slate-800 dark:text-slate-100 flex flex-col">
+      <div className="max-w-2xl mx-auto w-full flex-1 flex flex-col justify-center">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-6">
+          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-rose-600 transition-colors font-bold">
+            <ArrowLeft size={18} /> Thoát
+          </button>
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setShowFurigana(!showFurigana)}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
+                showFurigana 
+                  ? 'bg-rose-100 dark:bg-rose-900/40 text-rose-600 dark:text-rose-400' 
+                  : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700'
+              }`}
+            >
+              {showFurigana ? <Eye size={16} /> : <EyeOff size={16} />}
+              Kana
+            </button>
+            <div className="text-sm font-bold bg-white dark:bg-slate-800 px-4 py-2 rounded-full shadow-sm border border-slate-100 dark:border-slate-700 flex items-center gap-2">
+              Điểm: <span className="text-rose-500">{score}</span>
+            </div>
+            <div className="text-sm font-medium text-slate-500">
+              {pool.length - queue.length + 1} / {pool.length}
+            </div>
+          </div>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+          <motion.div className="h-full bg-rose-500 rounded-full" animate={{ width: `${progress}%` }} transition={{ duration: 0.3 }} />
+        </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={`${current.id}_${gameMode}`}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.2 }}
+            className="flex-1 flex flex-col"
+          >
+            {gameMode === 'truefalse' ? (
+              // ──────────── TRUE / FALSE MODE ────────────
+              <div className="bg-white dark:bg-slate-800 rounded-3xl shadow-lg border border-slate-100 dark:border-slate-700 overflow-hidden flex flex-col mb-6">
+                <div className="p-8 md:p-12 text-center flex-1 flex flex-col justify-center items-center">
+                  <div className="text-sm font-bold text-slate-400 mb-6 tracking-widest uppercase">Nghĩa của từ này là:</div>
+                  
+                  <div className="text-5xl md:text-7xl font-black mb-4">
+                    {current.word}
+                  </div>
+                  {showFurigana && (
+                    <div className="text-xl text-slate-400 mb-8">{current.hiragana}</div>
+                  )}
+
+                  <div className="text-3xl md:text-4xl font-bold text-rose-600 dark:text-rose-400 mt-4 px-4 text-center">
+                    "{current.displayedMeaning}"
+                  </div>
+                </div>
+
+                <div className="p-4 bg-slate-50 dark:bg-slate-800/50 border-t border-slate-100 dark:border-slate-700 grid grid-cols-2 gap-4">
+                  <button
+                    onClick={() => handleAnswerTF(true)}
+                    disabled={status !== 'idle'}
+                    className={`py-5 rounded-2xl font-black text-xl flex items-center justify-center gap-2 transition-all ${
+                      selectedAnswerTF === true
+                        ? (current.isCorrect ? 'bg-emerald-500 text-white' : 'bg-red-500 text-white')
+                        : status !== 'idle' && current.isCorrect
+                        ? 'bg-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900' // highlight correct answer
+                        : 'bg-white dark:bg-slate-700 text-slate-700 dark:text-white border-2 border-slate-200 dark:border-slate-600 hover:border-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/30'
+                    }`}
+                  >
+                    ĐÚNG
+                  </button>
+                  <button
+                    onClick={() => handleAnswerTF(false)}
+                    disabled={status !== 'idle'}
+                    className={`py-5 rounded-2xl font-black text-xl flex items-center justify-center gap-2 transition-all ${
+                      selectedAnswerTF === false
+                        ? (!current.isCorrect ? 'bg-emerald-500 text-white' : 'bg-red-500 text-white')
+                        : status !== 'idle' && !current.isCorrect
+                        ? 'bg-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900' // highlight correct answer
+                        : 'bg-white dark:bg-slate-700 text-slate-700 dark:text-white border-2 border-slate-200 dark:border-slate-600 hover:border-red-400 hover:bg-red-50 dark:hover:bg-red-900/30'
+                    }`}
+                  >
+                    SAI
+                  </button>
+                </div>
+              </div>
+            ) : (
+              // ──────────── PICK WRONG MODE ────────────
+              <div className="flex flex-col h-full">
+                <div className="text-center mb-6">
+                  <h2 className="text-xl font-bold">Tìm cặp từ ghép SAI nghĩa</h2>
+                  <p className="text-sm text-slate-500">Chỉ có 1 từ bị ghép với nghĩa không đúng.</p>
+                </div>
+                
+                <div className="grid grid-cols-1 gap-3 flex-1">
+                  {pwOptions.map((opt, idx) => {
+                    let btnClass = 'bg-white dark:bg-slate-800 text-slate-800 dark:text-white border-slate-200 dark:border-slate-700 hover:border-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20';
+                    
+                    if (status !== 'idle') {
+                      if (opt.isWrongPairing) {
+                        btnClass = 'bg-emerald-500 border-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900';
+                      } else if (selectedAnswerPW === opt.id) {
+                        btnClass = 'bg-red-500 border-red-500 text-white';
+                      } else {
+                        btnClass = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 opacity-50';
+                      }
+                    }
+
+                    return (
+                      <button
+                        key={opt.id + idx}
+                        onClick={() => handleAnswerPW(opt)}
+                        disabled={status !== 'idle'}
+                        className={`w-full p-5 rounded-2xl border-2 text-left flex items-center justify-between transition-all ${btnClass}`}
+                      >
+                        <div className="flex items-center gap-4">
+                          <div className="min-w-[4rem] text-center flex flex-col items-center">
+                            <span className="text-3xl font-bold">{opt.word}</span>
+                            {showFurigana && <span className="text-sm opacity-70 mt-1">{opt.hiragana}</span>}
+                          </div>
+                          <div className="font-semibold text-lg">{opt.meaning}</div>
+                        </div>
+                        {status !== 'idle' && opt.isWrongPairing && <CheckCircle2 className="text-white" />}
+                        {status !== 'idle' && selectedAnswerPW === opt.id && !opt.isWrongPairing && <XCircle className="text-white" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Vùng giải thích kết quả khi đã trả lời */}
+            {status !== 'idle' && (
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className={`mt-4 p-6 rounded-2xl border flex flex-col md:flex-row items-center justify-between gap-4 ${
+                  status === 'success' 
+                    ? 'bg-emerald-50 border-emerald-200 dark:bg-emerald-900/20 dark:border-emerald-800/30' 
+                    : 'bg-red-50 border-red-200 dark:bg-red-900/20 dark:border-red-800/30'
+                }`}
+              >
+                <div className="flex-1 text-center md:text-left">
+                  <div className={`font-black text-xl mb-1 ${status === 'success' ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'}`}>
+                    {status === 'success' ? 'Chính xác! 🎉' : 'Sai rồi!'}
+                  </div>
+                  <div className="text-slate-700 dark:text-slate-300 font-medium">
+                    Nghĩa đúng của <span className="font-bold text-rose-600">[{current.word}]</span> là "{current.actualMeaning}".
+                  </div>
+                  {gameMode === 'truefalse' && !current.isCorrect && (
+                    <div className="text-sm text-slate-500 mt-1">
+                      "{current.displayedMeaning}" là nghĩa của "{current.wrongMeaningSourceWord}".
+                    </div>
+                  )}
+                </div>
+                <button
+                  onClick={handleNext}
+                  className="w-full md:w-auto py-3 px-8 bg-slate-800 dark:bg-slate-700 hover:bg-slate-900 dark:hover:bg-slate-600 text-white font-bold rounded-xl transition-all shadow-md active:scale-95 whitespace-nowrap"
+                >
+                  Tiếp tục
+                </button>
+              </motion.div>
+            )}
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </div>
+  );
+}

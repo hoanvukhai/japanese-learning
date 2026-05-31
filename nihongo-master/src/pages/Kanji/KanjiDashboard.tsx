@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Layers, Type, CheckSquare, GitMerge } from 'lucide-react';
+import { BookOpen, Layers, Type, CheckSquare, GitMerge, ShieldAlert } from 'lucide-react';
 import { kanjiN3 } from '../../data/kanjiN3';
 import { useSettings } from '../../context/global/useSettings';
 import { ArrowLeft } from 'lucide-react';
@@ -43,9 +43,9 @@ export default function KanjiDashboard() {
       desc: lang === 'en'
         ? 'Reflex training to remember Kanji, Sino-Vietnamese reading and related vocabulary.'
         : 'Luyện phản xạ nhớ mặt chữ Kanji, Âm Hán Việt và từ vựng đi kèm.',
-      color: 'text-violet-500 dark:text-violet-400',
-      bgLight: 'bg-violet-50 dark:bg-violet-900/30',
-      borderColor: 'hover:border-violet-300 dark:hover:border-violet-500',
+      color: 'text-amber-600 dark:text-amber-400',
+      bgLight: 'bg-amber-50 dark:bg-amber-900/30',
+      borderColor: 'hover:border-amber-400 dark:hover:border-amber-500',
     },
     {
       id: 'quiz',
@@ -55,9 +55,9 @@ export default function KanjiDashboard() {
       desc: lang === 'en'
         ? 'Choose the correct answer about meaning, reading or corresponding Kanji.'
         : 'Chọn đáp án đúng về ý nghĩa, cách đọc hoặc chữ Hán tương ứng.',
-      color: 'text-emerald-500 dark:text-emerald-400',
-      bgLight: 'bg-emerald-50 dark:bg-emerald-900/30',
-      borderColor: 'hover:border-emerald-300 dark:hover:border-emerald-500',
+      color: 'text-orange-500 dark:text-orange-400',
+      bgLight: 'bg-orange-50 dark:bg-orange-900/30',
+      borderColor: 'hover:border-orange-300 dark:hover:border-orange-500',
     },
     {
       id: 'typing',
@@ -79,9 +79,21 @@ export default function KanjiDashboard() {
       desc: lang === 'en'
         ? 'Reflex game: match original Kanji with its Sino-Vietnamese reading.'
         : 'Trò chơi phản xạ ghép nối chữ Kanji gốc với Âm Hán Việt tương ứng.',
-      color: 'text-blue-500 dark:text-blue-400',
-      bgLight: 'bg-blue-50 dark:bg-blue-900/30',
-      borderColor: 'hover:border-blue-300 dark:hover:border-blue-500',
+      color: 'text-yellow-600 dark:text-yellow-400',
+      bgLight: 'bg-yellow-50 dark:bg-yellow-900/30',
+      borderColor: 'hover:border-yellow-400 dark:hover:border-yellow-500',
+    },
+    {
+      id: 'errordetect',
+      name: lang === 'en' ? 'Error Detect' : 'Tìm lỗi sai',
+      path: '/practice/kanji/errordetect',
+      icon: ShieldAlert,
+      desc: lang === 'en'
+        ? 'Find incorrectly paired Kanji readings.'
+        : 'Phát hiện cách đọc Kanji bị sai.',
+      color: 'text-amber-500 dark:text-amber-400',
+      bgLight: 'bg-amber-100 dark:bg-amber-900/30',
+      borderColor: 'hover:border-amber-400 dark:hover:border-amber-500',
     },
   ];
 
@@ -118,7 +130,7 @@ export default function KanjiDashboard() {
             </div>
             <Link 
               to="/study/kanji" 
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <BookOpen size={16} />
               {t.studyBtn}
@@ -130,7 +142,7 @@ export default function KanjiDashboard() {
           variants={containerVariants}
           initial="hidden"
           animate="show"
-          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {playModes.map((mode) => {
             const Icon = mode.icon;

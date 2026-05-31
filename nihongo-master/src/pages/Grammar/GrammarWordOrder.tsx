@@ -2,9 +2,10 @@
 import { useState, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, RotateCcw, CheckCircle2, XCircle, Volume2 } from 'lucide-react';
+import { ArrowLeft, RotateCcw, CheckCircle2, XCircle, Volume2, Eye, EyeOff } from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
+import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
@@ -38,6 +39,7 @@ interface WordOrderCard {
   structure: string;
   meaning: string;
   sentence: string;        // Câu tiếng Nhật đầy đủ
+  kana: string;            // Phiên âm kana của câu (có thể rỗng)
   translation: string;     // Nghĩa tiếng Việt
   tokens: string[];        // Đã xáo trộn
   correctTokens: string[]; // Thứ tự đúng
@@ -47,25 +49,41 @@ interface WordOrderCard {
 export default function GrammarWordOrder() {
   const { language } = useSettings();
   const lessons = getN3GrammarLessons();
-  const [selectedLesson, setSelectedLesson] = useState<string>('all');
+  const groups = useMemo(() => [...new Set(grammarN3.map(g => g.group))], []);
+
+  // Chip multi-select filter
+  const [filterType, setFilterType] = useState<'lesson' | 'group'>('lesson');
+  const [selectedItems, setSelectedItems] = useState<string[]>([]); // [] = all
   const [started, setStarted] = useState(false);
+  const [showFurigana, setShowFurigana] = useState(false);
+  // Distractor option: thêm token nhiễu
+  const [addDistractors, setAddDistractors] = useState(false);
+
+  const chipOptions = filterType === 'lesson' ? lessons : groups;
 
   // Tạo pool chỉ từ các item có ví dụ
   const pool = useMemo<WordOrderCard[]>(() => {
-    const base = selectedLesson === 'all'
-      ? grammarN3
-      : grammarN3.filter(g => g.lesson === selectedLesson);
+    let base = grammarN3;
+    if (selectedItems.length > 0) {
+      base = filterType === 'lesson'
+        ? grammarN3.filter(g => selectedItems.includes(g.lesson))
+        : grammarN3.filter(g => selectedItems.includes(g.group));
+    }
 
     const cards: WordOrderCard[] = [];
     base.forEach(g => {
       g.examples.forEach((ex, i) => {
-        const correctTokens = tokenizeJapanese(ex.jp);
+        // Loại bỏ markup [...] → câu sạch để tokenize và hiển thị
+        const cleanJp = ex.jp.replace(/\[([^\]]+)\]/g, '$1');
+        const cleanKana = ex.kana ? ex.kana.replace(/\[([^\]]+)\]/g, '$1') : '';
+        const correctTokens = tokenizeJapanese(cleanJp);
         if (correctTokens.length >= 3) {
           cards.push({
             id: `${g.id}_ex${i}`,
             structure: g.structure,
             meaning: g.meaning[language as 'vi' | 'en'] || g.meaning.vi,
-            sentence: ex.jp,
+            sentence: cleanJp,
+            kana: cleanKana,
             translation: ex.vi,
             tokens: shuffle(correctTokens),
             correctTokens,
@@ -75,18 +93,21 @@ export default function GrammarWordOrder() {
       });
     });
     return shuffle(cards);
-  }, [selectedLesson, language]);
+  }, [selectedItems, filterType, language]);
 
   const [queue, setQueue] = useState<WordOrderCard[]>([]);
   const [score, setScore] = useState(0);
   const [selected, setSelected] = useState<{ token: string; idx: number }[]>([]);
-  const [remaining, setRemaining] = useState<{ token: string; idx: number }[]>([]);
+  // allTokens = correctTokens + optional distractor tokens (with isDistractor flag)
+  const [remaining, setRemaining] = useState<{ token: string; idx: number; isDistractor?: boolean }[]>([]);
   const [status, setStatus] = useState<'idle' | 'correct' | 'wrong'>('idle');
 
   const current = queue[0];
 
   const playAudio = (text: string) => {
-    const utterance = new SpeechSynthesisUtterance(text);
+    // Loại bỏ markup [...] trước khi phát âm
+    const cleanText = text.replace(/\[([^\]]+)\]/g, '$1');
+    const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     window.speechSynthesis.speak(utterance);
   };
@@ -104,10 +125,32 @@ export default function GrammarWordOrder() {
   const initCard = useCallback((card: WordOrderCard) => {
     // BUG-02 fix: Luôn shuffle lại correctTokens để retry không bị trùng thứ tự
     const reshuffled = shuffle(card.correctTokens);
-    setRemaining(reshuffled.map((t, i) => ({ token: t, idx: i })));
+    let tokenList: { token: string; idx: number; isDistractor?: boolean }[] =
+      reshuffled.map((t, i) => ({ token: t, idx: i }));
+
+    // Thêm distractor tokens nếu bật
+    if (addDistractors) {
+      // Lấy token ngẫu nhiên từ các câu khác trong pool
+      const otherCards = pool.filter(p => p.id !== card.id);
+      const distractorPool: string[] = [];
+      otherCards.forEach(p => {
+        p.correctTokens.forEach(t => {
+          if (!card.correctTokens.includes(t) && t.length >= 2) {
+            distractorPool.push(t);
+          }
+        });
+      });
+      const distractors = shuffle([...new Set(distractorPool)]).slice(0, 2);
+      distractors.forEach((t, i) => {
+        tokenList.push({ token: t, idx: 1000 + i, isDistractor: true });
+      });
+      tokenList = shuffle(tokenList);
+    }
+
+    setRemaining(tokenList);
     setSelected([]);
     setStatus('idle');
-  }, []);
+  }, [addDistractors, pool]);
 
   const handleNext = () => {
     const nextQueue = queue.slice(1);
@@ -117,9 +160,17 @@ export default function GrammarWordOrder() {
     }
   };
 
-  const handlePickToken = (item: { token: string; idx: number }) => {
+  const handlePickToken = (item: { token: string; idx: number; isDistractor?: boolean }) => {
     if (status !== 'idle') return;
     setRemaining(r => r.filter(t => t.idx !== item.idx));
+    // Distractor tokens được bỏ qua (trả về kho), không được ghép vào câu
+    if (item.isDistractor) {
+      // Highlight briefly then put back
+      setTimeout(() => {
+        setRemaining(r => [...r, item].sort((a, b) => a.idx - b.idx));
+      }, 400);
+      return;
+    }
     const newSelected = [...selected, item];
     setSelected(newSelected);
 
@@ -150,7 +201,7 @@ export default function GrammarWordOrder() {
   if (!started) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
@@ -158,20 +209,48 @@ export default function GrammarWordOrder() {
           <p className="text-slate-500 dark:text-slate-400 mb-8">Bấm các mảnh ghép theo đúng thứ tự để tái tạo lại câu ví dụ.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">📚 Bài học</label>
-              <select
-                value={selectedLesson}
-                onChange={e => setSelectedLesson(e.target.value)}
-                className="w-full py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-white outline-none focus:border-indigo-500 transition-colors cursor-pointer"
-              >
-                <option value="all">Tất cả ({pool.length} câu)</option>
-                {lessons.map(l => {
-                  const cnt = pool.filter(p => p.lesson === l).length;
-                  return <option key={l} value={l}>{l} ({cnt} câu)</option>;
-                })}
-              </select>
+
+            {/* Distractor option */}
+            <div
+              className={`flex items-start gap-3 rounded-xl p-4 border cursor-pointer transition-all ${
+                addDistractors
+                  ? 'bg-indigo-50 dark:bg-indigo-900/20 border-indigo-200 dark:border-indigo-800/50'
+                  : 'bg-slate-50 dark:bg-slate-700/50 border-slate-200 dark:border-slate-600'
+              }`}
+              onClick={() => setAddDistractors(v => !v)}
+            >
+              <div className={`w-4 h-4 rounded border-2 flex-shrink-0 mt-0.5 flex items-center justify-center ${
+                addDistractors ? 'bg-indigo-500 border-indigo-500' : 'border-slate-300 dark:border-slate-600'
+              }`}>
+                {addDistractors && <span className="text-white text-[10px] font-bold">✓</span>}
+              </div>
+              <div>
+                <div className="text-sm font-bold text-slate-700 dark:text-slate-200">🌀 Thêm mảnh nhiễu (khó hơn)</div>
+                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                  Thêm 2 từ nhiễu từ các câu khác vào kho từ — bạn phải chọn đúng và bỏ qua các từ không cần thiết.
+                </p>
+              </div>
             </div>
+
+            {/* Chip selector */}
+            <GrammarLessonChips
+              filterType={filterType}
+              onFilterTypeChange={t => { setFilterType(t); setSelectedItems([]); }}
+              options={chipOptions}
+              selected={selectedItems}
+              onToggle={val => setSelectedItems(prev =>
+                prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+              )}
+              onSelectAll={() => setSelectedItems([])}
+              getLabel={filterType === 'group' ? getGroupLabel : undefined}
+              getCount={val =>
+                filterType === 'lesson'
+                  ? grammarN3.filter(g => g.lesson === val).length
+                  : grammarN3.filter(g => g.group === val).length
+              }
+              totalCount={grammarN3.length}
+              accentClass="border-indigo-500 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300"
+            />
 
             <div className="bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800/50 rounded-xl p-4">
               <p className="text-sm text-indigo-700 dark:text-indigo-300">
@@ -222,7 +301,7 @@ export default function GrammarWordOrder() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
-      <div className="max-w-lg mx-auto">
+      <div className="max-w-3xl mx-auto">
 
         {/* Top bar */}
         <div className="flex items-center justify-between mb-6">
@@ -230,7 +309,20 @@ export default function GrammarWordOrder() {
             <ArrowLeft size={18} /> Thoát
           </button>
           <div className="text-sm font-bold text-indigo-600 dark:text-indigo-400">{score} đúng</div>
-          <div className="text-sm text-slate-500 dark:text-slate-400">{pool.length - queue.length + 1} / {pool.length}</div>
+          <div className="flex items-center gap-2">
+            <div className="text-sm text-slate-500 dark:text-slate-400">{pool.length - queue.length + 1} / {pool.length}</div>
+            <button
+              onClick={() => setShowFurigana(v => !v)}
+              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl border-2 text-xs font-bold transition-all ${
+                showFurigana
+                  ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400'
+                  : 'border-slate-200 dark:border-slate-600 text-slate-400 hover:border-indigo-300'
+              }`}
+            >
+              {showFurigana ? <Eye size={13} /> : <EyeOff size={13} />}
+              <span>Kana</span>
+            </button>
+          </div>
         </div>
 
         {/* Progress */}
@@ -258,6 +350,10 @@ export default function GrammarWordOrder() {
               </div>
               <div className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 mb-1">{current.meaning}</div>
               <div className="text-sm text-slate-500 dark:text-slate-400 italic">💬 {current.translation}</div>
+              {/* Furigana kana hint */}
+              {showFurigana && current.kana && (
+                <div className="text-xs text-slate-400 dark:text-slate-500 font-mono mt-1">{current.kana}</div>
+              )}
             </div>
 
             {/* Answer area */}

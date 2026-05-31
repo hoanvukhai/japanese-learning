@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Layers, CheckSquare, Shuffle, GitMerge, Swords, PenLine, ArrowLeft, BookOpen } from 'lucide-react';
+import { Layers, CheckSquare, Shuffle, GitMerge, Search, PenLine, ArrowLeft, BookOpen } from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 
 const containerVariants = {
@@ -89,15 +89,15 @@ const advancedModes = [
     badge: undefined,
   },
   {
-    id: 'arena',
-    name: 'Bẫy đối kháng',
-    path: '/practice/grammar/quiz',
-    icon: Swords,
-    desc: 'Đáp án nhiễu đều là mẫu cùng nhóm. Cực hóc búa — cực thực chiến!',
+    id: 'errordetect',
+    name: 'Tìm lỗi sai',
+    path: '/practice/grammar/errordetect',
+    icon: Search,
+    desc: 'Nhìn vào câu và phán đoán: Đúng hay Sai? Hoặc chọn câu nào trong nhóm bị sai ngữ pháp.',
     color: 'text-red-600 dark:text-red-400',
     bg: 'bg-red-50 dark:bg-red-900/30',
     border: 'hover:border-red-400',
-    badge: '⚔️ KILLER',
+    badge: undefined,
   },
 ];
 
@@ -133,9 +133,9 @@ export default function GrammarDashboard() {
       <div className="max-w-4xl mx-auto">
 
         {/* Header */}
-        <motion.header 
-          initial={{ opacity: 0, y: -20 }} 
-          animate={{ opacity: 1, y: 0 }} 
+        <motion.header
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
           className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6"
         >
           <div className="flex-1 text-center md:text-left">
@@ -154,16 +154,16 @@ export default function GrammarDashboard() {
               📝 Ngữ Pháp N3
             </h1>
             <p className="text-slate-500 dark:text-slate-400 text-base">
-              Hệ thống kép: học theo bài (Riki) · luyện game theo nhóm bẫy
+              Hệ thống kép: học theo bài · luyện game theo nhóm bẫy
             </p>
           </div>
-          
+
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
             <span className="text-sm font-medium text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 px-4 py-2 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
               {grammarN3.length} mẫu · {lessons.length} bài · {groups.length} nhóm bẫy
             </span>
-            <Link 
-              to="/study/grammar" 
+            <Link
+              to="/study/grammar"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <BookOpen size={16} />
@@ -197,7 +197,7 @@ export default function GrammarDashboard() {
           {groups.length > 0 && (
             <motion.div variants={cardVar} className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700">
               <h2 className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-4">
-                🗺️ Bản đồ nhóm bẫy (dùng cho Trắc nghiệm & Bẫy đối kháng)
+                🗺️ Bản đồ nhóm bẫy (dùng cho Trắc nghiệm & Tìm lỗi sai)
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {groups.map(group => {

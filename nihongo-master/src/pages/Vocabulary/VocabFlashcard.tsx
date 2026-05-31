@@ -3,11 +3,11 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2, Eye, EyeOff } from 'lucide-react';
 import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
 import type { Word } from '../../types';
+import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
 
-type CardFace = 'jp' | 'vi'; // mặt trước hiển thị gì
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
@@ -15,16 +15,18 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function VocabFlashcard() {
   const lessons = getN3Lessons();
-  const [selectedLesson, setSelectedLesson] = useState<string>('all');
-  const [frontFace, setFrontFace] = useState<CardFace>('jp');
+  const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
+
+  const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
+  const [showFurigana, setShowFurigana] = useState(false);
   const [started, setStarted] = useState(false);
 
   const pool = useMemo(() => {
-    const base = selectedLesson === 'all'
+    const base = selectedLessons.length === 0
       ? vocabularyN3
-      : vocabularyN3.filter(w => w.lesson === selectedLesson);
+      : vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''));
     return shuffle(base);
-  }, [selectedLesson]);
+  }, [selectedLessons]);
 
   const [queue, setQueue] = useState<Word[]>([]);
   const [known, setKnown] = useState<Word[]>([]);
@@ -70,46 +72,80 @@ export default function VocabFlashcard() {
   if (!started) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ từ vựng</h1>
           <p className="text-slate-500 dark:text-slate-400 mb-8">Chọn bài học và chế độ hiển thị.</p>
 
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
+          <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             {/* Chọn bài */}
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">📚 Bài học</label>
-              <select
-                value={selectedLesson}
-                onChange={e => setSelectedLesson(e.target.value)}
-                className="w-full py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-white outline-none focus:border-violet-500 transition-colors"
-              >
-                <option value="all">Tất cả ({vocabularyN3.length} từ)</option>
-                {lessons.map(l => (
-                  <option key={l} value={l}>{l} ({vocabularyN3.filter(w => w.lesson === l).length} từ)</option>
-                ))}
-              </select>
-            </div>
+            <VocabLessonChips
+              options={lessons}
+              selected={selectedLessons}
+              onToggle={(val) => {
+                setSelectedLessons(prev =>
+                  prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+                );
+              }}
+              onSelectAll={() => setSelectedLessons([])}
+              totalCount={vocabularyN3.length}
+              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+            />
 
-            {/* Chế độ mặt trước */}
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Mặt trước hiển thị</label>
-              <div className="flex gap-3">
-                {(['jp', 'vi'] as CardFace[]).map(f => (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Hướng & Furigana */}
+              <div className="space-y-6">
+                <div>
+                  <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng thẻ</label>
+                  <div className="grid grid-cols-2 gap-3">
+                    <button
+                      type="button"
+                      onClick={() => setDirection('forward')}
+                      className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
+                        direction === 'forward'
+                          ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                          : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                      }`}
+                    >
+                      Thuận
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setDirection('backward')}
+                      className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
+                        direction === 'backward'
+                          ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                          : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                      }`}
+                    >
+                      Đảo ngược
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">
+                    Hiển thị Kana (Mặt có Kanji)
+                  </label>
                   <button
-                    key={f}
-                    onClick={() => setFrontFace(f)}
-                    className={`flex-1 py-3 rounded-xl font-medium border-2 transition-all ${
-                      frontFace === f
-                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400'
-                        : 'border-slate-200 dark:border-slate-600 text-slate-500 dark:text-slate-400 hover:border-violet-300'
+                    onClick={() => setShowFurigana(!showFurigana)}
+                    className={`w-full p-4 rounded-xl border-2 transition-all flex items-center justify-between ${
+                      showFurigana
+                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/20 text-violet-700 dark:text-violet-400'
+                        : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
                     }`}
                   >
-                    {f === 'jp' ? '🇯🇵 Kanji / Hiragana' : '🇻🇳 Nghĩa tiếng Việt'}
+                    <div className="flex items-center gap-3 font-bold">
+                      {showFurigana ? <Eye size={20} /> : <EyeOff size={20} />}
+                      {showFurigana ? 'Đang bật' : 'Đang ẩn'}
+                    </div>
+                    <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#8b5cf6' : '' }}>
+                      <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-all ${showFurigana ? 'left-5' : 'left-1'}`} />
+                    </div>
                   </button>
-                ))}
+                </div>
               </div>
             </div>
 
@@ -177,8 +213,22 @@ export default function VocabFlashcard() {
   // ──────────── CARD SCREEN ────────────
   const getKanjiDisplay = (w: Word) => w.alt_kanji ? `${w.kanji} (${w.alt_kanji})` : w.kanji;
 
-  const frontContent = frontFace === 'jp' ? getKanjiDisplay(current) : getMeaning(current);
-  const backContent = frontFace === 'jp' ? getMeaning(current) : getKanjiDisplay(current);
+  let frontContent = '';
+  let backContent = '';
+  let subFront = '';
+  let subBack = '';
+
+  if (direction === 'forward') {
+    frontContent = getKanjiDisplay(current);
+    if (showFurigana) subFront = current.hiragana;
+    backContent = getMeaning(current);
+    subBack = current.hiragana;
+  } else {
+    frontContent = getMeaning(current);
+    backContent = getKanjiDisplay(current);
+    if (showFurigana) subBack = current.hiragana;
+  }
+
   const progress = ((known.length + learning.length) / (known.length + learning.length + queue.length)) * 100;
 
   return (
@@ -186,11 +236,25 @@ export default function VocabFlashcard() {
       <div className="max-w-lg mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
-          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 transition-colors">
+          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Quay lại
           </button>
-          <div className="text-sm text-slate-500 dark:text-slate-400">
-            {known.length + learning.length} / {known.length + learning.length + queue.length}
+          
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setShowFurigana(!showFurigana)}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
+                showFurigana 
+                  ? 'bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-400' 
+                  : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700'
+              }`}
+            >
+              {showFurigana ? <Eye size={16} /> : <EyeOff size={16} />}
+              Kana
+            </button>
+            <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
+              {known.length + learning.length} / {known.length + learning.length + queue.length}
+            </div>
           </div>
         </div>
 
@@ -233,8 +297,8 @@ export default function VocabFlashcard() {
                 {!isFlipped ? (
                   <>
                     <div className="text-5xl font-bold mb-3">{frontContent}</div>
-                    {frontFace === 'jp' && (
-                      <div className="text-lg text-slate-400 dark:text-slate-500">{current.hiragana}</div>
+                    {subFront && (
+                      <div className="text-lg text-slate-400 dark:text-slate-500">{subFront}</div>
                     )}
                     <div className="mt-6 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
                       <RotateCcw size={14} /> Chạm để lật
@@ -243,10 +307,10 @@ export default function VocabFlashcard() {
                 ) : (
                   <>
                     <div className="text-violet-200 text-sm mb-3 font-medium">Đáp án</div>
-                    <div className="text-4xl font-bold mb-3 text-white">{backContent}</div>
-                    {frontFace === 'vi' && (
-                      <div className="text-violet-200 text-lg">{current.hiragana}</div>
-                    )}
+                    <div className="flex flex-col items-center gap-2">
+                        {subBack && <div className="text-xl text-violet-100">{subBack}</div>}
+                        <div className="text-4xl font-bold text-white">{backContent}</div>
+                    </div>
                     {current.examples && current.examples[0] && (
                       <div className="mt-4 p-3 bg-white/10 rounded-xl text-left w-full">
                         <div className="text-sm text-violet-100">{current.examples[0].jp}</div>

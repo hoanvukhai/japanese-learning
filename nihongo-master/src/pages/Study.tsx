@@ -1,7 +1,7 @@
 // src/pages/Study.tsx
 import { Link } from 'react-router-dom';
 import { useSettings } from '../context/global/useSettings';
-import { Pen, GraduationCap, BookOpen, PenLine } from 'lucide-react';
+import { Languages, ALargeSmall, WandSparkles, MessagesSquare, BookMarked, MapPinned } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const container = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.08 } } };
@@ -13,38 +13,47 @@ export default function Study() {
   const modules = [
     {
       to: '/study/conjugation',
-      icon: Pen,
+      icon: WandSparkles,
       label: language === 'en' ? 'Conjugation' : 'Học Chia Thể',
       desc: language === 'en' ? 'Master verb & adjective conjugation rules.' : 'Nắm vững quy tắc chia động từ, tính từ.',
       color: 'text-blue-600', bg: 'bg-blue-100 dark:bg-blue-900/30', border: 'hover:border-blue-500',
     },
     {
       to: '/study/keigo',
-      icon: GraduationCap,
+      icon: MessagesSquare,
       label: language === 'en' ? 'Keigo' : 'Học Kính Ngữ',
       desc: language === 'en' ? 'Learn polite, honorific and humble forms.' : 'Học cách nói tôn kính, khiêm nhường chuẩn Nhật.',
       color: 'text-green-600', bg: 'bg-green-100 dark:bg-green-900/30', border: 'hover:border-green-500',
     },
     {
+      to: '/study/grammar',
+      icon: BookMarked,
+      label: language === 'en' ? 'Grammar' : 'Học Ngữ Pháp',
+      desc: language === 'en' ? 'Study N3 grammar structures, formations and JLPT traps.' : 'Học cấu trúc ngữ pháp N3, cách thành lập và bẫy JLPT.',
+      color: 'text-teal-600', bg: 'bg-teal-100 dark:bg-teal-900/30', border: 'hover:border-teal-500',
+    },
+    {
       to: '/study/vocabulary',
-      icon: BookOpen,
+      icon: ALargeSmall,
       label: language === 'en' ? 'Vocabulary' : 'Học Từ Vựng',
       desc: language === 'en' ? 'Study vocabulary by lesson with examples.' : 'Học từ vựng theo bài với ví dụ cụ thể.',
       color: 'text-rose-600', bg: 'bg-rose-100 dark:bg-rose-900/30', border: 'hover:border-rose-500',
     },
     {
       to: '/study/kanji',
-      icon: BookOpen,
+      icon: Languages,
       label: language === 'en' ? 'Kanji' : 'Học Kanji',
       desc: language === 'en' ? 'Look up Kanji, On/Kun readings and compounds.' : 'Tra cứu chữ Hán, âm On/Kun và từ ghép.',
       color: 'text-amber-600', bg: 'bg-amber-100 dark:bg-amber-900/30', border: 'hover:border-amber-500',
     },
     {
-      to: '/study/grammar',
-      icon: PenLine,
-      label: language === 'en' ? 'Grammar' : 'Học Ngữ Pháp',
-      desc: language === 'en' ? 'Study N3 grammar structures, formations and JLPT traps.' : 'Học cấu trúc ngữ pháp N3, cách thành lập và bẫy JLPT.',
-      color: 'text-teal-600', bg: 'bg-teal-100 dark:bg-teal-900/30', border: 'hover:border-teal-500',
+      to: '/study/roadmap',
+      icon: MapPinned,
+      label: language === 'en' ? 'Learning Roadmap' : 'Lộ Trình Học',
+      desc: language === 'en'
+        ? 'Follow a step-by-step path to conquer JLPT N3.'
+        : 'Học theo lộ trình từng bước để chinh phục JLPT N3.',
+      color: 'text-purple-600', bg: 'bg-purple-100 dark:bg-purple-900/30', border: 'hover:border-purple-500',
     },
   ];
 

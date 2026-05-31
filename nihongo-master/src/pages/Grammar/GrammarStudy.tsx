@@ -1,20 +1,40 @@
 // src/pages/Grammar/GrammarStudy.tsx
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Search, Volume2, ChevronDown, ChevronUp, AlertTriangle, Gamepad2, BookOpen } from 'lucide-react';
+import { ArrowLeft, Search, Volume2, ChevronDown, ChevronUp, AlertTriangle, Gamepad2, BookOpen, EyeOff, Eye } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import type { GrammarItem } from '../../types';
 import { useSettings } from '../../context/global/useSettings';
 
-function GrammarCard({ item }: { item: GrammarItem }) {
+function GrammarCard({ item, showFurigana }: { item: GrammarItem; showFurigana: boolean }) {
   const [expanded, setExpanded] = useState(false);
   const { language } = useSettings();
 
   const playAudio = (text: string) => {
-    const utterance = new SpeechSynthesisUtterance(text);
+    // Loại bỏ markup [...] trước khi đọc
+    const cleanText = text.replace(/\[([^\]]+)\]/g, '$1');
+    const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     window.speechSynthesis.speak(utterance);
+  };
+
+  // Render câu tiếng Nhật: highlight phần ngữ pháp trong [...] bằng màu teal
+  const renderJpExample = (jp: string) => {
+    const parts = jp.split(/\[([^\]]+)\]/);
+    return (
+      <span>
+        {parts.map((part, i) =>
+          i % 2 === 1 ? (
+            <span key={i} className="text-teal-600 dark:text-teal-400 font-bold bg-teal-50 dark:bg-teal-900/30 px-0.5 rounded">
+              {part}
+            </span>
+          ) : (
+            <span key={i}>{part}</span>
+          )
+        )}
+      </span>
+    );
   };
 
   return (
@@ -32,15 +52,21 @@ function GrammarCard({ item }: { item: GrammarItem }) {
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-3">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 dark:text-white mb-1 leading-tight">
+              <h3 className="text-2xl font-bold text-slate-800 dark:text-white mb-0.5 leading-tight">
                 {item.structure}
               </h3>
+              {/* Furigana: hiện structureKana dưới tên cấu trúc khi bật */}
+              {showFurigana && item.structureKana && item.structureKana !== item.structure && (
+                <div className="text-sm text-slate-400 dark:text-slate-500 font-mono mb-1">
+                  {item.structureKana}
+                </div>
+              )}
               <p className="text-base text-teal-600 dark:text-teal-400 font-semibold">
                 {item.meaning[language as 'vi' | 'en'] || item.meaning.vi}
               </p>
             </div>
             <button
-              onClick={() => playAudio(item.structure.replace(/〜|[/（）()]/g, ' ').trim())}
+              onClick={() => playAudio(item.structureKana || item.structure.replace(/〜|[/（）()]/g, ' ').trim())}
               className="flex-shrink-0 p-2 text-slate-400 hover:text-teal-500 hover:bg-teal-50 dark:hover:bg-teal-900/30 rounded-full transition-all"
               title="Phát âm"
             >
@@ -102,14 +128,23 @@ function GrammarCard({ item }: { item: GrammarItem }) {
               {item.examples.map((ex, i) => (
                 <div key={i} className="group relative pl-4 border-l-2 border-teal-300 dark:border-teal-700">
                   <button
-                    onClick={() => playAudio(ex.jp)}
+                    onClick={() => playAudio(ex.kana || ex.jp)}
                     className="absolute right-0 top-0 opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-teal-500 transition-all rounded-full"
                   >
                     <Volume2 size={14} />
                   </button>
-                  <div className="text-base font-medium text-slate-800 dark:text-white mb-1">{ex.jp}</div>
+                  <div className="text-base font-medium text-slate-800 dark:text-white mb-1">{renderJpExample(ex.jp)}</div>
+                  {/* Furigana — hiện kana sạch khi showFurigana = true */}
+                  {showFurigana && ex.kana && (
+                    <div className="text-xs text-slate-400 dark:text-slate-500 font-mono mb-1">
+                      {ex.kana.replace(/\[([^\]]+)\]/g, '$1')}
+                    </div>
+                  )}
                   <div className="text-sm text-slate-500 dark:text-slate-400">{ex.vi}</div>
-                  {ex.en && <div className="text-xs text-slate-400 dark:text-slate-500 mt-0.5 italic">{ex.en}</div>}
+                  {/* Tiếng Anh: chỉ hiện khi đang dùng ngôn ngữ EN */}
+                  {language === 'en' && ex.en && (
+                    <div className="text-xs text-slate-400 dark:text-slate-500 mt-0.5 italic">{ex.en}</div>
+                  )}
                 </div>
               ))}
             </div>
@@ -123,6 +158,7 @@ function GrammarCard({ item }: { item: GrammarItem }) {
 export default function GrammarStudy() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLesson, setSelectedLesson] = useState('all');
+  const [showFurigana, setShowFurigana] = useState(false);
   const { language } = useSettings();
 
   const lessons = getN3GrammarLessons();
@@ -135,21 +171,28 @@ export default function GrammarStudy() {
     const matchSearch =
       !q ||
       g.structure.toLowerCase().includes(q) ||
+      // Tìm theo kana của cấu trúc (VD: gõ "にきまっている" tìm ra 〜に決まっている)
+      (g.structureKana || '').toLowerCase().includes(q) ||
       meaningText.toLowerCase().includes(q) ||
       cautionText.toLowerCase().includes(q) ||
       g.group.toLowerCase().includes(q) ||
-      g.examples.some(ex => ex.jp.includes(q) || ex.vi.toLowerCase().includes(q));
+      g.examples.some(ex =>
+        ex.jp.includes(q) ||
+        ex.vi.toLowerCase().includes(q) ||
+        // Tìm theo kana của câu ví dụ
+        (ex.kana || '').replace(/\[([^\]]+)\]/g, '$1').includes(q)
+      );
     return matchLesson && matchSearch;
   });
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-5xl mx-auto">
 
         <header className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="flex-1">
             <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-4 transition-colors font-medium">
-              <ArrowLeft size={18} /> Quay lại
+              <ArrowLeft size={18} /> Quay lại Học Tập
             </Link>
             <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">
               <BookOpen size={28} className="inline-block text-teal-500 mr-2 -mt-1" />
@@ -176,22 +219,36 @@ export default function GrammarStudy() {
 
         {/* Filters */}
         <div className="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 mb-8 space-y-3">
-          <div className="relative">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-            <input
-              type="text"
-              placeholder="Tìm cấu trúc, nghĩa, ví dụ..."
-              value={searchTerm}
-              onChange={e => setSearchTerm(e.target.value)}
-              className="w-full pl-11 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-teal-500 dark:text-white transition-colors text-sm"
-            />
+          <div className="flex gap-2">
+            <div className="relative flex-1">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
+              <input
+                type="text"
+                placeholder="Tìm cấu trúc, nghĩa, kana, ví dụ..."
+                value={searchTerm}
+                onChange={e => setSearchTerm(e.target.value)}
+                className="w-full pl-11 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-teal-500 dark:text-white transition-colors text-sm"
+              />
+            </div>
+            {/* Nút Furigana toggle */}
+            <button
+              onClick={() => setShowFurigana(v => !v)}
+              title={showFurigana ? 'Tắt Furigana' : 'Bật Furigana'}
+              className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-xl border-2 font-bold text-xs transition-all ${showFurigana
+                  ? 'border-teal-500 bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400 shadow-sm'
+                  : 'border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:border-teal-300'
+                }`}
+            >
+              {showFurigana ? <Eye size={14} /> : <EyeOff size={14} />}
+              <span className="hidden sm:inline">Furigana</span>
+            </button>
           </div>
           <div className="flex gap-2 flex-wrap">
             <button
               onClick={() => setSelectedLesson('all')}
               className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === 'all'
-                  ? 'bg-teal-600 text-white shadow-sm'
-                  : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                ? 'bg-teal-600 text-white shadow-sm'
+                : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
                 }`}
             >
               Tất cả ({grammarN3.length})
@@ -201,8 +258,8 @@ export default function GrammarStudy() {
                 key={l}
                 onClick={() => setSelectedLesson(l)}
                 className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === l
-                    ? 'bg-teal-600 text-white shadow-sm'
-                    : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
+                  ? 'bg-teal-600 text-white shadow-sm'
+                  : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
                   }`}
               >
                 {l} ({grammarN3.filter(g => g.lesson === l).length})
@@ -214,7 +271,7 @@ export default function GrammarStudy() {
         {/* List */}
         <div className="space-y-5">
           {filtered.map(item => (
-            <GrammarCard key={item.id} item={item} />
+            <GrammarCard key={item.id} item={item} showFurigana={showFurigana} />
           ))}
 
           {filtered.length === 0 && (

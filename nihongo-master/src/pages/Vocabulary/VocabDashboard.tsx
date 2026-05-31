@@ -1,7 +1,7 @@
 // src/pages/Vocabulary/VocabDashboard.tsx
 import { Link, useNavigate } from 'react-router-dom';
 import { motion, type Variants } from 'framer-motion';
-import { Layers, GitMerge, Keyboard, Lock, ArrowLeft, BookOpen, CheckSquare } from 'lucide-react';
+import { Layers, GitMerge, Keyboard, Lock, ArrowLeft, BookOpen, CheckSquare, ShieldAlert } from 'lucide-react';
 import { useSettings } from '../../context/global/useSettings';
 
 const container: Variants = {
@@ -85,6 +85,19 @@ export default function VocabDashboard() {
       bgLight: 'bg-orange-100 dark:bg-orange-900/30',
       border: 'hover:border-orange-500',
       disabled: false,
+    },
+    {
+      id: 'errordetect',
+      name: lang === 'en' ? 'Error Detect' : 'Tìm lỗi sai',
+      path: '/practice/vocabulary/errordetect',
+      icon: ShieldAlert,
+      desc: lang === 'en'
+        ? 'Find incorrectly paired word meanings'
+        : 'Phát hiện nghĩa sai hoặc cặp từ sai',
+      color: 'text-rose-500',
+      bgLight: 'bg-rose-100 dark:bg-rose-900/30',
+      border: 'hover:border-rose-500',
+      disabled: false,
     }
   ];
 
@@ -104,7 +117,7 @@ export default function VocabDashboard() {
               >
                 <ArrowLeft size={20} />
               </button>
-              <span className="px-3 py-1 bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-400 text-sm font-bold rounded-full">
+              <span className="px-3 py-1 bg-rose-100 dark:bg-rose-900/40 text-rose-600 dark:text-rose-400 text-sm font-bold rounded-full">
                 JLPT N3
               </span>
             </div>
@@ -119,7 +132,7 @@ export default function VocabDashboard() {
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
             <Link
               to="/study/vocabulary"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <BookOpen size={16} />
               {t.studyBtn}

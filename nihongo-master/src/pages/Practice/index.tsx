@@ -1,6 +1,6 @@
 // src/pages/Practice/index.tsx
 import { Link } from 'react-router-dom';
-import { GraduationCap, Pen, Puzzle, Award, Trophy, PenLine, Lock } from 'lucide-react';
+import { Languages, ALargeSmall, WandSparkles, MessagesSquare, BookMarked, Trophy, Lock } from 'lucide-react';
 import { motion, type Variants } from 'framer-motion';
 import { useSettings } from '../../context/global/useSettings';
 
@@ -14,19 +14,19 @@ export default function PracticeDashboard() {
   const practiceModules = [
     {
       name: lang === 'en' ? 'Conjugation Practice' : 'Luyện Chia Thể',
-      path: '/practice/conjugation', icon: Pen,
+      path: '/practice/conjugation', icon: WandSparkles,
       desc: lang === 'en' ? 'Reflex training for verb & adjective conjugation' : 'Phản xạ chia động từ, tính từ siêu tốc',
       color: 'text-blue-500', bgLight: 'bg-blue-100 dark:bg-blue-900/30', borderColor: 'hover:border-blue-500', disabled: false,
     },
     {
       name: lang === 'en' ? 'Keigo Practice' : 'Luyện Kính Ngữ',
-      path: '/practice/keigo', icon: GraduationCap,
+      path: '/practice/keigo', icon: MessagesSquare,
       desc: lang === 'en' ? 'Master Sonkei & Kenjou honorifics' : 'Làm chủ Tôn kính ngữ & Khiêm nhường ngữ',
       color: 'text-green-500', bgLight: 'bg-green-100 dark:bg-green-900/30', borderColor: 'hover:border-green-500', disabled: false,
     },
     {
       name: lang === 'en' ? 'Grammar N3' : 'Ngữ Pháp N3',
-      path: '/practice/grammar', icon: PenLine,
+      path: '/practice/grammar', icon: BookMarked,
       desc: lang === 'en'
         ? '6 game modes: Flashcard, Quiz, Matching, Word Order & Arena Trap'
         : '6 game: Lật thẻ, Trắc nghiệm, Nối từ, Xếp câu & Bẫy đối kháng',
@@ -34,21 +34,21 @@ export default function PracticeDashboard() {
     },
     {
       name: lang === 'en' ? 'Vocabulary N3' : 'Từ Vựng N3',
-      path: '/practice/vocabulary', icon: Puzzle,
+      path: '/practice/vocabulary', icon: ALargeSmall,
       desc: lang === 'en' ? 'Flashcard, quiz, matching & typing for N3 vocab' : 'Lật thẻ, trắc nghiệm, nối từ & nhập liệu từ vựng N3',
-      color: 'text-purple-500', bgLight: 'bg-purple-100 dark:bg-purple-900/30', borderColor: 'hover:border-purple-500', disabled: false,
+      color: 'text-rose-500', bgLight: 'bg-rose-100 dark:bg-rose-900/30', borderColor: 'hover:border-rose-500', disabled: false,
     },
     {
       name: lang === 'en' ? 'Kanji' : 'Chữ Hán (Kanji)',
-      path: '/practice/kanji', icon: Award,
+      path: '/practice/kanji', icon: Languages,
       desc: lang === 'en' ? 'Recognize and write Kanji daily' : 'Nhận diện và viết Kanji mỗi ngày',
-      color: 'text-rose-500', bgLight: 'bg-rose-100 dark:bg-rose-900/30', borderColor: 'hover:border-rose-500', disabled: false,
+      color: 'text-amber-500', bgLight: 'bg-amber-100 dark:bg-amber-900/30', borderColor: 'hover:border-amber-500', disabled: false,
     },
     {
       name: lang === 'en' ? 'Leaderboard' : 'Đua Top',
       path: '#', icon: Trophy,
       desc: lang === 'en' ? 'Compete online with friends' : 'Thi đấu trực tuyến với bạn bè',
-      color: 'text-amber-500', bgLight: 'bg-amber-100 dark:bg-amber-900/30', borderColor: 'hover:border-amber-500', disabled: true,
+      color: 'text-purple-500', bgLight: 'bg-purple-100 dark:bg-purple-900/30', borderColor: 'hover:border-purple-500', disabled: true,
     },
   ];
 
@@ -71,11 +71,10 @@ export default function PracticeDashboard() {
             return (
               <motion.div variants={item} key={mod.name} className="h-full">
                 <Link to={mod.disabled ? '#' : mod.path}
-                  className={`group relative flex flex-col h-full bg-white dark:bg-slate-800 p-6 rounded-2xl border-2 transition-all duration-200 ${
-                    mod.disabled
-                      ? 'border-slate-200 dark:border-slate-700 opacity-60 cursor-not-allowed grayscale-[0.5]'
-                      : `border-slate-200 dark:border-slate-700 ${mod.borderColor} hover:shadow-xl hover:-translate-y-1 hover:border-b-[6px] active:border-b-2 active:translate-y-0`
-                  }`}>
+                  className={`group relative flex flex-col h-full bg-white dark:bg-slate-800 p-6 rounded-2xl border-2 transition-all duration-200 ${mod.disabled
+                    ? 'border-slate-200 dark:border-slate-700 opacity-60 cursor-not-allowed grayscale-[0.5]'
+                    : `border-slate-200 dark:border-slate-700 ${mod.borderColor} hover:shadow-xl hover:-translate-y-1 hover:border-b-[6px] active:border-b-2 active:translate-y-0`
+                    }`}>
                   {mod.disabled && (
                     <div className="absolute top-4 right-4 flex items-center bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs font-bold px-3 py-1.5 rounded-full">
                       <Lock className="w-3 h-3 mr-1" />

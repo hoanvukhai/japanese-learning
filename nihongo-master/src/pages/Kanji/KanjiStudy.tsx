@@ -32,23 +32,23 @@ export default function KanjiStudy() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-5xl mx-auto">
+
+        {/* ── Header chuẩn template ── */}
         <header className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
-          <div className="flex items-center gap-4">
-            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 transition-colors">
-              <ArrowLeft size={18} /> Quay lại
+          <div>
+            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 transition-colors mb-3">
+              <ArrowLeft size={18} /> Quay lại Học Tập
             </Link>
-            <div>
-              <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⛩️ Học Kanji</h1>
-              <p className="text-slate-500 dark:text-slate-400">Danh sách chữ Hán và từ vựng ghép.</p>
-            </div>
+            <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-1">⛩️ Học Kanji</h1>
+            <p className="text-slate-500 dark:text-slate-400">Danh sách chữ Hán N3 — âm On/Kun và từ vựng ghép.</p>
           </div>
-          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm">
-              Tổng số: {filteredKanji.length}
+          <div className="flex flex-wrap justify-end items-center gap-3">
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm shadow-sm">
+              {filteredKanji.length} / {kanjiN3.length} Kanji
             </div>
             <Link
               to="/practice/kanji"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <Gamepad2 size={16} />
               Thực hành ngay
@@ -56,25 +56,23 @@ export default function KanjiStudy() {
           </div>
         </header>
 
-        {/* Lesson chip filter + search */}
+        {/* ── Bộ lọc ── */}
         <div className="bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 mb-8 space-y-3">
-          {/* Search */}
           <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
             <input
               type="text"
-              placeholder="Tìm kiếm kanji, hán việt, từ vựng, ý nghĩa..."
+              placeholder="Tìm kanji, hán việt, từ vựng, ý nghĩa..."
               value={searchTerm}
               onChange={e => setSearchTerm(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-blue-500 dark:text-white transition-colors"
+              className="w-full pl-12 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl outline-none focus:border-amber-500 dark:text-white transition-colors text-sm"
             />
           </div>
-          {/* Chip lesson filter */}
           <div className="flex gap-2 flex-wrap">
             <button
               onClick={() => setSelectedLesson('all')}
               className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === 'all'
-                  ? 'bg-blue-600 text-white shadow-sm'
+                  ? 'bg-amber-600 text-white shadow-sm'
                   : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
                 }`}
             >
@@ -85,7 +83,7 @@ export default function KanjiStudy() {
                 key={l}
                 onClick={() => setSelectedLesson(l)}
                 className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${selectedLesson === l
-                    ? 'bg-blue-600 text-white shadow-sm'
+                    ? 'bg-amber-600 text-white shadow-sm'
                     : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600'
                   }`}
               >
@@ -95,14 +93,14 @@ export default function KanjiStudy() {
           </div>
         </div>
 
-        {/* List */}
+        {/* ── Danh sách Kanji ── */}
         <div className="space-y-6">
           {filteredKanji.map(kanji => (
             <div key={kanji.id} className="bg-white dark:bg-slate-800 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden flex flex-col md:flex-row">
               {/* Cột Kanji */}
-              <div className="md:w-1/3 bg-blue-50 dark:bg-blue-900/20 p-8 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-slate-100 dark:border-slate-700">
+              <div className="md:w-1/3 bg-amber-50 dark:bg-amber-900/20 p-8 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-amber-100 dark:border-amber-900/30">
                 <div className="text-8xl font-black text-slate-800 dark:text-white mb-4">{kanji.character}</div>
-                <div className="text-xl font-bold tracking-widest text-blue-600 dark:text-blue-400 mb-2">{kanji.hanViet}</div>
+                <div className="text-xl font-bold tracking-widest text-amber-600 dark:text-amber-400 mb-2">{kanji.hanViet}</div>
                 {kanji.lesson && (
                   <div className="mt-2 text-xs font-semibold bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-slate-500 dark:text-slate-400 shadow-sm border border-slate-200 dark:border-slate-700">
                     {kanji.lesson}
@@ -115,7 +113,7 @@ export default function KanjiStudy() {
                 <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4 border-b border-slate-100 dark:border-slate-700 pb-2">Từ vựng đi kèm</h3>
                 <div className="space-y-4">
                   {kanji.words.map((word, idx) => (
-                    <div key={idx} className="flex items-start justify-between group p-3 hover:bg-slate-50 dark:hover:bg-slate-700/50 rounded-xl transition-colors">
+                    <div key={idx} className="flex items-start justify-between group p-3 hover:bg-amber-50 dark:hover:bg-amber-900/10 rounded-xl transition-colors">
                       <div>
                         <div className="flex items-center gap-3 mb-1">
                           <span className="text-xl font-bold text-slate-800 dark:text-white">{word.word}</span>
@@ -123,7 +121,7 @@ export default function KanjiStudy() {
                             Âm {word.readingType}
                           </span>
                           {word.type && (
-                            <span className="text-[10px] px-2 py-0.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 font-bold uppercase tracking-wider">
+                            <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 font-bold uppercase tracking-wider">
                               {word.type === 'verb' ? `Động từ ${word.group ? `N${word.group}` : ''}` : word.type}
                             </span>
                           )}
@@ -131,7 +129,7 @@ export default function KanjiStudy() {
                         <div className="text-sm text-slate-500 dark:text-slate-400 mb-1">{word.hiragana}</div>
                         <div className="text-slate-600 dark:text-slate-300">{word.meaning.vi}</div>
                         {word.examples && word.examples.length > 0 && (
-                          <div className="mt-2 text-sm text-slate-500 border-l-2 border-blue-200 dark:border-blue-800 pl-3">
+                          <div className="mt-2 text-sm text-slate-500 border-l-2 border-amber-200 dark:border-amber-800 pl-3">
                             <div>{word.examples[0].jp}</div>
                             <div>{word.examples[0].vi}</div>
                           </div>
@@ -139,7 +137,7 @@ export default function KanjiStudy() {
                       </div>
                       <button
                         onClick={() => playAudio(word.word)}
-                        className="p-2 text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-all rounded-full hover:bg-blue-50 dark:hover:bg-blue-900/30"
+                        className="p-2 text-slate-300 hover:text-amber-500 dark:hover:text-amber-400 opacity-0 group-hover:opacity-100 transition-all rounded-full hover:bg-amber-50 dark:hover:bg-amber-900/30"
                       >
                         <Volume2 size={20} />
                       </button>

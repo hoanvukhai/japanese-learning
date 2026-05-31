@@ -37,12 +37,15 @@ export default function KeigoStudy() {
         <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="flex-1">
             <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-green-600 mb-4 transition-colors font-medium">
-              <ArrowLeft size={18} /> Quay lại
+              <ArrowLeft size={18} /> Quay lại Học Tập
             </Link>
             <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🎓 Học Kính Ngữ</h1>
             <p className="text-slate-500 dark:text-slate-400">Hệ thống hóa Tôn kính ngữ, Lịch sự ngữ và Khiêm nhường ngữ.</p>
           </div>
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm shadow-sm">
+              {filteredVerbs.length} động từ kính ngữ
+            </div>
             <Link
               to="/practice/keigo"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"

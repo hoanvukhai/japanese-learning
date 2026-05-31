@@ -2,35 +2,33 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2, AlertTriangle, Volume2 } from 'lucide-react';
+import {
+  ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown,
+  CheckCircle2, AlertTriangle, Volume2, Eye, EyeOff, Repeat2,
+} from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
+import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
+type CardMode = 'normal' | 'reverse'; // normal: cấu trúc→nghĩa | reverse: nghĩa→cấu trúc
+
 export default function GrammarFlashcard() {
   const { language } = useSettings();
   const lessons = getN3GrammarLessons();
-  const [selectedLesson, setSelectedLesson] = useState<string>('all');
-  const [filterType, setFilterType] = useState<'lesson' | 'group'>('lesson');
-  const [started, setStarted] = useState(false);
-
   const groups = useMemo(() => [...new Set(grammarN3.map(g => g.group))], []);
 
-  const pool = useMemo(() => {
-    if (filterType === 'lesson') {
-      return shuffle(
-        selectedLesson === 'all' ? grammarN3 : grammarN3.filter(g => g.lesson === selectedLesson)
-      );
-    } else {
-      return shuffle(
-        selectedLesson === 'all' ? grammarN3 : grammarN3.filter(g => g.group === selectedLesson)
-      );
-    }
-  }, [selectedLesson, filterType]);
+  // Setup state
+  const [filterType, setFilterType] = useState<'lesson' | 'group'>('lesson');
+  const [selectedItems, setSelectedItems] = useState<string[]>([]);  // [] = all
+  const [cardMode, setCardMode] = useState<CardMode>('normal');
+  const [started, setStarted] = useState(false);
+  const [showFurigana, setShowFurigana] = useState(false);
 
+  // Game state
   const [queue, setQueue] = useState<typeof grammarN3>([]);
   const [known, setKnown] = useState<typeof grammarN3>([]);
   const [learning, setLearning] = useState<typeof grammarN3>([]);
@@ -38,10 +36,39 @@ export default function GrammarFlashcard() {
 
   const current = queue[0];
 
+  const pool = useMemo(() => {
+    if (selectedItems.length === 0) return shuffle(grammarN3);
+    if (filterType === 'lesson') {
+      return shuffle(grammarN3.filter(g => selectedItems.includes(g.lesson)));
+    } else {
+      return shuffle(grammarN3.filter(g => selectedItems.includes(g.group)));
+    }
+  }, [selectedItems, filterType]);
+
+  const handleToggle = (val: string) => {
+    setSelectedItems(prev =>
+      prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+    );
+  };
+
   const playAudio = (text: string) => {
-    const utterance = new SpeechSynthesisUtterance(text.replace(/〜|[/（）()]/g, ' ').trim());
-    utterance.lang = 'ja-JP';
-    window.speechSynthesis.speak(utterance);
+    const clean = text.replace(/\[([^\]]+)\]/g, '$1');
+    const u = new SpeechSynthesisUtterance(clean.replace(/〜|[/（）()]/g, ' ').trim());
+    u.lang = 'ja-JP';
+    window.speechSynthesis.speak(u);
+  };
+
+  const renderJpExample = (jp: string) => {
+    const parts = jp.split(/\[([^\]]+)\]/);
+    return (
+      <span>
+        {parts.map((part, i) =>
+          i % 2 === 1 ? (
+            <span key={i} className="font-bold underline decoration-teal-300 decoration-2">{part}</span>
+          ) : <span key={i}>{part}</span>
+        )}
+      </span>
+    );
   };
 
   const handleStart = () => {
@@ -74,66 +101,70 @@ export default function GrammarFlashcard() {
     setIsFlipped(false);
   };
 
+  // ── SETUP SCREEN ──
   if (!started) {
+    const options = filterType === 'lesson' ? lessons : groups;
+    const totalCount = pool.length;
+
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
-          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ Ngữ Pháp</h1>
+          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-1">🃏 Lật thẻ Ngữ Pháp</h1>
           <p className="text-slate-500 dark:text-slate-400 mb-8">Ôn cấu trúc và nghĩa qua thẻ ghi nhớ hai mặt.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
 
-            {/* Filter type */}
+            {/* Mode: normal / reverse */}
             <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🎛️ Lọc theo</label>
+              <label className="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
+                Chế độ thẻ
+              </label>
               <div className="grid grid-cols-2 gap-3">
-                {(['lesson', 'group'] as const).map(type => (
+                {([
+                  { id: 'normal',  label: '📖 Cấu trúc → Nghĩa',  desc: 'Xem cấu trúc, đoán nghĩa' },
+                  { id: 'reverse', label: '🔄 Nghĩa → Cấu trúc', desc: 'Xem nghĩa, đoán cấu trúc' },
+                ] as const).map(m => (
                   <button
-                    key={type}
-                    type="button"
-                    onClick={() => { setFilterType(type); setSelectedLesson('all'); }}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                      filterType === type
-                        ? 'border-teal-500 bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    key={m.id}
+                    onClick={() => setCardMode(m.id)}
+                    className={`py-3 px-4 rounded-xl border-2 text-left transition-all ${
+                      cardMode === m.id
+                        ? 'border-teal-500 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400'
+                        : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-slate-300'
                     }`}
                   >
-                    {type === 'lesson' ? '📚 Theo Bài' : '🎭 Theo Nhóm Bẫy'}
+                    <div className="text-sm font-bold">{m.label}</div>
+                    <div className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">{m.desc}</div>
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Selector */}
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">
-                {filterType === 'lesson' ? '📚 Chọn bài học' : '🎭 Chọn nhóm'}
-              </label>
-              <select
-                value={selectedLesson}
-                onChange={e => setSelectedLesson(e.target.value)}
-                className="w-full py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-white outline-none focus:border-teal-500 transition-colors cursor-pointer"
-              >
-                <option value="all">Tất cả ({grammarN3.length} thẻ)</option>
-                {filterType === 'lesson'
-                  ? lessons.map(l => (
-                      <option key={l} value={l}>{l} ({grammarN3.filter(g => g.lesson === l).length} thẻ)</option>
-                    ))
-                  : groups.map(g => (
-                      <option key={g} value={g}>{g} ({grammarN3.filter(item => item.group === g).length} thẻ)</option>
-                    ))
-                }
-              </select>
-            </div>
+            {/* Chip selector */}
+            <GrammarLessonChips
+              filterType={filterType}
+              onFilterTypeChange={(t) => { setFilterType(t); setSelectedItems([]); }}
+              options={options}
+              selected={selectedItems}
+              onToggle={handleToggle}
+              onSelectAll={() => setSelectedItems([])}
+              getLabel={filterType === 'group' ? getGroupLabel : undefined}
+              getCount={val =>
+                filterType === 'lesson'
+                  ? grammarN3.filter(g => g.lesson === val).length
+                  : grammarN3.filter(g => g.group === val).length
+              }
+              totalCount={grammarN3.length}
+            />
 
             <button
               onClick={handleStart}
               className="w-full py-4 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all active:scale-[0.98] shadow-lg shadow-teal-500/20"
             >
-              Bắt đầu ôn tập ({pool.length} thẻ)
+              Bắt đầu ôn tập ({totalCount} thẻ)
             </button>
           </div>
         </div>
@@ -141,6 +172,7 @@ export default function GrammarFlashcard() {
     );
   }
 
+  // ── RESULT SCREEN ──
   if (queue.length === 0) {
     const total = known.length + learning.length;
     return (
@@ -190,18 +222,47 @@ export default function GrammarFlashcard() {
   }
 
   const progress = ((known.length + learning.length) / (known.length + learning.length + queue.length)) * 100;
+  const meaning = current.meaning[language as 'vi' | 'en'] || current.meaning.vi;
+  const caution = current.caution[language as 'vi' | 'en'] || current.caution.vi;
+
+  // Mặt trước thay đổi tuỳ mode
+  const frontContent = cardMode === 'normal' ? current.structure : meaning;
+  const frontKana = cardMode === 'normal'
+    ? (current.structureKana !== current.structure ? current.structureKana : null)
+    : null;
+  const frontLabel = cardMode === 'normal' ? 'Cấu trúc' : 'Nghĩa';
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
-      <div className="max-w-lg mx-auto">
+      <div className="max-w-3xl mx-auto">
 
-        <div className="flex items-center justify-between mb-6">
-          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors">
-            <ArrowLeft size={18} /> Quay lại
+        {/* Top bar */}
+        <div className="flex items-center justify-between mb-6 gap-3">
+          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors flex-shrink-0">
+            <ArrowLeft size={18} />
           </button>
-          <div className="text-sm text-slate-500 dark:text-slate-400">
+
+          {/* Mode badge */}
+          <span className="text-xs font-bold bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300 px-2.5 py-1 rounded-full flex items-center gap-1">
+            <Repeat2 size={11} /> {cardMode === 'reverse' ? 'Đảo ngược' : 'Bình thường'}
+          </span>
+
+          <div className="text-sm text-slate-500 dark:text-slate-400 flex-shrink-0">
             {known.length + learning.length} / {known.length + learning.length + queue.length}
           </div>
+
+          {/* Furigana toggle */}
+          <button
+            onClick={() => setShowFurigana(v => !v)}
+            className={`flex items-center gap-1 px-3 py-1.5 rounded-xl border-2 text-xs font-bold transition-all flex-shrink-0 ${
+              showFurigana
+                ? 'border-teal-500 bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400'
+                : 'border-slate-200 dark:border-slate-600 text-slate-400 hover:border-teal-300'
+            }`}
+          >
+            {showFurigana ? <Eye size={13} /> : <EyeOff size={13} />}
+            <span>Kana</span>
+          </button>
         </div>
 
         {/* Progress bar */}
@@ -213,7 +274,7 @@ export default function GrammarFlashcard() {
           />
         </div>
 
-        {/* Lesson + Group tag */}
+        {/* Tags */}
         <div className="flex justify-center gap-2 mb-4">
           <span className="text-xs bg-teal-100 dark:bg-teal-900/40 text-teal-600 dark:text-teal-400 px-3 py-1 rounded-full font-medium">
             {current.lesson}
@@ -225,7 +286,7 @@ export default function GrammarFlashcard() {
 
         <AnimatePresence mode="wait">
           <motion.div
-            key={current.id + isFlipped}
+            key={current.id + isFlipped + cardMode}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -240,51 +301,80 @@ export default function GrammarFlashcard() {
                   ? 'bg-gradient-to-br from-teal-600 to-cyan-600 border-teal-500 text-white'
                   : 'bg-white dark:bg-slate-800 border-slate-100 dark:border-slate-700 text-slate-800 dark:text-white'
               }`}>
+
                 {!isFlipped ? (
                   <>
+                    {/* Front */}
+                    <div className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3">{frontLabel}</div>
                     <div className="text-2xl md:text-3xl font-bold text-center leading-snug">
-                      {current.structure}
+                      {frontContent}
                     </div>
+                    {showFurigana && frontKana && (
+                      <div className="text-sm text-slate-400 dark:text-slate-500 font-mono mt-1">{frontKana}</div>
+                    )}
                     <div className="mt-6 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
                       <RotateCcw size={14} /> Chạm để lật
                     </div>
                   </>
                 ) : (
                   <div className="w-full space-y-4">
-                    {/* Meaning */}
-                    <div>
-                      <div className="text-teal-200 text-xs font-bold uppercase tracking-widest mb-1">Nghĩa</div>
-                      <div className="text-2xl font-extrabold text-white">{current.meaning[language as 'vi' | 'en'] || current.meaning.vi}</div>
-                    </div>
-
-                    {/* Formation */}
-                    <div className="border-t border-teal-500/40 pt-4 text-left">
-                      <div className="text-teal-200 text-xs font-bold uppercase tracking-widest mb-2">Cách thành lập</div>
-                      <div className="space-y-1">
-                        {current.formation.map((f, i) => (
-                          <div key={i} className="text-sm text-teal-100 bg-white/10 rounded-lg px-3 py-1.5 font-mono">
-                            {f}
+                    {/* Back — nếu mode=normal: hiện nghĩa; nếu mode=reverse: hiện cấu trúc */}
+                    {cardMode === 'normal' ? (
+                      <>
+                        <div>
+                          <div className="text-teal-200 text-xs font-bold uppercase tracking-widest mb-1">Nghĩa</div>
+                          <div className="text-2xl font-extrabold text-white">{meaning}</div>
+                        </div>
+                        <div className="border-t border-teal-500/40 pt-4 text-left">
+                          <div className="text-teal-200 text-xs font-bold uppercase tracking-widest mb-2">Cách thành lập</div>
+                          <div className="space-y-1">
+                            {current.formation.map((f, i) => (
+                              <div key={i} className="text-sm text-teal-100 bg-white/10 rounded-lg px-3 py-1.5 font-mono">{f}</div>
+                            ))}
                           </div>
-                        ))}
-                      </div>
-                    </div>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <div>
+                          <div className="text-teal-200 text-xs font-bold uppercase tracking-widest mb-1">Cấu trúc</div>
+                          <div className="text-2xl font-extrabold text-white">{current.structure}</div>
+                          {showFurigana && current.structureKana !== current.structure && (
+                            <div className="text-sm text-teal-200 font-mono mt-1">{current.structureKana}</div>
+                          )}
+                        </div>
+                        <div className="border-t border-teal-500/40 pt-4 text-left">
+                          <div className="text-teal-200 text-xs font-bold uppercase tracking-widest mb-2">Cách thành lập</div>
+                          <div className="space-y-1">
+                            {current.formation.map((f, i) => (
+                              <div key={i} className="text-sm text-teal-100 bg-white/10 rounded-lg px-3 py-1.5 font-mono">{f}</div>
+                            ))}
+                          </div>
+                        </div>
+                      </>
+                    )}
 
                     {/* Caution */}
                     <div className="flex items-start gap-2 bg-white/10 rounded-xl p-3 text-left">
                       <AlertTriangle size={14} className="flex-shrink-0 text-amber-300 mt-0.5" />
-                      <p className="text-xs text-teal-100 leading-relaxed">{current.caution[language as 'vi' | 'en'] || current.caution.vi}</p>
+                      <p className="text-xs text-teal-100 leading-relaxed">{caution}</p>
                     </div>
 
                     {/* First example */}
                     {current.examples[0] && (
                       <div className="border-t border-teal-500/40 pt-4 text-left">
                         <button
-                          onClick={(e) => { e.stopPropagation(); playAudio(current.examples[0].jp); }}
+                          onClick={(e) => { e.stopPropagation(); playAudio(current.examples[0].kana || current.examples[0].jp); }}
                           className="flex items-center gap-1 text-xs text-teal-200 mb-2 hover:text-white transition-colors"
                         >
                           <Volume2 size={12} /> Ví dụ
                         </button>
-                        <div className="text-sm text-white font-medium">{current.examples[0].jp}</div>
+                        <div className="text-sm text-white font-medium">{renderJpExample(current.examples[0].jp)}</div>
+                        {showFurigana && current.examples[0].kana && (
+                          <div className="text-xs text-teal-200 font-mono mt-0.5">
+                            {current.examples[0].kana.replace(/\[([^\]]+)\]/g, '$1')}
+                          </div>
+                        )}
                         <div className="text-xs text-teal-200 mt-1">{current.examples[0].vi}</div>
                       </div>
                     )}
@@ -329,7 +419,6 @@ export default function GrammarFlashcard() {
             <RotateCcw size={14} /> {learning.length} cần ôn
           </span>
         </div>
-
       </div>
     </div>
   );

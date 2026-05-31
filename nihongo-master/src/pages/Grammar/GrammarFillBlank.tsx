@@ -3,40 +3,50 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, RotateCcw, CheckCircle2, XCircle, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, RotateCcw, CheckCircle2, XCircle, AlertTriangle, Eye, EyeOff } from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
+import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
-/** Tạo câu có chỗ trống: thay cấu trúc ngữ pháp trong câu ví dụ bằng ___  */
-function makeBlankSentence(jp: string, structure: string): { blanked: string; found: boolean } {
-  // Lấy phần gốc của cấu trúc (bỏ 〜, /, khoảng trắng thừa)
+/** Tạo câu có chỗ trống: ưu tiên dùng dấu [...] từ schema mới, fallback sang regex cũ */
+function makeBlankSentence(jp: string, structure: string): { blanked: string; answer: string; found: boolean } {
+  // Schema mới: câu có dạng "〜が[だらけ]になった" → tách [...] ra làm đáp án
+  const bracketMatch = jp.match(/\[([^\]]+)\]/);
+  if (bracketMatch) {
+    const answer = bracketMatch[1];
+    const blanked = jp.replace(/\[[^\]]+\]/, '＿＿＿');
+    return { blanked, answer, found: true };
+  }
+
+  // Fallback schema cũ: tìm structure trong câu
   const variants = structure
     .replace(/〜/g, '')
     .split(/[/／]/)
     .map(v => v.trim())
     .filter(v => v.length > 0)
-    .sort((a, b) => b.length - a.length); // ưu tiên match dài trước
+    .sort((a, b) => b.length - a.length);
 
   for (const v of variants) {
     if (jp.includes(v)) {
-      return { blanked: jp.replace(v, '＿＿＿'), found: true };
+      return { blanked: jp.replace(v, '＿＿＿'), answer: v, found: true };
     }
   }
   // Fallback: che phần cuối câu
-  return { blanked: jp.slice(0, Math.ceil(jp.length * 0.6)) + '＿＿＿', found: false };
+  return { blanked: jp.slice(0, Math.ceil(jp.length * 0.6)) + '＿＿＿', answer: structure, found: false };
 }
 
 interface FillItem {
   id: string;
   blankedSentence: string;
-  fullSentence: string;
+  fullSentence: string;       // câu gốc (không có [...] markup)
+  kana: string;               // phiên âm kana của câu (cũng strip markup)
   translation: string;
-  correctAnswer: string;   // structure của grammar item đúng
-  correctStructure: string;
+  correctAnswer: string;      // text bị che (lấy từ [...]) — đáp án đúng
+  correctStructure: string;   // structure đầy đủ (〜だらけ)
   caution: string;
   group: string;
   lesson: string;
@@ -45,26 +55,40 @@ interface FillItem {
 export default function GrammarFillBlank() {
   const { language } = useSettings();
   const lessons = getN3GrammarLessons();
-  const [selectedLesson, setSelectedLesson] = useState<string>('all');
+  const groups = useMemo(() => [...new Set(grammarN3.map(g => g.group))], []);
+
+  // Filter state — chip multi-select
+  const [filterType, setFilterType] = useState<'lesson' | 'group'>('lesson');
+  const [selectedItems, setSelectedItems] = useState<string[]>([]); // [] = all
   const [started, setStarted] = useState(false);
+  const [showTranslation, setShowTranslation] = useState(true);
+
+  const chipOptions = filterType === 'lesson' ? lessons : groups;
 
   const pool = useMemo<FillItem[]>(() => {
-    const base = selectedLesson === 'all'
-      ? grammarN3
-      : grammarN3.filter(g => g.lesson === selectedLesson);
+    let base = grammarN3;
+    if (selectedItems.length > 0) {
+      base = filterType === 'lesson'
+        ? grammarN3.filter(g => selectedItems.includes(g.lesson))
+        : grammarN3.filter(g => selectedItems.includes(g.group));
+    }
 
     const items: FillItem[] = [];
     base.forEach(g => {
       g.examples.forEach((ex, i) => {
-        const { blanked } = makeBlankSentence(ex.jp, g.structure);
-        // chỉ dùng câu có thể tạo chỗ trống hợp lệ
-        if (blanked.includes('＿＿＿')) {
+        const { blanked, answer, found } = makeBlankSentence(ex.jp, g.structure);
+        if (found && blanked.includes('＿＿＿')) {
+          // fullSentence: loại bỏ markup [...] → câu sạch để hiển thị sau khi trả lời
+          const fullSentence = ex.jp.replace(/\[([^\]]+)\]/g, '$1');
+          // Kana: dùng ex.kana nếu có, strip markup
+          const kana = ex.kana ? ex.kana.replace(/\[([^\]]+)\]/g, '$1') : '';
           items.push({
             id: `${g.id}_ex${i}`,
             blankedSentence: blanked,
-            fullSentence: ex.jp,
+            fullSentence,
+            kana,
             translation: ex.vi,
-            correctAnswer: g.structure,
+            correctAnswer: answer,     // text ngắn gọn bị che (ví dụ: "だらけ")
             correctStructure: g.structure,
             caution: g.caution[language as 'vi' | 'en'] || g.caution.vi,
             group: g.group,
@@ -74,25 +98,37 @@ export default function GrammarFillBlank() {
       });
     });
     return shuffle(items);
-  }, [selectedLesson]);
+  }, [selectedItems, filterType]);
 
   const [queue, setQueue] = useState<FillItem[]>([]);
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showCaution, setShowCaution] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false); // BUG-04 fix: thay thế auto-advance
+  const [showFurigana, setShowFurigana] = useState(false);
 
   const current = queue[0];
 
   // 4 đáp án: 1 đúng + 3 nhiễu từ cùng group
+  // Distractors: lấy text [...] từ example đầu tiên của các grammar item khác cùng group
   const options = useMemo(() => {
     if (!current) return [];
+
+    // Hàm lấy answer text từ example đầu tiên (phần [...]) của một GrammarItem
+    const getAnswerText = (g: (typeof grammarN3)[0]): string => {
+      for (const ex of g.examples) {
+        const m = ex.jp.match(/\[([^\]]+)\]/);
+        if (m) return m[1];
+      }
+      return g.structure.replace(/〜/g, '').split('/')[0].trim();
+    };
+
     const sameGroup = grammarN3
-      .filter(g => g.group === current.group && g.structure !== current.correctAnswer)
-      .map(g => g.structure);
+      .filter(g => g.group === current.group && getAnswerText(g) !== current.correctAnswer)
+      .map(getAnswerText);
     const others = grammarN3
-      .filter(g => g.structure !== current.correctAnswer)
-      .map(g => g.structure);
+      .filter(g => getAnswerText(g) !== current.correctAnswer)
+      .map(getAnswerText);
     const distractors = shuffle([...new Set([...sameGroup, ...others])])
       .filter(s => s !== current.correctAnswer)
       .slice(0, 3);
@@ -130,7 +166,7 @@ export default function GrammarFillBlank() {
   if (!started) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
@@ -140,20 +176,52 @@ export default function GrammarFillBlank() {
           </p>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
+
+            {/* Display options */}
             <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">📚 Phạm vi ôn tập</label>
-              <select
-                value={selectedLesson}
-                onChange={e => setSelectedLesson(e.target.value)}
-                className="w-full py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-white outline-none focus:border-teal-500 transition-colors cursor-pointer"
-              >
-                <option value="all">Tất cả bài ({pool.length} câu)</option>
-                {lessons.map(l => {
-                  const cnt = pool.filter(p => p.lesson === l).length;
-                  return <option key={l} value={l}>{l} ({cnt} câu)</option>;
-                })}
-              </select>
+              <label className="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">Hiển thị</label>
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setShowFurigana(v => !v)}
+                  className={`flex-1 py-2 px-3 rounded-xl border-2 text-xs font-bold transition-all flex items-center justify-center gap-1 ${
+                    showFurigana
+                      ? 'border-teal-500 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400'
+                      : 'border-slate-200 dark:border-slate-700 text-slate-500 hover:border-slate-300'
+                  }`}
+                >
+                  {showFurigana ? <Eye size={12} /> : <EyeOff size={12} />} Kana
+                </button>
+                <button
+                  onClick={() => setShowTranslation(v => !v)}
+                  className={`flex-1 py-2 px-3 rounded-xl border-2 text-xs font-bold transition-all flex items-center justify-center gap-1 ${
+                    showTranslation
+                      ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400'
+                      : 'border-slate-200 dark:border-slate-700 text-slate-500 hover:border-slate-300'
+                  }`}
+                >
+                  {showTranslation ? <Eye size={12} /> : <EyeOff size={12} />} Dịch
+                </button>
+              </div>
             </div>
+
+            {/* Chip selector */}
+            <GrammarLessonChips
+              filterType={filterType}
+              onFilterTypeChange={t => { setFilterType(t); setSelectedItems([]); }}
+              options={chipOptions}
+              selected={selectedItems}
+              onToggle={val => setSelectedItems(prev =>
+                prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+              )}
+              onSelectAll={() => setSelectedItems([])}
+              getLabel={filterType === 'group' ? getGroupLabel : undefined}
+              getCount={val =>
+                filterType === 'lesson'
+                  ? grammarN3.filter(g => g.lesson === val).length
+                  : grammarN3.filter(g => g.group === val).length
+              }
+              totalCount={grammarN3.length}
+            />
 
             <div className="bg-teal-50 dark:bg-teal-900/20 border border-teal-200 dark:border-teal-800/50 rounded-xl p-4">
               <p className="text-sm text-teal-700 dark:text-teal-300">
@@ -209,15 +277,43 @@ export default function GrammarFillBlank() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
-      <div className="max-w-lg mx-auto">
+      <div className="max-w-3xl mx-auto">
 
         {/* Top bar */}
         <div className="flex items-center justify-between mb-6">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors">
             <ArrowLeft size={18} /> Thoát
           </button>
-          <div className="text-sm font-bold text-teal-600 dark:text-teal-400">{score} điểm</div>
-          <div className="text-sm text-slate-500 dark:text-slate-400">{pool.length - queue.length + 1}/{pool.length}</div>
+          <div className="flex items-center gap-2">
+            <div className="text-sm font-bold text-teal-600 dark:text-teal-400">{score} điểm</div>
+            <div className="text-sm text-slate-500 dark:text-slate-400">{pool.length - queue.length + 1}/{pool.length}</div>
+            {/* Kana toggle */}
+            <button
+              onClick={() => setShowFurigana(v => !v)}
+              title={showFurigana ? 'Tắt Furigana' : 'Bật Furigana'}
+              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl border-2 text-xs font-bold transition-all ${
+                showFurigana
+                  ? 'border-teal-500 bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400'
+                  : 'border-slate-200 dark:border-slate-600 text-slate-400 hover:border-teal-300'
+              }`}
+            >
+              {showFurigana ? <Eye size={13} /> : <EyeOff size={13} />}
+              <span>Kana</span>
+            </button>
+            {/* Translation toggle */}
+            <button
+              onClick={() => setShowTranslation(v => !v)}
+              title={showTranslation ? 'Ẩn dịch' : 'Hiện dịch'}
+              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl border-2 text-xs font-bold transition-all ${
+                showTranslation
+                  ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400'
+                  : 'border-slate-200 dark:border-slate-600 text-slate-400 hover:border-amber-300'
+              }`}
+            >
+              {showTranslation ? <Eye size={13} /> : <EyeOff size={13} />}
+              <span>Dịch</span>
+            </button>
+          </div>
         </div>
 
         {/* Progress */}
@@ -248,12 +344,21 @@ export default function GrammarFillBlank() {
 
               {/* Câu có chỗ trống */}
               <div className="text-center mb-6">
-                <p className="text-xl font-bold text-slate-800 dark:text-white leading-relaxed mb-3">
+                <p className="text-xl font-bold text-slate-800 dark:text-white leading-relaxed mb-2">
                   {current.blankedSentence}
                 </p>
-                <p className="text-sm text-slate-500 dark:text-slate-400 italic">
-                  💬 {current.translation}
-                </p>
+                {/* Furigana — kana của câu gốc khi bật */}
+                {showFurigana && current.kana && (
+                  <p className="text-xs text-slate-400 dark:text-slate-500 font-mono mb-2">
+                    {current.kana}
+                  </p>
+                )}
+                {/* Translation toggle */}
+                {showTranslation && (
+                  <p className="text-sm text-slate-500 dark:text-slate-400 italic">
+                    💬 {current.translation}
+                  </p>
+                )}
               </div>
 
               {/* Đáp án */}

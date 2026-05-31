@@ -1,133 +1,104 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, RotateCcw } from 'lucide-react';
+import { ArrowLeft, RotateCcw, CheckCircle2, Eye, EyeOff } from 'lucide-react';
 import { kanjiN3 } from '../../data/kanjiN3';
+import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
+interface Tile {
+  id: string;
+  pairId: string;
+  type: 'A' | 'B';
+  label: string;
+  sub?: string | null;
+}
+
 export default function KanjiMatching() {
   const [started, setStarted] = useState(false);
-  const [lesson, setLesson] = useState('all');
-  const [mode, setMode] = useState<'kanji-hanviet' | 'word-hiragana' | 'word-meaning'>('kanji-hanviet');
-  const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
+  const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
+  const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>('kanji-hanviet');
+  const [showFurigana, setShowFurigana] = useState(false);
 
   // States cho game
-  const [kanjis, setKanjis] = useState<{ id: string; text: string; matched: boolean; selected: boolean }[]>([]);
-  const [meanings, setMeanings] = useState<{ id: string; text: string; matched: boolean; selected: boolean }[]>([]);
-
-  const [selectedKanji, setSelectedKanji] = useState<string | null>(null);
-  const [selectedMeaning, setSelectedMeaning] = useState<string | null>(null);
-  const [errorPair, setErrorPair] = useState<{ k: string, m: string } | null>(null);
+  const [tiles, setTiles] = useState<Tile[]>([]);
+  const [selectedTiles, setSelectedTiles] = useState<Tile[]>([]);
+  const [matched, setMatched] = useState<Set<string>>(new Set());
+  const [errorPair, setErrorPair] = useState<[string, string] | null>(null);
 
   const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
 
   const initGame = () => {
-    let basePool = lesson === 'all' ? kanjiN3 : kanjiN3.filter(k => k.lesson === lesson);
+    let basePool = selectedLessons.length === 0 ? kanjiN3 : kanjiN3.filter(k => selectedLessons.includes(k.lesson || ''));
+    let generatedTiles: Tile[] = [];
 
     if (mode === 'kanji-hanviet') {
       let pool = shuffle(basePool).slice(0, 6);
-      
-      const charArr = pool.map(k => ({ id: k.id, text: k.character, matched: false, selected: false }));
-      const hanarr = pool.map(k => ({ id: k.id, text: k.hanViet, matched: false, selected: false }));
-      
-      if (direction === 'forward') {
-        setKanjis(shuffle(charArr));
-        setMeanings(shuffle(hanarr));
-      } else {
-        setKanjis(shuffle(hanarr));
-        setMeanings(shuffle(charArr));
-      }
-    } else if (mode === 'word-hiragana') {
-      const wordsList: { id: string; word: string; hiragana: string }[] = [];
+      pool.forEach(k => {
+        generatedTiles.push({ id: `A_${k.id}`, pairId: k.id, type: 'A', label: k.character });
+        generatedTiles.push({ id: `B_${k.id}`, pairId: k.id, type: 'B', label: k.hanViet });
+      });
+    } else { // word-meaning
+      const wordsList: { id: string; word: string; value: string; hiragana: string }[] = [];
       basePool.forEach(k => {
         k.words.forEach((w, idx) => {
           wordsList.push({
             id: `${k.id}_w_${idx}`,
             word: w.word,
+            value: typeof w.meaning === 'object' ? w.meaning.vi : w.meaning,
             hiragana: w.hiragana,
           });
         });
       });
 
       let pool = shuffle(wordsList).slice(0, 6);
-      const wordArr = pool.map(w => ({ id: w.id, text: w.word, matched: false, selected: false }));
-      const readArr = pool.map(w => ({ id: w.id, text: w.hiragana, matched: false, selected: false }));
-
-      if (direction === 'forward') {
-        setKanjis(shuffle(wordArr));
-        setMeanings(shuffle(readArr));
-      } else {
-        setKanjis(shuffle(readArr));
-        setMeanings(shuffle(wordArr));
-      }
-    } else { // 'word-meaning'
-      const wordsList: { id: string; word: string; meaning: string }[] = [];
-      basePool.forEach(k => {
-        k.words.forEach((w, idx) => {
-          wordsList.push({
-            id: `${k.id}_w_${idx}`,
-            word: w.word,
-            meaning: typeof w.meaning === 'object' ? w.meaning.vi : w.meaning,
-          });
-        });
+      pool.forEach(w => {
+        generatedTiles.push({ id: `A_${w.id}`, pairId: w.id, type: 'A', label: w.word, sub: w.hiragana });
+        generatedTiles.push({ id: `B_${w.id}`, pairId: w.id, type: 'B', label: w.value });
       });
-
-      let pool = shuffle(wordsList).slice(0, 6);
-      const wordArr = pool.map(w => ({ id: w.id, text: w.word, matched: false, selected: false }));
-      const meanArr = pool.map(w => ({ id: w.id, text: w.meaning, matched: false, selected: false }));
-
-      if (direction === 'forward') {
-        setKanjis(shuffle(wordArr));
-        setMeanings(shuffle(meanArr));
-      } else {
-        setKanjis(shuffle(meanArr));
-        setMeanings(shuffle(wordArr));
-      }
     }
 
-    setSelectedKanji(null);
-    setSelectedMeaning(null);
+    setTiles(shuffle(generatedTiles));
+    setSelectedTiles([]);
+    setMatched(new Set());
     setErrorPair(null);
     setStarted(true);
   };
 
   useEffect(() => {
-    if (selectedKanji && selectedMeaning) {
-      if (selectedKanji === selectedMeaning) {
+    if (selectedTiles.length === 2) {
+      const [t1, t2] = selectedTiles;
+      if (t1.pairId === t2.pairId && t1.type !== t2.type) {
         // Match!
-        setKanjis(prev => prev.map(k => k.id === selectedKanji ? { ...k, matched: true, selected: false } : k));
-        setMeanings(prev => prev.map(m => m.id === selectedMeaning ? { ...m, matched: true, selected: false } : m));
-        setSelectedKanji(null);
-        setSelectedMeaning(null);
+        setTimeout(() => {
+          setMatched(prev => new Set([...prev, t1.pairId]));
+          setSelectedTiles([]);
+        }, 200);
       } else {
         // Mismatch!
-        setErrorPair({ k: selectedKanji, m: selectedMeaning });
+        setErrorPair([t1.id, t2.id]);
         setTimeout(() => {
-          setKanjis(prev => prev.map(k => ({ ...k, selected: false })));
-          setMeanings(prev => prev.map(m => ({ ...m, selected: false })));
-          setSelectedKanji(null);
-          setSelectedMeaning(null);
+          setSelectedTiles([]);
           setErrorPair(null);
         }, 800);
       }
     }
-  }, [selectedKanji, selectedMeaning]);
+  }, [selectedTiles]);
 
-  const handleKanjiClick = (id: string) => {
-    if (errorPair || kanjis.find(k => k.id === id)?.matched) return;
-    setSelectedKanji(id);
-    setKanjis(prev => prev.map(k => ({ ...k, selected: k.id === id })));
+  const handleTileClick = (tile: Tile) => {
+    if (errorPair || matched.has(tile.pairId) || selectedTiles.length === 2) return;
+    
+    if (selectedTiles.find(t => t.id === tile.id)) {
+      setSelectedTiles(selectedTiles.filter(t => t.id !== tile.id));
+      return;
+    }
+    
+    setSelectedTiles([...selectedTiles, tile]);
   };
 
-  const handleMeaningClick = (id: string) => {
-    if (errorPair || meanings.find(m => m.id === id)?.matched) return;
-    setSelectedMeaning(id);
-    setMeanings(prev => prev.map(m => ({ ...m, selected: m.id === id })));
-  };
-
-  const isWin = kanjis.length > 0 && kanjis.every(k => k.matched);
+  const isWin = matched.size > 0 && matched.size === (tiles.length / 2);
 
   // Dynamic text size to prevent overflow for longer words/meanings/hiragana
   const getTextSize = (text: string) => {
@@ -137,107 +108,80 @@ export default function KanjiMatching() {
     return 'text-xs md:text-sm font-semibold px-2 text-center';
   };
 
-  const getSubTitle = () => {
-    if (mode === 'kanji-hanviet') {
-      return direction === 'forward' ? 'Nối chữ Kanji (Trái) với Hán Việt (Phải)' : 'Nối Hán Việt (Trái) với chữ Kanji (Phải)';
-    } else if (mode === 'word-hiragana') {
-      return direction === 'forward' ? 'Nối Từ ghép (Trái) với Hiragana (Phải)' : 'Nối Hiragana (Trái) với Từ ghép (Phải)';
-    } else {
-      return direction === 'forward' ? 'Nối Từ ghép (Trái) với Nghĩa tiếng Việt (Phải)' : 'Nối Nghĩa tiếng Việt (Trái) với Từ ghép (Phải)';
-    }
-  };
 
   if (!started) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2 font-display">🧩 Nối Kanji</h1>
           <p className="text-slate-500 dark:text-slate-400 mb-8">Trò chơi ghép nối phản xạ siêu tốc.</p>
 
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">📚 Bài học</label>
-              <select
-                value={lesson}
-                onChange={e => setLesson(e.target.value)}
-                className="w-full py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-white outline-none focus:border-blue-500 transition-colors cursor-pointer"
-              >
-                <option value="all">Tất cả bài học ({kanjiN3.length} chữ)</option>
-                {lessons.map(l => (
-                  <option key={l} value={l}>{l} ({kanjiN3.filter(k => k.lesson === l).length} chữ)</option>
-                ))}
-              </select>
-            </div>
+          <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
+            <KanjiLessonChips
+              options={lessons}
+              selected={selectedLessons}
+              onToggle={(val) => {
+                setSelectedLessons(prev =>
+                  prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+                );
+              }}
+              onSelectAll={() => setSelectedLessons([])}
+              totalCount={kanjiN3.length}
+              getCount={(l) => kanjiN3.filter(k => k.lesson === l).length}
+            />
 
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ nối</label>
-              <div className="grid grid-cols-1 gap-2">
-                <button
-                  type="button"
-                  onClick={() => setMode('kanji-hanviet')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                    mode === 'kanji-hanviet'
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  <span>Chữ Kanji & Hán Việt</span>
-                  <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setMode('word-hiragana')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                    mode === 'word-hiragana'
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  <span>Từ ghép & Cách đọc (Hiragana)</span>
-                  <span className="text-xs font-normal opacity-70">共通点 ⇄ きょうつうてん</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setMode('word-meaning')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                    mode === 'word-meaning'
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  <span>Từ ghép & Nghĩa tiếng Việt</span>
-                  <span className="text-xs font-normal opacity-70">共通点 ⇄ Điểm chung</span>
-                </button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ nối</label>
+                <div className="grid grid-cols-1 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setMode('kanji-hanviet')}
+                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
+                      mode === 'kanji-hanviet'
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
+                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    }`}
+                  >
+                    <span>Chữ Kanji & Hán Việt</span>
+                    <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setMode('word-meaning')}
+                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
+                      mode === 'word-meaning'
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
+                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    }`}
+                  >
+                    <span>Từ ghép & Nghĩa tiếng Việt</span>
+                    <span className="text-xs font-normal opacity-70">共通点 ⇄ Điểm chung</span>
+                  </button>
+                </div>
               </div>
-            </div>
 
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng câu hỏi</label>
-              <div className="grid grid-cols-2 gap-3">
+              <div>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">👁️ Hiển thị Kana (Khi ghép từ)</label>
                 <button
-                  type="button"
-                  onClick={() => setDirection('forward')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                    direction === 'forward'
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                  onClick={() => setShowFurigana(!showFurigana)}
+                  className={`w-full p-4 rounded-xl border-2 transition-all flex items-center justify-between ${
+                    showFurigana
+                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400'
+                      : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
                   }`}
                 >
-                  Thuận
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setDirection('backward')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                    direction === 'backward'
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  Đảo ngược
+                  <div className="flex items-center gap-3 font-bold">
+                    {showFurigana ? <Eye size={20} /> : <EyeOff size={20} />}
+                    {showFurigana ? 'Đang bật' : 'Đang ẩn'}
+                  </div>
+                  <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#3b82f6' : '' }}>
+                    <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-all ${showFurigana ? 'left-5' : 'left-1'}`} />
+                  </div>
                 </button>
               </div>
             </div>
@@ -261,8 +205,23 @@ export default function KanjiMatching() {
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Cài đặt
           </button>
-          <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
-            {getSubTitle()}
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setShowFurigana(!showFurigana)}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
+                showFurigana 
+                  ? 'bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400' 
+                  : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700'
+              }`}
+            >
+              {showFurigana ? <Eye size={16} /> : <EyeOff size={16} />}
+              Kana
+            </button>
+            <div className="flex items-center gap-4 text-sm font-bold text-slate-500 dark:text-slate-400">
+              <span className="text-emerald-500 flex items-center gap-1">
+                <CheckCircle2 size={16} /> {matched.size}/{(tiles.length / 2)}
+              </span>
+            </div>
           </div>
         </div>
 
@@ -281,48 +240,29 @@ export default function KanjiMatching() {
             </Link>
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-4 md:gap-8">
-            {/* Cột Trái */}
-            <div className="space-y-4">
-              {kanjis.map(k => {
-                let btnClass = "bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-white hover:border-blue-300 dark:hover:border-blue-500";
-                if (k.matched) btnClass = "bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-600 dark:text-green-400 opacity-50 cursor-default";
-                else if (errorPair?.k === k.id) btnClass = "bg-red-50 dark:bg-red-900/30 border-red-400 dark:border-red-800 text-red-600 dark:text-red-400";
-                else if (k.selected) btnClass = "bg-blue-50 dark:bg-blue-900/30 border-blue-400 dark:border-blue-600 text-blue-600 dark:text-blue-400";
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            {tiles.map(tile => {
+              const isMatched = matched.has(tile.pairId);
+              const isSelected = selectedTiles.some(t => t.id === tile.id);
+              const isWrong = errorPair?.includes(tile.id);
+              
+              let btnClass = "border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:border-blue-400 hover:shadow-sm cursor-pointer";
+              if (isMatched) btnClass = "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 opacity-70 cursor-default";
+              else if (isWrong) btnClass = "border-red-400 bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400 cursor-default";
+              else if (isSelected) btnClass = "border-blue-500 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 shadow-md cursor-pointer";
 
-                return (
-                  <button
-                    key={k.id}
-                    onClick={() => handleKanjiClick(k.id)}
-                    disabled={k.matched}
-                    className={`w-full min-h-[5.5rem] p-4 flex items-center justify-center rounded-2xl border-2 transition-all shadow-sm ${btnClass} ${getTextSize(k.text)}`}
-                  >
-                    {k.text}
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* Cột Phải */}
-            <div className="space-y-4">
-              {meanings.map(m => {
-                let btnClass = "bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-white hover:border-blue-300 dark:hover:border-blue-500";
-                if (m.matched) btnClass = "bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-600 dark:text-green-400 opacity-50 cursor-default";
-                else if (errorPair?.m === m.id) btnClass = "bg-red-50 dark:bg-red-900/30 border-red-400 dark:border-red-800 text-red-600 dark:text-red-400";
-                else if (m.selected) btnClass = "bg-blue-50 dark:bg-blue-900/30 border-blue-400 dark:border-blue-600 text-blue-600 dark:text-blue-400";
-
-                return (
-                  <button
-                    key={m.id}
-                    onClick={() => handleMeaningClick(m.id)}
-                    disabled={m.matched}
-                    className={`w-full min-h-[5.5rem] p-4 flex items-center justify-center rounded-2xl border-2 transition-all shadow-sm ${btnClass} ${getTextSize(m.text)}`}
-                  >
-                    {m.text}
-                  </button>
-                );
-              })}
-            </div>
+              return (
+                <button
+                  key={tile.id}
+                  onClick={() => handleTileClick(tile)}
+                  disabled={isMatched}
+                  className={`w-full min-h-[5.5rem] p-3 flex flex-col items-center justify-center rounded-2xl border-2 transition-all shadow-sm select-none ${btnClass}`}
+                >
+                  <span className={`pointer-events-none ${getTextSize(tile.label)}`}>{tile.label}</span>
+                  {showFurigana && tile.sub && <span className="pointer-events-none text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">{tile.sub}</span>}
+                </button>
+              );
+            })}
           </div>
         )}
       </div>

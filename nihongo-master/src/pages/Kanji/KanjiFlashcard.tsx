@@ -1,8 +1,9 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2, Eye, EyeOff } from 'lucide-react';
 import { kanjiN3 } from '../../data/kanjiN3';
+import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
@@ -10,15 +11,16 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function KanjiFlashcard() {
   const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
-  const [selectedLesson, setSelectedLesson] = useState<string>('all');
-  const [mode, setMode] = useState<'kanji-hanviet' | 'word-hiragana' | 'word-meaning'>('kanji-hanviet');
+  const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
+  const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>('kanji-hanviet');
   const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
+  const [showFurigana, setShowFurigana] = useState(false);
   const [started, setStarted] = useState(false);
 
   const pool = useMemo(() => {
-    const base = selectedLesson === 'all'
+    const base = selectedLessons.length === 0
       ? kanjiN3
-      : kanjiN3.filter(k => k.lesson === selectedLesson);
+      : kanjiN3.filter(k => selectedLessons.includes(k.lesson || ''));
     
     if (mode === 'kanji-hanviet') {
       return shuffle(base).map(k => ({
@@ -45,7 +47,7 @@ export default function KanjiFlashcard() {
       });
       return shuffle(wordsList);
     }
-  }, [selectedLesson, mode]);
+  }, [selectedLessons, mode]);
 
   const [queue, setQueue] = useState<any[]>([]);
   const [known, setKnown] = useState<any[]>([]);
@@ -92,108 +94,109 @@ export default function KanjiFlashcard() {
     return 'text-2xl font-bold px-4';
   };
 
-  const getFrontText = () => {
-    if (!current) return '';
-    if (mode === 'kanji-hanviet') {
-      return direction === 'forward' ? current.character : current.hanViet;
-    } else if (mode === 'word-hiragana') {
-      return direction === 'forward' ? current.word : current.hiragana;
-    } else {
-      return direction === 'forward' ? current.word : current.meaning;
-    }
-  };
-
   if (!started) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-3xl mx-auto">
           <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-8 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ Kanji</h1>
           <p className="text-slate-500 dark:text-slate-400 mb-8">Ôn tập chữ Hán và các từ vựng đi kèm.</p>
 
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">📚 Bài học</label>
-              <select
-                value={selectedLesson}
-                onChange={e => setSelectedLesson(e.target.value)}
-                className="w-full py-3 px-4 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-white outline-none focus:border-violet-500 transition-colors cursor-pointer"
-              >
-                <option value="all">Tất cả ({kanjiN3.length} chữ)</option>
-                {lessons.map(l => (
-                  <option key={l} value={l}>{l} ({kanjiN3.filter(k => k.lesson === l).length} chữ)</option>
-                ))}
-              </select>
-            </div>
+          <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
+            <KanjiLessonChips
+              options={lessons}
+              selected={selectedLessons}
+              onToggle={(val) => {
+                setSelectedLessons(prev =>
+                  prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]
+                );
+              }}
+              onSelectAll={() => setSelectedLessons([])}
+              totalCount={kanjiN3.length}
+              getCount={(l) => kanjiN3.filter(k => k.lesson === l).length}
+            />
 
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ ôn tập</label>
-              <div className="grid grid-cols-1 gap-2">
-                <button
-                  type="button"
-                  onClick={() => setMode('kanji-hanviet')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                    mode === 'kanji-hanviet'
-                      ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  <span>Chữ Kanji & Hán Việt</span>
-                  <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setMode('word-hiragana')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                    mode === 'word-hiragana'
-                      ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  <span>Từ ghép & Cách đọc (Hiragana)</span>
-                  <span className="text-xs font-normal opacity-70">共通点 ⇄ きょうつうてん</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setMode('word-meaning')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                    mode === 'word-meaning'
-                      ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  <span>Từ ghép & Nghĩa tiếng Việt</span>
-                  <span className="text-xs font-normal opacity-70">共通点 ⇄ Điểm chung</span>
-                </button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ ôn tập</label>
+                <div className="grid grid-cols-1 gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setMode('kanji-hanviet')}
+                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
+                      mode === 'kanji-hanviet'
+                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    }`}
+                  >
+                    <span>Chữ Kanji & Hán Việt</span>
+                    <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setMode('word-meaning')}
+                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
+                      mode === 'word-meaning'
+                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    }`}
+                  >
+                    <span>Từ ghép & Nghĩa tiếng Việt</span>
+                    <span className="text-xs font-normal opacity-70">共通点 ⇄ Điểm chung</span>
+                  </button>
+                </div>
               </div>
-            </div>
 
-            <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng lật thẻ</label>
-              <div className="grid grid-cols-2 gap-3">
+              <div>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng lật thẻ</label>
+                <div className="grid grid-cols-2 gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setDirection('forward')}
+                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
+                      direction === 'forward'
+                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    }`}
+                  >
+                    Thuận
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setDirection('backward')}
+                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
+                      direction === 'backward'
+                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                    }`}
+                  >
+                    Đảo ngược
+                  </button>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">
+                  👁️ Hiển thị Kana (Gợi ý mặt chữ Hán)
+                </label>
                 <button
-                  type="button"
-                  onClick={() => setDirection('forward')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                    direction === 'forward'
-                      ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                  onClick={() => setShowFurigana(!showFurigana)}
+                  className={`w-full p-4 rounded-xl border-2 transition-all flex items-center justify-between ${
+                    showFurigana
+                      ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/20 text-violet-700 dark:text-violet-400'
+                      : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
                   }`}
                 >
-                  Thuận
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setDirection('backward')}
-                  className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                    direction === 'backward'
-                      ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                      : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                  }`}
-                >
-                  Đảo ngược
+                  <div className="flex items-center gap-3 font-bold">
+                    {showFurigana ? <Eye size={20} /> : <EyeOff size={20} />}
+                    {showFurigana ? 'Đang bật' : 'Đang ẩn'}
+                  </div>
+                  <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#8b5cf6' : '' }}>
+                    <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-all ${showFurigana ? 'left-5' : 'left-1'}`} />
+                  </div>
                 </button>
               </div>
             </div>
@@ -260,15 +263,38 @@ export default function KanjiFlashcard() {
 
   const progress = ((known.length + learning.length) / (known.length + learning.length + queue.length)) * 100;
 
+  const getFrontText = () => {
+    if (!current) return '';
+    if (mode === 'kanji-hanviet') {
+      return direction === 'forward' ? current.character : current.hanViet;
+    } else {
+      return direction === 'forward' ? current.word : current.meaning;
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-lg mx-auto">
         <div className="flex items-center justify-between mb-6">
-          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 transition-colors">
+          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Cài đặt
           </button>
-          <div className="text-sm text-slate-500 dark:text-slate-400">
-            {known.length + learning.length} / {known.length + learning.length + queue.length}
+          
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setShowFurigana(!showFurigana)}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
+                showFurigana 
+                  ? 'bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-400' 
+                  : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700'
+              }`}
+            >
+              {showFurigana ? <Eye size={16} /> : <EyeOff size={16} />}
+              Kana
+            </button>
+            <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
+              {known.length + learning.length} / {known.length + learning.length + queue.length}
+            </div>
           </div>
         </div>
 
@@ -309,6 +335,11 @@ export default function KanjiFlashcard() {
                     <div className={getFrontTextSize(getFrontText())}>
                       {getFrontText()}
                     </div>
+                    {showFurigana && mode !== 'kanji-hanviet' && direction === 'forward' && (
+                      <div className="text-lg text-slate-400 dark:text-slate-500 mt-2 font-medium">
+                        {current.hiragana}
+                      </div>
+                    )}
                     <div className="mt-6 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
                       <RotateCcw size={14} /> Chạm để lật
                     </div>
@@ -354,31 +385,6 @@ export default function KanjiFlashcard() {
                             </div>
                           ))}
                         </div>
-                      </>
-                    ) : mode === 'word-hiragana' ? (
-                      <>
-                        <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">
-                          {direction === 'forward' ? 'Cách đọc (Hiragana)' : 'Từ ghép'}
-                        </div>
-                        <div className="text-4xl font-extrabold mb-4 text-white">
-                          {direction === 'forward' ? current.hiragana : current.word}
-                        </div>
-                        
-                        <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">Hán Việt</div>
-                        <div className="text-2xl font-bold mb-4 text-white">{current.hanVietWord}</div>
-
-                        <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">Ý nghĩa</div>
-                        <div className="text-2xl font-semibold mb-6 text-white">{current.meaning}</div>
-
-                        {current.examples && current.examples.length > 0 && (
-                          <div className="w-full mt-4 pt-4 border-t border-violet-500 text-left">
-                            <div className="text-xs text-violet-200 uppercase tracking-widest font-semibold mb-2">Ví dụ</div>
-                            <div className="bg-white/10 rounded-xl p-3">
-                              <div className="text-sm font-medium text-white">{current.examples[0].jp}</div>
-                              <div className="text-xs text-violet-200 mt-1">{current.examples[0].vi}</div>
-                            </div>
-                          </div>
-                        )}
                       </>
                     ) : (
                       <>

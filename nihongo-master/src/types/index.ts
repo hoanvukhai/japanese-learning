@@ -72,24 +72,29 @@ export interface Kanji {
 
 // Grammar types
 export interface GrammarExample {
-  jp: string;               // Câu ví dụ tiếng Nhật
-  vi: string;               // Nghĩa tiếng Việt
-  en?: string;              // Nghĩa tiếng Anh (optional)
+  jp: string;               // C\u00e2u v\u00ed d\u1ee5 ti\u1ebfng Nh\u1eadt, c\u00f3 d\u1ea5u [...] \u0111\u00e1nh d\u1ea5u \u0111i\u1ec3m r\u01a1i ng\u1eef ph\u00e1p: "妹は犬を怖[がる]。"
+  kana: string;             // \u0110\u1ecdc to\u00e0n b\u1ed9 b\u1eb1ng hiragana, c\u0169ng c\u00f3 [...]: "いもうとはいぬをこわ[がる]。"
+  vi: string;               // Ngh\u0129a ti\u1ebfng Vi\u1ec7t
+  en?: string;              // Ngh\u0129a ti\u1ebfng Anh (optional)
 }
 
 export interface GrammarItem {
-  id: string;               // VD: 'g_01_01'
-  structure: string;        // Cấu trúc (VD: '〜がる / 〜がっている')
+  id: string;               // VD: 'g_01_01' \u2014 1 ID = 1 m\u1eabu \u0111\u1ed9c l\u1eadp (Atomic)
+  level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1'; // Scalability
+  structure: string;        // C\u1ea5u tr\u00fac (VD: '\u301c\u304c\u308b')
+  structureKana: string;    // \u0110\u1ecdc b\u1eb1ng kana (VD: '\u301c\u304c\u308b') \u2014 d\u00f9ng \u0111\u1ec3 search hi\u1ebfragana
   meaning: {
     vi: string;
     en?: string;
-  };                        // Nghĩa tiếng Việt và tiếng Anh ngắn gọn
-  formation: string[];      // Cách thành lập (mảng các dạng biến thể)
-  lesson: string;           // 'Bài 1' — dùng cho chế độ Học theo bài
-  group: string;            // 'Emotion_Desire' — dùng cho Game đối kháng
+  };                        // Ngh\u0129a ti\u1ebfng Vi\u1ec7t v\u00e0 ti\u1ebfng Anh ng\u1eafn g\u1ecdn
+  formation: string[];      // C\u00e1ch th\u00e0nh l\u1eadp (m\u1ea3ng c\u00e1c d\u1ea1ng bi\u1ebfn th\u1ec3)
+  lesson: string;           // 'B\u00e0i 1' \u2014 d\u00f9ng cho ch\u1ebf \u0111\u1ed9 H\u1ecdc theo b\u00e0i
+  group: string;            // 'Emotion_Desire' \u2014 d\u00f9ng cho Game \u0111\u1ed1i kh\u00e1ng
+  confusedWith?: string[];  // C\u00e1c c\u1ea5u tr\u00fac d\u1ec5 nh\u1ea7m l\u1eabn: ['\u301c\u305f\u3044', '\u301c\u3066\u307b\u3057\u3044']
   caution: {
     vi: string;
     en?: string;
-  };                        // Lời nhắc bẫy JLPT
-  examples: GrammarExample[]; // Câu ví dụ
+  };                        // L\u1eddi nh\u1eafc b\u1eaby JLPT
+  examples: GrammarExample[]; // C\u00e2u v\u00ed d\u1ee5
 }
+

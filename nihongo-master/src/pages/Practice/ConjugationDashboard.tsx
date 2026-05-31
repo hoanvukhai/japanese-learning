@@ -76,7 +76,7 @@ const ConjugationDashboard = () => {
 
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
             <Link
-              to="/conjugation/study"
+              to="/study/conjugation"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               <BookOpen size={16} />
