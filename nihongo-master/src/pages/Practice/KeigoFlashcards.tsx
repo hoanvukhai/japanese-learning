@@ -1,7 +1,3 @@
-// src/pages/Practice/KeigoFlashcards.tsx
-// ============================================================
-// Trang Luyện Kính Ngữ – Flashcard Mode
-// ============================================================
 import { useState, useCallback, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -10,17 +6,23 @@ import {
   Shuffle, Settings2, BookOpen, Crown, Heart, Star,
 } from 'lucide-react';
 import { keigoVerbs } from '../../data/keigoDb';
-import type { KeigoVerb, KeigoFormKey } from '../../types/keigo';
-import { generateSonkei, generateKenjou, generateTeinei } from '../../lib/keigoEngine';
+import type { KeigoVerb } from '../../types/keigo';
+import { getKeigoResult } from '../../lib/keigoEngine';
 import { useSettings } from '../../context/global/useSettings';
 
 // ── Helpers ──────────────────────────────────────────────────
 const shuffle = <T,>(arr: T[]): T[] => [...arr].sort(() => Math.random() - 0.5);
 
-type KeigoFormSetting = 'sonkei' | 'kenjou' | 'teinei' | 'all';
+type KeigoFormSetting = 'all' | 'sonkei' | 'kenjou' | 'teinei';
+type FormType = 'base' | 'sonkei' | 'kenjou' | 'teinei';
 
-// ── Badge colors ──────────────────────────────────────────────
-const FORM_META: Record<KeigoFormKey, { label: string; labelEn: string; color: string; icon: React.ReactNode }> = {
+const FORM_META: Record<FormType, { label: string; labelEn: string; color: string; icon: React.ReactNode }> = {
+  base: {
+    label: 'Từ gốc',
+    labelEn: 'Base Word',
+    color: 'from-slate-500 to-slate-600',
+    icon: <BookOpen size={16} className="text-slate-300" />,
+  },
   sonkei: {
     label: '尊敬語 (Tôn kính)',
     labelEn: '尊敬語 (Sonkei)',
@@ -42,31 +44,45 @@ const FORM_META: Record<KeigoFormKey, { label: string; labelEn: string; color: s
 };
 
 // ── Keigo Card Component ──────────────────────────────────────
-interface KeigoCardProps {
+interface FlashcardEntry {
   verb: KeigoVerb;
-  formKey: KeigoFormKey;
+  sourceForm: FormType;
+  targetForm: FormType;
+}
+
+interface KeigoCardProps {
+  entry: FlashcardEntry;
   isFlipped: boolean;
   language: 'vi' | 'en';
   onFlip: () => void;
 }
 
-function KeigoCard({ verb, formKey, isFlipped, language, onFlip }: KeigoCardProps) {
-  const meta = FORM_META[formKey];
-  const result = formKey === 'sonkei'
-    ? generateSonkei(verb)
-    : formKey === 'kenjou'
-      ? generateKenjou(verb)
-      : generateTeinei(verb);
+function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
+  const { verb, sourceForm, targetForm } = entry;
+  const [isRevealed, setIsRevealed] = useState(false);
+
+  useEffect(() => { setIsRevealed(false); }, [entry]);
+  
+  const getWordText = (form: FormType): string => {
+    if (form === 'base') return verb.kanji;
+    const res = getKeigoResult(verb, form, 'masu');
+    return res[0] === '(なし)' ? '(không có)' : res.join(' / ');
+  };
+  
+  const sourceText = getWordText(sourceForm);
+  const targetText = getWordText(targetForm);
+  const sourceMeta = FORM_META[sourceForm];
+  const targetMeta = FORM_META[targetForm];
 
   const playAudio = useCallback((e: React.MouseEvent, text: string) => {
     e.stopPropagation();
     if (window.speechSynthesis.speaking) { window.speechSynthesis.cancel(); return; }
-    const u = new SpeechSynthesisUtterance(text);
+    // Thay / bằng dấu phẩy để đọc tự nhiên hơn
+    const cleanedText = text.replace(/ \/ /g, '、');
+    const u = new SpeechSynthesisUtterance(cleanedText);
     u.lang = 'ja-JP'; u.rate = 0.85;
     window.speechSynthesis.speak(u);
   }, []);
-
-  const isNone = result === '(なし)';
 
   return (
     <div
@@ -80,28 +96,37 @@ function KeigoCard({ verb, formKey, isFlipped, language, onFlip }: KeigoCardProp
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
       >
-        {/* ── FRONT ── */}
+        {/* ── FRONT (SOURCE) ── */}
         <div
           className="absolute inset-0 w-full rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 flex flex-col p-5 shadow-xl overflow-hidden"
           style={{ backfaceVisibility: 'hidden' }}
         >
           {/* Gradient top bar */}
-          <div className={`absolute top-0 left-0 right-0 h-1.5 rounded-t-2xl bg-gradient-to-r ${meta.color}`} />
+          <div className={`absolute top-0 left-0 right-0 h-1.5 rounded-t-2xl bg-gradient-to-r ${sourceMeta.color}`} />
 
           {/* Header */}
-          <div className="flex items-start justify-between mt-2 mb-4">
+          <div className="flex items-start justify-between mt-2 mb-4 relative z-10">
             <div className="flex flex-col gap-1">
-              <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r ${meta.color} text-white text-xs font-bold shadow-sm`}>
-                {meta.icon}
-                {language === 'en' ? meta.labelEn : meta.label}
+              <div 
+                onClick={(e) => { e.stopPropagation(); setIsRevealed(true); }}
+                className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold shadow-sm transition-all cursor-pointer ${
+                  isRevealed 
+                    ? `bg-gradient-to-r ${sourceMeta.color} text-white` 
+                    : 'bg-slate-200/80 dark:bg-slate-700/80 text-slate-500 hover:bg-slate-300 dark:hover:bg-slate-600 backdrop-blur'
+                }`}
+              >
+                {isRevealed ? sourceMeta.icon : <BookOpen size={16} />}
+                {isRevealed 
+                  ? (language === 'en' ? sourceMeta.labelEn : sourceMeta.label)
+                  : (language === 'en' ? 'Tap to reveal form' : 'Chạm để xem Thể')}
               </div>
-              <span className="text-[10px] text-slate-400 dark:text-slate-500 px-1">
-                {language === 'en' ? 'Tap to reveal' : 'Chạm để lật xem đáp án'}
+              <span className="text-[10px] text-slate-400 dark:text-slate-500 px-1 mt-1 font-bold">
+                Hỏi: {language === 'en' ? targetMeta.labelEn : targetMeta.label}?
               </span>
             </div>
             <button
-              onClick={(e) => playAudio(e, verb.kanji)}
-              className="p-2 rounded-full bg-slate-100 dark:bg-slate-700 text-blue-500 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors border border-slate-200 dark:border-slate-600"
+              onClick={(e) => playAudio(e, sourceText)}
+              className="p-2 rounded-full bg-slate-100 dark:bg-slate-700 text-blue-500 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors border border-slate-200 dark:border-slate-600 shrink-0"
             >
               <Volume2 size={18} />
             </button>
@@ -110,10 +135,10 @@ function KeigoCard({ verb, formKey, isFlipped, language, onFlip }: KeigoCardProp
           {/* Main word */}
           <div className="flex flex-col items-center justify-center flex-1 gap-3 py-4">
             <span className="text-slate-400 dark:text-slate-500 text-sm font-medium">
-              {verb.hiragana}
+              {sourceForm === 'base' ? verb.hiragana : ''}
             </span>
-            <h2 className="text-5xl sm:text-6xl font-bold text-slate-800 dark:text-white text-center leading-tight break-all px-2">
-              {verb.kanji}
+            <h2 className="text-4xl sm:text-5xl font-bold text-slate-800 dark:text-white text-center leading-tight break-all px-2">
+              {sourceText}
             </h2>
             <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 text-center">
               {language === 'en' ? verb.meaning.en : verb.meaning.vi}
@@ -127,32 +152,24 @@ function KeigoCard({ verb, formKey, isFlipped, language, onFlip }: KeigoCardProp
           </div>
         </div>
 
-        {/* ── BACK ── */}
+        {/* ── BACK (TARGET) ── */}
         <div
-          className={`absolute inset-0 w-full rounded-2xl flex flex-col p-5 shadow-xl overflow-hidden bg-gradient-to-br ${
-            isNone
-              ? 'from-slate-700 to-slate-800'
-              : formKey === 'sonkei'
-                ? 'from-violet-600 to-purple-700'
-                : formKey === 'kenjou'
-                  ? 'from-blue-600 to-indigo-700'
-                  : 'from-emerald-600 to-teal-700'
-          }`}
+          className={`absolute inset-0 w-full rounded-2xl flex flex-col p-5 shadow-xl overflow-hidden bg-gradient-to-br ${targetMeta.color}`}
           style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
         >
           {/* Header */}
           <div className="flex items-start justify-between mb-4">
             <div className="flex flex-col gap-1">
               <span className="text-white/70 text-xs font-medium">
-                {verb.hiragana} → {language === 'en' ? meta.labelEn : meta.label}
+                {language === 'en' ? targetMeta.labelEn : targetMeta.label}
               </span>
               <span className="text-white text-base font-bold">
-                {verb.kanji} ({language === 'en' ? verb.meaning.en : verb.meaning.vi})
+                Từ gốc: {verb.kanji} ({language === 'en' ? verb.meaning.en : verb.meaning.vi})
               </span>
             </div>
             <button
-              onClick={(e) => playAudio(e, result)}
-              className="p-2 rounded-full bg-white/20 text-white hover:bg-white/30 transition-colors"
+              onClick={(e) => playAudio(e, targetText)}
+              className="p-2 rounded-full bg-white/20 text-white hover:bg-white/30 transition-colors shrink-0"
             >
               <Volume2 size={18} />
             </button>
@@ -160,20 +177,15 @@ function KeigoCard({ verb, formKey, isFlipped, language, onFlip }: KeigoCardProp
 
           {/* Answer */}
           <div className="flex flex-col items-center justify-center flex-1 gap-4 py-4">
-            {isNone ? (
-              <div className="text-white/60 text-xl italic">(không có dạng này)</div>
-            ) : (
-              <>
-                <div className="text-4xl sm:text-5xl font-bold text-yellow-300 text-center leading-tight break-all px-2">
-                  {result}
-                </div>
-                {/* Rule type badge */}
-                <div className="px-3 py-1 rounded-full bg-white/20 text-white/90 text-xs font-bold">
-                  {verb[formKey].type === 'special'
-                    ? (language === 'en' ? '⚡ Special form' : '⚡ Từ đặc biệt')
-                    : (language === 'en' ? '📐 Rule-based' : '📐 Theo quy tắc')}
-                </div>
-              </>
+            <div className="text-3xl sm:text-4xl font-bold text-yellow-300 text-center leading-tight break-all px-2">
+              {targetText}
+            </div>
+            {targetForm !== 'base' && (
+              <div className="px-3 py-1 rounded-full bg-white/20 text-white/90 text-xs font-bold">
+                {verb[targetForm].type === 'special'
+                  ? (language === 'en' ? '⚡ Special form' : '⚡ Từ đặc biệt')
+                  : (language === 'en' ? '📐 Rule-based' : '📐 Theo quy tắc')}
+              </div>
             )}
           </div>
 
@@ -200,20 +212,37 @@ export default function KeigoFlashcards() {
   const [showSettings, setShowSettings] = useState(false);
 
   // Queue state
-  const [queue, setQueue] = useState<Array<{ verb: KeigoVerb; formKey: KeigoFormKey }>>([]);
+  const [queue, setQueue] = useState<FlashcardEntry[]>([]);
   const [index, setIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [direction, setDirection] = useState<1 | -1>(1);
 
   // Build queue
   const buildQueue = useCallback(() => {
-    const allKeys: KeigoFormKey[] = ['sonkei', 'kenjou', 'teinei'];
-    const keys: KeigoFormKey[] = formSetting === 'all' ? allKeys : [formSetting];
-    const entries: Array<{ verb: KeigoVerb; formKey: KeigoFormKey }> = [];
+    const entries: FlashcardEntry[] = [];
+    
     keigoVerbs.forEach(verb => {
-      keys.forEach(k => {
-        entries.push({ verb, formKey: k });
-      });
+      const forms: FormType[] = ['base'];
+      if (verb.sonkei.type !== 'none') forms.push('sonkei');
+      if (verb.kenjou.type !== 'none') forms.push('kenjou');
+      if (verb.teinei.type === 'special') forms.push('teinei');
+
+      // Tạo các cặp Hỏi chéo
+      for (const s of forms) {
+        for (const t of forms) {
+          if (s === t) continue;
+          
+          // Tránh hỏi Base -> Teinei và ngược lại nếu muốn giới hạn (nhưng vì chỉ đưa Teinei 'special' vào mảng forms nên Base -> Teinei đặc biệt vẫn được hỏi, rất tốt!)
+          
+          // Lọc theo formSetting
+          if (formSetting !== 'all') {
+             // Nếu user chọn 1 form cụ thể, thì targetForm hoặc sourceForm phải liên quan
+             if (s !== formSetting && t !== formSetting) continue;
+          }
+
+          entries.push({ verb, sourceForm: s, targetForm: t });
+        }
+      }
     });
     setQueue(shuffle(entries));
     setIndex(0);
@@ -252,166 +281,171 @@ export default function KeigoFlashcards() {
     return () => window.removeEventListener('keydown', handler);
   }, [goNext, goPrev]);
 
-  const formOptions: { key: KeigoFormSetting; label: string; labelEn: string; color: string }[] = [
-    { key: 'all', label: '🎲 Tất cả', labelEn: '🎲 All', color: 'bg-slate-700 text-white' },
-    { key: 'sonkei', label: '👑 Tôn kính', labelEn: '👑 Sonkei', color: 'bg-violet-600 text-white' },
-    { key: 'kenjou', label: '🙏 Khiêm nhường', labelEn: '🙏 Kenjou', color: 'bg-blue-600 text-white' },
-    { key: 'teinei', label: '✨ Lịch sự', labelEn: '✨ Teinei', color: 'bg-emerald-600 text-white' },
-  ];
+  // Animation variants
+  const slideVariants = {
+    enter: (dir: number) => ({ x: dir > 0 ? 300 : -300, opacity: 0, scale: 0.9 }),
+    center: { x: 0, opacity: 1, scale: 1 },
+    exit: (dir: number) => ({ x: dir > 0 ? -300 : 300, opacity: 0, scale: 0.9 }),
+  };
+
+  if (queue.length === 0) return (
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center">
+      <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+    </div>
+  );
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors">
-      <div className="max-w-lg mx-auto px-4 py-6 flex flex-col gap-6">
-
-        {/* ── Header ── */}
-        <div className="flex items-center justify-between">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors overflow-hidden">
+      {/* ── HEADER ── */}
+      <header className="px-4 md:px-8 py-5 flex items-center justify-between border-b border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md sticky top-0 z-10">
+        <div className="flex items-center gap-4">
           <button
             onClick={() => navigate('/practice/keigo')}
-            className="group flex items-center gap-2 text-slate-500 hover:text-indigo-600 font-semibold transition-colors"
+            className="p-2 -ml-2 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white transition-colors rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"
           >
-            <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
-            <span className="text-sm">Quay lại</span>
+            <ArrowLeft size={20} />
           </button>
-
-          <button
-            onClick={() => setShowSettings(p => !p)}
-            className={`p-2 rounded-full border transition-colors ${showSettings
-              ? 'bg-indigo-100 dark:bg-indigo-900/40 border-indigo-300 dark:border-indigo-700 text-indigo-600 dark:text-indigo-400'
-              : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-500'
-            }`}
-          >
-            <Settings2 size={18} />
-          </button>
+          <div>
+            <h1 className="text-xl font-extrabold text-slate-800 dark:text-white">
+              {language === 'en' ? 'Keigo Flashcards' : 'Lật thẻ Kính Ngữ'}
+            </h1>
+            <p className="text-xs text-slate-500 font-medium">
+              {language === 'en' ? 'Cross-form Drills' : 'Hỏi chéo đa chiều'}
+            </p>
+          </div>
         </div>
 
-        {/* ── Title ── */}
-        <div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-800 dark:text-white flex items-center gap-2">
-            Keigo Flashcards <Crown size={24} className="text-yellow-400 fill-yellow-400" />
-          </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
-            {language === 'en'
-              ? 'Master honorific Japanese expressions'
-              : 'Luyện kính ngữ tiếng Nhật từ cơ bản đến nâng cao'}
-          </p>
-        </div>
+        <button
+          onClick={() => setShowSettings(!showSettings)}
+          className={`p-2.5 rounded-full transition-all ${
+            showSettings
+              ? 'bg-indigo-100 text-indigo-600 dark:bg-indigo-900/40 dark:text-indigo-400'
+              : 'text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800'
+          }`}
+        >
+          <Settings2 size={20} />
+        </button>
+      </header>
 
-        {/* ── Settings Panel ── */}
-        <AnimatePresence>
-          {showSettings && (
-            <motion.div
-              initial={{ opacity: 0, y: -10, height: 0 }}
-              animate={{ opacity: 1, y: 0, height: 'auto' }}
-              exit={{ opacity: 0, y: -10, height: 0 }}
-              className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm overflow-hidden"
-            >
-              <p className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3">
-                {language === 'en' ? 'Form Filter' : 'Lọc theo thể'}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {formOptions.map(opt => (
-                  <button
-                    key={opt.key}
-                    onClick={() => setFormSetting(opt.key)}
-                    className={`px-3 py-1.5 rounded-full text-xs font-bold border-2 transition-all ${
-                      formSetting === opt.key
-                        ? `${opt.color} border-transparent shadow-md scale-105`
-                        : 'bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-500 dark:text-slate-400'
-                    }`}
-                  >
-                    {language === 'en' ? opt.labelEn : opt.label}
-                  </button>
-                ))}
+      {/* ── SETTINGS PANEL ── */}
+      <AnimatePresence>
+        {showSettings && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            className="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 overflow-hidden shadow-sm z-0"
+          >
+            <div className="px-4 md:px-8 py-6">
+              <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-4 uppercase tracking-wider">
+                {language === 'en' ? 'Card Focus' : 'Tập trung học'}
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                {(['all', 'sonkei', 'kenjou', 'teinei'] as KeigoFormSetting[]).map(s => {
+                  const active = formSetting === s;
+                  const labels = {
+                    all: language === 'en' ? 'Mix All' : 'Trộn tất cả',
+                    sonkei: language === 'en' ? 'Sonkei' : 'Tôn kính',
+                    kenjou: language === 'en' ? 'Kenjou' : 'Khiêm nhường',
+                    teinei: language === 'en' ? 'Teinei (Special)' : 'Lịch sự (ĐB)',
+                  };
+                  return (
+                    <button
+                      key={s}
+                      onClick={() => setFormSetting(s)}
+                      className={`py-3 px-4 rounded-xl font-semibold text-sm transition-all border-2 ${
+                        active
+                          ? 'border-indigo-500 bg-indigo-50 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300'
+                          : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-600'
+                      }`}
+                    >
+                      {labels[s]}
+                    </button>
+                  );
+                })}
               </div>
-              <button
-                onClick={() => { buildQueue(); setShowSettings(false); }}
-                className="mt-3 w-full flex items-center justify-center gap-2 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl text-sm transition-colors"
-              >
-                <Shuffle size={14} />
-                {language === 'en' ? 'Shuffle & Restart' : 'Xáo trộn & Bắt đầu lại'}
-              </button>
-            </motion.div>
-          )}
-        </AnimatePresence>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
-        {/* ── Progress ── */}
-        {queue.length > 0 && (
-          <div className="flex items-center gap-3">
-            <span className="text-xs font-bold text-slate-400 dark:text-slate-500 w-12 text-right">
-              {index + 1}
-            </span>
-            <div className="flex-1 h-2 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
+      {/* ── MAIN STAGE ── */}
+      <main className="flex-1 flex flex-col items-center justify-center p-4 md:p-8 relative">
+        <div className="w-full max-w-md">
+          {/* Progress bar */}
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-xs font-bold text-slate-400 w-8 text-right">{index + 1}</span>
+            <div className="flex-1 h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
               <div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-500 ease-out"
+                className="h-full bg-indigo-500 transition-all duration-300 ease-out"
                 style={{ width: `${((index + 1) / queue.length) * 100}%` }}
               />
             </div>
-            <span className="text-xs font-bold text-slate-400 dark:text-slate-500 w-12">
-              {queue.length}
-            </span>
+            <span className="text-xs font-bold text-slate-400 w-8">{queue.length}</span>
           </div>
-        )}
 
-        {/* ── Card ── */}
-        {current ? (
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={`${current.verb.id}-${current.formKey}-${index}`}
-              initial={{ opacity: 0, x: direction * 60 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: direction * -60 }}
-              transition={{ duration: 0.25, ease: 'easeOut' }}
+          {/* Cards container */}
+          <div className="relative w-full" style={{ minHeight: '22rem' }}>
+            <AnimatePresence custom={direction} mode="popLayout">
+              <motion.div
+                key={index}
+                custom={direction}
+                variants={slideVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
+                transition={{ duration: 0.4, type: 'spring', bounce: 0.2 }}
+                className="absolute inset-0"
+              >
+                {current && (
+                  <KeigoCard
+                    entry={current}
+                    isFlipped={isFlipped}
+                    language={language as 'vi' | 'en'}
+                    onFlip={() => setIsFlipped(!isFlipped)}
+                  />
+                )}
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Controls */}
+          <div className="flex items-center justify-center gap-4 mt-10">
+            <button
+              onClick={goPrev}
+              className="w-14 h-14 flex items-center justify-center rounded-full bg-white dark:bg-slate-800 text-slate-500 hover:text-indigo-600 shadow-md border border-slate-100 dark:border-slate-700 transition-colors"
             >
-              <KeigoCard
-                verb={current.verb}
-                formKey={current.formKey}
-                isFlipped={isFlipped}
-                language={language as 'vi' | 'en'}
-                onFlip={() => setIsFlipped(p => !p)}
-              />
-            </motion.div>
-          </AnimatePresence>
-        ) : (
-          <div className="flex items-center justify-center h-64 text-slate-400">
-            Không có thẻ nào.
+              <ChevronLeft size={28} />
+            </button>
+
+            <button
+              onClick={() => setIsFlipped(!isFlipped)}
+              className="flex-1 max-w-[200px] py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold shadow-lg shadow-indigo-600/20 active:translate-y-1 transition-all"
+            >
+              {isFlipped
+                ? (language === 'en' ? 'Hide Answer' : 'Ẩn đáp án')
+                : (language === 'en' ? 'Show Answer' : 'Xem đáp án')}
+            </button>
+
+            <button
+              onClick={goNext}
+              className="w-14 h-14 flex items-center justify-center rounded-full bg-white dark:bg-slate-800 text-slate-500 hover:text-indigo-600 shadow-md border border-slate-100 dark:border-slate-700 transition-colors"
+            >
+              <ChevronRight size={28} />
+            </button>
           </div>
-        )}
-
-        {/* ── Navigation ── */}
-        <div className="flex items-center justify-between gap-4">
-          <button
-            onClick={goPrev}
-            className="flex-1 flex items-center justify-center gap-2 py-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-slate-600 dark:text-slate-300 font-semibold hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors shadow-sm"
-          >
-            <ChevronLeft size={20} />
-            {language === 'en' ? 'Prev' : 'Trước'}
-          </button>
-
-          <button
-            onClick={() => setIsFlipped(p => !p)}
-            className="flex-1 flex items-center justify-center gap-2 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-bold transition-colors shadow-md"
-          >
-            <RotateCcw size={18} />
-            {isFlipped
-              ? (language === 'en' ? 'Front' : 'Mặt trước')
-              : (language === 'en' ? 'Answer' : 'Đáp án')}
-          </button>
-
-          <button
-            onClick={goNext}
-            className="flex-1 flex items-center justify-center gap-2 py-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-slate-600 dark:text-slate-300 font-semibold hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors shadow-sm"
-          >
-            {language === 'en' ? 'Next' : 'Tiếp'}
-            <ChevronRight size={20} />
-          </button>
+          
+          <div className="flex justify-center mt-6">
+             <button
+              onClick={buildQueue}
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-sm font-semibold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors"
+            >
+              <Shuffle size={14} />
+              {language === 'en' ? 'Shuffle Deck' : 'Trộn lại thẻ'}
+            </button>
+          </div>
         </div>
-
-        {/* ── Keyboard hints ── */}
-        <p className="text-center text-xs text-slate-400 dark:text-slate-500">
-          <kbd className="px-1.5 py-0.5 bg-slate-100 dark:bg-slate-700 rounded text-xs">Space</kbd> {language === 'en' ? 'Flip' : 'Lật'} &nbsp;
-          <kbd className="px-1.5 py-0.5 bg-slate-100 dark:bg-slate-700 rounded text-xs">←</kbd> / <kbd className="px-1.5 py-0.5 bg-slate-100 dark:bg-slate-700 rounded text-xs">→</kbd> {language === 'en' ? 'Navigate' : 'Di chuyển'}
-        </p>
-      </div>
+      </main>
     </div>
   );
 }

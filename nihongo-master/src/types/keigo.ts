@@ -3,10 +3,15 @@
 export type KeigoPrefix = 'o' | 'go' | 'none';
 export type KeigoRuleType = 'rule' | 'special' | 'none';
 
+export interface KeigoWord {
+  word: string;
+  hiragana: string;
+}
+
 export interface KeigoForm {
   type: KeigoRuleType;
-  /** Nếu 'special': từ đặc biệt (VD: いらっしゃる). Nếu 'rule': null → tự sinh. */
-  word: string | null;
+  /** Nếu 'special': danh sách các từ đặc biệt. Nếu 'rule': danh sách rỗng (tự sinh). */
+  words: KeigoWord[];
 }
 
 export interface KeigoVerb {

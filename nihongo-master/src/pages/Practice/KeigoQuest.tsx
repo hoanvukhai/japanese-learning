@@ -1,133 +1,197 @@
-// src/pages/Practice/KeigoQuest.tsx
 import { useState, useCallback, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, Star, Zap, RefreshCw, Heart, X, Check } from 'lucide-react';
+import { ArrowLeft, Star, RefreshCw, Heart, X, Check, Lightbulb, Type } from 'lucide-react';
 import { keigoVerbs } from '../../data/keigoDb';
+import keigoN3Questions from '../../data/keigoQuestions.json';
 import type { KeigoVerb, KeigoFormKey } from '../../types/keigo';
-import { getKeigoResult, generateDistractors, buildRuleExplanation } from '../../lib/keigoEngine';
+import { getKeigoResult, generateDistractors } from '../../lib/keigoEngine';
 import { useSettings } from '../../context/global/useSettings';
-
-// ── CHARACTERS ────────────────────────────────────────────────
-const CHARS = {
-  boss:     { emoji:'👔', name:'Giám đốc Tanaka', nameEn:'Director Tanaka', role:'Cấp trên của bạn', roleEn:'Your superior', grad:'from-slate-600 to-slate-800 dark:from-slate-700 dark:to-slate-900' },
-  president:{ emoji:'🏛️', name:'Chủ tịch Suzuki', nameEn:'President Suzuki', role:'Lãnh đạo tập đoàn', roleEn:'Group president', grad:'from-amber-600 to-orange-800 dark:from-amber-700 dark:to-orange-900' },
-  customer: { emoji:'🧳', name:'Khách hàng Yamada', nameEn:'Client Yamada', role:'Khách hàng VIP', roleEn:'VIP client', grad:'from-indigo-600 to-blue-800 dark:from-indigo-700 dark:to-blue-900' },
-  senior:   { emoji:'👩‍💼', name:'Senpai Sato', nameEn:'Senior Sato', role:'Đồng nghiệp cấp cao', roleEn:'Senior colleague', grad:'from-violet-600 to-purple-800 dark:from-violet-700 dark:to-purple-900' },
-  sensei:   { emoji:'👨‍🏫', name:'Thầy Nakamura', nameEn:'Teacher Nakamura', role:'Giáo viên của bạn', roleEn:'Your teacher', grad:'from-teal-600 to-emerald-800 dark:from-teal-700 dark:to-emerald-900' },
-  doctor:   { emoji:'👨‍⚕️', name:'Bác sĩ Ito', nameEn:'Dr. Ito', role:'Bác sĩ trưởng khoa', roleEn:'Head physician', grad:'from-blue-600 to-cyan-800 dark:from-blue-700 dark:to-cyan-900' },
-  self:     { emoji:'🙋', name:'Bạn', nameEn:'You', role:'Nhân viên mới', roleEn:'New employee', grad:'from-emerald-600 to-teal-800 dark:from-emerald-700 dark:to-teal-900' },
-} as const;
-type CharKey = keyof typeof CHARS;
-
-// ── SCENARIO TEMPLATES ────────────────────────────────────────
-interface TmplDef { charKey: CharKey; formKey: KeigoFormKey; bg: string;
-  vi:(v:string,c:string)=>string; en:(v:string,c:string)=>string; }
-
-const TEMPLATES: TmplDef[] = [
-  // === SONKEI (上位者がする) ===
-  { charKey:'boss',     formKey:'sonkei', bg:'🏢',
-    vi:(v,c)=>`Trong cuộc họp sáng nay, ${c} đang ${v}. Bạn kể lại với đồng nghiệp bằng kính ngữ nào?`,
-    en:(v,c)=>`In this morning's meeting, ${c} is [${v}]. How do you report this to a colleague?` },
-  { charKey:'president',formKey:'sonkei', bg:'🏛️',
-    vi:(v,c)=>`${c} vừa ${v} xong. Thư ký cần thông báo với nhân viên. Dùng kính ngữ gì?`,
-    en:(v,c)=>`${c} just finished [${v}]. The secretary needs to announce it. Which honorific?` },
-  { charKey:'customer', formKey:'sonkei', bg:'☕',
-    vi:(v,c)=>`${c} đang ${v} tại phòng chờ. Bạn nói với sếp về tình huống này:`,
-    en:(v,c)=>`${c} is [${v}] in the waiting room. You're telling your boss about this:` },
-  { charKey:'senior',   formKey:'sonkei', bg:'🍱',
-    vi:(v,c)=>`${c} đang ${v} trong giờ nghỉ trưa. Bạn mô tả điều này trong email:`,
-    en:(v,c)=>`${c} is [${v}] during lunch break. You describe this in an email:` },
-  { charKey:'sensei',   formKey:'sonkei', bg:'📚',
-    vi:(v,c)=>`${c} đang ${v} bài kiểm tra. Bạn nói với phụ huynh học sinh:`,
-    en:(v,c)=>`${c} is [${v}] the exam. You tell the students' parents:` },
-  { charKey:'doctor',   formKey:'sonkei', bg:'🏥',
-    vi:(v,c)=>`${c} đang ${v}. Y tá thông báo cho bệnh nhân chờ bên ngoài:`,
-    en:(v,c)=>`${c} is [${v}]. The nurse announces this to waiting patients:` },
-  { charKey:'boss',     formKey:'sonkei', bg:'📊',
-    vi:(v,c)=>`${c} sẽ ${v} báo cáo vào chiều nay. Bạn nhắn tin cho đồng nghiệp:`,
-    en:(v,c)=>`${c} will [${v}] the report this afternoon. You text a colleague:` },
-  { charKey:'customer', formKey:'sonkei', bg:'🎁',
-    vi:(v,c)=>`${c} muốn ${v} sản phẩm của chúng tôi. Nhân viên ghi vào biên bản:`,
-    en:(v,c)=>`${c} wants to [${v}] our product. The staff records this in the minutes:` },
-
-  // === KENJOU (自分がする) ===
-  { charKey:'self',     formKey:'kenjou', bg:'📋',
-    vi:(_v,_c)=>`Bạn muốn nói với Giám đốc rằng BẠN sẽ ${_v}. Dùng thể khiêm nhường nào?`,
-    en:(_v,_c)=>`You want to tell the Director that YOU will [${_v}]. Which humble form?` },
-  { charKey:'self',     formKey:'kenjou', bg:'📞',
-    vi:(_v,_c)=>`Bạn điện thoại cho khách hàng và nói rằng bạn sẽ ${_v} cho họ:`,
-    en:(_v,_c)=>`You call the client and say you will [${_v}] for them:` },
-  { charKey:'self',     formKey:'kenjou', bg:'✉️',
-    vi:(_v,_c)=>`Trong email gửi sếp, bạn muốn xin phép ${_v}. Cách diễn đạt khiêm nhường là:`,
-    en:(_v,_c)=>`In an email to your boss, you want to ask permission to [${_v}]. The humble expression:` },
-  { charKey:'self',     formKey:'kenjou', bg:'🤝',
-    vi:(_v,_c)=>`Tại buổi gặp mặt khách hàng, bạn giới thiệu: "Tôi sẽ ${_v} cho quý vị."`,
-    en:(_v,_c)=>`At the client meeting, you introduce: "I will [${_v}] for you."` },
-  { charKey:'self',     formKey:'kenjou', bg:'🏢',
-    vi:(_v,_c)=>`Trong buổi phỏng vấn, bạn tự tin nói: "Tôi có thể ${_v} tốt cho công ty."`,
-    en:(_v,_c)=>`In the interview, you confidently say: "I can [${_v}] well for the company."` },
-  { charKey:'self',     formKey:'kenjou', bg:'📝',
-    vi:(_v,_c)=>`Bạn gặp chủ tịch lần đầu và muốn nói rằng bạn đã ${_v} trước khi đến:`,
-    en:(_v,_c)=>`Meeting the president for the first time, you say you already [${_v}] before coming:` },
-
-  // === TEINEI (丁寧語) ===
-  { charKey:'boss',     formKey:'teinei', bg:'🗣️',
-    vi:(v,c)=>`Bạn đang trình bày với ${c} về việc ${v}. Dùng thể lịch sự cơ bản:`,
-    en:(v,c)=>`You're presenting to ${c} about [${v}]. Use the basic polite form:` },
-  { charKey:'senior',   formKey:'teinei', bg:'☕',
-    vi:(v,c)=>`${c} hỏi bạn về kế hoạch ${v}. Bạn trả lời lịch sự:`,
-    en:(v,c)=>`${c} asks about your plan to [${v}]. You reply politely:` },
-  { charKey:'customer', formKey:'teinei', bg:'🏪',
-    vi:(v,c)=>`Nhân viên cửa hàng hỏi ${c} có muốn ${v} không. Câu hỏi lịch sự là gì?`,
-    en:(v,c)=>`The store clerk asks if ${c} wants to [${v}]. What is the polite question?` },
-  { charKey:'sensei',   formKey:'teinei', bg:'📖',
-    vi:(v,c)=>`${c} yêu cầu bạn ${v} bài tập. Bạn xác nhận lịch sự:`,
-    en:(v,c)=>`${c} asks you to [${v}] the assignment. You confirm politely:` },
-];
 
 // ── UTILS ─────────────────────────────────────────────────────
 const shuffle = <T,>(a: T[]): T[] => [...a].sort(() => Math.random() - 0.5);
 const LABELS = ['A', 'B', 'C', 'D'];
 const TOTAL = 15;
 
-interface Scenario { tmpl: TmplDef; verb: KeigoVerb; }
-interface Question { scenario: Scenario; correct: string; choices: string[]; correctIdx: number; exVi: string; exEn: string; }
+type FormType = 'base' | 'sonkei' | 'kenjou' | 'teinei';
 
-const buildScenarios = (): Scenario[] => {
-  const list: Scenario[] = [];
-  keigoVerbs.forEach(verb => {
-    TEMPLATES.forEach(tmpl => {
-      if (verb[tmpl.formKey].type === 'none') return;
-      list.push({ tmpl, verb });
-    });
-  });
-  return shuffle(list).slice(0, TOTAL);
+const FORM_NAMES = {
+  base: { vi: 'Từ gốc', en: 'Base verb' },
+  sonkei: { vi: 'Tôn kính ngữ', en: 'Honorific form' },
+  kenjou: { vi: 'Khiêm nhường ngữ', en: 'Humble form' },
+  teinei: { vi: 'Lịch sự ngữ', en: 'Polite form' }
 };
 
-const buildQ = (s: Scenario): Question => {
-  const correct = getKeigoResult(s.verb, s.tmpl.formKey);
-  const distractors = generateDistractors(s.verb, s.tmpl.formKey, 3);
-  // Fallback được xử lý hoàn toàn trong generateDistractors (cross-verb pool)
-  const choices = shuffle([correct, ...distractors.slice(0, 3)]);
-  const isSpecial = s.verb[s.tmpl.formKey].type === 'special';
+interface Question {
+  id: string;
+  isScenario: boolean;
+  questionTextVi: string;
+  questionTextEn: string;
+  hintVi?: string;
+  hintEn?: string;
+  correct: string;
+  choices: { text: string; furigana?: string }[];
+  correctIdx: number;
+  exVi: string;
+  exEn: string;
+  sentenceKanji?: string;
+  sentenceHiragana?: string;
+}
 
-  const buildEx = (lang: 'vi' | 'en') => {
-    if (isSpecial) {
-      return lang === 'vi'
-        ? `“${correct}” là dạng ĐẶC BIỆT của “${s.verb.kanji}” (${s.verb.meaning.vi}). Bắt buộc học thuộc!`
-        : `“${correct}” is the SPECIAL form of “${s.verb.kanji}” (${s.verb.meaning.en}). Must memorize!`;
+const getWordAndFurigana = (verb: KeigoVerb, form: FormType): { word: string, furigana?: string } => {
+  if (form === 'base') return { word: verb.kanji, furigana: verb.kanji !== verb.hiragana ? verb.hiragana : undefined };
+  const res = getKeigoResult(verb, form as KeigoFormKey, 'masu');
+  const txt = res[Math.floor(Math.random() * res.length)];
+  return { word: txt };
+};
+
+const buildQ = (): Question | null => {
+  const isScenario = Math.random() < 0.8; // 80% chance for scenario
+
+  if (isScenario) {
+    const qData = keigoN3Questions[Math.floor(Math.random() * keigoN3Questions.length)];
+    const correct = qData.correct_answer_text;
+
+    // Find the base verb to generate good distractors
+    const targetVerbBase = qData.target_verb.split(' / ')[0].trim();
+    const verbObj = keigoVerbs.find(v => v.kanji === targetVerbBase || v.jisho === targetVerbBase);
+
+    // Map the answer type to KeigoFormKey
+    let formKey: KeigoFormKey = 'sonkei';
+    if (qData.correct_answer_type.startsWith('kenjougo')) formKey = 'kenjou';
+    if (qData.correct_answer_type === 'teineigo') formKey = 'teinei';
+
+    let distractors: string[] = [];
+    if (verbObj) {
+      distractors = generateDistractors(verbObj, formKey, 3, 'masu');
+    } else {
+      // Fallback string-based distractors for verbs not in DB
+      const pool = new Set<string>();
+      if (correct.startsWith('お')) pool.add('ご' + correct.slice(1));
+      else if (correct.startsWith('ご')) pool.add('お' + correct.slice(1));
+
+      if (correct.endsWith('になります')) {
+        pool.add(correct.replace('になります', 'します'));
+        pool.add(correct.replace('になります', 'いたします'));
+      } else if (correct.endsWith('します')) {
+        pool.add(correct.replace('します', 'になります'));
+        pool.add(correct.replace('します', 'されます'));
+      } else if (correct.endsWith('いたします')) {
+        pool.add(correct.replace('いたします', 'になります'));
+      }
+
+      if (correct.startsWith('お') || correct.startsWith('ご')) {
+        const withoutPrefix = correct.slice(1);
+        if (correct.endsWith('になります')) pool.add(withoutPrefix.replace('になります', 'ます'));
+        else if (correct.endsWith('します')) pool.add(withoutPrefix.replace('します', 'ます'));
+        else if (correct.endsWith('いたします')) pool.add(withoutPrefix.replace('いたします', 'ます'));
+        else pool.add(withoutPrefix);
+      }
+
+      if (correct.endsWith('れます') || correct.endsWith('られます')) {
+        pool.add(correct.replace('れます', 'ます').replace('られます', 'ます'));
+      }
+      
+      distractors = Array.from(pool).filter(d => d !== correct && d.length > 0);
     }
-    const rule = buildRuleExplanation(s.tmpl.formKey, s.verb, lang);
-    return `“${correct}” — ${rule}`;
-  };
 
-  return {
-    scenario: s, correct, choices,
-    correctIdx: choices.indexOf(correct),
-    exVi: buildEx('vi'),
-    exEn: buildEx('en'),
-  };
+    // Ensure no exact duplicates in distractors
+    const uniqueDistractors = Array.from(new Set(distractors)).filter(d => d !== correct);
+    let attempts = 0;
+    while (uniqueDistractors.length < 3 && attempts < 50) {
+      attempts++;
+      const fallback = keigoVerbs[Math.floor(Math.random() * keigoVerbs.length)];
+      const res = getKeigoResult(fallback, formKey, 'masu');
+      if (res[0] !== '(なし)' && res[0] !== correct && !uniqueDistractors.includes(res[0])) {
+        uniqueDistractors.push(res[0]);
+      }
+    }
+
+    const choiceStrings = shuffle([correct, ...uniqueDistractors.slice(0, 3)]);
+
+    const hintVi = qData.speaker === 'self' 
+      ? 'Hành động của Bản thân / Phe mình ➔ Dùng Khiêm Nhường Ngữ' 
+      : 'Hành động của Đối phương / Bề trên ➔ Dùng Tôn Kính Ngữ';
+    const hintEn = qData.speaker === 'self' 
+      ? 'Action of yourself / In-group ➔ Use Humble Form' 
+      : 'Action of the other person / Superior ➔ Use Honorific Form';
+
+    const typeVi = qData.correct_answer_type === 'sonkeigo' ? 'Tôn kính ngữ' : qData.correct_answer_type === 'teineigo' ? 'Lịch sự ngữ' : 'Khiêm nhường ngữ';
+
+    return {
+      id: Math.random().toString(),
+      isScenario: true,
+      questionTextVi: qData.context_vi,
+      questionTextEn: qData.context_en,
+      sentenceKanji: qData.sentence_kanji,
+      sentenceHiragana: qData.sentence_hiragana,
+      hintVi,
+      hintEn,
+      correct,
+      choices: choiceStrings.map(c => ({ text: c })),
+      correctIdx: choiceStrings.indexOf(correct),
+      exVi: `“${correct}” là ${typeVi} phù hợp nhất.`,
+      exEn: `“${correct}” is the correct answer.`,
+    };
+
+  } else {
+    // Direct Cross-Form Question
+    const verb = keigoVerbs[Math.floor(Math.random() * keigoVerbs.length)];
+    const forms: FormType[] = ['base'];
+    if (verb.sonkei.type !== 'none') forms.push('sonkei');
+    if (verb.kenjou.type !== 'none') forms.push('kenjou');
+    if (verb.teinei.type === 'special') forms.push('teinei');
+
+    const validPairs = forms.length > 2 || (forms.length === 2 && !(forms.includes('base') && forms.includes('teinei')));
+    if (!validPairs) return null;
+
+    const source = forms[Math.floor(Math.random() * forms.length)];
+    let target = forms[Math.floor(Math.random() * forms.length)];
+    let loopCount = 0;
+    while ((target === source || (source === 'base' && target === 'teinei') || (source === 'teinei' && target === 'base')) && loopCount < 50) {
+      target = forms[Math.floor(Math.random() * forms.length)];
+      loopCount++;
+    }
+    if (loopCount >= 50) return null;
+
+    const srcObj = getWordAndFurigana(verb, source);
+    const tgtObj = getWordAndFurigana(verb, target);
+    if (!srcObj.word || !tgtObj.word || srcObj.word === '(なし)' || tgtObj.word === '(なし)') return null;
+
+    const correct = tgtObj.word;
+    let choiceStrings: string[] = [];
+
+    if (target === 'base') {
+      const crossPool = shuffle(keigoVerbs.filter(v => v.id !== verb.id)).slice(0, 3);
+      choiceStrings = shuffle([correct, ...crossPool.map(v => v.kanji)]);
+    } else {
+      const distractors = generateDistractors(verb, target as KeigoFormKey, 3, 'masu');
+      choiceStrings = shuffle([correct, ...distractors]);
+    }
+
+    return {
+      id: Math.random().toString(),
+      isScenario: false,
+      questionTextVi: `${FORM_NAMES[target].vi} của 【${srcObj.word}】 (${FORM_NAMES[source].vi}) là gì?`,
+      questionTextEn: `What is the ${FORM_NAMES[target].en} of 【${srcObj.word}】 (${FORM_NAMES[source].en})?`,
+      correct,
+      choices: choiceStrings.map(c => ({ text: c })),
+      correctIdx: choiceStrings.indexOf(correct),
+      exVi: `“${correct}” là ${FORM_NAMES[target].vi} chuẩn xác!`,
+      exEn: `“${correct}” is the correct ${FORM_NAMES[target].en}!`,
+    };
+  }
+};
+
+const buildScenarios = (): Question[] => {
+  const list: Question[] = [];
+  let attempts = 0;
+  while (list.length < TOTAL && attempts < 1000) {
+    attempts++;
+    const q = buildQ();
+    if (q) list.push(q);
+  }
+  return list;
 };
 
 // ── MAIN ──────────────────────────────────────────────────────
@@ -136,64 +200,67 @@ export default function KeigoQuest() {
   const { language } = useSettings();
   const lang = (language ?? 'vi') as 'vi' | 'en';
 
-  const [scenarios, setScenarios] = useState<Scenario[]>([]);
+  const [scenarios, setScenarios] = useState<Question[]>([]);
   const [qIdx, setQIdx] = useState(0);
   const [question, setQuestion] = useState<Question | null>(null);
+  
   const [selected, setSelected] = useState<number | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [showHint, setShowHint] = useState(false);
+  const [showFurigana, setShowFurigana] = useState(false);
+  
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [lives, setLives] = useState(3);
   const [isGameOver, setIsGameOver] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
-  const [charMood, setCharMood] = useState<'neutral'|'happy'|'sad'>('neutral');
 
   const init = useCallback(() => {
     const s = buildScenarios();
     setScenarios(s);
     setQIdx(0);
-    setQuestion(buildQ(s[0]));
-    setSelected(null); setIsCorrect(null);
+    setQuestion(s[0]);
+    setSelected(null); setIsCorrect(null); setShowHint(false);
     setScore(0); setStreak(0); setLives(3);
-    setIsGameOver(false); setIsFinished(false); setCharMood('neutral');
+    setIsGameOver(false); setIsFinished(false);
   }, []);
   useEffect(() => { init(); }, [init]);
 
   const handleSelect = (idx: number) => {
     if (selected !== null || !question) return;
     const ok = idx === question.correctIdx;
-    setSelected(idx); setIsCorrect(ok); setCharMood(ok ? 'happy' : 'sad');
-    if (ok) { setScore(s => s + 10 + streak * 2); setStreak(s => s + 1); }
-    else { setStreak(0); const nl = lives - 1; setLives(nl); if (nl <= 0) setIsGameOver(true); }
+    setSelected(idx); setIsCorrect(ok);
+    
+    if (ok) {
+      setScore(s => s + 10 + streak * 2);
+      setStreak(s => s + 1);
+    } else {
+      setStreak(0);
+      setLives(l => l - 1);
+    }
   };
 
   const handleNext = () => {
+    if (lives <= 0 && !isCorrect) {
+      setIsGameOver(true);
+      return;
+    }
     const ni = qIdx + 1;
     if (ni >= scenarios.length) { setIsFinished(true); return; }
-    setQIdx(ni); setQuestion(buildQ(scenarios[ni]));
-    setSelected(null); setIsCorrect(null); setCharMood('neutral');
+    setQIdx(ni);
+    setQuestion(scenarios[ni]);
+    setSelected(null); setIsCorrect(null); setShowHint(false);
   };
 
   if (!question) return null;
 
-  const { scenario, choices, correctIdx, exVi, exEn } = question;
-  const char = CHARS[scenario.tmpl.charKey];
-  const vMeaning = lang === 'en' ? scenario.verb.meaning.en : scenario.verb.meaning.vi;
-  const sitText = lang === 'en'
-    ? scenario.tmpl.en(vMeaning, char.nameEn)
-    : scenario.tmpl.vi(vMeaning, char.name);
-  const moodEmoji = charMood === 'happy' ? '😄' : charMood === 'sad' ? '😠' : char.emoji;
-  const formLabels: Record<KeigoFormKey,string> = {
-    sonkei: lang==='vi'?'尊敬語 Tôn kính':'尊敬語 Sonkei',
-    kenjou: lang==='vi'?'謙譲語 Khiêm nhường':'謙譲語 Kenjou',
-    teinei: lang==='vi'?'丁寧語 Lịch sự':'丁寧語 Teinei',
-  };
+  const { isScenario, choices, correctIdx, exVi, exEn, hintVi, hintEn } = question;
 
   // END SCREENS
   if (isGameOver || isFinished) {
     const won = isFinished && !isGameOver;
     return (
-      <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex items-center justify-center p-6 transition-colors">
+      <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex items-center justify-center p-6">
         <motion.div initial={{scale:0.8,opacity:0}} animate={{scale:1,opacity:1}}
           className="w-full max-w-sm bg-white dark:bg-slate-800 rounded-3xl p-8 text-center shadow-2xl border border-slate-200 dark:border-slate-700">
           <div className="text-6xl mb-4">{won?'🏆':'💀'}</div>
@@ -201,21 +268,11 @@ export default function KeigoQuest() {
             {won?(lang==='vi'?'Xuất sắc!':'Excellent!'):(lang==='vi'?'Game Over!':'Game Over!')}
           </h2>
           <p className="text-slate-500 dark:text-slate-400 mb-6">{lang==='vi'?`Điểm số: ${score}`:`Score: ${score}`}</p>
-          <div className="grid grid-cols-2 gap-3 mb-6">
-            <div className="bg-slate-100 dark:bg-slate-700 rounded-2xl p-3">
-              <div className="text-yellow-500 text-xl font-bold">{score}</div>
-              <div className="text-slate-500 dark:text-slate-400 text-xs">{lang==='vi'?'Điểm':'Score'}</div>
-            </div>
-            <div className="bg-slate-100 dark:bg-slate-700 rounded-2xl p-3">
-              <div className="text-emerald-500 text-xl font-bold">{qIdx}/{TOTAL}</div>
-              <div className="text-slate-500 dark:text-slate-400 text-xs">{lang==='vi'?'Câu':'Rounds'}</div>
-            </div>
-          </div>
           <div className="flex gap-3">
-            <button onClick={()=>navigate('/practice/keigo')} className="flex-1 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-white rounded-2xl font-semibold text-sm transition-colors">
+            <button onClick={()=>navigate('/practice/keigo')} className="flex-1 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 text-slate-700 dark:text-white rounded-2xl font-semibold">
               {lang==='vi'?'Quay lại':'Back'}
             </button>
-            <button onClick={init} className="flex-1 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-sm flex items-center justify-center gap-2 transition-colors">
+            <button onClick={init} className="flex-1 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold flex items-center justify-center gap-2">
               <RefreshCw size={16}/> {lang==='vi'?'Chơi lại':'Retry'}
             </button>
           </div>
@@ -225,11 +282,10 @@ export default function KeigoQuest() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex flex-col transition-colors">
-
+    <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex flex-col">
       {/* TOP BAR */}
       <div className="flex items-center justify-between px-4 pt-4 pb-2">
-        <button onClick={()=>navigate('/practice/keigo')} className="p-2 rounded-full bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white border border-slate-200 dark:border-slate-700 shadow-sm transition-colors">
+        <button onClick={()=>navigate('/practice/keigo')} className="p-2 rounded-full bg-white dark:bg-slate-800 text-slate-500 hover:text-slate-800 border border-slate-200 shadow-sm">
           <ArrowLeft size={18}/>
         </button>
         <div className="flex items-center gap-2">
@@ -238,16 +294,10 @@ export default function KeigoQuest() {
               <Heart key={i} size={18} className={i<lives?'text-red-400 fill-red-400':'text-slate-300 dark:text-slate-600'}/>
             ))}
           </div>
-          <div className="flex items-center gap-1 bg-yellow-50 dark:bg-yellow-400/10 border border-yellow-200 dark:border-yellow-400/30 rounded-full px-3 py-1">
+          <div className="flex items-center gap-1 bg-yellow-50 border border-yellow-200 rounded-full px-3 py-1">
             <Star size={13} className="text-yellow-500 fill-yellow-500"/>
-            <span className="text-yellow-600 dark:text-yellow-300 font-bold text-sm">{score}</span>
+            <span className="text-yellow-600 font-bold text-sm">{score}</span>
           </div>
-          {streak>1&&(
-            <div className="flex items-center gap-1 bg-orange-50 dark:bg-orange-400/10 border border-orange-200 dark:border-orange-400/30 rounded-full px-3 py-1 animate-pulse">
-              <Zap size={13} className="text-orange-500 fill-orange-500"/>
-              <span className="text-orange-600 dark:text-orange-300 font-bold text-sm">{streak}x</span>
-            </div>
-          )}
         </div>
       </div>
 
@@ -257,63 +307,69 @@ export default function KeigoQuest() {
           <div className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 transition-all duration-500 ease-out"
             style={{width:`${(qIdx/TOTAL)*100}%`}}/>
         </div>
-        <p className="text-slate-400 dark:text-slate-500 text-xs mt-1 text-right">{qIdx+1} / {TOTAL}</p>
       </div>
 
-      {/* SCENE CARD */}
-      <div className={`mx-4 rounded-2xl bg-gradient-to-br ${char.grad} p-5 mb-4 shadow-lg border border-black/10`}>
-        <div className="flex items-center gap-3 mb-4">
-          <motion.div key={charMood} animate={{scale:[1,1.2,1]}} transition={{duration:0.35}}
-            className="w-14 h-14 rounded-2xl bg-white/15 backdrop-blur flex items-center justify-center text-3xl border border-white/20 shadow shrink-0">
-            {moodEmoji}
-          </motion.div>
-          <div>
-            <p className="text-white font-bold text-sm leading-tight">{lang==='en'?char.nameEn:char.name}</p>
-            <p className="text-white/60 text-xs">{lang==='en'?char.roleEn:char.role}</p>
-            <span className="mt-1 inline-block text-[10px] font-bold px-2 py-0.5 rounded-full bg-white/20 text-white/90">
-              {scenario.tmpl.bg} {formLabels[scenario.tmpl.formKey]}
-            </span>
+      {/* QUESTION CARD */}
+      <div className="mx-4 rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-800 p-5 mb-4 shadow-lg">
+        <div className="flex items-center justify-between mb-4">
+          <span className="inline-block text-xs font-bold px-3 py-1 rounded-full bg-white/20 text-white">
+            {isScenario ? (lang==='vi' ? 'Nhập vai' : 'Roleplay') : (lang==='vi' ? 'Chuyển đổi' : 'Conversion')}
+          </span>
+          <div className="flex gap-2">
+            <button onClick={() => setShowFurigana(!showFurigana)} className={`p-1.5 rounded-full ${showFurigana ? 'bg-white text-indigo-600' : 'bg-white/20 text-white'}`}>
+              <Type size={16} />
+            </button>
+            {isScenario && (
+              <button onClick={() => setShowHint(true)} className="p-1.5 rounded-full bg-yellow-400 text-yellow-900 shadow-sm hover:scale-105 transition-transform">
+                <Lightbulb size={16} />
+              </button>
+            )}
           </div>
         </div>
-        <div className="bg-white/10 backdrop-blur rounded-xl p-3 border border-white/10 mb-3">
-          <p className="text-white text-sm leading-relaxed">{sitText}</p>
+
+        <div className="bg-white/10 backdrop-blur rounded-xl p-4 border border-white/10 mb-3 min-h-[100px] flex flex-col items-center justify-center text-center gap-3">
+          <p className="text-white text-lg font-medium leading-relaxed whitespace-pre-wrap">
+            {lang === 'en' ? question.questionTextEn : question.questionTextVi}
+          </p>
+          {(question.sentenceKanji || question.sentenceHiragana) && (
+            <p className="text-amber-100 text-xl font-bold tracking-wide border-t border-white/20 pt-3 w-full">
+              {showFurigana ? (question.sentenceHiragana || question.sentenceKanji) : (question.sentenceKanji || question.sentenceHiragana)}
+            </p>
+          )}
         </div>
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-white/50 text-xs">{lang==='vi'?'Từ gốc:':'Base:'}</span>
-          <span className="bg-white/20 text-white font-bold text-sm px-3 py-0.5 rounded-full border border-white/20">{scenario.verb.kanji}</span>
-          <span className="text-white/50 text-xs">({vMeaning})</span>
-        </div>
+
+        <AnimatePresence>
+          {showHint && hintVi && (
+            <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }}
+              className="bg-yellow-100 text-yellow-800 text-sm font-semibold rounded-lg p-3 text-center border border-yellow-300">
+              💡 {lang === 'en' ? hintEn : hintVi}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
       {/* CHOICES */}
       <div className="px-4 flex flex-col gap-2.5 flex-1">
-        <p className="text-slate-500 dark:text-slate-400 text-xs font-semibold uppercase tracking-wider">
-          {lang==='vi'?'Chọn đáp án đúng:':'Choose the correct answer:'}
-        </p>
         {choices.map((choice, i) => {
           let st: 'idle'|'correct'|'wrong'|'dim' = 'idle';
           if (selected!==null) st = i===correctIdx?'correct':i===selected?'wrong':'dim';
           const cls = {
-            idle: 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-600 text-slate-800 dark:text-white hover:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-slate-700',
-            correct: 'bg-emerald-50 dark:bg-emerald-900/30 border-emerald-400 text-emerald-800 dark:text-emerald-300',
-            wrong: 'bg-red-50 dark:bg-red-900/30 border-red-400 text-red-800 dark:text-red-300',
-            dim: 'bg-slate-50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 text-slate-400 dark:text-slate-500',
-          }[st];
-          const lblCls = {
-            idle: 'bg-slate-100 dark:bg-slate-700 border-slate-200 dark:border-slate-500 text-slate-500 dark:text-slate-300',
-            correct:'bg-emerald-500 border-emerald-500 text-white',
-            wrong:'bg-red-500 border-red-500 text-white',
-            dim:'bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-300 dark:text-slate-600',
+            idle: 'bg-white dark:bg-slate-800 border-slate-200 text-slate-800 dark:text-white',
+            correct: 'bg-emerald-50 border-emerald-400 text-emerald-800',
+            wrong: 'bg-red-50 border-red-400 text-red-800',
+            dim: 'bg-slate-50 border-slate-200 text-slate-400',
           }[st];
           return (
-            <motion.button key={i} initial={{opacity:0,x:-16}} animate={{opacity:1,x:0}} transition={{delay:i*0.06}}
-              disabled={selected!==null} onClick={()=>handleSelect(i)}
+            <button key={i} disabled={selected!==null} onClick={()=>handleSelect(i)}
               className={`w-full flex items-center gap-3 p-3.5 rounded-xl border-2 text-left font-medium transition-all shadow-sm ${cls}`}>
-              <span className={`w-7 h-7 shrink-0 rounded-lg flex items-center justify-center text-xs font-extrabold border-2 ${lblCls}`}>
-                {st==='correct'?<Check size={13}/>:st==='wrong'?<X size={13}/>:LABELS[i]}
+              <span className="w-7 h-7 shrink-0 rounded-lg flex items-center justify-center text-xs font-extrabold border-2 bg-slate-100 text-slate-500">
+                {LABELS[i]}
               </span>
-              <span className="text-lg leading-snug break-all">{choice}</span>
-            </motion.button>
+              <div className="flex flex-col">
+                <span className="text-lg leading-snug">{choice.text}</span>
+                {showFurigana && choice.furigana && <span className="text-xs text-slate-400">{choice.furigana}</span>}
+              </div>
+            </button>
           );
         })}
       </div>
@@ -322,23 +378,22 @@ export default function KeigoQuest() {
       <AnimatePresence>
         {selected!==null&&(
           <motion.div initial={{y:90,opacity:0}} animate={{y:0,opacity:1}} exit={{y:90,opacity:0}}
-            className={`fixed bottom-0 inset-x-0 rounded-t-3xl p-5 shadow-2xl border-t-2 z-50 ${isCorrect?'bg-emerald-50 dark:bg-emerald-900/90 border-emerald-400':'bg-red-50 dark:bg-red-900/90 border-red-400'}`}>
+            className={`fixed bottom-0 inset-x-0 rounded-t-3xl p-5 shadow-2xl border-t-2 z-50 ${isCorrect?'bg-emerald-50 border-emerald-400':'bg-red-50 border-red-400'}`}>
             <div className="flex gap-3 items-start mb-3">
               <div className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${isCorrect?'bg-emerald-500':'bg-red-500'}`}>
                 {isCorrect?<Check size={16} className="text-white"/>:<X size={16} className="text-white"/>}
               </div>
               <div>
-                <p className={`font-bold text-sm mb-1 ${isCorrect?'text-emerald-700 dark:text-emerald-300':'text-red-700 dark:text-red-300'}`}>
+                <p className={`font-bold text-sm mb-1 ${isCorrect?'text-emerald-700':'text-red-700'}`}>
                   {isCorrect?(lang==='vi'?'🎉 Chính xác!':'🎉 Correct!'):( lang==='vi'?'❌ Chưa đúng':'❌ Wrong')}
-                  {isCorrect&&streak>1&&<span className="ml-2 text-amber-600 dark:text-amber-400">🔥 {streak}x</span>}
                 </p>
-                <p className={`text-sm leading-relaxed ${isCorrect?'text-emerald-800 dark:text-emerald-200':'text-red-800 dark:text-red-200'}`}>
+                <p className={`text-sm leading-relaxed ${isCorrect?'text-emerald-800':'text-red-800'}`}>
                   ✅ {lang==='en'?exEn:exVi}
                 </p>
               </div>
             </div>
             <button onClick={handleNext}
-              className={`w-full py-3 rounded-2xl font-bold text-white text-base transition-colors ${isCorrect?'bg-emerald-500 hover:bg-emerald-400':'bg-red-500 hover:bg-red-400'}`}>
+              className={`w-full py-3 rounded-2xl font-bold text-white text-base ${isCorrect?'bg-emerald-500':'bg-red-500'}`}>
               {lang==='vi'?'Tiếp tục →':'Continue →'}
             </button>
           </motion.div>

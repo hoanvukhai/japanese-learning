@@ -4,10 +4,13 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Search, AlertTriangle, Gamepad2 } from 'lucide-react';
 import { useSettings } from '../../context/global/useSettings';
 import { keigoVerbs } from '../../data/keigoDb';
+import { keigoVocabList } from '../../data/keigoVocabDb';
+import { toMasuForm } from '../../lib/keigoEngine';
 
 export default function KeigoStudy() {
   const { language } = useSettings();
   const [searchTerm, setSearchTerm] = useState('');
+  const [showMasu, setShowMasu] = useState(true);
 
   // Lọc các từ có chứa từ khóa
   const filteredVerbs = keigoVerbs.filter(v => {
@@ -20,11 +23,38 @@ export default function KeigoStudy() {
       v.hiragana.includes(q) ||
       viMean.includes(q) ||
       enMean.includes(q) ||
-      (v.sonkei.word && v.sonkei.word.includes(q)) ||
-      (v.kenjou.word && v.kenjou.word.includes(q)) ||
-      (v.teinei.word && v.teinei.word.includes(q))
+      v.sonkei.words.some(w => w.word.includes(q) || w.hiragana.includes(q)) ||
+      v.kenjou.words.some(w => w.word.includes(q) || w.hiragana.includes(q)) ||
+      v.teinei.words.some(w => w.word.includes(q) || w.hiragana.includes(q))
     );
   });
+
+  // Filter polite vocab
+  const filteredVocab = keigoVocabList.filter(v => {
+    const q = searchTerm.toLowerCase();
+    return (
+      !q ||
+      v.normal.includes(q) ||
+      (v.normalHiragana && v.normalHiragana.includes(q)) ||
+      v.polite.includes(q) ||
+      (v.politeHiragana && v.politeHiragana.includes(q)) ||
+      v.meaning.vi.toLowerCase().includes(q)
+    );
+  });
+
+  const getTeineiTuple = (verb: typeof keigoVerbs[0]): [string, string] => {
+    if (verb.teinei.words.length > 0) return [verb.teinei.words[0].word, verb.teinei.words[0].hiragana];
+    if (verb.group === 2) return [verb.jisho.slice(0, -1) + 'ます', verb.hiragana.slice(0, -1) + 'ます'];
+    if (verb.jisho === '来る') return ['来ます', 'きます'];
+    if (verb.jisho === 'する') return ['します', 'します'];
+    const lastCharW = verb.jisho.slice(-1);
+    const lastCharH = verb.hiragana.slice(-1);
+    const uToI: Record<string, string> = { 'う': 'い', 'く': 'き', 'ぐ': 'ぎ', 'す': 'し', 'つ': 'ち', 'ぬ': 'に', 'ぶ': 'び', 'む': 'み', 'る': 'り' };
+    return [
+      verb.jisho.slice(0, -1) + (uToI[lastCharW] || '') + 'ます',
+      verb.hiragana.slice(0, -1) + (uToI[lastCharH] || '') + 'ます'
+    ];
+  };
 
   // Tách ra các từ bất quy tắc (để đưa vào bảng)
   const specialVerbs = filteredVerbs.filter(
@@ -43,8 +73,10 @@ export default function KeigoStudy() {
             <p className="text-slate-500 dark:text-slate-400">Hệ thống hóa Tôn kính ngữ, Lịch sự ngữ và Khiêm nhường ngữ.</p>
           </div>
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm shadow-sm">
-              {filteredVerbs.length} động từ kính ngữ
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 px-4 py-2 rounded-full font-medium text-sm shadow-sm flex items-center gap-2">
+              <span>{filteredVerbs.length} Động từ</span>
+              <span className="w-1 h-1 rounded-full bg-slate-300"></span>
+              <span>{filteredVocab.length} Từ vựng</span>
             </div>
             <Link
               to="/practice/keigo"
@@ -130,15 +162,27 @@ export default function KeigoStudy() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-4 gap-4">
             <h2 className="text-2xl font-bold text-slate-800 dark:text-white border-l-4 border-purple-500 pl-4">2. Bảng Kính ngữ Bất quy tắc</h2>
 
-            <div className="relative w-full md:w-64">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
-              <input
-                type="text"
-                placeholder="Tìm kiếm từ..."
-                value={searchTerm}
-                onChange={e => setSearchTerm(e.target.value)}
-                className="w-full pl-9 pr-4 py-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg outline-none focus:border-green-500 dark:text-white transition-colors text-sm shadow-sm"
-              />
+            <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
+              <label className="flex items-center gap-2 cursor-pointer text-sm font-bold text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-800 px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm shrink-0">
+                <input
+                  type="checkbox"
+                  checked={showMasu}
+                  onChange={(e) => setShowMasu(e.target.checked)}
+                  className="w-4 h-4 text-green-600 rounded border-slate-300 focus:ring-green-500"
+                />
+                Dạng Lịch sự (~ます)
+              </label>
+
+              <div className="relative w-full md:w-64">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm từ..."
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  className="w-full pl-9 pr-4 py-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg outline-none focus:border-green-500 dark:text-white transition-colors text-sm shadow-sm"
+                />
+              </div>
             </div>
           </div>
 
@@ -190,26 +234,70 @@ export default function KeigoStudy() {
                         {/* Cột Khiêm Nhường */}
                         <td className="py-4 px-6">
                           {verb.kenjou.type === 'special' ? (
-                            <div className="font-bold text-blue-600 dark:text-blue-400 text-lg">
-                              {verb.kenjou.word}
+                            <div className="font-bold text-blue-600 dark:text-blue-400 text-lg flex flex-col gap-1">
+                              {verb.kenjou.words.map((w, i) => {
+                                const displayWord = showMasu ? toMasuForm(w.word) : w.word;
+                                const displayHiragana = showMasu ? toMasuForm(w.hiragana) : w.hiragana;
+                                return (
+                                  <div key={i} className="flex flex-col">
+                                    <span>{displayWord}</span>
+                                    {displayWord !== displayHiragana && <span className="text-xs font-normal text-blue-400/80">{displayHiragana}</span>}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          ) : verb.kenjou.type === 'none' ? (
+                            <div className="text-sm text-slate-400 italic">
+                              (Không dùng)
                             </div>
                           ) : (
                             <div className="text-sm text-slate-400 italic">
-                              {verb.prefix === 'o' ? 'お' : verb.prefix === 'go' ? 'ご' : ''}~する
+                              {verb.prefix === 'o' ? 'お' : verb.prefix === 'go' ? 'ご' : ''}~{showMasu ? 'します' : 'する'}
                             </div>
                           )}
                         </td>
 
                         {/* Cột Lịch Sự */}
                         <td className="py-4 px-6 bg-slate-50/50 dark:bg-slate-900/20 font-medium text-slate-700 dark:text-slate-300">
-                          {verb.teinei.word || `${verb.jisho.slice(0, -1)}ます`}
+                          {verb.teinei.type === 'special' ? (
+                            <div className="font-bold text-slate-700 dark:text-slate-300 text-lg flex flex-col gap-1">
+                              {verb.teinei.words.map((w, i) => {
+                                const displayWord = showMasu ? toMasuForm(w.word) : w.word;
+                                const displayHiragana = showMasu ? toMasuForm(w.hiragana) : w.hiragana;
+                                return (
+                                  <div key={i} className="flex flex-col">
+                                    <span>{displayWord}</span>
+                                    {displayWord !== displayHiragana && <span className="text-xs font-normal text-slate-500">{displayHiragana}</span>}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          ) : (
+                            <div className="font-bold text-slate-700 dark:text-slate-300 text-lg flex flex-col gap-1">
+                              <div className="flex flex-col">
+                                <span>{getTeineiTuple(verb)[0]}</span>
+                                {getTeineiTuple(verb)[0] !== getTeineiTuple(verb)[1] && (
+                                  <span className="text-xs font-normal text-slate-500">{getTeineiTuple(verb)[1]}</span>
+                                )}
+                              </div>
+                            </div>
+                          )}
                         </td>
 
                         {/* Cột Tôn Kính */}
                         <td className="py-4 px-6">
                           {verb.sonkei.type === 'special' ? (
-                            <div className="font-bold text-rose-600 dark:text-rose-400 text-lg">
-                              {verb.sonkei.word}
+                            <div className="font-bold text-rose-600 dark:text-rose-400 text-lg flex flex-col gap-1">
+                              {verb.sonkei.words.map((w, i) => {
+                                const displayWord = showMasu ? toMasuForm(w.word) : w.word;
+                                const displayHiragana = showMasu ? toMasuForm(w.hiragana) : w.hiragana;
+                                return (
+                                  <div key={i} className="flex flex-col">
+                                    <span>{displayWord}</span>
+                                    {displayWord !== displayHiragana && <span className="text-xs font-normal text-rose-400/80">{displayHiragana}</span>}
+                                  </div>
+                                );
+                              })}
                             </div>
                           ) : verb.sonkei.type === 'none' ? (
                             <div className="text-sm text-slate-400 italic">
@@ -217,7 +305,7 @@ export default function KeigoStudy() {
                             </div>
                           ) : (
                             <div className="text-sm text-slate-400 italic">
-                              {verb.prefix === 'o' ? 'お' : verb.prefix === 'go' ? 'ご' : ''}~になる
+                              {verb.prefix === 'o' ? 'お' : verb.prefix === 'go' ? 'ご' : ''}~{showMasu ? 'になります' : 'になる'}
                             </div>
                           )}
                         </td>
@@ -227,6 +315,59 @@ export default function KeigoStudy() {
                     <tr>
                       <td colSpan={4} className="py-10 text-center text-slate-500">
                         Không tìm thấy từ bất quy tắc nào khớp với "{searchTerm}".
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Bảng Từ Vựng Lịch Sự */}
+        <section className="mt-12">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-4 gap-4">
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white border-l-4 border-amber-500 pl-4">3. Từ vựng Lịch sự (Teineigo / Bikago)</h2>
+          </div>
+
+          <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse min-w-[600px]">
+                <thead>
+                  <tr className="bg-slate-50 dark:bg-slate-900 text-slate-500 dark:text-slate-400 text-sm">
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/3">Ý Nghĩa</th>
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/3">Từ thông thường</th>
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/3 text-amber-600 dark:text-amber-500">Từ Lịch sự (Trang trọng)</th>
+                  </tr>
+                </thead>
+                <tbody className="text-slate-800 dark:text-slate-200">
+                  {filteredVocab.length > 0 ? (
+                    filteredVocab.map((vocab, idx) => (
+                      <tr
+                        key={vocab.id}
+                        className={`hover:bg-slate-50/80 dark:hover:bg-slate-800/80 transition-colors ${idx !== filteredVocab.length - 1 ? 'border-b border-slate-100 dark:border-slate-700/50' : ''}`}
+                      >
+                        <td className="py-4 px-6 font-medium text-slate-700 dark:text-white">
+                          {vocab.meaning[language as 'vi' | 'en'] || vocab.meaning.vi}
+                        </td>
+                        <td className="py-4 px-6">
+                          <div className="text-base text-slate-600 dark:text-slate-300">{vocab.normal}</div>
+                          {vocab.normalHiragana && vocab.normal !== vocab.normalHiragana && (
+                            <div className="text-xs text-slate-400">{vocab.normalHiragana}</div>
+                          )}
+                        </td>
+                        <td className="py-4 px-6">
+                          <div className="font-bold text-lg text-amber-600 dark:text-amber-500">{vocab.polite}</div>
+                          {vocab.politeHiragana && vocab.polite !== vocab.politeHiragana && (
+                            <div className="text-xs text-amber-500/70">{vocab.politeHiragana}</div>
+                          )}
+                        </td>
+                      </tr>
+                    ))
+                  ) : (
+                    <tr>
+                      <td colSpan={3} className="py-10 text-center text-slate-500">
+                        Không tìm thấy từ vựng nào khớp với "{searchTerm}".
                       </td>
                     </tr>
                   )}
