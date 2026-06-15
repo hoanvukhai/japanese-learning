@@ -7,6 +7,7 @@ import shortcuts from '../../../data/shortcuts.json';
 interface GrammarErrorProps {
   q: ErrorQ;
   showKana: boolean;
+  showTranslation: boolean;
   errorCorrect: boolean | null;
   onSelect: (choice: boolean, isCorrect: boolean) => void;
   blitzPaused: boolean;
@@ -15,6 +16,7 @@ interface GrammarErrorProps {
 export default function GrammarError({
   q,
   showKana,
+  showTranslation,
   errorCorrect,
   onSelect,
   blitzPaused,
@@ -64,6 +66,11 @@ export default function GrammarError({
         {showKana && q.kana && (
           <div className="text-sm text-slate-500 dark:text-slate-400 mt-3 font-mono">
             {q.kana}
+          </div>
+        )}
+        {showTranslation && q.translation && (
+          <div className="text-sm text-slate-500 dark:text-slate-400 mt-2.5 italic">
+            💬 {q.translation}
           </div>
         )}
       </div>

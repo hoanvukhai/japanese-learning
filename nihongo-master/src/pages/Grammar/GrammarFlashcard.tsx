@@ -6,7 +6,7 @@ import {
   ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown,
   CheckCircle2, AlertTriangle, Volume2, Eye, EyeOff, Repeat2,
 } from 'lucide-react';
-import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
+import { grammarN3Clean as grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
 import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 

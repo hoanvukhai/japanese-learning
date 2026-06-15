@@ -4,6 +4,17 @@ import { allN3Grammar as n3GrammarData } from './n3/grammar';
 // Export dữ liệu Grammar N3 (đã gộp từ các bài)
 export const grammarN3: GrammarItem[] = n3GrammarData;
 
+// Clean structure string by removing standard parenthetical annotations (e.g. (bù trừ))
+export const cleanStructure = (str: string): string => {
+  if (!str) return '';
+  return str.replace(/\s*\([^)]*\)/g, '').trim();
+};
+
+export const grammarN3Clean: GrammarItem[] = n3GrammarData.map(g => ({
+  ...g,
+  structure: cleanStructure(g.structure)
+}));
+
 // Helper: lấy danh sách bài học duy nhất (sắp xếp theo số bài)
 export const getN3GrammarLessons = (): string[] => {
   const lessons = grammarN3

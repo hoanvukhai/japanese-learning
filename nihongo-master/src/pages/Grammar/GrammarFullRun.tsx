@@ -96,6 +96,14 @@ export default function GrammarFullRun() {
     return () => clearTimeout(t);
   }, [started, level, timeLeft, done, blitzPaused]);
 
+  // Initialize settings on start based on level
+  useEffect(() => {
+    if (started) {
+      setShowKana(level === 'easy');
+      setShowTranslation(level === 'easy');
+    }
+  }, [started, level]);
+
   // QTimer Setup
   useEffect(() => {
     if (level === 'hard' && started && currentQ && !done) {
@@ -120,10 +128,8 @@ export default function GrammarFullRun() {
     setCountdown(null); setBlitzPaused(false); pendingAdvanceRef.current = null;
     forceTimeoutRef.current = false;
     setQTimeLeft(null);
-    setShowKana(level === 'easy');
-    setShowTranslation(level === 'easy');
     setHintUsed(false);
-  }, [level]);
+  }, []);
 
   const advance = useCallback((wasCorrect: boolean, addedCorrect = 1, customBaseScore?: number) => {
     // Collect Attempt record
@@ -364,7 +370,7 @@ export default function GrammarFullRun() {
               {currentStreak}
             </div>
           )}
-          {level === 'normal' && (
+          {level !== 'hard' && (
             <>
               <button onClick={() => setShowKana(k => !k)} className={`flex items-center gap-1 text-xs px-2 py-1 rounded-lg font-bold transition-colors ${showKana ? 'bg-indigo-100 dark:bg-indigo-900/40 text-indigo-600' : 'bg-slate-100 dark:bg-slate-700 text-slate-400'}`}>
                 {showKana ? <Eye size={11} /> : <EyeOff size={11} />} かな
@@ -434,6 +440,7 @@ export default function GrammarFullRun() {
               <GrammarError
                 q={currentQ as ErrorQ}
                 showKana={showKana}
+                showTranslation={showTranslation}
                 errorCorrect={errorCorrect}
                 onSelect={(choice, ok) => {
                   setErrorSelected(choice);

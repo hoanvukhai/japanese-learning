@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, RotateCcw, Eye, EyeOff } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
+import { grammarN3Clean as grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
 import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 
@@ -45,7 +45,17 @@ export default function GrammarMatching() {
   }, [selectedItems, filterType]);
 
   const initRound = () => {
-    const pool = shuffle(basePool).slice(0, 6);
+    const uniquePool: typeof basePool = [];
+    const seenStr = new Set<string>();
+    const shuffled = shuffle(basePool);
+    for (const g of shuffled) {
+      if (!seenStr.has(g.structure)) {
+        seenStr.add(g.structure);
+        uniquePool.push(g);
+        if (uniquePool.length === 6) break;
+      }
+    }
+    const pool = uniquePool.length >= Math.min(6, basePool.length) ? uniquePool : shuffled.slice(0, 6);
     if (mode === 'structure-meaning') {
       // LEFT: cấu trúc (kana = structureKana)
       setLefts(shuffle(pool.map(g => ({

@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Info, X } from 'lucide-react';
-import { grammarN3 } from '../../../data/grammarN3';
+import { grammarN3Clean as grammarN3 } from '../../../data/grammarN3';
 import {
   RANKS,
   LEVEL_EXP_THRESHOLDS,
@@ -352,7 +352,17 @@ export function buildQuestions(opts: { totalQ: number; language: string }): Unif
   // Matching
   {
     if (flatG.length >= 8) {
-      const mws = shuffle(flatG).slice(0, 8);
+      const uniqueMws: typeof flatG = [];
+      const seenStr = new Set<string>();
+      const shuffledG = shuffle(flatG);
+      for (const g of shuffledG) {
+        if (!seenStr.has(g.structure)) {
+          seenStr.add(g.structure);
+          uniqueMws.push(g);
+          if (uniqueMws.length === 8) break;
+        }
+      }
+      const mws = uniqueMws.length >= 8 ? uniqueMws : shuffledG.slice(0, 8);
       const pairs = mws.map(g => ({
         jp: g.structure,
         vi: getMeaning(g),

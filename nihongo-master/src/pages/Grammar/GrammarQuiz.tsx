@@ -3,7 +3,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, AlertTriangle, CheckCircle2, XCircle, Eye, EyeOff } from 'lucide-react';
-import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
+import { grammarN3Clean as grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
 import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 
