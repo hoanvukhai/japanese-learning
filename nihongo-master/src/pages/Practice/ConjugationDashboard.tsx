@@ -51,35 +51,35 @@ const ConjugationDashboard = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans transition-colors duration-300">
+    <div className="bg-slate-50 dark:bg-slate-900 px-4 py-6 md:px-8 md:py-8 font-sans transition-colors duration-300">
       <div className="max-w-4xl mx-auto">
-        <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
-          <div className="flex-1 text-center md:text-left">
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-4">
+        <header className="mb-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex-1">
+            <div className="flex flex-wrap items-center gap-3 mb-2">
               <button
                 onClick={() => navigate('/practice')}
-                className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
+                className="p-1.5 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
               >
-                <ArrowLeft size={20} />
+                <ArrowLeft size={18} />
               </button>
-              <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 text-sm font-bold rounded-full">
+              <span className="px-2.5 py-0.5 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 text-xs font-bold rounded-full">
                 JLPT N5-N3
               </span>
             </div>
-            <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-3">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-1">
               {t.title}
             </h1>
-            <p className="text-lg text-slate-500 dark:text-slate-400">
+            <p className="text-sm text-slate-500 dark:text-slate-400">
               {t.desc}
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2">
             <Link
               to="/study/conjugation"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold text-sm px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              <BookOpen size={16} />
+              <BookOpen size={14} />
               Học Chia Thể
             </Link>
           </div>

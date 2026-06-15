@@ -33,8 +33,6 @@ export default function GrammarQuiz() {
   const [selectedItems, setSelectedItems] = useState<string[]>([]); // [] = all
   const [direction, setDirection] = useState<'structure-meaning' | 'meaning-structure'>('structure-meaning');
   const [started, setStarted] = useState(false);
-  // Option: bật "bẫy nhầm lẫn" (ưu tiên confusedWith làm distractor)
-  const [useTrap, setUseTrap] = useState(true);
 
   const chipOptions = filterType === 'lesson' ? lessons : groups;
 
@@ -99,32 +97,7 @@ export default function GrammarQuiz() {
         ? (g.meaning[language as 'vi' | 'en'] || g.meaning.vi)
         : g.structure;
 
-    // ── Ưu tiên 1: confusedWith — bẫy JLPT chính xác theo data ──
-    const confusedAnswers: string[] = [];
-    if (current.group) {
-      // Tìm grammar item gốc để lấy confusedWith
-      const sourceItem = grammarN3.find(g => g.id === current.id);
-      if (sourceItem?.confusedWith) {
-        sourceItem.confusedWith.forEach(confusedStructure => {
-          // Tìm grammar item khớp với chuỗi confusedWith
-          const found = grammarN3.find(g =>
-            g.structure === confusedStructure ||
-            g.structure.includes(confusedStructure) ||
-            confusedStructure.includes(g.structure.replace('〜', ''))
-          );
-          if (found && found.id !== current.id) {
-            confusedAnswers.push(getAnswer(found));
-          } else if (direction === 'structure-meaning') {
-            // confusedWith là string cấu trúc — dùng trực tiếp làm distractor structure
-          } else {
-            // direction = meaning-structure: dùng confusedStructure trực tiếp
-            confusedAnswers.push(confusedStructure);
-          }
-        });
-      }
-    }
-
-    // ── Ưu tiên 2: cùng nhóm group ──
+    // ── Ưu tiên 1: cùng nhóm group ──
     const sameGroup = grammarN3
       .filter(g => g.group === current.group && g.id !== current.id)
       .map(getAnswer);
@@ -138,7 +111,7 @@ export default function GrammarQuiz() {
       .map(getAnswer);
 
     const deduplicated = Array.from(
-      new Set([...confusedAnswers, ...sameGroup, ...allAnswers, ...globalFallback])
+      new Set([...sameGroup, ...allAnswers, ...globalFallback])
     ).filter(ans => ans !== current.correctAnswer);
 
     const distractors = shuffle(deduplicated).slice(0, 3);
@@ -229,27 +202,7 @@ export default function GrammarQuiz() {
               </div>
             </div>
 
-            {/* BắY NHẠM LỬẠN toggle */}
-            <div
-              className={`flex items-start gap-3 rounded-xl p-4 border cursor-pointer transition-all ${
-                useTrap
-                  ? 'bg-sky-50 dark:bg-sky-900/20 border-sky-200 dark:border-sky-800/50'
-                  : 'bg-slate-50 dark:bg-slate-700/50 border-slate-200 dark:border-slate-600'
-              }`}
-              onClick={() => setUseTrap(v => !v)}
-            >
-              <div className={`w-4 h-4 rounded border-2 flex-shrink-0 mt-0.5 flex items-center justify-center ${
-                useTrap ? 'bg-sky-500 border-sky-500' : 'border-slate-300 dark:border-slate-600'
-              }`}>
-                {useTrap && <span className="text-white text-[10px] font-bold">✓</span>}
-              </div>
-              <div>
-                <div className="text-sm font-bold text-slate-700 dark:text-slate-200">🎯 Thêm bẫy nhầm lỬn</div>
-                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                  Ưu tiên dùng các mẫu được nhác đến trong confusedWith làm đáp án nhiễu — thực chiến JLPT!
-                </p>
-              </div>
-            </div>
+
 
             {/* Chip selector */}
             <GrammarLessonChips

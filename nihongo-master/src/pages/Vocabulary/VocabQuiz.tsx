@@ -49,7 +49,10 @@ export default function VocabQuiz() {
   const getMeaning = (w: Word) =>
     typeof w.meaning === 'object' ? w.meaning.vi : w.meaning;
 
-  const getKanjiDisplay = (w: Word) => w.alt_kanji ? `${w.kanji} (${w.alt_kanji})` : w.kanji;
+  const getKanjiDisplay = (w: Word) => {
+    const base = w.kanji || w.hiragana; // fallback to hiragana if kanji is empty
+    return w.alt_kanji ? `${base} (${w.alt_kanji})` : base;
+  };
 
   const handleSelect = useCallback((opt: Word) => {
     if (selected !== null) return;

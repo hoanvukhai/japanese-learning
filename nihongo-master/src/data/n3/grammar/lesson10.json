@@ -8,10 +8,11 @@
       "vi": "Tôn kính ngữ: Người trên làm... (nâng cao hành động của đối phương)",
       "en": "Honorific: [Superior] does... (elevating the listener's action)"
     },
-    "formation": ["お + V(bỏ ます) + になる"],
+    "formation": [
+      "お + V(bỏ ます) + になる"
+    ],
     "lesson": "Bài 10",
     "group": "Keigo",
-    "confusedWith": ["〜られる (tôn kính)", "お〜する (khiêm nhường)", "〜なさる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: TUYỆT ĐỐI KHÔNG dùng Tôn kính ngữ cho hành động của BẢN THÂN hoặc người nhà. Chỉ dùng để miêu tả hành động của cấp trên/khách hàng/giáo viên.",
       "en": "⚠️ JLPT Trap: NEVER use Honorific for your OWN actions or in-group members. Only describes actions of superiors/customers/teachers."
@@ -40,10 +41,11 @@
       "vi": "Tôn kính ngữ: Người trên làm... (cách tôn kính bằng thể bị động)",
       "en": "Honorific (via passive form): [Superior] does..."
     },
-    "formation": ["Nhóm 1: V + れる / Nhóm 2: V + られる / Nhóm 3: する → される, くる → こられる"],
+    "formation": [
+      "Nhóm 1: V + れる / Nhóm 2: V + られる / Nhóm 3: する → される, くる → こられる"
+    ],
     "lesson": "Bài 10",
     "group": "Keigo",
-    "confusedWith": ["お〜になる", "〜られる (bị động)", "〜られる (khả năng)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Cùng hình thức với bị động và khả năng! Phân biệt bằng ngữ cảnh. Tôn kính ngữ: Chủ ngữ là người trên, không có tác nhân gây ra hành động. Lịch sự hơn thể thường nhưng kém trang trọng hơn お〜になる.",
       "en": "⚠️ JLPT Trap: Same form as passive and potential! Distinguish by context. Honorific: Subject is superior, no agent causing the action. More polite than plain but less formal than お〜になる."
@@ -78,7 +80,6 @@
     ],
     "lesson": "Bài 10",
     "group": "Keigo",
-    "confusedWith": ["お〜になる (tôn kính)", "ご〜する", "〜いただく"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Khiêm nhường ngữ CHỈ ĐƯỢC DÙNG cho hành động của BẢN THÂN hoặc người nhà. Ngược lại hoàn toàn với Tôn kính ngữ. する→いたす (trang trọng hơn). Động từ gốc Hán dùng ご~ thay vì お~.",
       "en": "⚠️ JLPT Trap: Humble MUST ONLY be used for your OWN or in-group actions. Complete opposite of Honorific. する→いたす (more formal). Sino-Japanese verbs use ご~ instead of お~."
@@ -114,7 +115,6 @@
     ],
     "lesson": "Bài 10",
     "group": "Keigo",
-    "confusedWith": ["〜であります", "〜でおります", "お〜になる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Teinei-go là nền tảng của Kính ngữ, không phân chia vế trên/dưới khắt khe. ございます là dạng trang trọng của あります/です. Dùng trong công sở, dịch vụ khách hàng.",
       "en": "⚠️ JLPT Trap: Teinei-go is the foundation of Keigo, without strict upper/lower distinctions. ございます is the formal form of あります/です. Used in offices and customer service."

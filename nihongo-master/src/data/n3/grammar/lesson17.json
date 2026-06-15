@@ -8,10 +8,11 @@
       "vi": "Nghĩa là... / Cái gọi là... (định nghĩa một từ hoặc khái niệm)",
       "en": "Means... / The term... (defining a word or concept)"
     },
-    "formation": ["N + とは / というのは + 〜のことだ / 〜という意味だ"],
+    "formation": [
+      "N + とは / というのは + 〜のことだ / 〜という意味だ"
+    ],
     "lesson": "Bài 17",
     "group": "Hearsay_Quotation",
-    "confusedWith": ["〜ということだ", "〜って (văn nói)", "〜とは (ngạc nhiên)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dùng để giải thích ý nghĩa của từ vựng, thuật ngữ hoặc khái niệm. Vế sau thường đi với 「～のことだ」 hoặc 「～という意味だ」. Khác với とは (thể hiện ngạc nhiên: 'Ngờ đâu...').",
       "en": "⚠️ JLPT Trap: Explains the meaning of a vocabulary word, term or concept. Latter clause often ends with 「～のことだ」 or 「～という意味だ」. Different from とは (expressing surprise)."
@@ -40,10 +41,11 @@
       "vi": "Nghe nói là... / Theo như... (truyền đạt lại thông tin gián tiếp)",
       "en": "I heard that... / Apparently... (relaying information indirectly)"
     },
-    "formation": ["Thể thông thường + ということだ / とのことだ"],
+    "formation": [
+      "Thể thông thường + ということだ / とのことだ"
+    ],
     "lesson": "Bài 17",
     "group": "Hearsay_Quotation",
-    "confusedWith": ["〜ということだ (kết luận)", "〜そうだ (nghe nói)", "〜らしい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 1 (truyền đạt) — giống そうだ/らしい nhưng trang trọng hơn. とのことだ thường dùng để truyền đạt lại lời nhắn một cách lịch sự trong công sở.",
       "en": "⚠️ JLPT Trap: Meaning 1 (hearsay) — similar to そうだ/らしい but more formal. とのことだ often used to politely relay messages in professional settings."
@@ -72,10 +74,11 @@
       "vi": "Tức là... / Có nghĩa là... (tóm tắt, rút ra kết luận từ sự việc)",
       "en": "It means that... / In other words... (summarizing or drawing a conclusion)"
     },
-    "formation": ["Tình huống / Sự kiện + ということだ / ということになる"],
+    "formation": [
+      "Tình huống / Sự kiện + ということだ / ということになる"
+    ],
     "lesson": "Bài 17",
     "group": "Hearsay_Quotation",
-    "confusedWith": ["〜ということだ (nghe nói)", "〜わけだ", "〜つまり"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 2 (kết luận) — tóm tắt ý nghĩa của tình huống. 'A ということは B ということだ' = 'Nếu A thì có nghĩa là B'. Phân biệt với nghĩa truyền đạt thông tin.",
       "en": "⚠️ JLPT Trap: Meaning 2 (conclusion) — summarizing the meaning of a situation. 'A ということは B ということだ' = 'If A, it means B'. Distinguish from hearsay meaning."
@@ -104,10 +107,11 @@
       "vi": "Phải... / Không được... (quy tắc, nội quy, thông báo trong văn viết)",
       "en": "Must... / Must not... (written rules, notices, regulations)"
     },
-    "formation": ["Vる / Vない + こと"],
+    "formation": [
+      "Vる / Vない + こと"
+    ],
     "lesson": "Bài 17",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜ないこと", "〜べきだ", "〜てはいけない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ dùng trong VĂN VIẾT — bảng nội quy, thông báo, quy định. Luôn đứng cuối câu. Trang trọng hơn 〜てはいけない. Thường xuất hiện trong đề đọc hiểu.",
       "en": "⚠️ JLPT Trap: Only in WRITTEN language — rule boards, notices, regulations. Always at sentence end. More formal than 〜てはいけない. Frequently appears in reading comprehension."
@@ -141,7 +145,6 @@
     ],
     "lesson": "Bài 17",
     "group": "Contrast",
-    "confusedWith": ["〜ことはない (không cần)", "〜ことができない", "〜わけではない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phủ định của phủ định = khẳng định yếu. 'Có thể, nhưng tốn thời gian/có điều kiện' hoặc 'Không hoàn toàn từ chối'. Phân biệt với ことはない (không cần thiết phải làm).",
       "en": "⚠️ JLPT Trap: Double negative = weak affirmative. 'Can, but takes time/has conditions' or 'Not completely refusing'. Distinguish from ことはない (there's no need to do it)."
@@ -170,10 +173,11 @@
       "vi": "Không cần thiết phải... / Việc gì phải... (khuyên nhủ, động viên người khác)",
       "en": "There is no need to... / You don't have to... (advising or encouraging others)"
     },
-    "formation": ["Vる + ことはない"],
+    "formation": [
+      "Vる + ことはない"
+    ],
     "lesson": "Bài 17",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜ないことはない (phủ định yếu)", "〜なくてもいい", "〜する必要はない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dùng để khuyên nhủ/động viên người khác ('Bạn không cần lo'). TUYỆT ĐỐI KHÔNG dùng cho hành động của bản thân. Khác hoàn toàn với ないことはない (phủ định yếu).",
       "en": "⚠️ JLPT Trap: Used to advise/encourage OTHERS. NEVER for your own actions. Completely different from ないことはない (weak affirmative double negative)."
@@ -208,7 +212,6 @@
     ],
     "lesson": "Bài 17",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜ほうがいい", "〜なければならない", "〜べきではない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Lời khuyên mang tính đạo lý/trách nhiệm ('Ai cũng nghĩ thế'). Mạnh hơn ほうがいい. Tránh dùng trực tiếp với người lớn tuổi (nghe dạy đời). Ngoại lệ: する→すべき.",
       "en": "⚠️ JLPT Trap: Advice based on morality/duty (everyone agrees). Stronger than ほうがいい. Avoid using directly with elders (sounds preachy). Exception: する→すべき."

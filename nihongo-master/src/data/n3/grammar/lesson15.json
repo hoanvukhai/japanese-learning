@@ -8,10 +8,11 @@
       "vi": "Do... / Vì... (nguyên nhân gây ra kết quả)",
       "en": "Due to... / Caused by... (indicating cause)"
     },
-    "formation": ["N + によって / により"],
+    "formation": [
+      "N + によって / により"
+    ],
     "lesson": "Bài 15",
     "group": "Particles",
-    "confusedWith": ["〜によって (phương tiện)", "〜によって (tùy thuộc)", "〜によって (bị động)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đây là nghĩa 1 trong 4 nghĩa của によって (nguyên nhân). Thường đi với danh từ chỉ thảm họa, sự cố: 台風によって (do bão), 地震によって (do động đất). Dùng trong văn viết trang trọng.",
       "en": "⚠️ JLPT Trap: This is meaning 1 of 4 for によって (cause). Often with disaster/incident nouns: 台風によって (due to typhoon). Used in formal writing."
@@ -40,10 +41,11 @@
       "vi": "Bằng cách... / Thông qua... (phương tiện, phương pháp)",
       "en": "By means of... / Through... (indicating means or method)"
     },
-    "formation": ["N + によって / により"],
+    "formation": [
+      "N + によって / により"
+    ],
     "lesson": "Bài 15",
     "group": "Particles",
-    "confusedWith": ["〜によって (nguyên nhân)", "〜で (phương tiện)", "〜を通じて"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 2 — phương tiện/phương pháp. Thường đi với danh từ chỉ công cụ, kỹ thuật: インターネットによって, 努力によって. Trang trọng hơn で (phương tiện).",
       "en": "⚠️ JLPT Trap: Meaning 2 — means/method. Often with tool/technique nouns: インターネットによって, 努力によって. More formal than で (means)."
@@ -72,10 +74,11 @@
       "vi": "Tùy thuộc vào... / Tùy theo... (mỗi trường hợp một khác)",
       "en": "Depending on... / Varies by... (each case is different)"
     },
-    "formation": ["N + によって / により / によっては"],
+    "formation": [
+      "N + によって / により / によっては"
+    ],
     "lesson": "Bài 15",
     "group": "Particles",
-    "confusedWith": ["〜によって (nguyên nhân)", "〜次第で", "〜に応じて"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 3 — tùy thuộc. Vế sau thường chỉ sự thay đổi theo trường hợp (違う, 異なる, 変わる). によっては = 'tùy trường hợp, có thể...'.",
       "en": "⚠️ JLPT Trap: Meaning 3 — depending on. Latter clause usually indicates variation (違う, 異なる, 変わる). によっては = 'depending on the case, it's possible that...'."
@@ -104,10 +107,11 @@
       "vi": "Được... bởi... (trong câu bị động, chỉ tác nhân thực hiện hành động)",
       "en": "By... (in passive sentences, indicating the agent)"
     },
-    "formation": ["N(tác nhân) + によって + Vられる (bị động)"],
+    "formation": [
+      "N(tác nhân) + によって + Vられる (bị động)"
+    ],
     "lesson": "Bài 15",
     "group": "Particles",
-    "confusedWith": ["〜に (bị động - người)", "〜によって (nguyên nhân)", "〜で (phương tiện)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 4 — tác nhân trong câu bị động. Khác với に (bị động - hành vi trực tiếp lên người), によって thường dùng cho hành động sáng tạo, xây dựng (viết, vẽ, phát minh...) bởi người hoặc tổ chức.",
       "en": "⚠️ JLPT Trap: Meaning 4 — agent in passive sentence. Unlike に (direct action on person), によって is for creative/constructive actions (write, paint, invent...) by a person or organization."
@@ -142,7 +146,6 @@
     ],
     "lesson": "Bài 15",
     "group": "Particles",
-    "confusedWith": ["〜とは", "〜にとって", "〜として (giả định)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đi sau N chỉ người, lập trường, tư cách, tên gọi. Nhấn mạnh VAI TRÒ của đối tượng. Phân biệt: として(tư cách/vai trò), にとって(quan điểm/đánh giá).",
       "en": "⚠️ JLPT Trap: Follows N indicating person, position, capacity, title. Emphasizes ROLE. として=capacity/role, にとって=perspective/evaluation."
@@ -171,10 +174,11 @@
       "vi": "Cho dù... thì cũng... / Kể cả khi... (nhượng bộ)",
       "en": "Even if... / Even assuming that... (concession)"
     },
-    "formation": ["Thể thông thường + としても / にしても / にしろ / にせよ"],
+    "formation": [
+      "Thể thông thường + としても / にしても / にしろ / にせよ"
+    ],
     "lesson": "Bài 15",
     "group": "Contrast",
-    "confusedWith": ["〜ても", "〜たとしても", "〜としたら"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Thể hiện nhượng bộ — cho dù điều kiện vế trước có xảy ra thì vế sau cũng không bị ảnh hưởng. にしろ/にせよ trang trọng hơn, thường dùng trong văn viết.",
       "en": "⚠️ JLPT Trap: Expresses concession — even if the preceding condition happens, the latter clause holds. にしろ/にせよ more formal, used in writing."
@@ -203,10 +207,11 @@
       "vi": "Giả sử như... / Nếu như... (đưa ra giả định để suy luận hệ quả)",
       "en": "If it were the case that... / Assuming that... (hypothetical for logical deduction)"
     },
-    "formation": ["Thể thông thường + としたら / とすると / とすれば"],
+    "formation": [
+      "Thể thông thường + としたら / とすると / とすれば"
+    ],
     "lesson": "Bài 15",
     "group": "Inference",
-    "confusedWith": ["〜としても", "〜たら (điều kiện)", "〜なら"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đưa ra giả định (thường không có thật hoặc chưa chắc) rồi suy luận hệ quả. Khác với としても (nhượng bộ): としたら=suy luận từ giả định, としても=kể cả nếu vậy thì cũng không sao.",
       "en": "⚠️ JLPT Trap: States a hypothetical (often unreal or uncertain) then deduces the consequence. Vs. としても (concession): としたら=deduce from assumption, としても=even if that's the case, it's fine."

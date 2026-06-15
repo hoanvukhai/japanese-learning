@@ -53,13 +53,13 @@ export default function PracticeDashboard() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors p-6 md:p-12 font-sans">
+    <div className="bg-slate-50 dark:bg-slate-900 transition-colors px-4 py-6 md:px-8 md:py-8 font-sans">
       <div className="max-w-6xl mx-auto">
-        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-10 text-center md:text-left">
-          <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-3 transition-colors">
+        <motion.div initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }} className="mb-6">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-1 transition-colors">
             {lang === 'en' ? 'Practice Center' : 'Trung Tâm Luyện Tập'}
           </h1>
-          <p className="text-lg text-slate-500 dark:text-slate-400 transition-colors">
+          <p className="text-sm text-slate-500 dark:text-slate-400 transition-colors">
             {lang === 'en' ? 'Choose a skill to sharpen your reflexes every day.' : 'Chọn một kỹ năng để rèn luyện phản xạ mỗi ngày.'}
           </p>
         </motion.div>

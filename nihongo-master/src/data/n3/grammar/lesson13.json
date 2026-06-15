@@ -13,7 +13,6 @@
     ],
     "lesson": "Bài 13",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜ものか", "〜ないか", "〜てたまらない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Bộc lộ cảm xúc cực độ từ tận đáy lòng. LUÔN đi kèm từ để hỏi chỉ mức độ (どんなに, どれほど, 何度). Dùng trong văn viết và độc thoại, ít dùng trong hội thoại thông thường.",
       "en": "⚠️ JLPT Trap: Expresses extreme emotion from the heart. ALWAYS used with degree interrogatives (どんなに, どれほど, 何度). Used in writing and monologue, rarely in daily conversation."
@@ -47,7 +46,6 @@
     ],
     "lesson": "Bài 13",
     "group": "Contrast",
-    "confusedWith": ["〜のに対して", "〜反面", "〜ながら (đối lập)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: 2 mặt đối lập/song song của CÙNG MỘT sự vật. Khác với のに対して (2 SỰ VẬT KHÁC NHAU đối lập nhau). 一方で=cùng 1 thứ, のに対して=2 thứ khác nhau.",
       "en": "⚠️ JLPT Trap: 2 opposing/parallel aspects of THE SAME thing. vs. のに対して (2 DIFFERENT things contrasted). 一方で=same thing, のに対して=2 different things."
@@ -76,10 +74,11 @@
       "vi": "Lấy... làm trung tâm / Trọng tâm là...",
       "en": "Centered around... / Focusing on..."
     },
-    "formation": ["N + を中心に / を中心にして / を中心として"],
+    "formation": [
+      "N + を中心に / を中心にして / を中心として"
+    ],
     "lesson": "Bài 13",
     "group": "Particles",
-    "confusedWith": ["〜をめぐって", "〜について", "〜を中心として"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ ra một nhân vật, địa điểm, chủ đề làm CỐT LÕI, xung quanh đó các hành động/sự việc khác xoay quanh và lan rộng ra.",
       "en": "⚠️ JLPT Trap: Indicates a person, place, or topic as the CORE, around which other actions/events revolve and expand."
@@ -108,10 +107,11 @@
       "vi": "Chắc chắn là... / Không thể sai được (phán đoán tin tưởng 100%)",
       "en": "There is no doubt that... / Must be... (100% confident judgment)"
     },
-    "formation": ["Thể thông thường (N / A-な bỏ だ) + に違いない"],
+    "formation": [
+      "Thể thông thường (N / A-な bỏ だ) + に違いない"
+    ],
     "lesson": "Bài 13",
     "group": "Inference",
-    "confusedWith": ["〜はずだ", "〜だろう", "〜にきまっている"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phán đoán CHỦ QUAN với niềm tin 100%. Mạnh hơn はずだ (có căn cứ logic). Tương đương にきまっている. Cả hai đều không dùng dấu証拠 trực tiếp như ようだ.",
       "en": "⚠️ JLPT Trap: SUBJECTIVE judgment with 100% confidence. Stronger than はずだ (logical basis). Equivalent to にきまっている. Neither uses direct sensory evidence like ようだ."
@@ -140,10 +140,11 @@
       "vi": "Cùng với sự thay đổi của A... thì B cũng thay đổi theo (tỉ lệ thuận)",
       "en": "As A changes, B also changes / Along with..."
     },
-    "formation": ["Vる + に従って / に従い"],
+    "formation": [
+      "Vる + に従って / に従い"
+    ],
     "lesson": "Bài 13",
     "group": "StateTendency",
-    "confusedWith": ["〜につれて", "〜に伴って", "〜に従って (tuân theo)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 1 (biến đổi cùng) — giống につれて/に伴って. Phân biệt với Nghĩa 2 (tuân theo quy tắc). Khi vế trước là Vる, thường là nghĩa 1. Khi vế trước là N (quy tắc, chỉ thị), thường là nghĩa 2.",
       "en": "⚠️ JLPT Trap: Meaning 1 (change together) — similar to につれて/に伴って. Vs. Meaning 2 (follow rules). When preceding is Vる, usually meaning 1. When preceding is N (rules, instructions), usually meaning 2."
@@ -172,10 +173,11 @@
       "vi": "Tuân theo... / Làm theo... (quy tắc, chỉ thị, pháp luật)",
       "en": "In accordance with... / Following... (rules, instructions, laws)"
     },
-    "formation": ["N(quy tắc/chỉ thị) + に従って / に従い"],
+    "formation": [
+      "N(quy tắc/chỉ thị) + に従って / に従い"
+    ],
     "lesson": "Bài 13",
     "group": "StateTendency",
-    "confusedWith": ["〜に従って (biến đổi)", "〜に基づいて", "〜通りに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 2 — làm theo quy tắc/chỉ thị. Vế trước là N chỉ quy tắc, lệnh, pháp luật. Giống に基づいて nhưng に従って nhấn mạnh hành động tuân thủ hơn.",
       "en": "⚠️ JLPT Trap: Meaning 2 — following rules/instructions. Preceding is N indicating rules, commands, or laws. Similar to に基づいて but に従って emphasizes the act of compliance."

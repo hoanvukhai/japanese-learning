@@ -8,10 +8,11 @@
       "vi": "Hơi... / Có vẻ... (trạng thái tiêu cực tạm thời ở hiện tại)",
       "en": "Feeling slightly... / Looking a bit... (negative state at present moment)"
     },
-    "formation": ["N / V(bỏ ます) + ぎみ"],
+    "formation": [
+      "N / V(bỏ ます) + ぎみ"
+    ],
     "lesson": "Bài 8",
     "group": "StateTendency",
-    "confusedWith": ["〜がち", "〜っぽい", "〜そうだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ trạng thái sinh lý/tâm lý TIÊU CỰC, hơi/tạm thời (風邪ぎみ-hơi cảm, 疲れぎみ-hơi mệt, 遅れぎみ-hơi trễ). Khác với がち (thói quen lặp nhiều lần). ぎみ=HIỆN TẠI, がち=THƯỜNG XUYÊN.",
       "en": "⚠️ JLPT Trap: Only for NEGATIVE physiological/psychological states, slightly/temporarily (slightly sick, tired, late). Vs. がち (repeated habit). ぎみ=CURRENT STATE, がち=FREQUENT HABIT."
@@ -40,10 +41,11 @@
       "vi": "Thường hay... / Dễ bị... (thói quen tiêu cực lặp đi lặp lại)",
       "en": "Tend to... / Prone to... (negative repeated tendency)"
     },
-    "formation": ["N / V(bỏ ます) + がち"],
+    "formation": [
+      "N / V(bỏ ます) + がち"
+    ],
     "lesson": "Bài 8",
     "group": "StateTendency",
-    "confusedWith": ["〜ぎみ", "〜っぽい", "〜やすい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Hay nhầm với ぎみ. がち=TẦN SUẤT, THÓI QUEN xấu lặp nhiều lần (忘れがち-hay quên, 休みがち-hay nghỉ). ぎみ=trạng thái hiện tại. Cả hai đều chỉ điều tiêu cực.",
       "en": "⚠️ JLPT Trap: Often confused with ぎみ. がち=FREQUENCY, bad HABIT repeated often (tend to forget, tend to be absent). ぎみ=current state. Both indicate negatives."
@@ -79,7 +81,6 @@
     ],
     "lesson": "Bài 8",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜てしかたがない", "〜てならない", "〜てしょうがない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chủ ngữ thường là ngôi thứ nhất. Diễn tả cảm giác/cảm xúc bùng phát đến mức không kiềm chế được. Tất cả 3 cách nói (たまらない, しかたがない, ならない) gần đồng nghĩa nhưng たまらない nhấn mạnh nhất.",
       "en": "⚠️ JLPT Trap: Subject is usually 1st person. Expresses a feeling that bursts out uncontrollably. All 3 forms (たまらない, しかたがない, ならない) are near-synonyms but たまらない is the strongest."
@@ -108,10 +109,11 @@
       "vi": "Phù hợp với... (bản chất tự nhiên đã phù hợp với đối tượng đó)",
       "en": "Naturally suitable for... / Well-suited to... (inherently fitting)"
     },
-    "formation": ["N + 向き / 向きだ / 向きの + N"],
+    "formation": [
+      "N + 向き / 向きだ / 向きの + N"
+    ],
     "lesson": "Bài 8",
     "group": "StateTendency",
-    "confusedWith": ["〜向け", "〜にふさわしい", "〜に合う"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: 向き (Muki) = bản chất TỰ NHIÊN nó đã phù hợp (không cần ai thiết kế). Khác 向け (Muke) = được CON NGƯỜI CỐ Ý thiết kế/tạo ra cho đối tượng đó. Đây là bẫy kinh điển.",
       "en": "⚠️ JLPT Trap: 向き (Muki) = NATURALLY suitable (no one designed it that way). Different from 向け (Muke) = INTENTIONALLY designed/made for that target. Classic JLPT trap."
@@ -140,10 +142,11 @@
       "vi": "Dành cho... (được con người cố ý tạo ra/thiết kế riêng cho đối tượng)",
       "en": "Intended for... / Designed for... (intentionally created for a target)"
     },
-    "formation": ["N + 向け / 向けの + N / 向けに"],
+    "formation": [
+      "N + 向け / 向けの + N / 向けに"
+    ],
     "lesson": "Bài 8",
     "group": "StateTendency",
-    "confusedWith": ["〜向き", "〜のために", "〜用"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: 向け (Muke) = CON NGƯỜI CỐ TÌNH thiết kế/tạo ra cho đối tượng cụ thể. Phân biệt với 向き (bản chất tự nhiên). 外国人向け (thiết kế riêng cho người nước ngoài) vs 外国人向き (bản chất phù hợp).",
       "en": "⚠️ JLPT Trap: 向け (Muke) = INTENTIONALLY designed/made for a target. Vs. 向き (naturally fitting). 外国人向け (designed for foreigners) vs 外国人向き (naturally suited)."

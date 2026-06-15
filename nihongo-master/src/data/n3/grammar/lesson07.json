@@ -8,10 +8,11 @@
       "vi": "Những thứ như... / Chẳng hạn như... (đưa ra ví dụ, trang trọng hơn なんか)",
       "en": "Things like... / Such as... (giving examples, more formal)"
     },
-    "formation": ["N + など / など + を/が/は..."],
+    "formation": [
+      "N + など / など + を/が/は..."
+    ],
     "lesson": "Bài 7",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜なんか", "〜なんて", "〜とか"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: など là trung tính/trang trọng, dùng được cả văn viết và văn nói. なんか/なんて mang sắc thái xem nhẹ/khinh thường hoặc khiêm tốn, chỉ dùng văn nói.",
       "en": "⚠️ JLPT Trap: など is neutral/formal, used in writing and speech. なんか/なんて carry contemptuous or humble nuance, casual speech only."
@@ -40,10 +41,11 @@
       "vi": "Cỡ như... / Những thứ như... (xem nhẹ người/vật, hoặc tự khiêm tốn, văn nói)",
       "en": "Something like... / The likes of... (belittling or humble, casual speech)"
     },
-    "formation": ["N + なんか / なんて"],
+    "formation": [
+      "N + なんか / なんて"
+    ],
     "lesson": "Bài 7",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜など", "〜とか"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: なんか/なんて mang 2 sắc thái: (1) Xem nhẹ/khinh thường người/vật khác ('Cỡ như trò chơi đó...'), (2) Tự khiêm tốn ('Cỡ như tôi...'). CHỈ dùng trong văn nói thân mật.",
       "en": "⚠️ JLPT Trap: 2 nuances: (1) Belittling/contempt toward others ('The likes of that game...'), (2) Self-humility ('Someone like me...'). ONLY casual spoken language."
@@ -72,10 +74,11 @@
       "vi": "Đến mức... / Đến độ... (chỉ mức độ rất cao của một trạng thái)",
       "en": "To the extent that... / So... that... (indicating a very high degree)"
     },
-    "formation": ["Vる / Thể thông thường + くらい / ぐらい"],
+    "formation": [
+      "Vる / Thể thông thường + くらい / ぐらい"
+    ],
     "lesson": "Bài 7",
     "group": "Comparison_Degree",
-    "confusedWith": ["〜ほど", "〜くらい (lượng)", "〜ばかり"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: くらい/ぐらい có 2 dùng: (1) Mức độ rất cao ('Đau đến muốn khóc'), (2) Lượng xấp xỉ ('khoảng 3 người'). Bài này tập trung nghĩa (1) — mức độ cảm xúc.",
       "en": "⚠️ JLPT Trap: くらい/ぐらい has 2 uses: (1) Very high degree ('So painful I want to cry'), (2) Approximate amount ('about 3 people'). This focuses on meaning (1)."
@@ -104,10 +107,11 @@
       "vi": "Ít nhất là... (mức tối thiểu, thậm chí cái đó cũng nên được)",
       "en": "At least... (minimum expected level)"
     },
-    "formation": ["N + くらい + は + Vる/できる"],
+    "formation": [
+      "N + くらい + は + Vる/できる"
+    ],
     "lesson": "Bài 7",
     "group": "Comparison_Degree",
-    "confusedWith": ["〜ほど", "〜だけ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dùng để chỉ việc tối thiểu nhất, dễ nhất mà người nói cho rằng đáng lẽ phải làm được hoặc phải chấp nhận được.",
       "en": "⚠️ JLPT Trap: Used to indicate the absolute minimum that the speaker thinks should be achievable or acceptable."
@@ -136,10 +140,11 @@
       "vi": "Đến mức... / Tới độ... (mức độ rất cao)",
       "en": "To the extent that... / So... that... (very high degree)"
     },
-    "formation": ["N / Vる / Vない + ほど"],
+    "formation": [
+      "N / Vる / Vない + ほど"
+    ],
     "lesson": "Bài 7",
     "group": "Comparison_Degree",
-    "confusedWith": ["〜くらい", "〜ほど〜ない", "〜ば〜ほど"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Khi dùng ở thể khẳng định → chỉ mức độ RẤT CAO ('Mệt đến mức muốn ngã'). Mang sắc thái văn viết hơn くらい.",
       "en": "⚠️ JLPT Trap: Affirmative → very high degree ('So tired I could collapse'). Slightly more literary than くらい."
@@ -168,10 +173,11 @@
       "vi": "Không... bằng... / A không bằng B",
       "en": "Not as... as... / A is not as [quality] as B"
     },
-    "formation": ["A は B ほど + Adj / V + ない"],
+    "formation": [
+      "A は B ほど + Adj / V + ない"
+    ],
     "lesson": "Bài 7",
     "group": "Comparison_Degree",
-    "confusedWith": ["〜より〜だ", "〜ほど (mức độ)", "〜ほど〜ほど"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: So sánh 'A không bằng B'. Phân biệt với 「AはBより〜だ」 (A hơn B). Trong câu 「AはBほど〜ない」, B là chuẩn, A bị so sánh với B.",
       "en": "⚠️ JLPT Trap: Comparison 'A is not as [adj] as B'. Distinguish from 「AはBより〜だ」 (A is more than B). In 「AはBほど〜ない」, B is the standard, A is compared to B."
@@ -207,7 +213,6 @@
     ],
     "lesson": "Bài 7",
     "group": "Comparison_Degree",
-    "confusedWith": ["〜につれて", "〜にしたがって", "〜ほど"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Động từ/tính từ trước và sau ほど PHẢI LÀ CÙNG MỘT TỪ. A tăng → B tăng theo tỉ lệ thuận. Đây là mẫu cố định, không được thay từ.",
       "en": "⚠️ JLPT Trap: The verb/adjective before and after ほど MUST be THE SAME WORD. As A increases → B increases proportionally. This is a fixed pattern."

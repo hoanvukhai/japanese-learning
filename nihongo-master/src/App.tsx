@@ -31,6 +31,7 @@ import VocabQuiz from './pages/Vocabulary/VocabQuiz';
 import VocabMatching from './pages/Vocabulary/VocabMatching';
 import VocabTyping from './pages/Vocabulary/VocabTyping';
 import VocabErrorDetect from './pages/Vocabulary/VocabErrorDetect';
+import VocabFullRun from './pages/Vocabulary/VocabFullRun';
 
 // Kanji
 import KanjiStudy from './pages/Kanji/KanjiStudy';
@@ -40,13 +41,14 @@ import KanjiQuiz from './pages/Kanji/KanjiQuiz';
 import KanjiMatching from './pages/Kanji/KanjiMatching';
 import KanjiTyping from './pages/Kanji/KanjiTyping';
 import KanjiErrorDetect from './pages/Kanji/KanjiErrorDetect';
+import KanjiFullRun from './pages/Kanji/KanjiFullRun';
 
 // Grammar
 import GrammarStudy from './pages/Grammar/GrammarStudy';
 import GrammarDashboard from './pages/Grammar/GrammarDashboard';
 import GrammarFlashcard from './pages/Grammar/GrammarFlashcard';
 import GrammarQuiz from './pages/Grammar/GrammarQuiz';
-import GrammarWordOrder from './pages/Grammar/GrammarWordOrder';
+import GrammarFullRun from './pages/Grammar/GrammarFullRun';
 import GrammarMatching from './pages/Grammar/GrammarMatching';
 import GrammarFillBlank from './pages/Grammar/GrammarFillBlank';
 import GrammarErrorDetect from './pages/Grammar/GrammarErrorDetect';
@@ -58,9 +60,9 @@ export default function App() {
       <FlashcardSettingsProvider>
         <BrowserRouter>
           <ScrollToTop />
-          <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors duration-300 font-sans">
+          <div className="flex flex-col min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors duration-300 font-sans">
             <Navbar />
-            <main className="pb-12">
+            <main className="flex-1">
               <Routes>
                 {/* === CORE === */}
                 <Route path="/" element={<Home />} />
@@ -95,6 +97,7 @@ export default function App() {
                 <Route path="/practice/vocabulary/matching" element={<VocabMatching />} />
                 <Route path="/practice/vocabulary/typing" element={<VocabTyping />} />
                 <Route path="/practice/vocabulary/errordetect" element={<VocabErrorDetect />} />
+                <Route path="/practice/vocabulary/fullrun" element={<VocabFullRun />} />
 
                 {/* Kanji */}
                 <Route path="/practice/kanji" element={<KanjiDashboard />} />
@@ -103,13 +106,14 @@ export default function App() {
                 <Route path="/practice/kanji/matching" element={<KanjiMatching />} />
                 <Route path="/practice/kanji/typing" element={<KanjiTyping />} />
                 <Route path="/practice/kanji/errordetect" element={<KanjiErrorDetect />} />
+                <Route path="/practice/kanji/fullrun" element={<KanjiFullRun />} />
 
                 {/* Grammar */}
                 <Route path="/practice/grammar" element={<GrammarDashboard />} />
                 <Route path="/practice/grammar/flashcard" element={<GrammarFlashcard />} />
                 <Route path="/practice/grammar/quiz" element={<GrammarQuiz />} />
                 <Route path="/practice/grammar/matching" element={<GrammarMatching />} />
-                <Route path="/practice/grammar/wordorder" element={<GrammarWordOrder />} />
+                <Route path="/practice/grammar/fullrun" element={<GrammarFullRun />} />
                 <Route path="/practice/grammar/fillblank" element={<GrammarFillBlank />} />
                 <Route path="/practice/grammar/errordetect" element={<GrammarErrorDetect />} />
               </Routes>

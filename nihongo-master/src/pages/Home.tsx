@@ -59,7 +59,7 @@ export default function Home() {
   const t = translations[language as keyof typeof translations] || translations.vi;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[85vh] px-4 md:px-8 py-12">
+    <div className="flex flex-col items-center justify-center px-4 md:px-8 py-10 md:py-16">
       <div className="max-w-5xl mx-auto text-center">
         <motion.h1 
           initial={{ opacity: 0, y: -20 }}

@@ -8,10 +8,11 @@
       "vi": "Quyết định (tạo thành thói quen cho bản thân, đang duy trì)",
       "en": "Make it a rule to... / Have decided to... (ongoing habit)"
     },
-    "formation": ["Vる / Vない + ことにしている"],
+    "formation": [
+      "Vる / Vない + ことにしている"
+    ],
     "lesson": "Bài 2",
     "group": "Habit_Rule",
-    "confusedWith": ["〜ことになっている", "〜ことにする"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nhấn mạnh thói quen do BẢN THÂN tự quyết định và vẫn đang duy trì ở hiện tại. Phân biệt với ことにする (quyết định tại thời điểm nói) và ことになっている (quy tắc do người khác đặt ra).",
       "en": "⚠️ JLPT Trap: Emphasizes a habit ONESELF decided and is currently maintaining. Vs. ことにする (decided at that moment) and ことになっている (rule set by others)."
@@ -40,10 +41,11 @@
       "vi": "Được quy định là... / Đã được quyết định là... (do người khác/tập thể)",
       "en": "It is a rule that... / It has been decided that... (by others/society)"
     },
-    "formation": ["Vる / Vない + ことになっている"],
+    "formation": [
+      "Vる / Vない + ことになっている"
+    ],
     "lesson": "Bài 2",
     "group": "Habit_Rule",
-    "confusedWith": ["〜ことにしている", "〜ことになる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ quy tắc, luật lệ, lịch trình do NGƯỜI KHÁC hoặc TẬP THỂ đặt ra, bản thân phải tuân theo. Không phải quyết định cá nhân.",
       "en": "⚠️ JLPT Trap: Refers to rules/schedules set by OTHERS or SOCIETY, not personal decisions."
@@ -78,7 +80,6 @@
     ],
     "lesson": "Bài 2",
     "group": "Addition_Emphasis",
-    "confusedWith": ["〜ばかりでなく", "〜のみならず", "〜にとどまらず"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phân biệt với ばかりでなく (trang trọng hơn, nhấn mạnh hơn). Vế sau thường đi kèm も hoặc まで để tăng ý nhấn mạnh.",
       "en": "⚠️ JLPT Trap: Vs. ばかりでなく (more formal, stronger emphasis). The following clause often uses も or まで."
@@ -113,7 +114,6 @@
     ],
     "lesson": "Bài 2",
     "group": "Addition_Emphasis",
-    "confusedWith": ["〜だけでなく", "〜のみならず"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Trang trọng và nhấn mạnh hơn だけでなく. Thường dùng trong văn viết, báo chí. Vế sau thường đi kèm も, まで.",
       "en": "⚠️ JLPT Trap: More formal and emphatic than だけでなく. Common in written language and journalism. Often followed by も or まで."
@@ -142,10 +142,11 @@
       "vi": "Cố gắng làm gì... / Định làm gì... (đang trong quá trình cố gắng)",
       "en": "Try to... / Be about to... (in the process of attempting)"
     },
-    "formation": ["V(ý hướng - よう/おう) + とする"],
+    "formation": [
+      "V(ý hướng - よう/おう) + とする"
+    ],
     "lesson": "Bài 2",
     "group": "Effort_Intention",
-    "confusedWith": ["〜ようとしない", "〜ようにする", "〜てみる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Diễn tả khoảnh khắc chuẩn bị làm gì đó HOẶC đang nỗ lực làm. Thường dùng với たとき hoặc たが để chỉ tình huống xảy ra ngay lúc đó.",
       "en": "⚠️ JLPT Trap: Describes the moment of being about to do something OR making an effort. Often used with たとき or たが to indicate something happened at that exact moment."
@@ -174,10 +175,11 @@
       "vi": "Không hề có ý định làm gì / Nhất quyết không chịu làm",
       "en": "Have no intention of doing... / Refuse to do..."
     },
-    "formation": ["V(ý hướng - よう/おう) + としない"],
+    "formation": [
+      "V(ý hướng - よう/おう) + としない"
+    ],
     "lesson": "Bài 2",
     "group": "Effort_Intention",
-    "confusedWith": ["〜ようとする", "〜ないようにする"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chủ ngữ thường là ngôi thứ 3. Mang sắc thái phê phán hoặc bực bội — người nói thấy đối phương CỐ Ý không làm dù có thể làm được.",
       "en": "⚠️ JLPT Trap: Subject is usually 3rd person. Has a critical or frustrated nuance — the speaker feels the subject DELIBERATELY refuses to do something they could do."
@@ -212,7 +214,6 @@
     ],
     "lesson": "Bài 2",
     "group": "Effort_Intention",
-    "confusedWith": ["〜つもりだ", "〜はずだった"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Khi dùng với Vた/Adj/N → nghĩa là 'bản thân đinh ninh/tưởng là X (nhưng thực tế không phải vậy)'. Đây là bẫy thường gặp trong đề thi.",
       "en": "⚠️ JLPT Trap: When used with Vた/Adj/N → means 'convinced oneself of being X (but reality differs)'. A common JLPT trap."

@@ -46,7 +46,10 @@ export default function VocabTyping() {
   const correctAnswer = current
     ? direction === 'backward' 
       ? current.hiragana 
-      : (current.alt_kanji ? `${current.kanji} hoặc ${current.alt_kanji}` : current.kanji)
+      : (() => {
+          const base = current.kanji || current.hiragana; // fallback to hiragana if kanji empty
+          return current.alt_kanji ? `${base} hoặc ${current.alt_kanji}` : base;
+        })()
     : '';
 
   useEffect(() => {
@@ -61,7 +64,8 @@ export default function VocabTyping() {
 
     let check = false;
     if (direction === 'forward') {
-      check = input.trim() === current.kanji || (current.alt_kanji ? input.trim() === current.alt_kanji : false);
+      const expectedKanji = current.kanji || current.hiragana; // fallback
+      check = input.trim() === expectedKanji || (current.alt_kanji ? input.trim() === current.alt_kanji : false);
     } else {
       check = input.trim() === current.hiragana;
     }

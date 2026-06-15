@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { BookOpen, Layers, Type, CheckSquare, GitMerge, ShieldAlert } from 'lucide-react';
+import { BookOpen, Layers, Type, CheckSquare, GitMerge, ShieldAlert, Zap } from 'lucide-react';
 import { kanjiN3 } from '../../data/kanjiN3';
 import { useSettings } from '../../context/global/useSettings';
 import { ArrowLeft } from 'lucide-react';
@@ -95,44 +95,56 @@ export default function KanjiDashboard() {
       bgLight: 'bg-amber-100 dark:bg-amber-900/30',
       borderColor: 'hover:border-amber-400 dark:hover:border-amber-500',
     },
+    {
+      id: 'fullrun',
+      name: lang === 'en' ? 'Full Run' : 'Toàn Diện',
+      path: '/practice/kanji/fullrun',
+      icon: Zap,
+      desc: lang === 'en'
+        ? 'All-in-one challenge: 5 game types in one session + rank evaluation'
+        : 'Thử thách tổng hợp: 5 loại game trong một phiên + đánh giá cấp độ',
+      color: 'text-indigo-600 dark:text-indigo-400',
+      bgLight: 'bg-indigo-50 dark:bg-indigo-900/30',
+      borderColor: 'hover:border-indigo-400 dark:hover:border-indigo-500',
+    },
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans transition-colors duration-300">
+    <div className="bg-slate-50 dark:bg-slate-900 px-4 py-6 md:px-8 md:py-8 font-sans transition-colors duration-300">
       <div className="max-w-4xl mx-auto">
-        <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
-          <div className="flex-1 text-center md:text-left">
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-4">
+        <header className="mb-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex-1">
+            <div className="flex flex-wrap items-center gap-3 mb-2">
               <button
                 onClick={() => navigate('/practice')}
-                className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
+                className="p-1.5 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
               >
-                <ArrowLeft size={20} />
+                <ArrowLeft size={18} />
               </button>
-              <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400 text-sm font-bold rounded-full">
+              <span className="px-2.5 py-0.5 bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400 text-xs font-bold rounded-full">
                 JLPT N3
               </span>
             </div>
-            <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-3">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-1">
               {t.title}
             </h1>
-            <p className="text-lg text-slate-500 dark:text-slate-400">
+            <p className="text-sm text-slate-500 dark:text-slate-400">
               {t.subtitle}
             </p>
           </div>
           
-          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
-            <div className="inline-flex items-center gap-2 bg-white dark:bg-slate-800 px-4 py-2 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="inline-flex items-center gap-2 bg-white dark:bg-slate-800 px-3 py-1.5 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-              <span className="text-sm font-semibold text-slate-600 dark:text-slate-300">
+              <span className="text-xs font-semibold text-slate-600 dark:text-slate-300">
                 {kanjiN3.length} {t.available}
               </span>
             </div>
             <Link 
               to="/study/kanji" 
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              <BookOpen size={16} />
+              <BookOpen size={14} />
               {t.studyBtn}
             </Link>
           </div>
@@ -149,11 +161,11 @@ export default function KanjiDashboard() {
             return (
               <motion.div variants={itemVariants} key={mode.id}>
                 <Link to={mode.path} className="block group h-full">
-                  <div className={`bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm border border-slate-150 dark:border-slate-700/80 ${mode.borderColor} hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full flex flex-col items-center text-center`}>
-                    <div className={`w-16 h-16 ${mode.bgLight} rounded-2xl flex items-center justify-center ${mode.color} mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                      <Icon size={32} />
+                  <div className={`bg-white dark:bg-slate-800 p-5 md:p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700/80 ${mode.borderColor} hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full flex flex-col items-center text-center`}>
+                    <div className={`w-12 h-12 ${mode.bgLight} rounded-xl flex items-center justify-center ${mode.color} mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                      <Icon size={24} />
                     </div>
-                    <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-3">
+                    <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-2">
                       {mode.name}
                     </h3>
                     <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">

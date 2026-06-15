@@ -15,7 +15,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜がっている", "〜たい", "〜てほしい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Tuyệt đối KHÔNG dùng ~がる để nói về cảm xúc/mong muốn của bản thân. Chỉ dùng để miêu tả biểu hiện thường xuyên/bản tính của NGƯỜI KHÁC (ngôi 3). Phân biệt với ~がっている (đang diễn ra ngay lúc này).",
       "en": "⚠️ JLPT Trap: NEVER use ~がる for your own feelings. Only describes habitual/characteristic behavior of OTHERS (3rd person). Distinguish from ~がっている (happening right now)."
@@ -51,7 +50,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜がる", "〜ている"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Khác với ~がる (thói quen/bản tính), ~がっている nhấn mạnh cảm xúc/trạng thái đang diễn ra NGAY LÚC NÀY của người khác.",
       "en": "⚠️ JLPT Trap: Unlike ~がる (habit/nature), ~がっている emphasizes the emotion/state happening RIGHT NOW to someone else."
@@ -85,7 +83,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Request_Advice",
-    "confusedWith": ["〜てもらいたい", "〜ていただきたい", "〜たい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dùng với bạn bè, người thân hoặc cấp dưới. Người thực hiện hành động đi với trợ từ に. Không dùng với cấp trên/khách hàng → dùng ~ていただきたい.",
       "en": "⚠️ JLPT Trap: Used with friends, family, or subordinates. The doer is marked with に. Do NOT use with superiors/customers → use ~ていただきたい."
@@ -119,7 +116,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Request_Advice",
-    "confusedWith": ["〜てほしい", "〜ていただきたい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Ý nghĩa gần giống ~てほしい nhưng nhấn mạnh việc người nói NHẬN ĐƯỢC lợi ích từ hành động đó. Lịch sự hơn ~てほしい một chút.",
       "en": "⚠️ JLPT Trap: Similar to ~てほしい but emphasizes that the speaker RECEIVES a benefit. Slightly more polite than ~てほしい."
@@ -153,7 +149,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Request_Advice",
-    "confusedWith": ["〜てほしい", "〜てもらいたい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đây là Khiêm nhường ngữ (謙譲語). Chỉ dùng để bày tỏ mong muốn với người bề trên, cấp trên hoặc khách hàng. Dùng sai đối tượng sẽ nghe rất kỳ lạ.",
       "en": "⚠️ JLPT Trap: This is Humble language (謙譲語). Only used to express desire to superiors, bosses, or customers. Using with wrong person sounds very strange."
@@ -187,7 +182,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Hearsay_Quotation",
-    "confusedWith": ["〜そうだ", "〜らしい", "〜という"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dùng trong văn nói thân mật, thay thế cho: 「〜と言っていました」(nghe nói), 「〜という」(cái gọi là), 「〜とは」(định nghĩa). KHÔNG dùng trong văn viết trang trọng.",
       "en": "⚠️ JLPT Trap: Casual speech only, replacing: 「〜と言っていました」(heard that), 「〜という」(called), 「〜とは」(definition). Do NOT use in formal writing."
@@ -222,7 +216,6 @@
     ],
     "lesson": "Bài 1",
     "group": "Condition_Negative",
-    "confusedWith": ["〜ないで", "〜なくて"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đồng nghĩa với 「〜ないで」nhưng mang sắc thái văn viết hơn. Nhớ kỹ ngoại lệ duy nhất: する → せずに (đề thi rất hay hỏi chỗ này).",
       "en": "⚠️ JLPT Trap: Synonymous with 「〜ないで」but more literary. Remember the ONLY exception: する → せずに (very common exam question)."

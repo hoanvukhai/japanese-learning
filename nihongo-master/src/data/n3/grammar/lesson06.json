@@ -8,10 +8,11 @@
       "vi": "Đầy, toàn là... (sắc thái tiêu cực, khó chịu)",
       "en": "Full of... / Covered with... (negative nuance)"
     },
-    "formation": ["N + だらけ"],
+    "formation": [
+      "N + だらけ"
+    ],
     "lesson": "Bài 6",
     "group": "StateTendency",
-    "confusedWith": ["〜まみれ", "〜だらけだ", "〜ばかり"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: CHỈ dùng cho những thứ TIÊU CỰC, gây khó chịu (泥だらけ-đầy bùn, 傷だらけ-đầy vết thương, 間違いだらけ-đầy lỗi). TUYỆT ĐỐI không dùng cho thứ tốt. So với まみれ: だらけ=nhiều về số lượng, まみれ=dính/phủ toàn thân.",
       "en": "⚠️ JLPT Trap: ONLY for NEGATIVE, unpleasant things (mud, wounds, mistakes). NEVER for positive things. vs. まみれ: だらけ=many/lots of, まみれ=smeared/covered all over body."
@@ -40,10 +41,11 @@
       "vi": "Chỉ toàn... (chê bai: cứ lặp đi lặp lại hành động đó mãi)",
       "en": "Doing nothing but... / Always just... (critical nuance)"
     },
-    "formation": ["Vて + ばかりいる"],
+    "formation": [
+      "Vて + ばかりいる"
+    ],
     "lesson": "Bài 6",
     "group": "StateTendency",
-    "confusedWith": ["〜ばかり", "〜だけ", "〜ばかりだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Mang hàm ý PHÊ PHÁN, chỉ trích (người đó cứ làm điều đó mãi chẳng làm gì khác). Vế sau thường thể hiện sự phê bình. Khác với だけ (trung lập).",
       "en": "⚠️ JLPT Trap: Implies CRITICISM (that person only does that and nothing else). The latter clause usually expresses disapproval. Different from だけ (neutral)."
@@ -78,7 +80,6 @@
     ],
     "lesson": "Bài 6",
     "group": "StateTendency",
-    "confusedWith": ["〜てばかりいる", "〜だけ", "〜しか〜ない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dùng khi số lượng/loại đó quá nhiều, chiếm phần lớn, thường kèm chỉ trích. Phân biệt: ばかり≈'toàn là' (có chỉ trích), だけ≈'chỉ' (trung lập), しか〜ない≈'chỉ... mà thôi' (nhấn mạnh ít).",
       "en": "⚠️ JLPT Trap: Used when something dominates in quantity/type, often with criticism. Compare: ばかり≈'nothing but' (critical), だけ≈'only' (neutral), しか〜ない≈'only...that's all' (emphasis on small amount)."
@@ -113,7 +114,6 @@
     ],
     "lesson": "Bài 6",
     "group": "TimeSequence",
-    "confusedWith": ["〜ごとに", "〜と", "〜うちに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Vế sau thường là cảm xúc hoặc sự thay đổi xảy ra tự nhiên. KHÔNG dùng cho thói quen hằng ngày hiển nhiên (không nói 'cứ mỗi lần sáng thức dậy tôi lại đánh răng').",
       "en": "⚠️ JLPT Trap: Latter clause is usually an emotion or natural change. NOT used for obvious daily habits (don't say 'every time I wake up, I brush my teeth')."
@@ -148,7 +148,6 @@
     ],
     "lesson": "Bài 6",
     "group": "TimeSequence",
-    "confusedWith": ["〜がてら", "〜ながら", "〜うちに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Hành động TRƯỚC là hành động CHÍNH (có chủ đích), hành động SAU là hành động PHỤ (tiện thể làm kèm). Chủ thể hai vế phải cùng một người.",
       "en": "⚠️ JLPT Trap: The PRECEDING action is the MAIN intentional action; the FOLLOWING action is secondary (done along the way). Both clauses must share the same subject."
@@ -183,7 +182,6 @@
     ],
     "lesson": "Bài 6",
     "group": "TimeSequence",
-    "confusedWith": ["〜あいだに", "〜ながら", "〜まえに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nhấn mạnh 'Phải tranh thủ làm ngay, nếu để trạng thái thay đổi thì sẽ không làm được nữa'. Thường dùng để khuyên ai đó tận dụng thời cơ.",
       "en": "⚠️ JLPT Trap: Emphasizes 'Must do it now while the condition holds, or it will be too late'. Often used to urge someone to take advantage of a window of opportunity."
@@ -218,7 +216,6 @@
     ],
     "lesson": "Bài 6",
     "group": "TimeSequence",
-    "confusedWith": ["〜あいだに", "〜うちに", "〜ながら"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: あいだ → hành động 2 KÉO DÀI LIÊN TỤC suốt trong khoảng thời gian đó. あいだに → hành động 2 chỉ XẢY RA TRONG CHỐC LÁT. Đây là bẫy kinh điển của JLPT.",
       "en": "⚠️ JLPT Trap: あいだ → action 2 CONTINUES THROUGHOUT. あいだに → action 2 only OCCURS MOMENTARILY. This is a classic JLPT trap."
@@ -253,7 +250,6 @@
     ],
     "lesson": "Bài 6",
     "group": "TimeSequence",
-    "confusedWith": ["〜あいだ", "〜うちに", "〜ときに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: あいだに → hành động 2 XẢY RA RỒI KẾT THÚC trong khoảng thời gian đó, không kéo dài. Phân biệt với あいだ (kéo dài liên tục).",
       "en": "⚠️ JLPT Trap: あいだに → action 2 OCCURS AND ENDS momentarily during that time, does not continue. Contrast with あいだ (continuous)."

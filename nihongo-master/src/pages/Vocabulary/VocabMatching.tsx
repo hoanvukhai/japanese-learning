@@ -45,7 +45,7 @@ export default function VocabMatching() {
         id: `A_${word.id}`,
         pairId: word.id,
         type: 'A',
-        label: word.alt_kanji ? `${word.kanji} (${word.alt_kanji})` : word.kanji,
+        label: word.alt_kanji ? `${word.kanji || word.hiragana} (${word.alt_kanji})` : (word.kanji || word.hiragana),
         sub: word.hiragana
       });
       generatedTiles.push({

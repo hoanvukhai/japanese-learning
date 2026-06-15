@@ -30,7 +30,7 @@ export default function GrammarArena() {
   const [direction, setDirection] = useState<'structure-meaning' | 'meaning-structure'>('structure-meaning');
   const [started, setStarted] = useState(false);
 
-  // Chỉ lấy các mẫu có confusedWith — đây là điểm khác biệt cốt lõi với Quiz
+  // Chỉ lấy các mẫu có distractors từ cùng nhóm
   const pool = useMemo<ArenaItem[]>(() => {
     const base = selectedLesson === 'all'
       ? grammarN3
@@ -38,43 +38,38 @@ export default function GrammarArena() {
 
     return shuffle(
       base
-        .filter(g => g.confusedWith && g.confusedWith.length >= 1)
         .map(g => {
           const correctAnswer = direction === 'structure-meaning'
             ? (g.meaning[language as 'vi' | 'en'] || g.meaning.vi)
             : g.structure;
 
-          // Distractors: CHỈ từ confusedWith — không fallback sang sameGroup
           const distractors: string[] = [];
-          (g.confusedWith || []).forEach(confusedStr => {
-            const found = grammarN3.find(other =>
-              other.structure === confusedStr ||
-              other.structure.includes(confusedStr.replace('〜', ''))
-            );
-            const distractor = found
-              ? (direction === 'structure-meaning'
-                  ? (found.meaning[language as 'vi' | 'en'] || found.meaning.vi)
-                  : found.structure)
-              : confusedStr;
-            if (distractor !== correctAnswer) {
-              distractors.push(distractor);
-            }
-          });
+          
+          // Lấy từ cùng nhóm
+          grammarN3
+            .filter(other => other.group === g.group && other.id !== g.id)
+            .forEach(other => {
+              const d = direction === 'structure-meaning'
+                ? (other.meaning[language as 'vi' | 'en'] || other.meaning.vi)
+                : other.structure;
+              if (!distractors.includes(d) && d !== correctAnswer) {
+                distractors.push(d);
+              }
+            });
 
-          // Nếu không đủ 3 nhiễu, lấy thêm từ sameGroup
+          // Nếu không đủ 3 nhiễu, lấy thêm từ toàn bộ data
           if (distractors.length < 3) {
-            grammarN3
-              .filter(other => other.group === g.group && other.id !== g.id)
-              .forEach(other => {
-                if (distractors.length < 3) {
-                  const d = direction === 'structure-meaning'
-                    ? (other.meaning[language as 'vi' | 'en'] || other.meaning.vi)
-                    : other.structure;
-                  if (!distractors.includes(d) && d !== correctAnswer) {
-                    distractors.push(d);
-                  }
+            grammarN3.forEach(other => {
+              if (distractors.length >= 3) return;
+              if (other.id !== g.id) {
+                const d = direction === 'structure-meaning'
+                  ? (other.meaning[language as 'vi' | 'en'] || other.meaning.vi)
+                  : other.structure;
+                if (!distractors.includes(d) && d !== correctAnswer) {
+                  distractors.push(d);
                 }
-              });
+              }
+            });
           }
 
           return {
@@ -186,7 +181,7 @@ export default function GrammarArena() {
               {[
                 { icon: '⏱️', label: '8 giây/câu', sub: 'Tự fail hết giờ' },
                 { icon: '🔥', label: 'Streak', sub: 'Đúng liên tiếp' },
-                { icon: '🎯', label: 'confusedWith', sub: 'Bẫy JLPT thật' },
+                { icon: '🎯', label: 'Cùng nhóm', sub: 'Bẫy cực khó' },
               ].map(f => (
                 <div key={f.label} className="bg-red-50 dark:bg-red-900/20 rounded-xl p-3 border border-red-100 dark:border-red-900/40">
                   <div className="text-2xl mb-1">{f.icon}</div>

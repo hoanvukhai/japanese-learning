@@ -8,10 +8,11 @@
       "vi": "Vừa mới... xong (còn tươi mới, nóng hổi)",
       "en": "Freshly... / Just done... (still fresh)"
     },
-    "formation": ["V(bỏ ます) + たて"],
+    "formation": [
+      "V(bỏ ます) + たて"
+    ],
     "lesson": "Bài 5",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜たばかり", "〜てからすぐ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ kết hợp với một số động từ nhất định, chủ yếu liên quan đến thực phẩm/sản phẩm (焼きたて-mới nướng, できたて-mới làm xong, 炊きたて-mới nấu, 採れたて-mới hái). KHÔNG dùng cho hành động thông thường như 'mới đọc xong'.",
       "en": "⚠️ JLPT Trap: Only combines with specific verbs, mainly food/product related (freshly baked, newly made, freshly cooked, freshly picked). NOT used for ordinary actions like 'just finished reading'."
@@ -40,10 +41,11 @@
       "vi": "Bắt đầu... / Đến (hướng về phía người nói) / Đã... đến tận bây giờ",
       "en": "To start... / To come (toward speaker) / Have been doing (up to now)"
     },
-    "formation": ["Vて + くる"],
+    "formation": [
+      "Vて + くる"
+    ],
     "lesson": "Bài 5",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜ていく", "〜てきた", "〜はじめる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: 3 nghĩa chính: (1) Hành động hướng về phía người nói (持ってくる), (2) Sự việc BẮT ĐẦU xảy ra (眠くなってきた), (3) Hành động kéo dài từ quá khứ ĐẾN HIỆN TẠI (ずっと勉強してきた).",
       "en": "⚠️ JLPT Trap: 3 main meanings: (1) Action toward speaker (持ってくる), (2) Something STARTS happening (眠くなってきた), (3) Action continuing FROM PAST TO NOW (ずっと勉強してきた)."
@@ -72,10 +74,11 @@
       "vi": "...Đi (rời xa người nói) / Tiếp tục... (từ nay về sau, hướng vào tương lai)",
       "en": "To go away... / To continue (from now into the future)"
     },
-    "formation": ["Vて + いく"],
+    "formation": [
+      "Vて + いく"
+    ],
     "lesson": "Bài 5",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜てくる", "〜ていった", "〜つづける"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Ngược với ~てくる. (1) Hành động di chuyển ra xa khỏi người nói, (2) Sự biến đổi/hành động sẽ TIẾP TỤC kéo dài từ hiện tại vào tương lai. JLPT hay hỏi phân biệt てくる vs ていく.",
       "en": "⚠️ JLPT Trap: Opposite of ~てくる. (1) Action moving away from speaker, (2) Change/action that will CONTINUE from present into future. JLPT often tests てくる vs ていく."
@@ -110,7 +113,6 @@
     ],
     "lesson": "Bài 5",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜ばいいのに", "〜たらいいのに", "〜なければよかった"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: よかった → hối hận về QUÁ KHỨ (điều đã xảy ra rồi). Phân biệt với いいのに → mong ước về HIỆN TẠI hoặc tương lai (điều chưa/không xảy ra).",
       "en": "⚠️ JLPT Trap: よかった → regret about the PAST (something that already happened). Distinguish from いいのに → wish about PRESENT/FUTURE (something not happening)."
@@ -145,7 +147,6 @@
     ],
     "lesson": "Bài 5",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜ばよかった", "〜たらよかった", "〜といいな"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: いいのに → mong ước về tương lai/hiện tại. Thường kèm sắc thái tiếc nuối vì thực tế không như vậy. Khác よかった (hối hận quá khứ).",
       "en": "⚠️ JLPT Trap: いいのに → wish about present/future. Often carries a sense of frustration that reality differs. Different from よかった (past regret)."

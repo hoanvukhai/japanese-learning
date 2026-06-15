@@ -14,7 +14,6 @@
     ],
     "lesson": "Bài 20",
     "group": "TimeSequence",
-    "confusedWith": ["〜ているときに", "〜あいだに", "〜ているうちに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Vế sau LUÔN là MỘT SỰ CỐ ĐỘT NGỘT gây cản trở/phiền toái. Mạnh hơn ときに (thông thường). 最中に nhấn mạnh 'Đúng vào lúc bận nhất' → bị gián đoạn.",
       "en": "⚠️ JLPT Trap: Latter clause is ALWAYS a SUDDEN INCIDENT causing interruption/inconvenience. Stronger than ときに (ordinary). 最中に emphasizes 'right at the most busy moment' → interrupted."
@@ -49,7 +48,6 @@
     ],
     "lesson": "Bài 20",
     "group": "TimeSequence",
-    "confusedWith": ["〜てから", "〜て以降", "〜て以来ずっと"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Khác với てから (đơn thuần chỉ trình tự). 以来=Kể từ mốc đó, trạng thái MỚI hình thành và KÉO DÀI LIÊN TỤC đến nay. Vế sau thường đi với ずっと, まだ, 一度も〜ない. Không dùng cho quá khứ quá gần.",
       "en": "⚠️ JLPT Trap: Unlike てから (mere sequence). 以来=Since that point, a NEW state formed and has CONTINUED UNTIL NOW. Latter clause often with ずっと, まだ, 一度も〜ない. Not for very recent past."
@@ -78,10 +76,11 @@
       "vi": "Nếu chưa... thì không thể... (điều kiện tiên quyết phải hoàn thành trước)",
       "en": "Unless... first / Until (A) is done, cannot (B)"
     },
-    "formation": ["Vて + からでないと / からでなければ + ~ない / ~できない"],
+    "formation": [
+      "Vて + からでないと / からでなければ + ~ない / ~できない"
+    ],
     "lesson": "Bài 20",
     "group": "Condition_Hypothesis",
-    "confusedWith": ["〜なければ〜ない", "〜てから", "〜までは〜ない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nhấn mạnh điều kiện TIÊN QUYẾT phải hoàn thành trước. Vế B LUÔN đi với phủ định hoặc ý nghĩa 'không thể'. Phân biệt với てから (chỉ trình tự thông thường, không nhấn mạnh điều kiện bắt buộc).",
       "en": "⚠️ JLPT Trap: Emphasizes a PREREQUISITE that must be completed first. Clause B ALWAYS with negative or 'impossible' meaning. Vs. てから (simple sequence, no mandatory condition emphasis)."
@@ -110,10 +109,11 @@
       "vi": "Cho dù nói là... (nhưng cũng không hẳn là... / cũng không được vì thế mà...)",
       "en": "Just because... (doesn't mean... / doesn't justify...)"
     },
-    "formation": ["Thể thông thường + からといって + ~わけではない / ~とは限らない / ~てはいけない"],
+    "formation": [
+      "Thể thông thường + からといって + ~わけではない / ~とは限らない / ~てはいけない"
+    ],
     "lesson": "Bài 20",
     "group": "Contrast",
-    "confusedWith": ["〜からこそ", "〜けど", "〜わけではない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phản bác lại suy nghĩ thông thường. Vế sau LUÔN đi với phủ định một phần (わけではない, とは限らない) hoặc cấm đoán (てはいけない). Đừng nhầm với からこそ (chính vì... nên...).",
       "en": "⚠️ JLPT Trap: Refutes a common assumption. Latter clause ALWAYS with partial negation (わけではない, とは限らない) or prohibition (てはいけない). Don't confuse with からこそ (precisely because... therefore...)."
@@ -142,10 +142,11 @@
       "vi": "Dù... thế mà... (mức độ thực tế không tương xứng với tiêu chuẩn kỳ vọng)",
       "en": "Considering... / For a... (actual result unexpected relative to the standard)"
     },
-    "formation": ["Thể thông thường (N-の / A-な) + わりに（は）"],
+    "formation": [
+      "Thể thông thường (N-の / A-な) + わりに（は）"
+    ],
     "lesson": "Bài 20",
     "group": "Contrast",
-    "confusedWith": ["〜くせに", "〜にしては", "〜割合"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Kết quả thực tế TRÁI VỚI KỲ VỌNG thông thường (có thể tốt hơn hoặc kém hơn). Trung lập, không mang sắc thái chê bai như くせに. Hay dùng với từ chỉ giá cả, tuổi tác.",
       "en": "⚠️ JLPT Trap: Actual result CONTRARY TO EXPECTATION (can be better or worse). Neutral, unlike くせに (carries blame/contempt). Often with words indicating price or age."
@@ -174,10 +175,11 @@
       "vi": "Dù... thế mà... (tức giận, khinh thường vì hành động trái với những gì đáng lẽ phải làm)",
       "en": "Even though... / And yet... (carries anger, contempt, or blame)"
     },
-    "formation": ["Thể thông thường (N-の / A-な) + くせに"],
+    "formation": [
+      "Thể thông thường (N-の / A-な) + くせに"
+    ],
     "lesson": "Bài 20",
     "group": "Contrast",
-    "confusedWith": ["〜わりに", "〜のに (tương phản)", "〜ながら (đối lập)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT siêu bẫy — 2 điều phải nhớ: (1) Cảm xúc LUÔN là TỨC GIẬN hoặc KHINH THƯỜNG. (2) Chủ ngữ 2 vế PHẢI CÙNG MỘT NGƯỜI và TUYỆT ĐỐI không dùng cho bản thân mình. Phân biệt với わりに (trung lập).",
       "en": "⚠️ JLPT Super trap — 2 things to remember: (1) Emotion is ALWAYS ANGER or CONTEMPT. (2) Subject in BOTH clauses MUST BE THE SAME PERSON and NEVER use for yourself. Vs. わりに (neutral)."

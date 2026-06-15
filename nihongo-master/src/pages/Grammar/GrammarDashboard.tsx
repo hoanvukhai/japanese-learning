@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Layers, CheckSquare, Shuffle, GitMerge, Search, PenLine, ArrowLeft, BookOpen } from 'lucide-react';
+import { Layers, CheckSquare, GitMerge, Search, PenLine, ArrowLeft, BookOpen } from 'lucide-react';
 import { grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
 
 const containerVariants = {
@@ -78,15 +78,15 @@ const advancedModes = [
     badge: undefined,
   },
   {
-    id: 'wordorder',
-    name: 'Xếp câu',
-    path: '/practice/grammar/wordorder',
-    icon: Shuffle,
-    desc: 'Bấm các mảnh ghép theo đúng thứ tự để tái tạo câu ví dụ hoàn chỉnh.',
+    id: 'fullrun',
+    name: 'Toàn diện',
+    path: '/practice/grammar/fullrun',
+    icon: Layers, // Or something else like Zap
+    desc: 'Thi tổng hợp toàn bộ 4 mini-game tính thời gian và tính điểm xếp hạng.',
     color: 'text-indigo-600 dark:text-indigo-400',
     bg: 'bg-indigo-50 dark:bg-indigo-900/30',
     border: 'hover:border-indigo-400',
-    badge: undefined,
+    badge: 'HOT',
   },
   {
     id: 'errordetect',
@@ -129,45 +129,45 @@ export default function GrammarDashboard() {
   const groups = [...new Set(grammarN3.map(g => g.group))];
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-10 font-sans transition-colors duration-300">
+    <div className="bg-slate-50 dark:bg-slate-900 px-4 py-6 md:px-8 md:py-8 font-sans transition-colors duration-300">
       <div className="max-w-4xl mx-auto">
 
         {/* Header */}
         <motion.header
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: -16 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6"
+          className="mb-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3"
         >
-          <div className="flex-1 text-center md:text-left">
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-4">
+          <div className="flex-1">
+            <div className="flex flex-wrap items-center gap-3 mb-2">
               <button
                 onClick={() => navigate('/practice')}
-                className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
+                className="p-1.5 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 transition-colors"
               >
-                <ArrowLeft size={20} />
+                <ArrowLeft size={18} />
               </button>
-              <span className="px-3 py-1 bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300 text-sm font-bold rounded-full">
+              <span className="px-2.5 py-0.5 bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300 text-xs font-bold rounded-full">
                 JLPT N3
               </span>
             </div>
-            <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-3">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white tracking-tight mb-1">
               📝 Ngữ Pháp N3
             </h1>
-            <p className="text-slate-500 dark:text-slate-400 text-base">
+            <p className="text-sm text-slate-500 dark:text-slate-400">
               Hệ thống kép: học theo bài · luyện game theo nhóm bẫy
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center md:justify-end items-center gap-3">
-            <span className="text-sm font-medium text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 px-4 py-2 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
-              {grammarN3.length} mẫu · {lessons.length} bài · {groups.length} nhóm bẫy
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs font-medium text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 px-3 py-1.5 rounded-full shadow-sm border border-slate-100 dark:border-slate-700">
+              {grammarN3.length} mẫu · {lessons.length} bài · {groups.length} nhóm
             </span>
             <Link
               to="/study/grammar"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-bold text-sm px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              <BookOpen size={16} />
-              Học lý thuyết Ngữ pháp
+              <BookOpen size={14} />
+              Học lý thuyết
             </Link>
           </div>
         </motion.header>

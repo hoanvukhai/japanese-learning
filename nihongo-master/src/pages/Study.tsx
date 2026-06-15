@@ -58,13 +58,13 @@ export default function Study() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors p-6 md:p-12 font-sans">
+    <div className="bg-slate-50 dark:bg-slate-900 transition-colors px-4 py-6 md:px-8 md:py-8 font-sans">
       <div className="max-w-5xl mx-auto flex flex-col items-center">
-        <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
-          <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white mb-4 transition-colors">
+        <motion.div initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-6">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-1 transition-colors">
             {language === 'en' ? 'Learning Path' : 'Lộ Trình Học Tập'}
           </h1>
-          <p className="text-lg text-slate-500 dark:text-slate-400 transition-colors">
+          <p className="text-sm text-slate-500 dark:text-slate-400 transition-colors">
             {language === 'en' ? 'Choose what you want to focus on today.' : 'Chọn bài học bạn muốn tập trung hôm nay.'}
           </p>
         </motion.div>

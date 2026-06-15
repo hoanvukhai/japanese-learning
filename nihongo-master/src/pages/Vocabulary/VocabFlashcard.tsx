@@ -211,7 +211,10 @@ export default function VocabFlashcard() {
   }
 
   // ──────────── CARD SCREEN ────────────
-  const getKanjiDisplay = (w: Word) => w.alt_kanji ? `${w.kanji} (${w.alt_kanji})` : w.kanji;
+  const getKanjiDisplay = (w: Word) => {
+    const base = w.kanji || w.hiragana; // fallback to hiragana if kanji is empty
+    return w.alt_kanji ? `${base} (${w.alt_kanji})` : base;
+  };
 
   let frontContent = '';
   let backContent = '';

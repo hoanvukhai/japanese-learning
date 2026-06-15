@@ -8,10 +8,11 @@
       "vi": "Thảo nào / Hèn chi / Đương nhiên là... (hiểu ra nguyên nhân của kết quả)",
       "en": "No wonder... / That's why... / It makes sense that... (understanding the cause)"
     },
-    "formation": ["Thể thông thường (A-な / N-である/の) + わけだ / というわけだ"],
+    "formation": [
+      "Thể thông thường (A-な / N-である/の) + わけだ / というわけだ"
+    ],
     "lesson": "Bài 18",
     "group": "Inference",
-    "confusedWith": ["〜わけではない", "〜わけがない", "〜はずだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Người nói vừa biết được lý do → thốt lên 'À, thảo nào'. Là sự GẬT GÙ, THẤU HIỂU, không phải phán đoán. Khác với はずだ (logic suy ra trước khi biết kết quả).",
       "en": "⚠️ JLPT Trap: Speaker just learned the reason → exclaims 'No wonder'. Expresses UNDERSTANDING after the fact, not prediction. Different from はずだ (logical deduction before knowing result)."
@@ -40,10 +41,11 @@
       "vi": "Không thể nào... / Làm gì có chuyện... (phủ định 100% dựa trên logic)",
       "en": "There is no way... / It is impossible that... (100% denial based on logic)"
     },
-    "formation": ["Thể thông thường (A-な / N-の) + わけがない / わけはない"],
+    "formation": [
+      "Thể thông thường (A-な / N-の) + わけがない / わけはない"
+    ],
     "lesson": "Bài 18",
     "group": "Inference",
-    "confusedWith": ["〜はずがない", "〜ものか", "〜わけではない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phủ định 100% dựa trên căn cứ logic. Đồng nghĩa hoàn toàn với はずがない. Phân biệt với ものか (phủ định cảm xúc mạnh: tức giận/quyết tâm) và わけではない (phủ định một phần).",
       "en": "⚠️ JLPT Trap: 100% denial based on solid logic. Completely synonymous with はずがない. Vs. ものか (emotional denial: anger/determination) and わけではない (partial denial)."
@@ -72,10 +74,11 @@
       "vi": "Không hẳn là... / Không có nghĩa là... (phủ định một phần, bác bỏ suy luận thông thường)",
       "en": "It does not mean that... / Not necessarily... (partial denial of assumption)"
     },
-    "formation": ["Thể thông thường (A-な / N-の/な) + わけではない / わけでもない"],
+    "formation": [
+      "Thể thông thường (A-な / N-の/な) + わけではない / わけでもない"
+    ],
     "lesson": "Bài 18",
     "group": "Inference",
-    "confusedWith": ["〜わけがない", "〜とは限らない", "〜ないこともない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Bác bỏ MỘT PHẦN suy luận thông thường của người khác. Thường đi với いつも/全部/必ずしも. Phân biệt với わけがない (phủ định 100%). わけではない=không hẳn, わけがない=không thể nào.",
       "en": "⚠️ JLPT Trap: Partially denies a common assumption. Often with いつも/全部/必ずしも. Vs. わけがない (100% denial). わけではない=not necessarily, わけがない=absolutely impossible."
@@ -110,7 +113,6 @@
     ],
     "lesson": "Bài 18",
     "group": "Emotion_Desire",
-    "confusedWith": ["〜ことができない", "〜てはいけない", "〜ずにはいられない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: LỖI SAI KINH ĐIỂN — KHÔNG dùng cho thiếu năng lực (không biết bơi). CHỈ dùng khi: (1) 'Muốn làm nhưng lương tâm/đạo đức không cho' (Vるわけにはいかない), hoặc (2) 'Không muốn nhưng buộc phải làm' (Vないわけにはいかない).",
       "en": "⚠️ JLPT Trap: CLASSIC MISTAKE — NOT for lack of ability (can't swim). ONLY when: (1) 'Want to do it, but conscience/duty won't allow it' (Vるわけにはいかない), (2) 'Don't want to but have no choice' (Vないわけにはいかない)."
@@ -145,7 +147,6 @@
     ],
     "lesson": "Bài 18",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜かける (sắp...)", "〜ている", "〜途中で"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ hành động tốn thời gian, CÓ BẮT ĐẦU VÀ KẾT THÚC rõ ràng, nhưng đang BỊ DỪNG Ở GIỮA CHỪNG. Không dùng cho trạng thái tự nhiên tức thời (mưa, nắng). 飲みかけ(uống dở), 読みかけ(đọc dở), 食べかけ(ăn dở).",
       "en": "⚠️ JLPT Trap: For time-consuming actions with CLEAR START and END, currently STOPPED HALFWAY. Not for instantaneous natural states. 飲みかけ(half-drunk), 読みかけ(half-read), 食べかけ(half-eaten)."

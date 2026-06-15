@@ -8,10 +8,11 @@
       "vi": "Rất khó có khả năng... / Chẳng có vẻ gì là... (phủ định mạnh)",
       "en": "Very unlikely to... / Showing absolutely no signs of..."
     },
-    "formation": ["V(bỏ ます) + そうもない"],
+    "formation": [
+      "V(bỏ ます) + そうもない"
+    ],
     "lesson": "Bài 3",
     "group": "Inference",
-    "confusedWith": ["〜そうにない", "〜そうだ", "〜はずがない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phủ định khả năng xảy ra một cách mạnh mẽ dựa trên quan sát hiện tại. Mạnh hơn 〜そうにない. KHÔNG nhầm với 〜そうだ (trông có vẻ...).",
       "en": "⚠️ JLPT Trap: Strongly denies possibility based on current observation. Stronger than 〜そうにない. Do NOT confuse with 〜そうだ (looks like it will...)."
@@ -40,10 +41,11 @@
       "vi": "Không có vẻ gì là... / Khó có khả năng...",
       "en": "Doesn't seem likely to... / Shows no sign of..."
     },
-    "formation": ["V(bỏ ます) + そうにない"],
+    "formation": [
+      "V(bỏ ます) + そうにない"
+    ],
     "lesson": "Bài 3",
     "group": "Inference",
-    "confusedWith": ["〜そうもない", "〜そうだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Yếu hơn 〜そうもない một chút. Cả hai đều phủ định khả năng quan sát được. Trong đề thi, hay hỏi phân biệt 2 cái này.",
       "en": "⚠️ JLPT Trap: Slightly weaker than 〜そうもない. Both deny observable possibility. JLPT often tests the distinction between these two."
@@ -72,10 +74,11 @@
       "vi": "Chắc chắn không... / Không thể nào có chuyện... (căn cứ logic)",
       "en": "Definitely not... / It is impossible that... (based on logic)"
     },
-    "formation": ["Thể thông thường (N-の / A-な) + はずがない"],
+    "formation": [
+      "Thể thông thường (N-の / A-な) + はずがない"
+    ],
     "lesson": "Bài 3",
     "group": "Inference",
-    "confusedWith": ["〜わけがない", "〜はずだ", "〜はずはない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Phủ định chủ quan dựa trên căn cứ logic vững chắc. Đồng nghĩa với 「わけがない」. Phân biệt với はずだ (đáng lẽ phải...).",
       "en": "⚠️ JLPT Trap: Strong subjective denial based on logical reasoning. Synonymous with 「わけがない」. Distinguish from はずだ (should be...)."
@@ -104,10 +107,11 @@
       "vi": "Sau khi (thử) làm... thì (phát hiện ra / kết quả là...)",
       "en": "When I tried doing..., I found that... (unexpected result)"
     },
-    "formation": ["Vた + ところ"],
+    "formation": [
+      "Vた + ところ"
+    ],
     "lesson": "Bài 3",
     "group": "TimeSequence",
-    "confusedWith": ["〜ところへ", "〜たら", "〜と"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Vế sau thường là kết quả BẤT NGỜ hoặc sự thật mới được phát hiện. KHÔNG dùng cho lịch trình định sẵn. Vế sau không dùng ý hướng (つもり, ようと).",
       "en": "⚠️ JLPT Trap: The latter clause is usually an UNEXPECTED result or newly discovered fact. Do NOT use for planned events. No volitional expressions in the result clause."
@@ -136,10 +140,11 @@
       "vi": "Đúng vào lúc (đang làm việc gì đó)... / Xin lỗi vì đã làm phiền khi...",
       "en": "Just when (doing something)... / Sorry to bother you while..."
     },
-    "formation": ["Vている / Vた / A / N-の + ところを"],
+    "formation": [
+      "Vている / Vた / A / N-の + ところを"
+    ],
     "lesson": "Bài 3",
     "group": "TimeSequence",
-    "confusedWith": ["〜ところへ", "〜ところに", "〜たところ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: を thường đi với động từ CẢN TRỞ (邪魔する, 見つかる...) hoặc dùng trong lời xin lỗi lịch sự (お忙しいところを).",
       "en": "⚠️ JLPT Trap: を typically follows verbs of INTERRUPTION (邪魔する, 見つかる...) or polite apologies (お忙しいところを)."
@@ -168,10 +173,11 @@
       "vi": "Đúng lúc (đang làm A) thì (có người/việc gì đó xuất hiện/xảy đến)",
       "en": "Just when (doing A), (someone/something comes along)"
     },
-    "formation": ["Vている / Vた + ところへ / ところに"],
+    "formation": [
+      "Vている / Vた + ところへ / ところに"
+    ],
     "lesson": "Bài 3",
     "group": "TimeSequence",
-    "confusedWith": ["〜ところを", "〜たところ", "〜とき"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chủ thể của vế sau thường là NGƯỜI/VẬT MỚI XUẤT HIỆN từ bên ngoài đến. Khác với ところを (bị cản trở), ところへ/に nhấn mạnh sự xuất hiện bất ngờ từ bên ngoài.",
       "en": "⚠️ JLPT Trap: The subject of the second clause is usually something/someone ARRIVING from outside. Unlike ところを (interrupted), ところへ/に emphasizes unexpected arrival."
@@ -200,10 +206,11 @@
       "vi": "Từ... đến... (khoảng thời gian/không gian trải dài, không rõ ranh giới)",
       "en": "From... to... / Over a span of... (gradual, without clear boundaries)"
     },
-    "formation": ["N(Thời gian/Địa điểm) + から + N(Thời gian/Địa điểm) + にかけて"],
+    "formation": [
+      "N(Thời gian/Địa điểm) + から + N(Thời gian/Địa điểm) + にかけて"
+    ],
     "lesson": "Bài 3",
     "group": "Particles",
-    "confusedWith": ["〜から〜まで", "〜にわたって"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Khác với 「から〜まで」 (điểm bắt đầu và kết thúc rõ ràng), 「にかけて」 chỉ phạm vi đại khái, trải dài liên tục không có ranh giới rõ ràng.",
       "en": "⚠️ JLPT Trap: Unlike 「から〜まで」 (clear start/end points), 「にかけて」 indicates a rough, continuous span without clear boundaries."
@@ -232,10 +239,11 @@
       "vi": "Không còn cách nào khác / Chỉ còn cách... (đành phải)",
       "en": "Have no choice but to... / Nothing left but to..."
     },
-    "formation": ["Vる + しかない"],
+    "formation": [
+      "Vる + しかない"
+    ],
     "lesson": "Bài 3",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜よりほかない", "〜だけ", "〜しか〜ない"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Mang sắc thái cam chịu — không muốn nhưng đành phải làm vì không có phương án nào khác. Đồng nghĩa với 「よりほかない」(văn viết hơn).",
       "en": "⚠️ JLPT Trap: Carries a nuance of resignation — doing it unwillingly because there's no other option. Synonymous with 「よりほかない」(more literary)."

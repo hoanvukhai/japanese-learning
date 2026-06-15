@@ -8,10 +8,11 @@
       "vi": "Đúng chuẩn... / Ra dáng... / Đậm chất... (thể hiện đúng bản chất lý tưởng)",
       "en": "Typical of... / Like a true... (exhibits true ideal nature)"
     },
-    "formation": ["N + らしい"],
+    "formation": [
+      "N + らしい"
+    ],
     "lesson": "Bài 12",
     "group": "Inference",
-    "confusedWith": ["〜らしい (nghe nói)", "〜みたいだ", "〜っぽい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đây là nghĩa 1 của らしい — chỉ tính chất đặc trưng. Nghĩa 2 của らしい (nghe nói) khác hoàn toàn. Phân biệt: らしい(đặc trưng)=N+らしい, みたいだ=so sánh bề ngoài với thứ khác.",
       "en": "⚠️ JLPT Trap: This is meaning 1 of らしい — characteristic nature. Meaning 2 of らしい (hearsay) is completely different. らしい(characteristic)=N+らしい, みたいだ=appearance comparison."
@@ -40,10 +41,11 @@
       "vi": "Nghe nói... / Có vẻ như... (suy luận dựa vào thông tin gián tiếp)",
       "en": "I heard that... / Apparently... / It seems that... (indirect information)"
     },
-    "formation": ["Thể thông thường (N/A-な không có だ) + らしい"],
+    "formation": [
+      "Thể thông thường (N/A-な không có だ) + らしい"
+    ],
     "lesson": "Bài 12",
     "group": "Inference",
-    "confusedWith": ["〜そうだ (nghe nói)", "〜ようだ", "〜らしい (đặc trưng)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Suy luận dựa vào THÔNG TIN GIÁN TIẾP (nghe người khác nói, đọc báo...). Phân biệt: らしい=thông tin nghe được, そうだ(伝聞)=cũng nghe nói nhưng trực tiếp hơn, ようだ=dựa vào bằng chứng trực tiếp.",
       "en": "⚠️ JLPT Trap: Based on INDIRECT INFORMATION (heard from others, read in news...). らしい=indirect info, そうだ(传聞)=hearsay but more direct, ようだ=based on direct evidence."
@@ -72,10 +74,11 @@
       "vi": "Nhờ có... (kết quả tốt, biết ơn)",
       "en": "Thanks to... (positive result, gratitude)"
     },
-    "formation": ["Thể thông thường (N-の / A-な) + おかげで / おかげだ"],
+    "formation": [
+      "Thể thông thường (N-の / A-な) + おかげで / おかげだ"
+    ],
     "lesson": "Bài 12",
     "group": "Cause_Reason",
-    "confusedWith": ["〜せいで", "〜ために", "〜から"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: LUÔN dẫn đến kết quả TÍCH CỰC và mang hàm ý biết ơn. Ngược lại hoàn toàn với せいで (tiêu cực, đổ lỗi). JLPT hay hỏi chọn おかげで hay せいで.",
       "en": "⚠️ JLPT Trap: ALWAYS leads to POSITIVE result with grateful nuance. Completely opposite of せいで (negative, blame). JLPT often asks to choose between おかげで and せいで."
@@ -104,10 +107,11 @@
       "vi": "Tại vì... / Do lỗi của... (kết quả xấu, đổ lỗi)",
       "en": "Due to... / Because of... (negative result, blame)"
     },
-    "formation": ["Thể thông thường (N-の / A-な) + せいで / せいだ"],
+    "formation": [
+      "Thể thông thường (N-の / A-な) + せいで / せいだ"
+    ],
     "lesson": "Bài 12",
     "group": "Cause_Reason",
-    "confusedWith": ["〜おかげで", "〜ために", "〜せいか"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: LUÔN dẫn đến kết quả TIÊU CỰC, hàm ý đổ lỗi cho nguyên nhân. Phân biệt với せいか (không chắc có phải tại vì... không) — せいか dùng khi người nói không chắc chắn về nguyên nhân.",
       "en": "⚠️ JLPT Trap: ALWAYS negative result, implies blaming the cause. Vs. せいか (uncertain if it's because of...) — せいか used when speaker is uncertain about the cause."
@@ -136,10 +140,11 @@
       "vi": "Không biết có phải tại vì... / Có lẽ do... (không chắc về nguyên nhân, kết quả xấu)",
       "en": "Perhaps because of... / Maybe due to... (uncertain cause, negative result)"
     },
-    "formation": ["Thể thông thường (N-の / A-な) + せいか"],
+    "formation": [
+      "Thể thông thường (N-の / A-な) + せいか"
+    ],
     "lesson": "Bài 12",
     "group": "Cause_Reason",
-    "confusedWith": ["〜せいで", "〜からか", "〜おかげか"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: せいか = người nói KHÔNG CHẮC về nguyên nhân, chỉ đoán. Giữ nguyên sắc thái tiêu cực như せいで. Phân biệt với せいで (chắc chắn về nguyên nhân).",
       "en": "⚠️ JLPT Trap: せいか = speaker is UNCERTAIN about the cause, just guessing. Maintains negative nuance like せいで. Differs from せいで (certain about cause)."
@@ -168,10 +173,11 @@
       "vi": "Bởi vì... (sự thật cả hai đều biết, nên đương nhiên là...)",
       "en": "Because... (shared understanding, so naturally...)"
     },
-    "formation": ["Thể thông thường (N-な / A-な) + のだから / んだから"],
+    "formation": [
+      "Thể thông thường (N-な / A-な) + のだから / んだから"
+    ],
     "lesson": "Bài 12",
     "group": "Cause_Reason",
-    "confusedWith": ["〜だから", "〜ので", "〜から"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nêu lý do/sự thật CẢ HAI ĐỀU BIẾT. Vế sau thường là đánh giá, lời khuyên, mệnh lệnh hoặc rủ rê. Mạnh hơn だから/ので vì nhấn mạnh cả người nghe cũng phải hiểu điều đó.",
       "en": "⚠️ JLPT Trap: States a reason/fact KNOWN TO BOTH parties. Latter clause is often evaluation, advice, command or invitation. Stronger than だから/ので because it emphasizes shared understanding."
@@ -206,7 +212,6 @@
     ],
     "lesson": "Bài 12",
     "group": "StateTendency",
-    "confusedWith": ["〜ながら", "〜ていく", "〜とおり"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Diễn tả việc giữ nguyên trạng thái mà LẼ RA PHẢI THAY ĐỔI. Chú ý: động từ tích cực dùng Vた+まま (眼鏡をかけたまま=vẫn đang đeo kính), động từ tiêu cực dùng Vない+まま (起きないまま=vẫn chưa thức dậy).",
       "en": "⚠️ JLPT Trap: Describes keeping a state that SHOULD HAVE CHANGED. Note: positive verbs use Vた+まま (still wearing glasses), negative verbs use Vない+まま (still not woken up)."

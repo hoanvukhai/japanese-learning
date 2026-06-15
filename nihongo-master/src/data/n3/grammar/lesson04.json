@@ -8,10 +8,11 @@
       "vi": "Làm gì đó trước (để sẵn sàng) — dạng rút gọn văn nói của 〜ておく",
       "en": "Do something in advance — casual spoken contraction of 〜ておく"
     },
-    "formation": ["V(て form) + おく → V + とく (rút gọn: て + おく → とく)"],
+    "formation": [
+      "V(て form) + おく → V + とく (rút gọn: て + おく → とく)"
+    ],
     "lesson": "Bài 4",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜ておく", "〜てる", "〜ちゃう"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Xuất hiện nhiều trong bài Nghe hiểu (聴解). Cần phản xạ nhanh: とく = ておく. Chỉ dùng trong văn nói thân mật.",
       "en": "⚠️ JLPT Trap: Very common in Listening section (聴解). Need quick reflex: とく = ておく. Only used in casual spoken language."
@@ -40,10 +41,11 @@
       "vi": "Đang làm / Đang ở trạng thái... — dạng rút gọn văn nói của 〜ている",
       "en": "Is doing / Is in a state of... — casual spoken contraction of 〜ている"
     },
-    "formation": ["V(て form) + いる → V + てる (bỏ い)"],
+    "formation": [
+      "V(て form) + いる → V + てる (bỏ い)"
+    ],
     "lesson": "Bài 4",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜ている", "〜とく", "〜ちゃう"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Hay xuất hiện trong hội thoại nghe hiểu. てる = ている (tiến hành hoặc trạng thái). Chỉ văn nói.",
       "en": "⚠️ JLPT Trap: Common in listening conversations. てる = ている (progressive or state). Casual speech only."
@@ -78,7 +80,6 @@
     ],
     "lesson": "Bài 4",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜てしまう", "〜てしまった", "〜とく"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: ちゃう = てしまう, じゃう = でしまう. Hay xuất hiện trong nghe hiểu. Mang sắc thái vô ý hoặc hối tiếc.",
       "en": "⚠️ JLPT Trap: ちゃう = てしまう, じゃう = でしまう. Common in listening. Conveys accidental action or regret."
@@ -107,10 +108,11 @@
       "vi": "Phải làm gì... — dạng rút gọn văn nói của 〜なければならない",
       "en": "Have to... / Must... — casual contraction of 〜なければならない"
     },
-    "formation": ["V(ない form) + なければ → なきゃ (bỏ れ)"],
+    "formation": [
+      "V(ない form) + なければ → なきゃ (bỏ れ)"
+    ],
     "lesson": "Bài 4",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜なければならない", "〜なくてはならない", "〜なくちゃ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: なきゃ = なければ(ならない). Tương đương với なくちゃ (= なくては). Cả hai chỉ dùng văn nói.",
       "en": "⚠️ JLPT Trap: なきゃ = なければ(ならない). Equivalent to なくちゃ (= なくては). Both are casual speech only."
@@ -139,10 +141,11 @@
       "vi": "Chẳng phải là... hay sao? / Tôi nghĩ là... (nêu ý kiến rụt rè)",
       "en": "Isn't it that...? / I think... (softly expressing opinion)"
     },
-    "formation": ["Thể thông thường (N/A-な + な) + んじゃない(か) / んじゃないですか"],
+    "formation": [
+      "Thể thông thường (N/A-な + な) + んじゃない(か) / んじゃないですか"
+    ],
     "lesson": "Bài 4",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜のではないか", "〜でしょう", "〜じゃない (phủ định)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Dù có chữ ない nhưng ý nghĩa là KHẲNG ĐỊNH nhẹ. Phân biệt với じゃない (phủ định thực sự). Dùng để nêu ý kiến một cách dè dặt.",
       "en": "⚠️ JLPT Trap: Despite containing ない, the meaning is a soft AFFIRMATION. Distinguish from じゃない (true negation). Used to express opinions hesitantly."
@@ -171,10 +174,11 @@
       "vi": "Trông có vẻ... / Hay (quên, nổi cáu) / Cứ như là... (sắc thái thường là tiêu cực)",
       "en": "-ish / Looks like... / Tends to... (often negative nuance)"
     },
-    "formation": ["N / V(bỏ ます) / A-い(bỏ い) + っぽい"],
+    "formation": [
+      "N / V(bỏ ます) / A-い(bỏ い) + っぽい"
+    ],
     "lesson": "Bài 4",
     "group": "StateTendency",
-    "confusedWith": ["〜らしい", "〜そうだ", "〜みたいだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Thường mang sắc thái tiêu cực/chê bai (子供っぽい - trẻ con, 怒りっぽい - hay cáu). Chia ngữ pháp phía sau giống hệt tính từ đuôi い.",
       "en": "⚠️ JLPT Trap: Often has a negative/critical nuance (子供っぽい - childish, 怒りっぽい - hot-tempered). Conjugates exactly like an い-adjective."

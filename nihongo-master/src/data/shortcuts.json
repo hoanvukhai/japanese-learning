@@ -1,0 +1,53 @@
+{
+  "matching": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "q",
+    "w",
+    "e",
+    "r",
+    "a",
+    "s",
+    "d",
+    "f",
+    "z",
+    "x",
+    "c",
+    "v"
+  ],
+  "quiz": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "flashcard": {
+    "flip": " ",
+    "notRemembered": [
+      "ArrowLeft",
+      "a"
+    ],
+    "remembered": [
+      "ArrowRight",
+      "d"
+    ]
+  },
+  "error": {
+    "wrong": [
+      "ArrowLeft",
+      "a"
+    ],
+    "correct": [
+      "ArrowRight",
+      "d"
+    ]
+  },
+  "general": {
+    "next": [
+      "Enter",
+      "Tab"
+    ]
+  }
+}

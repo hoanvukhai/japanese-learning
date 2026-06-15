@@ -8,10 +8,11 @@
       "vi": "Bắt đầu... (có ý thức hoặc tự nhiên)",
       "en": "Start doing... / Begin to..."
     },
-    "formation": ["V(bỏ ます) + 始める"],
+    "formation": [
+      "V(bỏ ます) + 始める"
+    ],
     "lesson": "Bài 9",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜出す", "〜てくる", "〜ようになる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nhấn mạnh THỜI ĐIỂM bắt đầu có chủ đích hoặc tự nhiên. Phân biệt với 出す (đột ngột, bất thình lình). 始める=bình thường, 出す=đột ngột.",
       "en": "⚠️ JLPT Trap: Emphasizes the STARTING MOMENT of a deliberate or natural action. Vs. 出す (sudden, unexpected). 始める=normal start, 出す=sudden burst."
@@ -40,10 +41,11 @@
       "vi": "Bắt đầu... một cách đột ngột / Bật (khóc, cười)... (không báo trước)",
       "en": "Suddenly start to... / Burst into... (unexpected, sudden onset)"
     },
-    "formation": ["V(bỏ ます) + 出す"],
+    "formation": [
+      "V(bỏ ます) + 出す"
+    ],
     "lesson": "Bài 9",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜始める", "〜てくる", "急に〜"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nhấn mạnh sự BẤT THÌNH LÌNH, không báo trước. Hay đi với 急に (đột nhiên). Phổ biến cho: phản xạ sinh lý (泣き出す-bật khóc, 笑い出す-bật cười) hoặc hiện tượng tự nhiên (降り出す-mưa bất chợt).",
       "en": "⚠️ JLPT Trap: Emphasizes SUDDEN, unexpected onset. Often with 急に. Common for: physiological reflexes (burst into tears/laughter) or natural phenomena (sudden rain)."
@@ -72,10 +74,11 @@
       "vi": "Làm xong... / Hoàn thành...",
       "en": "Finish doing... / Complete..."
     },
-    "formation": ["V(bỏ ます) + 終わる"],
+    "formation": [
+      "V(bỏ ます) + 終わる"
+    ],
     "lesson": "Bài 9",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜てしまう", "〜終えた", "〜てから"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Chỉ khi hành động đã HOÀN TẤT TRỌN VẸN từ đầu đến cuối. Phân biệt với てしまう (đã làm xong, thường kèm sắc thái hối tiếc hoặc kết quả bất mong).",
       "en": "⚠️ JLPT Trap: Only when action is COMPLETELY FINISHED from start to end. Vs. てしまう (done and completed, often with regret or undesired result)."
@@ -104,10 +107,11 @@
       "vi": "Tiếp tục... / Cứ mãi... (hành động kéo dài liên tục)",
       "en": "Continue doing... / Keep doing... (ongoing, uninterrupted)"
     },
-    "formation": ["V(bỏ ます) + 続ける"],
+    "formation": [
+      "V(bỏ ます) + 続ける"
+    ],
     "lesson": "Bài 9",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜ていく", "〜てくる", "〜ばかりいる"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nhấn mạnh sự liên tục, không ngừng nghỉ. Không giống ていく (nhấn mạnh hướng vào tương lai) hay ばかりいる (nhấn mạnh chỉ làm mỗi việc đó).",
       "en": "⚠️ JLPT Trap: Emphasizes CONTINUOUS, uninterrupted action. Unlike ていく (emphasizes future direction) or ばかりいる (emphasizes doing only that thing)."
@@ -136,10 +140,11 @@
       "vi": "Làm lại... (từ đầu, vì trước đó sai hoặc không ưng ý)",
       "en": "Do over again... / Redo... (because it was wrong or unsatisfactory)"
     },
-    "formation": ["V(bỏ ます) + 直す"],
+    "formation": [
+      "V(bỏ ます) + 直す"
+    ],
     "lesson": "Bài 9",
     "group": "CompoundVerbs",
-    "confusedWith": ["〜返す", "〜始める", "〜もう一度"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Hàm ý trước đó ĐÃ LÀM RỒI nhưng bị hỏng/sai/không ưng ý nên làm lại. Khác với 始める (bắt đầu lần đầu tiên). Luôn có hàm ý 'sửa chữa' hoặc 'cải thiện'.",
       "en": "⚠️ JLPT Trap: Implies it WAS DONE BEFORE but was wrong/unsatisfactory, so it's done over. Unlike 始める (starting for the first time). Always implies 'fixing' or 'improving'."

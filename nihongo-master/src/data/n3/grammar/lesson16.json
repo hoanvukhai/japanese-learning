@@ -8,10 +8,11 @@
       "vi": "Bản chất là... / Thường hay... (chân lý, lẽ thường của cuộc sống)",
       "en": "It is natural that... / It is the nature of... (general truth)"
     },
-    "formation": ["Vる / Vない / A-い / A-な + ものだ"],
+    "formation": [
+      "Vる / Vない / A-い / A-な + ものだ"
+    ],
     "lesson": "Bài 16",
     "group": "StateTendency",
-    "confusedWith": ["〜ものだ (thói quen quá khứ)", "〜ものだ (cảm xúc)", "〜ものだから"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 1 (chân lý) — nêu lẽ thường mà ai cũng vậy. Thường dùng để khuyên nhủ, giải thích lẽ đời. Phân biệt với Nghĩa 2 (Vた+ものだ=thói quen quá khứ).",
       "en": "⚠️ JLPT Trap: Meaning 1 (general truth) — stating universal truths about life. Often used for advice or explaining life's ways. Vs. Meaning 2 (Vた+ものだ = past habit)."
@@ -40,10 +41,11 @@
       "vi": "Hồi trước (tôi) thường hay... (nhớ về thói quen trong quá khứ, nay không còn nữa)",
       "en": "I used to... (recalling a past habit that no longer exists)"
     },
-    "formation": ["Vた + ものだ / ものです"],
+    "formation": [
+      "Vた + ものだ / ものです"
+    ],
     "lesson": "Bài 16",
     "group": "StateTendency",
-    "confusedWith": ["〜ものだ (chân lý)", "〜ていた", "〜ことがある"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nghĩa 2 (quá khứ) — nhớ lại thói quen CỦA MÌNH trong quá khứ. Hàm ý ngầm 'bây giờ không còn như vậy nữa'. Luôn chia ở Vた. Phân biệt với ていた (chỉ đơn thuần là đang làm trong quá khứ).",
       "en": "⚠️ JLPT Trap: Meaning 2 (past) — recalling one's OWN past habits with nostalgia. Implied: 'not like that anymore'. Always uses Vた form. Vs. ていた (simply 'was doing' in the past)."
@@ -72,10 +74,11 @@
       "vi": "Tại vì... (lời phân trần, biện minh, xin lỗi)",
       "en": "Because... / The reason is that... (making an excuse or apologizing)"
     },
-    "formation": ["Thể thông thường (N-な / A-な) + ものだから / もので / ものですから"],
+    "formation": [
+      "Thể thông thường (N-な / A-な) + ものだから / もので / ものですから"
+    ],
     "lesson": "Bài 16",
     "group": "Cause_Reason",
-    "confusedWith": ["〜から", "〜ので", "〜せいで"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Giải thích lý do nhưng LUÔN mang sắc thái xin lỗi, phân trần, biện minh cho sự cố của bản thân. Mềm hơn và lịch sự hơn ので. Hay dùng khi muốn được thông cảm.",
       "en": "⚠️ JLPT Trap: Explains reason but ALWAYS carries an apologetic, excusing nuance for one's own incident. Softer and more polite than ので. Used when seeking understanding/sympathy."
@@ -104,10 +107,11 @@
       "vi": "Tuyệt đối không... / Làm gì có chuyện... (phủ định mạnh cảm xúc)",
       "en": "Absolutely not... / There's no way... (strong emotional denial)"
     },
-    "formation": ["Thể thông thường (N-な / A-な) + ものか / もんか"],
+    "formation": [
+      "Thể thông thường (N-な / A-な) + ものか / もんか"
+    ],
     "lesson": "Bài 16",
     "group": "SpokenAdvice",
-    "confusedWith": ["〜はずがない", "〜わけがない", "〜ものだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Hình thức là câu hỏi (か) nhưng ý nghĩa là PHỦ ĐỊNH MẠNH CẢM XÚC (tức giận, quyết tâm). もんか là dạng văn nói thân mật hơn. Không thể dùng trong văn viết trang trọng.",
       "en": "⚠️ JLPT Trap: Formally looks like a question (か) but means STRONG EMOTIONAL DENIAL (anger, determination). もんか is more casual. Cannot be used in formal writing."
@@ -136,10 +140,11 @@
       "vi": "Ngay cả... (thậm chí cái đó cũng...)",
       "en": "Even... (emphasizing unexpected extent)"
     },
-    "formation": ["N + さえ / さえも"],
+    "formation": [
+      "N + さえ / さえも"
+    ],
     "lesson": "Bài 16",
     "group": "Particles",
-    "confusedWith": ["〜さえ〜ば", "〜も", "〜だって"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: さえ đứng một mình = 'thậm chí, ngay cả'. Nhấn mạnh điều bất ngờ/cực đoan. Phân biệt với さえ〜ば (điều kiện tối thiểu). さえ(một mình) ≠ さえ〜ば.",
       "en": "⚠️ JLPT Trap: さえ alone = 'even, to the point that'. Emphasizes unexpected/extreme extent. Different from さえ〜ば (minimum condition). さえ(alone) ≠ さえ〜ば."
@@ -174,7 +179,6 @@
     ],
     "lesson": "Bài 16",
     "group": "Condition_Hypothesis",
-    "confusedWith": ["〜さえ (ngay cả)", "〜ば (điều kiện)", "〜だけで"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: さえ〜ば = điều kiện TỐI THIỂU DUY NHẤT — 'Chỉ cần mỗi điều đó thôi là đủ, không cần gì khác'. Phân biệt với さえ một mình (ngay cả).",
       "en": "⚠️ JLPT Trap: さえ〜ば = the ONE MINIMUM condition — 'As long as just that one thing is fulfilled, nothing else is needed'. Different from さえ alone (even)."
@@ -209,7 +213,6 @@
     ],
     "lesson": "Bài 16",
     "group": "Particles",
-    "confusedWith": ["〜は (nhấn mạnh)", "〜だから", "〜のに"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: こそ nhấn mạnh danh từ trước nó (loại trừ các đối tượng khác). からこそ nhấn mạnh 'Chính vì lý do đó chứ không phải lý do nào khác'. Vế sau của からこそ thường là kết quả tích cực.",
       "en": "⚠️ JLPT Trap: こそ strongly emphasizes the preceding noun (excluding others). からこそ emphasizes 'Precisely for that reason and no other'. The latter clause after からこそ is usually a positive result."

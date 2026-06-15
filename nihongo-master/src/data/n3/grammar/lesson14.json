@@ -13,7 +13,6 @@
     ],
     "lesson": "Bài 14",
     "group": "Contrast",
-    "confusedWith": ["〜一方で", "〜反面", "〜に対して (hành động)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đối lập giữa 2 SỰ VẬT/NGƯỜI KHÁC NHAU. Khác với 一方で (2 mặt của CÙNG 1 sự vật). 兄は活発なのに対して弟はおとなしい (anh vs em — 2 người khác nhau).",
       "en": "⚠️ JLPT Trap: Contrast between 2 DIFFERENT things/people. vs. 一方で (2 aspects of SAME thing). 兄は活発なのに対して弟はおとなしい (brother vs brother — 2 different people)."
@@ -42,10 +41,11 @@
       "vi": "Đối với... / Hướng về... (thái độ, hành động hướng trực tiếp vào đối tượng)",
       "en": "Towards... / Against... / Regarding... (attitude/action directed at target)"
     },
-    "formation": ["N + に対して / に対し / に対する + N"],
+    "formation": [
+      "N + に対して / に対し / に対する + N"
+    ],
     "lesson": "Bài 14",
     "group": "Particles",
-    "confusedWith": ["〜にとって", "〜について", "〜のに対して (tương phản)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Biểu thị thái độ/hành động hướng trực tiếp vào đối tượng. Phân biệt: に対して=hành động/thái độ hướng vào ai/gì, にとって=đánh giá từ góc nhìn của ai, について=chủ đề của hành động.",
       "en": "⚠️ JLPT Trap: Indicates attitude/action directed at a target. に対して=action/attitude toward someone, にとって=evaluation from someone's perspective, について=topic of an action."
@@ -74,10 +74,11 @@
       "vi": "Đối với... (đứng từ lập trường/quan điểm của... → đánh giá)",
       "en": "For... / To... / From the perspective of... (followed by evaluation)"
     },
-    "formation": ["N + にとって / にとっては / にとっても / にとっての + N"],
+    "formation": [
+      "N + にとって / にとっては / にとっても / にとっての + N"
+    ],
     "lesson": "Bài 14",
     "group": "Particles",
-    "confusedWith": ["〜に対して", "〜からすると", "〜から見ると"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: LỖI SAI KINH ĐIỂN — nhầm với に対して. にとって: vế sau LUÔN là ĐÁNH GIÁ (A-い/A-な/N). KHÔNG BAO GIỜ theo sau bởi hành động. に対して: vế sau là hành động/thái độ.",
       "en": "⚠️ JLPT Trap: CLASSIC MISTAKE — confused with に対して. にとって: latter clause is ALWAYS an EVALUATION (adj/noun). NEVER followed by action. に対して: followed by action/attitude."
@@ -106,10 +107,11 @@
       "vi": "So với... (đặt hai sự vật lên bàn cân so sánh mức độ)",
       "en": "Compared to... / In comparison with..."
     },
-    "formation": ["N + に比べて / と比べて"],
+    "formation": [
+      "N + に比べて / と比べて"
+    ],
     "lesson": "Bài 14",
     "group": "Contrast",
-    "confusedWith": ["〜より", "〜のに対して", "〜と違って"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: So sánh mức độ giữa A và B. Không nhất thiết phải đối lập hoàn toàn, chỉ cần xem xét mức độ khác biệt. Khác với より (chọn bên nào ưu việt hơn trong hai).",
       "en": "⚠️ JLPT Trap: Compares degree between A and B. Doesn't need to be completely opposite, just comparing relative degrees. Unlike より (choosing which side is superior between two)."
@@ -144,7 +146,6 @@
     ],
     "lesson": "Bài 14",
     "group": "Particles",
-    "confusedWith": ["〜で (địa điểm)", "〜について", "〜にわたって"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Là cách nói TRANG TRỌNG của trợ từ で. Chỉ dùng trong văn bản chính thức, tin tức, báo chí. における dùng trực tiếp trước danh từ (bổ ngữ).",
       "en": "⚠️ JLPT Trap: FORMAL equivalent of particle で. Only used in official documents, news, journalism. における used directly before nouns (as a modifier)."
@@ -179,7 +180,6 @@
     ],
     "lesson": "Bài 14",
     "group": "Particles",
-    "confusedWith": ["〜に対して", "〜にとって", "〜に関して"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Nêu NỘI DUNG, CHỦ ĐỀ của hành động. Vế sau BẮT BUỘC là động từ liên quan đến truyền đạt/tư duy (話す, 書く, 考える, 調べる...). Phân biệt: について=chủ đề nói về gì, に関して=liên quan đến (trang trọng hơn).",
       "en": "⚠️ JLPT Trap: States the CONTENT/TOPIC of an action. Latter clause MUST be communication/thinking verbs (talk, write, think, investigate...). について=topic of speech, に関して=concerning (more formal)."

@@ -13,7 +13,6 @@
     ],
     "lesson": "Bài 11",
     "group": "Hearsay_Quotation",
-    "confusedWith": ["〜ようだ (so sánh)", "〜ようにする", "〜と言う (trực tiếp)"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: Đây là lời trích dẫn gián tiếp (間接話法). Khác với trích dẫn trực tiếp dùng 「〜てください」と言う. Không thể dùng mệnh lệnh trực tiếp (〜しろ、〜なさい) sau ように.",
       "en": "⚠️ JLPT Trap: This is indirect speech (間接話法). Unlike direct quotation 「〜てください」と言う. Cannot use direct commands (〜しろ、〜なさい) after ように."
@@ -49,7 +48,6 @@
     ],
     "lesson": "Bài 11",
     "group": "Inference",
-    "confusedWith": ["〜みたいだ", "〜そうだ", "〜らしい"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: ようだ dùng để: (1) Phán đoán dựa vào bằng chứng trực tiếp ngũ quan, (2) So sánh ví von (A cứ như là B). Trang trọng hơn みたいだ. ような+N, ように+V.",
       "en": "⚠️ JLPT Trap: ようだ for: (1) Judgment based on direct sensory evidence, (2) Simile (A is just like B). More formal than みたいだ. ような+N, ように+V."
@@ -85,7 +83,6 @@
     ],
     "lesson": "Bài 11",
     "group": "Inference",
-    "confusedWith": ["〜ようだ", "〜らしい", "〜そうだ"],
     "caution": {
       "vi": "⚠️ Bẫy JLPT: みたいだ là thể VĂN NÓI của ようだ. CHÚ Ý: Danh từ ghép TRỰC TIẾP với みたい (KHÔNG có の), trong khi ようだ cần N + の + ようだ.",
       "en": "⚠️ JLPT Trap: みたいだ is the CASUAL SPOKEN form of ようだ. KEY DIFFERENCE: Nouns attach DIRECTLY to みたい (NO の needed), while ようだ requires N + の + ようだ."

@@ -22,15 +22,7 @@ function makeWrongSentence(g: typeof grammarN3[0], ex: typeof grammarN3[0]['exam
   let wrongStructure = '';
   const sameGroup = grammarN3.filter(x => x.group === g.group && x.id !== g.id);
 
-  if (g.confusedWith && g.confusedWith.length > 0) {
-    const confusedItem = grammarN3.find(x => x.structure.includes(g.confusedWith![0]));
-    if (confusedItem) {
-      const exMatch = confusedItem.examples[0]?.jp.match(/\[([^\]]+)\]/);
-      wrongStructure = exMatch ? exMatch[1] : confusedItem.structure.replace(/〜/g, '').split('/')[0];
-    } else {
-      wrongStructure = g.confusedWith[0].replace(/〜/g, '');
-    }
-  } else if (sameGroup.length > 0) {
+  if (sameGroup.length > 0) {
     const randItem = sameGroup[Math.floor(Math.random() * sameGroup.length)];
     const exMatch = randItem.examples[0]?.jp.match(/\[([^\]]+)\]/);
     wrongStructure = exMatch ? exMatch[1] : randItem.structure.replace(/〜/g, '').split('/')[0];
