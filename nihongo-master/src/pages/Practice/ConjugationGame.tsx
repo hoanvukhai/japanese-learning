@@ -298,9 +298,9 @@ export default function Practice() {
     : { flip: 'Lật thẻ', type: 'Nhập liệu', forget: 'Quên', remember: 'Nhớ', newRound: 'Vòng mới', done: 'Hoàn thành!', doneDesc: 'Đã nhớ 100%', modeLabel: (m: string) => m === 'quiz' ? '🎯 Quiz' : '🎲 Random' };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-4 px-4 transition-colors">
+    <div className="min-h-[calc(100vh-3.5rem)] flex flex-col items-center py-4 px-4 transition-colors">
       {/* HEADER */}
-      <div className="w-full max-w-md mb-8 space-y-4">
+      <div className="w-full max-w-md mb-3 space-y-4">
         <button 
           onClick={() => navigate('/practice/conjugation')} 
           className="group flex items-center text-slate-500 hover:text-indigo-600 font-semibold mb-2 transition-colors"
@@ -346,11 +346,11 @@ export default function Practice() {
             {/* QUIZ – Màn hoàn thành */}
             {isQuizMode && isFinished ? (
               <div className="w-80 h-96 sm:w-96 sm:h-[26rem] bg-white dark:bg-slate-800 rounded-2xl shadow-xl flex flex-col items-center justify-center p-8 text-center border-2 border-green-200 dark:border-green-800">
-                <div className="w-20 h-20 bg-green-100 dark:bg-green-900/30 text-green-600 rounded-full flex items-center justify-center mb-6">
+                <div className="w-20 h-20 bg-green-100 dark:bg-green-900/30 text-green-600 rounded-full flex items-center justify-center mb-3">
                   <CheckCircle size={40} />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.done}</h2>
-                <p className="text-gray-500 dark:text-gray-400 mb-8">
+                <p className="text-gray-500 dark:text-gray-400 mb-3">
                   {t.doneDesc} ({quizTotal}/{quizTotal})
                 </p>
                 <div className="flex gap-4">
@@ -387,9 +387,9 @@ export default function Practice() {
 
                 {/* QUIZ CONTROLS */}
                 {isQuizMode ? (
-                  <div className="w-full flex flex-col items-center mt-8">
+                  <div className="w-full flex flex-col items-center mt-4">
                     {/* Thanh tiến độ */}
-                    <div className="w-full max-w-sm flex items-center gap-3 mb-6">
+                    <div className="w-full max-w-sm flex items-center gap-3 mb-3">
                       <div className="text-xs font-bold text-slate-400 w-8">{rememberedCount}</div>
                       <div className="flex-1 h-3 bg-gray-200 dark:bg-slate-700 rounded-full overflow-hidden">
                         <div
@@ -445,7 +445,7 @@ export default function Practice() {
                   </div>
                 ) : (
                   // ENDLESS CONTROLS
-                  <div className="flex flex-col items-center mt-8 gap-3">
+                  <div className="flex flex-col items-center mt-4 gap-3">
                     <EndlessControls onNext={handleEndlessNext} onOpenSettings={() => setIsSettingsOpen(true)} />
                     {/* Hint phím tắt Random */}
                     {settings.keybindsEnabled && (

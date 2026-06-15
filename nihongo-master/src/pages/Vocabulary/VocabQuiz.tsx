@@ -81,13 +81,13 @@ export default function VocabQuiz() {
   // ──────────── SETUP ────────────
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-8 transition-colors">
+          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">📝 Trắc nghiệm</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">4 đáp án — chọn đáp án đúng.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">4 đáp án — chọn đáp án đúng.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             <VocabLessonChips
@@ -171,16 +171,16 @@ export default function VocabQuiz() {
     const total = score + wrong;
     const pct = Math.round((score / total) * 100);
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center"
+          className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-lg max-w-xs w-full text-center"
         >
-          <Trophy className="mx-auto mb-4 text-amber-400" size={56} />
+          <Trophy className="mx-auto mb-3 text-amber-400" size={56} />
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-1">Kết quả</h2>
           <div className="text-6xl font-black text-blue-600 dark:text-blue-400 my-4">{pct}%</div>
-          <div className="flex gap-3 mb-8">
+          <div className="flex gap-3 mb-3">
             <div className="flex-1 bg-green-50 dark:bg-green-900/30 rounded-xl p-3">
               <div className="text-xl font-bold text-green-600">{score}</div>
               <div className="text-xs text-green-600">Đúng</div>
@@ -209,7 +209,7 @@ export default function VocabQuiz() {
   const questionSub = direction === 'forward' && showFurigana ? current.hiragana : null;
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-lg mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-5">
@@ -234,7 +234,7 @@ export default function VocabQuiz() {
         </div>
 
         {/* Progress */}
-        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div className="h-full bg-blue-500 rounded-full" animate={{ width: `${progress}%` }} transition={{ duration: 0.3 }} />
         </div>
 
@@ -247,9 +247,9 @@ export default function VocabQuiz() {
             exit={{ opacity: 0, x: -30 }}
             transition={{ duration: 0.2 }}
           >
-            <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-sm border border-slate-100 dark:border-slate-700 mb-6 text-center">
+            <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-sm border border-slate-100 dark:border-slate-700 mb-3 text-center">
               {current.lesson && (
-                <span className="text-xs bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 px-3 py-1 rounded-full font-medium mb-4 inline-block">
+                <span className="text-xs bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 px-3 py-1 rounded-full font-medium mb-3 inline-block">
                   {current.lesson}
                 </span>
               )}

@@ -33,7 +33,7 @@ export default function VocabResult({
   onBack,
 }: VocabResultProps) {
   const exp = calcExp(score, streak, timeLeft ?? 0, level, correct, total);
-  const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total);
+  const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total, maxExp);
 
   const storageKey = getStorageKey('vocab', level);
   const isNewBest = saveBestRecord(storageKey, exp, level, total, maxExp, correct === total);

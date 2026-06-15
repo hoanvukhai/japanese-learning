@@ -107,13 +107,13 @@ export default function VocabMatching() {
   // ──────────── SETUP ────────────
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-8 transition-colors">
+          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2 font-display">🧩 Nối từ</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">Trò chơi ghép nối phản xạ siêu tốc.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Trò chơi ghép nối phản xạ siêu tốc.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             <VocabLessonChips
@@ -173,10 +173,10 @@ export default function VocabMatching() {
   // ──────────── GAME ────────────
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-2xl mx-auto">
         {/* Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Quay lại
           </button>
@@ -243,7 +243,7 @@ export default function VocabMatching() {
               <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-2xl max-w-sm w-full text-center">
                 <Trophy className="mx-auto mb-3 text-amber-400" size={48} />
                 <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Xuất sắc!</h2>
-                <p className="text-slate-500 dark:text-slate-400 mb-6">
+                <p className="text-slate-500 dark:text-slate-400 mb-3">
                   Bạn đã nối đúng tất cả {tiles.length / 2} cặp từ!
                 </p>
                 <div className="space-y-3">

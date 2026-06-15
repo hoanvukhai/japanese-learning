@@ -151,13 +151,30 @@ export function getRankByExp(score: number): Rank {
   return RANKS[0];
 }
 
-export function getRankModifier(exp: number, level: Level, isPerfectRun: boolean): { rank: Rank; modifier: string; isPerfect: boolean } {
+export function getRankModifier(
+  exp: number,
+  level: Level,
+  isPerfectRun: boolean,
+  maxExp?: number
+): { rank: Rank; modifier: string; isPerfect: boolean } {
   if (isPerfectRun) {
     const rank = RANKS[RANKS.length - 1]; // S rank
     return { rank, modifier: '+', isPerfect: true }; // S+
   }
 
-  const thresholds = LEVEL_EXP_THRESHOLDS[level];
+  let thresholds = LEVEL_EXP_THRESHOLDS[level];
+
+  if (maxExp && maxExp > 0) {
+    thresholds = {
+      F: 0,
+      E: Math.round(maxExp * 0.20),
+      D: Math.round(maxExp * 0.40),
+      C: Math.round(maxExp * 0.55),
+      B: Math.round(maxExp * 0.70),
+      A: Math.round(maxExp * 0.82),
+      S: Math.round(maxExp * 0.92),
+    };
+  }
 
   // Find the rank
   let actualRankIdx = 0;
@@ -175,7 +192,7 @@ export function getRankModifier(exp: number, level: Level, isPerfectRun: boolean
 
   if (rank.badge === 'S') {
     const minS = thresholds.S;
-    const maxS = thresholds.S * 1.25;
+    const maxS = maxExp && maxExp > minS ? maxExp : thresholds.S * 1.25;
     const range = maxS - minS;
     if (exp < minS + range / 3) {
       modifier = '-';
@@ -254,5 +271,6 @@ export function saveBestRecord(key: string, exp: number, level: Level, totalQ: n
 export function getRankForRecord(key: string): { rank: Rank; modifier: string; isPerfect: boolean } | null {
   const record = getBestRecord(key);
   if (record.exp <= 0) return null;
-  return getRankModifier(record.exp, record.level, !!record.isPerfect);
+  const maxExpFallback = record.maxExp || getMaxExp(record.level, record.totalQ || 25);
+  return getRankModifier(record.exp, record.level, !!record.isPerfect, maxExpFallback);
 }

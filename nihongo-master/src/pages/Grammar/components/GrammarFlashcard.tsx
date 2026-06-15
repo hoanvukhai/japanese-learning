@@ -31,7 +31,8 @@ export default function GrammarFlashcard({
       >
         {/* Front */}
         <motion.div
-          className="absolute inset-0 backface-hidden bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-xl border border-slate-100 dark:border-slate-700 flex flex-col items-center justify-center text-center"
+          className="absolute inset-0 bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-xl border border-slate-100 dark:border-slate-700 flex flex-col items-center justify-center text-center"
+          style={{ backfaceVisibility: 'hidden' }}
           animate={{ rotateY: flashFlipped ? -180 : 0 }}
           transition={{ duration: 0.5, type: 'spring' }}
         >
@@ -44,7 +45,8 @@ export default function GrammarFlashcard({
         
         {/* Back */}
         <motion.div
-          className="absolute inset-0 backface-hidden bg-indigo-50 dark:bg-indigo-900/30 rounded-3xl p-6 shadow-xl border border-indigo-200 dark:border-indigo-800/50 flex flex-col items-center justify-center text-center"
+          className="absolute inset-0 bg-indigo-50 dark:bg-indigo-900/30 rounded-3xl p-6 shadow-xl border border-indigo-200 dark:border-indigo-800/50 flex flex-col items-center justify-center text-center"
+          style={{ backfaceVisibility: 'hidden' }}
           initial={{ rotateY: 180 }}
           animate={{ rotateY: flashFlipped ? 0 : 180 }}
           transition={{ duration: 0.5, type: 'spring' }}

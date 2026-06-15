@@ -150,8 +150,8 @@ export default function GrammarFullRun() {
         correctAnswer = q.isCorrect ? 'Đúng' : 'Sai';
         promptText = q.isCorrect ? q.correctSentence.replace(/[<>]/g, '') : q.wrongSentence.replace(/[<>]/g, '');
       } else if (currentQ.type === 'matching') {
-        userAnswer = `${matchCorrectCount} cặp đúng, ${matchWrongCount} lần sai`;
-        correctAnswer = 'Đúng hết 8 cặp';
+        userAnswer = `${matchWrongCount} lần sai`;
+        correctAnswer = '0 lần sai';
         promptText = 'Nối cặp từ (8 cặp)';
       }
 
@@ -334,7 +334,7 @@ export default function GrammarFullRun() {
 
 
   return (
-    <div className={`min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors duration-500 ${isLivesCritical ? 'ring-[4px] ring-red-500/50 ring-inset' : ''}`}>
+    <div className={`min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors duration-500 ${isLivesCritical ? 'ring-[4px] ring-red-500/50 ring-inset' : ''}`}>
       {/* Top bar */}
       <div className="flex items-center justify-between px-4 pt-3 pb-2 bg-white dark:bg-slate-800 border-b border-slate-100 dark:border-slate-700">
         <button onClick={() => setDone(true)} className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500">

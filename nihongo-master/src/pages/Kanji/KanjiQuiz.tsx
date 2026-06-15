@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, Eye, EyeOff } from 'lucide-react';
@@ -118,6 +118,8 @@ export default function KanjiQuiz() {
     return shuffle(allOptions);
   }, [current, pool]);
 
+  useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
+
   const handleStart = () => {
     setQueue(pool);
     setScore(0);
@@ -155,13 +157,13 @@ export default function KanjiQuiz() {
 
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-8 transition-colors">
+          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🎯 Trắc nghiệm Kanji</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">Kiểm tra khả năng đọc hiểu chữ Hán hoặc từ vựng ghép.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Kiểm tra khả năng đọc hiểu chữ Hán hoặc từ vựng ghép.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             <KanjiLessonChips
@@ -275,15 +277,15 @@ export default function KanjiQuiz() {
 
   if (queue.length === 0) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center"
+          className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-lg max-w-xs w-full text-center"
         >
-          <div className="text-6xl mb-4">🏆</div>
+          <div className="text-5xl mb-3">🏆</div>
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Hoàn thành!</h2>
-          <p className="text-slate-500 dark:text-slate-400 mb-6">Điểm của bạn: {score} / {pool.length}</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Điểm của bạn: {score} / {pool.length}</p>
 
           <div className="space-y-3">
             <button
@@ -304,9 +306,9 @@ export default function KanjiQuiz() {
   const progress = ((pool.length - queue.length) / pool.length) * 100;
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-lg mx-auto">
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Thoát
           </button>
@@ -331,7 +333,7 @@ export default function KanjiQuiz() {
           </div>
         </div>
 
-        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div
             className="h-full bg-emerald-500 rounded-full"
             animate={{ width: `${progress}%` }}
@@ -345,15 +347,15 @@ export default function KanjiQuiz() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
-            className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-xl border border-slate-100 dark:border-slate-700 mb-8"
+            className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-xl border border-slate-100 dark:border-slate-700 mb-3"
           >
-            <div className="text-center mb-8">
+            <div className="text-center mb-3">
               <div className="text-sm text-slate-500 dark:text-slate-400 mb-2 font-medium">{current.questionText}</div>
-              <div className={`text-slate-800 dark:text-white mb-4 ${getTargetSize(current.target)}`}>
+              <div className={`text-slate-800 dark:text-white mb-3 ${getTargetSize(current.target)}`}>
                 {current.target}
               </div>
               {showFurigana && current.targetHiragana && (
-                <div className="text-xl text-slate-400 dark:text-slate-500 mb-4 font-medium">{current.targetHiragana}</div>
+                <div className="text-xl text-slate-400 dark:text-slate-500 mb-3 font-medium">{current.targetHiragana}</div>
               )}
               {current.hint && <div className="text-slate-500 dark:text-slate-400 text-sm font-medium">{current.hint}</div>}
             </div>

@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2, Eye, EyeOff } from 'lucide-react';
@@ -56,6 +56,8 @@ export default function KanjiFlashcard() {
 
   const current = queue[0];
 
+  useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
+
   const handleStart = () => {
     setQueue(pool);
     setKnown([]);
@@ -96,13 +98,13 @@ export default function KanjiFlashcard() {
 
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-8 transition-colors">
+          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ Kanji</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">Ôn tập chữ Hán và các từ vựng đi kèm.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Ôn tập chữ Hán và các từ vựng đi kèm.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             <KanjiLessonChips
@@ -216,17 +218,17 @@ export default function KanjiFlashcard() {
   if (queue.length === 0) {
     const total = known.length + learning.length;
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center"
+          className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-lg max-w-xs w-full text-center"
         >
-          <div className="text-6xl mb-4">🎉</div>
+          <div className="text-5xl mb-3">🎉</div>
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Hoàn thành!</h2>
-          <p className="text-slate-500 dark:text-slate-400 mb-6">Bạn đã ôn xong {total} thẻ.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Bạn đã ôn xong {total} thẻ.</p>
 
-          <div className="flex gap-3 mb-6">
+          <div className="flex gap-3 mb-3">
             <div className="flex-1 bg-green-50 dark:bg-green-900/30 rounded-xl p-4">
               <div className="text-2xl font-bold text-green-600 dark:text-green-400">{known.length}</div>
               <div className="text-xs text-green-600 dark:text-green-400">Đã nhớ</div>
@@ -273,9 +275,9 @@ export default function KanjiFlashcard() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-lg mx-auto">
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Cài đặt
           </button>
@@ -298,7 +300,7 @@ export default function KanjiFlashcard() {
           </div>
         </div>
 
-        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div
             className="h-full bg-violet-500 rounded-full"
             animate={{ width: `${progress}%` }}
@@ -340,7 +342,7 @@ export default function KanjiFlashcard() {
                         {current.hiragana}
                       </div>
                     )}
-                    <div className="mt-6 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
+                    <div className="mt-4 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
                       <RotateCcw size={14} /> Chạm để lật
                     </div>
                   </>
@@ -351,11 +353,11 @@ export default function KanjiFlashcard() {
                         <div className="text-violet-200 text-sm mb-2 font-medium uppercase tracking-widest">
                           {direction === 'forward' ? 'Hán Việt' : 'Chữ Hán'}
                         </div>
-                        <div className="text-5xl font-black mb-6 text-white">
+                        <div className="text-5xl font-black mb-3 text-white">
                           {direction === 'forward' ? current.hanViet : current.character}
                         </div>
 
-                        <div className="space-y-3 mt-6 text-left w-full border-t border-violet-500 pt-6 max-h-[300px] overflow-y-auto pr-1">
+                        <div className="space-y-3 mt-4 text-left w-full border-t border-violet-500 pt-6 max-h-[300px] overflow-y-auto pr-1">
                           {current.words && current.words.map((w: any, idx: number) => (
                             <div key={idx} className="bg-white/10 rounded-xl p-3 flex flex-col justify-between items-start">
                               <div className="flex w-full justify-between items-start">
@@ -391,15 +393,15 @@ export default function KanjiFlashcard() {
                         <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">
                           {direction === 'forward' ? 'Ý nghĩa' : 'Từ ghép'}
                         </div>
-                        <div className="text-3xl font-extrabold mb-4 text-white">
+                        <div className="text-3xl font-extrabold mb-3 text-white">
                           {direction === 'forward' ? current.meaning : current.word}
                         </div>
 
                         <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">Cách đọc</div>
-                        <div className="text-3xl font-extrabold mb-4 text-white">{current.hiragana}</div>
+                        <div className="text-3xl font-extrabold mb-3 text-white">{current.hiragana}</div>
                         
                         <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">Hán Việt</div>
-                        <div className="text-2xl font-bold mb-6 text-white">{current.hanVietWord}</div>
+                        <div className="text-2xl font-bold mb-3 text-white">{current.hanVietWord}</div>
 
                         {current.examples && current.examples.length > 0 && (
                           <div className="w-full mt-4 pt-4 border-t border-violet-500 text-left">
@@ -425,7 +427,7 @@ export default function KanjiFlashcard() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 8 }}
-              className="flex gap-4 mt-6"
+              className="flex gap-4 mt-4"
             >
               <button
                 onClick={() => handleResult(false)}
@@ -443,7 +445,7 @@ export default function KanjiFlashcard() {
           )}
         </AnimatePresence>
 
-        <div className="flex justify-center gap-6 mt-6 text-sm">
+        <div className="flex justify-center gap-6 mt-4 text-sm">
           <span className="flex items-center gap-1 text-green-500">
             <CheckCircle2 size={14} /> {known.length} nhớ
           </span>

@@ -1,5 +1,5 @@
 // src/pages/Grammar/GrammarFlashcard.tsx
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -71,6 +71,8 @@ export default function GrammarFlashcard() {
     );
   };
 
+  useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
+
   const handleStart = () => {
     setQueue(pool);
     setKnown([]);
@@ -107,15 +109,15 @@ export default function GrammarFlashcard() {
     const totalCount = pool.length;
 
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-1">🃏 Lật thẻ Ngữ Pháp</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">Ôn cấu trúc và nghĩa qua thẻ ghi nhớ hai mặt.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Ôn cấu trúc và nghĩa qua thẻ ghi nhớ hai mặt.</p>
 
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
+          <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 md:p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-4">
 
             {/* Mode: normal / reverse */}
             <div>
@@ -176,17 +178,17 @@ export default function GrammarFlashcard() {
   if (queue.length === 0) {
     const total = known.length + learning.length;
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center"
+          className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-lg max-w-xs w-full text-center"
         >
-          <div className="text-6xl mb-4">🎉</div>
+          <div className="text-5xl mb-3">🎉</div>
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Hoàn thành!</h2>
-          <p className="text-slate-500 dark:text-slate-400 mb-6">Bạn đã ôn xong {total} thẻ.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Bạn đã ôn xong {total} thẻ.</p>
 
-          <div className="flex gap-3 mb-6">
+          <div className="flex gap-3 mb-3">
             <div className="flex-1 bg-green-50 dark:bg-green-900/30 rounded-xl p-4">
               <div className="text-2xl font-bold text-green-600 dark:text-green-400">{known.length}</div>
               <div className="text-xs text-green-600 dark:text-green-400">Đã nhớ</div>
@@ -233,11 +235,11 @@ export default function GrammarFlashcard() {
   const frontLabel = cardMode === 'normal' ? 'Cấu trúc' : 'Nghĩa';
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-3xl mx-auto">
 
         {/* Top bar */}
-        <div className="flex items-center justify-between mb-6 gap-3">
+        <div className="flex items-center justify-between mb-3 gap-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors flex-shrink-0">
             <ArrowLeft size={18} />
           </button>
@@ -266,7 +268,7 @@ export default function GrammarFlashcard() {
         </div>
 
         {/* Progress bar */}
-        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div
             className="h-full bg-gradient-to-r from-teal-500 to-cyan-500 rounded-full"
             animate={{ width: `${progress}%` }}
@@ -275,7 +277,7 @@ export default function GrammarFlashcard() {
         </div>
 
         {/* Tags */}
-        <div className="flex justify-center gap-2 mb-4">
+        <div className="flex justify-center gap-2 mb-3">
           <span className="text-xs bg-teal-100 dark:bg-teal-900/40 text-teal-600 dark:text-teal-400 px-3 py-1 rounded-full font-medium">
             {current.lesson}
           </span>
@@ -312,7 +314,7 @@ export default function GrammarFlashcard() {
                     {showFurigana && frontKana && (
                       <div className="text-sm text-slate-400 dark:text-slate-500 font-mono mt-1">{frontKana}</div>
                     )}
-                    <div className="mt-6 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
+                    <div className="mt-4 text-sm text-slate-400 dark:text-slate-500 flex items-center gap-1">
                       <RotateCcw size={14} /> Chạm để lật
                     </div>
                   </>
@@ -392,7 +394,7 @@ export default function GrammarFlashcard() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 8 }}
-              className="flex gap-4 mt-6"
+              className="flex gap-4 mt-4"
             >
               <button
                 onClick={() => handleResult(false)}
@@ -411,7 +413,7 @@ export default function GrammarFlashcard() {
         </AnimatePresence>
 
         {/* Score */}
-        <div className="flex justify-center gap-6 mt-6 text-sm">
+        <div className="flex justify-center gap-6 mt-4 text-sm">
           <span className="flex items-center gap-1 text-green-500">
             <CheckCircle2 size={14} /> {known.length} nhớ
           </span>

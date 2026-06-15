@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Info } from 'lucide-react';
+import {  } from 'lucide-react';
 import { formatKeyForDisplay } from './VocabCommon';
 import type { ErrorQ } from './VocabCommon';
 import shortcuts from '../../../data/shortcuts.json';
@@ -78,16 +78,7 @@ export default function VocabError({
           >
             {errorCorrect ? '🎉 Chính xác!' : `❌ Sai! Nghĩa đúng: ${q.actualMeaning}`}
           </motion.div>
-          {q.explanation && (
-            <div className="p-3 bg-indigo-50/50 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-900 rounded-xl text-left text-sm text-slate-600 dark:text-slate-300">
-              <div className="font-semibold text-indigo-600 dark:text-indigo-400 mb-1 flex items-center gap-1.5">
-                <Info size={14} /> Giải thích chi tiết:
-              </div>
-              <div className="whitespace-pre-line leading-relaxed">
-                {q.explanation}
-              </div>
-            </div>
-          )}
+          
           <motion.button
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}

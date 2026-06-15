@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { shuffle } from './KanjiCommon';
 import type { MatchQ, Level } from './KanjiCommon';
@@ -25,6 +25,9 @@ export default function KanjiMatching({ q, showKana, level, onStateChange, onDon
   }, [q]);
 
   const [selected, setSelected] = useState<MatchTile | null>(null);
+  const selectedRef = useRef<MatchTile | null>(null);
+  selectedRef.current = selected;
+
   const [matched, setMatched] = useState<Set<string>>(new Set());
   const [wrongUids, setWrongUids] = useState<[string, string] | null>(null);
   const [wrongCount, setWrongCount] = useState(0);
@@ -34,19 +37,31 @@ export default function KanjiMatching({ q, showKana, level, onStateChange, onDon
 
   const handleTile = useCallback((tile: MatchTile) => {
     if (matched.has(tile.pairId) || wrongUids) return;
-    if (selected?.uid === tile.uid) { setSelected(null); return; }
-    if (!selected) { setSelected(tile); return; }
-    if (selected.pairId === tile.pairId && selected.side !== tile.side) {
+    
+    const currSel = selectedRef.current;
+    if (currSel?.uid === tile.uid) {
+      setSelected(null);
+      selectedRef.current = null;
+      return;
+    }
+    if (!currSel) {
+      setSelected(tile);
+      selectedRef.current = tile;
+      return;
+    }
+    if (currSel.pairId === tile.pairId && currSel.side !== tile.side) {
       const newMatched = new Set([...matched, tile.pairId]);
       setMatched(newMatched);
       setSelected(null);
+      selectedRef.current = null;
       onStateChange?.(newMatched.size, wrongCount);
       if (newMatched.size === total) {
         setTimeout(() => onDone(newMatched.size, wrongCount), 500);
       }
     } else {
-      setWrongUids([selected.uid, tile.uid]);
+      setWrongUids([currSel.uid, tile.uid]);
       setSelected(null);
+      selectedRef.current = null;
       const newWrongCount = wrongCount + 1;
       setWrongCount(newWrongCount);
       onStateChange?.(matched.size, newWrongCount);
@@ -59,7 +74,7 @@ export default function KanjiMatching({ q, showKana, level, onStateChange, onDon
         }
       }, 600);
     }
-  }, [matched, wrongUids, selected, wrongCount, total, onStateChange, onDone, level]);
+  }, [matched, wrongUids, wrongCount, total, onStateChange, onDone, level]);
 
   // Keyboard navigation & shortcuts
   useEffect(() => {
@@ -108,7 +123,7 @@ export default function KanjiMatching({ q, showKana, level, onStateChange, onDon
   return (
     <div className="space-y-2">
       <div className="text-center text-sm font-semibold text-slate-500 mb-1">
-        🔗 Nối cặp từ — <span className="text-amber-500">{matched.size}</span>/{total}
+        🔗 Nối cặp từ — <span className="text-amber-500">{matched.size}</span>/{total} <span className="mx-1.5 text-slate-300">|</span> Sai: <span className="text-red-500">{wrongCount}</span>
         <span className="ml-2 text-xs text-slate-400">Gõ phím tương ứng hoặc dùng phím mũi tên di chuyển</span>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
@@ -140,7 +155,7 @@ export default function KanjiMatching({ q, showKana, level, onStateChange, onDon
               className={`relative group p-2.5 rounded-xl text-sm font-bold border-2 transition-all text-center min-h-[64px] flex flex-col items-center justify-center ${stateClass}`}
             >
               {shortcuts.matching[idx] && !isMatched && (
-                <span className="absolute top-1 left-1.5 text-[9px] font-mono font-medium text-slate-400 dark:text-slate-500 bg-slate-100 dark:bg-slate-800 px-1 rounded opacity-75 group-hover:opacity-100 transition-opacity">
+                <span className="absolute -top-1.5 -left-1.5 w-5 h-5 flex items-center justify-center text-[10px] font-mono font-bold text-slate-500 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm opacity-90 group-hover:opacity-100 transition-opacity z-20">
                   {shortcuts.matching[idx].toUpperCase()}
                 </span>
               )}

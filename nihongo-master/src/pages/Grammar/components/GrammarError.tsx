@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Info, CheckCircle2, XCircle, AlertTriangle } from 'lucide-react';
+import { CheckCircle2, XCircle, AlertTriangle } from 'lucide-react';
 import { formatKeyForDisplay } from './GrammarCommon';
 import type { ErrorQ } from './GrammarCommon';
 import shortcuts from '../../../data/shortcuts.json';
@@ -120,16 +120,7 @@ export default function GrammarError({
             <div className="text-xs font-bold text-slate-500 mb-1 uppercase">Câu đúng phải là:</div>
             <div className="text-base">{renderHighlightedSentence(q.correctSentence, 'idle')}</div>
           </div>
-          {q.explanation && (
-            <div className="p-3 bg-indigo-50/50 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-900 rounded-xl text-left text-sm text-slate-600 dark:text-slate-300">
-              <div className="font-semibold text-indigo-600 dark:text-indigo-400 mb-1 flex items-center gap-1.5">
-                <Info size={14} /> Giải thích chi tiết:
-              </div>
-              <div className="whitespace-pre-line leading-relaxed">
-                {q.explanation}
-              </div>
-            </div>
-          )}
+          
           <div className="flex gap-2 text-sm text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-xl border border-amber-200 dark:border-amber-800">
             <AlertTriangle size={16} className="mt-0.5 flex-shrink-0" />
             <div>

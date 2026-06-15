@@ -260,14 +260,14 @@ export default function KeigoQuest() {
   if (isGameOver || isFinished) {
     const won = isFinished && !isGameOver;
     return (
-      <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex items-center justify-center p-6">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-100 dark:bg-slate-900 flex items-center justify-center p-6">
         <motion.div initial={{scale:0.8,opacity:0}} animate={{scale:1,opacity:1}}
           className="w-full max-w-sm bg-white dark:bg-slate-800 rounded-3xl p-8 text-center shadow-2xl border border-slate-200 dark:border-slate-700">
-          <div className="text-6xl mb-4">{won?'🏆':'💀'}</div>
+          <div className="text-5xl mb-3">{won?'🏆':'💀'}</div>
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">
             {won?(lang==='vi'?'Xuất sắc!':'Excellent!'):(lang==='vi'?'Game Over!':'Game Over!')}
           </h2>
-          <p className="text-slate-500 dark:text-slate-400 mb-6">{lang==='vi'?`Điểm số: ${score}`:`Score: ${score}`}</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">{lang==='vi'?`Điểm số: ${score}`:`Score: ${score}`}</p>
           <div className="flex gap-3">
             <button onClick={()=>navigate('/practice/keigo')} className="flex-1 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 text-slate-700 dark:text-white rounded-2xl font-semibold">
               {lang==='vi'?'Quay lại':'Back'}
@@ -282,7 +282,7 @@ export default function KeigoQuest() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-100 dark:bg-slate-900 flex flex-col">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-100 dark:bg-slate-900 flex flex-col">
       {/* TOP BAR */}
       <div className="flex items-center justify-between px-4 pt-4 pb-2">
         <button onClick={()=>navigate('/practice/keigo')} className="p-2 rounded-full bg-white dark:bg-slate-800 text-slate-500 hover:text-slate-800 border border-slate-200 shadow-sm">
@@ -310,8 +310,8 @@ export default function KeigoQuest() {
       </div>
 
       {/* QUESTION CARD */}
-      <div className="mx-4 rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-800 p-5 mb-4 shadow-lg">
-        <div className="flex items-center justify-between mb-4">
+      <div className="mx-4 rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-800 p-5 mb-3 shadow-lg">
+        <div className="flex items-center justify-between mb-3">
           <span className="inline-block text-xs font-bold px-3 py-1 rounded-full bg-white/20 text-white">
             {isScenario ? (lang==='vi' ? 'Nhập vai' : 'Roleplay') : (lang==='vi' ? 'Chuyển đổi' : 'Conversion')}
           </span>

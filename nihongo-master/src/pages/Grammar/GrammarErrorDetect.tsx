@@ -1,5 +1,5 @@
 // src/pages/Grammar/GrammarErrorDetect.tsx
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, CheckCircle2, XCircle, AlertTriangle, Eye, EyeOff, Shuffle, MousePointerClick } from 'lucide-react';
@@ -130,6 +130,8 @@ export default function GrammarErrorDetect() {
     return shuffle([...correctOptions, wrongOption]);
   }, [current, pool, gameMode]);
 
+  useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
+
   const handleStart = () => {
     setQueue(pool);
     setScore(0);
@@ -210,17 +212,17 @@ export default function GrammarErrorDetect() {
 
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-red-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-red-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🔍 Tìm lỗi sai</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">
+          <p className="text-slate-500 dark:text-slate-400 mb-3">
             Tìm và phát hiện các lỗi sai ngữ pháp tinh vi được tạo từ các cấu trúc dễ gây nhầm lẫn.
           </p>
 
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
+          <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 md:p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-4">
 
             {/* Chế độ chơi */}
             <div>
@@ -320,16 +322,16 @@ export default function GrammarErrorDetect() {
   if (queue.length === 0) {
     const pct = Math.round((score / pool.length) * 100);
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center"
+          className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-lg max-w-xs w-full text-center"
         >
-          <div className="text-6xl mb-4">{pct >= 80 ? '🎯' : pct >= 50 ? '👀' : '😅'}</div>
+          <div className="text-5xl mb-3">{pct >= 80 ? '🎯' : pct >= 50 ? '👀' : '😅'}</div>
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Hoàn thành</h2>
           <div className="text-5xl font-black text-red-600 dark:text-red-400 mb-1">{score}<span className="text-2xl text-slate-400">/{pool.length}</span></div>
-          <p className="text-slate-500 dark:text-slate-400 mb-6">{pct}% chính xác</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">{pct}% chính xác</p>
 
           <div className="space-y-3">
             <button
@@ -351,12 +353,12 @@ export default function GrammarErrorDetect() {
   const displaySentence = current.isCorrect ? current.correctSentence : current.wrongSentence;
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans flex flex-col justify-center">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans flex flex-col justify-center">
       <div className="max-w-3xl w-full mx-auto flex flex-col justify-between min-h-[500px]">
 
         <div className="w-full flex-shrink-0">
           {/* Top bar */}
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-red-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Thoát
           </button>
@@ -385,13 +387,13 @@ export default function GrammarErrorDetect() {
         </div>
 
         {/* Status bar */}
-        <div className="flex items-center justify-between mb-4 px-1">
+        <div className="flex items-center justify-between mb-3 px-1">
           <div className="text-sm font-bold text-red-600 dark:text-red-400">{score} điểm</div>
           <div className="text-sm text-slate-500 dark:text-slate-400">{pool.length - queue.length + 1} / {pool.length}</div>
         </div>
         
         {/* Progress */}
-        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div
             className="h-full bg-gradient-to-r from-red-500 to-orange-500 rounded-full"
             animate={{ width: `${progress}%` }}
@@ -413,7 +415,7 @@ export default function GrammarErrorDetect() {
             {gameMode === 'truefalse' && (
               <>
                 <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-xl border border-slate-100 dark:border-slate-700">
-                  <div className="flex justify-center gap-2 mb-6">
+                  <div className="flex justify-center gap-2 mb-3">
                     <span className="text-[10px] uppercase tracking-wider font-bold text-slate-400 border px-2 py-1 rounded-full">
                       {current.lesson}
                     </span>
@@ -428,7 +430,7 @@ export default function GrammarErrorDetect() {
                     </div>
                     
                     {showFurigana && current.kana && (
-                      <div className="text-sm text-slate-400 dark:text-slate-500 font-mono mt-2 mb-4">
+                      <div className="text-sm text-slate-400 dark:text-slate-500 font-mono mt-2 mb-3">
                         {current.kana}
                       </div>
                     )}
@@ -463,7 +465,7 @@ export default function GrammarErrorDetect() {
             {/* Chế độ Pick Wrong */}
             {gameMode === 'pickwrong' && (
               <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-xl border border-slate-100 dark:border-slate-700">
-                <div className="text-center mb-6">
+                <div className="text-center mb-3">
                   <div className="text-sm font-bold text-red-600 dark:text-red-400 mb-1">Hãy chọn câu bị SAI ngữ pháp</div>
                   <div className="text-xs text-slate-500 dark:text-slate-400">Chỉ có 1 câu duy nhất dùng sai cấu trúc</div>
                 </div>
@@ -514,7 +516,7 @@ export default function GrammarErrorDetect() {
                       : 'bg-red-50 dark:bg-red-900/20 border-2 border-red-400'
                   }`}
                 >
-                  <div className="flex items-center gap-2 mb-4">
+                  <div className="flex items-center gap-2 mb-3">
                     {status === 'success' ? (
                       <><CheckCircle2 className="text-green-500" /><span className="font-bold text-green-700 dark:text-green-400">Phán đoán chuẩn xác!</span></>
                     ) : (
@@ -523,7 +525,7 @@ export default function GrammarErrorDetect() {
                   </div>
 
                   {/* Giải thích câu sai của item hiện tại */}
-                  <div className="bg-white/50 dark:bg-black/20 rounded-xl p-3 mb-4">
+                  <div className="bg-white/50 dark:bg-black/20 rounded-xl p-3 mb-3">
                     <div className="text-xs font-bold text-slate-500 mb-2 uppercase tracking-wider">Câu đúng phải là:</div>
                     <div className="text-lg mb-2">
                       {renderHighlightedSentence(current.correctSentence)}
@@ -535,7 +537,7 @@ export default function GrammarErrorDetect() {
                     )}
                   </div>
                   
-                  <div className="flex items-start gap-2 mb-6 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/50 p-3 rounded-xl">
+                  <div className="flex items-start gap-2 mb-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/50 p-3 rounded-xl">
                     <AlertTriangle size={16} className="text-amber-500 mt-0.5 flex-shrink-0" />
                     <div className="text-sm text-amber-800 dark:text-amber-300 leading-relaxed">
                       <span className="font-bold">{current.structure}:</span> {current.caution}

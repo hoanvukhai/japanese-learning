@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Eye, EyeOff, Shuffle, MousePointerClick, ShieldAlert } from 'lucide-react';
@@ -151,6 +151,8 @@ export default function KanjiErrorDetect() {
     return shuffle([...correctOptions, wrongOption]);
   }, [current, pool, gameMode]);
 
+  useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
+
   const handleStart = () => {
     setQueue(pool);
     setScore(0);
@@ -194,14 +196,14 @@ export default function KanjiErrorDetect() {
   // ──────────── SETUP SCREEN ────────────
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans text-slate-800 dark:text-slate-100 transition-colors duration-300">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans text-slate-800 dark:text-slate-100 transition-colors duration-300">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-8 transition-colors">
+          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
 
-          <div className="mb-10 text-center">
-            <h1 className="text-3xl md:text-4xl font-extrabold mb-4 flex items-center justify-center gap-3">
+          <div className="mb-3 text-center">
+            <h1 className="text-2xl md:text-3xl font-bold mb-2 flex items-center justify-center gap-3">
               <ShieldAlert className="text-amber-500" size={36} /> Tìm lỗi sai (Chữ Hán)
             </h1>
             <p className="text-slate-500 dark:text-slate-400">
@@ -209,7 +211,7 @@ export default function KanjiErrorDetect() {
             </p>
           </div>
 
-          <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-200 dark:border-slate-700 space-y-8">
+          <div className="bg-white dark:bg-slate-800 rounded-3xl p-4 md:p-6 shadow-sm border border-slate-200 dark:border-slate-700 space-y-4">
             <KanjiLessonChips
               options={lessons}
               selected={selectedLessons}
@@ -343,12 +345,12 @@ export default function KanjiErrorDetect() {
     const total = pool.length;
     const pct = Math.round((score / total) * 100);
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
-        <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl max-w-sm w-full text-center">
-          <div className="text-6xl mb-6">🏁</div>
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 flex items-center justify-center font-sans">
+        <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-lg max-w-xs w-full text-center">
+          <div className="text-5xl mb-3">🏁</div>
           <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Hoàn thành!</h2>
-          <div className="text-6xl font-black text-amber-500 my-6">{pct}%</div>
-          <p className="text-slate-500 mb-8">Bạn đã trả lời đúng {score}/{total} câu.</p>
+          <div className="text-6xl font-black text-amber-500 my-3">{pct}%</div>
+          <p className="text-slate-500 mb-3">Bạn đã trả lời đúng {score}/{total} câu.</p>
           <div className="space-y-3">
             <button onClick={handleStart} className="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white font-bold rounded-xl transition-all">
               Chơi lại
@@ -365,10 +367,10 @@ export default function KanjiErrorDetect() {
   const progress = ((pool.length - queue.length) / pool.length) * 100;
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans text-slate-800 dark:text-slate-100 flex flex-col">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans text-slate-800 dark:text-slate-100 flex flex-col">
       <div className="max-w-2xl mx-auto w-full flex-1 flex flex-col justify-center">
         {/* Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 transition-colors font-bold">
             <ArrowLeft size={18} /> Thoát
           </button>
@@ -394,7 +396,7 @@ export default function KanjiErrorDetect() {
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-8 overflow-hidden">
+        <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div className="h-full bg-amber-500 rounded-full" animate={{ width: `${progress}%` }} transition={{ duration: 0.3 }} />
         </div>
 
@@ -408,15 +410,15 @@ export default function KanjiErrorDetect() {
             className="flex-1 flex flex-col"
           >
             {gameMode === 'truefalse' ? (
-              <div className="bg-white dark:bg-slate-800 rounded-3xl shadow-lg border border-slate-100 dark:border-slate-700 overflow-hidden flex flex-col mb-6">
-                <div className="p-8 md:p-12 text-center flex-1 flex flex-col justify-center items-center">
-                  <div className="text-sm font-bold text-slate-400 mb-6 tracking-widest uppercase">Nghĩa của từ này là:</div>
+              <div className="bg-white dark:bg-slate-800 rounded-3xl shadow-lg border border-slate-100 dark:border-slate-700 overflow-hidden flex flex-col mb-3">
+                <div className="p-5 md:p-8 text-center flex-1 flex flex-col justify-center items-center">
+                  <div className="text-sm font-bold text-slate-400 mb-3 tracking-widest uppercase">Nghĩa của từ này là:</div>
                   
-                  <div className="text-5xl md:text-7xl font-black mb-4">
+                  <div className="text-5xl md:text-7xl font-black mb-3">
                     {current.word}
                   </div>
                   {showFurigana && current.hiragana && (
-                    <div className="text-lg text-blue-500 font-bold mb-8">{current.hiragana}</div>
+                    <div className="text-lg text-blue-500 font-bold mb-3">{current.hiragana}</div>
                   )}
 
                   <div className="text-3xl md:text-5xl font-bold text-amber-600 dark:text-amber-400 mt-4 px-4 text-center">
@@ -425,19 +427,6 @@ export default function KanjiErrorDetect() {
                 </div>
 
                 <div className="p-4 bg-slate-50 dark:bg-slate-800/50 border-t border-slate-100 dark:border-slate-700 grid grid-cols-2 gap-4">
-                  <button
-                    onClick={() => handleAnswerTF(true)}
-                    disabled={status !== 'idle'}
-                    className={`py-5 rounded-2xl font-black text-xl flex items-center justify-center gap-2 transition-all ${
-                      selectedAnswerTF === true
-                        ? (current.isCorrect ? 'bg-emerald-500 text-white' : 'bg-red-500 text-white')
-                        : status !== 'idle' && current.isCorrect
-                        ? 'bg-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900'
-                        : 'bg-white dark:bg-slate-700 text-slate-700 dark:text-white border-2 border-slate-200 dark:border-slate-600 hover:border-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/30'
-                    }`}
-                  >
-                    ĐÚNG
-                  </button>
                   <button
                     onClick={() => handleAnswerTF(false)}
                     disabled={status !== 'idle'}
@@ -451,11 +440,24 @@ export default function KanjiErrorDetect() {
                   >
                     SAI
                   </button>
+                  <button
+                    onClick={() => handleAnswerTF(true)}
+                    disabled={status !== 'idle'}
+                    className={`py-5 rounded-2xl font-black text-xl flex items-center justify-center gap-2 transition-all ${
+                      selectedAnswerTF === true
+                        ? (current.isCorrect ? 'bg-emerald-500 text-white' : 'bg-red-500 text-white')
+                        : status !== 'idle' && current.isCorrect
+                        ? 'bg-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900'
+                        : 'bg-white dark:bg-slate-700 text-slate-700 dark:text-white border-2 border-slate-200 dark:border-slate-600 hover:border-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/30'
+                    }`}
+                  >
+                    ĐÚNG
+                  </button>
                 </div>
               </div>
             ) : (
               <div className="flex flex-col h-full">
-                <div className="text-center mb-6">
+                <div className="text-center mb-3">
                   <h2 className="text-xl font-bold">Tìm cặp từ sai Nghĩa</h2>
                   <p className="text-sm text-slate-500">Chỉ có 1 từ bị ghép sai Nghĩa / Hán Việt.</p>
                 </div>

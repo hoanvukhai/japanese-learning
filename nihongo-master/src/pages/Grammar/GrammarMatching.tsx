@@ -147,15 +147,15 @@ export default function GrammarMatching() {
 
   if (!started) {
     return (
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
+      <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-8 transition-colors">
+          <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🔗 Nối Ngữ Pháp</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-8">Ghép cấu trúc với nghĩa tiếng Việt — phản xạ siêu tốc.</p>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Ghép cấu trúc với nghĩa tiếng Việt — phản xạ siêu tốc.</p>
 
-          <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-6">
+          <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 md:p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-4">
 
             {/* Mode */}
             <div>
@@ -249,9 +249,9 @@ export default function GrammarMatching() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-4xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Quay lại
           </button>
@@ -297,9 +297,9 @@ export default function GrammarMatching() {
             animate={{ opacity: 1, scale: 1 }}
             className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl text-center max-w-sm mx-auto"
           >
-            <div className="text-6xl mb-4">🎉</div>
+            <div className="text-5xl mb-3">🎉</div>
             <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Xuất sắc!</h2>
-            <p className="text-slate-500 dark:text-slate-400 mb-6">Đã nối đúng {roundScore} cặp · Vòng {totalRounds}</p>
+            <p className="text-slate-500 dark:text-slate-400 mb-3">Đã nối đúng {roundScore} cặp · Vòng {totalRounds}</p>
             <button
               onClick={initRound}
               className="w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2 mb-3 shadow-md"

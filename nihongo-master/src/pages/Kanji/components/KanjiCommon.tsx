@@ -143,9 +143,11 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
       matching:  1,
     };
 
+    let spIdx = 0;
+    
     // Quiz
-    for (let i = 0; i < dist.quiz && i < sp.length; i++) {
-      const fw = sp[i];
+    for (let i = 0; i < dist.quiz && spIdx < sp.length; i++) {
+      const fw = sp[spIdx++];
       const { word } = fw;
       const meaning = getMeaning(word);
       const distractors = shuffle(flat.filter(f => f.word.id !== word.id)).slice(0, 3).map(f => f.word);
@@ -169,8 +171,8 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
     }
 
     // Typing
-    for (let i = 0; i < dist.typing && i < sp.length; i++) {
-      const { kanji, word } = sp[i];
+    for (let i = 0; i < dist.typing && spIdx < sp.length; i++) {
+      const { kanji, word } = sp[spIdx++];
       const meaning = getMeaning(word);
       const dir = Math.random() > 0.5 ? 'm2h' : 'w2h';
       const exp = `${word.word} (${word.hiragana}) — Nghĩa: ${meaning}`;
@@ -182,8 +184,8 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
     }
 
     // Flashcard
-    for (let i = 0; i < dist.flashcard && i < sp.length; i++) {
-      const { word } = sp[i];
+    for (let i = 0; i < dist.flashcard && spIdx < sp.length; i++) {
+      const { word } = sp[spIdx++];
       const meaning = getMeaning(word);
       const dir = Math.random() > 0.5 ? 'w2m' : 'm2w';
       const exp = `${word.word} (${word.hiragana}) — Nghĩa: ${meaning}`;
@@ -195,8 +197,8 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
     }
 
     // Error
-    for (let i = 0; i < dist.error && i < sp.length; i++) {
-      const { word } = sp[i];
+    for (let i = 0; i < dist.error && spIdx < sp.length; i++) {
+      const { word } = sp[spIdx++];
       const isCorrect = Math.random() > 0.5;
       const actualMeaning = getMeaning(word);
       const distractorFw = shuffle(flat.filter(f => f.word.id !== word.id))[0];
@@ -234,9 +236,12 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
       return `Chữ Hán: ${k.character} (Hán Việt: ${k.hanViet})\nBài học: ${k.lesson}\nTừ ghép đi kèm:\n${wordsList}`;
     };
 
+    let skIdx = 0;
+    
+
     // HanViet quiz
-    for (let i = 0; i < dist.hanviet && i < sk.length; i++) {
-      const k = sk[i];
+    for (let i = 0; i < dist.hanviet && skIdx < sk.length; i++) {
+      const k = sk[skIdx++];
       const dir: 'kanji2hv' | 'hv2kanji' = Math.random() > 0.5 ? 'hv2kanji' : 'kanji2hv';
       const distractorKanji = shuffle(allKanji.filter(kk => kk.id !== k.id)).slice(0, 3);
       let exp = makeKanjiExplanation(k);
@@ -256,16 +261,16 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
       }
     }
 
-    // Typing
-    for (let i = 0; i < dist.typing && i < sk.length; i++) {
-      const k = sk[i];
+    // Typing kanji
+    for (let i = 0; i < dist.typing && skIdx < sk.length; i++) {
+      const k = sk[skIdx++];
       const exp = makeKanjiExplanation(k);
       qs.push({ id: `typing-r-${i}`, type: 'typing', prompt: k.character, answer: k.hanViet.toLowerCase(), answerDisplay: k.hanViet, hintText: `Bài ${k.lesson}`, inputMode: 'vi', explanation: exp });
     }
 
-    // Flashcard
-    for (let i = 0; i < dist.flashcard && i < sk.length; i++) {
-      const k = sk[i];
+    // Flashcard kanji
+    for (let i = 0; i < dist.flashcard && skIdx < sk.length; i++) {
+      const k = sk[skIdx++];
       const dir = Math.random() > 0.5 ? 'k2hv' : 'hv2k';
       const exp = makeKanjiExplanation(k);
       if (dir === 'hv2k') {

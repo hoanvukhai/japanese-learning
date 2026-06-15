@@ -245,7 +245,7 @@ export function buildQuestions(opts: { totalQ: number; language: string }): Unif
   for (let i = 0; i < dist.flashcard && i < flatG.length; i++) {
     const g = flatG[(i + dist.quiz) % flatG.length];
     const meaning = getMeaning(g);
-    const dir = Math.random() > 0.5 ? 's2m' : 'm2s';
+    const dir = 's2m';
     const exp = `Cấu trúc: ${g.structure}\nÝ nghĩa: ${g.meaning.vi}` + (g.caution && g.caution.vi ? `\nLưu ý: ${g.caution.vi}` : '');
     if (dir === 's2m') {
       qs.push({ id: `flash-${i}`, type: 'flashcard', front: g.structure, frontSub: g.structureKana !== g.structure ? g.structureKana : undefined, back: meaning, explanation: exp });

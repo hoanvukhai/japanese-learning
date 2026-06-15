@@ -35,7 +35,7 @@ export default function KanjiResult({
   runMode,
 }: KanjiResultProps) {
   const exp = calcExp(score, streak, timeLeft ?? 0, level, correct, total);
-  const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total);
+  const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total, maxExp);
   
   const storageKey = getStorageKey('kanji', level) + (runMode === 'character' ? '_char' : '');
   const globalKey = getStorageKeyGlobal('kanji');

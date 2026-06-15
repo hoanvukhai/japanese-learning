@@ -148,6 +148,8 @@ export default function GrammarArena() {
     setTimeLeft(TIME_PER_Q);
   };
 
+  useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
+
   const handleStart = () => {
     setQueue(pool);
     setScore(0);

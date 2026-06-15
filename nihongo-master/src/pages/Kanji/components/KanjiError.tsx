@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Info } from 'lucide-react';
+import {  } from 'lucide-react';
 import { formatKeyForDisplay } from './KanjiCommon';
 import type { ErrorQ } from './KanjiCommon';
 import shortcuts from '../../../data/shortcuts.json';
@@ -44,18 +44,6 @@ export default function KanjiError({
         <div className="flex gap-3">
           <button
             onClick={() => {
-              const ok = q.isCorrect;
-              onSelect(true, ok);
-            }}
-            className="flex-1 py-3.5 rounded-2xl bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 font-bold border-2 border-emerald-200 text-sm flex items-center justify-center gap-1.5"
-          >
-            <kbd className="px-1.5 py-0.5 bg-emerald-200/50 dark:bg-emerald-800/50 rounded text-xs font-mono">
-              {formatKeyForDisplay(shortcuts.error.correct)}
-            </kbd>{' '}
-            ✅ Đúng
-          </button>
-          <button
-            onClick={() => {
               const ok = !q.isCorrect;
               onSelect(false, ok);
             }}
@@ -65,6 +53,18 @@ export default function KanjiError({
               {formatKeyForDisplay(shortcuts.error.wrong)}
             </kbd>{' '}
             ❌ Sai
+          </button>
+          <button
+            onClick={() => {
+              const ok = q.isCorrect;
+              onSelect(true, ok);
+            }}
+            className="flex-1 py-3.5 rounded-2xl bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 font-bold border-2 border-emerald-200 text-sm flex items-center justify-center gap-1.5"
+          >
+            ✅ Đúng{' '}
+            <kbd className="px-1.5 py-0.5 bg-emerald-200/50 dark:bg-emerald-800/50 rounded text-xs font-mono">
+              {formatKeyForDisplay(shortcuts.error.correct)}
+            </kbd>
           </button>
         </div>
       )}
@@ -79,16 +79,7 @@ export default function KanjiError({
           >
             {errorCorrect ? '🎉 Chính xác!' : `❌ Sai! Nghĩa đúng: ${q.actualMeaning}`}
           </motion.div>
-          {q.explanation && (
-            <div className="p-3 bg-indigo-50/50 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-900 rounded-xl text-left text-sm text-slate-600 dark:text-slate-300">
-              <div className="font-semibold text-indigo-600 dark:text-indigo-400 mb-1 flex items-center gap-1.5">
-                <Info size={14} /> Giải thích chi tiết:
-              </div>
-              <div className="whitespace-pre-line leading-relaxed">
-                {q.explanation}
-              </div>
-            </div>
-          )}
+          
           <motion.button
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}

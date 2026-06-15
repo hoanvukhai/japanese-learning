@@ -105,7 +105,7 @@ function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
           <div className={`absolute top-0 left-0 right-0 h-1.5 rounded-t-2xl bg-gradient-to-r ${sourceMeta.color}`} />
 
           {/* Header */}
-          <div className="flex items-start justify-between mt-2 mb-4 relative z-10">
+          <div className="flex items-start justify-between mt-2 mb-3 relative z-10">
             <div className="flex flex-col gap-1">
               <div 
                 onClick={(e) => { e.stopPropagation(); setIsRevealed(true); }}
@@ -158,7 +158,7 @@ function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
           style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
         >
           {/* Header */}
-          <div className="flex items-start justify-between mb-4">
+          <div className="flex items-start justify-between mb-3">
             <div className="flex flex-col gap-1">
               <span className="text-white/70 text-xs font-medium">
                 {language === 'en' ? targetMeta.labelEn : targetMeta.label}
@@ -289,13 +289,13 @@ export default function KeigoFlashcards() {
   };
 
   if (queue.length === 0) return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 flex items-center justify-center">
       <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
     </div>
   );
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors overflow-hidden">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors overflow-hidden">
       {/* ── HEADER ── */}
       <header className="px-4 md:px-8 py-5 flex items-center justify-between border-b border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md sticky top-0 z-10">
         <div className="flex items-center gap-4">
@@ -337,7 +337,7 @@ export default function KeigoFlashcards() {
             className="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 overflow-hidden shadow-sm z-0"
           >
             <div className="px-4 md:px-8 py-6">
-              <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-4 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-3 uppercase tracking-wider">
                 {language === 'en' ? 'Card Focus' : 'Tập trung học'}
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -373,7 +373,7 @@ export default function KeigoFlashcards() {
       <main className="flex-1 flex flex-col items-center justify-center p-4 md:p-8 relative">
         <div className="w-full max-w-md">
           {/* Progress bar */}
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center gap-3 mb-3">
             <span className="text-xs font-bold text-slate-400 w-8 text-right">{index + 1}</span>
             <div className="flex-1 h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
               <div
@@ -435,7 +435,7 @@ export default function KeigoFlashcards() {
             </button>
           </div>
           
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center mt-4">
              <button
               onClick={buildQueue}
               className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-sm font-semibold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors"
