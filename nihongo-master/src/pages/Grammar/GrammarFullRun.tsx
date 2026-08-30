@@ -5,9 +5,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Clock, Flame, Eye, EyeOff } from 'lucide-react';
 import { useSettings } from '../../context/global/useSettings';
 import {
-  calculateMaxPossibleExp,
+  calculateMaxPossibleExp
 } from '../../lib/rankSystem';
-import shortcuts from '../../data/shortcuts.json';
+import { useAuth } from '../../context/auth/useAuth';
+import { syncPersonalHighScore } from '../../lib/srs/firestoreSync';
+import shortcuts from '../../data/jlpt/core/shortcuts.json';
 
 // Import local components and types
 import {
@@ -41,6 +43,7 @@ const RESULT_SECS = 5;
 export default function GrammarFullRun() {
   const navigate = useNavigate();
   const { language } = useSettings();
+  const { user } = useAuth();
 
   // Setup state
   const [level, setLevel] = useState<Level>('normal');
@@ -65,6 +68,13 @@ export default function GrammarFullRun() {
   const [lives, setLives] = useState(3);
   const [done, setDone] = useState(false);
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
+
+  // Sync high score to Firestore when done
+  useEffect(() => {
+    if (done && user && score > 0) {
+      syncPersonalHighScore(user.uid, 'grammar_fullrun', score);
+    }
+  }, [done, user, score]);
 
   // Per-question state
   const [quizSelected, setQuizSelected] = useState<string | null>(null);
@@ -343,7 +353,7 @@ export default function GrammarFullRun() {
     <div className={`min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors duration-500 ${isLivesCritical ? 'ring-[4px] ring-red-500/50 ring-inset' : ''}`}>
       {/* Top bar */}
       <div className="flex items-center justify-between px-4 pt-3 pb-2 bg-white dark:bg-slate-800 border-b border-slate-100 dark:border-slate-700">
-        <button onClick={() => setDone(true)} className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500">
+        <button onClick={() => { if(window.confirm('Thoát bài học? Kết quả chưa hoàn thành sẽ không được lưu.')) navigate(BACK_PATH) }} className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500">
           <ArrowLeft size={18} />
         </button>
         <div className="flex items-center gap-3 text-sm">

@@ -1,0 +1,499 @@
+[
+    {
+        "id": "k_rkn3_10_01",
+        "character": "績",
+        "hanViet": "TÍCH",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_01_1",
+                "word": "成績",
+                "hanVietWord": "THÀNH TÍCH",
+                "hiragana": "せいせき",
+                "meaning": {
+                    "vi": "Thành tích (học tập / cá nhân)",
+                    "en": "Grades / Results"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "テストの成績が上がった。",
+                        "vi": "Thành tích kiểm tra đã tăng lên.",
+                        "en": "My test grades have improved."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_01_2",
+                "word": "業績",
+                "hanVietWord": "NGHIỆP TÍCH",
+                "hiragana": "ぎょうせき",
+                "meaning": {
+                    "vi": "Thành tích (công việc / tổ chức)",
+                    "en": "Business performance"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会社の業績が伸びている。",
+                        "vi": "Thành tích của công ty đang tăng trưởng.",
+                        "en": "The company's performance is growing."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_02",
+        "character": "積",
+        "hanViet": "TÍCH",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_02_1",
+                "word": "面積",
+                "hanVietWord": "DIỆN TÍCH",
+                "hiragana": "めんせき",
+                "meaning": {
+                    "vi": "Diện tích",
+                    "en": "Area"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この部屋の面積を測る。",
+                        "vi": "Đo diện tích của căn phòng này.",
+                        "en": "Measure the area of this room."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_02_2",
+                "word": "積もる",
+                "hanVietWord": "TÍCH",
+                "hiragana": "つむる",
+                "meaning": {
+                    "vi": "Tích lại / Chất đống",
+                    "en": "To pile up / To accumulate"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "庭に雪が積もっている。",
+                        "vi": "Tuyết đang chất đống ở trong sân.",
+                        "en": "Snow is piling up in the yard."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_02_3",
+                "word": "積む",
+                "hanVietWord": "TÍCH",
+                "hiragana": "つむ",
+                "meaning": {
+                    "vi": "Chất lên / Xếp chồng",
+                    "en": "To load / To stack"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "トラックに荷物を積む。",
+                        "vi": "Chất hành lý lên xe tải.",
+                        "en": "Load luggage onto the truck."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_03",
+        "character": "改",
+        "hanViet": "CẢI",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_03_1",
+                "word": "改善",
+                "hanVietWord": "CẢI THIỆN",
+                "hiragana": "かいぜん",
+                "meaning": {
+                    "vi": "Sự cải thiện",
+                    "en": "Improvement"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "業務の改善を行う。",
+                        "vi": "Tiến hành cải thiện công việc.",
+                        "en": "Carry out work improvements."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_03_2",
+                "word": "改める",
+                "hanVietWord": "CẢI",
+                "hiragana": "あらためる",
+                "meaning": {
+                    "vi": "Sửa đổi / Cải lại",
+                    "en": "To renew / To change"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "悪い習慣を改める。",
+                        "vi": "Sửa đổi thói quen xấu.",
+                        "en": "Change bad habits."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_04",
+        "character": "配",
+        "hanViet": "PHỐI",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_04_1",
+                "word": "心配",
+                "hanVietWord": "TÂM PHỐI",
+                "hiragana": "しんぱい",
+                "meaning": {
+                    "vi": "Lo lắng",
+                    "en": "Worry / Anxiety"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "親に心配をかける。",
+                        "vi": "Làm cho bố mẹ lo lắng.",
+                        "en": "Make parents worry."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_04_2",
+                "word": "宅配",
+                "hanVietWord": "TRẠCH PHỐI",
+                "hiragana": "たくはい",
+                "meaning": {
+                    "vi": "Giao hàng tận nhà",
+                    "en": "Home delivery"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "荷物を宅配で送る。",
+                        "vi": "Gửi hành lý bằng dịch vụ giao hàng tận nhà.",
+                        "en": "Send packages by home delivery."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_04_3",
+                "word": "配達員",
+                "hanVietWord": "PHỐI ĐẠT VIÊN",
+                "hiragana": "はいたついん",
+                "meaning": {
+                    "vi": "Nhân viên giao hàng",
+                    "en": "Delivery person"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "配達員が荷物を届けてくれた。",
+                        "vi": "Nhân viên giao hàng đã đưa đồ đến cho tôi.",
+                        "en": "The delivery person delivered the package."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_04_4",
+                "word": "配る",
+                "hanVietWord": "PHỐI",
+                "hiragana": "くばる",
+                "meaning": {
+                    "vi": "Phát / Phân phát",
+                    "en": "To distribute / To hand out"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "駅前でチラシを配る。",
+                        "vi": "Phát tờ rơi trước nhà ga.",
+                        "en": "Hand out flyers in front of the station."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_05",
+        "character": "記",
+        "hanViet": "KÝ",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_05_1",
+                "word": "記入する",
+                "hanVietWord": "KÝ NHẬP",
+                "hiragana": "きにゅうする",
+                "meaning": {
+                    "vi": "Điền vào (form, giấy tờ)",
+                    "en": "To fill out / To entry"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "書類に名前を記入する。",
+                        "vi": "Điền tên vào giấy tờ tài liệu.",
+                        "en": "Fill out your name on the document."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_05_2",
+                "word": "暗記する",
+                "hanVietWord": "ÁM KÝ",
+                "hiragana": "あんきする",
+                "meaning": {
+                    "vi": "Học thuộc / Ghi nhớ",
+                    "en": "To memorize"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい単語を暗記する。",
+                        "vi": "Học thuộc từ vựng mới.",
+                        "en": "Memorize new vocabulary."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_05_3",
+                "word": "記憶力",
+                "hanVietWord": "KÝ ỨC LỰC",
+                "hiragana": "きおくりょく",
+                "meaning": {
+                    "vi": "Trí nhớ",
+                    "en": "Memory capacity"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は記憶力がいい。",
+                        "vi": "Anh ấy có trí nhớ tốt.",
+                        "en": "He has a good memory."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_06",
+        "character": "仮",
+        "hanViet": "GIẢ",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_06_1",
+                "word": "仮面",
+                "hanVietWord": "GIẢ DIỆN",
+                "hiragana": "かめん",
+                "meaning": {
+                    "vi": "Mặt nạ",
+                    "en": "Mask"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "仮面をつけて踊る。",
+                        "vi": "Đeo mặt nạ nhảy múa.",
+                        "en": "Dance wearing a mask."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_06_2",
+                "word": "仮病",
+                "hanVietWord": "GIẢ BỆNH",
+                "hiragana": "けびょう",
+                "meaning": {
+                    "vi": "Giả bệnh",
+                    "en": "Feigned illness"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "仮病を使って会社を休んだ。",
+                        "vi": "Tôi giả bệnh để nghỉ làm ở công ty.",
+                        "en": "I used a feigned illness to take a day off from work."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_06_3",
+                "word": "仮に",
+                "hanVietWord": "GIẢ",
+                "hiragana": "かりに",
+                "meaning": {
+                    "vi": "Giả sử",
+                    "en": "Supposing / If"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "仮にそれが本当だとしたらどうする？",
+                        "vi": "Giả sử điều đó là sự thật thì bạn tính sao?",
+                        "en": "Supposing that is true, what will you do?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_07",
+        "character": "坂",
+        "hanViet": "PHẢN",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_07_1",
+                "word": "坂道",
+                "hanVietWord": "PHẢN ĐẠO",
+                "hiragana": "さかみち",
+                "meaning": {
+                    "vi": "Đường dốc",
+                    "en": "Slope road"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "急な坂道を自転車で登る。",
+                        "vi": "Leo con đường dốc đứng bằng xe đạp.",
+                        "en": "Ride up a steep slope on a bicycle."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_10_08",
+        "character": "返",
+        "hanViet": "PHẢN",
+        "level": "N3",
+        "lesson": "Bài 10",
+        "words": [
+            {
+                "id": "kw_rkn3_10_08_1",
+                "word": "返品",
+                "hanVietWord": "PHẢN PHẨM",
+                "hiragana": "へんぴん",
+                "meaning": {
+                    "vi": "Trả lại hàng",
+                    "en": "Returned goods"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "壊れた商品を返品する。",
+                        "vi": "Trả lại hàng hóa bị hỏng.",
+                        "en": "Return the broken goods."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_08_2",
+                "word": "返事",
+                "hanVietWord": "PHẢN SỰ",
+                "hiragana": "へんじ",
+                "meaning": {
+                    "vi": "Trả lời",
+                    "en": "Reply / Answer"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "手紙の返事を書く。",
+                        "vi": "Viết thư trả lời.",
+                        "en": "Write a reply to the letter."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_08_3",
+                "word": "返信",
+                "hanVietWord": "PHẢN TÍN",
+                "hiragana": "へんしん",
+                "meaning": {
+                    "vi": "Phản hồi / Reply (mail, tin nhắn)",
+                    "en": "Reply message"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "メールの返信が遅れる。",
+                        "vi": "Việc phản hồi email bị muộn.",
+                        "en": "The email reply is delayed."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_10_08_4",
+                "word": "返す",
+                "hanVietWord": "PHẢN",
+                "hiragana": "かえす",
+                "meaning": {
+                    "vi": "Trả lại",
+                    "en": "To return (something)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "本をさっさと返す。",
+                        "vi": "Nhanh chóng trả lại sách.",
+                        "en": "Return the book quickly."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "g_rkn3_04_01",
+    "level": "N3",
+    "structure": "〜とく (〜ておく rút gọn)",
+    "structureKana": "〜とく",
+    "meaning": {
+      "vi": "Làm gì đó trước (để sẵn sàng) — dạng rút gọn văn nói của 〜ておく",
+      "en": "Do something in advance — casual spoken contraction of 〜ておく"
+    },
+    "formation": [
+      "V(て form) + おく → V + とく (rút gọn: て + おく → とく)"
+    ],
+    "lesson": "Bài 4",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Xuất hiện nhiều trong bài Nghe hiểu (聴解). Cần phản xạ nhanh: とく = ておく. Chỉ dùng trong văn nói thân mật.",
+      "en": "⚠️ JLPT Trap: Very common in Listening section (聴解). Need quick reflex: とく = ておく. Only used in casual spoken language."
+    },
+    "examples": [
+      {
+        "jp": "パソコン、消し[とく]。（＝消しておく）",
+        "kana": "パソコン、けし[とく]。",
+        "vi": "Để tôi tắt máy tính đi nhé. (= けしておく)",
+        "en": "I'll turn off the computer (in advance). (= けしておく)"
+      },
+      {
+        "jp": "予約し[といて]ください。（＝しておいてください）",
+        "kana": "よやくし[といて]ください。",
+        "vi": "Hãy đặt chỗ trước nhé. (= しておいてください)",
+        "en": "Please make a reservation in advance."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_04_02",
+    "level": "N3",
+    "structure": "〜てる (〜ている rút gọn)",
+    "structureKana": "〜てる",
+    "meaning": {
+      "vi": "Đang làm / Đang ở trạng thái... — dạng rút gọn văn nói của 〜ている",
+      "en": "Is doing / Is in a state of... — casual spoken contraction of 〜ている"
+    },
+    "formation": [
+      "V(て form) + いる → V + てる (bỏ い)"
+    ],
+    "lesson": "Bài 4",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Hay xuất hiện trong hội thoại nghe hiểu. てる = ている (tiến hành hoặc trạng thái). Chỉ văn nói.",
+      "en": "⚠️ JLPT Trap: Common in listening conversations. てる = ている (progressive or state). Casual speech only."
+    },
+    "examples": [
+      {
+        "jp": "今、何し[てる]？（＝していますか）",
+        "kana": "いま、なにし[てる]？",
+        "vi": "Bây giờ đang làm gì vậy? (= していますか)",
+        "en": "What are you doing now? (= していますか)"
+      },
+      {
+        "jp": "あの人、知っ[てる]？（＝知っていますか）",
+        "kana": "あのひと、しっ[てる]？",
+        "vi": "Bạn biết người đó không? (= しっていますか)",
+        "en": "Do you know that person? (= しっていますか)"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_04_03",
+    "level": "N3",
+    "structure": "〜ちゃう (〜てしまう rút gọn)",
+    "structureKana": "〜ちゃう",
+    "meaning": {
+      "vi": "Lỡ... mất rồi / Trót làm xong... — dạng rút gọn văn nói của 〜てしまう",
+      "en": "Ended up doing... / Accidentally did... — casual contraction of 〜てしまう"
+    },
+    "formation": [
+      "V(て form) + しまう → V + ちゃう (て + しまう → ちゃう)",
+      "V(で form) + しまう → V + じゃう (で + しまう → じゃう)"
+    ],
+    "lesson": "Bài 4",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: ちゃう = てしまう, じゃう = でしまう. Hay xuất hiện trong nghe hiểu. Mang sắc thái vô ý hoặc hối tiếc.",
+      "en": "⚠️ JLPT Trap: ちゃう = てしまう, じゃう = でしまう. Common in listening. Conveys accidental action or regret."
+    },
+    "examples": [
+      {
+        "jp": "あ、忘れ[ちゃった]！（＝忘れてしまった）",
+        "kana": "あ、わすれ[ちゃった]！",
+        "vi": "Á, tôi trót quên mất rồi! (= わすれてしまった)",
+        "en": "Ah, I forgot it! (= わすれてしまった)"
+      },
+      {
+        "jp": "全部食べ[ちゃった]。（＝食べてしまった）",
+        "kana": "ぜんぶたべ[ちゃった]。",
+        "vi": "Đã ăn hết sạch rồi. (= たべてしまった)",
+        "en": "I ended up eating everything. (= たべてしまった)"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_04_04",
+    "level": "N3",
+    "structure": "〜なきゃ (〜なければ rút gọn)",
+    "structureKana": "〜なきゃ",
+    "meaning": {
+      "vi": "Phải làm gì... — dạng rút gọn văn nói của 〜なければならない",
+      "en": "Have to... / Must... — casual contraction of 〜なければならない"
+    },
+    "formation": [
+      "V(ない form) + なければ → なきゃ (bỏ れ)"
+    ],
+    "lesson": "Bài 4",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: なきゃ = なければ(ならない). Tương đương với なくちゃ (= なくては). Cả hai chỉ dùng văn nói.",
+      "en": "⚠️ JLPT Trap: なきゃ = なければ(ならない). Equivalent to なくちゃ (= なくては). Both are casual speech only."
+    },
+    "examples": [
+      {
+        "jp": "もう帰ら[なきゃ]。（＝帰らなければならない）",
+        "kana": "もうかえら[なきゃ]。",
+        "vi": "Phải về thôi. (= かえらなければならない)",
+        "en": "I have to go home now. (= かえらなければならない)"
+      },
+      {
+        "jp": "宿題し[なきゃ]いけない。",
+        "kana": "しゅくだいし[なきゃ]いけない。",
+        "vi": "Phải làm bài tập về nhà.",
+        "en": "I have to do my homework."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_04_05",
+    "level": "N3",
+    "structure": "〜んじゃない(か)",
+    "structureKana": "〜んじゃない(か)",
+    "meaning": {
+      "vi": "Chẳng phải là... hay sao? / Tôi nghĩ là... (nêu ý kiến rụt rè)",
+      "en": "Isn't it that...? / I think... (softly expressing opinion)"
+    },
+    "formation": [
+      "Thể thông thường (N/A-な + な) + んじゃない(か) / んじゃないですか"
+    ],
+    "lesson": "Bài 4",
+    "group": "SpokenAdvice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Dù có chữ ない nhưng ý nghĩa là KHẲNG ĐỊNH nhẹ. Phân biệt với じゃない (phủ định thực sự). Dùng để nêu ý kiến một cách dè dặt.",
+      "en": "⚠️ JLPT Trap: Despite containing ない, the meaning is a soft AFFIRMATION. Distinguish from じゃない (true negation). Used to express opinions hesitantly."
+    },
+    "examples": [
+      {
+        "jp": "山田さん、遅れる[んじゃないか]。",
+        "kana": "やまださん、おくれる[んじゃないか]。",
+        "vi": "Yamada chắc là sẽ đến muộn đấy.",
+        "en": "I think Yamada might be late."
+      },
+      {
+        "jp": "この料理、ちょっと味が薄い[んじゃないですか]。",
+        "kana": "このりょうり、ちょっとあじがうすい[んじゃないですか]。",
+        "vi": "Món ăn này, tôi nghĩ vị hơi nhạt thì phải.",
+        "en": "I think this dish might be a little bland, don't you think?"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_04_06",
+    "level": "N3",
+    "structure": "〜っぽい",
+    "structureKana": "〜っぽい",
+    "meaning": {
+      "vi": "Trông có vẻ... / Hay (quên, nổi cáu) / Cứ như là... (sắc thái thường là tiêu cực)",
+      "en": "-ish / Looks like... / Tends to... (often negative nuance)"
+    },
+    "formation": [
+      "N / V(bỏ ます) / A-い(bỏ い) + っぽい"
+    ],
+    "lesson": "Bài 4",
+    "group": "StateTendency",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Thường mang sắc thái tiêu cực/chê bai (子供っぽい - trẻ con, 怒りっぽい - hay cáu). Chia ngữ pháp phía sau giống hệt tính từ đuôi い.",
+      "en": "⚠️ JLPT Trap: Often has a negative/critical nuance (子供っぽい - childish, 怒りっぽい - hot-tempered). Conjugates exactly like an い-adjective."
+    },
+    "examples": [
+      {
+        "jp": "彼はもう20歳なのに、話し方が子供[っぽい]。",
+        "kana": "かれはもうはたちなのに、はなしかたがこども[っぽい]。",
+        "vi": "Cậu ấy đã 20 tuổi rồi mà cách nói chuyện cứ như trẻ con.",
+        "en": "Even though he is 20, his way of speaking is childish."
+      },
+      {
+        "jp": "最近、忘れ[っぽく]なって困っている。",
+        "kana": "さいきん、わすれ[っぽく]なってこまっている。",
+        "vi": "Gần đây tôi rất hay quên, thật là phiền.",
+        "en": "Lately I've become forgetful, which is troublesome."
+      }
+    ]
+  }
+]

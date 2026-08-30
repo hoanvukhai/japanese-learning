@@ -10,7 +10,7 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
     return saved ? JSON.parse(saved) : {
       theme: 'system',
       language: 'vi',
-      soundEnabled: true,
+      // soundEnabled removed — audio mute managed by AudioContext
       fontSize: 'base',
     };
   });

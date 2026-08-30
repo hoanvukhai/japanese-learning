@@ -1,0 +1,503 @@
+[
+    {
+        "id": "k_rkn3_33_01",
+        "character": "由",
+        "hanViet": "DO",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_01_1",
+                "word": "自由",
+                "hanVietWord": "TỰ DO",
+                "hiragana": "じゆう",
+                "meaning": {
+                    "vi": "Tự do",
+                    "en": "Freedom"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "休日は自由に過ごす。",
+                        "vi": "Trải qua ngày nghỉ một cách tự do.",
+                        "en": "Spend holidays freely."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_01_2",
+                "word": "不自由",
+                "hanVietWord": "BẤT TỰ DO",
+                "hiragana": "ふじゆう",
+                "meaning": {
+                    "vi": "Bất tiện / Không tự do",
+                    "en": "Inconvenience / Disability"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "足が不自由な人を助ける。",
+                        "vi": "Giúp đỡ người bị bất tiện ở chân.",
+                        "en": "Help people with physical disabilities in their legs."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_01_3",
+                "word": "理由",
+                "hanVietWord": "LÍ DO",
+                "hiragana": "りゆう",
+                "meaning": {
+                    "vi": "Lý do",
+                    "en": "Reason"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "遅刻した理由を話す。",
+                        "vi": "Nói lý do đến muộn.",
+                        "en": "Tell the reason for being late."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_02",
+        "character": "申",
+        "hanViet": "THÂN",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_02_1",
+                "word": "申請",
+                "hanVietWord": "THÂN THỈNH",
+                "hiragana": "しんせい",
+                "meaning": {
+                    "vi": "Yêu cầu / Xin phép",
+                    "en": "Application / Request"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ビザの申請をする。",
+                        "vi": "Làm đăng ký xin visa.",
+                        "en": "Apply for a visa."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_02_2",
+                "word": "申し込む",
+                "hanVietWord": "THÂN NHẬP",
+                "hiragana": "もうしこむ",
+                "meaning": {
+                    "vi": "Đăng ký / Nộp đơn",
+                    "en": "To apply for"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "試験に申し込む。",
+                        "vi": "Đăng ký kỳ thi.",
+                        "en": "Apply for the exam."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_02_3",
+                "word": "申します",
+                "hanVietWord": "THÂN",
+                "hiragana": "もうします",
+                "meaning": {
+                    "vi": "Nói (khiêm nhường ngữ)",
+                    "en": "To say (humble)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "山田と申します。",
+                        "vi": "Tôi tên là (nói là) Yamada.",
+                        "en": "My name is Yamada."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_03",
+        "character": "留",
+        "hanViet": "LƯU",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_03_1",
+                "word": "留学",
+                "hanVietWord": "LƯU HỌC",
+                "hiragana": "りゅうがく",
+                "meaning": {
+                    "vi": "Du học",
+                    "en": "Studying abroad"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "来年、日本へ留学する。",
+                        "vi": "Năm sau tôi sẽ đi du học Nhật Bản.",
+                        "en": "I will study abroad in Japan next year."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_03_2",
+                "word": "留守番",
+                "hanVietWord": "LƯU THỦ PHIÊN",
+                "hiragana": "るすばん",
+                "meaning": {
+                    "vi": "Trông nhà",
+                    "en": "Looking after the house"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "子供に留守番を頼む。",
+                        "vi": "Nhờ bọn trẻ trông nhà.",
+                        "en": "Ask the children to look after the house."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_04",
+        "character": "番",
+        "hanViet": "PHIÊN",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_04_1",
+                "word": "順番",
+                "hanVietWord": "THUẬN PHIÊN",
+                "hiragana": "じゅんばん",
+                "meaning": {
+                    "vi": "Theo thứ tự",
+                    "en": "Turn / Order"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "順番を守って並ぶ。",
+                        "vi": "Giữ thứ tự và xếp hàng.",
+                        "en": "Keep order and line up."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_04_2",
+                "word": "番号",
+                "hanVietWord": "PHIÊN HIỆU",
+                "hiragana": "ばんごう",
+                "meaning": {
+                    "vi": "Số thứ tự",
+                    "en": "Number"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "電話番号を教える。",
+                        "vi": "Cho biết số điện thoại.",
+                        "en": "Tell someone the phone number."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_04_3",
+                "word": "一番",
+                "hanVietWord": "NHẤT PHIÊN",
+                "hiragana": "いちばん",
+                "meaning": {
+                    "vi": "Thứ nhất",
+                    "en": "Number one / The most"
+                },
+                "type": "adv",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "これが一番美味しい。",
+                        "vi": "Cái này là ngon thứ nhất (ngon nhất).",
+                        "en": "This is the most delicious."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_05",
+        "character": "理",
+        "hanViet": "LÍ",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_05_1",
+                "word": "修理",
+                "hanVietWord": "TU LÍ",
+                "hiragana": "しゅうり",
+                "meaning": {
+                    "vi": "Sửa chữa",
+                    "en": "Repair"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "壊れた自転車を修理する。",
+                        "vi": "Sửa chữa chiếc xe đạp bị hỏng.",
+                        "en": "Repair the broken bicycle."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_05_2",
+                "word": "無理",
+                "hanVietWord": "VÔ LÍ",
+                "hiragana": "むり",
+                "meaning": {
+                    "vi": "Không thể / Vô lý",
+                    "en": "Impossible / Unreasonable"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "一日でこれを全部読むのは無理だ。",
+                        "vi": "Đọc hết toàn bộ cái này trong một ngày là điều không thể.",
+                        "en": "It is impossible to read all of this in one day."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_05_3",
+                "word": "理解",
+                "hanVietWord": "LÍ GIẢI",
+                "hiragana": "りかい",
+                "meaning": {
+                    "vi": "Hiểu / Lý giải",
+                    "en": "Understanding"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "先生の説明を理解した。",
+                        "vi": "Tôi đã hiểu được lời giải thích của giáo viên.",
+                        "en": "I understood the teacher's explanation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_06",
+        "character": "面",
+        "hanViet": "DIỆN",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_06_1",
+                "word": "画面",
+                "hanVietWord": "HỌA DIỆN",
+                "hiragana": "がめん",
+                "meaning": {
+                    "vi": "Màn hình",
+                    "en": "Screen"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "スマホの画面が割れた。",
+                        "vi": "Màn hình điện thoại đã bị vỡ.",
+                        "en": "The smartphone screen cracked."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_06_2",
+                "word": "面接",
+                "hanVietWord": "DIỆN TIẾP",
+                "hiragana": "めんせつ",
+                "meaning": {
+                    "vi": "Phỏng vấn",
+                    "en": "Interview"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会社で面接を受ける。",
+                        "vi": "Tiếp nhận phỏng vấn tại công ty.",
+                        "en": "Take an interview at the company."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_06_3",
+                "word": "面白い",
+                "hanVietWord": "DIỆN BẠCH",
+                "hiragana": "おもしろい",
+                "meaning": {
+                    "vi": "Thú vị",
+                    "en": "Interesting / Funny"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "この本はとても面白い。",
+                        "vi": "Cuốn sách này cực kỳ thú vị.",
+                        "en": "This book is very interesting."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_07",
+        "character": "包",
+        "hanViet": "BAO",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_07_1",
+                "word": "包み",
+                "hanVietWord": "BAO",
+                "hiragana": "つつみ",
+                "meaning": {
+                    "vi": "Gói / Bọc",
+                    "en": "Package / Wrapping"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "プレゼントの包みを開ける。",
+                        "vi": "Mở gói quà ra.",
+                        "en": "Open the gift package."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_07_2",
+                "word": "包装",
+                "hanVietWord": "BAO TRANG",
+                "hiragana": "ほうそう",
+                "meaning": {
+                    "vi": "Bao bì",
+                    "en": "Packaging"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "デパートで綺麗に包装してもらう。",
+                        "vi": "Nhờ bọc bao bì đẹp đẽ ở trung tâm thương mại.",
+                        "en": "Get it wrapped beautifully at the department store."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_08",
+        "character": "品",
+        "hanViet": "PHẨM",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_08_1",
+                "word": "商品",
+                "hanVietWord": "THƯƠNG PHẨM",
+                "hiragana": "しょうひん",
+                "meaning": {
+                    "vi": "Hàng hóa / Sản phẩm",
+                    "en": "Product / Goods"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい商品を店に並べる。",
+                        "vi": "Xếp hàng hóa mới ra cửa hàng.",
+                        "en": "Display new products in the store."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_33_09",
+        "character": "章",
+        "hanViet": "CHƯƠNG",
+        "level": "N3",
+        "lesson": "Bài 33",
+        "words": [
+            {
+                "id": "kw_rkn3_33_09_1",
+                "word": "文章",
+                "hanVietWord": "VĂN CHƯƠNG",
+                "hiragana": "ぶんしょう",
+                "meaning": {
+                    "vi": "Bài văn / Câu văn",
+                    "en": "Sentence / Essay"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "長い文章を書く。",
+                        "vi": "Viết một bài văn dài.",
+                        "en": "Write a long essay."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_33_09_2",
+                "word": "第一章",
+                "hanVietWord": "ĐỆ NHẤT CHƯƠNG",
+                "hiragana": "だいいっしょう",
+                "meaning": {
+                    "vi": "Chương 1",
+                    "en": "Chapter 1"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この本の第一章を読む。",
+                        "vi": "Đọc chương 1 của cuốn sách này.",
+                        "en": "Read the first chapter of this book."
+                    }
+                ]
+            }
+        ]
+    }
+]

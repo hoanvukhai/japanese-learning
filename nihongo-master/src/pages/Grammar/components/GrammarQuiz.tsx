@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
 import type { QuizQ, FillBlankQ } from './GrammarCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface GrammarQuizProps {
   q: QuizQ | FillBlankQ;

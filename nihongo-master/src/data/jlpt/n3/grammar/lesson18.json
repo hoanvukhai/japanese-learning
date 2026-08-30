@@ -1,0 +1,169 @@
+[
+  {
+    "id": "g_rkn3_18_01",
+    "level": "N3",
+    "structure": "〜わけだ",
+    "structureKana": "〜わけだ",
+    "meaning": {
+      "vi": "Thảo nào / Hèn chi / Đương nhiên là... (hiểu ra nguyên nhân của kết quả)",
+      "en": "No wonder... / That's why... / It makes sense that... (understanding the cause)"
+    },
+    "formation": [
+      "Thể thông thường (A-な / N-である/の) + わけだ / というわけだ"
+    ],
+    "lesson": "Bài 18",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Người nói vừa biết được lý do → thốt lên 'À, thảo nào'. Là sự GẬT GÙ, THẤU HIỂU, không phải phán đoán. Khác với はずだ (logic suy ra trước khi biết kết quả).",
+      "en": "⚠️ JLPT Trap: Speaker just learned the reason → exclaims 'No wonder'. Expresses UNDERSTANDING after the fact, not prediction. Different from はずだ (logical deduction before knowing result)."
+    },
+    "examples": [
+      {
+        "jp": "毎日10時間も勉強しているのか。それで成績がいい[わけだ]。",
+        "kana": "まいにち10じかんもべんきょうしているのか。それでせいせきがいい[わけだ]。",
+        "vi": "Ngày nào cũng học tận 10 tiếng cơ à. Thảo nào mà thành tích lại tốt như thế.",
+        "en": "You study 10 hours every day? No wonder your grades are so good."
+      },
+      {
+        "jp": "彼女の母親はフランス人です。だから、フランス語がペラペラな[わけです]。",
+        "kana": "かのじょのははおやはフランスじんです。だから、フランスごがペラペラな[わけです]。",
+        "vi": "Mẹ của cô ấy là người Pháp. Nên hiển nhiên là cô ấy nói tiếng Pháp lưu loát rồi.",
+        "en": "Her mother is French. That's why she speaks French fluently, of course."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_18_02",
+    "level": "N3",
+    "structure": "〜わけがない",
+    "structureKana": "〜わけがない",
+    "meaning": {
+      "vi": "Không thể nào... / Làm gì có chuyện... (phủ định 100% dựa trên logic)",
+      "en": "There is no way... / It is impossible that... (100% denial based on logic)"
+    },
+    "formation": [
+      "Thể thông thường (A-な / N-の) + わけがない / わけはない"
+    ],
+    "lesson": "Bài 18",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Phủ định 100% dựa trên căn cứ logic. Đồng nghĩa hoàn toàn với はずがない. Phân biệt với ものか (phủ định cảm xúc mạnh: tức giận/quyết tâm) và わけではない (phủ định một phần).",
+      "en": "⚠️ JLPT Trap: 100% denial based on solid logic. Completely synonymous with はずがない. Vs. ものか (emotional denial: anger/determination) and わけではない (partial denial)."
+    },
+    "examples": [
+      {
+        "jp": "こんな難しい問題、子供に解ける[わけがない]。",
+        "kana": "こんなむずかしいもんだい、こどもにとける[わけがない]。",
+        "vi": "Bài toán khó thế này, làm gì có chuyện trẻ con giải được.",
+        "en": "There is no way a child can solve such a difficult problem."
+      },
+      {
+        "jp": "彼が嘘をつく[わけがない]。とても誠実な人だから。",
+        "kana": "かれがうそをつく[わけがない]。とてもせいじつなひとだから。",
+        "vi": "Làm gì có chuyện anh ấy nói dối. Anh ấy là người rất thành thật mà.",
+        "en": "There is no way he would lie. He is a very honest person."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_18_03",
+    "level": "N3",
+    "structure": "〜わけではない",
+    "structureKana": "〜わけではない",
+    "meaning": {
+      "vi": "Không hẳn là... / Không có nghĩa là... (phủ định một phần, bác bỏ suy luận thông thường)",
+      "en": "It does not mean that... / Not necessarily... (partial denial of assumption)"
+    },
+    "formation": [
+      "Thể thông thường (A-な / N-の/な) + わけではない / わけでもない"
+    ],
+    "lesson": "Bài 18",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Bác bỏ MỘT PHẦN suy luận thông thường của người khác. Thường đi với いつも/全部/必ずしも. Phân biệt với わけがない (phủ định 100%). わけではない=không hẳn, わけがない=không thể nào.",
+      "en": "⚠️ JLPT Trap: Partially denies a common assumption. Often with いつも/全部/必ずしも. Vs. わけがない (100% denial). わけではない=not necessarily, わけがない=absolutely impossible."
+    },
+    "examples": [
+      {
+        "jp": "お金があれば幸せになれる[わけではない]。",
+        "kana": "おかねがあればしあわせになれる[わけではない]。",
+        "vi": "Không hẳn là cứ có tiền thì sẽ trở nên hạnh phúc.",
+        "en": "Having money does not necessarily mean you can become happy."
+      },
+      {
+        "jp": "彼が嫌いな[わけではない]が、一緒に仕事はしたくない。",
+        "kana": "かれがきらいな[わけではない]が、いっしょにしごとはしたくない。",
+        "vi": "Không phải là tôi ghét anh ta, nhưng tôi không muốn làm việc cùng.",
+        "en": "It's not that I hate him, but I don't want to work with him."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_18_04",
+    "level": "N3",
+    "structure": "〜わけにはいかない",
+    "structureKana": "〜わけにはいかない",
+    "meaning": {
+      "vi": "Không thể... (vì lý do đạo đức, trách nhiệm, tâm lý — dù muốn cũng không được)",
+      "en": "Cannot... (for moral, social, or psychological reasons — even if desired)"
+    },
+    "formation": [
+      "Vる + わけにはいかない (không thể làm — lương tâm không cho phép)",
+      "Vない + わけにはいかない (không thể không làm — bắt buộc phải làm)"
+    ],
+    "lesson": "Bài 18",
+    "group": "Emotion_Desire",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: LỖI SAI KINH ĐIỂN — KHÔNG dùng cho thiếu năng lực (không biết bơi). CHỈ dùng khi: (1) 'Muốn làm nhưng lương tâm/đạo đức không cho' (Vるわけにはいかない), hoặc (2) 'Không muốn nhưng buộc phải làm' (Vないわけにはいかない).",
+      "en": "⚠️ JLPT Trap: CLASSIC MISTAKE — NOT for lack of ability (can't swim). ONLY when: (1) 'Want to do it, but conscience/duty won't allow it' (Vるわけにはいかない), (2) 'Don't want to but have no choice' (Vないわけにはいかない)."
+    },
+    "examples": [
+      {
+        "jp": "明日は大事なテストがあるから、今日は遊んでいる[わけにはいかない]。",
+        "kana": "あしたはだいじなテストがあるから、きょうはあそんでいる[わけにはいかない]。",
+        "vi": "Ngày mai có bài kiểm tra quan trọng nên hôm nay tôi không thể cứ chơi bời được.",
+        "en": "Because I have an important test tomorrow, I cannot afford to be playing around today."
+      },
+      {
+        "jp": "社長の命令だから、やらない[わけにはいかない]。",
+        "kana": "しゃちょうのめいれいだから、やらない[わけにはいかない]。",
+        "vi": "Vì là mệnh lệnh của giám đốc nên tôi không thể không làm.",
+        "en": "Because it's the president's order, I have no choice but to do it."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_18_05",
+    "level": "N3",
+    "structure": "〜かけだ / 〜かけの",
+    "structureKana": "〜かけだ / 〜かけの",
+    "meaning": {
+      "vi": "Đang làm dở... / Chưa hoàn thành... (dừng lại ở giữa chừng)",
+      "en": "Half-done... / In the middle of... / Unfinished..."
+    },
+    "formation": [
+      "V(bỏ ます) + かけだ (trạng thái đang dở)",
+      "V(bỏ ます) + かけの + N (danh từ đang dở)"
+    ],
+    "lesson": "Bài 18",
+    "group": "CompoundVerbs",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Chỉ hành động tốn thời gian, CÓ BẮT ĐẦU VÀ KẾT THÚC rõ ràng, nhưng đang BỊ DỪNG Ở GIỮA CHỪNG. Không dùng cho trạng thái tự nhiên tức thời (mưa, nắng). 飲みかけ(uống dở), 読みかけ(đọc dở), 食べかけ(ăn dở).",
+      "en": "⚠️ JLPT Trap: For time-consuming actions with CLEAR START and END, currently STOPPED HALFWAY. Not for instantaneous natural states. 飲みかけ(half-drunk), 読みかけ(half-read), 食べかけ(half-eaten)."
+    },
+    "examples": [
+      {
+        "jp": "テーブルの上に飲み[かけの]コーヒーがある。",
+        "kana": "テーブルのうえにのみ[かけの]コーヒーがある。",
+        "vi": "Trên bàn có một cốc cà phê đang uống dở.",
+        "en": "There is a half-drunk cup of coffee on the table."
+      },
+      {
+        "jp": "この本はまだ読み[かけだ]。",
+        "kana": "このほんはまだよみ[かけだ]。",
+        "vi": "Cuốn sách này tôi vẫn đang đọc dở.",
+        "en": "I am still halfway through reading this book."
+      }
+    ]
+  }
+]

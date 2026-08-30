@@ -1,0 +1,137 @@
+[
+  {
+    "id": "g_rkn3_10_01",
+    "level": "N3",
+    "structure": "お〜になる",
+    "structureKana": "お〜になる",
+    "meaning": {
+      "vi": "Tôn kính ngữ: Người trên làm... (nâng cao hành động của đối phương)",
+      "en": "Honorific: [Superior] does... (elevating the listener's action)"
+    },
+    "formation": [
+      "お + V(bỏ ます) + になる"
+    ],
+    "lesson": "Bài 10",
+    "group": "Keigo",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: TUYỆT ĐỐI KHÔNG dùng Tôn kính ngữ cho hành động của BẢN THÂN hoặc người nhà. Chỉ dùng để miêu tả hành động của cấp trên/khách hàng/giáo viên.",
+      "en": "⚠️ JLPT Trap: NEVER use Honorific for your OWN actions or in-group members. Only describes actions of superiors/customers/teachers."
+    },
+    "examples": [
+      {
+        "jp": "社長はもうお帰り[になりました]。",
+        "kana": "しゃちょうはもうおかえり[になりました]。",
+        "vi": "Giám đốc đã đi về rồi ạ.",
+        "en": "The company president has already gone home."
+      },
+      {
+        "jp": "先生は何時にお着き[になりますか]。",
+        "kana": "せんせいはなんじにおつき[になりますか]。",
+        "vi": "Thầy/Cô sẽ đến lúc mấy giờ ạ?",
+        "en": "What time will you arrive, Professor?"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_10_02",
+    "level": "N3",
+    "structure": "〜られる (tôn kính)",
+    "structureKana": "〜られる",
+    "meaning": {
+      "vi": "Tôn kính ngữ: Người trên làm... (cách tôn kính bằng thể bị động)",
+      "en": "Honorific (via passive form): [Superior] does..."
+    },
+    "formation": [
+      "Nhóm 1: V + れる / Nhóm 2: V + られる / Nhóm 3: する → される, くる → こられる"
+    ],
+    "lesson": "Bài 10",
+    "group": "Keigo",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Cùng hình thức với bị động và khả năng! Phân biệt bằng ngữ cảnh. Tôn kính ngữ: Chủ ngữ là người trên, không có tác nhân gây ra hành động. Lịch sự hơn thể thường nhưng kém trang trọng hơn お〜になる.",
+      "en": "⚠️ JLPT Trap: Same form as passive and potential! Distinguish by context. Honorific: Subject is superior, no agent causing the action. More polite than plain but less formal than お〜になる."
+    },
+    "examples": [
+      {
+        "jp": "先生は明日学校に来[られます]か。",
+        "kana": "せんせいはあしたがっこうにこ[られます]か。",
+        "vi": "Thầy/Cô ngày mai có đến trường không ạ?",
+        "en": "Will you come to school tomorrow, Professor?"
+      },
+      {
+        "jp": "部長はもう帰ら[れました]。",
+        "kana": "ぶちょうはもうかえら[れました]。",
+        "vi": "Trưởng phòng đã về rồi ạ.",
+        "en": "The department head has already left."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_10_03",
+    "level": "N3",
+    "structure": "お〜する / お〜いたす",
+    "structureKana": "お〜する / お〜いたす",
+    "meaning": {
+      "vi": "Khiêm nhường ngữ: Tôi/Chúng tôi làm... cho ngài (hạ thấp hành động của bản thân)",
+      "en": "Humble: I/We do... for you (lowering one's own action)"
+    },
+    "formation": [
+      "お + V(bỏ ます) + する (thông thường)",
+      "お + V(bỏ ます) + いたす (trang trọng hơn)"
+    ],
+    "lesson": "Bài 10",
+    "group": "Keigo",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Khiêm nhường ngữ CHỈ ĐƯỢC DÙNG cho hành động của BẢN THÂN hoặc người nhà. Ngược lại hoàn toàn với Tôn kính ngữ. する→いたす (trang trọng hơn). Động từ gốc Hán dùng ご~ thay vì お~.",
+      "en": "⚠️ JLPT Trap: Humble MUST ONLY be used for your OWN or in-group actions. Complete opposite of Honorific. する→いたす (more formal). Sino-Japanese verbs use ご~ instead of お~."
+    },
+    "examples": [
+      {
+        "jp": "私が荷物をお持ち[します]。",
+        "kana": "わたしがにもつをおもち[します]。",
+        "vi": "Để tôi mang hành lý cho ạ.",
+        "en": "I will carry the luggage for you."
+      },
+      {
+        "jp": "ご説明[いたします]。",
+        "kana": "ごせつめい[いたします]。",
+        "vi": "Để tôi giải thích ạ.",
+        "en": "Allow me to explain."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_10_04",
+    "level": "N3",
+    "structure": "〜ます / 〜です / 〜ございます",
+    "structureKana": "〜ます / 〜です / 〜ございます",
+    "meaning": {
+      "vi": "Thể lịch sự (丁寧語 - Teinei-go): Làm mềm mại, lịch sự câu nói",
+      "en": "Polite form (丁寧語 - Teinei-go): Softening speech to be polite"
+    },
+    "formation": [
+      "V + ます / ません / ました",
+      "N / A-な + です",
+      "N + でございます (trang trọng hơn)"
+    ],
+    "lesson": "Bài 10",
+    "group": "Keigo",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Teinei-go là nền tảng của Kính ngữ, không phân chia vế trên/dưới khắt khe. ございます là dạng trang trọng của あります/です. Dùng trong công sở, dịch vụ khách hàng.",
+      "en": "⚠️ JLPT Trap: Teinei-go is the foundation of Keigo, without strict upper/lower distinctions. ございます is the formal form of あります/です. Used in offices and customer service."
+    },
+    "examples": [
+      {
+        "jp": "あちらがトイレで[ございます]。",
+        "kana": "あちらがトイレで[ございます]。",
+        "vi": "Đằng kia là nhà vệ sinh ạ.",
+        "en": "The restroom is over there."
+      },
+      {
+        "jp": "私は今、東京に住んでおり[ます]。",
+        "kana": "わたしはいま、とうきょうにすんでおり[ます]。",
+        "vi": "Hiện tại tôi đang sinh sống ở Tokyo.",
+        "en": "I am currently living in Tokyo."
+      }
+    ]
+  }
+]

@@ -1,122 +1,75 @@
+// src/pages/Kanji/KanjiQuiz.tsx
 import { useState, useMemo, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, Eye, EyeOff } from 'lucide-react';
-import { kanjiN3 } from '../../data/kanjiN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
 import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
-
-interface QuizItem {
-  id: string;
-  questionText: string;
-  target: string;
-  targetHiragana?: string;
-  correctAnswer: string;
-  answerHiragana?: string;
-  hint?: string;
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  return [...arr].sort(() => Math.random() - 0.5);
-}
+import {
+  generateKanjiCharacterQuestion,
+  generateKanjiCompoundQuestion,
+  generateKanjiWordHanVietQuestion,
+  type GeneratedQuestion
+} from '../../lib/questions/questionEngines';
+import type { Kanji, KanjiWord } from '../../types';
 
 export default function KanjiQuiz() {
-  const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
+  const [searchParams] = useSearchParams();
+  const initialMode = (searchParams.get('mode') === 'words' ? 'word-meaning' : 'kanji-hanviet') as 'kanji-hanviet' | 'word-meaning';
+  const { course } = usePracticeContext();
+  const data = course.data as Kanji[];
+
+  const lessons = useMemo(() => {
+    return Array.from(new Set(data.map(k => k.lesson))).filter(Boolean) as string[];
+  }, [data]);
+
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
-  const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>('kanji-hanviet');
-  const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
+  const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>(initialMode);
   const [showFurigana, setShowFurigana] = useState(false);
   const [started, setStarted] = useState(false);
 
   const pool = useMemo(() => {
     const baseKanji = selectedLessons.length === 0
-      ? kanjiN3
-      : kanjiN3.filter(k => selectedLessons.includes(k.lesson || ''));
+      ? data
+      : data.filter(k => selectedLessons.includes(k.lesson || ''));
 
-    const list: QuizItem[] = [];
+    const list: GeneratedQuestion[] = [];
 
     if (mode === 'kanji-hanviet') {
+      const allWords: KanjiWord[] = [];
       baseKanji.forEach(k => {
-        if (direction === 'forward') {
-          list.push({
-            id: k.id,
-            questionText: 'Âm Hán Việt của chữ Hán này là gì?',
-            target: k.character,
-            correctAnswer: k.hanViet,
-            hint: `Bài học: ${k.lesson}`,
-          });
-        } else {
-          list.push({
-            id: k.id,
-            questionText: 'Chữ Hán tương ứng với âm Hán Việt này là gì?',
-            target: k.hanViet,
-            correctAnswer: k.character,
-            hint: `Bài học: ${k.lesson}`,
+        if (k.words) allWords.push(...k.words);
+      });
+      baseKanji.forEach(k => {
+        list.push(generateKanjiCharacterQuestion(k, data));
+        if (k.words && k.words.length > 0) {
+          k.words.filter(w => w.hanVietWord).forEach(w => {
+            list.push(generateKanjiWordHanVietQuestion(k.character, w, allWords));
           });
         }
       });
-    } else { // 'word-meaning'
+    } else {
+      const allWords: KanjiWord[] = [];
       baseKanji.forEach(k => {
-        k.words.forEach((w, idx) => {
-          const meaningStr = typeof w.meaning === 'object' ? w.meaning.vi : w.meaning;
-          const hanVietWordStr = w.hanVietWord || k.hanViet;
-          if (direction === 'forward') {
-            list.push({
-              id: `${k.id}_w_${idx}`,
-              questionText: 'Ý nghĩa tiếng Việt của từ này là gì?',
-              target: w.word,
-              targetHiragana: w.hiragana,
-              correctAnswer: meaningStr,
-              hint: hanVietWordStr ? `Hán Việt: ${hanVietWordStr}` : undefined,
-            });
-          } else {
-            list.push({
-              id: `${k.id}_w_${idx}`,
-              questionText: 'Từ ghép tương ứng với ý nghĩa tiếng Việt này là gì?',
-              target: meaningStr,
-              correctAnswer: w.word,
-              answerHiragana: w.hiragana,
-              hint: hanVietWordStr ? `Hán Việt: ${hanVietWordStr}` : undefined,
-            });
-          }
-        });
+        if (k.words) allWords.push(...k.words);
+      });
+      baseKanji.forEach(k => {
+        if (k.words && k.words.length > 0) {
+          k.words.forEach(w => {
+            list.push(generateKanjiCompoundQuestion(k.character, w, allWords));
+          });
+        }
       });
     }
 
-    return shuffle(list);
-  }, [selectedLessons, mode, direction]);
+    return [...list].sort(() => Math.random() - 0.5);
+  }, [selectedLessons, mode, data]);
 
-  const [queue, setQueue] = useState<QuizItem[]>([]);
+  const [queue, setQueue] = useState<GeneratedQuestion[]>([]);
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 
   const current = queue[0];
-
-  // Tạo các lựa chọn nhiễu
-  const options = useMemo(() => {
-    if (!current) return [];
-
-    const uniqueAnswersMap = new Map<string, string | undefined>();
-    pool.forEach(item => {
-      if (!uniqueAnswersMap.has(item.correctAnswer)) {
-        uniqueAnswersMap.set(item.correctAnswer, item.answerHiragana);
-      }
-    });
-
-    const uniqueKeys = Array.from(uniqueAnswersMap.keys());
-    const otherKeys = uniqueKeys.filter(ans => ans !== current.correctAnswer);
-    const shuffledOthers = shuffle(otherKeys).slice(0, 3);
-
-    const allOptions = [
-      { text: current.correctAnswer, hiragana: current.answerHiragana },
-      ...shuffledOthers.map(k => ({ text: k, hiragana: uniqueAnswersMap.get(k) }))
-    ];
-
-    while (allOptions.length < 4) {
-      allOptions.push({ text: `sai_${Math.random()}`, hiragana: undefined });
-    }
-
-    return shuffle(allOptions);
-  }, [current, pool]);
 
   useEffect(() => { if (started) window.scrollTo(0, 0); }, [started]);
 
@@ -128,7 +81,7 @@ export default function KanjiQuiz() {
   };
 
   const handleAnswer = (ans: string) => {
-    if (selectedAnswer !== null) return;
+    if (selectedAnswer !== null || !current) return;
 
     setSelectedAnswer(ans);
     const correct = ans === current.correctAnswer;
@@ -140,7 +93,7 @@ export default function KanjiQuiz() {
     setTimeout(() => {
       setQueue(q => q.slice(1));
       setSelectedAnswer(null);
-    }, 1500);
+    }, 1200);
   };
 
   const getOptionSize = (text: string) => {
@@ -159,11 +112,13 @@ export default function KanjiQuiz() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-3 transition-colors">
-            <ArrowLeft size={18} /> Quay lại
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-3 transition-colors">
+            <ArrowLeft size={18} /> Quay lại Kanji Dashboard
           </Link>
-          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🎯 Trắc nghiệm Kanji</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-3">Kiểm tra khả năng đọc hiểu chữ Hán hoặc từ vựng ghép.</p>
+          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">
+            🎯 Trắc Nghiệm Kanji {course.name}
+          </h1>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Kiểm tra phản xạ Hán Việt (Chữ gốc) hoặc Từ ghép Kanji.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             <KanjiLessonChips
@@ -175,12 +130,12 @@ export default function KanjiQuiz() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={kanjiN3.length}
+              totalCount={data.length}
               getCount={(l) => {
                 if (mode === 'kanji-hanviet') {
-                  return kanjiN3.filter(k => k.lesson === l).length;
+                  return data.filter(k => k.lesson === l).reduce((acc, k) => acc + 1 + (k.words?.filter(w => w.hanVietWord).length || 0), 0);
                 }
-                return kanjiN3.filter(k => k.lesson === l).reduce((acc, k) => acc + k.words.length, 0);
+                return data.filter(k => k.lesson === l).reduce((acc, k) => acc + (k.words?.length || 0), 0);
               }}
             />
 
@@ -193,11 +148,11 @@ export default function KanjiQuiz() {
                     onClick={() => setMode('kanji-hanviet')}
                     className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
                       mode === 'kanji-hanviet'
-                        ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-sm'
+                        ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 shadow-sm'
                         : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
                     }`}
                   >
-                    <span>Chữ Kanji → Hán Việt</span>
+                    <span>🔷 Phản Xạ Hán Việt (Chữ Gốc)</span>
                   </button>
 
                   <button
@@ -205,69 +160,41 @@ export default function KanjiQuiz() {
                     onClick={() => setMode('word-meaning')}
                     className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
                       mode === 'word-meaning'
-                        ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-sm'
+                        ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 shadow-sm'
                         : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
                     }`}
                   >
-                    <span>Từ ghép → Nghĩa tiếng Việt</span>
+                    <span>🔶 Phản Xạ Từ Ghép Kanji</span>
                   </button>
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">👁️ Hiển thị Kana (Khi chữ Hán)</label>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">👁️ Hiển thị Kana</label>
                 <button
                   onClick={() => setShowFurigana(!showFurigana)}
                   className={`w-full p-4 rounded-xl border-2 transition-all flex items-center justify-between ${
                     showFurigana
-                      ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400'
+                      ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-400'
                       : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
                   }`}
                 >
                   <div className="flex items-center gap-3 font-bold">
                     {showFurigana ? <Eye size={20} /> : <EyeOff size={20} />}
-                    {showFurigana ? 'Đang bật' : 'Đang ẩn'}
+                    {showFurigana ? 'Đang bật Kana' : 'Đang ẩn Kana'}
                   </div>
-                  <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#10b981' : '' }}>
+                  <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#f59e0b' : '' }}>
                     <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-all ${showFurigana ? 'left-5' : 'left-1'}`} />
                   </div>
                 </button>
-              </div>
-
-              <div>
-                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng câu hỏi</label>
-                <div className="grid grid-cols-2 gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setDirection('forward')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                      direction === 'forward'
-                        ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    Thuận
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setDirection('backward')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                      direction === 'backward'
-                        ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    Đảo ngược
-                  </button>
-                </div>
               </div>
             </div>
 
             <button
               onClick={handleStart}
-              className="w-full py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all active:scale-[0.98]"
+              className="w-full py-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all active:scale-[0.98] shadow-md"
             >
-              Bắt đầu kiểm tra (hiện có {pool.length} câu)
+              Bắt đầu trắc nghiệm ({pool.length} câu)
             </button>
           </div>
         </div>
@@ -290,12 +217,12 @@ export default function KanjiQuiz() {
           <div className="space-y-3">
             <button
               onClick={handleStart}
-              className="w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-emerald-400 transition-all flex items-center justify-center gap-2"
+              className="w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-amber-400 transition-all flex items-center justify-center gap-2"
             >
               <RotateCcw size={16} /> Làm lại
             </button>
-            <Link to="/practice/kanji" className="block w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all text-center">
-              Về dashboard
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all text-center">
+              Về Kanji Dashboard
             </Link>
           </div>
         </motion.div>
@@ -309,7 +236,7 @@ export default function KanjiQuiz() {
     <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
       <div className="max-w-lg mx-auto">
         <div className="flex items-center justify-between mb-3">
-          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 transition-colors font-medium">
+          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Thoát
           </button>
           <div className="flex items-center gap-4">
@@ -317,14 +244,14 @@ export default function KanjiQuiz() {
               onClick={() => setShowFurigana(!showFurigana)}
               className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
                 showFurigana 
-                  ? 'bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400' 
+                  ? 'bg-amber-100 dark:bg-amber-900/40 text-amber-600 dark:text-amber-400' 
                   : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700'
               }`}
             >
               {showFurigana ? <Eye size={16} /> : <EyeOff size={16} />}
               Kana
             </button>
-            <div className="text-sm font-bold text-emerald-600 dark:text-emerald-400">
+            <div className="text-sm font-bold text-amber-600 dark:text-amber-400">
               {score} điểm
             </div>
             <div className="text-sm font-medium text-slate-500 dark:text-slate-400">
@@ -335,7 +262,7 @@ export default function KanjiQuiz() {
 
         <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full mb-3 overflow-hidden">
           <motion.div
-            className="h-full bg-emerald-500 rounded-full"
+            className="h-full bg-amber-500 rounded-full"
             animate={{ width: `${progress}%` }}
             transition={{ duration: 0.4 }}
           />
@@ -343,32 +270,34 @@ export default function KanjiQuiz() {
 
         <AnimatePresence mode="wait">
           <motion.div
-            key={current.target}
+            key={current.id}
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-xl border border-slate-100 dark:border-slate-700 mb-3"
           >
             <div className="text-center mb-3">
-              <div className="text-sm text-slate-500 dark:text-slate-400 mb-2 font-medium">{current.questionText}</div>
-              <div className={`text-slate-800 dark:text-white mb-3 ${getTargetSize(current.target)}`}>
-                {current.target}
+              <div className="text-xs font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest mb-2">
+                {current.type.includes('char') ? '🔷 Trắc Nghiệm Chữ Hán Gốc' : '🔶 Trắc Nghiệm Từ Ghép Kanji'}
               </div>
-              {showFurigana && current.targetHiragana && (
-                <div className="text-xl text-slate-400 dark:text-slate-500 mb-3 font-medium">{current.targetHiragana}</div>
+              <div className={`text-slate-800 dark:text-white mb-2 ${getTargetSize(current.prompt)}`}>
+                {current.prompt}
+              </div>
+              {showFurigana && current.hiraganaAnswer && (
+                <div className="text-xl text-indigo-600 dark:text-indigo-400 mb-2 font-bold">{current.hiraganaAnswer}</div>
               )}
-              {current.hint && <div className="text-slate-500 dark:text-slate-400 text-sm font-medium">{current.hint}</div>}
+              {current.subPrompt && <div className="text-slate-500 dark:text-slate-400 text-sm font-medium">{current.subPrompt}</div>}
             </div>
 
-            <div className="grid grid-cols-1 gap-4">
-              {options.map((opt, i) => {
-                let btnClass = "bg-slate-50 dark:bg-slate-700/50 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:border-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/30";
+            <div className="grid grid-cols-1 gap-3">
+              {current.options.map((optText, i) => {
+                let btnClass = "bg-slate-50 dark:bg-slate-700/50 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:border-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/30";
 
                 if (selectedAnswer !== null) {
-                  if (opt.text === current.correctAnswer) {
-                    btnClass = "bg-emerald-500 border-emerald-500 text-white";
-                  } else if (opt.text === selectedAnswer) {
-                    btnClass = "bg-red-500 border-red-500 text-white";
+                  if (optText === current.correctAnswer) {
+                    btnClass = "bg-emerald-500 border-emerald-500 text-white font-bold";
+                  } else if (optText === selectedAnswer) {
+                    btnClass = "bg-red-500 border-red-500 text-white font-bold";
                   } else {
                     btnClass = "bg-slate-50 dark:bg-slate-700/50 border-slate-200 dark:border-slate-600 text-slate-400 opacity-50";
                   }
@@ -377,14 +306,11 @@ export default function KanjiQuiz() {
                 return (
                   <button
                     key={i}
-                    onClick={() => handleAnswer(opt.text)}
+                    onClick={() => handleAnswer(optText)}
                     disabled={selectedAnswer !== null}
-                    className={`p-4 rounded-2xl border-2 transition-all min-h-[4rem] flex flex-col items-center justify-center ${btnClass} ${getOptionSize(opt.text)}`}
+                    className={`p-4 rounded-2xl border-2 transition-all min-h-[4rem] flex items-center justify-center text-center ${btnClass} ${getOptionSize(optText)}`}
                   >
-                    <span>{opt.text}</span>
-                    {showFurigana && opt.hiragana && (
-                      <span className="text-sm opacity-70 font-medium mt-1">{opt.hiragana}</span>
-                    )}
+                    <span>{optText}</span>
                   </button>
                 );
               })}

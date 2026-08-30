@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { CheckCircle2, XCircle, AlertTriangle } from 'lucide-react';
 import { formatKeyForDisplay } from './GrammarCommon';
 import type { ErrorQ } from './GrammarCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface GrammarErrorProps {
   q: ErrorQ;

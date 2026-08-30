@@ -1,0 +1,460 @@
+[
+    {
+        "id": "k_rkn3_13_01",
+        "character": "吐",
+        "hanViet": "THỔ",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_01_1",
+                "word": "吐く",
+                "hanVietWord": "THỔ",
+                "hiragana": "はく",
+                "meaning": {
+                    "vi": "Nôn / Khạc ra",
+                    "en": "To vomit / To spit"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "気分が悪くて吐いてしまった。",
+                        "vi": "Tôi thấy khó chịu và đã nôn ra.",
+                        "en": "I felt sick and threw up."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_01_2",
+                "word": "吐き気",
+                "hanVietWord": "THỔ KHÍ",
+                "hiragana": "はきけ",
+                "meaning": {
+                    "vi": "Cảm giác buồn nôn",
+                    "en": "Nausea"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "バスに酔って吐き気がする。",
+                        "vi": "Tôi bị say xe buýt nên có cảm giác buồn nôn.",
+                        "en": "I have motion sickness from the bus and feel nauseous."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_02",
+        "character": "呼",
+        "hanViet": "HÔ",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_02_1",
+                "word": "深呼吸",
+                "hanVietWord": "THÂM HÔ HẤP",
+                "hiragana": "しんこきゅう",
+                "meaning": {
+                    "vi": "Hít thở sâu",
+                    "en": "Deep breath"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "リラックスするために深呼吸する。",
+                        "vi": "Hít thở sâu để thư giãn.",
+                        "en": "Take a deep breath to relax."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_02_2",
+                "word": "呼ぶ",
+                "hanVietWord": "HÔ",
+                "hiragana": "よぶ",
+                "meaning": {
+                    "vi": "Gọi / Kêu / Mời",
+                    "en": "To call / To invite"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "大声で友達を呼ぶ。",
+                        "vi": "Gọi bạn bằng giọng lớn.",
+                        "en": "Call a friend in a loud voice."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_03",
+        "character": "和",
+        "hanViet": "HÒA",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_03_1",
+                "word": "平和",
+                "hanVietWord": "BÌNH HÒA",
+                "hiragana": "へいわ",
+                "meaning": {
+                    "vi": "Hòa bình",
+                    "en": "Peace"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "平和な世界を願う。",
+                        "vi": "Cầu mong một thế giới hòa bình.",
+                        "en": "Wish for a peaceful world."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_03_2",
+                "word": "和食",
+                "hanVietWord": "HÒA THỰC",
+                "hiragana": "わしょく",
+                "meaning": {
+                    "vi": "Ẩm thực Nhật",
+                    "en": "Japanese food"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "健康のために和食を食べる。",
+                        "vi": "Ăn ẩm thực Nhật vì sức khỏe.",
+                        "en": "Eat Japanese food for health."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_03_3",
+                "word": "和やか",
+                "hanVietWord": "HÒA",
+                "hiragana": "なごやか",
+                "meaning": {
+                    "vi": "Hòa nhã / Thân thiện / Ôn hòa",
+                    "en": "Peaceful / Mild"
+                },
+                "type": "adj_na",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "会議は和やかな雰囲気で進んだ。",
+                        "vi": "Cuộc họp đã diễn ra trong một bầu không khí ôn hòa.",
+                        "en": "The meeting proceeded in a peaceful atmosphere."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_04",
+        "character": "否",
+        "hanViet": "PHỦ",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_04_1",
+                "word": "否定する",
+                "hanVietWord": "PHỦ ĐỊNH",
+                "hiragana": "ひていする",
+                "meaning": {
+                    "vi": "Phủ định / Bác bỏ",
+                    "en": "To deny"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼はその噂を強く否定した。",
+                        "vi": "Anh ấy đã mạnh mẽ phủ định tin đồn đó.",
+                        "en": "He strongly denied the rumor."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_04_2",
+                "word": "否定的",
+                "hanVietWord": "PHỦ ĐỊNH ĐÍCH",
+                "hiragana": "ひていてき",
+                "meaning": {
+                    "vi": "Mang tính phủ định / Tiêu cực",
+                    "en": "Negative"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "私の意見に対して、彼女は否定的だ。",
+                        "vi": "Cô ấy mang thái độ tiêu cực đối với ý kiến của tôi.",
+                        "en": "She is negative towards my opinion."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_05",
+        "character": "告",
+        "hanViet": "CÁO",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_05_1",
+                "word": "告白",
+                "hanVietWord": "CÁO BẠCH",
+                "hiragana": "こくはく",
+                "meaning": {
+                    "vi": "Thổ lộ / Tỏ tình",
+                    "en": "Confession"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "好きな人に告白する。",
+                        "vi": "Thổ lộ với người mình thích.",
+                        "en": "Confess to the person I like."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_05_2",
+                "word": "広告",
+                "hanVietWord": "QUẢNG CÁO",
+                "hiragana": "こうこく",
+                "meaning": {
+                    "vi": "Quảng cáo",
+                    "en": "Advertisement"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "雑誌に新しい化粧品の広告が出ている。",
+                        "vi": "Có quảng cáo mỹ phẩm mới trên tạp chí.",
+                        "en": "There is an advertisement for new cosmetics in the magazine."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_05_3",
+                "word": "告げる",
+                "hanVietWord": "CÁO",
+                "hiragana": "つげる",
+                "meaning": {
+                    "vi": "Báo / Thông báo",
+                    "en": "To inform / To announce"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "春の訪れを告げる。",
+                        "vi": "Báo hiệu mùa xuân đến.",
+                        "en": "Announce the arrival of spring."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_06",
+        "character": "造",
+        "hanViet": "TẠO",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_06_1",
+                "word": "製造",
+                "hanVietWord": "CHẾ TẠO",
+                "hiragana": "せいぞう",
+                "meaning": {
+                    "vi": "Sản xuất / Chế tạo",
+                    "en": "Manufacturing / Production"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この工場では車を製造している。",
+                        "vi": "Nhà máy này đang sản xuất ô tô.",
+                        "en": "This factory is manufacturing cars."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_06_2",
+                "word": "構造",
+                "hanVietWord": "CẤU TẠO",
+                "hiragana": "こうぞう",
+                "meaning": {
+                    "vi": "Cấu trúc / Cấu tạo",
+                    "en": "Structure / Construction"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "建物の構造を調べる。",
+                        "vi": "Tìm hiểu cấu trúc của tòa nhà.",
+                        "en": "Investigate the structure of the building."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_06_3",
+                "word": "造る",
+                "hanVietWord": "TẠO",
+                "hiragana": "つくる",
+                "meaning": {
+                    "vi": "Tạo ra / Làm ra",
+                    "en": "To make / To build"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "庭に池を造る。",
+                        "vi": "Tạo ra một cái ao trong vườn.",
+                        "en": "Build a pond in the garden."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_07",
+        "character": "吸",
+        "hanViet": "HẤP",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_07_1",
+                "word": "鼻呼吸",
+                "hanVietWord": "TỊ HÔ HẤP",
+                "hiragana": "びこきゅう",
+                "meaning": {
+                    "vi": "Hít thở bằng mũi",
+                    "en": "Nasal breathing"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "健康のために鼻呼吸を意識する。",
+                        "vi": "Ý thức việc hít thở bằng mũi vì sức khỏe.",
+                        "en": "Be conscious of nasal breathing for health."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_07_2",
+                "word": "吸う",
+                "hanVietWord": "HẤP",
+                "hiragana": "すう",
+                "meaning": {
+                    "vi": "Hít / Hút",
+                    "en": "To inhale / To smoke"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "新鮮な空気を吸う。",
+                        "vi": "Hít không khí trong lành.",
+                        "en": "Inhale fresh air."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_13_08",
+        "character": "級",
+        "hanViet": "CẤP",
+        "level": "N3",
+        "lesson": "Bài 13",
+        "words": [
+            {
+                "id": "kw_rkn3_13_08_1",
+                "word": "中級",
+                "hanVietWord": "TRUNG CẤP",
+                "hiragana": "ちゅうきゅう",
+                "meaning": {
+                    "vi": "Trình độ trung cấp",
+                    "en": "Intermediate level"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本語の中級クラスに入る。",
+                        "vi": "Vào lớp tiếng Nhật trung cấp.",
+                        "en": "Join the intermediate Japanese class."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_08_2",
+                "word": "高級",
+                "hanVietWord": "CAO CẤP",
+                "hiragana": "こうきゅう",
+                "meaning": {
+                    "vi": "Cao cấp",
+                    "en": "High-class / Luxury"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "高級なレストランで食事をする。",
+                        "vi": "Dùng bữa tại nhà hàng cao cấp.",
+                        "en": "Dine at a luxury restaurant."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_13_08_3",
+                "word": "最高級",
+                "hanVietWord": "TỐI CAO CẤP",
+                "hiragana": "さいこうきゅう",
+                "meaning": {
+                    "vi": "Cao cấp nhất",
+                    "en": "The highest grade"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "最高級の牛肉を買った。",
+                        "vi": "Tôi đã mua loại thịt bò cao cấp nhất.",
+                        "en": "I bought the highest grade beef."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -6,7 +6,7 @@ import {
   RANKS,
   LEVEL_EXP_THRESHOLDS,
 } from '../../../lib/rankSystem';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 // ── types ────────────────────────────────────────────────────────
 export type Level = 'easy' | 'normal' | 'hard';
@@ -129,7 +129,6 @@ export function calcExp(baseScore: number, streak: number, timeLeft: number, lev
 export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { totalQ: number; runMode: 'vocab' | 'character' }): UnifiedQ[] {
   const { totalQ, runMode } = opts;
   const sp = shuffle(flat);
-  const sk = shuffle(allKanji);
   const qs: UnifiedQ[] = [];
 
   const ratio = totalQ / 30; // normalised
@@ -179,7 +178,7 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
       if (dir === 'm2h') {
         qs.push({ id: `typing-v-${i}`, type: 'typing', prompt: meaning, promptSub: kanji.character + ' — ' + kanji.hanViet, answer: word.hiragana, answerDisplay: `${word.word} (${word.hiragana})`, hintText: word.word, inputMode: 'jp', explanation: exp });
       } else {
-        qs.push({ id: `typing-v-${i}`, type: 'typing', prompt: word.word, promptSub: word.hiragana, answer: word.hiragana, answerDisplay: word.hiragana, hintText: meaning, inputMode: 'jp', explanation: exp });
+        qs.push({ id: `typing-v-${i}`, type: 'typing', prompt: word.word, promptSub: meaning, answer: word.hiragana, answerDisplay: word.hiragana, hintText: word.hiragana, inputMode: 'jp', explanation: exp });
       }
     }
 
@@ -236,17 +235,39 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
       return `Chữ Hán: ${k.character} (Hán Việt: ${k.hanViet})\nBài học: ${k.lesson}\nTừ ghép đi kèm:\n${wordsList}`;
     };
 
+    const mixedKanjiAndWords: { id: string, character: string, hanViet: string, lesson: string, explanation: string }[] = [];
+    allKanji.forEach(k => {
+      mixedKanjiAndWords.push({
+        id: k.id,
+        character: k.character,
+        hanViet: k.hanViet,
+        lesson: k.lesson || '',
+        explanation: makeKanjiExplanation(k)
+      });
+      if (k.words) {
+        k.words.filter(w => w.hanVietWord).forEach((w, idx) => {
+          mixedKanjiAndWords.push({
+            id: `${k.id}_w_${idx}`,
+            character: w.word,
+            hanViet: w.hanVietWord as string,
+            lesson: k.lesson || '',
+            explanation: `${w.word} (${w.hiragana}) = ${typeof w.meaning === 'object' ? w.meaning.vi : w.meaning}\nÂm Hán Việt: ${w.hanVietWord}`
+          });
+        });
+      }
+    });
+    const shuffledMixed = shuffle(mixedKanjiAndWords);
+
     let skIdx = 0;
-    
 
     // HanViet quiz
-    for (let i = 0; i < dist.hanviet && skIdx < sk.length; i++) {
-      const k = sk[skIdx++];
+    for (let i = 0; i < dist.hanviet && skIdx < shuffledMixed.length; i++) {
+      const k = shuffledMixed[skIdx++];
       const dir: 'kanji2hv' | 'hv2kanji' = Math.random() > 0.5 ? 'hv2kanji' : 'kanji2hv';
-      const distractorKanji = shuffle(allKanji.filter(kk => kk.id !== k.id)).slice(0, 3);
-      let exp = makeKanjiExplanation(k);
+      const distractorKanji = shuffle(shuffledMixed.filter(kk => kk.id !== k.id)).slice(0, 3);
+      let exp = k.explanation;
       if (distractorKanji.length > 0) {
-        exp += `\n\nChi tiết các chữ Hán khác:\n` + distractorKanji.map(dk => `• ${dk.character} (${dk.hanViet}): Bài ${dk.lesson}`).join('\n');
+        exp += `\n\nChi tiết các phương án khác:\n` + distractorKanji.map(dk => `• ${dk.character} (${dk.hanViet})`).join('\n');
       }
       if (dir === 'kanji2hv') {
         const allHV = [k.hanViet, ...distractorKanji.map(kk => kk.hanViet)];
@@ -262,17 +283,17 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
     }
 
     // Typing kanji
-    for (let i = 0; i < dist.typing && skIdx < sk.length; i++) {
-      const k = sk[skIdx++];
-      const exp = makeKanjiExplanation(k);
+    for (let i = 0; i < dist.typing && skIdx < shuffledMixed.length; i++) {
+      const k = shuffledMixed[skIdx++];
+      const exp = k.explanation;
       qs.push({ id: `typing-r-${i}`, type: 'typing', prompt: k.character, answer: k.hanViet.toLowerCase(), answerDisplay: k.hanViet, hintText: `Bài ${k.lesson}`, inputMode: 'vi', explanation: exp });
     }
 
     // Flashcard kanji
-    for (let i = 0; i < dist.flashcard && skIdx < sk.length; i++) {
-      const k = sk[skIdx++];
+    for (let i = 0; i < dist.flashcard && skIdx < shuffledMixed.length; i++) {
+      const k = shuffledMixed[skIdx++];
       const dir = Math.random() > 0.5 ? 'k2hv' : 'hv2k';
-      const exp = makeKanjiExplanation(k);
+      const exp = k.explanation;
       if (dir === 'hv2k') {
         qs.push({ id: `flash-r-${i}`, type: 'flashcard', front: k.hanViet, back: k.character, explanation: exp });
       } else {
@@ -281,8 +302,8 @@ export function buildQuestions(flat: FlatWord[], allKanji: Kanji[], opts: { tota
     }
 
     // Matching
-    if (allKanji.length >= 8) {
-      const mks = shuffle(allKanji).slice(0, 8);
+    if (shuffledMixed.length >= 8) {
+      const mks = shuffle(shuffledMixed).slice(0, 8);
       const exp = mks.map(k => `${k.character} = ${k.hanViet}`).join('\n');
       qs.push({ id: 'matching-0', type: 'matching', pairs: mks.map(k => ({ jp: k.character, vi: k.hanViet, pairId: k.id })), explanation: exp });
     }

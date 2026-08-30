@@ -1,0 +1,968 @@
+[
+  {
+    "id": "k_rkn2_23_315",
+    "character": "講",
+    "hanViet": "GIẢNG",
+    "onyomi": "コウ",
+    "mnemonic": "Giảng (講) bài về cách tái (再) tạo giếng (井)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_315_1",
+        "word": "講演",
+        "hiragana": "こうえん",
+        "hanVietWord": "GIẢNG DIỄN",
+        "meaning": {
+          "vi": "Bài giảng, diễn thuyết",
+          "en": "Lecture, speech"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "有名な先生の講演を聞く",
+            "vi": "Nghe bài giảng của vị giáo viên nổi tiếng",
+            "en": "Listen to a lecture by a famous teacher"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_315_2",
+        "word": "講座",
+        "hiragana": "こうざ",
+        "hanVietWord": "GIẢNG TỌA",
+        "meaning": {
+          "vi": "Khóa học",
+          "en": "Course, class"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "インターネット講座を受講する",
+            "vi": "Tham gia khóa học trên internet",
+            "en": "Take an online course"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_315_3",
+        "word": "講じる",
+        "hiragana": "こうじる",
+        "hanVietWord": "GIẢNG",
+        "meaning": {
+          "vi": "Đưa ra (biện pháp)",
+          "en": "To take (measures)"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "問題解決のためにあらゆる手段を講じる。",
+            "vi": "Đưa ra mọi biện pháp để giải quyết vấn đề.",
+            "en": "Take all possible measures to solve the problem."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_316",
+    "character": "義",
+    "hanViet": "NGHĨA",
+    "onyomi": "ギ",
+    "mnemonic": "Chúng ta (我) có trái tim chính nghĩa (義) giống chú cừu (羊)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_316_1",
+        "word": "正義",
+        "hiragana": "せいぎ",
+        "hanVietWord": "CHÍNH NGHĨA",
+        "meaning": {
+          "vi": "Chính nghĩa",
+          "en": "Justice"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "正義のために戦う",
+            "vi": "Chiến đấu vì chính nghĩa",
+            "en": "Fight for justice"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_316_2",
+        "word": "講義",
+        "hiragana": "こうぎ",
+        "hanVietWord": "GIẢNG NGHĨA",
+        "meaning": {
+          "vi": "Bài giảng (đại học)",
+          "en": "Lecture"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "講義に出席する",
+            "vi": "Tham dự bài giảng",
+            "en": "Attend a lecture"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_316_3",
+        "word": "定義",
+        "hiragana": "ていぎ",
+        "hanVietWord": "ĐỊNH NGHĨA",
+        "meaning": {
+          "vi": "Định nghĩa",
+          "en": "Definition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "AをBと定義する",
+            "vi": "Định nghĩa A là B",
+            "en": "Define A as B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_317",
+    "character": "導",
+    "hanViet": "ĐẠO",
+    "kunyomi": "みちび-く",
+    "onyomi": "ドウ",
+    "mnemonic": "Chỉ đạo (導) xây đường (道) trong thôn (寸)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_317_1",
+        "word": "指導",
+        "hiragana": "しどう",
+        "hanVietWord": "CHỈ ĐẠO",
+        "meaning": {
+          "vi": "Sự chỉ đạo, hướng dẫn",
+          "en": "Guidance, leadership"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "選手たちを指導している",
+            "vi": "Đang hướng dẫn các tuyển thủ",
+            "en": "Coaching/guiding the players"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_317_2",
+        "word": "導く",
+        "hiragana": "みちびく",
+        "hanVietWord": "ĐẠO",
+        "meaning": {
+          "vi": "Dẫn dắt, hướng dẫn",
+          "en": "To guide, to lead"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "みなさんを合格に導くために頑張ります!",
+            "vi": "Tôi sẽ cố gắng hết sức để dẫn dắt mọi người đến với việc thi đỗ!",
+            "en": "I will do my best to guide everyone to passing the exam!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_317_3",
+        "word": "導入",
+        "hiragana": "どうにゅう",
+        "hanVietWord": "ĐẠO NHẬP",
+        "meaning": {
+          "vi": "Đưa vào, áp dụng",
+          "en": "Introduction, bringing in"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "新しい機械を社内に導入する",
+            "vi": "Đưa máy móc mới vào trong công ty",
+            "en": "Introduce a new machine into the company"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_318",
+    "character": "専",
+    "hanViet": "CHUYÊN",
+    "kunyomi": "もっぱ-ら",
+    "onyomi": "セン",
+    "mnemonic": "Làm 10 (十) mảnh ruộng (田) để trở thành chuyên (専) gia trong thôn (寸)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_318_1",
+        "word": "専門",
+        "hiragana": "せんもん",
+        "hanVietWord": "CHUYÊN MÔN",
+        "meaning": {
+          "vi": "Chuyên môn",
+          "en": "Specialty, major"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "私の専門は IT です",
+            "vi": "Chuyên môn của tôi là IT",
+            "en": "My specialty is IT"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_318_2",
+        "word": "専用",
+        "hiragana": "せんよう",
+        "hanVietWord": "CHUYÊN DỤNG",
+        "meaning": {
+          "vi": "Chuyên dụng, dành riêng",
+          "en": "Exclusive use"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "これは男性専用の化粧品です",
+            "vi": "Đây là mỹ phẩm dành riêng cho nam giới",
+            "en": "This is cosmetics exclusively for men"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_318_3",
+        "word": "専念",
+        "hiragana": "せんねん",
+        "hanVietWord": "CHUYÊN NIỆM",
+        "meaning": {
+          "vi": "Tập trung chuyên tâm",
+          "en": "Dedication, undivided attention"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "勉強に専念する",
+            "vi": "Chuyên tâm vào việc học",
+            "en": "Devote oneself to studying"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_318_4",
+        "word": "専ら",
+        "hiragana": "もっぱら",
+        "hanVietWord": "CHUYÊN",
+        "meaning": {
+          "vi": "Hầu hết, chủ yếu",
+          "en": "Wholly, entirely, exclusively"
+        },
+        "type": "adv",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "休日は専ら読書です",
+            "vi": "Ngày nghỉ tôi chủ yếu đọc sách",
+            "en": "On holidays, I mainly read books"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_319",
+    "character": "限",
+    "hanViet": "HẠN",
+    "kunyomi": "かぎ-る",
+    "onyomi": "ゲン",
+    "mnemonic": "Tốt (艮) nhất là bị giới hạn (限) trong bức tường (阝)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_319_1",
+        "word": "限界",
+        "hiragana": "げんかい",
+        "hanVietWord": "HẠN GIỚI",
+        "meaning": {
+          "vi": "Giới hạn",
+          "en": "Limit, bound"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "肉体の限界に挑戦する",
+            "vi": "Thách thức giới hạn của thể chất",
+            "en": "Challenge the limits of the physical body"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_319_2",
+        "word": "有限",
+        "hiragana": "ゆうげん",
+        "hanVietWord": "HỮU HẠN",
+        "meaning": {
+          "vi": "Có hạn, hữu hạn",
+          "en": "Finite, limited"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "時間は有限、努力は無限",
+            "vi": "Thời gian là có hạn, nỗ lực là vô hạn",
+            "en": "Time is finite, effort is infinite"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_319_3",
+        "word": "無限",
+        "hiragana": "むげん",
+        "hanVietWord": "VÔ HẠN",
+        "meaning": {
+          "vi": "Vô hạn",
+          "en": "Infinite, limitless"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_23_319_4",
+        "word": "限る",
+        "hiragana": "かぎる",
+        "hanVietWord": "HẠN",
+        "meaning": {
+          "vi": "Giới hạn, tốt nhất là (ngữ pháp)",
+          "en": "To restrict, to limit, to be best"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "夏はコーラーに限ります。最高です。",
+            "vi": "Mùa hè thì coca cola là tuyệt nhất. Rất tuyệt vời.",
+            "en": "In summer, cola is the best. It's awesome."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_320",
+    "character": "修",
+    "hanViet": "TU",
+    "onyomi": "シュウ",
+    "mnemonic": "Bị người ta (亻) cầm gậy (丨) đánh (攵) vì đi tu (修) mà để tóc (彡)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_320_1",
+        "word": "修理",
+        "hiragana": "しゅうり",
+        "hanVietWord": "TU LÍ",
+        "meaning": {
+          "vi": "Sửa chữa",
+          "en": "Repair"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "パソコンを修理に出す",
+            "vi": "Mang máy tính đi sửa",
+            "en": "Send a computer in for repair"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_320_2",
+        "word": "研修",
+        "hiragana": "けんしゅう",
+        "hanVietWord": "NGHIÊN TU",
+        "meaning": {
+          "vi": "Thực tập, đào tạo",
+          "en": "Training"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "社内研修が終わり、正式に営業部に配属された",
+            "vi": "Sau khi kết thúc khóa đào tạo trong công ty, tôi đã được phân công chính thức vào bộ phận kinh doanh",
+            "en": "After finishing the in-house training, I was officially assigned to the sales department"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_321",
+    "character": "述",
+    "hanViet": "THUẬT",
+    "kunyomi": "の-べる",
+    "onyomi": "ジュツ",
+    "mnemonic": "Tôi đã nói (述) to trên cả đoạn đường (辶), vì vậy mọi người đều hô ho",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_321_1",
+        "word": "述べる",
+        "hiragana": "のべる",
+        "hanVietWord": "THUẬT",
+        "meaning": {
+          "vi": "Trình bày, phát biểu",
+          "en": "To state, to express, to mention"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "英語で意見を論理的に述べる",
+            "vi": "Trình bày ý kiến bằng tiếng Anh một cách logic",
+            "en": "Logically state one's opinion in English"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_321_2",
+        "word": "記述",
+        "hiragana": "きじゅつ",
+        "hanVietWord": "KÍ THUẬT",
+        "meaning": {
+          "vi": "Ghi chép, mô tả, tự luận",
+          "en": "Description, written (test)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "記述試験と口述試験どっちもある",
+            "vi": "Có cả thi tự luận và thi vấn đáp",
+            "en": "There is both a written test and an oral test"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_322",
+    "character": "将",
+    "hanViet": "TƯƠNG",
+    "onyomi": "ショウ",
+    "mnemonic": "Tối nằm trên giường (丬) nghĩ về tương lai (将) thật thốn (寸)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_322_1",
+        "word": "将来",
+        "hiragana": "しょうらい",
+        "hanVietWord": "TƯƠNG LAI",
+        "meaning": {
+          "vi": "Tương lai",
+          "en": "Future"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "将来、人の病気を治すお医者さんになりたい",
+            "vi": "Tương lai tôi muốn trở thành bác sĩ chữa bệnh cho mọi người",
+            "en": "In the future, I want to become a doctor who cures people's illnesses"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_322_2",
+        "word": "主将",
+        "hiragana": "しゅしょう",
+        "hanVietWord": "CHỦ TƯƠNG",
+        "meaning": {
+          "vi": "Đội trưởng",
+          "en": "Captain (of a team)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "皆は主将について行きます。絶対試合で勝ちましょう",
+            "vi": "Mọi người sẽ đi theo đội trưởng. Nhất định hãy giành chiến thắng trong trận đấu nhé",
+            "en": "Everyone will follow the captain. Let's definitely win the game"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_323",
+    "character": "博",
+    "hanViet": "BÁC",
+    "onyomi": "ハク, バク",
+    "mnemonic": "Sau khi học chuyên (専) môn 10 (十) năm, bạn có thể trở thành tiến sĩ (博士)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_323_1",
+        "word": "博士",
+        "hiragana": "はかせ",
+        "hanVietWord": "BÁC SĨ",
+        "meaning": {
+          "vi": "Tiến sĩ",
+          "en": "Doctorate, expert"
+        },
+        "type": "noun",
+        "readingType": "特殊",
+        "examples": [
+          {
+            "jp": "経済学博士",
+            "vi": "Tiến sĩ kinh tế học",
+            "en": "Doctor of Economics"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_323_2",
+        "word": "博物館",
+        "hiragana": "はくぶつかん",
+        "hanVietWord": "BÁC VẬT QUÁN",
+        "meaning": {
+          "vi": "Viện bảo tàng",
+          "en": "Museum"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "国立博物館",
+            "vi": "Bảo tàng quốc gia",
+            "en": "National museum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_324",
+    "character": "策",
+    "hanViet": "SÁCH",
+    "onyomi": "サク",
+    "mnemonic": "Việc lập đối sách (策) giống như việc lấy tre (竹) tạo gai (朿)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_324_1",
+        "word": "対策",
+        "hiragana": "たいさく",
+        "hanVietWord": "ĐỐI SÁCH",
+        "meaning": {
+          "vi": "Đối sách, biện pháp",
+          "en": "Countermeasure"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "問題を分析し対策を立てる",
+            "vi": "Phân tích vấn đề và lập đối sách",
+            "en": "Analyze the problem and make countermeasures"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_324_2",
+        "word": "政策",
+        "hiragana": "せいさく",
+        "hanVietWord": "CHÍNH SÁCH",
+        "meaning": {
+          "vi": "Chính sách",
+          "en": "Policy"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "政府の経済政策により、成長が加速している",
+            "vi": "Nhờ chính sách kinh tế của chính phủ, sự tăng trưởng đang tăng tốc",
+            "en": "Due to the government's economic policy, growth is accelerating"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_325",
+    "character": "基",
+    "hanViet": "CƠ",
+    "kunyomi": "もと",
+    "onyomi": "キ",
+    "mnemonic": "Kì (其) này có cơ (基) hội mua miếng đất (土)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_325_1",
+        "word": "基づく",
+        "hiragana": "もとづく",
+        "hanVietWord": "CƠ",
+        "meaning": {
+          "vi": "Dựa trên, căn cứ vào",
+          "en": "To be based on"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "法律に基づいて判断する",
+            "vi": "Đưa ra phán đoán dựa trên pháp luật",
+            "en": "Judge based on the law"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_325_2",
+        "word": "基礎",
+        "hiragana": "きそ",
+        "hanVietWord": "CƠ SỞ",
+        "meaning": {
+          "vi": "Cơ sở, nền tảng",
+          "en": "Foundation, basis"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "何事も基礎が大事である",
+            "vi": "Trong bất cứ việc gì nền tảng cũng đều quan trọng",
+            "en": "In everything, the foundation is important"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_325_3",
+        "word": "基本的",
+        "hiragana": "きほんてき",
+        "hanVietWord": "CƠ BẢN ĐÍCH",
+        "meaning": {
+          "vi": "Tính cơ bản, về cơ bản",
+          "en": "Fundamental, basic"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "その案に対し、基本的に賛成します",
+            "vi": "Đối với phương án đó, về cơ bản tôi tán thành",
+            "en": "Regarding that proposal, I basically agree"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_326",
+    "character": "句",
+    "hanViet": "CÚ",
+    "onyomi": "ク",
+    "mnemonic": "Miệng (口) nói ra bao (勹) lời cay cú (句)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_326_1",
+        "word": "禁句",
+        "hiragana": "きんく",
+        "hanVietWord": "CẤM CÚ",
+        "meaning": {
+          "vi": "Từ cấm, lời cấm kị",
+          "en": "Taboo word"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "課長に禁句を言ってしまった",
+            "vi": "Tôi đã lỡ nói lời cấm kị với tổ trưởng",
+            "en": "I accidentally said a taboo word to the section chief"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_326_2",
+        "word": "文句",
+        "hiragana": "もんく",
+        "hanVietWord": "VĂN CÚ",
+        "meaning": {
+          "vi": "Sự phàn nàn, càu nhàu",
+          "en": "Complaint, grumbling"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "レストランに文句をつける/言う",
+            "vi": "Phàn nàn/càu nhàu với nhà hàng",
+            "en": "Complain to the restaurant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_327",
+    "character": "詞",
+    "hanViet": "TỪ",
+    "onyomi": "シ",
+    "mnemonic": "Ngôn ngữ (言) của công ty (司) gọi là từ (詞) ngữ",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_327_1",
+        "word": "動詞",
+        "hiragana": "どうし",
+        "hanVietWord": "ĐỘNG TỪ",
+        "meaning": {
+          "vi": "Động từ",
+          "en": "Verb"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "動詞と名詞について勉強する",
+            "vi": "Học về động từ và danh từ",
+            "en": "Study about verbs and nouns"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_327_2",
+        "word": "名詞",
+        "hiragana": "めいし",
+        "hanVietWord": "DANH TỪ",
+        "meaning": {
+          "vi": "Danh từ",
+          "en": "Noun"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_23_327_3",
+        "word": "作詞作曲",
+        "hiragana": "さくしさっきょく",
+        "hanVietWord": "TÁC TỪ TÁC KHÚC",
+        "meaning": {
+          "vi": "Sáng tác nhạc và lời",
+          "en": "Writing lyrics and composing music"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "作詞作曲",
+            "vi": "Sáng tác nhạc và lời",
+            "en": "Writing lyrics and composing music"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_328",
+    "character": "覧",
+    "hanViet": "LÃM",
+    "onyomi": "ラン",
+    "mnemonic": "Xem kĩ (見) tài liệu trong đợt kiểm toán (監査) là duyệt (閲覧)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_328_1",
+        "word": "一覧",
+        "hiragana": "いちらん",
+        "hanVietWord": "NHẤT LÃM",
+        "meaning": {
+          "vi": "Danh sách, bảng tóm tắt",
+          "en": "List, catalog, summary"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "こちらの雑誌に商品の一覧が載っております",
+            "vi": "Trên cuốn tạp chí này có đăng danh sách sản phẩm",
+            "en": "A list of products is printed in this magazine"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_328_2",
+        "word": "観覧車",
+        "hiragana": "かんらんしゃ",
+        "hanVietWord": "QUAN LÃM XA",
+        "meaning": {
+          "vi": "Vòng đu quay",
+          "en": "Ferris wheel"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "遊園地で観覧車に乗る",
+            "vi": "Đi vòng đu quay ở khu vui chơi",
+            "en": "Ride a Ferris wheel at an amusement park"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_328_3",
+        "word": "展覧会",
+        "hiragana": "てんらんかい",
+        "hanVietWord": "TRIỂN LÃM HỘI",
+        "meaning": {
+          "vi": "Cuộc triển lãm",
+          "en": "Exhibition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "展覧会",
+            "vi": "Cuộc triển lãm",
+            "en": "Exhibition"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_329",
+    "character": "簿",
+    "hanViet": "BỘ / BẠC",
+    "onyomi": "ボ",
+    "mnemonic": "Bút tre (竹) mực nước (氵) chuyên (専) để ghi chép bộ (簿) sổ sách",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_329_1",
+        "word": "名簿",
+        "hiragana": "めいぼ",
+        "hanVietWord": "DANH BỘ",
+        "meaning": {
+          "vi": "Danh sách (tên)",
+          "en": "Register of names, list"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "社員名簿をつくる",
+            "vi": "Lập danh sách nhân viên",
+            "en": "Create a list of employees"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_329_2",
+        "word": "家計簿",
+        "hiragana": "かけいぼ",
+        "hanVietWord": "GIA KẾ BỘ",
+        "meaning": {
+          "vi": "Sổ ghi chép chi tiêu gia đình",
+          "en": "Household account book"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "毎日、家計簿をつける",
+            "vi": "Ghi sổ chi tiêu gia đình mỗi ngày",
+            "en": "Keep a household account book every day"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_23_330",
+    "character": "塾",
+    "hanViet": "THỤC",
+    "onyomi": "ジュク",
+    "mnemonic": "Đứa trẻ (子) đội mũ (亠) đi vòng tròn (丸) trên đất (土) -> Đỉnh là Thục (孰) + Thổ (土)",
+    "level": "N2",
+    "lesson": "Buổi 23",
+    "words": [
+      {
+        "id": "kw_rkn2_23_330_1",
+        "word": "塾",
+        "hiragana": "じゅく",
+        "hanVietWord": "THỤC",
+        "meaning": {
+          "vi": "Học thêm, trường tư, lò luyện thi",
+          "en": "Cram school, private tutoring school"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "私が通っている塾の塾長はイケメンだ",
+            "vi": "Hiệu trưởng của lò luyện thi mà tôi đang theo học là một anh chàng đẹp trai",
+            "en": "The principal of the cram school I attend is handsome"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_23_330_2",
+        "word": "塾長",
+        "hiragana": "じゅくちょう",
+        "hanVietWord": "THỤC TRƯỜNG",
+        "meaning": {
+          "vi": "Hiệu trưởng (trường tư / lò luyện thi)",
+          "en": "Principal of a cram school"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  }
+]

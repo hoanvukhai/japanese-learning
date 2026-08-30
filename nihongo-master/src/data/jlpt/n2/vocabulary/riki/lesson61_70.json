@@ -1,0 +1,2732 @@
+[
+  {
+    "kanji": "切り替える",
+    "hiragana": "きりかえる",
+    "hanViet": "THIẾT THẾ",
+    "meaning": {
+      "vi": "Sửa đổi, thay thế / Chuyển đổi",
+      "en": "To change / To switch / To shift"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "最近メガネからコンタクトに切り替えました。",
+        "vi": "Gần đây tôi đã chuyển đổi từ đeo kính sang dùng kính áp tròng.",
+        "en": "Recently, I switched from glasses to contact lenses."
+      },
+      {
+        "jp": "ずっとミスで落ち込んでいてもしょうがない。切り替えて頑張ろう！",
+        "vi": "Cứ suy sụp mãi vì sai lầm thì cũng chả giải quyết được gì. Thay đổi tâm trạng rồi cố lên nào!",
+        "en": "It's no use staying depressed over a mistake forever. Let's switch our mindset and do our best!"
+      }
+    ],
+    "note": {
+      "jp": "意味: 今までのものをやめて別のものにすること\nポイント: 古いものを＋新しいものに切り替える",
+      "vi": "Ý nghĩa: Từ bỏ cái cho tới nay đang dùng để đổi sang dùng cái khác.\nLưu ý: Thay đổi từ cũ sang mới / Thay đổi tâm trạng.",
+      "en": "Meaning: Stopping what you have been using until now and changing to something else.\nPoints: Switch from old to new / Change feelings/mood."
+    },
+    "id": "v_rkn2_61_601"
+  },
+  {
+    "kanji": "受け持つ",
+    "hiragana": "うけもつ",
+    "hanViet": "THỤ TRÌ",
+    "meaning": {
+      "vi": "Đảm nhiệm, phụ trách",
+      "en": "To take charge of / To be responsible for"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "今５つの授業を受け持ってます。",
+        "vi": "Hiện tại tôi đang phụ trách 5 tiết học.",
+        "en": "I am currently in charge of 5 classes."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分の仕事・担当として引き受けて行うこと\nポイント: ≒自分の担当/責任として引き受ける",
+      "vi": "Ý nghĩa: Đảm nhận lấy công việc của bản thân và thực hiện nó.\nLưu ý: Tiếp nhận công việc với tư cách là người phụ trách/chịu trách nhiệm chính.",
+      "en": "Meaning: Taking on and carrying out something as one's own work/charge.\nPoints: Take responsibility as the person in charge."
+    },
+    "id": "v_rkn2_61_602"
+  },
+  {
+    "kanji": "取り上げる",
+    "hiragana": "とりあげる",
+    "hanViet": "THỦ THƯỢNG",
+    "meaning": {
+      "vi": "Cầm, nhấc / Cướp, tước đi / Nhắc tới, bàn tới",
+      "en": "To pick up / To take away / To take up (a topic)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "彼女は机の上の本を取り上げた。",
+        "vi": "Cô ấy nhấc quyển sách trên bàn lên.",
+        "en": "She picked up the book on the desk."
+      },
+      {
+        "jp": "お母さんにゲーム機を取り上げられた。",
+        "vi": "Bị mẹ tịch thu máy chơi Game.",
+        "en": "I had my game console taken away by my mother."
+      },
+      {
+        "jp": "ニュースでこの事件は大きく取り上げられた。",
+        "vi": "Vụ án đó đã được đưa ra bàn tán xôn xao trên thời sự.",
+        "en": "This incident was taken up prominently on the news."
+      }
+    ],
+    "note": {
+      "jp": "意味: ①取って、持ち上げること ②相手が持っているものを奪うこと ③問題として扱うこと、話題にする",
+      "vi": "Ý nghĩa: 1. Cầm lấy 1 vật gì đó và nhấc lên. 2. Tước đoạt/Tịch thu đồ của người khác. 3. Đưa ra bàn bạc như một vấn đề nóng.",
+      "en": "Meaning: 1. Taking and lifting up. 2. Depriving someone of what they have. 3. Treating as a problem / making it a topic."
+    },
+    "id": "v_rkn2_61_603"
+  },
+  {
+    "kanji": "繰り返す",
+    "hiragana": "くりかえす",
+    "hanViet": "TÀO PHẢN",
+    "meaning": {
+      "vi": "Lặp lại",
+      "en": "To repeat / To do over again"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "「同じ失敗をくり返してはいけません」",
+        "vi": "Không được phép lặp lại những sai lầm y chang thế nữa đâu nhé.",
+        "en": "'You must not repeat the same mistakes.'"
+      },
+      {
+        "jp": "「この授業を何度も繰り返してみてね〜」",
+        "vi": "Mọi người hãy lặp lại (xem đi xem lại) tiết học này thật nhiều lần nha.",
+        "en": "'Please watch this class repeatedly~'"
+      }
+    ],
+    "note": {
+      "jp": "意味: 同じことを何度もすること",
+      "vi": "Ý nghĩa: Lặp đi lặp lại 1 việc tương tự rất nhiều lần.",
+      "en": "Meaning: Doing the same thing over and over again."
+    },
+    "id": "v_rkn2_61_604"
+  },
+  {
+    "kanji": "思いがけない",
+    "hiragana": "おもいがけない",
+    "hanViet": "TƯ",
+    "meaning": {
+      "vi": "Ngoài dự tính, không ngờ tới",
+      "en": "Unexpected / Unforeseen"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "日本に来てから思いがけないことばかり起こる。",
+        "vi": "Kể từ khi đến Nhật Bản, toàn xảy ra những chuyện tào lao ngoài sức tưởng tượng (không lường trước được).",
+        "en": "Since coming to Japan, only unexpected things have happened."
+      }
+    ],
+    "note": {
+      "jp": "意味: 意外。まったく思ってなかった、予想していなかったこと",
+      "vi": "Ý nghĩa: Vô cùng bất ngờ. Việc bản thân không mảy may suy nghĩ hay dự đoán được từ trước.",
+      "en": "Meaning: Surprising. Something completely unthought of or unpredicted."
+    },
+    "id": "v_rkn2_61_605"
+  },
+  {
+    "kanji": "手ごろ",
+    "hiragana": "てごろ",
+    "hanViet": "THỦ",
+    "meaning": {
+      "vi": "Vừa phải, hợp lí",
+      "en": "Affordable / Handy / Suitable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "この店では手ごろな値段でおいしいフランス料理が食べられる。",
+        "vi": "Ở quán này có thể thưởng thức món Pháp ngon tuyệt với mức giá vô cùng phải chăng (vừa túi tiền).",
+        "en": "At this restaurant, you can eat delicious French food at an affordable price."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分にとってちょうど良いこと\nポイント: 手ごろな仕事・値段",
+      "vi": "Ý nghĩa: Vừa vặn/Vừa tầm với bản thân mình.\nLưu ý: Giá cả phải chăng / Công việc vừa sức.",
+      "en": "Meaning: Just right for oneself.\nPoints: Affordable price / Suitable work."
+    },
+    "id": "v_rkn2_61_606"
+  },
+  {
+    "kanji": "不公平",
+    "hiragana": "ふこうへい",
+    "hanViet": "BẤT CÔNG BÌNH",
+    "meaning": {
+      "vi": "Không công bằng, bất công",
+      "en": "Unfair / Injustice"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "女の子にばかり優しくして、上司の対応は不公平だ。",
+        "vi": "Toàn đối xử dịu dàng với mỗi bọn con gái, cách đối ứng của sếp thật là bất công mà.",
+        "en": "Being kind only to girls, the boss's response is unfair."
+      }
+    ],
+    "note": {
+      "jp": "意味: 公平でない事。フェアでない\nポイント: 対: 公平",
+      "vi": "Ý nghĩa: Những chuyện bất công, thiếu công tâm/bình đẳng.\nTrái nghĩa: 公平 (Công bằng).",
+      "en": "Meaning: Unfairness. Not being fair.\nAntonym: 公平 (Fair)."
+    },
+    "id": "v_rkn2_61_607"
+  },
+  {
+    "kanji": "正式",
+    "hiragana": "せいしき",
+    "hanViet": "CHÍNH THỨC",
+    "meaning": {
+      "vi": "Chính thức",
+      "en": "Formal / Official"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "「今日から山田さんは正式にうちの社員です。皆さん、山田さんに色々教えてあげてください。」",
+        "vi": "'Bắt đầu từ hôm nay anh Yamada sẽ chính thức là nhân viên công ty ta. Mọi người hãy chỉ bảo giúp đỡ anh Yamada nhé.'",
+        "en": "'From today, Mr. Yamada is officially our employee. Everyone, please teach Mr. Yamada various things.'"
+      }
+    ],
+    "note": {
+      "jp": "意味: 認められた・ちゃんとした方式、形式であること\nポイント: 正式な手続き、発表、採用する",
+      "vi": "Ý nghĩa: Có hình thức và cách thức làm việc chỉnh chu, được công nhận đàng hoàng.\nLưu ý: Thủ tục chính thức / Thông báo chính thức / Được tuyển dụng chính thức.",
+      "en": "Meaning: Being a recognized and proper method or form.\nPoints: Formal procedure, official announcement, officially employed."
+    },
+    "id": "v_rkn2_61_608"
+  },
+  {
+    "kanji": "質素",
+    "hiragana": "しっそ",
+    "hanViet": "CHẤT TỐ",
+    "meaning": {
+      "vi": "Giản dị",
+      "en": "Simple / Frugal / Plain"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "山田さんはお金持ちなのに質素な暮らしをしている",
+        "vi": "Ông Yamada tuy giàu nhưng lại sống 1 cuộc sống hết sức mộc mạc giản dị.",
+        "en": "Even though Mr. Yamada is rich, he lives a frugal life."
+      },
+      {
+        "jp": "いつも質素な格好をしている",
+        "vi": "Lúc nào cũng ăn mặc với diện mạo giản dị.",
+        "en": "Always dressed in a plain/simple appearance."
+      }
+    ],
+    "note": {
+      "jp": "意味: ゴージャスではなく地味な感じ",
+      "vi": "Ý nghĩa: Cảm giác mộc mạc, tĩnh lặng không phô trương hoa mĩ.",
+      "en": "Meaning: A plain feeling, not gorgeous/luxurious."
+    },
+    "id": "v_rkn2_61_609"
+  },
+  {
+    "kanji": "詳細",
+    "hiragana": "しょうさい",
+    "hanViet": "TƯỜNG TẾ",
+    "meaning": {
+      "vi": "Chi tiết",
+      "en": "Details / Particulars"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 61",
+    "examples": [
+      {
+        "jp": "あの作家は事実を詳細に調べた上で小説を書くそうだ。",
+        "vi": "Vị tác giả kia nghe nói thường viết tiểu thuyết sau khi đã điều tra chi tiết các sự thật.",
+        "en": "That author is said to write novels after investigating facts in detail."
+      }
+    ],
+    "note": {
+      "jp": "意味: 細かく、詳しく\nポイント: 詳しい ＜ 詳細（硬い）",
+      "vi": "Ý nghĩa: Tường tận cặn kẽ.\nLưu ý: 詳細 là cách nói cứng nhắc, trang trọng hơn của 詳しい.",
+      "en": "Meaning: Finely, in detail.\nPoints: 詳細 is a stiffer word than 詳しい."
+    },
+    "id": "v_rkn2_61_610"
+  },
+  {
+    "kanji": "大幅",
+    "hiragana": "おおはば",
+    "hanViet": "ĐẠI PHÚC",
+    "meaning": {
+      "vi": "Đáng kể, tương đối / Lớn (về mức độ)",
+      "en": "Large scale / Drastic / Substantial"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "食料品の大幅な値上げが庶民の生活を直撃。",
+        "vi": "Việc giá lương thực thực phẩm tăng mạnh/đáng kể đã công kích trực tiếp (ảnh hưởng nghiêm trọng) đến đời sống nhân dân.",
+        "en": "The drastic price increase of food products directly hits the lives of ordinary people."
+      }
+    ],
+    "note": {
+      "jp": "意味: 数量などの変わりが大きいこと",
+      "vi": "Ý nghĩa: Sự thay đổi về số lượng/mức độ rất lớn (Tăng giảm số lượng lớn).",
+      "en": "Meaning: A large change in quantity, etc."
+    },
+    "id": "v_rkn2_62_611"
+  },
+  {
+    "kanji": "透明",
+    "hiragana": "とうめい",
+    "hanViet": "THẤU MINH",
+    "meaning": {
+      "vi": "Trong suốt",
+      "en": "Transparent / Clear"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "水や空気は無色透明だ。",
+        "vi": "Nước và không khí thì vô sắc trong suốt.",
+        "en": "Water and air are colorless and transparent."
+      }
+    ],
+    "note": {
+      "jp": "意味: 色がなく。水の色。\n対義語: 不透明な",
+      "vi": "Ý nghĩa: Không có màu sắc, giống như màu của nước tinh khiết.\nTrái nghĩa: 不透明な (Mờ đục).",
+      "en": "Meaning: Colorless. Color of water.\nAntonym: 不透明な (Opaque)."
+    },
+    "id": "v_rkn2_62_612"
+  },
+  {
+    "kanji": "乱暴",
+    "hiragana": "らんぼう",
+    "hanViet": "LOẠN BẠO",
+    "meaning": {
+      "vi": "Cục tính, vô lễ / Thô bạo",
+      "en": "Violent / Rough / Rude"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "あの子は乱暴な子で、よく物を壊したり、人を叩いたりする。",
+        "vi": "Đứa bé đó tính tình rất bạo lực/cục tính, thường xuyên phá phách đồ đạc và đánh người.",
+        "en": "That kid is a violent child who often breaks things and hits people."
+      },
+      {
+        "jp": "乱暴な運転。乱暴な言葉。",
+        "vi": "Lái xe thô bạo. Ngôn từ vô lễ thô thiển.",
+        "en": "Rough driving. Rude words."
+      }
+    ],
+    "note": {
+      "jp": "意味: 行動がひどくて激しい",
+      "vi": "Ý nghĩa: Hành động thái quá và tồi tệ (Bạo lực, thô lỗ).",
+      "en": "Meaning: Actions being terrible and intense (violent/rough)."
+    },
+    "id": "v_rkn2_62_613"
+  },
+  {
+    "kanji": "合同",
+    "hiragana": "ごうどう",
+    "hanViet": "HỢP ĐỒNG",
+    "meaning": {
+      "vi": "Kết hợp, cùng",
+      "en": "Joint / Combined / Together"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "A社と合同で新商品を開発することになった。",
+        "vi": "Đã được quyết định là sẽ liên kết hợp tác với công ty A để phát triển ra sản phẩm mới.",
+        "en": "It was decided to jointly develop a new product with Company A."
+      }
+    ],
+    "note": {
+      "jp": "意味: ２つ以上の独立したものが１つになること\nポイント: 合同説明会、イベント",
+      "vi": "Ý nghĩa: 2 hay nhiều thứ độc lập kết hợp lại cùng tạo thành 1 thể thống nhất.\nLưu ý: Sự kiện kết hợp (VD: Tổ chức hội chợ chung).",
+      "en": "Meaning: Two or more independent things becoming one.\nPoints: Joint briefing sessions, joint events."
+    },
+    "id": "v_rkn2_62_614"
+  },
+  {
+    "kanji": "鮮やか",
+    "hiragana": "あざやか",
+    "hanViet": "TIÊN",
+    "meaning": {
+      "vi": "Rực rỡ, rõ nét",
+      "en": "Vivid / Bright / Brilliant"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "このポスターは色が鮮やかで目を引く。",
+        "vi": "Tấm áp phích này màu sắc rực rỡ thu hút ánh nhìn.",
+        "en": "This poster catches the eye with its vivid colors."
+      },
+      {
+        "jp": "鮮やかに映っている",
+        "vi": "Phản chiếu hình ảnh một cách vô cùng sắc nét (Rõ nét).",
+        "en": "Reflected vividly/clearly."
+      }
+    ],
+    "note": {
+      "jp": "意味: カラフルではっきりしていて目にとまる",
+      "vi": "Ý nghĩa: Màu sắc rực rỡ rõ nét đập vào mắt người nhìn.",
+      "en": "Meaning: Colorful, clear, and catching the eye."
+    },
+    "id": "v_rkn2_62_615"
+  },
+  {
+    "kanji": "賢い",
+    "hiragana": "かしこい",
+    "hanViet": "HIỀN",
+    "meaning": {
+      "vi": "Thông minh / Khôn ngoan",
+      "en": "Smart / Clever / Wise"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "こんな難しい話が理解できるとは賢い子だ。",
+        "vi": "Có thể thấu hiểu được câu chuyện phức tạp thế này đúng là một đứa bé khôn ngoan.",
+        "en": "Being able to understand such a difficult story means it is a smart child."
+      }
+    ],
+    "note": {
+      "jp": "意味: 頭がいいこと",
+      "vi": "Ý nghĩa: Trí tuệ khôn ngoan sáng suốt.",
+      "en": "Meaning: Being smart."
+    },
+    "id": "v_rkn2_62_616"
+  },
+  {
+    "kanji": "相応しい",
+    "hiragana": "ふさわしい",
+    "hanViet": "TƯƠNG ỨNG",
+    "meaning": {
+      "vi": "Phù hợp",
+      "en": "Appropriate / Suitable / Fitting"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "チームの次期キャプテンとして、上野さんが最もふさわしいと思う。",
+        "vi": "Tôi cho rằng ông Ueno là người phù hợp nhất với vị trí Đội trưởng nhiệm kỳ tới của nhóm chúng ta.",
+        "en": "I think Mr. Ueno is the most suitable as the team's next captain."
+      },
+      {
+        "jp": "「大丈夫だよ。君には必ず相応しい男性が現れるよ。心配しなくていいと思う」",
+        "vi": "'Không sao đâu. Nhất định một người đàn ông phù hợp với cậu sẽ xuất hiện thôi. Tớ nghĩ cậu không cần phải lo lắng đâu.'",
+        "en": "'It's okay. A suitable man for you will surely appear. I think you don't need to worry.'"
+      }
+    ],
+    "note": {
+      "jp": "意味: A に対して B は適任\n使い分け: 相応しい (Người, công việc), 適当 (Làm qua loa đại khái, hoặc phù hợp), 適切 (Dành cho ngoài con người, vd: Lời lẽ/Cách xử lý phù hợp).",
+      "vi": "Ý nghĩa: B rất phù hợp/thích đáng so với A.\nPhân biệt: ふさわしい (Dùng cho Người/công việc), 適切な (Không dùng cho người. Dùng cho: Phương pháp/lời nói thích hợp).",
+      "en": "Meaning: B is suitable/competent for A.\nNuance: 相応しい (For people/jobs), 適当 (Suitable or half-hearted), 適切 (For non-people, e.g., words/situations)."
+    },
+    "id": "v_rkn2_62_617"
+  },
+  {
+    "kanji": "乏しい",
+    "hiragana": "とぼしい",
+    "hanViet": "PHẠP",
+    "meaning": {
+      "vi": "Thiếu sót, không đủ, nghèo nàn",
+      "en": "Scarce / Lacking / Poor"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "日本は地下資源が乏しく、多くを輸入に頼っている。",
+        "vi": "Nhật Bản thiếu thốn/nghèo nàn về tài nguyên khoáng sản, nên phải phụ thuộc rất nhiều vào nhập khẩu.",
+        "en": "Japan is scarce in underground resources and relies heavily on imports."
+      },
+      {
+        "jp": "栄養が乏しい ＝ 栄養不足",
+        "vi": "Thiếu chất dinh dưỡng.",
+        "en": "Lacking in nutrition = Nutritional deficiency."
+      }
+    ],
+    "note": {
+      "jp": "意味: 必要なものが非常に足りないこと",
+      "vi": "Ý nghĩa: Những thứ vô cùng cần thiết nhưng lại bị thiếu thốn/không đủ.",
+      "en": "Meaning: Extremely lacking in necessary things."
+    },
+    "id": "v_rkn2_62_618"
+  },
+  {
+    "kanji": "慌ただしい",
+    "hiragana": "あわただしい",
+    "hanViet": "HOẢNG",
+    "meaning": {
+      "vi": "Bận tối mắt tối mũi / Hối hả",
+      "en": "Busy / Hurried / Frantic"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "今日は急な用事や来客が重なって、あわただしい一日だった。",
+        "vi": "Hôm nay toàn việc đột xuất lại còn khách khứa dồn dập, đúng là 1 ngày bận tối mắt tối mũi.",
+        "en": "Today was a frantic day with sudden errands and guests overlapping."
+      }
+    ],
+    "note": {
+      "jp": "意味: 落ち着かなく忙しい様子\nポイント: 慌ただしい日常、１日",
+      "vi": "Ý nghĩa: Vô cùng bận rộn không có thời gian nghỉ ngơi tĩnh tâm lại (Hối hả).\nLưu ý: Nhịp sống hối hả, Một ngày bận tối mắt tối mũi.",
+      "en": "Meaning: A busy situation without time to settle down.\nPoints: A hurried daily life/day."
+    },
+    "id": "v_rkn2_62_619"
+  },
+  {
+    "kanji": "物足りない",
+    "hiragana": "ものたりない",
+    "hanViet": "VẬT TÚC",
+    "meaning": {
+      "vi": "Không thỏa mãn, thiêu thiếu",
+      "en": "Unsatisfying / Not enough"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 62",
+    "examples": [
+      {
+        "jp": "昼食におにぎりだけはなんだか物足りない。",
+        "vi": "Bữa trưa mà chỉ ăn mỗi cơm nắm thì có vẻ hơi bị không thỏa mãn/thiêu thiếu gì đó.",
+        "en": "Just a rice ball for lunch somehow feels unsatisfying/not enough."
+      }
+    ],
+    "note": {
+      "jp": "意味: なにか足りないようで不満があること",
+      "vi": "Ý nghĩa: Vẫn cảm thấy bất mãn vì có vẻ chưa đủ đô (Thiêu thiếu, không trọn vẹn).",
+      "en": "Meaning: Feeling dissatisfied because it seems something is lacking."
+    },
+    "id": "v_rkn2_62_620"
+  },
+  {
+    "kanji": "やかましい",
+    "hiragana": "やかましい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ồn ào / Khó tính, khắt khe",
+      "en": "Noisy / Strict / Fussy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "「工事の音がやかましい！」",
+        "vi": "'Tiếng công trường xây dựng ồn ào quá đi mất!'",
+        "en": "'The construction noise is so loud!'"
+      },
+      {
+        "jp": "課長は料理にやかましい。 ≒味にうるさい",
+        "vi": "Trưởng phòng rất khắt khe trong việc nấu nướng. ≒ Khó tính về vị giác.",
+        "en": "The section chief is fussy about cooking. ≒ Fussy about taste."
+      }
+    ],
+    "note": {
+      "jp": "意味: ①音に対して「うるさい」と感じること ②きびしいこと\nポイント: 目上の人には ✘",
+      "vi": "Ý nghĩa: 1. Đinh tai nhức óc (Vì âm thanh ồn ào). 2. Khắt khe khó tính.\nLưu ý: Không dùng chỉ trích cấp trên (với nghĩa ồn ào).",
+      "en": "Meaning: 1. Feeling 'noisy' about sounds. 2. Being strict.\nPoints: Do not use to describe superiors directly."
+    },
+    "id": "v_rkn2_63_621"
+  },
+  {
+    "kanji": "騒がしい",
+    "hiragana": "さわがしい",
+    "hanViet": "TAO",
+    "meaning": {
+      "vi": "Ồn ào, huyên náo",
+      "en": "Noisy / Boisterous / Turbulent"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "先生が怒ったら、騒々しかった教室は静かになった。",
+        "vi": "Giáo viên vừa tức giận một cái là cái lớp học vốn dĩ ầm ĩ huyên náo bỗng chốc im phăng phắc.",
+        "en": "When the teacher got angry, the noisy classroom became quiet."
+      },
+      {
+        "jp": "国中を騒がした事件が起きた。",
+        "vi": "Một vụ án gây rúng động/xôn xao dư luận toàn quốc đã nổ ra (騒がす).",
+        "en": "An incident that caused an uproar throughout the country occurred."
+      }
+    ],
+    "note": {
+      "jp": "意味: 集団が、うるさいこと\n使い分け: 騒々しい（集団）、うるさい（集団、個人）、やかましい（個人）",
+      "vi": "Ý nghĩa: Âm thanh ồn ào đinh tai do một tập thể gây ra.\nPhân biệt: 騒々しい (Tập thể ồn ào, hỗn loạn), うるさい (Cá nhân hoặc tập thể ồn ào/phiền phức), やかましい (Cá nhân ồn ào, hoặc tính cách khắt khe).\nMở rộng: Động từ 〜を騒がす (Gây xôn xao dư luận/xã hội).",
+      "en": "Meaning: A group being noisy.\nNuance: 騒々しい (group), うるさい (group/individual), やかましい (individual/fussy).\nRelated verb: 〜を騒がす (To cause an uproar/disturb society)."
+    },
+    "id": "v_rkn2_63_622"
+  },
+  {
+    "kanji": "ずるい",
+    "hiragana": "ずるい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ranh mãnh, quỷ quyệt, khôn lỏi",
+      "en": "Sly / Cunning / Unfair"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "うちの上司はずるくて、いつも部下の成果を自分のものにしてしまう。",
+        "vi": "Sếp nhà tôi vô cùng quỷ quyệt khôn lỏi, lúc nào cũng lấy thành quả của cấp dưới và biến nó thành đồ của mình.",
+        "en": "My boss is sly and always makes his subordinates' achievements his own."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分に有利になるように、行動すること\nポイント: 人に勝つために正しくないことをする",
+      "vi": "Ý nghĩa: Hành động có lợi cho bản thân (Ranh ma, xảo quyệt).\nLưu ý: Làm những hành vi không chính đáng hòng giành phần thắng về mình.",
+      "en": "Meaning: Acting in a way that is advantageous to oneself.\nPoints: Doing improper things to win against others."
+    },
+    "id": "v_rkn2_63_623"
+  },
+  {
+    "kanji": "輝かしい",
+    "hiragana": "かがやかしい",
+    "hanViet": "HUY",
+    "meaning": {
+      "vi": "Tươi sáng, rực rỡ",
+      "en": "Brilliant / Glorious / Bright"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "彼女は、ミス・ユニバースという輝かしい経歴を持っている。",
+        "vi": "Cô ấy nắm giữ trong tay 1 quá khứ/lý lịch vô cùng rực rỡ mang tên Hoa hậu hoàn vũ.",
+        "en": "She has a glorious background of being Miss Universe."
+      }
+    ],
+    "note": {
+      "jp": "意味: 輝いているようにすばらしいこと\nポイント: 輝かしい実績、経歴",
+      "vi": "Ý nghĩa: Tuyệt vời huy hoàng tựa như tỏa sáng rực rỡ.\nLưu ý: Thành tựu rực rỡ, quá trình rực rỡ (Lý lịch làm việc hoành tráng).",
+      "en": "Meaning: So wonderful that it seems to shine.\nPoints: Brilliant track record, glorious career."
+    },
+    "id": "v_rkn2_63_624"
+  },
+  {
+    "kanji": "たくましい",
+    "hiragana": "たくましい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mạnh mẽ, vạm vỡ",
+      "en": "Sturdy / Strong / Robust"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "筋トレをしてたくましい体になりたい。",
+        "vi": "Tôi muốn tập tạ để có 1 thân hình vạm vỡ cường tráng.",
+        "en": "I want to do muscle training and get a sturdy body."
+      }
+    ],
+    "note": {
+      "jp": "意味: 丈夫で強そうに見えること",
+      "vi": "Ý nghĩa: Cảm giác vẻ ngoài vô cùng chắc nịch cường tráng (Khỏe mạnh, vạm vỡ).",
+      "en": "Meaning: Looking robust and strong."
+    },
+    "id": "v_rkn2_63_625"
+  },
+  {
+    "kanji": "頼もしい",
+    "hiragana": "たのもしい",
+    "hanViet": "LẠI",
+    "meaning": {
+      "vi": "Đáng tin cậy",
+      "en": "Reliable / Trustworthy / Promising"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "僕は英語が話せないから、留学経験がある山田くんと一緒だと頼もしいよ。",
+        "vi": "Tôi thì chả biết nói tiếng Anh đâu, nên có anh bạn Yamada từng đi du học đi cùng cảm thấy đáng tin cậy an tâm lắm.",
+        "en": "I can't speak English, so being with Yamada, who has study abroad experience, is reliable."
+      },
+      {
+        "jp": "社長：田中さんはまだ若いのに中々頼もしいね。部長：そうなんですよ。将来が楽しみですね。",
+        "vi": "Giám đốc: Anh Tanaka tuy còn trẻ nhưng mà rất có tố chất đáng tin cậy. Trưởng phòng: Đúng vậy đấy ạ. Rất mong chờ tương lai của cậu ấy.",
+        "en": "President: Mr. Tanaka is still young but quite promising. Manager: That's right. I'm looking forward to his future."
+      }
+    ],
+    "note": {
+      "jp": "意味: 頼りになって、心強い、安心できると感じる",
+      "vi": "Ý nghĩa: Cảm giác vững dạ, yên tâm vì đối phương rất là đáng tin để phó thác dựa dẫm.",
+      "en": "Meaning: Feeling reliable, reassuring, and safe."
+    },
+    "id": "v_rkn2_63_626"
+  },
+  {
+    "kanji": "そそっかしい",
+    "hiragana": "そそっかしい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hấp tấp, vội vàng, cẩu thả",
+      "en": "Careless / Hasty / Thoughtless"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "違った靴をはくなんて、そそっかしい人だ。",
+        "vi": "Người gì mà xỏ nhầm giày, đúng là một người hấp tấp cẩu thả mà.",
+        "en": "Wearing mismatched shoes, what a careless person."
+      }
+    ],
+    "note": {
+      "jp": "意味: 心配するような行動をする様子\nポイント: ≒物忘れが多い、だらしない人、おっちょこちょい",
+      "vi": "Ý nghĩa: Hành động cẩu thả bộp chộp gây lo lắng cho người xung quanh.\nĐồng nghĩa: Người hấp tấp hay quên, lôi thôi lếch thếch, bộp chộp.",
+      "en": "Meaning: Acting in a way that causes worry (careless).\nSynonyms: Forgetful, sloppy, scatterbrained."
+    },
+    "id": "v_rkn2_63_627"
+  },
+  {
+    "kanji": "痛ましい",
+    "hiragana": "いたましい",
+    "hanViet": "THỐNG",
+    "meaning": {
+      "vi": "Buồn, đau đớn, thương tâm",
+      "en": "Pitiful / Tragic / Heartbreaking"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "飲酒運転で子供３人がひかれるという、痛ましい事故があった",
+        "vi": "Đã xảy ra 1 vụ tai nạn giao thông thương tâm (đau đớn) khi tài xế say rượu lái xe và tông 3 đứa nhỏ.",
+        "en": "There was a tragic accident in which three children were run over by a drunk driver."
+      }
+    ],
+    "note": {
+      "jp": "意味: 見たくなくなるほど痛々しいこと\n使い分け: 痛ましい（痛ましい事故）、かわいそう（目下の人・動物）、お気の毒に（目上、目下人に）",
+      "vi": "Ý nghĩa: Đau đớn tột cùng đến mức không dám mở mắt ra nhìn (Tai nạn thương tâm).\nPhân biệt: かわいそう (Đáng thương - Dùng cho người dưới/động vật), お気の毒に (Tội nghiệp/Chia buồn - Dùng được cho cả cấp trên và cấp dưới).",
+      "en": "Meaning: So painful/pitiful that you don't want to look at it.\nNuance: 痛ましい (Tragic accident), かわいそう (Poor thing - for subordinates/animals), お気の毒に (My condolences - for anyone)."
+    },
+    "id": "v_rkn2_63_628"
+  },
+  {
+    "kanji": "くどい",
+    "hiragana": "くどい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Dài dòng, lắm lời / Nặng mùi",
+      "en": "Long-winded / Repetitive / Heavy (taste)"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "あの先生の注意はいつもくどくてうんざりする。",
+        "vi": "Mấy lời nhắc nhở của giáo viên kia lúc nào cũng dài dòng dai dẳng phát ngán.",
+        "en": "That teacher's warnings are always repetitive and tedious."
+      },
+      {
+        "jp": "A: くどいようですが、６時までには必ず来てくださいね B: あ、はい。リマインドありがとうございます",
+        "vi": "A: Tôi nói có vẻ hơi bị dài dòng lặp đi lặp lại rồi, nhưng anh nhất định phải đến trước 6h đấy nhé. B: À vâng. Cảm ơn anh đã nhắc lịch nhé.",
+        "en": "A: I may sound like a broken record, but please be sure to come by 6 o'clock. B: Ah, yes. Thank you for the reminder."
+      }
+    ],
+    "note": {
+      "jp": "意味: 何回も何回もしつこいこと",
+      "vi": "Ý nghĩa: Kể đi kể lại lằng nhằng rắc rối khiến người nghe bực mình (Dài dòng / Dai dẳng).",
+      "en": "Meaning: Being annoyingly repetitive over and over again."
+    },
+    "id": "v_rkn2_63_629"
+  },
+  {
+    "kanji": "哀れな",
+    "hiragana": "あわれな",
+    "hanViet": "AI",
+    "meaning": {
+      "vi": "Đáng thương",
+      "en": "Pitiful / Pathetic / Miserable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 63",
+    "examples": [
+      {
+        "jp": "雨にぬれた子犬はやせて、哀れな姿をしていた。",
+        "vi": "Chú chó con dầm mưa người gầy tong teo, lộ ra 1 dáng vẻ vô cùng đáng thương.",
+        "en": "The puppy wet in the rain was thin and looked pathetic/pitiful."
+      }
+    ],
+    "note": {
+      "jp": "意味: ≒かわいそう",
+      "vi": "Ý nghĩa: Đáng thương, bi ai tội nghiệp.\nĐồng nghĩa: かわいそう (Tội nghiệp, đáng thương).",
+      "en": "Meaning: ≒ Poor / Pitiful."
+    },
+    "id": "v_rkn2_63_630"
+  },
+  {
+    "kanji": "重苦しい",
+    "hiragana": "おもくるしい",
+    "hanViet": "TRỌNG KHỔ",
+    "meaning": {
+      "vi": "Nặng nề, khó chịu, u ám",
+      "en": "Heavy / Depressive / Gloomy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "けんかをしてからずっと重苦しい空気だ。",
+        "vi": "Suốt kể từ lúc cãi nhau đến giờ, không khí vô cùng u ám nặng nề.",
+        "en": "Ever since the fight, the atmosphere has been heavy and gloomy."
+      }
+    ],
+    "note": {
+      "jp": "意味: 気分が重くすっきりしないこと、雰囲気が沈んでいること。\nポイント: 重苦しい空気",
+      "vi": "Ý nghĩa: Tâm trạng ủ rũ không thoải mái, hoặc bầu không khí chìm xuống (nặng nề ngột ngạt).\nLưu ý: Bầu không khí u ám nặng nề.",
+      "en": "Meaning: Feeling heavy and unrefreshed, or a depressed atmosphere.\nPoints: Heavy atmosphere."
+    },
+    "id": "v_rkn2_64_631"
+  },
+  {
+    "kanji": "ずうずうしい",
+    "hiragana": "ずうずうしい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trơ trẽn, vô liêm sỉ",
+      "en": "Impudent / Shameless / Audacious"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "並んでいたら、隣のおばさんがずうずうしく列に割り込んできた。",
+        "vi": "Trong lúc tôi đang xếp hàng thì bà thím bên cạnh trơ trẽn phi ngang vào chen hàng.",
+        "en": "While I was lining up, the auntie next to me impudently cut into the line."
+      },
+      {
+        "jp": "前に借りた金も返していないのに、また借りに来るなんて、（ずうずうしい）",
+        "vi": "Tiền mượn lúc trước còn chưa trả, thế mà nay lại đến vay tiếp, đúng là (trơ trẽn/mặt dày).",
+        "en": "Coming to borrow money again without even paying back what you borrowed before is (shameless)."
+      }
+    ],
+    "note": {
+      "jp": "意味: 恥ずかしいはずなのに、そういう気持ちがない様子\nポイント: 迷惑かけいるとわかっているが、気にしない",
+      "vi": "Ý nghĩa: Vốn dĩ là chuyện đáng xấu hổ, thế mà lại không mảy may biết nhục.\nLưu ý: Rõ ràng biết là gây phiền cho người khác mà chả bận tâm (Mặt dày mày dạn, trơ trẽn).",
+      "en": "Meaning: Having no sense of shame when one should be ashamed.\nPoints: Knowing it bothers others but not caring."
+    },
+    "id": "v_rkn2_64_632"
+  },
+  {
+    "kanji": "厚かましい",
+    "hiragana": "あつかましい",
+    "hanViet": "HẬU",
+    "meaning": {
+      "vi": "Mặt dày, trơ trẽn",
+      "en": "Impudent / Brazen / Shameless"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "あいつはいつも食事時にやってきてうちで食べていく、厚かましいやつだ。",
+        "vi": "Cái thằng đó lúc nào cũng tới nhà tôi đúng bữa cơm rồi ăn ké, đúng là 1 thằng mặt dày mà.",
+        "en": "That guy always comes over at mealtime and eats at our place; what a brazen fellow."
+      },
+      {
+        "jp": "（ビジネスシーンで）厚かましいお願いですが、連絡先を教えて頂けますでしょうか",
+        "vi": "(Trong Business) Quả thực là một thỉnh cầu trơ trẽn mặt dày (xin lỗi anh vì hơi vô duyên mặt dày), cơ mà anh có thể cho tôi xin phương thức liên lạc được không?",
+        "en": "(In business) It's a brazen request, but could you please give me your contact information?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 恥ずかしいと思わない\nポイント: 図々しい（日常でよく使う） / 厚かましい（ビジネスシーンでクッション言葉としても使う）",
+      "vi": "Ý nghĩa: Trơ trẽn mặt dày, chả thấy xấu hổ gì cả.\nLưu ý: ずうずうしい hay dùng hội thoại đời thường. 厚かましい thường dùng làm mào đầu (cushion words) trong Business.",
+      "en": "Meaning: Not thinking it is shameful.\nPoints: ずうずうしい is used in daily life. 厚かましい can be used as a cushion word in business."
+    },
+    "id": "v_rkn2_64_633"
+  },
+  {
+    "kanji": "険しい",
+    "hiragana": "けわしい",
+    "hanViet": "HIỂM",
+    "meaning": {
+      "vi": "Dựng đứng, dốc / Khắc nghiệt, nghiêm khắc",
+      "en": "Steep / Rugged / Grim (face)"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "険しい坂道",
+        "vi": "Con dốc dựng đứng hiểm trở.",
+        "en": "A steep slope."
+      }
+    ],
+    "note": {
+      "jp": "意味: 角度が急なこと。表情などが厳しいこと。\n対義語: 緩やか（ゆるやか）な坂道",
+      "vi": "Ý nghĩa: Đứng sừng sững (Đường đèo dốc hiểm trở) hoặc Biểu cảm nghiêm khắc đáng sợ.\nTrái nghĩa: 緩やかな坂道 (Con dốc thoai thoải).",
+      "en": "Meaning: Steep angle. Or grim expression.\nAntonym: 緩やかな (gentle slope)."
+    },
+    "id": "v_rkn2_64_634"
+  },
+  {
+    "kanji": "緩やか",
+    "hiragana": "ゆるやか",
+    "hanViet": "HOÃN",
+    "meaning": {
+      "vi": "Thoải, thoai thoải / Lỏng lẻo",
+      "en": "Gentle (slope) / Loose / Lax"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "この道は緩やかなカーブが続く",
+        "vi": "Con đường này kéo dài bởi những khúc cua thoai thoải.",
+        "en": "This road continues with gentle curves."
+      }
+    ],
+    "note": {
+      "jp": "意味: 角度がゆるいこと",
+      "vi": "Ý nghĩa: Độ cong/độ dốc nới lỏng, thoai thoải thoai thoải.",
+      "en": "Meaning: Gentle angle/slope."
+    },
+    "id": "v_rkn2_64_635"
+  },
+  {
+    "kanji": "分厚い",
+    "hiragana": "ぶあつい",
+    "hanViet": "PHÂN HẬU",
+    "meaning": {
+      "vi": "Dày cộp, cồng kềnh",
+      "en": "Thick / Bulky"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "こんな分厚いステーキは初めて食べます。",
+        "vi": "Lần đầu tiên tôi được ăn miếng bò bít tết dày cộp như thế này đấy.",
+        "en": "This is the first time I've eaten such a thick steak."
+      },
+      {
+        "jp": "こんな分厚い本、読みきれないよ。",
+        "vi": "Cuốn sách dày cộp thế này thì làm sao mà tôi đọc hết nổi chứ.",
+        "en": "I can't read through such a thick book."
+      }
+    ],
+    "note": {
+      "jp": "意味: 厚い ＜ 分厚い\nポイント: ⇔薄っぺらい",
+      "vi": "Ý nghĩa: Dày cộm, dày cộp (Nhấn mạnh hơn của 厚い).\nTrái nghĩa: 薄っぺらい (Mỏng dính).",
+      "en": "Meaning: Very thick (more than 厚い).\nAntonym: 薄っぺらい (thin/flimsy)."
+    },
+    "id": "v_rkn2_64_636"
+  },
+  {
+    "kanji": "弱々しい",
+    "hiragana": "よわよわしい",
+    "hanViet": "NHƯỢC",
+    "meaning": {
+      "vi": "Còm nhom, yếu ớt",
+      "en": "Frail / Feeble / Weak-looking"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "彼女はいつも弱々しい声で話す。",
+        "vi": "Cô ấy lúc nào cũng nói chuyện với chất giọng mảnh khảnh yếu ớt.",
+        "en": "She always speaks in a feeble voice."
+      },
+      {
+        "jp": "日本人と話す時は、はきはき。問題が起きた時も、なにかを報告する時も弱々しくいったら、何か隠していると思われるかもしれない。",
+        "vi": "Khi nói chuyện với người Nhật là phải rõ ràng lưu loát. Dù lúc xảy ra vấn đề, hay là lúc muốn báo cáo cái gì đó mà nói bằng giọng yếu ớt mỏng manh (lắp bắp), thì có thể sẽ bị nghi ngờ là đang giấu giếm cái gì đấy.",
+        "en": "When talking with Japanese people, be clear and brisk. If you speak weakly when reporting a problem, they might think you're hiding something."
+      }
+    ],
+    "note": {
+      "jp": "意味: 弱そうな様子\nポイント: 対：はきはき（はっきり、ぺらぺら）",
+      "vi": "Ý nghĩa: Vẻ ngoài vô cùng ốm yếu mỏng manh, không có sức lực.\nTrái nghĩa: はきはき (Lưu loát, mạnh dạn rành mạch).",
+      "en": "Meaning: Looking weak.\nAntonym: はきはき (Briskly/clearly)."
+    },
+    "id": "v_rkn2_64_637"
+  },
+  {
+    "kanji": "情けない",
+    "hiragana": "なさけない",
+    "hanViet": "TÌNH",
+    "meaning": {
+      "vi": "Thất vọng, thảm hại / Không quan tâm (vô tình)",
+      "en": "Miserable / Pitiful / Shameful / Heartless"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "大事な会議で寝てしまった彼が情けない。",
+        "vi": "Thật thất vọng thảm hại cho hắn khi mà đi ngủ ngay trong 1 cuộc họp quan trọng.",
+        "en": "It is pathetic of him to fall asleep during an important meeting."
+      },
+      {
+        "jp": "入院したのに見舞いにも来てくれない。子供からこんな情けない仕打ちを受けるとは。",
+        "vi": "Tôi phải nhập viện thế mà cũng chẳng thèm đến thăm tôi. Không ngờ tôi lại bị đối xử bạc bẽo lạnh nhạt (vô tình) như thế từ chính con đẻ của mình.",
+        "en": "Even though I was hospitalized, they didn't come to visit. To think I would receive such heartless treatment from my own child."
+      }
+    ],
+    "note": {
+      "jp": "意味: ①ダメすぎる（自分が恥ずかしい、相手にがっかりする） ②思いやりがない。不人情である",
+      "vi": "Ý nghĩa: 1. Đáng xấu hổ thảm hại tột cùng (Về bản thân, hoặc chán nản về ai đó). 2. Vô tâm vô tính, máu lạnh.",
+      "en": "Meaning: 1. Too pathetic (ashamed of self, or disappointed in others). 2. Heartless, lacking sympathy."
+    },
+    "id": "v_rkn2_64_638"
+  },
+  {
+    "kanji": "等しい",
+    "hiragana": "ひとしい",
+    "hanViet": "ĐẲNG",
+    "meaning": {
+      "vi": "Bằng nhau, tương tự, ngang bằng",
+      "en": "Equal / Equivalent / Similar"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "彼の表情は「嫌だ」と言っているのに等しい。",
+        "vi": "Biểu cảm của anh ta ngang bằng (chả khác nào) đang nói câu 'Không thích'.",
+        "en": "His expression is equivalent to saying 'I hate it'."
+      }
+    ],
+    "note": {
+      "jp": "意味: 「＝」\nポイント: 「同じ」よりも硬い言い方",
+      "vi": "Ý nghĩa: Ngang bằng, không kém cạnh 1 chút nào.\nLưu ý: Là cách nói cứng nhắc hơn của 同じ.",
+      "en": "Meaning: Equal to.\nPoints: Stiffer expression than 同じ."
+    },
+    "id": "v_rkn2_64_639"
+  },
+  {
+    "kanji": "羨ましい",
+    "hiragana": "うらやましい",
+    "hanViet": "TIỆN",
+    "meaning": {
+      "vi": "Thèm muốn, ghen tị (ngưỡng mộ)",
+      "en": "Envious / Jealous"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 64",
+    "examples": [
+      {
+        "jp": "あんなきれいな人と結婚できるなんて、羨ましいなぁ。",
+        "vi": "Có thể kết hôn với một người xinh đẹp dường ấy, ngưỡng mộ/ghen tị ghê nha.",
+        "en": "To be able to marry such a beautiful person, I'm so envious."
+      },
+      {
+        "jp": "冬のボーナス１００万円だなんて、羨ましいなぁ",
+        "vi": "Tiền thưởng mùa đông những 100 man yên cơ á, thật là ghen tị quá đi mất thôiii.",
+        "en": "A winter bonus of 1 million yen, I'm so jealous."
+      }
+    ],
+    "note": {
+      "jp": "意味: 「いいなぁ、自分をそうなりたい」と思うこと\nポイント: 会話では、「普通形＋なんて、羨ましい」と使うことが多いです",
+      "vi": "Ý nghĩa: Cảm thấy ghen tị và cũng muốn bản thân được như thế (Tuyệt quá, ghen tị thật đấy).\nLưu ý: Trong hội thoại hay dùng mẫu: (Thể thông thường) + なんて羨ましい (Cái chuyện ... quả thật là ghen tị).",
+      "en": "Meaning: Thinking 'That's nice, I want to be like that too'.\nPoints: Often used with '...nante urayamashii'."
+    },
+    "id": "v_rkn2_64_640"
+  },
+  {
+    "kanji": "くだらない",
+    "hiragana": "くだらない",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vô nghĩa, tầm phào, chán phèo",
+      "en": "Worthless / Trifling / Stupid"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "くだらないことでけんかする",
+        "vi": "Cãi vã nhau vì 1 chuyện tào lao vớ vẩn.",
+        "en": "Argue over a trifling matter."
+      }
+    ],
+    "note": {
+      "jp": "意味: まじめに聞く必要がないこと、ばからしい",
+      "vi": "Ý nghĩa: Ngu ngốc tào lao, không đáng để bận tâm hay nghe một cách nghiêm túc.",
+      "en": "Meaning: Not worth listening to seriously, stupid."
+    },
+    "id": "v_rkn2_65_641"
+  },
+  {
+    "kanji": "すまない",
+    "hiragana": "すまない",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Xin lỗi, áy náy",
+      "en": "Sorry / Excuse me"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "「山田くん、すまないがこの資料５０部コピーしてくれるかな。」",
+        "vi": "'Cậu Yamada, ngại (xin lỗi) quá nhưng cậu có thể photo 50 bản tài liệu này giúp tôi được không?'",
+        "en": "'Yamada-kun, I'm sorry, but could you copy 50 copies of this document?'"
+      }
+    ],
+    "note": {
+      "jp": "意味: ≒「申し訳ないけど…」\nポイント: 会話だと「すまん」もある。基本的に男の人しか使わない",
+      "vi": "Ý nghĩa: Áy náy, xin lỗi.\nLưu ý: Bằng nghĩa với 申し訳ない. Trong hội thoại thì biến âm thành すまん, cơ bản là Nam giới hay dùng.",
+      "en": "Meaning: ≒ I'm sorry, but...\nPoints: In conversation, it can be 'suman'. Basically only used by men."
+    },
+    "id": "v_rkn2_65_642"
+  },
+  {
+    "kanji": "騒がしい",
+    "hiragana": "さわがしい",
+    "hanViet": "TAO",
+    "meaning": {
+      "vi": "Inh ỏi, ồn ào",
+      "en": "Noisy / Boisterous"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "最近夜になると、上の階が騒がしい。",
+        "vi": "Dạo gần đây cứ hễ tối đến, tầng trên lại ầm ĩ ồn ào.",
+        "en": "Lately, at night, the upper floor has been noisy."
+      }
+    ],
+    "note": {
+      "jp": "意味: 声や物音がうるさいこと\nポイント: 騒がしい：客観的、うるさい：主観的",
+      "vi": "Ý nghĩa: Âm thanh ồn ào nhức óc (Thường xuất hiện nhiều trong RIKI - đã nhắc ở Lesson 63).\nPhân biệt: 騒がしい (Ồn ào nhìn theo góc độ Khách quan), うるさい (Ồn ào đánh giá Chủ quan).",
+      "en": "Meaning: Voices or sounds being noisy.\nNuance: 騒がしい (Objective), うるさい (Subjective)."
+    },
+    "id": "v_rkn2_65_643"
+  },
+  {
+    "kanji": "みっともない",
+    "hiragana": "みっともない",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đáng xấu hổ, khó coi, mất thể diện",
+      "en": "Indecent / Unseemly / Disgraceful"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "電車の中で口を開けて寝るなんて、みっともない",
+        "vi": "Lại còn há mồm ra ngủ trên tàu điện, trông thật là khó coi (mất thể diện/mất mỹ quan).",
+        "en": "Sleeping with your mouth open on the train is unseemly."
+      }
+    ],
+    "note": {
+      "jp": "意味: 見た目にわるい\nポイント: 類：情けない、格好悪い、だらしない",
+      "vi": "Ý nghĩa: Trông ngoại hình rất khó coi/tệ hại, gây đánh giá xấu hổ.\nĐồng nghĩa: 情けない (Thảm hại), 格好悪い (Xấu xí, xấu hổ), だらしない (Lôi thôi lếch thếch).",
+      "en": "Meaning: Bad appearance.\nSynonyms: Miserable, uncool, sloppy."
+    },
+    "id": "v_rkn2_65_644"
+  },
+  {
+    "kanji": "貧しい",
+    "hiragana": "まずしい",
+    "hanViet": "BẦN",
+    "meaning": {
+      "vi": "Nghèo, bần cùng",
+      "en": "Poor / Needy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "私は貧しい家で育った。",
+        "vi": "Tôi đã lớn lên trong 1 gia đình bần cùng nghèo khó.",
+        "en": "I grew up in a poor family."
+      },
+      {
+        "jp": "心が貧しい ⇔ 心が（豊か）だ",
+        "vi": "Tâm hồn nghèo nàn trống rỗng ⇔ Trái tim phong phú đong đầy.",
+        "en": "Poor heart/mind ⇔ Rich heart."
+      }
+    ],
+    "note": {
+      "jp": "意味: 貧乏なこと\nポイント: 貧乏：他人を批判する感じ",
+      "vi": "Ý nghĩa: Túng thiếu nghèo khổ, tâm hồn rỗng tuếch.\nLưu ý: 貧乏 thường mang sắc thái chê bai/phê phán người khác nhiều hơn.",
+      "en": "Meaning: Being poor.\nPoints: 貧乏 gives a feeling of criticizing others."
+    },
+    "id": "v_rkn2_65_645"
+  },
+  {
+    "kanji": "幼い",
+    "hiragana": "おさない",
+    "hanViet": "ẤU",
+    "meaning": {
+      "vi": "Trẻ con, ngây thơ / Non nớt",
+      "en": "Very young / Childish / Immature"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "幼い子どもが遊んでいる。",
+        "vi": "Những đứa trẻ ngây thơ non nớt đang vui đùa.",
+        "en": "Young children are playing."
+      },
+      {
+        "jp": "彼は体は大人だが、考え方が幼い。 ≒精神年齢が低い",
+        "vi": "Cơ thể anh ta là người lớn, nhưng suy nghĩ lại rất ấu trĩ/trẻ con. ≒ Tuổi tâm hồn thấp.",
+        "en": "His body is an adult's, but his way of thinking is childish. ≒ Low mental age."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分の年齢よりも下に見えること\n類義語: 幼稚園。幼稚な人≒未熟な人（子供っぽいの硬い言葉）",
+      "vi": "Ý nghĩa: Có vẻ ngoài (hoặc suy nghĩ) thấp kém hơn so với tuổi thật.\nĐồng nghĩa: 幼稚な (Ấu trĩ, chưa trưởng thành) là cách nói cứng của 子供っぽい (Suy nghĩ như trẻ ranh).",
+      "en": "Meaning: Looking/acting younger than one's age.\nSynonyms: 幼稚な (immature/childish - stiffer than 子供っぽい)."
+    },
+    "id": "v_rkn2_65_646"
+  },
+  {
+    "kanji": "またとない",
+    "hiragana": "またとない",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Duy nhất, hiếm có, không có lần thứ 2",
+      "en": "Unique / Once-in-a-lifetime"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "日本行きのチケットが 500,000 ドンのキャンペーンをしているらしい！これはまたとないチャンスだ",
+        "vi": "Nghe nói đang có chiến dịch Sale vé đi Nhật chỉ còn 500k VNĐ! Đây đúng là 1 cơ hội độc nhất vô nhị (hiếm có khó tìm).",
+        "en": "I heard there is a campaign for tickets to Japan for 500,000 VND! This is a once-in-a-lifetime chance."
+      },
+      {
+        "jp": "ABC 学校の美女が最近彼氏と別れたらしい。これはまたとないチャンスだ…！",
+        "vi": "Nghe nói hot girl trường ABC vừa chia tay người yêu thì phải. Đây đúng là cơ hội ngàn năm có 1 rồi...!",
+        "en": "I heard the beautiful girl at ABC school recently broke up with her boyfriend. This is a unique chance...!"
+      }
+    ],
+    "note": {
+      "jp": "意味: ２度はないこと\nポイント: またとないチャンス/機会",
+      "vi": "Ý nghĩa: Độc nhất vô nhị, hiếm khi xảy ra.\nLưu ý: Cơ hội hiếm có / Cơ hội ngàn năm có một.",
+      "en": "Meaning: Not happening twice.\nPoints: A unique chance / opportunity."
+    },
+    "id": "v_rkn2_65_647"
+  },
+  {
+    "kanji": "偉い",
+    "hiragana": "えらい",
+    "hanViet": "VĨ",
+    "meaning": {
+      "vi": "Người có chức vụ cao / Giỏi, tuyệt vời",
+      "en": "Great / Important (person) / Admirable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "卒業式には市長や大臣など偉い人が来ていた。",
+        "vi": "Tại buổi lễ tốt nghiệp có rất nhiều nhân vật vĩ đại (tai to mặt lớn) như Thị trưởng, Bộ trưởng tới tham dự.",
+        "en": "Important people like the mayor and ministers came to the graduation ceremony."
+      },
+      {
+        "jp": "貧しい人を助け続けた彼女は偉いと思う。",
+        "vi": "Tôi cho rằng một người luôn hỗ trợ người nghèo như cô ấy thực sự rất tuyệt vời.",
+        "en": "I think she is admirable for continuing to help poor people."
+      }
+    ],
+    "note": {
+      "jp": "意味: ①地位が高い人 ②よくがんばっていてすごいこと\nポイント: 褒める時に使う。類： 立派な",
+      "vi": "Ý nghĩa: 1. Quyền cao chức trọng (Vĩ nhân). 2. Rất đáng ngưỡng mộ.\nLưu ý: Dùng để khen ngợi. Giống với 立派な (Tuyệt vời, lộng lẫy).",
+      "en": "Meaning: 1. Person with high status. 2. Doing very well and amazing.\nPoints: Used when praising. Synonym: 立派な (splendid/admirable)."
+    },
+    "id": "v_rkn2_65_648"
+  },
+  {
+    "kanji": "詳しい",
+    "hiragana": "くわしい",
+    "hanViet": "TƯỜNG",
+    "meaning": {
+      "vi": "Chi tiết, am hiểu về…",
+      "en": "Detailed / Knowledgeable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "姉はアイドルにとてもくわしいです。",
+        "vi": "Chị gái tôi vô cùng am tường/hiểu rõ về Idol.",
+        "en": "My sister is very knowledgeable about idols."
+      },
+      {
+        "jp": "この地図はスーパーまでの道がとてもくわしく書かれている。",
+        "vi": "Tấm bản đồ này vẽ đường đến siêu thị rất chi tiết/cặn kẽ.",
+        "en": "This map details the route to the supermarket very well."
+      },
+      {
+        "jp": "A: 「では、火曜日の 13時に打ち合わせお願いします。」 B：「 場所や議題などの詳細については後程メールいたします。」",
+        "vi": "A: Vậy 13h thứ 3 gặp nhau trao đổi nhé. B: Chi tiết (詳細) về lịch họp và địa điểm thì lát nữa (後程) tôi sẽ Mail lại ạ.",
+        "en": "A: 'Then, let's meet on Tuesday at 13:00.' B: 'I will email you the details (詳細) such as location and agenda later (後程).'"
+      }
+    ],
+    "note": {
+      "jp": "意味: よく知っていること\n類義語: 詳細（ビジネスの場で）",
+      "vi": "Ý nghĩa: Am hiểu sâu rộng, hoặc vô cùng chi tiết tỉ mỉ.\nĐồng nghĩa: 詳細 (Chi tiết/Tường tận - Dùng trang trọng/kinh doanh).",
+      "en": "Meaning: Knowing well. Detailed.\nSynonym: 詳細 (Details - in business settings)."
+    },
+    "id": "v_rkn2_65_649"
+  },
+  {
+    "kanji": "目覚ましい",
+    "hiragana": "めざましい",
+    "hanViet": "MỤC GIÁC",
+    "meaning": {
+      "vi": "Nổi bật, vượt bậc",
+      "en": "Remarkable / Striking / Spectacular"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 65",
+    "examples": [
+      {
+        "jp": "彼は試合でめざましい活躍をした。",
+        "vi": "Anh ta đã đạt được nhiều thành tựu vượt bậc vô cùng chói lọi trong trận đấu.",
+        "en": "He played a remarkable/spectacular part in the match."
+      }
+    ],
+    "note": {
+      "jp": "意味: びっくりするほど素晴らしいこと\nポイント: びっくりして目が覚めるほど",
+      "vi": "Ý nghĩa: Sáng chói rực rỡ một cách đáng kinh ngạc.\nLưu ý: Tuyệt vời đến mức giật mình tỉnh cả ngủ (Mở trừng mắt ＝ 目覚める).",
+      "en": "Meaning: So wonderfully amazing it surprises you.\nPoints: Enough to wake you up in surprise."
+    },
+    "id": "v_rkn2_65_650"
+  },
+  {
+    "kanji": "曖昧な",
+    "hiragana": "あいまいな",
+    "hanViet": "ÁI MUỘI",
+    "meaning": {
+      "vi": "Mơ hồ, mông lung",
+      "en": "Vague / Ambiguous"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "あの日のことは記憶があいまいだ。",
+        "vi": "Kí ức về những chuyện ngày hôm đó rất mơ hồ không rõ ràng.",
+        "en": "My memory of that day is vague."
+      }
+    ],
+    "note": {
+      "jp": "意味: YES か NO かはっきりしないこと\nポイント: 曖昧な返事、表現、答え",
+      "vi": "Ý nghĩa: Chẳng rõ ràng, trắng đen lộn xộn không dứt khoát.\nLưu ý: Câu trả lời vòng vo mơ hồ / Biểu hiện nhập nhằng.",
+      "en": "Meaning: Not clear whether it is YES or NO.\nPoints: Vague reply, expression, answer."
+    },
+    "id": "v_rkn2_66_651"
+  },
+  {
+    "kanji": "有効",
+    "hiragana": "ゆうこう",
+    "hanViet": "HỮU HIỆU",
+    "meaning": {
+      "vi": "Hữu hiệu, có hiệu quả",
+      "en": "Valid / Effective"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "ビザの有効期限はいつまでですか？",
+        "vi": "Thời hạn có hiệu lực của Visa là tới khi nào thế?",
+        "en": "When is the expiration date of the visa?"
+      },
+      {
+        "jp": "時間は無駄に使わず有効に使いなさい。",
+        "vi": "Đừng có lãng phí thời gian, hãy dùng nó 1 cách thật hữu ích vào.",
+        "en": "Do not waste time, use it effectively."
+      }
+    ],
+    "note": {
+      "jp": "意味: （法律上）効果があること\nポイント: 対：無効。有効に使う",
+      "vi": "Ý nghĩa: Đang có công hiệu/hiệu lực (về mặt luật pháp hoặc sử dụng).\nTrái nghĩa: 無効 (Vô hiệu lực).",
+      "en": "Meaning: Having an effect (legally/functionally).\nPoints: Antonym: 無効 (Invalid)."
+    },
+    "id": "v_rkn2_66_652"
+  },
+  {
+    "kanji": "大げさ",
+    "hiragana": "おおげさ",
+    "hanViet": "ĐẠI",
+    "meaning": {
+      "vi": "Phóng đại, phô trương / Làm quá",
+      "en": "Exaggerated / Overstated"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "男：俺、痛くて死にそう。高熱かも。女：えぇ！大丈夫？何度なの？男：えぇっと。。37.2度。女：大げさじゃん！",
+        "vi": "Nam: Khéo ốm sắp ngỏm rồi, chắc sốt cao lắm. Nữ: Ế! Có sao k? Bao độ? Nam: Ừm thì... 37.2 độ. Nữ: Ông cứ làm quá / phóng đại lên thế!",
+        "en": "Man: I'm dying of pain. Maybe high fever. Woman: What! Are you okay? What's the temp? Man: Err... 37.2. Woman: That's exaggerated!"
+      },
+      {
+        "jp": "私につまらないジョークを聞いて大げさに笑ってくれた。",
+        "vi": "Cậu ấy đã làm lố cười toáng lên (cười phóng đại) khi nghe câu truyện cười nhạt toẹt của tôi.",
+        "en": "Listened to my boring joke and exaggeratedly laughed for me."
+      }
+    ],
+    "note": {
+      "jp": "意味: 実際より大きく見せること\n使い分け: 大雑把 (Đại khái, qua loa) vs 大げさに笑う (Cười phóng đại/lố lăng).",
+      "vi": "Ý nghĩa: Chém gió, chém bão, phóng đại sự thật lên so với thực tế.\nPhân biệt: 大雑把 (Đại khái, qua loa, làm k cẩn thận).",
+      "en": "Meaning: Showing it bigger than reality.\nNuance: 大雑把 (rough/sloppy) vs 大げさ (exaggerated/making a big deal)."
+    },
+    "id": "v_rkn2_66_653"
+  },
+  {
+    "kanji": "深刻",
+    "hiragana": "しんこく",
+    "hanViet": "THÂM KHẮC",
+    "meaning": {
+      "vi": "Nghiêm trọng",
+      "en": "Serious / Severe"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "猛暑によって深刻な水不足が起きた。",
+        "vi": "Nắng nóng gay gắt dẫn đến việc thiếu hụt nước trầm trọng.",
+        "en": "The intense heat caused a severe water shortage."
+      },
+      {
+        "jp": "彼はものごとをすぐ深刻に考える ≒考えすぎる",
+        "vi": "Anh ta cứ đụng chuyện 1 cái là lại trầm trọng hóa/nghĩ ngợi sâu xa (Nghĩ quá nhiều).",
+        "en": "He easily thinks of things seriously/severely ≒ overthinks."
+      },
+      {
+        "jp": "「皆様に重大発表があります。私たち、結婚します。」",
+        "vi": "(Mở rộng với 重大): 'Tôi có 1 thông báo vô cùng trọng đại muốn gửi tới quý vị. Đó là chúng tôi sẽ kết hôn'.",
+        "en": "(Related 重大): 'I have a major announcement for everyone. We are getting married.'"
+      }
+    ],
+    "note": {
+      "jp": "意味: 簡単ではない、大変なことがある様子\nポイント: 深刻な問題・悩み。マイナスのことに使う\n使い分け: 深刻 (Nghiêm trọng, trầm trọng - Mang nghĩa tiêu cực). 重大 (Quan trọng, trọng đại - Mang cả nghĩa tích và tiêu cực).",
+      "vi": "Ý nghĩa: Tính chất sự việc không hề giản đơn (Nghiêm trọng, trầm trọng).\nLưu ý: Dùng cho những việc mang nghĩa tiêu cực (Bệnh tình trở nặng, thiếu nước trầm trọng). Vấn đề trọng đại (重大) thì dùng cả Âm cả Dương đều được.",
+      "en": "Meaning: A state where things are not simple, very tough.\nPoints: Used for negative things (serious problem/worry). 重大 (important/major) is used for both positive and negative."
+    },
+    "id": "v_rkn2_66_654"
+  },
+  {
+    "kanji": "温厚",
+    "hiragana": "おんこう",
+    "hanViet": "ÔN HẬU",
+    "meaning": {
+      "vi": "Dịu dàng, hòa nhã",
+      "en": "Gentle / Mild-mannered"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "部長は常に温厚で、怒ったところを見たことがある人はいない。なので彼の周りには自然と人が集まってくる",
+        "vi": "Trưởng phòng lúc nào cũng hiền lành ôn hậu, chưa ai từng chứng kiến cảnh ông ấy tức giận cả. Nên quanh ông ấy mọi người tụ tập đến một cách rất tự nhiên.",
+        "en": "The department manager is always gentle, and no one has ever seen him angry. So people naturally gather around him."
+      }
+    ],
+    "note": {
+      "jp": "意味: 全然怒らず、暖かくて優しい",
+      "vi": "Ý nghĩa: Chả thấy tức giận bao giờ, vô cùng ấm áp và hiền hòa.",
+      "en": "Meaning: Not getting angry at all, warm and gentle."
+    },
+    "id": "v_rkn2_66_655"
+  },
+  {
+    "kanji": "勝手",
+    "hiragana": "かって",
+    "hanViet": "THẮNG THỦ",
+    "meaning": {
+      "vi": "Ích kỉ, tự tiện / Tự động",
+      "en": "Selfish / Arbitrary / On its own"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "勝手な言動は他の人の迷惑になる。",
+        "vi": "Những lời nói ích kỷ tự cao tự đại (phát ngôn bừa bãi) sẽ mang lại rắc rối cho người khác.",
+        "en": "Selfish words and deeds will cause trouble for others."
+      },
+      {
+        "jp": "A：勝手に撮らないでください。 B：あ、すみません",
+        "vi": "A: Đừng có mà tự ý/tự tiện chụp hình người khác! B: A, xin lỗi.",
+        "en": "A: Please don't take pictures without permission. B: Ah, sorry."
+      },
+      {
+        "jp": "このパソコンは、ときどき勝手にシャットダウンしてしまう。",
+        "vi": "Cái máy tính này đôi khi cứ tự động tắt nguồn (Sập nguồn).",
+        "en": "This computer sometimes shuts down on its own."
+      }
+    ],
+    "note": {
+      "jp": "意味: 他人のことを考えずに自分だけがいいようにすること\nポイント: 許可を取らずに勝手に〜する。機械が勝手に〜する",
+      "vi": "Ý nghĩa: Không thèm đoái hoài gì tới cảm xúc người khác, cứ tự ý làm. Hoặc máy móc cứ 'Tự động' làm 1 chuỗi thao tác k theo ý chủ nhân.",
+      "en": "Meaning: Doing what is good for oneself without considering others.\nPoints: Doing things without permission. Machines doing things on their own."
+    },
+    "id": "v_rkn2_66_656"
+  },
+  {
+    "kanji": "慎重",
+    "hiragana": "しんちょう",
+    "hanViet": "THẬN TRỌNG",
+    "meaning": {
+      "vi": "Thận trọng",
+      "en": "Careful / Cautious"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "私は慎重な性格なので、すぐには決め無いと思います。",
+        "vi": "Vì tôi mang một nét tính cách khá thận trọng, nên tôi nghĩ mình không thể quyết định ngay lập tức được.",
+        "en": "Because I have a cautious personality, I don't think I can decide immediately."
+      }
+    ],
+    "note": {
+      "jp": "意味: 注意深くて、簡単に行動しない、よく考えてから行動すること",
+      "vi": "Ý nghĩa: Vô cùng cẩn trọng, suy tính kĩ càng rồi mới tung chiêu chứ k hành động bừa bãi.",
+      "en": "Meaning: Being careful, not acting easily, and acting after thinking well."
+    },
+    "id": "v_rkn2_66_657"
+  },
+  {
+    "kanji": "優秀",
+    "hiragana": "ゆうしゅう",
+    "hanViet": "ƯU TÚ",
+    "meaning": {
+      "vi": "Ưu tú",
+      "en": "Excellent / Outstanding / Superior"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "山田さんは高校３年間１位という、とても優秀な人だった。",
+        "vi": "Yamada là 1 nhân vật vô cùng ưu tú xuất chúng khi giữ ngôi vị top 1 toàn trường trong suốt 3 năm cao trung.",
+        "en": "Mr. Yamada was a very excellent person, ranking first for three years in high school."
+      }
+    ],
+    "note": {
+      "jp": "意味: とても優れていること\nポイント: 優秀な人、人材、優秀賞",
+      "vi": "Ý nghĩa: Nổi trội xuất sắc ưu tú.\nLưu ý: Nhân tài ưu tú, Giấy khen xuất sắc (Ưu tú thưởng).",
+      "en": "Meaning: Being very superior/excellent.\nPoints: Excellent person, human resources, prize for excellence."
+    },
+    "id": "v_rkn2_66_658"
+  },
+  {
+    "kanji": "奇妙",
+    "hiragana": "きみょう",
+    "hanViet": "KỲ DIỆU",
+    "meaning": {
+      "vi": "Kỳ lạ, kỳ diệu",
+      "en": "Strange / Odd / Peculiar"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "A:「昨日の夜、近所中の犬がいっせいに鳴いたんですよ」 B:「それは奇妙ですね」",
+        "vi": "A: Đêm qua, toàn bộ chó trong làng đồng loạt sủa ầm ĩ lên đó. B: Quả là 1 chuyện kỳ lạ bí ẩn ha.",
+        "en": "A: 'Last night, all the dogs in the neighborhood barked at the same time.' B: 'That's strange.'"
+      },
+      {
+        "jp": "科学では説明できない奇妙な現象",
+        "vi": "Một hiện tượng kỳ bí mà khoa học không thể giải thích được.",
+        "en": "A strange phenomenon that cannot be explained by science."
+      }
+    ],
+    "note": {
+      "jp": "意味: 珍しくて、不思議なこと\nポイント: 奇妙なこと・現象",
+      "vi": "Ý nghĩa: Chuyện hiếm có, bí ẩn khó lí giải (Kỳ diệu, kỳ quặc).",
+      "en": "Meaning: Rare and mysterious."
+    },
+    "id": "v_rkn2_66_659"
+  },
+  {
+    "kanji": "適度",
+    "hiragana": "てきど",
+    "hanViet": "THÍCH ĐỘ",
+    "meaning": {
+      "vi": "Chừng mực, điều độ",
+      "en": "Moderate / Proper degree"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 66",
+    "examples": [
+      {
+        "jp": "健康のためには、適度な運動が大切だ。",
+        "vi": "Nhằm nâng cao sức khỏe thì việc vận động chừng mực điều độ đóng vai trò rất quan trọng.",
+        "en": "For health, moderate exercise is important."
+      }
+    ],
+    "note": {
+      "jp": "意味: 程度がちょうどいいこと\n使い分け: 適度（ちょうどいい） vs 過度（やりすぎ）",
+      "vi": "Ý nghĩa: Ở một chừng mực vừa phải thích hợp.\nPhân biệt: 適度 (Vừa phải hợp lý) vs 過度 (Thái quá/ Làm quá giới hạn).",
+      "en": "Meaning: The degree is just right.\nNuance: 適度 (Just right) vs 過度 (Excessive)."
+    },
+    "id": "v_rkn2_66_660"
+  },
+  {
+    "kanji": "冷静",
+    "hiragana": "れいせい",
+    "hanViet": "LÃNH TĨNH",
+    "meaning": {
+      "vi": "Bình tĩnh, điềm tĩnh",
+      "en": "Calm / Cool-headed"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "何があっても慌てず冷静な上司を、私は尊敬している。",
+        "vi": "Tôi vô cùng kính trọng ông sếp lúc nào cũng giữ được cái đầu lạnh (sự bình tĩnh) mà chả mảy may hoảng hốt trước bất kì tình huống nào.",
+        "en": "I respect my boss who remains calm and doesn't panic no matter what happens."
+      }
+    ],
+    "note": {
+      "jp": "意味: 大変なことがあっても、落ち着いていて、慌てないさま",
+      "vi": "Ý nghĩa: Sự điềm tĩnh, điềm đạm k hoảng sợ trước giông bão.",
+      "en": "Meaning: Being calm and not panicking even if something terrible happens."
+    },
+    "id": "v_rkn2_67_661"
+  },
+  {
+    "kanji": "贅沢",
+    "hiragana": "ぜいたく",
+    "hanViet": "CHUẾ TRẠCH",
+    "meaning": {
+      "vi": "Xa xỉ / Xài sang",
+      "en": "Luxury / Extravagance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "贅沢な食事 >< 質素な食事",
+        "vi": "Bữa ăn xa xỉ sang trọng >< Bữa ăn mộc mạc đạm bạc.",
+        "en": "A luxurious meal >< A frugal meal."
+      },
+      {
+        "jp": "いつもはビール１本だけど… 今日は給料日だし、贅沢して２本飲んじゃおう！",
+        "vi": "Bình thường chỉ uống có 1 lon bia, cơ mà hôm nay mới lấy lương, xõa/xài sang/thả ga phang hẳn 2 lon thôi nhể!",
+        "en": "Usually it's just 1 beer... but today is payday, so let's splurge and drink 2!"
+      }
+    ],
+    "note": {
+      "jp": "意味: ①派手で高級な感じ ②いつもよりもお金や物を使うこと",
+      "vi": "Ý nghĩa: 1. Đắt tiền, cao cấp, hào nhoáng xa hoa. 2. Hôm nay tiêu xài phung phí hơn mọi ngày.",
+      "en": "Meaning: 1. Flashy and high-class feeling. 2. Spending more money or things than usual."
+    },
+    "id": "v_rkn2_67_662"
+  },
+  {
+    "kanji": "必死",
+    "hiragana": "ひっし",
+    "hanViet": "TẤT TỬ",
+    "meaning": {
+      "vi": "Quyết tâm (sống chết, liều mạng)",
+      "en": "Desperate / Frantic / For dear life"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "JLPT まであと１週間。もっと必死に勉強しないと。",
+        "vi": "Còn đúng 1 tuần nữa là thi JLPT rồi. Phải cắm đầu cắm cổ/liều mạng vào học đi thôi.",
+        "en": "Only one week left until JLPT. I have to study more desperately."
+      }
+    ],
+    "note": {
+      "jp": "意味: とても一生懸命に何かをかんばること\nポイント: 必死で〜する、必死に〜する",
+      "vi": "Ý nghĩa: Cố gắng nỗ lực 1 cách điên cuồng (Quyết tâm tử chiến k quay đầu).",
+      "en": "Meaning: Trying very hard to do something desperately."
+    },
+    "id": "v_rkn2_67_663"
+  },
+  {
+    "kanji": "頑丈",
+    "hiragana": "がんじょう",
+    "hanViet": "NGOAN TRƯỢNG",
+    "meaning": {
+      "vi": "Chặt chẽ, bền vững, chắc chắn",
+      "en": "Solid / Sturdy / Strong"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "この携帯電話は頑丈にできているから、100 年でももつだろう。",
+        "vi": "Cái điện thoại này được thiết kế kiên cố/bền bỉ lắm nên là xài 100 năm vẫn ngon.",
+        "en": "Because this mobile phone is made sturdy, it will probably last for 100 years."
+      }
+    ],
+    "note": {
+      "jp": "意味: 人やものが丈夫で弱りそうもないこと\nポイント: 頑丈にできている",
+      "vi": "Ý nghĩa: Cơ thể khỏe mạnh rắn chắc, đồ vật vô cùng bền bỉ khó bị hỏng/hao mòn.",
+      "en": "Meaning: People or things being strong and not likely to weaken/break."
+    },
+    "id": "v_rkn2_67_664"
+  },
+  {
+    "kanji": "手軽",
+    "hiragana": "てがる",
+    "hanViet": "THỦ KHINH",
+    "meaning": {
+      "vi": "Nhẹ nhàng, đơn giản (dễ dàng)",
+      "en": "Easy / Simple / Handy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "ゴルフとは違ってジョギングはだれでも手軽にできるスポーツだ。",
+        "vi": "Khác với đánh Golf, chạy bộ là 1 bộ môn thể thao mà bất cứ ai cũng có thể 'dễ dàng/đơn giản' chơi được.",
+        "en": "Unlike golf, jogging is a sport that anyone can easily do."
+      }
+    ],
+    "note": {
+      "jp": "意味: 手間がかからなくて簡単なこと\nポイント: 手軽に〜できる",
+      "vi": "Ý nghĩa: Đơn giản, nhẹ tay, làm 1 cách dễ dàng k tốn quá nhiều sức lao động.",
+      "en": "Meaning: Easy and not taking much time/effort."
+    },
+    "id": "v_rkn2_67_665"
+  },
+  {
+    "kanji": "柔軟",
+    "hiragana": "じゅうなん",
+    "hanViet": "NHU NHUYỄN",
+    "meaning": {
+      "vi": "Mềm dẻo / Linh hoạt",
+      "en": "Flexible / Supple"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "体が柔軟でないと、バレリーナになるのは無理だ。",
+        "vi": "Cơ thể mà k mềm dẻo (nhu nhuyễn) thì không thể trở thành diễn viên múa Ba-lê đâu.",
+        "en": "If your body is not flexible, it's impossible to become a ballerina."
+      },
+      {
+        "jp": "「緊急事態に際しては、柔軟に対処してください」",
+        "vi": "'Trong những trường hợp khẩn cấp, xin hãy xử lý một cách linh hoạt (tùy cơ ứng biến)'",
+        "en": "'In the event of an emergency, please respond flexibly.'"
+      }
+    ],
+    "note": {
+      "jp": "意味: ①やわらかい ②状況に応じて、その場面にあう判断と、対応ができること",
+      "vi": "Ý nghĩa: 1. Mềm dẻo uốn éo linh hoạt (thể chất). 2. Thay đổi mềm dẻo, linh động ứng phó phù hợp với tình huống (Tùy cơ ứng biến). Trái nghĩa với việc Chỉ biết làm theo rập khuôn/sách vở.",
+      "en": "Meaning: 1. Soft/flexible body. 2. Being able to judge and respond flexibly according to the situation."
+    },
+    "id": "v_rkn2_67_666"
+  },
+  {
+    "kanji": "小柄",
+    "hiragana": "こがら",
+    "hanViet": "TIỂU BÍNH",
+    "meaning": {
+      "vi": "Lùn, nhỏ con / Nhỏ nhắn",
+      "en": "Small build / Petite"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "小柄な女性が好きです。",
+        "vi": "Tôi rất thích mấy bạn nữ nhỏ nhắn/nhỏ con.",
+        "en": "I like petite women."
+      }
+    ],
+    "note": {
+      "jp": "意味: 体格が普通より小さいこと\nポイント: 柄（特徴、デザイン、人の体型）",
+      "vi": "Ý nghĩa: Dáng người/Khung xương có phần lùn/bé hơn so với bình thường.",
+      "en": "Meaning: Physique being smaller than normal."
+    },
+    "id": "v_rkn2_67_667"
+  },
+  {
+    "kanji": "無口",
+    "hiragana": "むくち",
+    "hanViet": "VÔ KHẨU",
+    "meaning": {
+      "vi": "Ít nói, kín tiếng",
+      "en": "Taciturn / Quiet / Reticent"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "父は無口で、自分からはめったに話さない。",
+        "vi": "Bố tôi là 1 người trầm mặc ít nói, hiếm khi thấy ông tự chủ động mở lời.",
+        "en": "My father is taciturn and rarely speaks of his own accord."
+      }
+    ],
+    "note": {
+      "jp": "意味: あまりしゃべらない性格\nポイント: ≒寡黙な (かもくな: Quả ngôn, ít nói). 無口 ＞＜ 口数が多い / おしゃべりな",
+      "vi": "Ý nghĩa: Lầm lì, hiếm khi mở miệng giao tiếp.\nĐồng nghĩa: 寡黙な. Trái nghĩa: おしゃべりな (Lắm mồm), 口数が多い (Đa ngôn, nói nhiều).",
+      "en": "Meaning: A personality that doesn't talk much.\nSynonym: 寡黙な. Antonym: 口数が多い / おしゃべりな (Talkative)."
+    },
+    "id": "v_rkn2_67_668"
+  },
+  {
+    "kanji": "温暖",
+    "hiragana": "おんだん",
+    "hanViet": "ÔN NOÃN",
+    "meaning": {
+      "vi": "Ấm áp",
+      "en": "Warm / Mild (climate)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "ハノイに比べホーチミンは温暖な気候で気温の変化が少ない。",
+        "vi": "So với Hà Nội thì Hồ Chí Minh có khí hậu ấm áp quanh năm và ít bị biến động nhiệt độ.",
+        "en": "Compared to Hanoi, Ho Chi Minh has a warm climate with little temperature change."
+      }
+    ],
+    "note": {
+      "jp": "意味: 気候が暖かいこと",
+      "vi": "Ý nghĩa: Khí hậu ôn đới/ấm áp.",
+      "en": "Meaning: The climate is warm."
+    },
+    "id": "v_rkn2_67_669"
+  },
+  {
+    "kanji": "安易",
+    "hiragana": "あんい",
+    "hanViet": "AN DỊCH",
+    "meaning": {
+      "vi": "Dễ dãi, hời hợt, đơn giản",
+      "en": "Easy / Simplistic / Thoughtless"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 67",
+    "examples": [
+      {
+        "jp": "大切な会議で『安易』な考えを語るな",
+        "vi": "Đừng có nói ra mấy cái suy nghĩ 'Nông cạn/hời hợt' trong 1 cuộc họp quan trọng chứ.",
+        "en": "Don't speak of 'simplistic/thoughtless' ideas in an important meeting."
+      },
+      {
+        "jp": "インターネットの情報は安易に信用しない方がいい。 ⇔慎重に考えてから信用する",
+        "vi": "Không nên tin tưởng 1 cách quá 'dễ dãi/đơn giản' vào các thông tin trên mạng Internet. ⇔ Suy nghĩ thật kĩ rồi mới tin.",
+        "en": "It is better not to easily/simplistically trust information on the Internet. ⇔ Trust after thinking carefully."
+      }
+    ],
+    "note": {
+      "jp": "意味: 簡単に考えること\nポイント: 安易な考え / 安易に行動する",
+      "vi": "Ý nghĩa: Suy nghĩ quá đơn giản (Đầu óc nông cạn/hời hợt). Mức độ âm (-).",
+      "en": "Meaning: Thinking too simply or taking things too easily (negative nuance)."
+    },
+    "id": "v_rkn2_67_670"
+  },
+  {
+    "kanji": "愉快",
+    "hiragana": "ゆかい",
+    "hanViet": "DU KHOÁI",
+    "meaning": {
+      "vi": "Vui nhộn, thú vị",
+      "en": "Pleasant / Amusing / Joyful"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "まいさんは音楽が聞こえるといつも踊りだす。本当に愉快な人だ。",
+        "vi": "Chị Mai cứ hễ nghe thấy nhạc nổi lên là lại bắt đầu nhảy múa. Đúng là một con người thú vị/vui vẻ mà.",
+        "en": "Mai always starts dancing when she hears music. She is a truly amusing person."
+      }
+    ],
+    "note": {
+      "jp": "意味: 楽しく、おもしろいこと\nポイント: 愉快な話・仲間・人",
+      "vi": "Ý nghĩa: Trải qua tháng ngày vô cùng sung sướng và khoái lạc (Đem lại niềm vui cho bản thân và người khác).",
+      "en": "Meaning: Fun and interesting."
+    },
+    "id": "v_rkn2_68_671"
+  },
+  {
+    "kanji": "過剰",
+    "hiragana": "かじょう",
+    "hanViet": "QUÁ THẶNG",
+    "meaning": {
+      "vi": "Quá mức, thái quá",
+      "en": "Excess / Over-"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "入試の前は「落ちる」という言葉に過剰に反応してしまう。",
+        "vi": "Trước kỳ thi, tôi phản ứng vô cùng 'Thái quá / Căng thẳng quá độ' với từ 'Rớt/Trượt'.",
+        "en": "Before the entrance exam, I overreact to the word 'fail'."
+      }
+    ],
+    "note": {
+      "jp": "意味: 多すぎる、必要以上に「ー」の意味\nポイント: 過剰に反応する、過剰摂取 (Tiêu thụ quá liều)",
+      "vi": "Ý nghĩa: Vượt quá giới hạn mức độ thông thường (Quá thừa thãi / Thái quá). Mang nghĩa tiêu cực.",
+      "en": "Meaning: Too much, more than necessary (negative nuance)."
+    },
+    "id": "v_rkn2_68_672"
+  },
+  {
+    "kanji": "有利",
+    "hiragana": "ゆうり",
+    "hanViet": "HỮU LỢI",
+    "meaning": {
+      "vi": "Có lợi / Lợi thế",
+      "en": "Advantageous / Favorable"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "少しでも自社に有利な条件で取り引きしたい。",
+        "vi": "Tôi muốn giao dịch thương lượng với các điều kiện mang lại lợi thế cho công ty mình dù chỉ là 1 chút ít.",
+        "en": "I want to trade on conditions that are advantageous to our company, even a little."
+      },
+      {
+        "jp": "一人が退場になり、数的に（有利 ・ 不利）な状況になった。",
+        "vi": "Bị 1 thẻ đỏ rời sân, làm cho tình hình (bất lợi / có lợi) về mặt quân số.",
+        "en": "One person was sent off, leading to a numerically (advantageous/disadvantageous) situation."
+      }
+    ],
+    "note": {
+      "jp": "意味: 都合がいい。利益がある。\nポイント: 対：不利",
+      "vi": "Ý nghĩa: Mang lại nhiều thuận lợi/có ưu thế hơn so với bình thường.\nTrái nghĩa: 不利 (Bất lợi).",
+      "en": "Meaning: Convenient. Having benefits.\nAntonym: 不利 (Disadvantageous)."
+    },
+    "id": "v_rkn2_68_673"
+  },
+  {
+    "kanji": "利口",
+    "hiragana": "りこう",
+    "hanViet": "LỢI KHẨU",
+    "meaning": {
+      "vi": "Lanh lợi, thông minh",
+      "en": "Clever / Smart / Obedient"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "うちの犬は色々芸ができて利口な犬だ。",
+        "vi": "Chó nhà tôi biết làm bao nhiêu trò, đúng là 1 chú chó thông minh lanh lợi mà.",
+        "en": "Our dog can do various tricks and is a clever dog."
+      }
+    ],
+    "note": {
+      "jp": "意味: 頭がいいこと\nポイント: 利口な犬、猫、子供",
+      "vi": "Ý nghĩa: Rất nhanh nhẹn, khôn ngoan thông minh (Hay dùng khen động vật/trẻ con).",
+      "en": "Meaning: Being smart.\nPoints: Clever dog, cat, child."
+    },
+    "id": "v_rkn2_68_674"
+  },
+  {
+    "kanji": "多才",
+    "hiragana": "たさい",
+    "hanViet": "ĐA TÀI",
+    "meaning": {
+      "vi": "Đa tài",
+      "en": "Versatile / Multi-talented"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "星野源は歌手・俳優・作家として活躍していて、とても多彩な人だ。",
+        "vi": "Hoshino Gen hoạt động rực rỡ với tư cách là ca sĩ, nhà văn, biên kịch. Quả là 1 nhân vật vô cùng đa tài (多彩/多才).",
+        "en": "Gen Hoshino is active as a singer, actor, and writer, and is a very multi-talented person."
+      }
+    ],
+    "note": {
+      "jp": "意味: 才能が多いこと",
+      "vi": "Ý nghĩa: Giỏi trên nhiều lĩnh vực, có rất nhiều tài năng.",
+      "en": "Meaning: Having many talents."
+    },
+    "id": "v_rkn2_68_675"
+  },
+  {
+    "kanji": "物騒",
+    "hiragana": "ぶっそう",
+    "hanViet": "VẬT TAO",
+    "meaning": {
+      "vi": "Nguy hiểm, loạn lạc",
+      "en": "Dangerous / Unsettled / Insecure"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "あの街は最近事件が多くて物騒だから気をつけてね。",
+        "vi": "Con phố đó dạo này xảy ra nhiều vụ án loạn lạc (không an toàn) lắm, nên cẩn thận nhé.",
+        "en": "That town has had many incidents recently and is dangerous, so be careful."
+      }
+    ],
+    "note": {
+      "jp": "意味: 事件がよく起きたり、危険なこと\nポイント: 物騒な人たち、物騒な街、世の中",
+      "vi": "Ý nghĩa: Thế giới loạn lạc cướp bóc, vô cùng nguy hiểm vì hay có vụ án.\nLưu ý: Băng nhóm tội phạm (Lưu manh), Thành phố nguy hiểm.",
+      "en": "Meaning: Incidents occurring frequently, or being dangerous.\nPoints: Dangerous people, dangerous town, world."
+    },
+    "id": "v_rkn2_68_676"
+  },
+  {
+    "kanji": "いい加減",
+    "hiragana": "いいかげん",
+    "hanViet": "GIA GIẢM",
+    "meaning": {
+      "vi": "Vô trách nhiệm, đại khái / Đủ rồi đấy (Nhanh lên)",
+      "en": "Irresponsible / Sloppy / (do it) Already"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "「すみません。。。また忘れてしましました。。」 →彼はいいかげんな人だ。 ≒適当な人",
+        "vi": "'Xin lỗi, tôi lại quên bén mất rồi' -> Anh ta quả là 1 con người vô trách nhiệm/đại khái/làm cho có lệ.",
+        "en": "'Sorry... I forgot again..' -> He is an irresponsible person. ≒ Sloppy person."
+      },
+      {
+        "jp": "「もう１０分もメニュー悩んでるよ。いいかげん決めたら？」",
+        "vi": "'Cậu ngồi ngẫm nghĩ cái Menu cả 10 phút rồi đấy. (Đủ rồi đấy) Chốt nhanh gọn lẹ đi được không?'",
+        "en": "'You've been puzzling over the menu for 10 minutes. Why don't you just decide already?'"
+      }
+    ],
+    "note": {
+      "jp": "意味: ①無責任で、ちゃんとしない人 ②もう十分なので、早く終わってほしいこと",
+      "vi": "Ý nghĩa: 1. Vô trách nhiệm, làm quấy quá, đại khái (Thái độ). 2. Phàn nàn về 1 sự việc dai dẳng lặp đi lặp lại (Mày dừng lại đủ rồi đấy / Nhanh lên).",
+      "en": "Meaning: 1. Irresponsible and not doing things properly. 2. It's enough already, wanting it to end quickly."
+    },
+    "id": "v_rkn2_68_677"
+  },
+  {
+    "kanji": "真剣",
+    "hiragana": "しんけん",
+    "hanViet": "CHÂN KIẾM",
+    "meaning": {
+      "vi": "Nghiêm chỉnh, đúng đắn (Đứng đắn)",
+      "en": "Serious / Earnest"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "いつもふざている山口さんが今日は真剣だ。 ⇔ 適当、不真面目、冗談",
+        "vi": "Ông Yamaguichi bình thường hay cợt nhả, vậy mà hôm nay lại cực kì nghiêm túc/nghiêm chỉnh. ⇔ Đại khái làm cho có, Không nghiêm túc, Đùa cợt.",
+        "en": "Mr. Yamaguchi, who is always messing around, is serious today. ⇔ Sloppy, un-serious, joking."
+      },
+      {
+        "jp": "彼女とは結婚を真剣に考えています。",
+        "vi": "Tôi đang suy nghĩ vô cùng nghiêm túc/đứng đắn về việc kết hôn với cô ấy.",
+        "en": "I am seriously thinking about marrying her."
+      }
+    ],
+    "note": {
+      "jp": "意味: まじめに本気で取り組むこと",
+      "vi": "Ý nghĩa: Đặt 100% sự tập trung cống hiến 1 cách vô cùng nghiêm túc.",
+      "en": "Meaning: Tackling something seriously and earnestly."
+    },
+    "id": "v_rkn2_68_678"
+  },
+  {
+    "kanji": "優良",
+    "hiragana": "ゆうりょう",
+    "hanViet": "ƯU LƯƠNG",
+    "meaning": {
+      "vi": "Ưu tú, xuất sắc, tốt",
+      "en": "Excellent / Superior / First-rate"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "「１LDK で月２万です。安いですし、部屋も広いです。こんな優良物件は中々ないですよ。」",
+        "vi": "Nhà 1LDK mà 1 tháng có 2 man. Vừa rẻ phòng lại còn rộng. 1 căn nhà Tốt/Tuyệt vời như vậy thì hiếm khi có lắm.",
+        "en": "'It's 1LDK for 20,000 a month. It's cheap and the room is spacious. Such an excellent property is quite rare.'"
+      }
+    ],
+    "note": {
+      "jp": "意味: 他のものより優れていること\nポイント: 優良物件・品、優良店舗・企業",
+      "vi": "Ý nghĩa: Chất lượng hảo hạng/tuyệt vời (Bỏ xa những thứ khác).\nLưu ý: Doanh nghiệp xuất sắc / Mặt hàng tốt xuất sắc.",
+      "en": "Meaning: Being superior to other things.\nPoints: Excellent property/goods, excellent store/enterprise."
+    },
+    "id": "v_rkn2_68_679"
+  },
+  {
+    "kanji": "余計",
+    "hiragana": "よけい",
+    "hanViet": "DƯ KẾ",
+    "meaning": {
+      "vi": "Nhiều hơn, thêm / Thừa thãi",
+      "en": "Extra / Too much / Unnecessary"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 68",
+    "examples": [
+      {
+        "jp": "プレゼンはいつも緊張するのに、 今日は社長がいるなんて余計（に）緊張してしまう。",
+        "vi": "Bình thường thuyết trình đã run rồi, hôm nay lại còn có thêm cả mặt ông sếp ở đây, đâm ra lại Càng run hơn gấp bội.",
+        "en": "I am always nervous during presentations, but today the president is here, so I get even more nervous."
+      },
+      {
+        "jp": "「今日の合コンは余計なこと言わないでね！よろしく〜」",
+        "vi": "'Buổi nhậu ghép đôi hôm nay mày đừng có mà buông lời Thừa Thãi (Phá hoại/Vô duyên) đấy nhé! Tao xin mày đó~'",
+        "en": "'Don't say anything unnecessary at today's group blind date! Please~'"
+      }
+    ],
+    "note": {
+      "jp": "意味: ①普通よりも多いこと ②必要なことを超えて無駄なこと\nポイント: 余計なこと言わないで (Đừng nói nhảm / chuyện thừa thãi mang chiều hướng xấu).",
+      "vi": "Ý nghĩa: 1. Đã thế rồi nay lại Càng thêm thế nào đó (Mức độ lớn hơn bt). 2. Dư thừa, không cần thiết (Bao đồng).",
+      "en": "Meaning: 1. More than usual. 2. Unnecessary and useless beyond what is needed."
+    },
+    "id": "v_rkn2_68_680"
+  },
+  {
+    "kanji": "頑固",
+    "hiragana": "がんこ",
+    "hanViet": "NGOAN CỐ",
+    "meaning": {
+      "vi": "Cứng đầu, bảo thủ, ngoan cố",
+      "en": "Stubborn / Obstinate"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "課長は１度決めたら絶対に変えない頑固な性格だ。 ≒頭が固い上司",
+        "vi": "Sếp tôi có 1 nét tính cách vô cùng ngoan cố/bảo thủ, đã 1 khi quyết thì đừng hòng thay đổi. ≒ Sếp có cái đầu rất cứng/cố chấp.",
+        "en": "The section chief has a stubborn personality where once he decides, he absolutely won't change. ≒ A hard-headed boss."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分の態度や考えを変えないこと",
+      "vi": "Ý nghĩa: Kêu mãi không chịu nghe, bảo thủ giữ vững tư duy k chịu thay đổi.",
+      "en": "Meaning: Not changing one's attitude or ideas."
+    },
+    "id": "v_rkn2_69_681"
+  },
+  {
+    "kanji": "簡略",
+    "hiragana": "かんりゃく",
+    "hanViet": "GIẢN LƯỢC",
+    "meaning": {
+      "vi": "Giản lược, đơn giản hóa",
+      "en": "Simple / Brief / Simplified"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "複雑だった手続きを簡単にする。作業工程の簡略化を行ったところコスト削減に成功した",
+        "vi": "Đơn giản hóa những thủ tục đã từng rất rườm rà. Đúng lúc chúng tôi tiến hành việc (Đơn giản hóa) quy trình công đoạn, thì đã gặt hái được sự thành công trong cắt giảm chi phí.",
+        "en": "Simplifying complex procedures. When we simplified the work process, we succeeded in reducing costs."
+      }
+    ],
+    "note": {
+      "jp": "意味: 手間がかからず簡単なこと\n関連語彙: 簡単にする ≒単純にする、シンプルにする。 簡略化：短く簡単にすること",
+      "vi": "Ý nghĩa: Làm một cách qua loa không tốn công sức, loại bỏ hết rườm rà (Giản lược bớt).\nMở rộng: 簡略化 (Sự tối giản/đơn giản hóa).",
+      "en": "Meaning: Simple and not taking much time/effort.\nRelated: 簡略化 (Simplification)."
+    },
+    "id": "v_rkn2_69_682"
+  },
+  {
+    "kanji": "好調",
+    "hiragana": "こうちょう",
+    "hanViet": "HẢO ĐIỀU",
+    "meaning": {
+      "vi": "Trạng thái tốt, có triển vọng (tín hiệu tốt)",
+      "en": "Favorable / In good condition"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "今年は売上が好調だった。",
+        "vi": "Năm nay doanh thu đã khởi sắc mang lại những tín hiệu vô cùng lạc quan/thuận lợi.",
+        "en": "Sales were favorable this year."
+      },
+      {
+        "jp": "絶不調＜不調＜好調＜絶好調",
+        "vi": "Tụt dốc k phanh < Không thuận lợi < Khởi sắc/Tín hiệu tốt < Đỉnh cao.",
+        "en": "Worst condition < Bad condition < Good condition < Best condition."
+      }
+    ],
+    "note": {
+      "jp": "意味: うまくいっていること",
+      "vi": "Ý nghĩa: Tình hình diễn ra vô cùng suôn sẻ và êm đẹp.",
+      "en": "Meaning: Going well."
+    },
+    "id": "v_rkn2_69_683"
+  },
+  {
+    "kanji": "わずか",
+    "hiragana": "わずか",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chỉ một chút, vỏn vẹn",
+      "en": "Only / Merely / A little"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "このうちは駅から歩いてわずか５分です。",
+        "vi": "Căn nhà này đi bộ từ ga vào chỉ mất vỏn vẹn có 5 phút.",
+        "en": "This house is a mere 5-minute walk from the station."
+      },
+      {
+        "jp": "あの店にはほんのわずかな客しかいなかった。",
+        "vi": "Cửa tiệm đó chả có ai, chỉ lác đác lèo tèo vài mống khách không đáng kể.",
+        "en": "There were only a very few customers in that shop."
+      }
+    ],
+    "note": {
+      "jp": "意味: すこしだけ\nポイント: 「すこし」よりももっと少ないイメージ。わずか〜〜しかない",
+      "vi": "Ý nghĩa: Con số vô cùng nhỏ nhoi/ít ỏi (Vỏn vẹn).\nLưu ý: Hình ảnh mức độ còn cực kì 'Ít' hơn cả すこし.",
+      "en": "Meaning: Only a little.\nPoints: An image of being even less than 'sukoshi'."
+    },
+    "id": "v_rkn2_69_684"
+  },
+  {
+    "kanji": "円満",
+    "hiragana": "えんまん",
+    "hanViet": "VIÊN MÃN",
+    "meaning": {
+      "vi": "Viên mãn, êm đẹp",
+      "en": "Harmonious / Peaceful / Perfect"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "「グエンさん夫婦はいつも仲良しで夫婦円満だなぁ。」",
+        "vi": "'Vợ chồng anh Nguyễn lúc nào cũng quấn quít lấy nhau, quả là cuộc sống vợ chồng êm đẹp/viên mãn ha.'",
+        "en": "'Mr. Nguyen and his wife are always getting along well, what a harmonious couple.'"
+      },
+      {
+        "jp": "今回の問題は課長のおかげで円満に解決した。 ≒穏やかに解決する",
+        "vi": "Nhờ có trưởng phòng nên vấn đề lần này đã được giải quyết một cách êm đẹp/vẹn toàn. ≒ Giải quyết trong êm ả.",
+        "en": "Thanks to the section chief, the problem this time was resolved harmoniously. ≒ Resolved peacefully."
+      }
+    ],
+    "note": {
+      "jp": "意味: けんかがなく、うまくいくこと\nポイント: 夫婦円満、人間関係が円満である",
+      "vi": "Ý nghĩa: Trọn vẹn, không xảy ra cãi vã mâu thuẫn.\nLưu ý: Gia đình êm ấm / Giải quyết vẹn toàn.",
+      "en": "Meaning: No quarrels, going well.\nPoints: Harmonious couple, harmonious human relations."
+    },
+    "id": "v_rkn2_69_685"
+  },
+  {
+    "kanji": "率直",
+    "hiragana": "そっちょく",
+    "hanViet": "SUẤT TRỰC",
+    "meaning": {
+      "vi": "Thật thà, ngay thẳng",
+      "en": "Frank / Candid / Straightforward"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "遠慮せず、普段感じたままでいいので率直な意見をお聞かせください。",
+        "vi": "Không cần phải chần chừ ngần ngại đâu, cứ giữ nguyên suy nghĩ bình thường là được, nên hãy đưa ra những ý kiến bộc trực thẳng thắn nhé.",
+        "en": "Please don't hold back, just as you normally feel is fine, so let us hear your frank opinions."
+      }
+    ],
+    "note": {
+      "jp": "意味: 正直なこと\nポイント: 率直な人・意見",
+      "vi": "Ý nghĩa: Chân thực, không nói điêu không nói nịnh bợ (Thẳng thắn).\nLưu ý: Ý kiến thẳng thắn bộc trực.",
+      "en": "Meaning: Being honest.\nPoints: Frank person/opinion."
+    },
+    "id": "v_rkn2_69_686"
+  },
+  {
+    "kanji": "不規則",
+    "hiragana": "ふきそく",
+    "hanViet": "BẤT QUY TẮC",
+    "meaning": {
+      "vi": "Bất quy tắc / Không điều độ",
+      "en": "Irregular"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "正月休みはゲームにハマって不規則な生活を送ってしまった。",
+        "vi": "Kì nghỉ Tết tôi cắm mặt vào Game nên đâm ra sống 1 chuỗi ngày vô kỉ luật/bất quy tắc (ngủ nghê sinh hoạt không điều độ).",
+        "en": "During the New Year holidays, I got hooked on games and ended up leading an irregular life."
+      }
+    ],
+    "note": {
+      "jp": "意味: 規則正しくないこと",
+      "vi": "Ý nghĩa: Không làm đúng theo quy định / Phá vỡ đồng hồ sinh học.",
+      "en": "Meaning: Not being regular/ordered."
+    },
+    "id": "v_rkn2_69_687"
+  },
+  {
+    "kanji": "鮮明",
+    "hiragana": "せんめい",
+    "hanViet": "TIÊN MINH",
+    "meaning": {
+      "vi": "Rõ ràng",
+      "en": "Clear / Vivid"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "初めて告白した時のことは鮮明に覚えている。",
+        "vi": "Cho tới giờ tôi vẫn nhớ rõ mồn một cái lúc tỏ tình lần đầu tiên ấy.",
+        "en": "I clearly/vividly remember the time I confessed my love for the first time."
+      }
+    ],
+    "note": {
+      "jp": "意味: はっきりしていること\nポイント: 鮮明に覚えている、鮮明な画像",
+      "vi": "Ý nghĩa: Kí ức, màu sắc, hình ảnh vô cùng sắc nét (Rõ mồn một).\nLưu ý: Nhớ như in / Bức tranh sắc nét.",
+      "en": "Meaning: Being clear.\nPoints: Vividly remember, clear image."
+    },
+    "id": "v_rkn2_69_688"
+  },
+  {
+    "kanji": "滑らか",
+    "hiragana": "なめらか",
+    "hanViet": "HOẠT",
+    "meaning": {
+      "vi": "Trơn tru, láng mịn",
+      "en": "Smooth"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "この服は滑らかな肌触りがおすすめポイントです。",
+        "vi": "Bộ trang phục này có điểm quyến rũ chết người chính là cảm giác vô cùng láng mịn trơn tru khi sờ vào.",
+        "en": "The recommended point of this clothing is its smooth touch to the skin."
+      }
+    ],
+    "note": {
+      "jp": "意味: 表面にでこぼこがなくて、すべすべ・つるつるしていること",
+      "vi": "Ý nghĩa: Bề mặt láng mịn bóng bẩy k lồi lõm (Da mặt mịn màng). Hoặc phát âm trôi chảy láng mịn.",
+      "en": "Meaning: The surface has no bumps and is smooth/slippery."
+    },
+    "id": "v_rkn2_69_689"
+  },
+  {
+    "kanji": "ありがち",
+    "hiragana": "ありがち",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hay xảy ra, phổ biến",
+      "en": "Common / Prone to happen"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 69",
+    "examples": [
+      {
+        "jp": "このミスは初心者にありがちなミスです。",
+        "vi": "Cái lỗi lầm này là 1 cái lỗi rất Thường Thấy ở những kẻ gà mờ/lính mới.",
+        "en": "This mistake is a common mistake for beginners."
+      }
+    ],
+    "note": {
+      "jp": "意味: 「ー」のことがよくあること\nポイント: ～がち",
+      "vi": "Ý nghĩa: Việc đó là thứ rất phổ biến, rất dễ mắc phải (Mang nghĩa tiêu cực).\nLưu ý: Hay đi với hậu tố 〜がち.",
+      "en": "Meaning: Negative things happening often.\nPoints: Often used as ~gachi."
+    },
+    "id": "v_rkn2_69_690"
+  },
+  {
+    "kanji": "あやふや",
+    "hiragana": "あやふや",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Không rõ ràng, mơ hồ",
+      "en": "Vague / Ambiguous / Uncertain"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "告白したが彼女からはあやふやな回答しかなかった。",
+        "vi": "Tôi đã tỏ tình rồi thế nhưng chỉ nhận lại được những câu trả lời vô cùng ậm ừ/mơ hồ không rõ ràng từ cô ấy.",
+        "en": "I confessed my feelings, but I only got a vague answer from her."
+      }
+    ],
+    "note": {
+      "jp": "意味: はっきりしないこと\nポイント: ≒曖昧",
+      "vi": "Ý nghĩa: Ậm ừ, vòng vo k đi thẳng vào trọng tâm.\nĐồng nghĩa: 曖昧 (Mơ hồ, mông lung).",
+      "en": "Meaning: Not clear.\nSynonym: 曖昧 (Ambiguous)."
+    },
+    "id": "v_rkn2_70_691"
+  },
+  {
+    "kanji": "大まか",
+    "hiragana": "おおまか",
+    "hanViet": "ĐẠI",
+    "meaning": {
+      "vi": "Chung chung, sơ lược",
+      "en": "Rough / Broad / General"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "大まかな説明は聞きました。",
+        "vi": "Tôi đã nghe qua mấy cái phần giải thích chung chung/đại khái rồi.",
+        "en": "I have heard the rough explanation."
+      }
+    ],
+    "note": {
+      "jp": "意味: 細かいところは置いといて、だいたい",
+      "vi": "Ý nghĩa: Vứt mấy cái chi tiết lắt nhắt tiểu tiết sang 1 bên (Chỉ nhìn/lấy phần đại khái chung chung thôi).",
+      "en": "Meaning: Leaving fine details aside, mostly/roughly."
+    },
+    "id": "v_rkn2_70_692"
+  },
+  {
+    "kanji": "急速",
+    "hiragana": "きゅうそく",
+    "hanViet": "CẤP TỐC",
+    "meaning": {
+      "vi": "Cấp tốc, nhanh chóng",
+      "en": "Rapid / Swift"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "この充電器は急速充電器なので、約３０分で満タンになります。",
+        "vi": "Cục sạc này là đồ sạc nhanh/cấp tốc, nên sạc tầm 30p là đầy bình cmnr.",
+        "en": "Since this charger is a fast charger, it will be full in about 30 minutes."
+      }
+    ],
+    "note": {
+      "jp": "意味: 進み方がとても早いこと\nポイント: 急速充電器",
+      "vi": "Ý nghĩa: Tốc độ phát triển/tiến tới diễn ra 1 cách vô cùng nhanh chóng.\nLưu ý: Sạc nhanh.",
+      "en": "Meaning: Advancing very quickly.\nPoints: Fast charger."
+    },
+    "id": "v_rkn2_70_693"
+  },
+  {
+    "kanji": "器用",
+    "hiragana": "きよう",
+    "hanViet": "KHÍ DỤNG",
+    "meaning": {
+      "vi": "Khéo léo",
+      "en": "Skillful / Dexterous / Handy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "ベトナム人は手先が器用な人が多い。",
+        "vi": "Người Việt Nam có rất nhiều người khéo tay.",
+        "en": "Many Vietnamese people are dexterous with their hands."
+      },
+      {
+        "jp": "マイケルさんはアメリカ人なのに、器用に箸を使う。",
+        "vi": "Anh Michael dẫu là người Mỹ thế mà lại có thể sử dụng đũa 1 cách điêu luyện khéo léo nha.",
+        "en": "Even though Michael is American, he uses chopsticks skillfully."
+      }
+    ],
+    "note": {
+      "jp": "意味: 体を思うように動かして、上手にすること\nポイント: 手先が器用 ⇔ 不器用",
+      "vi": "Ý nghĩa: Cử động bàn tay thao tác mọi việc 1 cách dễ dàng giỏi giang.\nTrái nghĩa: 不器用 (Vụng về, lóng ngóng).",
+      "en": "Meaning: Moving the body as one wishes and doing things skillfully.\nPoints: Dexterous fingers ⇔ 不器用 (Clumsy)."
+    },
+    "id": "v_rkn2_70_694"
+  },
+  {
+    "kanji": "的確",
+    "hiragana": "てきかく",
+    "hanViet": "ĐÍCH XÁC",
+    "meaning": {
+      "vi": "Rõ ràng, chính xác",
+      "en": "Accurate / Precise / Exact"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "ダオ先生の指摘はいつも的確です。",
+        "vi": "Những lời chỉ trích của thầy Đạo lúc nào cũng chính xác đâm trúng tim đen hết thảy.",
+        "en": "Teacher Dao's pointings-out are always accurate."
+      }
+    ],
+    "note": {
+      "jp": "意味: 判断、指示などが正確であること",
+      "vi": "Ý nghĩa: Phán đoán kĩ lưỡng k có chỗ nào sai lệch (Xác đáng, rõ ràng).",
+      "en": "Meaning: Judgments, instructions, etc., being accurate."
+    },
+    "id": "v_rkn2_70_695"
+  },
+  {
+    "kanji": "強引",
+    "hiragana": "ごういん",
+    "hanViet": "CƯỜNG DẪN",
+    "meaning": {
+      "vi": "Cưỡng ép, bắt buộc (Miễn cưỡng)",
+      "en": "Forcible / Coercive"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "行きたくないのに、山田さんはいつも強引につれていく。",
+        "vi": "Rõ là chả muốn đi tẹo nào, thế mà lúc nào cha Yamada cũng cưỡng chế lôi tôi đi cùng bằng được.",
+        "en": "Even though I don't want to go, Mr. Yamada always forcefully takes me along."
+      },
+      {
+        "jp": "与党は国会で強引に法案を通した。",
+        "vi": "Đảng cầm quyền đã dùng sức ép bắt buộc thông qua Đạo luật tại quốc hội.",
+        "en": "The ruling party forcibly passed the bill in the Diet."
+      },
+      {
+        "jp": "強引な男",
+        "vi": "Một gã đàn ông luôn ép buộc/sử dụng vũ lực.",
+        "en": "A coercive/forceful man."
+      }
+    ],
+    "note": {
+      "jp": "意味: むりやりすること\nポイント: 強引な人・やり方、強引な性格・態度",
+      "vi": "Ý nghĩa: Làm một cách ép buộc, k cần biết người khác nghĩ thế nào.",
+      "en": "Meaning: Doing things forcibly."
+    },
+    "id": "v_rkn2_70_696"
+  },
+  {
+    "kanji": "豪華",
+    "hiragana": "ごうか",
+    "hanViet": "HÀO HOA",
+    "meaning": {
+      "vi": "Hào nhoáng, phô trương / Sang trọng",
+      "en": "Gorgeous / Splendid / Luxurious"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "今日の晩ごはんは豪華だね。→贅沢な食事",
+        "vi": "Bữa tối hôm nay hào nhoáng/sang trọng quá nhỉ. -> Bữa ăn xa xỉ.",
+        "en": "Tonight's dinner is gorgeous. -> Luxurious meal."
+      }
+    ],
+    "note": {
+      "jp": "意味: 贅沢で派手なこと\nポイント: 豪華な部屋、食事、ホテル",
+      "vi": "Ý nghĩa: Phô trương màu mè tốn kém (Sống ảo).\nLưu ý: Bữa ăn thịnh soạn / Căn phòng sang trọng.",
+      "en": "Meaning: Luxurious and flashy.\nPoints: Gorgeous room, meal, hotel."
+    },
+    "id": "v_rkn2_70_697"
+  },
+  {
+    "kanji": "穏やか",
+    "hiragana": "おだやか",
+    "hanViet": "ỔN",
+    "meaning": {
+      "vi": "Điềm đạm, yên ả",
+      "en": "Calm / Gentle / Peaceful"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "このあたりは気候が穏やかで住みやすい。",
+        "vi": "Vùng này khí hậu ôn hòa yên ả nên rất dễ sống.",
+        "en": "The climate around here is mild, making it easy to live."
+      },
+      {
+        "jp": "「大きな声を出さないで、穏やかに話し合いましょう」",
+        "vi": "'Xin đừng có to tiếng với nhau làm gì, hãy ngồi lại bàn bạc thảo luận một cách điềm đạm/ôn hòa nào.'",
+        "en": "'Don't raise your voice, let's discuss things calmly/peacefully.'"
+      }
+    ],
+    "note": {
+      "jp": "意味: 静かで落ち着いている様子\nポイント: 穏やかな暮らし、人、性格",
+      "vi": "Ý nghĩa: Trầm tĩnh k bị nổi sóng/mất kiểm soát, êm đềm bình yên.",
+      "en": "Meaning: Quiet and calm appearance."
+    },
+    "id": "v_rkn2_70_698"
+  },
+  {
+    "kanji": "偉大",
+    "hiragana": "いだい",
+    "hanViet": "VĨ ĐẠI",
+    "meaning": {
+      "vi": "Vĩ đại, xuất chúng",
+      "en": "Great / Grand / Mighty"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "偉大な人物",
+        "vi": "Một nhân vật vĩ đại xuất chúng.",
+        "en": "A great figure."
+      }
+    ],
+    "note": {
+      "jp": "意味: 立派で素晴らしいこと\nポイント: 偉大な人物/生涯/業績 ≒偉い",
+      "vi": "Ý nghĩa: Tuyệt vời huy hoàng xuất sắc.\nLưu ý: Bằng nghĩa với 偉い. Những nhân vật/thành tựu vĩ đại.",
+      "en": "Meaning: Splendid and wonderful.\nPoints: Great person / life / achievement. ≒ 偉い (Great)."
+    },
+    "id": "v_rkn2_70_699"
+  },
+  {
+    "kanji": "内気",
+    "hiragana": "うちき",
+    "hanViet": "NỘI KHÍ",
+    "meaning": {
+      "vi": "Xấu hổ, ngượng ngùng / Rụt rè, nhút nhát",
+      "en": "Shy / Timid / Bashful"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 70",
+    "examples": [
+      {
+        "jp": "私は人と話すのが苦手で、内気な性格だ。",
+        "vi": "Tôi cực kỳ ngại khoản giao tiếp ăn nói với mọi người, bản tính tôi vốn nhút nhát/rụt rè mà.",
+        "en": "I am not good at talking to people; I have a shy personality."
+      }
+    ],
+    "note": {
+      "jp": "意味: 気が弱くて、人前で元気がない性格\nポイント: ≒おとなしい、目立たない、シャイな人",
+      "vi": "Ý nghĩa: Nhút nhát nhát gan, tính cách không màng thể hiện phô trương ra bên ngoài.\nĐồng nghĩa: Người nhút nhát xấu hổ / Lành tính (おとなしい).",
+      "en": "Meaning: A personality that is timid and lacks energy in front of others.\nPoints: ≒ Quiet, inconspicuous, shy person."
+    },
+    "id": "v_rkn2_70_700"
+  }
+]

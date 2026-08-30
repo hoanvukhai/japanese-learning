@@ -69,7 +69,7 @@ export const RANKS: Rank[] = [
 ];
 
 // ── Helpers for normalization ─────────────────────────────────────────────
-export function getMaxExp(level: Level, totalQ: number): number {
+function getMaxExp(level: Level, totalQ: number): number {
   if (level === 'easy') {
     return totalQ * 15;
   } else if (level === 'normal') {
@@ -139,17 +139,7 @@ export const LEVEL_EXP_THRESHOLDS: Record<Level, Record<'F' | 'E' | 'D' | 'C' | 
   hard: { F: 0, E: 220, D: 460, C: 700, B: 940, A: 1180, S: 1420 }
 };
 
-export function getNormalizedScore(exp: number, maxExp: number): number {
-  if (maxExp <= 0) return 0;
-  return Math.min(300, Math.round((exp / maxExp) * 300));
-}
 
-export function getRankByExp(score: number): Rank {
-  for (let i = RANKS.length - 1; i >= 0; i--) {
-    if (score >= RANKS[i].minExp) return RANKS[i];
-  }
-  return RANKS[0];
-}
 
 export function getRankModifier(
   exp: number,

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "g_rkn3_11_01",
+    "level": "N3",
+    "structure": "〜ように（と）言う / 伝える",
+    "structureKana": "〜ようにという / つたえる",
+    "meaning": {
+      "vi": "Nhờ/Bảo/Nhắc... (tường thuật gián tiếp lại một mệnh lệnh hoặc nhờ vả)",
+      "en": "Tell someone to... / Ask someone to... (indirect quotation of command/request)"
+    },
+    "formation": [
+      "Vる / Vない + ように + 言う / 頼む / 注意する / 伝える..."
+    ],
+    "lesson": "Bài 11",
+    "group": "Hearsay_Quotation",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Đây là lời trích dẫn gián tiếp (間接話法). Khác với trích dẫn trực tiếp dùng 「〜てください」と言う. Không thể dùng mệnh lệnh trực tiếp (〜しろ、〜なさい) sau ように.",
+      "en": "⚠️ JLPT Trap: This is indirect speech (間接話法). Unlike direct quotation 「〜てください」と言う. Cannot use direct commands (〜しろ、〜なさい) after ように."
+    },
+    "examples": [
+      {
+        "jp": "先生に遅刻しない[ように]注意された。",
+        "kana": "せんせいにちこくしない[ように]ちゅういされた。",
+        "vi": "Tôi bị giáo viên nhắc nhở là không được đi muộn.",
+        "en": "I was warned by the teacher not to be late."
+      },
+      {
+        "jp": "母に、早く帰る[ように]と言われました。",
+        "kana": "ははに、はやくかえる[ように]といわれました。",
+        "vi": "Tôi bị mẹ bảo là hãy về nhà sớm.",
+        "en": "I was told by my mother to go home early."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_11_02",
+    "level": "N3",
+    "structure": "〜ようだ (so sánh/phán đoán)",
+    "structureKana": "〜ようだ",
+    "meaning": {
+      "vi": "Có vẻ như là... / Giống như là... (phán đoán chủ quan dựa vào ngũ quan, trang trọng)",
+      "en": "It seems like... / Looks like... (subjective judgment based on senses, formal)"
+    },
+    "formation": [
+      "Thể thông thường (N-の / A-な) + ようだ",
+      "ような + N (bổ nghĩa danh từ)",
+      "ように + V/A (bổ nghĩa động từ/tính từ)"
+    ],
+    "lesson": "Bài 11",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: ようだ dùng để: (1) Phán đoán dựa vào bằng chứng trực tiếp ngũ quan, (2) So sánh ví von (A cứ như là B). Trang trọng hơn みたいだ. ような+N, ように+V.",
+      "en": "⚠️ JLPT Trap: ようだ for: (1) Judgment based on direct sensory evidence, (2) Simile (A is just like B). More formal than みたいだ. ような+N, ように+V."
+    },
+    "examples": [
+      {
+        "jp": "誰もいない[ようだ]。部屋の電気が消えている。",
+        "kana": "だれもいない[ようだ]。へやのでんきがきえている。",
+        "vi": "Có vẻ như không có ai ở nhà. Điện trong phòng đang tắt.",
+        "en": "It seems like no one is home. The lights in the room are off."
+      },
+      {
+        "jp": "氷の[ような]冷たい手。",
+        "kana": "こおりの[ような]つめたいて。",
+        "vi": "Đôi bàn tay lạnh như đá.",
+        "en": "Hands as cold as ice."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_11_03",
+    "level": "N3",
+    "structure": "〜みたいだ",
+    "structureKana": "〜みたいだ",
+    "meaning": {
+      "vi": "Có vẻ như là... / Giống như là... (văn nói, thân mật hơn ようだ)",
+      "en": "It seems like... / Looks like... (casual spoken equivalent of ようだ)"
+    },
+    "formation": [
+      "Thể thông thường (N/A直接) + みたいだ (N KHÔNG dùng の!)",
+      "みたいな + N (bổ nghĩa danh từ)",
+      "みたいに + V/A (bổ nghĩa động từ/tính từ)"
+    ],
+    "lesson": "Bài 11",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: みたいだ là thể VĂN NÓI của ようだ. CHÚ Ý: Danh từ ghép TRỰC TIẾP với みたい (KHÔNG có の), trong khi ようだ cần N + の + ようだ.",
+      "en": "⚠️ JLPT Trap: みたいだ is the CASUAL SPOKEN form of ようだ. KEY DIFFERENCE: Nouns attach DIRECTLY to みたい (NO の needed), while ようだ requires N + の + ようだ."
+    },
+    "examples": [
+      {
+        "jp": "彼は子供[みたいに]泣いた。",
+        "kana": "かれはこども[みたいに]ないた。",
+        "vi": "Cậu ấy đã khóc giống y như một đứa trẻ con.",
+        "en": "He cried like a child."
+      },
+      {
+        "jp": "明日は雨[みたいだ]ね。",
+        "kana": "あしたはあめ[みたいだ]ね。",
+        "vi": "Ngày mai có vẻ trời sẽ mưa nhỉ.",
+        "en": "It looks like it will rain tomorrow."
+      }
+    ]
+  }
+]

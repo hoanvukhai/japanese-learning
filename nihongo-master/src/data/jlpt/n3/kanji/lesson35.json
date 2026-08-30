@@ -1,0 +1,431 @@
+[
+    {
+        "id": "k_rkn3_35_01",
+        "character": "共",
+        "hanViet": "CỘNG",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_01_1",
+                "word": "共に",
+                "hanVietWord": "CỘNG",
+                "hiragana": "ともに",
+                "meaning": {
+                    "vi": "Cùng nhau",
+                    "en": "Together"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "家族と共に暮らす。",
+                        "vi": "Sinh sống cùng với gia đình.",
+                        "en": "Live together with family."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_01_2",
+                "word": "共通点",
+                "hanVietWord": "CỘNG THÔNG ĐIỂM",
+                "hiragana": "きょうつうてん",
+                "meaning": {
+                    "vi": "Điểm chung",
+                    "en": "Common point"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼とは共通点が多い。",
+                        "vi": "Tôi có nhiều điểm chung với anh ấy.",
+                        "en": "I have many common points with him."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_01_3",
+                "word": "公共",
+                "hanVietWord": "CÔNG CỘNG",
+                "hiragana": "こうきょう",
+                "meaning": {
+                    "vi": "Công cộng",
+                    "en": "Public"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "公共の乗り物を使う。",
+                        "vi": "Sử dụng phương tiện giao thông công cộng.",
+                        "en": "Use public transportation."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_01_4",
+                "word": "共働き",
+                "hanVietWord": "CỘNG ĐỘNG",
+                "hiragana": "ともばたらき",
+                "meaning": {
+                    "vi": "(Vợ chồng) đều đi làm",
+                    "en": "Dual income"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "私たちの両親は共働きです。",
+                        "vi": "Bố mẹ chúng tôi đều đi làm.",
+                        "en": "Both of our parents are working."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_35_02",
+        "character": "期",
+        "hanViet": "KỲ",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_02_1",
+                "word": "定期",
+                "hanVietWord": "ĐỊNH KỲ",
+                "hiragana": "ていき",
+                "meaning": {
+                    "vi": "Định kỳ",
+                    "en": "Regular / Fixed period"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "定期的に健康診断を受ける。",
+                        "vi": "Định kỳ đi khám sức khỏe.",
+                        "en": "Undergo a regular health checkup."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_02_2",
+                "word": "期待",
+                "hanVietWord": "KỲ ĐÃI",
+                "hiragana": "きたい",
+                "meaning": {
+                    "vi": "Mong đợi / Kỳ vọng",
+                    "en": "Expectation"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい社長に期待する。",
+                        "vi": "Kỳ vọng vào vị giám đốc mới.",
+                        "en": "Expect a lot from the new president."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_35_03",
+        "character": "岩",
+        "hanViet": "NHAM",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_03_1",
+                "word": "岩",
+                "hanVietWord": "NHAM",
+                "hiragana": "いわ",
+                "meaning": {
+                    "vi": "Đá tảng",
+                    "en": "Rock / Crag"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "大きな岩に座って休む。",
+                        "vi": "Ngồi nghỉ trên một tảng đá lớn.",
+                        "en": "Sit and rest on a large rock."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_03_2",
+                "word": "岩石",
+                "hanVietWord": "NHAM THẠCH",
+                "hiragana": "がんせき",
+                "meaning": {
+                    "vi": "Đá / Đá tảng",
+                    "en": "Rocks and stones"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "珍しい岩石を集める。",
+                        "vi": "Thu thập những hòn đá lạ.",
+                        "en": "Collect rare rocks."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_35_04",
+        "character": "張",
+        "hanViet": "TRƯƠNG",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_04_1",
+                "word": "張る",
+                "hanVietWord": "TRƯƠNG",
+                "hiragana": "はる",
+                "meaning": {
+                    "vi": "Căng ra / Kéo dài",
+                    "en": "To stretch / To put up"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ポスターを壁に張る。",
+                        "vi": "Dán tấm áp phích lên tường.",
+                        "en": "Put up a poster on the wall."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_04_2",
+                "word": "頑張る",
+                "hanVietWord": "NGOAN TRƯƠNG",
+                "hiragana": "がんばる",
+                "meaning": {
+                    "vi": "Cố gắng",
+                    "en": "To do one's best"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "試験に合格するために頑張る。",
+                        "vi": "Tôi cố gắng để thi đỗ.",
+                        "en": "I will do my best to pass the exam."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_04_3",
+                "word": "出張",
+                "hanVietWord": "XUẤT TRƯƠNG",
+                "hiragana": "しゅっちょう",
+                "meaning": {
+                    "vi": "Công tác",
+                    "en": "Business trip"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明日から東京へ出張する。",
+                        "vi": "Từ ngày mai tôi sẽ đi công tác Tokyo.",
+                        "en": "I will go on a business trip to Tokyo from tomorrow."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_35_05",
+        "character": "疑",
+        "hanViet": "NGHI",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_05_1",
+                "word": "疑う",
+                "hanVietWord": "NGHI",
+                "hiragana": "うたがう",
+                "meaning": {
+                    "vi": "Nghi ngờ",
+                    "en": "To doubt / To suspect"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼の言葉を疑う。",
+                        "vi": "Tôi nghi ngờ lời nói của anh ấy.",
+                        "en": "I doubt his words."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_05_2",
+                "word": "疑問",
+                "hanVietWord": "NGHI VẤN",
+                "hiragana": "ぎもん",
+                "meaning": {
+                    "vi": "Nghi vấn",
+                    "en": "Question / Doubt"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この説明には疑問がある。",
+                        "vi": "Tôi có sự nghi vấn về lời giải thích này.",
+                        "en": "I have a doubt about this explanation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_35_06",
+        "character": "飛",
+        "hanViet": "PHI",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_06_1",
+                "word": "飛行機",
+                "hanVietWord": "PHI HÀNH CƠ",
+                "hiragana": "ひこうき",
+                "meaning": {
+                    "vi": "Máy bay",
+                    "en": "Airplane"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "飛行機に乗って海外へ行く。",
+                        "vi": "Lên máy bay đi ra nước ngoài.",
+                        "en": "Take an airplane and go overseas."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_06_2",
+                "word": "飛ぶ",
+                "hanVietWord": "PHI",
+                "hiragana": "とぶ",
+                "meaning": {
+                    "vi": "Bay",
+                    "en": "To fly"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "空を鳥が飛んでいる。",
+                        "vi": "Chim đang bay trên bầu trời.",
+                        "en": "A bird is flying in the sky."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_06_3",
+                "word": "飛ばす",
+                "hanVietWord": "PHI",
+                "hiragana": "とばす",
+                "meaning": {
+                    "vi": "Làm bay / Thổi bay",
+                    "en": "To let fly / To blow away"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "風船を空へ飛ばす。",
+                        "vi": "Thả cho bóng bay bay lên trời.",
+                        "en": "Let a balloon fly into the sky."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_35_07",
+        "character": "器",
+        "hanViet": "KHÍ",
+        "level": "N3",
+        "lesson": "Bài 35",
+        "words": [
+            {
+                "id": "kw_rkn3_35_07_1",
+                "word": "器",
+                "hanVietWord": "KHÍ",
+                "hiragana": "うつわ",
+                "meaning": {
+                    "vi": "Đồ đựng / Vật chứa",
+                    "en": "Container / Vessel"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "料理を綺麗な器に盛り付ける。",
+                        "vi": "Bày biện món ăn ra một vật chứa thật đẹp.",
+                        "en": "Serve food in a beautiful container."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_07_2",
+                "word": "食器",
+                "hanVietWord": "THỰC KHÍ",
+                "hiragana": "しょっき",
+                "meaning": {
+                    "vi": "Dụng cụ ăn uống",
+                    "en": "Tableware"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "食事の後で食器を洗う。",
+                        "vi": "Sau bữa ăn thì rửa dụng cụ ăn uống.",
+                        "en": "Wash tableware after a meal."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_35_07_3",
+                "word": "器用",
+                "hanVietWord": "KHÍ DỤNG",
+                "hiragana": "きよう",
+                "meaning": {
+                    "vi": "Khéo tay",
+                    "en": "Skillful / Handy"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼女はとても器用だ。",
+                        "vi": "Cô ấy cực kỳ khéo tay.",
+                        "en": "She is very skillful."
+                    }
+                ]
+            }
+        ]
+    }
+]

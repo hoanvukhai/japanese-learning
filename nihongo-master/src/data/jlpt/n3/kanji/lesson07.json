@@ -1,0 +1,543 @@
+[
+    {
+        "id": "k_rkn3_07_01",
+        "character": "幸",
+        "hanViet": "HẠNH",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_01_1",
+                "word": "幸福",
+                "hanVietWord": "HẠNH PHÚC",
+                "hiragana": "こうふく",
+                "meaning": {
+                    "vi": "Hạnh phúc",
+                    "en": "Happiness"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "家族の幸福を祈る。",
+                        "vi": "Cầu nguyện cho hạnh phúc của gia đình.",
+                        "en": "Pray for the family's happiness."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_01_2",
+                "word": "幸せ",
+                "hanVietWord": "HẠNH",
+                "hiragana": "しあわせ",
+                "meaning": {
+                    "vi": "Hạnh phúc",
+                    "en": "Happy"
+                },
+                "type": "adj_na",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "毎日がとても幸せだ。",
+                        "vi": "Mỗi ngày đều rất hạnh phúc.",
+                        "en": "Every day is very happy."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_01_3",
+                "word": "幸い",
+                "hanVietWord": "HẠNH",
+                "hiragana": "さいわい",
+                "meaning": {
+                    "vi": "May mắn / May thay",
+                    "en": "Fortunately"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "幸い、けがはなかった。",
+                        "vi": "May thay, không có vết thương nào.",
+                        "en": "Fortunately, there were no injuries."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_02",
+        "character": "報",
+        "hanViet": "BÁO",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_02_1",
+                "word": "予報",
+                "hanVietWord": "DỰ BÁO",
+                "hiragana": "よほう",
+                "meaning": {
+                    "vi": "Dự báo",
+                    "en": "Forecast"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明日の天気予報を見る。",
+                        "vi": "Xem dự báo thời tiết ngày mai.",
+                        "en": "Watch tomorrow's weather forecast."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_02_2",
+                "word": "報告",
+                "hanVietWord": "BÁO CÁO",
+                "hiragana": "ほうこく",
+                "meaning": {
+                    "vi": "Báo cáo",
+                    "en": "Report"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "出張の結果を報告する。",
+                        "vi": "Báo cáo kết quả chuyến công tác.",
+                        "en": "Report the results of the business trip."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_02_3",
+                "word": "情報",
+                "hanVietWord": "TÌNH BÁO",
+                "hiragana": "じょうほう",
+                "meaning": {
+                    "vi": "Thông tin",
+                    "en": "Information"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "インターネットで情報を集める。",
+                        "vi": "Thu thập thông tin trên internet.",
+                        "en": "Gather information on the internet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_03",
+        "character": "洗",
+        "hanViet": "TẨY",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_03_1",
+                "word": "洗濯",
+                "hanVietWord": "TẨY TRẠC",
+                "hiragana": "せんたく",
+                "meaning": {
+                    "vi": "Giặt giũ",
+                    "en": "Laundry"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "休日に洗濯をする。",
+                        "vi": "Giặt giũ vào ngày nghỉ.",
+                        "en": "Do laundry on holidays."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_03_2",
+                "word": "洗剤",
+                "hanVietWord": "TẨY TỄ",
+                "hiragana": "せんざい",
+                "meaning": {
+                    "vi": "Chất tẩy rửa",
+                    "en": "Detergent"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい洗剤を買う。",
+                        "vi": "Mua chất tẩy rửa mới.",
+                        "en": "Buy new detergent."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_03_3",
+                "word": "洗う",
+                "hanVietWord": "TẨY",
+                "hiragana": "あらう",
+                "meaning": {
+                    "vi": "Rửa / Giặt",
+                    "en": "To wash"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "食事の前に手を洗う。",
+                        "vi": "Rửa tay trước bữa ăn.",
+                        "en": "Wash hands before meals."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_04",
+        "character": "汚",
+        "hanViet": "Ô",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_04_1",
+                "word": "汚染",
+                "hanVietWord": "Ô NHIỄM",
+                "hiragana": "おせん",
+                "meaning": {
+                    "vi": "Ô nhiễm",
+                    "en": "Pollution"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "環境汚染が問題になっている。",
+                        "vi": "Ô nhiễm môi trường đang trở thành vấn đề.",
+                        "en": "Environmental pollution is becoming a problem."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_04_2",
+                "word": "汚れる",
+                "hanVietWord": "Ô",
+                "hiragana": "よごれる",
+                "meaning": {
+                    "vi": "Bị bẩn / Bị làm bẩn",
+                    "en": "To get dirty"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "泥で服が汚れる。",
+                        "vi": "Quần áo bị bẩn do bùn.",
+                        "en": "Clothes get dirty with mud."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_04_3",
+                "word": "汚い",
+                "hanVietWord": "Ô",
+                "hiragana": "きたない",
+                "meaning": {
+                    "vi": "Bẩn / Bẩn thỉu",
+                    "en": "Dirty"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "手が汚いから洗ってください。",
+                        "vi": "Tay bẩn đấy nên hãy rửa đi.",
+                        "en": "Your hands are dirty, so please wash them."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_05",
+        "character": "活",
+        "hanViet": "HOẠT",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_05_1",
+                "word": "生活",
+                "hanVietWord": "SINH HOẠT",
+                "hiragana": "せいかつ",
+                "meaning": {
+                    "vi": "Đời sống / Sinh hoạt",
+                    "en": "Life / Living"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本での生活に慣れた。",
+                        "vi": "Tôi đã quen với cuộc sống ở Nhật Bản.",
+                        "en": "I got used to life in Japan."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_05_2",
+                "word": "生活費",
+                "hanVietWord": "SINH HOẠT PHÍ",
+                "hiragana": "せいかつひ",
+                "meaning": {
+                    "vi": "Chi phí sinh hoạt",
+                    "en": "Living expenses"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "毎月の生活費を計算する。",
+                        "vi": "Tính toán chi phí sinh hoạt mỗi tháng.",
+                        "en": "Calculate monthly living expenses."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_06",
+        "character": "液",
+        "hanViet": "DỊCH",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_06_1",
+                "word": "血液型",
+                "hanVietWord": "HUYẾT DỊCH HÌNH",
+                "hiragana": "けつえきがた",
+                "meaning": {
+                    "vi": "Nhóm máu",
+                    "en": "Blood type"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "あなたの血液型は何ですか。",
+                        "vi": "Nhóm máu của bạn là gì?",
+                        "en": "What is your blood type?"
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_06_2",
+                "word": "血液検査",
+                "hanVietWord": "HUYẾT DỊCH KIỂM TRA",
+                "hiragana": "けつえきけんさ",
+                "meaning": {
+                    "vi": "Xét nghiệm máu",
+                    "en": "Blood test"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "病院で血液検査を受ける。",
+                        "vi": "Làm xét nghiệm máu ở bệnh viện.",
+                        "en": "Get a blood test at the hospital."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_06_3",
+                "word": "液体",
+                "hanVietWord": "DỊCH THỂ",
+                "hiragana": "えきたい",
+                "meaning": {
+                    "vi": "Chất lỏng",
+                    "en": "Liquid"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "水は液体です。",
+                        "vi": "Nước là chất lỏng.",
+                        "en": "Water is a liquid."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_07",
+        "character": "流",
+        "hanViet": "LƯU",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_07_1",
+                "word": "流行語",
+                "hanVietWord": "LƯU HÀNH NGỮ",
+                "hiragana": "りゅうこうご",
+                "meaning": {
+                    "vi": "Từ ngữ thịnh hành",
+                    "en": "Buzzword"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "今年の流行語を知っていますか。",
+                        "vi": "Bạn có biết từ ngữ thịnh hành của năm nay không?",
+                        "en": "Do you know this year's buzzwords?"
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_07_2",
+                "word": "流れる",
+                "hanVietWord": "LƯU",
+                "hiragana": "ながれる",
+                "meaning": {
+                    "vi": "Chảy / Trôi",
+                    "en": "To flow"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "川の水が静かに流れる。",
+                        "vi": "Nước sông chảy tĩnh lặng.",
+                        "en": "River water flows quietly."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_07_3",
+                "word": "流す",
+                "hanVietWord": "LƯU",
+                "hiragana": "ながす",
+                "meaning": {
+                    "vi": "Làm chảy / Xả",
+                    "en": "To flush / To let flow"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "トイレの水を流す。",
+                        "vi": "Xả nước bồn cầu.",
+                        "en": "Flush the toilet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_08",
+        "character": "涙",
+        "hanViet": "LỆ",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_08_1",
+                "word": "涙",
+                "hanVietWord": "LỆ",
+                "hiragana": "なみだ",
+                "meaning": {
+                    "vi": "Nước mắt",
+                    "en": "Tear"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "感動して涙が出た。",
+                        "vi": "Tôi cảm động đến rơi nước mắt.",
+                        "en": "I was moved to tears."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_07_09",
+        "character": "深",
+        "hanViet": "THÂM",
+        "level": "N3",
+        "lesson": "Bài 7",
+        "words": [
+            {
+                "id": "kw_rkn3_07_09_1",
+                "word": "深夜",
+                "hanVietWord": "THÂM DẠ",
+                "hiragana": "しんや",
+                "meaning": {
+                    "vi": "Đêm khuya",
+                    "en": "Late at night"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "深夜まで勉強する。",
+                        "vi": "Học bài đến tận đêm khuya.",
+                        "en": "Study until late at night."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_09_2",
+                "word": "深刻",
+                "hanVietWord": "THÂM KHẮC",
+                "hiragana": "しんこく",
+                "meaning": {
+                    "vi": "Nghiêm trọng",
+                    "en": "Serious"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "事態は深刻だ。",
+                        "vi": "Tình hình rất nghiêm trọng.",
+                        "en": "The situation is serious."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_07_09_3",
+                "word": "深い",
+                "hanVietWord": "THÂM",
+                "hiragana": "ふかい",
+                "meaning": {
+                    "vi": "Sâu",
+                    "en": "Deep"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "この川はとても深い。",
+                        "vi": "Con sông này rất sâu.",
+                        "en": "This river is very deep."
+                    }
+                ]
+            }
+        ]
+    }
+]

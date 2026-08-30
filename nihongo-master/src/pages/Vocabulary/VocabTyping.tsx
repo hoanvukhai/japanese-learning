@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Eye, EyeOff, Trophy, ArrowRight } from 'lucide-react';
 import * as wanakana from 'wanakana';
-import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
 import type { Word } from '../../types';
 import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
 
@@ -16,7 +16,9 @@ function shuffle<T>(arr: T[]): T[] {
 
 
 export default function VocabTyping() {
-  const lessons = getN3Lessons();
+  const { course } = usePracticeContext();
+  const data = course.data as Word[];
+  const lessons = Array.from(new Set(data.map(w => w.lesson).filter(Boolean))) as string[];
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
   const [showFurigana, setShowFurigana] = useState(false);
@@ -24,10 +26,10 @@ export default function VocabTyping() {
 
   const pool = useMemo(() => {
     const base = selectedLessons.length === 0
-      ? vocabularyN3
-      : vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''));
+      ? data
+      : data.filter(w => selectedLessons.includes(w.lesson || ''));
     return shuffle(base);
-  }, [selectedLessons]);
+  }, [selectedLessons, data]);
 
   const [index, setIndex] = useState(0);
   const [input, setInput] = useState('');
@@ -100,7 +102,7 @@ export default function VocabTyping() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-orange-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-orange-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⌨️ Nhập liệu</h1>
@@ -116,8 +118,8 @@ export default function VocabTyping() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={vocabularyN3.length}
-              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => data.filter(w => w.lesson === l).length}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -198,7 +200,7 @@ export default function VocabTyping() {
           </div>
           <div className="space-y-3">
             <button onClick={handleRestart} className="w-full py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all">Làm lại</button>
-            <Link to="/practice/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-orange-400 transition-all text-center">Về dashboard</Link>
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-orange-400 transition-all text-center">Về dashboard</Link>
           </div>
         </motion.div>
       </div>

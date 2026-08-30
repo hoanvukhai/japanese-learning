@@ -1,0 +1,980 @@
+[
+  {
+    "id": "k_rkn2_17_229",
+    "character": "片",
+    "hanViet": "PHIẾN",
+    "kunyomi": "かた",
+    "onyomi": "ヘン",
+    "mnemonic": "Lấy mảnh gỗ đóng thành bộ bàn ghế (片)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_229_1",
+        "word": "片方",
+        "hiragana": "かたほう",
+        "hanVietWord": "PHIẾN PHƯƠNG",
+        "meaning": {
+          "vi": "Một phía, một bên",
+          "en": "One side"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "くつしたが片方しか見当たらない",
+            "vi": "Chỉ tìm thấy một chiếc tất / một bên tất",
+            "en": "I can only find one sock"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_229_2",
+        "word": "片言",
+        "hiragana": "かたこと",
+        "hanVietWord": "PHIẾN NGÔN",
+        "meaning": {
+          "vi": "Bập bẹ, vài lời",
+          "en": "Broken language, babble"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "片言の日本語を話す",
+            "vi": "Nói bập bẹ tiếng Nhật",
+            "en": "Speak broken Japanese"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_229_3",
+        "word": "破片",
+        "hiragana": "はへん",
+        "hanVietWord": "PHÁ PHIẾN",
+        "meaning": {
+          "vi": "Mảnh vỡ",
+          "en": "Fragment, piece"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "鋭いガラスの破片",
+            "vi": "Mảnh vỡ kính sắc nhọn",
+            "en": "Sharp fragments of glass"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_230",
+    "character": "裏",
+    "hanViet": "LÍ",
+    "kunyomi": "うら",
+    "onyomi": "リ",
+    "mnemonic": "Thầy Lí (里) lộn trái (裏) y phục (衣) đội lên đầu (亠)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_230_1",
+        "word": "裏面",
+        "hiragana": "うらめん",
+        "hanVietWord": "LÍ DIỆN",
+        "meaning": {
+          "vi": "Mặt sau, mặt trái",
+          "en": "Back side, reverse side"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "裏面をご覧ください",
+            "vi": "Vui lòng xem mặt sau",
+            "en": "Please look at the back side"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_230_2",
+        "word": "裏切り者",
+        "hiragana": "うらぎりもの",
+        "hanVietWord": "LÍ THIẾT GIẢ",
+        "meaning": {
+          "vi": "Kẻ phản bội",
+          "en": "Traitor"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "この!裏切り者!",
+            "vi": "Cái đồ phản bội này!",
+            "en": "You traitor!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_230_3",
+        "word": "裏表",
+        "hiragana": "うらおもて",
+        "hanVietWord": "LÍ BIỂU",
+        "meaning": {
+          "vi": "Mặt trái và mặt phải, sự hai mặt",
+          "en": "Both sides, two-faced"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "裏表がある人",
+            "vi": "Người sống hai mặt",
+            "en": "A two-faced person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_231",
+    "character": "幅",
+    "hanViet": "PHÚC",
+    "kunyomi": "はば",
+    "onyomi": "フク, プク",
+    "mnemonic": "Lấy cái khăn (巾) để đo chiều rộng (幅) của mảnh ruộng (田)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_231_1",
+        "word": "肩幅",
+        "hiragana": "かたはば",
+        "hanVietWord": "KIÊN PHÚC",
+        "meaning": {
+          "vi": "Chiều rộng vai, bờ vai",
+          "en": "Shoulder width"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "肩幅が広い",
+            "vi": "Bờ vai rộng",
+            "en": "Broad shoulders"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_231_2",
+        "word": "幅",
+        "hiragana": "はば",
+        "hanVietWord": "PHÚC",
+        "meaning": {
+          "vi": "Chiều rộng",
+          "en": "Width, breadth"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "たんすの幅を測る",
+            "vi": "Đo chiều rộng của tủ",
+            "en": "Measure the width of the chest of drawers"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_231_3",
+        "word": "幅広い",
+        "hiragana": "はばひろい",
+        "hanVietWord": "PHÚC QUẢNG",
+        "meaning": {
+          "vi": "Rộng, phong phú",
+          "en": "Extensive, wide"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "幅広い知識、経験",
+            "vi": "Kiến thức và kinh nghiệm phong phú",
+            "en": "Extensive knowledge and experience"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_232",
+    "character": "版",
+    "hanViet": "BẢN",
+    "onyomi": "ハン",
+    "mnemonic": "Xuất bản (版) cuốn sách về bọn Phiến (片) quân Phản (反) động",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_232_1",
+        "word": "出版",
+        "hiragana": "しゅっぱん",
+        "hanVietWord": "XUẤT BẢN",
+        "meaning": {
+          "vi": "Xuất bản",
+          "en": "Publication"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "大手企業の裏事情を書いた本を出版する",
+            "vi": "Xuất bản cuốn sách viết về nội tình phía sau của một doanh nghiệp lớn",
+            "en": "Publish a book about the behind-the-scenes circumstances of a major company"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_232_2",
+        "word": "絶版",
+        "hiragana": "ぜっぱん",
+        "hanVietWord": "TUYỆT BẢN",
+        "meaning": {
+          "vi": "Tuyệt bản, hết in",
+          "en": "Out of print"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "あの本は絶版してしまったらしい",
+            "vi": "Cuốn sách đó dường như đã bị ngừng xuất bản rồi",
+            "en": "It seems that book has gone out of print"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_233",
+    "character": "刷",
+    "hanViet": "XOÁT/LOÁT",
+    "kunyomi": "す-る",
+    "onyomi": "サツ",
+    "mnemonic": "Đi qua cửa (尸) quấn khăn (巾) cầm đao (刂) đi rà xoát in ấn (刷)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_233_1",
+        "word": "刷る",
+        "hiragana": "する",
+        "hanVietWord": "XOÁT",
+        "meaning": {
+          "vi": "In ấn",
+          "en": "To print"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "新しい名刺を刷る",
+            "vi": "In danh thiếp mới",
+            "en": "Print new business cards"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_233_2",
+        "word": "印刷",
+        "hiragana": "いんさつ",
+        "hanVietWord": "ẤN LOÁT",
+        "meaning": {
+          "vi": "Sự in ấn",
+          "en": "Printing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "それ人数分印刷してきて!",
+            "vi": "Hãy in cái đó theo đúng số lượng người cho tôi!",
+            "en": "Print enough copies of that for everyone!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_234",
+    "character": "枠",
+    "hanViet": "KHUNG",
+    "kunyomi": "わく",
+    "mnemonic": "Một cây (木) đóng được 9, 10 (九, 十) cái khung (枠)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_234_1",
+        "word": "枠",
+        "hiragana": "わく",
+        "hanVietWord": "KHUNG",
+        "meaning": {
+          "vi": "Khung, viền",
+          "en": "Frame, border"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "文字に枠をつける",
+            "vi": "Đóng khung chữ",
+            "en": "Put a frame around the characters"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_234_2",
+        "word": "窓枠",
+        "hiragana": "まどわく",
+        "hanVietWord": "SONG KHUNG",
+        "meaning": {
+          "vi": "Khung cửa sổ",
+          "en": "Window frame"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "窓枠を掃除する",
+            "vi": "Dọn dẹp khung cửa sổ",
+            "en": "Clean the window frame"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_234_3",
+        "word": "採用枠",
+        "hiragana": "さいようわく",
+        "hanVietWord": "THÁI DỤNG KHUNG",
+        "meaning": {
+          "vi": "Hạn mức/chỉ tiêu tuyển dụng",
+          "en": "Employment quota"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "コロナの影響で、去年より、採用枠が減った",
+            "vi": "Do ảnh hưởng của Corona, hạn mức tuyển dụng đã giảm so với năm ngoái",
+            "en": "Due to the impact of COVID-19, the hiring quota decreased compared to last year"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_235",
+    "character": "縦",
+    "hanViet": "TÚNG",
+    "kunyomi": "たて",
+    "onyomi": "ジュウ",
+    "mnemonic": "Đi theo (従) cái dây (糸) để đo chiều dọc (縦)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_235_1",
+        "word": "縦",
+        "hiragana": "たて",
+        "hanVietWord": "TÚNG",
+        "meaning": {
+          "vi": "Chiều dọc",
+          "en": "Vertical length, height"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "首を縦に振る",
+            "vi": "Gật đầu (Lắc đầu theo chiều dọc)",
+            "en": "Nod one's head (shake vertically)"
+          },
+          {
+            "jp": "スマホで写真を撮るときは横ではなく、縦でお願いします",
+            "vi": "Khi chụp ảnh bằng điện thoại, xin vui lòng chụp dọc chứ không chụp ngang",
+            "en": "When taking photos with a smartphone, please take them vertically, not horizontally"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_235_2",
+        "word": "操縦",
+        "hiragana": "そうじゅう",
+        "hanVietWord": "THAO TÚNG",
+        "meaning": {
+          "vi": "Sự điều khiển (máy móc)",
+          "en": "Piloting, steering"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "飛行機を操縦する",
+            "vi": "Điều khiển máy bay",
+            "en": "Pilot an airplane"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_236",
+    "character": "斜",
+    "hanViet": "TÀ",
+    "kunyomi": "なな-め",
+    "onyomi": "シャ",
+    "mnemonic": "Dư (余) một đấu (斗) thì bị nghiêng (斜) sang một bên",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_236_1",
+        "word": "斜め",
+        "hiragana": "ななめ",
+        "hanVietWord": "TÀ",
+        "meaning": {
+          "vi": "Nghiêng, chéo",
+          "en": "Diagonal, slanted"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "ここから斜めに進むとコンビニがありますよ",
+            "vi": "Từ đây đi chéo qua sẽ có cửa hàng tiện lợi đấy",
+            "en": "If you go diagonally from here, there is a convenience store"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_236_2",
+        "word": "傾斜",
+        "hiragana": "けいしゃ",
+        "hanVietWord": "KHUYNH TÀ",
+        "meaning": {
+          "vi": "Độ nghiêng, dốc",
+          "en": "Incline, slant"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "傾斜のきつい坂",
+            "vi": "Con dốc có độ nghiêng lớn / dốc đứng",
+            "en": "A steep slope"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_236_3",
+        "word": "斜面",
+        "hiragana": "しゃめん",
+        "hanVietWord": "TÀ DIỆN",
+        "meaning": {
+          "vi": "Mặt nghiêng",
+          "en": "Slope, slanted surface"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "スキーは雪山の斜面を滑るスポーツだ",
+            "vi": "Trượt tuyết là môn thể thao trượt trên sườn dốc của núi tuyết",
+            "en": "Skiing is a sport of sliding down the slopes of snowy mountains"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_237",
+    "character": "端",
+    "hanViet": "ĐOAN",
+    "kunyomi": "はし",
+    "onyomi": "タン",
+    "mnemonic": "Đoan (端) đang đứng (立) ở mép (端) núi (山)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_237_1",
+        "word": "極端",
+        "hiragana": "きょくたん",
+        "hanVietWord": "CỰC ĐOAN",
+        "meaning": {
+          "vi": "Cực đoan",
+          "en": "Extreme"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "いつも極端な意見には注意する必要がある",
+            "vi": "Luôn cần chú ý đến những ý kiến cực đoan",
+            "en": "It is always necessary to be careful of extreme opinions"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_237_2",
+        "word": "先端",
+        "hiragana": "せんたん",
+        "hanVietWord": "TIÊN ĐOAN",
+        "meaning": {
+          "vi": "Mũi nhọn, tiên tiến",
+          "en": "Point, edge, cutting-edge"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "VR、AIは先端技術である",
+            "vi": "VR, AI là công nghệ tiên tiến",
+            "en": "VR and AI are cutting-edge technologies"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_237_3",
+        "word": "万端",
+        "hiragana": "ばんたん",
+        "hanVietWord": "VẠN ĐOAN",
+        "meaning": {
+          "vi": "Chu đáo mọi thứ",
+          "en": "Everything, all particulars"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "準備は万端だ!",
+            "vi": "Chuẩn bị đã xong xuôi / chu đáo mọi thứ!",
+            "en": "Everything is ready!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_237_4",
+        "word": "端的",
+        "hiragana": "たんてき",
+        "hanVietWord": "ĐOAN ĐÍCH",
+        "meaning": {
+          "vi": "Rõ ràng, thẳng thắn",
+          "en": "Direct, frank"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "話が長いので、端的に説明してほしい",
+            "vi": "Vì câu chuyện quá dài nên tôi muốn giải thích một cách ngắn gọn, thẳng thắn",
+            "en": "Since the story is long, I want you to explain it directly/frankly"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_237_5",
+        "word": "端",
+        "hiragana": "はし",
+        "hanVietWord": "ĐOAN",
+        "meaning": {
+          "vi": "Ven, bờ, mép, đầu",
+          "en": "Edge, tip, margin"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "北海道の端から端までの距離は、東京から福岡までの距離と同じらしい",
+            "vi": "Khoảng cách từ đầu này đến đầu kia của Hokkaido nghe nói bằng với khoảng cách từ Tokyo đến Fukuoka",
+            "en": "The distance from one end of Hokkaido to the other seems to be the same as the distance from Tokyo to Fukuoka"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_238",
+    "character": "掘",
+    "hanViet": "QUẬT",
+    "kunyomi": "ほ-る",
+    "onyomi": "クツ",
+    "mnemonic": "Dùng tay (扌) khai quật (掘) tử thi (尸) rồi mang ra ngoài (出)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_238_1",
+        "word": "掘る",
+        "hiragana": "ほる",
+        "hanVietWord": "QUẬT",
+        "meaning": {
+          "vi": "Đào",
+          "en": "To dig, to excavate"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "犬が穴を掘って、おやつを埋めている",
+            "vi": "Con chó đào lỗ và chôn thức ăn vặt",
+            "en": "The dog is digging a hole and burying snacks"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_238_2",
+        "word": "発掘",
+        "hiragana": "はっくつ",
+        "hanVietWord": "PHÁT QUẬT",
+        "meaning": {
+          "vi": "Sự khai quật",
+          "en": "Excavation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "1000年前の化石が発掘された",
+            "vi": "Hóa thạch 1000 năm trước đã được khai quật",
+            "en": "A 1000-year-old fossil was excavated"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_239",
+    "character": "埋",
+    "hanViet": "MAI",
+    "kunyomi": "う-める",
+    "onyomi": "マイ",
+    "mnemonic": "Mai (埋) táng ở vùng đất (土) quê hương (里)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_239_1",
+        "word": "埋める",
+        "hiragana": "うめる",
+        "hanVietWord": "MAI",
+        "meaning": {
+          "vi": "Chôn cất, vùi lấp",
+          "en": "To bury, to fill up"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "動物は食べ物を土に埋める習性がある",
+            "vi": "Động vật có tập tính chôn thức ăn xuống đất",
+            "en": "Animals have a habit of burying food in the ground"
+          },
+          {
+            "jp": "空白を埋める",
+            "vi": "Lấp đầy khoảng trống",
+            "en": "Fill in the blanks"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_239_2",
+        "word": "埋葬",
+        "hiragana": "まいそう",
+        "hanVietWord": "MAI TÁNG",
+        "meaning": {
+          "vi": "Mai táng, chôn cất",
+          "en": "Burial"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ペットを埋葬する",
+            "vi": "Mai táng thú cưng",
+            "en": "Bury a pet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_240",
+    "character": "泥",
+    "hanViet": "NÊ",
+    "kunyomi": "どろ",
+    "onyomi": "デイ",
+    "mnemonic": "Ni cô (尼) đang tắm (氵) bùn (泥)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_240_1",
+        "word": "泥",
+        "hiragana": "どろ",
+        "hanVietWord": "NÊ",
+        "meaning": {
+          "vi": "Bùn",
+          "en": "Mud"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "泥まみれになる",
+            "vi": "Dính đầy bùn",
+            "en": "Covered in mud"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_240_2",
+        "word": "泥酔",
+        "hiragana": "でいすい",
+        "hanVietWord": "NÊ TÚY",
+        "meaning": {
+          "vi": "Sự say bí tỉ",
+          "en": "Dead drunk"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "上司が泥酔している",
+            "vi": "Sếp đang say bí tỉ",
+            "en": "The boss is dead drunk"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_240_3",
+        "word": "泥棒",
+        "hiragana": "どろぼう",
+        "hanVietWord": "NÊ BỔNG",
+        "meaning": {
+          "vi": "Kẻ trộm",
+          "en": "Thief"
+        },
+        "type": "noun",
+        "readingType": "特殊",
+        "examples": [
+          {
+            "jp": "泥棒をつかまえた!",
+            "vi": "Đã bắt được kẻ trộm!",
+            "en": "Caught a thief!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_241",
+    "character": "炭",
+    "hanViet": "THÁN",
+    "kunyomi": "すみ",
+    "onyomi": "タン",
+    "mnemonic": "Tro (灰) tàn dưới núi (山) biến thành than (炭)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_241_1",
+        "word": "炭",
+        "hiragana": "すみ",
+        "hanVietWord": "THÁN",
+        "meaning": {
+          "vi": "Than",
+          "en": "Charcoal"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "焼肉は炭で焼いたら美味しい",
+            "vi": "Thịt nướng bằng than thì ngon",
+            "en": "Yakiniku is delicious when grilled with charcoal"
+          },
+          {
+            "jp": "炭を売る炭治郎さん",
+            "vi": "Anh Tanjiro bán than",
+            "en": "Mr. Tanjiro who sells charcoal"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_241_2",
+        "word": "炭水化物",
+        "hiragana": "たんすいかぶつ",
+        "hanVietWord": "THÁN THỦY HÓA VẬT",
+        "meaning": {
+          "vi": "Carbohydrate, tinh bột",
+          "en": "Carbohydrate"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "炭水化物を食べないようにしている",
+            "vi": "Tôi đang cố gắng không ăn tinh bột",
+            "en": "I'm trying not to eat carbohydrates"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_241_3",
+        "word": "炭酸飲料",
+        "hiragana": "たんさんいんりょう",
+        "hanVietWord": "THÁN TOAN ẨM LIỆU",
+        "meaning": {
+          "vi": "Đồ uống có ga",
+          "en": "Carbonated drink"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "炭酸飲料が苦手だ",
+            "vi": "Tôi không thích đồ uống có ga",
+            "en": "I'm not good with carbonated drinks"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_241_4",
+        "word": "石炭",
+        "hiragana": "せきたん",
+        "hanVietWord": "THẠCH THÁN",
+        "meaning": {
+          "vi": "Than đá",
+          "en": "Coal"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "石炭と石油",
+            "vi": "Than đá và dầu mỏ",
+            "en": "Coal and petroleum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_242",
+    "character": "鉱",
+    "hanViet": "KHOÁNG",
+    "onyomi": "コウ",
+    "mnemonic": "Có một mỏ khoáng sản (鉱) vàng (金) rất rộng (広)",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_242_1",
+        "word": "炭鉱",
+        "hiragana": "たんこう",
+        "hanVietWord": "THÁN KHOÁNG",
+        "meaning": {
+          "vi": "Mỏ than",
+          "en": "Coal mine"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "祖父は炭鉱で働いていた",
+            "vi": "Ông tôi từng làm việc ở mỏ than",
+            "en": "My grandfather used to work in a coal mine"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_242_2",
+        "word": "鉱山",
+        "hiragana": "こうざん",
+        "hanVietWord": "KHOÁNG SƠN",
+        "meaning": {
+          "vi": "Mỏ quặng, mỏ khoáng sản",
+          "en": "Mine"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "鉱山でダイアモンドを掘るツアーがあるらしい",
+            "vi": "Nghe nói có tour đào kim cương ở mỏ quặng",
+            "en": "I heard there is a tour to dig for diamonds in a mine"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_17_242_3",
+        "word": "鉱物",
+        "hiragana": "こうぶつ",
+        "hanVietWord": "KHOÁNG VẬT",
+        "meaning": {
+          "vi": "Khoáng vật",
+          "en": "Mineral"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "鉱物を鑑賞する",
+            "vi": "Ngắm/Thưởng thức khoáng vật",
+            "en": "Appreciate minerals"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_17_243",
+    "character": "銅",
+    "hanViet": "ĐỒNG",
+    "onyomi": "ドウ",
+    "mnemonic": "Đồng (銅) giống (同) với vàng (金) cũng là kim loại",
+    "level": "N2",
+    "lesson": "Buổi 17",
+    "words": [
+      {
+        "id": "kw_rkn2_17_243_1",
+        "word": "銅",
+        "hiragana": "どう",
+        "hanVietWord": "ĐỒNG",
+        "meaning": {
+          "vi": "Đồng",
+          "en": "Copper"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "オリンピックで銅メダルをとった",
+            "vi": "Đã giành được huy chương đồng ở Olympic",
+            "en": "Won a bronze medal at the Olympics"
+          },
+          {
+            "jp": "10円玉は銅でできている",
+            "vi": "Đồng 10 yên được làm bằng đồng",
+            "en": "The 10-yen coin is made of copper"
+          }
+        ]
+      }
+    ]
+  }
+]

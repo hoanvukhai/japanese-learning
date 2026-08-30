@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import {  } from 'lucide-react';
 import { formatKeyForDisplay } from './VocabCommon';
 import type { ErrorQ } from './VocabCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface VocabErrorProps {
   q: ErrorQ;

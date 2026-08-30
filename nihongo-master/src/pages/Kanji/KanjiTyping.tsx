@@ -1,69 +1,92 @@
+// src/pages/Kanji/KanjiTyping.tsx
 import { useState, useMemo, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, Eye, EyeOff } from 'lucide-react';
-import { kanjiN3 } from '../../data/kanjiN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
 import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
+import { romajiToHiragana } from '../../lib/romajiConverter';
+import * as wanakana from 'wanakana';
+import type { Kanji } from '../../types';
 
-function shuffle<T>(arr: T[]): T[] {
-  return [...arr].sort(() => Math.random() - 0.5);
+interface TypingQuestionItem {
+  id: string;
+  questionText: string;
+  target: string;
+  answer: string;
+  hint?: string;
+  isSingleChar: boolean;
 }
 
 export default function KanjiTyping() {
-  const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
+  const [searchParams] = useSearchParams();
+  const level = (searchParams.get('level') || 'N3').toUpperCase();
+  const initialMode = searchParams.get('mode') === 'words' ? 'word-hiragana' : 'kanji-hanviet';
+
+  const { course } = usePracticeContext();
+  const data = course.data as Kanji[];
+
+  const lessons = useMemo(() => {
+    return Array.from(new Set(data.map(k => k.lesson))).filter(Boolean) as string[];
+  }, [data]);
+
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
-  const [mode, setMode] = useState<'kanji-hanviet' | 'word-hiragana' | 'word-meaning'>('kanji-hanviet');
-  const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
-  const [showFurigana, setShowFurigana] = useState(false);
+  const [mode, setMode] = useState<'kanji-hanviet' | 'word-hiragana'>(initialMode);
+  const [showFurigana, setShowFurigana] = useState(true);
   const [started, setStarted] = useState(false);
 
   const pool = useMemo(() => {
     const baseKanji = selectedLessons.length === 0
-      ? kanjiN3
-      : kanjiN3.filter(k => selectedLessons.includes(k.lesson || ''));
+      ? data
+      : data.filter(k => selectedLessons.includes(k.lesson || ''));
+
+    const list: TypingQuestionItem[] = [];
 
     if (mode === 'kanji-hanviet') {
-      const items = baseKanji.map(k => ({
-        id: k.id,
-        questionText: direction === 'forward' ? 'Nhập âm Hán Việt của chữ Hán này' : 'Nhập chữ Hán tương ứng với âm Hán Việt này',
-        target: direction === 'forward' ? k.character : k.hanViet,
-        answer: direction === 'forward' ? k.hanViet : k.character,
-        hint: `Bài học: ${k.lesson}`,
-      }));
-      return shuffle(items);
-    } else if (mode === 'word-hiragana') {
-      const words: any[] = [];
       baseKanji.forEach(k => {
-        k.words.forEach((w, idx) => {
-          words.push({
-            id: `${k.id}_w_${idx}`,
-            questionText: direction === 'forward' ? 'Nhập cách đọc Hiragana của từ này' : 'Nhập từ ghép Kanji tương ứng với cách đọc này',
-            target: direction === 'forward' ? w.word : w.hiragana,
-            answer: direction === 'forward' ? w.hiragana : w.word,
-            hint: `Nghĩa: ${typeof w.meaning === 'object' ? w.meaning.vi : w.meaning} (${w.hanVietWord || k.hanViet})`,
-          });
+        list.push({
+          id: `kt_char_${k.id}`,
+          questionText: 'Gõ Âm Hán Việt tương ứng với Chữ Hán gốc này',
+          target: k.character,
+          answer: k.hanViet,
+          hint: `Chữ Hán: ${k.character} · Bài: ${k.lesson}`,
+          isSingleChar: true,
         });
+        if (k.words && k.words.length > 0) {
+          k.words.filter(w => w.hanVietWord).forEach((w, idx) => {
+            list.push({
+              id: `kt_wordhv_${k.id}_${idx}`,
+              questionText: 'Gõ Âm Hán Việt tương ứng với Từ ghép này',
+              target: w.word,
+              answer: w.hanVietWord as string,
+              hint: `Từ ghép: ${w.word} · Bài: ${k.lesson}`,
+              isSingleChar: true,
+            });
+          });
+        }
       });
-      return shuffle(words);
-    } else { // 'word-meaning'
-      const words: any[] = [];
+    } else {
       baseKanji.forEach(k => {
-        k.words.forEach((w, idx) => {
-          const meaningStr = typeof w.meaning === 'object' ? w.meaning.vi : w.meaning;
-          words.push({
-            id: `${k.id}_w_${idx}`,
-            questionText: direction === 'forward' ? 'Nhập từ ghép Kanji tương ứng với nghĩa này' : 'Nhập cách đọc Hiragana tương ứng với nghĩa này',
-            target: meaningStr,
-            answer: direction === 'forward' ? w.word : w.hiragana,
-            hint: direction === 'forward' ? `Cách đọc: ${w.hiragana} (${w.hanVietWord || k.hanViet})` : `Chữ Hán: ${w.word} (${w.hanVietWord || k.hanViet})`,
+        if (k.words && k.words.length > 0) {
+          k.words.forEach((w, idx) => {
+            const meaningText = typeof w.meaning === 'object' ? w.meaning.vi : w.meaning;
+            list.push({
+              id: `kt_word_${k.id}_${idx}`,
+              questionText: 'Gõ cách đọc Hiragana của từ ghép Kanji này',
+              target: w.word,
+              answer: w.hiragana,
+              hint: w.hanVietWord ? `Hán Việt: ${w.hanVietWord} · Nghĩa: ${meaningText}` : `Nghĩa: ${meaningText}`,
+              isSingleChar: false,
+            });
           });
-        });
+        }
       });
-      return shuffle(words);
     }
-  }, [selectedLessons, mode, direction]);
 
-  const [queue, setQueue] = useState<any[]>([]);
+    return [...list].sort(() => Math.random() - 0.5);
+  }, [selectedLessons, mode, data]);
+
+  const [queue, setQueue] = useState<TypingQuestionItem[]>([]);
   const [score, setScore] = useState(0);
   const [input, setInput] = useState('');
   const [showError, setShowError] = useState(false);
@@ -93,8 +116,15 @@ export default function KanjiTyping() {
     e.preventDefault();
     if (!current || !input.trim()) return;
 
-    const normalizedInput = input.trim().toLowerCase();
-    const isCorrect = normalizedInput === current.answer.toLowerCase();
+    let isCorrect = false;
+    if (current.isSingleChar) {
+      // Hán Việt text matching (e.g. 'TẠO')
+      isCorrect = input.trim().toUpperCase() === current.answer.trim().toUpperCase();
+    } else {
+      // Kana matching via Romaji converter
+      const convertedInput = romajiToHiragana(input).trim();
+      isCorrect = wanakana.toHiragana(convertedInput) === wanakana.toHiragana(current.answer.trim()) || input.trim() === current.answer.trim();
+    }
 
     if (isCorrect) {
       setIsCorrectAnimation(true);
@@ -111,8 +141,8 @@ export default function KanjiTyping() {
   };
 
   const handleSkip = () => {
-    setShowError(true); // Hiện đỏ một chút
-    setInput(current.answer); // Show đáp án
+    setShowError(true);
+    setInput(current.answer);
     setTimeout(() => {
       setQueue(q => q.slice(1));
       setInput('');
@@ -126,25 +156,15 @@ export default function KanjiTyping() {
     return 'text-2xl font-bold px-4';
   };
 
-  const getPlaceholder = () => {
-    if (mode === 'kanji-hanviet') {
-      return direction === 'forward' ? "Nhập âm Hán Việt..." : "Nhập chữ Hán...";
-    } else if (mode === 'word-hiragana') {
-      return direction === 'forward' ? "Nhập hiragana..." : "Nhập chữ Hán...";
-    } else {
-      return direction === 'forward' ? "Nhập chữ Hán..." : "Nhập hiragana...";
-    }
-  };
-
   if (!started) {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-3 transition-colors">
-            <ArrowLeft size={18} /> Quay lại
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-3 transition-colors">
+            <ArrowLeft size={18} /> Quay lại Kanji Dashboard
           </Link>
-          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⌨️ Nhập chữ Kanji</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-3">Luyện gõ cách đọc / âm Hán Việt để nhớ sâu hơn.</p>
+          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">⌨️ Gõ Phím Phản Xạ Kanji {course.name}</h1>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">Luyện gõ Hán Việt cho Chữ Hán gốc hoặc Gõ Hiragana cho Từ ghép Kanji.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-3xl p-6 md:p-8 shadow-sm border border-slate-100 dark:border-slate-700 space-y-8">
             <KanjiLessonChips
@@ -156,18 +176,18 @@ export default function KanjiTyping() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={kanjiN3.length}
+              totalCount={data.length}
               getCount={(l) => {
                 if (mode === 'kanji-hanviet') {
-                  return kanjiN3.filter(k => k.lesson === l).length;
+                  return data.filter(k => k.lesson === l).reduce((acc, k) => acc + 1 + (k.words?.filter(w => w.hanVietWord).length || 0), 0);
                 }
-                return kanjiN3.filter(k => k.lesson === l).reduce((acc, k) => acc + k.words.length, 0);
+                return data.filter(k => k.lesson === l).reduce((acc, k) => acc + (k.words?.length || 0), 0);
               }}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ gõ</label>
+                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ gõ phím</label>
                 <div className="grid grid-cols-1 gap-2">
                   <button
                     type="button"
@@ -178,72 +198,27 @@ export default function KanjiTyping() {
                         : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
                     }`}
                   >
-                    <span>Chữ Kanji & Hán Việt</span>
-                    <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
+                    <span>🔷 Gõ Âm Hán Việt (Chữ Gốc)</span>
+                    <span className="text-xs font-normal opacity-70">造 ➔ TẠO</span>
                   </button>
                   <button
                     type="button"
                     onClick={() => setMode('word-hiragana')}
                     className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
                       mode === 'word-hiragana'
-                        ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 shadow-sm'
+                        ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 shadow-sm'
                         : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
                     }`}
                   >
-                    <span>Từ ghép & Cách đọc (Hiragana)</span>
-                    <span className="text-xs font-normal opacity-70">共通点 ⇄ きょうつうてん</span>
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setMode('word-meaning')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                      mode === 'word-meaning'
-                        ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    <span>Từ ghép & Nghĩa tiếng Việt</span>
-                    <span className="text-xs font-normal opacity-70">Nghĩa ⇄ Kanji / Hira</span>
+                    <span>🔶 Gõ Hiragana Từ Ghép</span>
+                    <span className="text-xs font-normal opacity-70">製造 ➔ せきぞう</span>
                   </button>
                 </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng câu hỏi</label>
-                <div className="grid grid-cols-2 gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setDirection('forward')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                      direction === 'forward'
-                        ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    {mode === 'word-meaning' ? 'Gõ chữ Hán' : 'Thuận'}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setDirection('backward')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all ${
-                      direction === 'backward'
-                        ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    {mode === 'word-meaning' ? 'Gõ Hiragana' : 'Đảo ngược'}
-                  </button>
-                </div>
-                {mode === 'word-meaning' && (
-                  <p className="text-[11px] text-amber-600 dark:text-amber-400 mt-4 font-medium leading-relaxed">
-                    * Chế độ từ ghép & nghĩa luôn hiển thị Nghĩa tiếng Việt để gõ chữ Hán hoặc Hiragana tương ứng (do nghĩa dài không thể so khớp chính xác nếu gõ nghĩa).
-                  </p>
-                )}
               </div>
 
               <div>
                 <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">
-                  👁️ Hiển thị Gợi ý (Kana/Nghĩa)
+                  👁️ Hiển thị Gợi ý
                 </label>
                 <button
                   onClick={() => setShowFurigana(!showFurigana)}
@@ -255,7 +230,7 @@ export default function KanjiTyping() {
                 >
                   <div className="flex items-center gap-3 font-bold">
                     {showFurigana ? <Eye size={20} /> : <EyeOff size={20} />}
-                    {showFurigana ? 'Đang bật' : 'Đang ẩn'}
+                    {showFurigana ? 'Đang bật gợi ý' : 'Đang ẩn gợi ý'}
                   </div>
                   <div className="w-10 h-6 bg-slate-200 dark:bg-slate-700 rounded-full relative transition-colors" style={{ backgroundColor: showFurigana ? '#f59e0b' : '' }}>
                     <div className={`absolute top-1 w-4 h-4 rounded-full bg-white transition-all ${showFurigana ? 'left-5' : 'left-1'}`} />
@@ -266,9 +241,9 @@ export default function KanjiTyping() {
 
             <button
               onClick={handleStart}
-              className="w-full py-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all active:scale-[0.98]"
+              className="w-full py-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all active:scale-[0.98] shadow-md"
             >
-              Bắt đầu gõ (hiện có {pool.length} câu)
+              Bắt đầu gõ ({pool.length} câu)
             </button>
           </div>
         </div>
@@ -295,8 +270,8 @@ export default function KanjiTyping() {
             >
               <RotateCcw size={16} /> Gõ lại
             </button>
-            <Link to="/practice/kanji" className="block w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all text-center">
-              Về dashboard
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-xl transition-all text-center">
+              Về Kanji Dashboard
             </Link>
           </div>
         </motion.div>
@@ -345,7 +320,7 @@ export default function KanjiTyping() {
 
         <AnimatePresence mode="wait">
           <motion.div
-            key={current.target}
+            key={current.id}
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.05 }}
@@ -355,8 +330,8 @@ export default function KanjiTyping() {
             } mb-3`}
           >
             <div className="text-center mb-3">
-              <div className="text-sm text-slate-500 dark:text-slate-400 mb-2 font-medium">
-                {current.questionText}
+              <div className="text-xs font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest mb-2">
+                {current.isSingleChar ? '🔷 Gõ Âm Hán Việt (Chữ Gốc)' : '🔶 Gõ Hiragana Từ Ghép'}
               </div>
               <div className={`text-slate-800 dark:text-white mb-3 ${getTargetSize(current.target)}`}>
                 {current.target}
@@ -366,25 +341,31 @@ export default function KanjiTyping() {
               </div>
             </div>
 
-            <form onSubmit={handleSubmit} className="flex gap-2">
+            <form onSubmit={handleSubmit} className="space-y-3">
               <input
                 ref={inputRef}
                 type="text"
                 value={input}
                 onChange={e => setInput(e.target.value)}
-                placeholder={getPlaceholder()}
-                className={`flex-1 px-4 py-3 rounded-xl border-2 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-white text-lg font-bold outline-none transition-colors ${
+                placeholder={current.isSingleChar ? 'Gõ Âm Hán Việt...' : 'Gõ Romaji ở đây...'}
+                className={`w-full px-4 py-3.5 rounded-xl border-2 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-white text-lg font-bold outline-none transition-colors text-center ${
                   showError ? 'border-red-400 focus:border-red-500' : 'border-slate-200 dark:border-slate-600 focus:border-amber-400'
                 }`}
                 autoFocus
                 disabled={isCorrectAnimation}
               />
+              {!current.isSingleChar && (
+                <div className="text-xs text-indigo-600 dark:text-indigo-300 font-mono text-center">
+                  Tự động chuyển Kana: <span className="font-bold text-slate-800 dark:text-white">{romajiToHiragana(input)}</span>
+                </div>
+              )}
+
               <button
                 type="submit"
-                disabled={isCorrectAnimation}
-                className="px-6 py-3 bg-amber-500 hover:bg-amber-600 disabled:bg-amber-400 text-white font-bold rounded-xl transition-colors active:scale-95"
+                disabled={isCorrectAnimation || !input.trim()}
+                className="w-full py-3.5 bg-amber-500 hover:bg-amber-600 disabled:opacity-50 text-white font-bold rounded-xl transition-colors active:scale-95 shadow-md"
               >
-                Gửi
+                Gửi câu trả lời
               </button>
             </form>
 

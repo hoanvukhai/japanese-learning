@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "k_rkn2_13_171",
+    "character": "企",
+    "hanViet": "XÍ",
+    "onyomi": "キ",
+    "mnemonic": "Người (人) dừng lại (止) để suy nghĩ kế hoạch(企)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_171_1",
+        "word": "企画",
+        "hiragana": "きかく",
+        "hanVietWord": "XÍ HOẠCH",
+        "meaning": {
+          "vi": "Kế hoạch, dự án",
+          "en": "Plan, project"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "新しい企画を立てる",
+            "vi": "Lập kế hoạch mới",
+            "en": "Make a new plan"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_171_2",
+        "word": "企業",
+        "hiragana": "きぎょう",
+        "hanVietWord": "XÍ NGHIỆP",
+        "meaning": {
+          "vi": "Doanh nghiệp, xí nghiệp",
+          "en": "Enterprise, corporation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "中小企業が大きくなると大手企業になる",
+            "vi": "Doanh nghiệp vừa và nhỏ khi lớn mạnh sẽ trở thành doanh nghiệp lớn",
+            "en": "When a small or medium-sized enterprise grows, it becomes a large corporation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_172",
+    "character": "依",
+    "hanViet": "Y/Ỷ",
+    "onyomi": "イ",
+    "mnemonic": "Bề ngoài con người (人) phụ thuộc (依) vào y (衣) phục họ mặc",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_172_1",
+        "word": "依頼",
+        "hiragana": "いらい",
+        "hanVietWord": "Ỷ LẠI",
+        "meaning": {
+          "vi": "Yêu cầu, nhờ vả",
+          "en": "Request, reliance"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "有名人に講演を依頼する",
+            "vi": "Nhờ người nổi tiếng đến thuyết giảng",
+            "en": "Request a celebrity to give a lecture"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_172_2",
+        "word": "依存",
+        "hiragana": "いぞん",
+        "hanVietWord": "Ỷ TỒN",
+        "meaning": {
+          "vi": "Sự phụ thuộc, ỷ lại",
+          "en": "Dependence, reliance"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この国の経済は石油の輸出に大きく依存している",
+            "vi": "Nền kinh tế của đất nước này phụ thuộc rất lớn vào xuất khẩu dầu mỏ",
+            "en": "The economy of this country is highly dependent on oil exports"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_172_3",
+        "word": "依存症",
+        "hiragana": "いぞんしょう",
+        "hanVietWord": "Ỷ TỒN CHỨNG",
+        "meaning": {
+          "vi": "Hội chứng nghiện, bệnh phụ thuộc",
+          "en": "Addiction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ゲーム依存症",
+            "vi": "Hội chứng nghiện game",
+            "en": "Game addiction"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_173",
+    "character": "頼",
+    "hanViet": "LẠI",
+    "kunyomi": "たの-む, たよ-る, たの-もしい",
+    "onyomi": "ライ",
+    "mnemonic": "Nhờ (頼) bó lại (束) 1 khoản tiền (頁)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_173_1",
+        "word": "頼む",
+        "hiragana": "たのむ",
+        "hanVietWord": "LẠI",
+        "meaning": {
+          "vi": "Nhờ vả, yêu cầu",
+          "en": "To request, to ask a favor"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "頼むから、これ以上私に関わらないで",
+            "vi": "Tôi xin đấy, đừng dính líu đến tôi thêm nữa",
+            "en": "I'm begging you, please don't get involved with me anymore"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_173_2",
+        "word": "頼もしい",
+        "hiragana": "たのもしい",
+        "hanVietWord": "LẠI",
+        "meaning": {
+          "vi": "Đáng tin cậy",
+          "en": "Reliable, trustworthy"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "味方としては頼もしいけど、敵に回ったら恐ろしいだろう",
+            "vi": "Làm đồng minh thì rất đáng tin cậy, nhưng nếu đối đầu thì chắc sẽ đáng sợ lắm",
+            "en": "As an ally, they are reliable, but if they turned into an enemy, it would be terrifying"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_173_3",
+        "word": "頼り",
+        "hiragana": "たより",
+        "hanVietWord": "LẠI",
+        "meaning": {
+          "vi": "Chỗ dựa, sự cậy nhờ",
+          "en": "Reliance, dependence"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "先輩、本当に頼りになります。",
+            "vi": "Tiền bối thực sự là chỗ dựa vững chắc ạ.",
+            "en": "Senior, you are truly someone I can rely on."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_173_4",
+        "word": "信頼",
+        "hiragana": "しんらい",
+        "hanVietWord": "TÍN LẠI",
+        "meaning": {
+          "vi": "Sự tin cậy, tín nhiệm",
+          "en": "Trust, confidence"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼とはなんでも話せる、信頼できる関係だ",
+            "vi": "Có thể nói chuyện mọi thứ với anh ấy, đó là một mối quan hệ có thể tin cậy",
+            "en": "I can talk to him about anything, it's a relationship of trust"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_174",
+    "character": "比",
+    "hanViet": "BỈ/TỈ",
+    "kunyomi": "くら-べる",
+    "onyomi": "ヒ",
+    "mnemonic": "So sánh (比) 2 số 7 (七) với nhau",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_174_1",
+        "word": "見比べる",
+        "hiragana": "みくらべる",
+        "hanVietWord": "KIẾN BỈ",
+        "meaning": {
+          "vi": "Nhìn và so sánh",
+          "en": "To look and compare"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "二つの商品を見比べる",
+            "vi": "Nhìn và so sánh 2 sản phẩm",
+            "en": "Look and compare two products"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_174_2",
+        "word": "比べる",
+        "hiragana": "くらべる",
+        "hanVietWord": "BỈ",
+        "meaning": {
+          "vi": "So sánh",
+          "en": "To compare"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "他人と比べるより、昨日の自分と比べよう",
+            "vi": "Thay vì so sánh với người khác, hãy so sánh với chính bản thân mình của ngày hôm qua",
+            "en": "Rather than comparing yourself with others, compare yourself with who you were yesterday"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_174_3",
+        "word": "男女比",
+        "hiragana": "だんじょひ",
+        "hanVietWord": "NAM NỮ TỈ",
+        "meaning": {
+          "vi": "Tỷ lệ nam nữ",
+          "en": "Ratio of men and women"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この会社の男女比は、1対9だ!!!",
+            "vi": "Tỷ lệ nam nữ của công ty này là 1:9!!!",
+            "en": "The gender ratio of this company is 1 to 9!!!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_175",
+    "character": "較",
+    "hanViet": "GIÁC",
+    "onyomi": "カク",
+    "mnemonic": "Đem xe (車) đi giao lưu (較)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_175_1",
+        "word": "比較",
+        "hiragana": "ひかく",
+        "hanVietWord": "BỈ GIÁC",
+        "meaning": {
+          "vi": "Sự so sánh",
+          "en": "Comparison"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "優等生のお兄さんといつも比較される",
+            "vi": "Luôn bị so sánh với người anh trai là học sinh ưu tú",
+            "en": "I'm always being compared to my honor-student older brother"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_176",
+    "character": "評",
+    "hanViet": "BÌNH",
+    "onyomi": "ヒョウ",
+    "mnemonic": "Khi bình luận (評) thì ngôn (言) từ bình đẳng (平)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_176_1",
+        "word": "評判",
+        "hiragana": "ひょうばん",
+        "hanVietWord": "BÌNH PHÁN",
+        "meaning": {
+          "vi": "Tiếng tăm, đánh giá",
+          "en": "Reputation, review"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この製品、海外の方から評判がいいです",
+            "vi": "Sản phẩm này nhận được đánh giá tốt từ khách hàng nước ngoài",
+            "en": "This product has a good reputation among people overseas"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_176_2",
+        "word": "評価",
+        "hiragana": "ひょうか",
+        "hanVietWord": "BÌNH GIÁ",
+        "meaning": {
+          "vi": "Sự đánh giá",
+          "en": "Evaluation, assessment"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "外見で人を評価する",
+            "vi": "Đánh giá con người qua vẻ bề ngoài",
+            "en": "Evaluate a person by their appearance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_177",
+    "character": "善",
+    "hanViet": "THIỆN",
+    "kunyomi": "よ-い",
+    "onyomi": "ゼン",
+    "mnemonic": "Để cải thiện bữa ăn nên hôm nay trên bàn ăn (䒑) có thịt dê (羊) rất ngon miệng (口)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_177_1",
+        "word": "善",
+        "hiragana": "ぜん",
+        "hanVietWord": "THIỆN",
+        "meaning": {
+          "vi": "Cái thiện, điều tốt",
+          "en": "Good, goodness"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "善と悪を区別する",
+            "vi": "Phân biệt thiện và ác",
+            "en": "Distinguish between good and evil"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_177_2",
+        "word": "改善",
+        "hiragana": "かいぜん",
+        "hanVietWord": "CẢI THIỆN",
+        "meaning": {
+          "vi": "Sự cải thiện",
+          "en": "Improvement"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "仕事環境を改善する",
+            "vi": "Cải thiện môi trường làm việc",
+            "en": "Improve the work environment"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_177_3",
+        "word": "偽善者",
+        "hiragana": "ぎぜんしゃ",
+        "hanVietWord": "NGỤY THIỆN GIẢ",
+        "meaning": {
+          "vi": "Kẻ đạo đức giả",
+          "en": "Hypocrite"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_178",
+    "character": "努",
+    "hanViet": "NỖ",
+    "kunyomi": "つと-める",
+    "onyomi": "ド",
+    "mnemonic": "Phụ nữ (女) muốn có sức mạnh (力) phải nỗ lực (努)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_178_1",
+        "word": "努める",
+        "hiragana": "つとめる",
+        "hanVietWord": "NỖ",
+        "meaning": {
+          "vi": "Cố gắng, nỗ lực",
+          "en": "To endeavor, to strive"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "問題の解決に努める",
+            "vi": "Nỗ lực giải quyết vấn đề",
+            "en": "Strive to solve the problem"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_178_2",
+        "word": "努力",
+        "hiragana": "どりょく",
+        "hanVietWord": "NỖ LỰC",
+        "meaning": {
+          "vi": "Sự nỗ lực",
+          "en": "Effort, exertion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "精一杯努力する",
+            "vi": "Nỗ lực hết sức",
+            "en": "Make every possible effort"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_179",
+    "character": "購",
+    "hanViet": "CẤU",
+    "onyomi": "コウ",
+    "mnemonic": "Dùng tiền (貝) mua đi bán lại (再) cái giếng (井)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_179_1",
+        "word": "購入",
+        "hiragana": "こうにゅう",
+        "hanVietWord": "CẤU NHẬP",
+        "meaning": {
+          "vi": "Sự mua, nhập hàng",
+          "en": "Purchase, buying"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "商品を大量に購入する",
+            "vi": "Mua hàng hóa với số lượng lớn",
+            "en": "Purchase products in large quantities"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_179_2",
+        "word": "購読",
+        "hiragana": "こうどく",
+        "hanVietWord": "CẤU ĐỘC",
+        "meaning": {
+          "vi": "Việc đặt mua, đăng ký theo dõi",
+          "en": "Subscription"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "Youtubeで好きなチャンネルを購読する",
+            "vi": "Đăng ký theo dõi kênh yêu thích trên Youtube",
+            "en": "Subscribe to a favorite channel on YouTube"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_180",
+    "character": "額",
+    "hanViet": "NGẠCH",
+    "kunyomi": "ひたい",
+    "onyomi": "ガク",
+    "mnemonic": "Nhận tiền (頁) từ khách (客) thì cúi đầu đến sứt cả trán (額)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_180_1",
+        "word": "額",
+        "hiragana": "ひたい",
+        "hanVietWord": "NGẠCH",
+        "meaning": {
+          "vi": "Cái trán",
+          "en": "Forehead"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "額からの汗が止まらない",
+            "vi": "Mồ hôi trên trán chảy không ngừng",
+            "en": "Sweat from the forehead doesn't stop"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_180_2",
+        "word": "金額",
+        "hiragana": "きんがく",
+        "hanVietWord": "KIM NGẠCH",
+        "meaning": {
+          "vi": "Số tiền",
+          "en": "Amount of money"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "被害の金額は2000万円にのぼる",
+            "vi": "Số tiền thiệt hại lên tới 20 triệu yên",
+            "en": "The amount of damage reached 20 million yen"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_180_3",
+        "word": "額",
+        "hiragana": "がく",
+        "hanVietWord": "NGẠCH",
+        "meaning": {
+          "vi": "Hạn mức, khoản tiền",
+          "en": "Amount, sum"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "買い物は予定していた額を上回った",
+            "vi": "Tiền mua sắm đã vượt quá hạn mức dự định",
+            "en": "Shopping exceeded the planned amount"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_180_4",
+        "word": "半額",
+        "hiragana": "はんがく",
+        "hanVietWord": "BÁN NGẠCH",
+        "meaning": {
+          "vi": "Nửa giá",
+          "en": "Half price"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今日は半額セールです!",
+            "vi": "Hôm nay là ngày giảm giá một nửa!",
+            "en": "Today is a half-price sale!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_181",
+    "character": "納",
+    "hanViet": "NẠP",
+    "kunyomi": "おさ-める, おさ-まる",
+    "onyomi": "ノウ, ナッ",
+    "mnemonic": "Vải vóc kim chỉ (糸) đều phải cống nạp (納) vào nội (内) cung",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_181_1",
+        "word": "納める",
+        "hiragana": "おさめる",
+        "hanVietWord": "NẠP",
+        "meaning": {
+          "vi": "Nộp, đóng (thuế), giao hàng",
+          "en": "To pay, to supply"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "国民は税金を納める",
+            "vi": "Người dân nộp thuế",
+            "en": "Citizens pay taxes"
+          },
+          {
+            "jp": "部品を期日までに納める≒納品する",
+            "vi": "Giao linh kiện đúng hạn ≒ Giao hàng",
+            "en": "Supply parts by the deadline ≒ Deliver goods"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_181_2",
+        "word": "納期",
+        "hiragana": "のうき",
+        "hanVietWord": "NẠP KÌ",
+        "meaning": {
+          "vi": "Thời hạn giao hàng",
+          "en": "Delivery date, deadline"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "納期を1日遅くしてもらう",
+            "vi": "Nhờ lùi hạn giao hàng lại 1 ngày",
+            "en": "Ask to have the delivery date delayed by one day"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_181_3",
+        "word": "納税",
+        "hiragana": "のうぜい",
+        "hanVietWord": "NẠP THUẾ",
+        "meaning": {
+          "vi": "Sự nộp thuế",
+          "en": "Payment of taxes"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "昔はお金の代わりに米を納税していた",
+            "vi": "Ngày xưa người ta nộp thuế bằng gạo thay vì tiền",
+            "en": "In the past, people paid taxes with rice instead of money"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_181_4",
+        "word": "納得",
+        "hiragana": "なっとく",
+        "hanVietWord": "NẠP ĐẮC",
+        "meaning": {
+          "vi": "Sự đồng ý, hiểu và chấp nhận",
+          "en": "Consent, understanding"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "課長はやっと納得してくれた",
+            "vi": "Cuối cùng thì trưởng phòng cũng hiểu/đồng ý cho",
+            "en": "The section manager finally understood/agreed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_182",
+    "character": "景",
+    "hanViet": "CẢNH",
+    "onyomi": "ケイ",
+    "mnemonic": "Cảnh (景) mặt trời (日) mọc ở kinh đô (京) rất đẹp",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_182_1",
+        "word": "夜景",
+        "hiragana": "やけい",
+        "hanVietWord": "DẠ CẢNH",
+        "meaning": {
+          "vi": "Cảnh đêm",
+          "en": "Night view"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "東京の夜景はとても綺麗だ",
+            "vi": "Cảnh đêm ở Tokyo rất đẹp",
+            "en": "The night view of Tokyo is very beautiful"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_182_2",
+        "word": "風景",
+        "hiragana": "ふうけい",
+        "hanVietWord": "PHONG CẢNH",
+        "meaning": {
+          "vi": "Phong cảnh",
+          "en": "Scenery, landscape"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "風景をゆっくり眺める",
+            "vi": "Thong thả ngắm phong cảnh",
+            "en": "Take time to gaze at the scenery"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_182_3",
+        "word": "景色",
+        "hiragana": "けしき",
+        "hanVietWord": "CẢNH SẮC",
+        "meaning": {
+          "vi": "Cảnh sắc, phong cảnh",
+          "en": "View, landscape"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ここから見える景色は最高だ",
+            "vi": "Cảnh sắc nhìn từ đây là tuyệt nhất",
+            "en": "The view from here is the best"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_182_4",
+        "word": "景気",
+        "hiragana": "けいき",
+        "hanVietWord": "CẢNH KHÍ",
+        "meaning": {
+          "vi": "Tình hình kinh tế",
+          "en": "Economy, business conditions"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "景気が回復し、企業の雇用も増えている",
+            "vi": "Kinh tế phục hồi nên lượng tuyển dụng của các công ty cũng tăng lên",
+            "en": "As the economy recovers, employment by companies is also increasing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_183",
+    "character": "資",
+    "hanViet": "TƯ",
+    "onyomi": "シ",
+    "mnemonic": "Tiền (貝) mà tăng sẽ thành vốn (資) tư bản",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_183_1",
+        "word": "資産",
+        "hiragana": "しさん",
+        "hanVietWord": "TƯ SẢN",
+        "meaning": {
+          "vi": "Tài sản",
+          "en": "Property, assets"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "不動産資産を持っている",
+            "vi": "Sở hữu tài sản bất động sản",
+            "en": "Own real estate assets"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_183_2",
+        "word": "資料",
+        "hiragana": "しりょう",
+        "hanVietWord": "TƯ LIỆU",
+        "meaning": {
+          "vi": "Tài liệu",
+          "en": "Materials, data"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "会議用の資料が足りないのであと3枚印刷してください",
+            "vi": "Tài liệu cho cuộc họp bị thiếu nên hãy in thêm 3 tờ nữa",
+            "en": "We don't have enough materials for the meeting, so please print 3 more copies"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_183_3",
+        "word": "資源",
+        "hiragana": "しげん",
+        "hanVietWord": "TƯ NGUYÊN",
+        "meaning": {
+          "vi": "Tài nguyên",
+          "en": "Resources"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "天然資源",
+            "vi": "Tài nguyên thiên nhiên",
+            "en": "Natural resources"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_183_4",
+        "word": "資本主義",
+        "hiragana": "しほんしゅぎ",
+        "hanVietWord": "TƯ BẢN CHỦ NGHĨA",
+        "meaning": {
+          "vi": "Chủ nghĩa tư bản",
+          "en": "Capitalism"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_13_183_5",
+        "word": "資格",
+        "hiragana": "しかく",
+        "hanVietWord": "TƯ CÁCH",
+        "meaning": {
+          "vi": "Bằng cấp, chứng chỉ, tư cách",
+          "en": "Qualifications, certification"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "医者の資格を取る",
+            "vi": "Lấy bằng bác sĩ",
+            "en": "Get a doctor's qualification"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_183_6",
+        "word": "資質",
+        "hiragana": "ししつ",
+        "hanVietWord": "TƯ CHẤT",
+        "meaning": {
+          "vi": "Tố chất",
+          "en": "Nature, disposition, qualities"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼は経営者として優れた資質を持っている",
+            "vi": "Anh ấy có tố chất xuất sắc của một nhà kinh doanh",
+            "en": "He has excellent qualities as a manager"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_184",
+    "character": "益",
+    "hanViet": "ÍCH",
+    "kunyomi": "ます",
+    "onyomi": "エキ",
+    "mnemonic": "Hai người hợp lực cùng mua cái bát (皿) vì cùng lợi ích (利益)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_184_1",
+        "word": "益々",
+        "hiragana": "ますます",
+        "hanVietWord": "ÍCH",
+        "meaning": {
+          "vi": "Ngày càng",
+          "en": "More and more"
+        },
+        "type": "adv",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "ベトナム経済は今後益々発展していくでしょ",
+            "vi": "Kinh tế Việt Nam từ nay về sau sẽ ngày càng phát triển nhỉ",
+            "en": "Vietnam's economy will continue to develop more and more from now on, won't it?"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_184_2",
+        "word": "利益率",
+        "hiragana": "りえきりつ",
+        "hanVietWord": "LỢI ÍCH SUẤT",
+        "meaning": {
+          "vi": "Tỷ suất lợi nhuận",
+          "en": "Profit margin"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "売り上げ額は低いが、利益率は高い",
+            "vi": "Doanh thu thấp nhưng tỷ suất lợi nhuận lại cao",
+            "en": "Sales amount is low, but the profit margin is high"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_13_184_3",
+        "word": "有益",
+        "hiragana": "ゆうえき",
+        "hanVietWord": "HỮU ÍCH",
+        "meaning": {
+          "vi": "Hữu ích, có ích",
+          "en": "Beneficial, useful"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "夏休みを有益に使う",
+            "vi": "Sử dụng kỳ nghỉ hè một cách hữu ích",
+            "en": "Spend the summer vacation beneficially"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_13_185",
+    "character": "株",
+    "hanViet": "CHU/CHÂU",
+    "kunyomi": "かぶ",
+    "mnemonic": "Cái cây (木) toàn là màu đỏ (朱) sẽ trở thành châu báu (株)",
+    "level": "N2",
+    "lesson": "Buổi 13",
+    "words": [
+      {
+        "id": "kw_rkn2_13_185_1",
+        "word": "株式会社",
+        "hiragana": "かぶしきがいしゃ",
+        "hanVietWord": "CHU THỨC HỘI XÃ",
+        "meaning": {
+          "vi": "Công ty cổ phần",
+          "en": "Joint-stock company, corporation"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_13_185_2",
+        "word": "株",
+        "hiragana": "かぶ",
+        "hanVietWord": "CHU",
+        "meaning": {
+          "vi": "Cổ phiếu",
+          "en": "Stock, share"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "A社の株を1000株買う",
+            "vi": "Mua 1000 cổ phiếu của công ty A",
+            "en": "Buy 1,000 shares of Company A"
+          }
+        ]
+      }
+    ]
+  }
+]

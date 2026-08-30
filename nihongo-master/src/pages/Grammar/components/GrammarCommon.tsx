@@ -1,12 +1,12 @@
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Info, X } from 'lucide-react';
-import { grammarN3Clean as grammarN3 } from '../../../data/grammarN3';
+import { grammarN3Clean as grammarN3 } from '../../../data/jlpt/n3/grammarN3';
 import {
   RANKS,
   LEVEL_EXP_THRESHOLDS,
 } from '../../../lib/rankSystem';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 // ── types ────────────────────────────────────────────────────────
 export type Level = 'easy' | 'normal' | 'hard';
@@ -184,8 +184,8 @@ export function buildQuestions(opts: { totalQ: number; language: string }): Unif
     matching: 1,
   };
 
-  const getMeaning = (g: typeof grammarN3[0]) => g.meaning[language as 'vi' | 'en'] || g.meaning.vi;
-  const getCaution = (g: typeof grammarN3[0]) => g.caution[language as 'vi' | 'en'] || g.caution.vi;
+  const getMeaning = (g: typeof grammarN3[0]) => typeof g.meaning === 'object' ? (g.meaning as any)[language as 'vi' | 'en'] || g.meaning.vi : g.meaning;
+  const getCaution = (g: typeof grammarN3[0]) => g.caution ? (typeof g.caution === 'object' ? (g.caution as any)[language as 'vi' | 'en'] || g.caution.vi : g.caution) : '';
 
   // Quiz
   for (let i = 0; i < dist.quiz && i < flatG.length; i++) {
@@ -203,7 +203,7 @@ export function buildQuestions(opts: { totalQ: number; language: string }): Unif
     const dir = Math.random() > 0.5 ? 's2m' : 'm2s';
     
     let exp = `Đáp án đúng:\n• ${g.structure}: ${meaning}`;
-    if (g.caution && g.caution.vi) exp += `\n  Lưu ý: ${g.caution.vi}`;
+    if (getCaution(g)) exp += `\n  Lưu ý: ${getCaution(g)}`;
 
     if (dir === 's2m') {
       const otherInfos: string[] = [];
@@ -246,7 +246,7 @@ export function buildQuestions(opts: { totalQ: number; language: string }): Unif
     const g = flatG[(i + dist.quiz) % flatG.length];
     const meaning = getMeaning(g);
     const dir = 's2m';
-    const exp = `Cấu trúc: ${g.structure}\nÝ nghĩa: ${g.meaning.vi}` + (g.caution && g.caution.vi ? `\nLưu ý: ${g.caution.vi}` : '');
+    const exp = `Cấu trúc: ${g.structure}\nÝ nghĩa: ${getMeaning(g)}` + (getCaution(g) ? `\nLưu ý: ${getCaution(g)}` : '');
     if (dir === 's2m') {
       qs.push({ id: `flash-${i}`, type: 'flashcard', front: g.structure, frontSub: g.structureKana !== g.structure ? g.structureKana : undefined, back: meaning, explanation: exp });
     } else {
@@ -261,7 +261,7 @@ export function buildQuestions(opts: { totalQ: number; language: string }): Unif
     const sentenceData = makeWrongSentence(g, ex);
     if (sentenceData) {
       const cleanKana = ex.kana ? ex.kana.replace(/\[([^\]]+)\]/g, '$1') : undefined;
-      let exp = `Cấu trúc đúng:\n• ${g.structure}: ${g.meaning.vi}\nDịch câu đúng: ${ex.vi}`;
+      let exp = `Cấu trúc đúng:\n• ${g.structure}: ${getMeaning(g)}\nDịch câu đúng: ${ex.vi}`;
       if (getCaution(g)) exp += `\n  Lưu ý: ${getCaution(g)}`;
       if (Math.random() > 0.5) {
         // isCorrect = true

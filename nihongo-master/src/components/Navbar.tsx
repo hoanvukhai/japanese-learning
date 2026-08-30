@@ -1,26 +1,27 @@
-// src/components/Navbar.tsx
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import { Home, Book, Gamepad2, Settings, GraduationCap, Menu, X } from 'lucide-react';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { Home, Book, Gamepad2, Settings, Brain, Menu, X, LogIn, Trophy, Library, Compass, UserCircle } from 'lucide-react';
 import { useSettings } from '../context/global/useSettings';
+import { useAuth } from '../context/auth/useAuth';
 import { motion, AnimatePresence } from 'framer-motion';
+import UserMenu from './auth/UserMenu';
 
 export default function Navbar() {
   const { language } = useSettings();
+  const { user } = useAuth();
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const t = {
-    vi: { home: 'Trang chủ', dict: 'Từ điển', study: 'Học tập', practice: 'Luyện tập', settings: 'Cài đặt' },
-    en: { home: 'Home', dict: 'Dictionary', study: 'Study', practice: 'Practice', settings: 'Settings' }
+    vi: { myCourses: 'Của tôi', explore: 'Khám phá', settings: 'Cài đặt', login: 'Đăng nhập', profile: 'Hồ sơ' },
+    en: { myCourses: 'My Courses', explore: 'Explore', settings: 'Settings', login: 'Login', profile: 'Profile' }
   }[language];
 
   const links = [
-    { to: '/', end: true, icon: Home, label: t.home },
-    { to: '/dictionary', end: false, icon: Book, label: t.dict },
-    { to: '/study', end: false, icon: GraduationCap, label: t.study },
-    { to: '/practice', end: false, icon: Gamepad2, label: t.practice },
-    { to: '/settings', end: false, icon: Settings, label: t.settings },
+    { to: '/', end: true, icon: Library, label: t.myCourses },
+    { to: '/explore', end: false, icon: Compass, label: t.explore },
   ];
+
 
   // Desktop link style
   const desktopNavClass = ({ isActive }: { isActive: boolean }) =>
@@ -42,7 +43,10 @@ export default function Navbar() {
         <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
 
           {/* Logo */}
-          <div className="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-2 transition-colors flex-shrink-0">
+          <div
+            onClick={() => navigate('/')}
+            className="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-2 transition-colors flex-shrink-0 cursor-pointer"
+          >
             <span className="text-blue-600 text-xl font-black">あ</span>
             <span className="hidden sm:inline">Nihongo Master</span>
             <span className="sm:hidden">NM</span>
@@ -55,10 +59,24 @@ export default function Navbar() {
               return (
                 <NavLink key={link.to} to={link.to} end={link.end} className={desktopNavClass} onClick={() => setMenuOpen(false)}>
                   <Icon size={16} />
-                  <span className="hidden md:inline">{link.label}</span>
+                  <span>{link.label}</span>
                 </NavLink>
               );
             })}
+            {/* Settings & Auth area */}
+            <div className="ml-2 pl-2 border-l border-slate-200 dark:border-slate-600 flex items-center gap-2">
+              {user ? (
+                <UserMenu />
+              ) : (
+                <button
+                  onClick={() => navigate('/login')}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-indigo-500 text-white hover:bg-indigo-600 transition-colors"
+                >
+                  <LogIn size={14} />
+                  <span className="hidden md:inline">{t.login}</span>
+                </button>
+              )}
+            </div>
           </div>
 
           {/* Mobile hamburger */}
@@ -126,6 +144,25 @@ export default function Navbar() {
                     </NavLink>
                   );
                 })}
+
+                {user && (
+                  <>
+                    <div className="w-full h-px bg-slate-100 dark:bg-slate-700 my-2" />
+                    <NavLink to="/profile" className={mobileNavClass} onClick={() => setMenuOpen(false)}>
+                      <UserCircle size={20} />
+                      {t.profile}
+                    </NavLink>
+                    <NavLink to="/settings" className={mobileNavClass} onClick={() => setMenuOpen(false)}>
+                      <Settings size={20} />
+                      {t.settings}
+                    </NavLink>
+                  </>
+                )}
+                {!user && (
+                  <button onClick={() => { setMenuOpen(false); navigate('/login'); }} className="flex items-center justify-center gap-2 mt-4 px-4 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-colors">
+                    <LogIn size={20} /> {t.login}
+                  </button>
+                )}
               </nav>
 
               {/* Drawer footer */}

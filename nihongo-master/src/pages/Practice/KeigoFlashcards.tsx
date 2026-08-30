@@ -5,16 +5,18 @@ import {
   ArrowLeft, Volume2, RotateCcw, ChevronRight, ChevronLeft,
   Shuffle, Settings2, BookOpen, Crown, Heart, Star,
 } from 'lucide-react';
-import { keigoVerbs } from '../../data/keigoDb';
+import { keigoVerbs } from '../../data/jlpt/keigo/keigoDb';
 import type { KeigoVerb } from '../../types/keigo';
+import { keigoVocabList } from '../../data/jlpt/keigo/keigoVocabDb';
+import type { KeigoVocab } from '../../data/jlpt/keigo/keigoVocabDb';
 import { getKeigoResult } from '../../lib/keigoEngine';
 import { useSettings } from '../../context/global/useSettings';
 
 // ── Helpers ──────────────────────────────────────────────────
 const shuffle = <T,>(arr: T[]): T[] => [...arr].sort(() => Math.random() - 0.5);
 
-type KeigoFormSetting = 'all' | 'sonkei' | 'kenjou' | 'teinei';
-type FormType = 'base' | 'sonkei' | 'kenjou' | 'teinei';
+type KeigoFormSetting = 'all' | 'sonkei' | 'kenjou' | 'teinei' | 'bikago';
+type FormType = 'base' | 'sonkei' | 'kenjou' | 'teinei' | 'bikago';
 
 const FORM_META: Record<FormType, { label: string; labelEn: string; color: string; icon: React.ReactNode }> = {
   base: {
@@ -41,14 +43,18 @@ const FORM_META: Record<FormType, { label: string; labelEn: string; color: strin
     color: 'from-emerald-500 to-teal-600',
     icon: <Star size={16} className="text-emerald-300" />,
   },
+  bikago: {
+    label: '美化語 (Mỹ hóa ngữ お/ご)',
+    labelEn: '美化語 (Bikago)',
+    color: 'from-amber-500 to-orange-600',
+    icon: <Star size={16} className="text-amber-300" />,
+  }
 };
 
 // ── Keigo Card Component ──────────────────────────────────────
-interface FlashcardEntry {
-  verb: KeigoVerb;
-  sourceForm: FormType;
-  targetForm: FormType;
-}
+type FlashcardEntry = 
+  | { type: 'verb'; verb: KeigoVerb; sourceForm: FormType; targetForm: FormType }
+  | { type: 'vocab'; vocab: KeigoVocab; };
 
 interface KeigoCardProps {
   entry: FlashcardEntry;
@@ -58,21 +64,23 @@ interface KeigoCardProps {
 }
 
 function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
-  const { verb, sourceForm, targetForm } = entry;
   const [isRevealed, setIsRevealed] = useState(false);
 
   useEffect(() => { setIsRevealed(false); }, [entry]);
   
-  const getWordText = (form: FormType): string => {
+  const isVerb = entry.type === 'verb';
+  
+  const getWordText = (verb: KeigoVerb, form: FormType): string => {
     if (form === 'base') return verb.kanji;
-    const res = getKeigoResult(verb, form, 'masu');
+    if (form === 'bikago') return '';
+    const res = getKeigoResult(verb, form as any, 'masu');
     return res[0] === '(なし)' ? '(không có)' : res.join(' / ');
   };
   
-  const sourceText = getWordText(sourceForm);
-  const targetText = getWordText(targetForm);
-  const sourceMeta = FORM_META[sourceForm];
-  const targetMeta = FORM_META[targetForm];
+  const sourceText = isVerb ? getWordText(entry.verb, entry.sourceForm) : entry.vocab.word;
+  const targetText = isVerb ? getWordText(entry.verb, entry.targetForm) : `${entry.vocab.prefix === 'o' ? 'お' : 'ご'}${entry.vocab.word}`;
+  const sourceMeta = isVerb ? FORM_META[entry.sourceForm] : FORM_META['base'];
+  const targetMeta = isVerb ? FORM_META[entry.targetForm] : FORM_META['bikago'];
 
   const playAudio = useCallback((e: React.MouseEvent, text: string) => {
     e.stopPropagation();
@@ -135,13 +143,13 @@ function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
           {/* Main word */}
           <div className="flex flex-col items-center justify-center flex-1 gap-3 py-4">
             <span className="text-slate-400 dark:text-slate-500 text-sm font-medium">
-              {sourceForm === 'base' ? verb.hiragana : ''}
+              {isVerb ? (entry.sourceForm === 'base' ? entry.verb.hiragana : '') : entry.vocab.hiragana}
             </span>
             <h2 className="text-4xl sm:text-5xl font-bold text-slate-800 dark:text-white text-center leading-tight break-all px-2">
               {sourceText}
             </h2>
             <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 text-center">
-              {language === 'en' ? verb.meaning.en : verb.meaning.vi}
+              {language === 'en' ? (isVerb ? entry.verb.meaning.en : entry.vocab.meaning.en) : (isVerb ? entry.verb.meaning.vi : entry.vocab.meaning.vi)}
             </div>
           </div>
 
@@ -164,7 +172,7 @@ function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
                 {language === 'en' ? targetMeta.labelEn : targetMeta.label}
               </span>
               <span className="text-white text-base font-bold">
-                Từ gốc: {verb.kanji} ({language === 'en' ? verb.meaning.en : verb.meaning.vi})
+                Từ gốc: {isVerb ? entry.verb.kanji : entry.vocab.word} ({language === 'en' ? (isVerb ? entry.verb.meaning.en : entry.vocab.meaning.en) : (isVerb ? entry.verb.meaning.vi : entry.vocab.meaning.vi)})
               </span>
             </div>
             <button
@@ -180,20 +188,33 @@ function KeigoCard({ entry, isFlipped, language, onFlip }: KeigoCardProps) {
             <div className="text-3xl sm:text-4xl font-bold text-yellow-300 text-center leading-tight break-all px-2">
               {targetText}
             </div>
-            {targetForm !== 'base' && (
+            {isVerb && entry.targetForm !== 'base' && entry.targetForm !== 'bikago' && (
               <div className="px-3 py-1 rounded-full bg-white/20 text-white/90 text-xs font-bold">
-                {verb[targetForm].type === 'special'
+                {(entry.verb as any)[entry.targetForm].type === 'special'
                   ? (language === 'en' ? '⚡ Special form' : '⚡ Từ đặc biệt')
+                  : (language === 'en' ? '📐 Rule-based' : '📐 Theo quy tắc')}
+              </div>
+            )}
+            {!isVerb && (
+              <div className="px-3 py-1 rounded-full bg-white/20 text-white/90 text-xs font-bold">
+                {entry.vocab.isException
+                  ? (language === 'en' ? '⚡ Exception' : '⚡ Ngoại lệ')
                   : (language === 'en' ? '📐 Rule-based' : '📐 Theo quy tắc')}
               </div>
             )}
           </div>
 
           {/* Note */}
-          {verb.note && (
+          {isVerb && entry.verb.note && (
             <div className="bg-white/10 rounded-xl p-3 text-white/80 text-xs leading-relaxed mt-2">
               <BookOpen size={12} className="inline mr-1 opacity-70" />
-              {language === 'en' ? verb.note.en : verb.note.vi}
+              {language === 'en' ? entry.verb.note.en : entry.verb.note.vi}
+            </div>
+          )}
+          {!isVerb && entry.vocab.note && (
+            <div className="bg-white/10 rounded-xl p-3 text-white/80 text-xs leading-relaxed mt-2">
+              <BookOpen size={12} className="inline mr-1 opacity-70" />
+              {language === 'en' ? entry.vocab.note.en : entry.vocab.note.vi}
             </div>
           )}
         </div>
@@ -221,29 +242,36 @@ export default function KeigoFlashcards() {
   const buildQueue = useCallback(() => {
     const entries: FlashcardEntry[] = [];
     
-    keigoVerbs.forEach(verb => {
-      const forms: FormType[] = ['base'];
-      if (verb.sonkei.type !== 'none') forms.push('sonkei');
-      if (verb.kenjou.type !== 'none') forms.push('kenjou');
-      if (verb.teinei.type === 'special') forms.push('teinei');
+    if (formSetting !== 'bikago') {
+      keigoVerbs.forEach(verb => {
+        const forms: FormType[] = ['base'];
+        if (verb.sonkei.type !== 'none') forms.push('sonkei');
+        if (verb.kenjou.type !== 'none') forms.push('kenjou');
+        if (verb.teinei.type === 'special') forms.push('teinei');
 
-      // Tạo các cặp Hỏi chéo
-      for (const s of forms) {
-        for (const t of forms) {
-          if (s === t) continue;
-          
-          // Tránh hỏi Base -> Teinei và ngược lại nếu muốn giới hạn (nhưng vì chỉ đưa Teinei 'special' vào mảng forms nên Base -> Teinei đặc biệt vẫn được hỏi, rất tốt!)
-          
-          // Lọc theo formSetting
-          if (formSetting !== 'all') {
-             // Nếu user chọn 1 form cụ thể, thì targetForm hoặc sourceForm phải liên quan
-             if (s !== formSetting && t !== formSetting) continue;
+        // Tạo các cặp Hỏi chéo
+        for (const s of forms) {
+          for (const t of forms) {
+            if (s === t) continue;
+            
+            // Lọc theo formSetting
+            if (formSetting !== 'all') {
+               // Nếu user chọn 1 form cụ thể, thì targetForm hoặc sourceForm phải liên quan
+               if (s !== formSetting && t !== formSetting) continue;
+            }
+
+            entries.push({ type: 'verb', verb, sourceForm: s, targetForm: t });
           }
-
-          entries.push({ verb, sourceForm: s, targetForm: t });
         }
-      }
-    });
+      });
+    }
+
+    if (formSetting === 'all' || formSetting === 'bikago') {
+      keigoVocabList.forEach(vocab => {
+        entries.push({ type: 'vocab', vocab });
+      });
+    }
+
     setQueue(shuffle(entries));
     setIndex(0);
     setIsFlipped(false);
@@ -300,7 +328,7 @@ export default function KeigoFlashcards() {
       <header className="px-4 md:px-8 py-5 flex items-center justify-between border-b border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md sticky top-0 z-10">
         <div className="flex items-center gap-4">
           <button
-            onClick={() => navigate('/practice/keigo')}
+            onClick={() => navigate('/course/keigo-master/practice')}
             className="p-2 -ml-2 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white transition-colors rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"
           >
             <ArrowLeft size={20} />
@@ -340,14 +368,15 @@ export default function KeigoFlashcards() {
               <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-3 uppercase tracking-wider">
                 {language === 'en' ? 'Card Focus' : 'Tập trung học'}
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                {(['all', 'sonkei', 'kenjou', 'teinei'] as KeigoFormSetting[]).map(s => {
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+                {(['all', 'sonkei', 'kenjou', 'teinei', 'bikago'] as KeigoFormSetting[]).map(s => {
                   const active = formSetting === s;
                   const labels = {
                     all: language === 'en' ? 'Mix All' : 'Trộn tất cả',
                     sonkei: language === 'en' ? 'Sonkei' : 'Tôn kính',
                     kenjou: language === 'en' ? 'Kenjou' : 'Khiêm nhường',
                     teinei: language === 'en' ? 'Teinei (Special)' : 'Lịch sự (ĐB)',
+                    bikago: language === 'en' ? 'O/Go Prefix' : 'Mỹ hóa ngữ (お/ご)',
                   };
                   return (
                     <button

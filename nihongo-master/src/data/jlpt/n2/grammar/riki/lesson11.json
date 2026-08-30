@@ -1,0 +1,303 @@
+[
+  {
+    "id": "g_rkn2_11_01",
+    "level": "N2",
+    "structure": "〜はともかく / 〜ならともかく",
+    "structureKana": "〜はともかく / 〜ならともかく",
+    "meaning": {
+      "vi": "Khoan bàn đến / Khoan hãy nói tới...",
+      "en": "Setting aside... / Let alone..."
+    },
+    "formation": [
+      "N + はともかく",
+      "N / Thể thông thường + ならともかく"
+    ],
+    "lesson": "Bài 11",
+    "group": "Postponement_Priority",
+    "confusedWith": [
+      "〜はさておき"
+    ],
+    "caution": {
+      "vi": "Biểu thị ý: Tạm thời khoan hãy nghĩ/xét đến việc A (để sang một bên), điều quan trọng hơn muốn nhấn mạnh ở đây là việc B (nằm ở vế sau).",
+      "en": "Expresses the idea: Let's temporarily set aside thinking about or considering A; the more important thing to emphasize here is B (in the following clause)."
+    },
+    "examples": [
+      {
+        "jp": "試合の内容[はともかく]、結果的に勝ててよかった。",
+        "kana": "しあいのないよう[はともかく]、けっかてきにかててよかった。",
+        "vi": "[Khoan bàn đến] nội dung trận đấu, kết quả là thắng được thì thật là tốt rồi.",
+        "en": "[Setting aside] the content of the match, I'm glad we ended up winning."
+      },
+      {
+        "jp": "行くか行かないか[はともかく]、まず飛行機の予約は今日中にしておこう。",
+        "kana": "いくかいかないか[はともかく]、まずひこうきのよやくはきょうじゅうにしておこう。",
+        "vi": "[Chưa bàn đến] việc có đi hay không, trước mắt cứ đặt vé máy bay trong hôm nay cái đã.",
+        "en": "[Regardless of whether] we go or not, let's at least book the flight by today."
+      },
+      {
+        "jp": "これってさ、見た目[はともかく]ね、味は最高だよ。",
+        "kana": "これってさ、みため[はともかく]ね、あじはさいこうだよ。",
+        "vi": "Cái này thì, [khoan bàn đến] vẻ bề ngoài nhé, hương vị là tuyệt đỉnh đấy.",
+        "en": "For this thing, [setting aside] its appearance, the taste is the best."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_11_02",
+    "level": "N2",
+    "structure": "〜はもちろん / 〜はもとより",
+    "structureKana": "〜はもちろん / 〜はもとより",
+    "meaning": {
+      "vi": "A là tất nhiên rồi, nhưng B cũng...",
+      "en": "Not to mention A, but also B... / A is a matter of course, and B as well..."
+    },
+    "formation": [
+      "N + はもちろん",
+      "N + はもとより"
+    ],
+    "lesson": "Bài 11",
+    "group": "Addition_Obvious",
+    "confusedWith": [
+      "〜ばかりか"
+    ],
+    "caution": {
+      "vi": "Đưa ra một điều hiển nhiên/đương nhiên trước, sau đó bổ sung thêm một điều khác (A là đương nhiên không cần bàn cãi, thêm vào đó B cũng vậy). 'はもとより' là cách nói trang trọng (văn viết) của 'はもちろん'.",
+      "en": "Presents an obvious or expected thing first, then adds another thing (A is naturally beyond question, and in addition B is also true). 'はもとより' is a formal/written version of 'はもちろん'."
+    },
+    "examples": [
+      {
+        "jp": "ホアンキエムは土日[はもちろん]、平日も人が多い。",
+        "kana": "ホアンキエムはどにち[はもちろん]、へいじつもひとがおおい。",
+        "vi": "Hồ Hoàn Kiếm [đương nhiên là] thứ 7 chủ nhật đông rồi, mà ngày thường người cũng đông.",
+        "en": "Hoan Kiem lake is crowded on weekdays, [not to mention] weekends."
+      },
+      {
+        "jp": "病院の中[はもとより]、病院の近くも禁煙です。",
+        "kana": "びょういんのなか[はもとより]、びょういんのちかくもきんえんです。",
+        "vi": "Bên trong bệnh viện [là đương nhiên rồi], khu vực gần bệnh viện cũng cấm hút thuốc.",
+        "en": "Smoking is prohibited near the hospital, [not to mention] inside it."
+      },
+      {
+        "jp": "ワンピースは国内[はもとより]、世界中から愛されてるアニメだ。",
+        "kana": "ワンピースはこくない[はもとより]、せかいじゅうからあいされてるアニメだ。",
+        "vi": "One Piece là bộ anime được yêu thích trên toàn thế giới, [chứ không riêng gì] ở trong nước.",
+        "en": "One Piece is an anime loved around the world, [not to mention] domestically."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_11_03",
+    "level": "N2",
+    "structure": "〜まい",
+    "structureKana": "〜まい",
+    "meaning": {
+      "vi": "Nhất quyết không / Chắc là không...",
+      "en": "Will absolutely not... / Probably will not..."
+    },
+    "formation": [
+      "Vる + まい"
+    ],
+    "lesson": "Bài 11",
+    "group": "Strong_Denial_Volition",
+    "confusedWith": [
+      "〜ないだろう",
+      "〜ないつもりだ"
+    ],
+    "caution": {
+      "vi": "Có hai nghĩa: 1. 'Tuyệt đối không...': Quyết tâm cá nhân mạnh mẽ (tự nhủ). 2. 'Chắc là không...': Phủ định phỏng đoán (văn viết). Chú ý động từ nhóm 3 chia thành: するまい / すまい, くるまい / こまい.",
+      "en": "Has two meanings: 1. 'Absolutely will not...': Strong personal determination. 2. 'Probably will not...': Negative conjecture (written form). Note Group 3 verbs become: するまい/すまい, くるまい/こまい."
+    },
+    "examples": [
+      {
+        "jp": "2度とあの人には頼む[まい]。",
+        "kana": "にどとあのひとにはたのむ[まい]。",
+        "vi": "Tôi quyết [nhất định không] nhờ vả con người đó lần thứ hai.",
+        "en": "I am determined [never to] ask that person for a favor again."
+      },
+      {
+        "jp": "この病気は治る[まい]。",
+        "kana": "このびょうきはなおる[まい]。",
+        "vi": "Căn bệnh này [chắc là sẽ không] chữa khỏi được đâu.",
+        "en": "This illness [will probably not] be cured."
+      },
+      {
+        "jp": "親に経済的な負担をかけ[まい]と決めてアルバイトで生活費を稼いだ。",
+        "kana": "おやにけいざいてきなふたんをかけ[まい]ときめてアルバイトでせいかつひをかせいだ。",
+        "vi": "Tôi quyết định [sẽ không] để tạo gánh nặng kinh tế cho bố mẹ và đã đi làm thêm kiếm tiền sinh hoạt.",
+        "en": "I decided [not to] place a financial burden on my parents, so I earned my living expenses through a part-time job."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_11_04",
+    "level": "N2",
+    "structure": "〜ものの",
+    "structureKana": "〜ものの",
+    "meaning": {
+      "vi": "Tuy... nhưng...",
+      "en": "Although... / Even though..."
+    },
+    "formation": [
+      "Thể thông thường + ものの",
+      "Aな + なものの",
+      "N + であるものの"
+    ],
+    "lesson": "Bài 11",
+    "group": "Contrast",
+    "confusedWith": [
+      "〜とはいえ",
+      "〜けれども"
+    ],
+    "caution": {
+      "vi": "Sự thật ở vế trước là đúng, nhưng kết quả/trạng thái ở vế sau lại không theo đúng như kỳ vọng (thường mang lại kết quả đáng tiếc, không tốt). Là văn viết, dùng trong các tình huống trang trọng.",
+      "en": "The fact in the preceding clause is true, but the resulting state in the following clause does not meet expectations (often resulting in an unfortunate or bad outcome). Written style, used in formal situations."
+    },
+    "examples": [
+      {
+        "jp": "行くとは言った[ものの]、面倒なのであまり乗り気ではない。",
+        "kana": "いくとはいった[ものの]、めんどうなのであまりのりきではない。",
+        "vi": "[Tuy] đã nói là sẽ đi [nhưng] thấy phiền quá nên tôi không hứng thú lắm.",
+        "en": "[Although] I said I would go, it's a hassle so I'm not very enthusiastic about it."
+      },
+      {
+        "jp": "良い材料をもらったとはいう[ものの]、料理の道具がない。",
+        "kana": "よいざいりょうをもらったとはいう[ものの]、りょうりのどうぐがない。",
+        "vi": "Mang tiếng là nhận được nguyên liệu tốt [tuy nhiên] lại không có dụng cụ nấu ăn.",
+        "en": "[Even though] they say I received good ingredients, I have no cooking tools."
+      },
+      {
+        "jp": "一度見た[ものの]まったくわからなかった。",
+        "kana": "いちどみた[ものの]まったくわからなかった。",
+        "vi": "[Mặc dù] đã xem một lần [nhưng] hoàn toàn không hiểu gì cả.",
+        "en": "[Although] I saw it once, I didn't understand it at all."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_11_05",
+    "level": "N2",
+    "structure": "〜にしろ / 〜にせよ",
+    "structureKana": "〜にしろ / 〜にせよ",
+    "meaning": {
+      "vi": "Cho dù là / Dù là A hay B thì cũng...",
+      "en": "Even if... / Whether it's A or B..."
+    },
+    "formation": [
+      "Thể thông thường + にしろ / にせよ",
+      "A にしろ B にしろ"
+    ],
+    "lesson": "Bài 11",
+    "group": "Condition_Regardless",
+    "confusedWith": [
+      "〜にしても"
+    ],
+    "caution": {
+      "vi": "1. 'Cho dù có...': tương tự にしても nhưng mang tính văn viết. 2. 'Dù là A hay là B': Cái nào cũng được, kết quả đều như nhau. Thường đi với các cặp đối lập (行く/行かない, 好き/嫌い, v.v.).",
+      "en": "1. 'Even if...': Similar to にしても but more written. 2. 'Whether it's A or B': Either one is fine, the result is the same. Often used with contrasting pairs (go/not go, like/dislike, etc.)."
+    },
+    "examples": [
+      {
+        "jp": "明日、行く[にしろ]行かない[にしろ]、連絡をください。",
+        "kana": "あした、いく[にしろ]いかない[にしろ]、れんらくをください。",
+        "vi": "Ngày mai, [dù là] đi [hay] không đi thì cũng hãy liên lạc cho tôi nhé.",
+        "en": "Tomorrow, [whether] you go [or] not, please contact me."
+      },
+      {
+        "jp": "参加する[にせよ]、しない[にせよ]、とりあえず連絡を下さい。",
+        "kana": "さんかする[にせよ]、しない[にせよ]、とりあえずれんらくをください。",
+        "vi": "[Dù là] có tham gia [hay] không thì trước mắt cũng hãy liên lạc đi.",
+        "en": "[Whether] you participate [or] not, please let me know for now."
+      },
+      {
+        "jp": "どんな人間に[しろ]長所も短所もある。",
+        "kana": "どんなにんげんに[しろ]ちょうしょもたんしょもある。",
+        "vi": "[Cho dù là] người như thế nào đi nữa thì cũng có ưu và nhược điểm.",
+        "en": "[Even if] it's any kind of person, everyone has strengths and weaknesses."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_11_06",
+    "level": "N2",
+    "structure": "〜わけにはいかない",
+    "structureKana": "〜わけにはいかない",
+    "meaning": {
+      "vi": "Không thể (vì lý do đạo đức, trách nhiệm)...",
+      "en": "Cannot (for moral or social reasons)... / Must not..."
+    },
+    "formation": [
+      "Vる + わけにはいかない"
+    ],
+    "lesson": "Bài 11",
+    "group": "Social_Impossibility",
+    "confusedWith": [
+      "〜できない"
+    ],
+    "caution": {
+      "vi": "Bản thân có khả năng làm được, nhưng vì trái với đạo đức, lương tâm, quy tắc xã hội, trách nhiệm, hay lẽ thường nên 'không thể' làm được.",
+      "en": "One has the physical ability to do it, but because it goes against morals, conscience, social rules, responsibility, or common sense, one 'cannot' do it."
+    },
+    "examples": [
+      {
+        "jp": "隣の部屋で今赤ちゃんが寝ているので、ピアノを弾く[わけにはいきません]。",
+        "kana": "となりのへやでいまあかちゃんがねているので、ピアノをひく[わけにはいきません]。",
+        "vi": "Vì em bé ở phòng bên cạnh đang ngủ nên tôi [không thể] đánh đàn piano được.",
+        "en": "Because a baby is sleeping in the next room right now, I [cannot] play the piano."
+      },
+      {
+        "jp": "この仕事をやりかけのまま、帰る[わけにはいかない]。",
+        "kana": "このしごとをやりかけのまま、かえる[わけにはいかない]。",
+        "vi": "Công việc đang làm dở thế này, tôi [không thể] cứ thế mà đi về được.",
+        "en": "I [cannot] just go home leaving this work half-done."
+      },
+      {
+        "jp": "車で来たから、お酒を飲む[わけにはいかない]ね。",
+        "kana": "くるまできたから、おさけをのむ[わけにはいかない]ね。",
+        "vi": "Vì tôi lái xe ô tô đến đây nên tôi [không thể] uống rượu được.",
+        "en": "Since I came by car, I [cannot] drink alcohol."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_11_07",
+    "level": "N2",
+    "structure": "〜ないわけにはいかない",
+    "structureKana": "〜ないわけにはいかない",
+    "meaning": {
+      "vi": "Không thể không / Buộc phải...",
+      "en": "Must... / Have no choice but to..."
+    },
+    "formation": [
+      "Vない + わけにはいかない"
+    ],
+    "lesson": "Bài 11",
+    "group": "Social_Obligation",
+    "confusedWith": [
+      "〜なければならない"
+    ],
+    "caution": {
+      "vi": "Phủ định kép mang nghĩa khẳng định mạnh. Thực tâm không muốn làm nhưng vì trách nhiệm, đạo lý, hoàn cảnh nên 'bắt buộc phải làm / không thể không làm'.",
+      "en": "Double negation carrying a strong affirmative meaning. You don't really want to do it, but due to responsibility, morality, or circumstances, you 'must do it / cannot not do it'."
+    },
+    "examples": [
+      {
+        "jp": "今日は体調が悪いが、上司から「お酒を飲め」と言われると、飲ま[ないわけにはいかない]。",
+        "kana": "きょうはたいちょうがわるいが、じょうしから「おさけをのめ」といわれると、のま[ないわけにはいかない]。",
+        "vi": "Hôm nay thấy trong người không khỏe, nhưng bị sếp bảo 'Uống đi' thì [không thể không] uống.",
+        "en": "I feel sick today, but when my boss tells me to drink, I [have no choice but to] drink."
+      },
+      {
+        "jp": "厳しい先生だから、宿題をやら[ないわけにはいかない]。",
+        "kana": "きびしいせんせいだから、しゅくだいをやら[ないわけにはいかない]。",
+        "vi": "Thầy giáo nghiêm khắc lắm nên [không thể không] làm bài tập được.",
+        "en": "Because the teacher is strict, I [must] do my homework."
+      },
+      {
+        "jp": "明日は試験だから、寝坊する[わけにはいかない]。",
+        "kana": "あしたはしけんだから、ねぼうする[わけにはいかない]。",
+        "vi": "Ngày mai là kỳ thi rồi nên [không thể] ngủ quên được (Đây là ví dụ của わけにはいかない, nhưng thường được xếp chung thành 1 bài luyện tập).",
+        "en": "Tomorrow is the exam, so I [cannot] oversleep."
+      }
+    ]
+  }
+]

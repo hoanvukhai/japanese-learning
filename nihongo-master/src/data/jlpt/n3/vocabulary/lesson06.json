@@ -1,0 +1,763 @@
+[
+  {
+    "id": "v_mon3_06_511",
+    "kanji": "クラスメート",
+    "hiragana": "クラスメート",
+    "meaning": {
+      "vi": "bạn cùng lớp",
+      "en": "classmate"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "クラスメートと一緒に宿題をする。",
+        "vi": "Làm bài tập cùng với bạn cùng lớp.",
+        "en": "Do homework with a classmate."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_512",
+    "kanji": "グループ",
+    "hiragana": "グループ",
+    "meaning": {
+      "vi": "nhóm",
+      "en": "group"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "３人のグループに分かれて話し合う。",
+        "vi": "Chia thành các nhóm 3 người và thảo luận.",
+        "en": "Divide into groups of three and discuss."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_513",
+    "kanji": "チーム",
+    "hiragana": "チーム",
+    "meaning": {
+      "vi": "đội",
+      "en": "team"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "私たちのチームが試合に勝った。",
+        "vi": "Đội của chúng tôi đã thắng trận đấu.",
+        "en": "Our team won the game."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_514",
+    "kanji": "プロフェッショナル",
+    "hiragana": "プロフェッショナル",
+    "meaning": {
+      "vi": "chuyên nghiệp",
+      "en": "professional"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "彼はプロフェッショナルなカメラマンだ。",
+        "vi": "Anh ấy là một thợ chụp ảnh chuyên nghiệp.",
+        "en": "He is a professional photographer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_515",
+    "kanji": "アマチュア",
+    "hiragana": "アマチュア",
+    "meaning": {
+      "vi": "nghiệp dư",
+      "en": "amateur"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "この大会はアマチュアの選手も参加できる。",
+        "vi": "Giải đấu này các tuyển thủ nghiệp dư cũng có thể tham gia.",
+        "en": "Amateur players can also participate in this tournament."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_516",
+    "kanji": "トレーニング",
+    "hiragana": "トレーニング",
+    "meaning": {
+      "vi": "đào tạo, tập huấn",
+      "en": "training"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "毎日ジムでトレーニングをしている。",
+        "vi": "Mỗi ngày tôi đều tập huấn/luyện tập ở phòng gym.",
+        "en": "I train at the gym every day."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_517",
+    "kanji": "マッサージ",
+    "hiragana": "マッサージ",
+    "meaning": {
+      "vi": "mát xa",
+      "en": "massage"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "疲れたので、マッサージに行きたい。",
+        "vi": "Mệt quá nên tôi muốn đi mát xa.",
+        "en": "I'm tired, so I want to go for a massage."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_518",
+    "kanji": "アドバイス",
+    "hiragana": "アドバイス",
+    "meaning": {
+      "vi": "lời khuyên",
+      "en": "advice"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "先輩からいいアドバイスをもらった。",
+        "vi": "Tôi đã nhận được một lời khuyên hay từ tiền bối.",
+        "en": "I got good advice from my senior."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_519",
+    "kanji": "アイデア",
+    "alt_kanji": "アイディア",
+    "hiragana": "アイデア",
+    "meaning": {
+      "vi": "ý tưởng",
+      "en": "idea"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "新しい商品のアイデアを考える。",
+        "vi": "Suy nghĩ ý tưởng cho sản phẩm mới.",
+        "en": "Think of an idea for a new product."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_520",
+    "kanji": "トップ",
+    "hiragana": "トップ",
+    "meaning": {
+      "vi": "top, đứng đầu",
+      "en": "top"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "彼はクラスでトップの成績だ。",
+        "vi": "Cậu ấy có thành tích đứng đầu lớp.",
+        "en": "He has the top grades in the class."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_521",
+    "kanji": "スピード",
+    "hiragana": "スピード",
+    "meaning": {
+      "vi": "tốc độ",
+      "en": "speed"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "車のスピードを出しすぎるのは危険だ。",
+        "vi": "Phóng tốc độ ô tô quá nhanh là rất nguy hiểm.",
+        "en": "It is dangerous to speed too much in a car."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_522",
+    "kanji": "ラッシュ",
+    "hiragana": "ラッシュ",
+    "meaning": {
+      "vi": "đông đúc, giờ cao điểm",
+      "en": "rush / rush hour"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "朝の通勤ラッシュは大変だ。",
+        "vi": "Giờ cao điểm đi làm buổi sáng thật vất vả.",
+        "en": "The morning commuting rush hour is tough."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_523",
+    "kanji": "バイク",
+    "hiragana": "バイク",
+    "meaning": {
+      "vi": "xe máy",
+      "en": "motorcycle / bike"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "バイクに乗って海へ行く。",
+        "vi": "Lái xe máy đi ra biển.",
+        "en": "Ride a motorcycle to the sea."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_524",
+    "kanji": "ヘルメット",
+    "hiragana": "ヘルメット",
+    "meaning": {
+      "vi": "mũ bảo hiểm",
+      "en": "helmet"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "バイクに乗る時はヘルメットをかぶる。",
+        "vi": "Khi đi xe máy phải đội mũ bảo hiểm.",
+        "en": "Wear a helmet when riding a motorcycle."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_525",
+    "kanji": "コンタクトレンズ",
+    "hiragana": "コンタクトレンズ",
+    "meaning": {
+      "vi": "kính áp tròng",
+      "en": "contact lenses"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "寝る前にコンタクトレンズを外す。",
+        "vi": "Tháo kính áp tròng trước khi đi ngủ.",
+        "en": "Take off contact lenses before going to bed."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_526",
+    "kanji": "ガラス",
+    "hiragana": "ガラス",
+    "meaning": {
+      "vi": "kính, thủy tinh",
+      "en": "glass"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "ボールが当たって、窓のガラスが割れた。",
+        "vi": "Bóng đập vào làm kính cửa sổ bị vỡ.",
+        "en": "The ball hit and the window glass broke."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_527",
+    "kanji": "プラスチック",
+    "hiragana": "プラスチック",
+    "meaning": {
+      "vi": "nhựa",
+      "en": "plastic"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "プラスチックのごみを減らしましょう。",
+        "vi": "Hãy cùng làm giảm rác thải nhựa.",
+        "en": "Let's reduce plastic waste."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_528",
+    "kanji": "ベランダ",
+    "hiragana": "ベランダ",
+    "meaning": {
+      "vi": "ban công",
+      "en": "balcony"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "ベランダに洗濯物を干す。",
+        "vi": "Phơi đồ giặt ở ngoài ban công.",
+        "en": "Hang out laundry on the balcony."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_529",
+    "kanji": "ペット",
+    "hiragana": "ペット",
+    "meaning": {
+      "vi": "thú cưng",
+      "en": "pet"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "アパートでペットを飼う。",
+        "vi": "Nuôi thú cưng ở căn hộ.",
+        "en": "Keep a pet in the apartment."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_530",
+    "kanji": "ベンチ",
+    "hiragana": "ベンチ",
+    "meaning": {
+      "vi": "ghế bành, ghế đá",
+      "en": "bench"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "公園のベンチに座って休む。",
+        "vi": "Ngồi nghỉ trên chiếc ghế đá công viên.",
+        "en": "Sit and rest on a park bench."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_531",
+    "kanji": "デザイン",
+    "hiragana": "デザイン",
+    "meaning": {
+      "vi": "thiết kế",
+      "en": "design"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "この服はデザインがとてもいい。",
+        "vi": "Bộ quần áo này có thiết kế rất đẹp.",
+        "en": "The design of this clothing is very good."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_532",
+    "kanji": "バーゲンセール",
+    "hiragana": "バーゲンセール",
+    "meaning": {
+      "vi": "sale, giảm giá",
+      "en": "bargain sale"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "デパートのバーゲンセールで靴を買った。",
+        "vi": "Tôi đã mua giày ở đợt giảm giá của trung tâm thương mại.",
+        "en": "I bought shoes at a bargain sale in a department store."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_533",
+    "kanji": "パート",
+    "hiragana": "パート",
+    "meaning": {
+      "vi": "làm thêm (part-time)",
+      "en": "part-time job"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "母はスーパーでパートをしている。",
+        "vi": "Mẹ tôi đang làm thêm ở siêu thị.",
+        "en": "My mother works part-time at a supermarket."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_534",
+    "kanji": "コンビニエンスストア",
+    "hiragana": "コンビニエンスストア",
+    "meaning": {
+      "vi": "cửa hàng tiện ích",
+      "en": "convenience store"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "駅の前にコンビニエンスストアがある。",
+        "vi": "Trước nhà ga có một cửa hàng tiện ích.",
+        "en": "There is a convenience store in front of the station."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_535",
+    "kanji": "レジ",
+    "hiragana": "レジ",
+    "meaning": {
+      "vi": "máy tính tiền, quầy thu ngân",
+      "en": "cash register"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "スーパーのレジでお金を払う。",
+        "vi": "Trả tiền ở quầy thu ngân của siêu thị.",
+        "en": "Pay at the supermarket cash register."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_536",
+    "kanji": "レシート",
+    "hiragana": "レシート",
+    "meaning": {
+      "vi": "hóa đơn",
+      "en": "receipt"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "買い物をしたら、レシートをもらう。",
+        "vi": "Nếu mua đồ thì hãy nhận hóa đơn.",
+        "en": "When you buy something, get a receipt."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_537",
+    "kanji": "インスタント",
+    "hiragana": "インスタント",
+    "meaning": {
+      "vi": "ăn liền",
+      "en": "instant"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "忙しい時はインスタントラーメンを食べる。",
+        "vi": "Khi bận rộn tôi thường ăn mì ăn liền.",
+        "en": "I eat instant ramen when I am busy."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_538",
+    "kanji": "ファストフード",
+    "hiragana": "ファストフード",
+    "meaning": {
+      "vi": "đồ ăn nhanh",
+      "en": "fast food"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "ファストフードは便利だが、健康に良くない。",
+        "vi": "Đồ ăn nhanh rất tiện lợi nhưng không tốt cho sức khỏe.",
+        "en": "Fast food is convenient but not good for your health."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_539",
+    "kanji": "フルーツ",
+    "hiragana": "フルーツ",
+    "meaning": {
+      "vi": "trái cây",
+      "en": "fruit"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "朝ごはんにフルーツを食べる。",
+        "vi": "Tôi ăn trái cây vào bữa sáng.",
+        "en": "I eat fruit for breakfast."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_540",
+    "kanji": "デザート",
+    "hiragana": "デザート",
+    "meaning": {
+      "vi": "tráng miệng",
+      "en": "dessert"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "食事の後に甘いデザートを注文した。",
+        "vi": "Tôi đã gọi món tráng miệng ngọt sau bữa ăn.",
+        "en": "I ordered a sweet dessert after the meal."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_541",
+    "kanji": "インターネット",
+    "hiragana": "インターネット",
+    "meaning": {
+      "vi": "internet",
+      "en": "internet"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "インターネットで情報を調べる。",
+        "vi": "Điều tra thông tin bằng internet.",
+        "en": "Look up information on the internet."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_542",
+    "kanji": "チャイム",
+    "hiragana": "チャイム",
+    "meaning": {
+      "vi": "chuông",
+      "en": "chime / bell"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "授業が終わるチャイムが鳴った。",
+        "vi": "Tiếng chuông kết thúc giờ học đã reo.",
+        "en": "The chime to end the class rang."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_543",
+    "kanji": "アナウンス",
+    "hiragana": "アナウンス",
+    "meaning": {
+      "vi": "thông báo",
+      "en": "announcement"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "駅で電車の遅れのアナウンスがあった。",
+        "vi": "Ở nhà ga có thông báo việc tàu bị trễ.",
+        "en": "There was an announcement about the train delay at the station."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_544",
+    "kanji": "メッセージ",
+    "hiragana": "メッセージ",
+    "meaning": {
+      "vi": "tin nhắn",
+      "en": "message"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "留守番電話にメッセージを残す。",
+        "vi": "Để lại tin nhắn ở hộp thư thoại.",
+        "en": "Leave a message on the answering machine."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_545",
+    "kanji": "パンフレット",
+    "hiragana": "パンフレット",
+    "meaning": {
+      "vi": "tờ rơi, cẩm nang",
+      "en": "pamphlet"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "旅行会社でハワイのパンフレットをもらった。",
+        "vi": "Tôi đã lấy tờ cẩm nang về Hawaii ở công ty du lịch.",
+        "en": "I got a pamphlet for Hawaii at the travel agency."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_546",
+    "kanji": "カード",
+    "hiragana": "カード",
+    "meaning": {
+      "vi": "thẻ, card",
+      "en": "card"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "クレジットカードで買い物をする。",
+        "vi": "Mua sắm bằng thẻ tín dụng.",
+        "en": "Shop with a credit card."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_547",
+    "kanji": "インタビュー",
+    "hiragana": "インタビュー",
+    "meaning": {
+      "vi": "phỏng vấn",
+      "en": "interview"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "有名な選手にインタビューをする。",
+        "vi": "Phỏng vấn một tuyển thủ nổi tiếng.",
+        "en": "Interview a famous athlete."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_548",
+    "kanji": "アンケート",
+    "hiragana": "アンケート",
+    "meaning": {
+      "vi": "tờ câu hỏi, khảo sát",
+      "en": "questionnaire"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "学生に授業のアンケートをとる。",
+        "vi": "Thu thập phiếu khảo sát giờ học từ sinh viên.",
+        "en": "Take a questionnaire about the class from the students."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_549",
+    "kanji": "データ",
+    "hiragana": "データ",
+    "meaning": {
+      "vi": "dữ liệu",
+      "en": "data"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "研究のためにデータを集める。",
+        "vi": "Thu thập dữ liệu phục vụ cho việc nghiên cứu.",
+        "en": "Collect data for research."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_06_550",
+    "kanji": "パーセント",
+    "hiragana": "パーセント",
+    "meaning": {
+      "vi": "phần trăm",
+      "en": "percent"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "このクラスの留学生は３０パーセントだ。",
+        "vi": "Du học sinh trong lớp này chiếm 30 phần trăm.",
+        "en": "International students make up 30 percent of this class."
+      }
+    ]
+  }
+]

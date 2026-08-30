@@ -1,0 +1,260 @@
+[
+  {
+    "id": "g_rkn2_15_01",
+    "level": "N2",
+    "structure": "〜に沿って / 〜に沿う",
+    "structureKana": "〜にそって / 〜にそう",
+    "meaning": {
+      "vi": "Men theo / Tuân theo / Đáp ứng theo...",
+      "en": "Along with... / In accordance with..."
+    },
+    "formation": [
+      "N + に沿って / に沿い / に沿う / に沿った + N"
+    ],
+    "lesson": "Bài 15",
+    "group": "Follow_Rule",
+    "confusedWith": [
+      "〜にしたがって",
+      "〜をもとに"
+    ],
+    "caution": {
+      "vi": "1. Không rời khỏi/men theo một tuyến đường (con sông, đường ray). 2. Tuân theo một quy tắc, phương châm, kỳ vọng, nguyện vọng (đáp ứng đúng theo khuôn mẫu đó). Ít mang tính bắt buộc (mệnh lệnh) như にしたがって.",
+      "en": "1. To go along a route (river, railway) without deviating. 2. To act in accordance with a rule, policy, expectation, or wish. Less of a strict command feeling compared to にしたがって."
+    },
+    "examples": [
+      {
+        "jp": "この線路[に沿って]300mぐらいまっすぐ行けば、駅が出ます。",
+        "kana": "このせんろ[にそって]さんびゃくメートルぐらいまっすぐいけば、えきがでます。",
+        "vi": "Cứ đi thẳng khoảng 300m [men theo] tuyến đường sắt này thì sẽ thấy nhà ga.",
+        "en": "If you go straight for about 300m [along] this railway, you will reach the station."
+      },
+      {
+        "jp": "マニュアル[に沿って]、仕事を進めてください。",
+        "kana": "マニュアル[にそって]、しごとをすすめてください。",
+        "vi": "Hãy tiến hành công việc [tuân theo/dựa theo] sách hướng dẫn.",
+        "en": "Please proceed with your work [in accordance with] the manual."
+      },
+      {
+        "jp": "出来るだけご希望[に沿う]ように対応いたします。",
+        "kana": "できるだけごきぼう[にそう]ようにたいおういたします。",
+        "vi": "Chúng tôi sẽ xử lý sao cho [đáp ứng đúng theo] nguyện vọng của quý khách nhất có thể.",
+        "en": "We will respond in a way that [meets/aligns with] your wishes as much as possible."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_15_02",
+    "level": "N2",
+    "structure": "〜ないではいられない / 〜ずにはいられない",
+    "structureKana": "〜ないではいられない / 〜ずにはいられない",
+    "meaning": {
+      "vi": "Không thể không / Không kìm nén được...",
+      "en": "Can't help but... / Cannot stop oneself from..."
+    },
+    "formation": [
+      "Vない + ではいられない",
+      "Vない (bỏ ない) + ずにはいられない",
+      "する -> せずにはいられない"
+    ],
+    "lesson": "Bài 15",
+    "group": "Uncontrollable_Emotion",
+    "confusedWith": [
+      "〜ないわけにはいかない"
+    ],
+    "caution": {
+      "vi": "Do cảm xúc hoặc phản xạ tự nhiên dâng trào quá mức khiến chủ ngữ 'không thể kìm nén được việc muốn làm gì đó'. Chủ ngữ luôn là ngôi thứ nhất. Dạng 'ずにはいられない' thiên về văn viết.",
+      "en": "Due to overwhelming emotion or natural reflex, the subject 'cannot hold back from doing something'. The subject is always the first person. 'ずにはいられない' is more common in written language."
+    },
+    "examples": [
+      {
+        "jp": "禁酒中だけど、今日は飲ま[ないではいられない]。",
+        "kana": "きんしゅちゅうだけど、きょうはのま[ないではいられない]。",
+        "vi": "Đang trong thời gian cai rượu nhưng hôm nay tôi [không kìm được mà phải] uống.",
+        "en": "I'm abstaining from alcohol, but today I [can't help but] drink."
+      },
+      {
+        "jp": "私はわからないことがあると、すぐに調べ[ずにはいられない]性格だ。",
+        "kana": "わたしはわからないことがあると、すぐにしらべ[ずにはいられない]せいかくだ。",
+        "vi": "Tôi là kiểu người hễ có gì không hiểu là [không thể không] tra cứu ngay lập tức.",
+        "en": "I have the kind of personality where if there's something I don't understand, I [can't help but] look it up immediately."
+      },
+      {
+        "jp": "本人の前で笑ってはいけないが、笑わ[ずにはいられない]。",
+        "kana": "ほんにんのまえでわらってはいけないが、わらわ[ずにはいられない]。",
+        "vi": "Không được cười trước mặt người đó nhưng tôi [không thể kìm được] cười.",
+        "en": "I shouldn't laugh in front of him, but I [can't stop myself from] laughing."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_15_03",
+    "level": "N2",
+    "structure": "〜にほかならない",
+    "structureKana": "〜にほかならない",
+    "meaning": {
+      "vi": "Chính là / Không gì khác ngoài...",
+      "en": "Nothing but... / Is none other than..."
+    },
+    "formation": [
+      "N + にほかならない",
+      "から + にほかならない"
+    ],
+    "lesson": "Bài 15",
+    "group": "Absolute_Assertion",
+    "confusedWith": [
+      "〜に違いない"
+    ],
+    "caution": {
+      "vi": "Nhấn mạnh nguyên nhân/lý do hoặc bản chất cốt lõi: 'Đó chính xác là/Không phải cái gì khác ngoài...'. Là cách nói cứng, mang tính khẳng định tuyệt đối, thường dùng trong văn viết/diễn thuyết.",
+      "en": "Emphasizes the core cause/reason or essence: 'It is exactly / nothing other than...'. It is a formal expression with an absolute tone, often used in writing/speeches."
+    },
+    "examples": [
+      {
+        "jp": "彼の成功は長年の努力[にほかならない]。",
+        "kana": "かれのせいこうはながねんのどりょく[にほかならない]。",
+        "vi": "Sự thành công của anh ấy [không gì khác chính là] nỗ lực trong suốt nhiều năm.",
+        "en": "His success is [nothing but] the result of many years of effort."
+      },
+      {
+        "jp": "見舞いに来てくれたのは、彼の友情の表れ[にほかならない]。",
+        "kana": "みまいにきてくれたのは、かれのゆうじょうのあらわれ[にほかならない]。",
+        "vi": "Việc cậu ấy đến thăm ốm [chính là] biểu hiện của tình bạn.",
+        "en": "The fact that he came to visit me in the hospital is [none other than] an expression of his friendship."
+      },
+      {
+        "jp": "いつも不幸なのは他人のせいではなく、自分が悪いから[に他ならない]。",
+        "kana": "いつもふこうなのはたにんのせいではなく、じぶんがわるいから[にほかならない]。",
+        "vi": "Lúc nào cũng bất hạnh không phải tại người khác mà [chính là] do bản thân mình tồi.",
+        "en": "Always being unhappy is not someone else's fault; it's [nothing but] because of one's own faults."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_15_04",
+    "level": "N2",
+    "structure": "〜割に(は) / 〜にしては",
+    "structureKana": "〜わりに(は) / 〜にしては",
+    "meaning": {
+      "vi": "So với... thì (khá là)... / Mặc dù... thế mà...",
+      "en": "Considering... / For... (unexpectedly)"
+    },
+    "formation": [
+      "Thể thông thường / Aな / Nの + 割に(は)",
+      "N / Thể thông thường + にしては"
+    ],
+    "lesson": "Bài 15",
+    "group": "Unexpected_Result_Degree",
+    "confusedWith": [
+      "〜けれども"
+    ],
+    "caution": {
+      "vi": "Kết quả thực tế khác với tiêu chuẩn/suy đoán thông thường. Có thể dùng cho cả đánh giá tích cực và tiêu cực. 'にしては' thường đi với các danh từ mang tính chỉ định rõ ràng về số lượng, tuổi tác (như 1000 yên, 27 tuổi).",
+      "en": "The actual result differs from the normal standard/expectation. Can be used for both positive and negative evaluations. 'にしては' often goes with nouns that specify exact numbers or ages (like 1000 yen, 27 years old)."
+    },
+    "examples": [
+      {
+        "jp": "このケーキ、子供が作った[にしては]美味しくできていますね。",
+        "kana": "このケーキ、こどもがつくった[にしては]おいしくできていますね。",
+        "vi": "Cái bánh này [so với việc] do trẻ con làm [thì] làm ra rất ngon đấy.",
+        "en": "[For] a cake made by a child, this is made very deliciously."
+      },
+      {
+        "jp": "お金がないと言っている[割には]、いい家に住んでるね。",
+        "kana": "おかねがないといっている[わりには]、いいいえにすんでるね。",
+        "vi": "[Mặc dù] nói là không có tiền [thế mà] lại sống trong ngôi nhà đẹp nhỉ.",
+        "en": "[Considering] you say you have no money, you live in a nice house."
+      },
+      {
+        "jp": "このかばん、1000円[にしては]丈夫で、デザインもいい。",
+        "kana": "このかばん、せんえん[にしては]じょうぶで、デザインもいい。",
+        "vi": "Cái túi này [với mức giá] 1000 yên [thì khá là] bền và thiết kế cũng đẹp.",
+        "en": "[For] 1000 yen, this bag is sturdy and has a good design."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_15_05",
+    "level": "N2",
+    "structure": "〜を抜きにして / 〜は抜きにして",
+    "structureKana": "〜をぬきにして / 〜はぬきにして",
+    "meaning": {
+      "vi": "Bỏ... qua một bên / Hãy thôi... / Nếu không có...",
+      "en": "Leaving aside... / Without..."
+    },
+    "formation": [
+      "N + を抜きにして / は抜きにして"
+    ],
+    "lesson": "Bài 15",
+    "group": "Exclusion_Condition",
+    "confusedWith": [
+      "〜なしで"
+    ],
+    "caution": {
+      "vi": "1. 抜きにして: Hãy dẹp/bỏ N sang một bên, không bàn tới N nữa (thường dùng hô hào). 2. 抜きにしては〜できない: Đánh giá rất cao vai trò của N, ý nói 'Nếu không có N thì không thể thực hiện được'.",
+      "en": "1. 抜きにして: Let's leave N aside / stop talking about N (used in invitations). 2. 抜きにしては〜できない: Highly evaluates the role of N, meaning 'Without N, it cannot be done'."
+    },
+    "examples": [
+      {
+        "jp": "ベトナムの歴史はホーチミンさん[を抜きにしては]語れない。",
+        "kana": "ベトナムのれきしはホーチミンさん[をぬきにしては]かたれない。",
+        "vi": "Lịch sử Việt Nam [nếu không có] Bác Hồ thì không thể kể được.",
+        "en": "Vietnam's history cannot be told [without] Uncle Ho."
+      },
+      {
+        "jp": "この際、仕事の話[は抜きにして]、大いに楽しみましょう。",
+        "kana": "このさい、しごとのはなし[はぬきにして]、おおいにたのしみましょう。",
+        "vi": "Nhân dịp này, [hãy gác] chuyện công việc [sang một bên] và cùng tận hưởng hết mình nào.",
+        "en": "On this occasion, [leaving aside] talk of work, let's enjoy ourselves greatly."
+      },
+      {
+        "jp": "冗談[は抜きにして]そろそろ本題に入りましょう。",
+        "kana": "じょうだん[はぬきにして]そろそろほんだいにはいりましょう。",
+        "vi": "[Hãy thôi] đùa [và] chúng ta chuẩn bị vào chủ đề chính nào.",
+        "en": "[Jokes aside], let's get to the main point soon."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_15_06",
+    "level": "N2",
+    "structure": "〜向けだ / 〜向きだ",
+    "structureKana": "〜むけだ / 〜むきだ",
+    "meaning": {
+      "vi": "Hướng tới (đối tượng) / Phù hợp với (đối tượng)...",
+      "en": "Intended for... / Suitable for..."
+    },
+    "formation": [
+      "N + 向けだ / 向けに",
+      "N + 向きだ / 向きに"
+    ],
+    "lesson": "Bài 15",
+    "group": "Suitability_Target",
+    "confusedWith": [
+      "〜用だ"
+    ],
+    "caution": {
+      "vi": "1. 向け: Dành cho, hướng tới (được chủ ý thiết kế, sản xuất riêng cho đối tượng đó). 2. 向き: Phù hợp với, vừa vặn với (không nhất thiết phải được tạo ra cho đối tượng đó, nhưng người nói cảm thấy rất hợp).",
+      "en": "1. 向け: Intended for (intentionally designed or produced specifically for that target). 2. 向き: Suitable for (not necessarily created for that target, but fits them well)."
+    },
+    "examples": [
+      {
+        "jp": "このマンションは一人暮らしの高齢者[向け]に設計されています。",
+        "kana": "このマンションはひとりぐらしのこうれいしゃ[むけ]にせっけいされています。",
+        "vi": "Khu chung cư này được thiết kế [hướng tới] đối tượng người cao tuổi sống một mình.",
+        "en": "This apartment building is designed [for/intended for] elderly people living alone."
+      },
+      {
+        "jp": "この本は読みやすいので、初心者[向き]だ。",
+        "kana": "このほんはよみやすいので、しょしんしゃ[むき]だ。",
+        "vi": "Cuốn sách này dễ đọc nên rất [phù hợp với] người mới bắt đầu.",
+        "en": "Because this book is easy to read, it is [suitable for] beginners."
+      },
+      {
+        "jp": "独身男性[向け]の料理教室が開かれることになった。",
+        "kana": "どくしんだんせい[むけ]のりょうりきょうしつがひらかれることになった。",
+        "vi": "Lớp học nấu ăn [dành cho] nam giới độc thân đã được mở.",
+        "en": "A cooking class [intended for] single men is going to be held."
+      }
+    ]
+  }
+]

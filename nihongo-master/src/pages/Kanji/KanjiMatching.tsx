@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, RotateCcw, CheckCircle2, Eye, EyeOff } from 'lucide-react';
-import { kanjiN3 } from '../../data/kanjiN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
+import type { Kanji } from '../../types';
 import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -21,6 +22,8 @@ export default function KanjiMatching() {
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>('kanji-hanviet');
   const [showFurigana, setShowFurigana] = useState(false);
+  const { course } = usePracticeContext();
+  const data = course.data as Kanji[];
 
   // States cho game
   const [tiles, setTiles] = useState<Tile[]>([]);
@@ -28,17 +31,26 @@ export default function KanjiMatching() {
   const [matched, setMatched] = useState<Set<string>>(new Set());
   const [errorPair, setErrorPair] = useState<[string, string] | null>(null);
 
-  const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
+  const lessons = Array.from(new Set(data.map(k => k.lesson))).filter(Boolean) as string[];
 
   const initGame = () => {
-    let basePool = selectedLessons.length === 0 ? kanjiN3 : kanjiN3.filter(k => selectedLessons.includes(k.lesson || ''));
+    let basePool = selectedLessons.length === 0 ? data : data.filter(k => selectedLessons.includes(k.lesson || ''));
     let generatedTiles: Tile[] = [];
 
     if (mode === 'kanji-hanviet') {
-      let pool = shuffle(basePool).slice(0, 6);
-      pool.forEach(k => {
-        generatedTiles.push({ id: `A_${k.id}`, pairId: k.id, type: 'A', label: k.character });
-        generatedTiles.push({ id: `B_${k.id}`, pairId: k.id, type: 'B', label: k.hanViet });
+      const mixed: { char: string, hv: string, id: string }[] = [];
+      basePool.forEach(k => {
+        mixed.push({ char: k.character, hv: k.hanViet, id: k.id });
+        if (k.words) {
+          k.words.filter(w => w.hanVietWord).forEach((w, idx) => {
+            mixed.push({ char: w.word, hv: w.hanVietWord as string, id: `${k.id}_whv_${idx}` });
+          });
+        }
+      });
+      let pool = shuffle(mixed).slice(0, 6);
+      pool.forEach(item => {
+        generatedTiles.push({ id: `A_${item.id}`, pairId: item.id, type: 'A', label: item.char });
+        generatedTiles.push({ id: `B_${item.id}`, pairId: item.id, type: 'B', label: item.hv });
       });
     } else { // word-meaning
       const wordsList: { id: string; word: string; value: string; hiragana: string }[] = [];
@@ -113,7 +125,7 @@ export default function KanjiMatching() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2 font-display">🧩 Nối Kanji</h1>
@@ -129,8 +141,13 @@ export default function KanjiMatching() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={kanjiN3.length}
-              getCount={(l) => kanjiN3.filter(k => k.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => {
+                if (mode === 'kanji-hanviet') {
+                  return data.filter(k => k.lesson === l).reduce((acc, k) => acc + 1 + (k.words?.filter(w => w.hanVietWord).length || 0), 0);
+                }
+                return data.filter(k => k.lesson === l).reduce((acc, k) => acc + (k.words?.length || 0), 0);
+              }}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -190,7 +207,14 @@ export default function KanjiMatching() {
               onClick={initGame}
               className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-all active:scale-[0.98]"
             >
-              Bắt đầu trò chơi
+              Bắt đầu trò chơi ({(() => {
+                let basePool = selectedLessons.length === 0 ? data : data.filter(k => selectedLessons.includes(k.lesson || ''));
+                if (mode === 'kanji-hanviet') {
+                  return basePool.reduce((acc, k) => acc + 1 + (k.words?.filter(w => w.hanVietWord).length || 0), 0);
+                } else {
+                  return basePool.reduce((acc, k) => acc + (k.words?.length || 0), 0);
+                }
+              })()} thẻ)
             </button>
           </div>
         </div>
@@ -235,7 +259,7 @@ export default function KanjiMatching() {
             >
               <RotateCcw size={18} /> Chơi tiếp
             </button>
-            <Link to="/practice/kanji" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 dark:hover:border-slate-600 transition-all text-center">
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 dark:hover:border-slate-600 transition-all text-center">
               Về dashboard
             </Link>
           </div>

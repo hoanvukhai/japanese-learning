@@ -1,0 +1,629 @@
+[
+    {
+        "id": "k_rkn3_34_01",
+        "character": "整",
+        "hanViet": "CHỈNH",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_01_1",
+                "word": "整理",
+                "hanVietWord": "CHỈNH LÍ",
+                "hiragana": "せいり",
+                "meaning": {
+                    "vi": "Sắp xếp / Dọn dẹp",
+                    "en": "Arrangement / Sorting"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "机の上を綺麗に整理する。",
+                        "vi": "Dọn dẹp sạch sẽ trên mặt bàn.",
+                        "en": "Arrange the top of the desk neatly."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_01_2",
+                "word": "調整",
+                "hanVietWord": "ĐIỀU CHỈNH",
+                "hiragana": "ちょうせい",
+                "meaning": {
+                    "vi": "Điều chỉnh",
+                    "en": "Adjustment"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会議の時間を調整する。",
+                        "vi": "Điều chỉnh lại thời gian cuộc họp.",
+                        "en": "Adjust the time of the meeting."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_02",
+        "character": "算",
+        "hanViet": "TOÁN",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_02_1",
+                "word": "暗算",
+                "hanVietWord": "ÁM TOÁN",
+                "hiragana": "あんざん",
+                "meaning": {
+                    "vi": "Tính nhẩm",
+                    "en": "Mental arithmetic"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は暗算がとても得意だ。",
+                        "vi": "Anh ấy cực kỳ giỏi tính nhẩm.",
+                        "en": "He is very good at mental arithmetic."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_02_2",
+                "word": "計算",
+                "hanVietWord": "KẾ TOÁN",
+                "hiragana": "けいさん",
+                "meaning": {
+                    "vi": "Tính toán",
+                    "en": "Calculation"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "お金を計算する。",
+                        "vi": "Tính toán tiền bạc.",
+                        "en": "Calculate the money."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_02_3",
+                "word": "予算",
+                "hanVietWord": "DỰ TOÁN",
+                "hiragana": "よさん",
+                "meaning": {
+                    "vi": "Ngân sách",
+                    "en": "Budget"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "今月の予算を決める。",
+                        "vi": "Quyết định ngân sách của tháng này.",
+                        "en": "Decide the budget for this month."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_03",
+        "character": "等",
+        "hanViet": "ĐẲNG",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_03_1",
+                "word": "平等",
+                "hanVietWord": "BÌNH ĐẲNG",
+                "hiragana": "びょうどう",
+                "meaning": {
+                    "vi": "Bình đẳng",
+                    "en": "Equality"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "すべての人を平等に扱う。",
+                        "vi": "Đối xử bình đẳng với tất cả mọi người.",
+                        "en": "Treat all people with equality."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_03_2",
+                "word": "優等生",
+                "hanVietWord": "ƯU ĐẲNG SINH",
+                "hiragana": "ゆうとうせい",
+                "meaning": {
+                    "vi": "Học sinh giỏi",
+                    "en": "Honor student"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼女はクラスの優等生だ。",
+                        "vi": "Cô ấy là học sinh giỏi của lớp.",
+                        "en": "She is an honor student in the class."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_03_3",
+                "word": "等",
+                "hanVietWord": "ĐẲNG",
+                "hiragana": "など",
+                "meaning": {
+                    "vi": "Vân vân",
+                    "en": "Et cetera / And so on"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "りんごやみかん等を買った。",
+                        "vi": "Tôi đã mua táo và quýt, vân vân.",
+                        "en": "I bought apples, oranges, etc."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_04",
+        "character": "命",
+        "hanViet": "MỆNH",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_04_1",
+                "word": "生命保険",
+                "hanVietWord": "SINH MỆNH BẢO HIỂM",
+                "hiragana": "せいめいほけん",
+                "meaning": {
+                    "vi": "Bảo hiểm nhân thọ",
+                    "en": "Life insurance"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "生命保険に加入する。",
+                        "vi": "Tham gia vào bảo hiểm nhân thọ.",
+                        "en": "Join life insurance."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_04_2",
+                "word": "平均寿命",
+                "hanVietWord": "BÌNH QUÂN THỌ MỆNH",
+                "hiragana": "へいきんじゅみょう",
+                "meaning": {
+                    "vi": "Tuổi thọ trung bình",
+                    "en": "Average life expectancy"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本人の平均寿命は長い。",
+                        "vi": "Tuổi thọ trung bình của người Nhật rất dài.",
+                        "en": "The average life expectancy of Japanese people is long."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_04_3",
+                "word": "命",
+                "hanVietWord": "MỆNH",
+                "hiragana": "いのち",
+                "meaning": {
+                    "vi": "Mạng sống / Sinh mệnh",
+                    "en": "Life"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "命を大切にする。",
+                        "vi": "Trân trọng mạng sống.",
+                        "en": "Value life."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_05",
+        "character": "令",
+        "hanViet": "LỆNH",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_05_1",
+                "word": "命令",
+                "hanVietWord": "MỆNH LỆNH",
+                "hiragana": "めいれい",
+                "meaning": {
+                    "vi": "Mệnh lệnh",
+                    "en": "Command / Order"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "上司の命令に従う。",
+                        "vi": "Tuân theo mệnh lệnh của cấp trên.",
+                        "en": "Obey the boss's command."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_05_2",
+                "word": "令和",
+                "hanVietWord": "LỆNH HÒA",
+                "hiragana": "れいわ",
+                "meaning": {
+                    "vi": "Niên hiệu Reiwa",
+                    "en": "Reiwa era"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "今は令和の時代だ。",
+                        "vi": "Bây giờ là thời đại Reiwa.",
+                        "en": "Now is the Reiwa era."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_06",
+        "character": "冷",
+        "hanViet": "LÃNH",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_06_1",
+                "word": "冷蔵庫",
+                "hanVietWord": "LÃNH TÀNG KHỐ",
+                "hiragana": "れいぞうこ",
+                "meaning": {
+                    "vi": "Tủ lạnh",
+                    "en": "Refrigerator"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "肉を冷蔵庫にしまう。",
+                        "vi": "Cất thịt vào tủ lạnh.",
+                        "en": "Put the meat in the refrigerator."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_06_2",
+                "word": "冷やす",
+                "hanVietWord": "LÃNH",
+                "hiragana": "ひやす",
+                "meaning": {
+                    "vi": "Làm lạnh",
+                    "en": "To cool / To refrigerate"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ビールを冷やす。",
+                        "vi": "Làm lạnh bia.",
+                        "en": "Cool the beer."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_06_3",
+                "word": "冷たい",
+                "hanVietWord": "LÃNH",
+                "hiragana": "つめたい",
+                "meaning": {
+                    "vi": "Lạnh (cảm giác)",
+                    "en": "Cold (to the touch)"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "冷たい水を飲む。",
+                        "vi": "Tôi uống nước lạnh.",
+                        "en": "I drink cold water."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_06_4",
+                "word": "冷える",
+                "hanVietWord": "LÃNH",
+                "hiragana": "ひえる",
+                "meaning": {
+                    "vi": "Bị lạnh",
+                    "en": "To grow cold"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "夜になって体が冷える。",
+                        "vi": "Trời về đêm và cơ thể bị lạnh.",
+                        "en": "It becomes night and the body gets cold."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_07",
+        "character": "煙",
+        "hanViet": "YÊN",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_07_1",
+                "word": "禁煙",
+                "hanVietWord": "CẤM YÊN",
+                "hiragana": "きんえん",
+                "meaning": {
+                    "vi": "Cấm hút thuốc",
+                    "en": "No smoking"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この場所は禁煙です。",
+                        "vi": "Nơi này cấm hút thuốc.",
+                        "en": "This place is non-smoking."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_07_2",
+                "word": "煙",
+                "hanVietWord": "YÊN",
+                "hiragana": "けむり",
+                "meaning": {
+                    "vi": "Khói",
+                    "en": "Smoke"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "火事の煙が見える。",
+                        "vi": "Có thể nhìn thấy khói của đám cháy.",
+                        "en": "You can see the smoke from the fire."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_08",
+        "character": "伝",
+        "hanViet": "TRUYỀN",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_08_1",
+                "word": "伝言",
+                "hanVietWord": "TRUYỀN NGÔN",
+                "hiragana": "でんごん",
+                "meaning": {
+                    "vi": "Lời nhắn",
+                    "en": "Message"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "電話で伝言を残す。",
+                        "vi": "Để lại lời nhắn qua điện thoại.",
+                        "en": "Leave a message on the phone."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_08_2",
+                "word": "伝える",
+                "hanVietWord": "TRUYỀN",
+                "hiragana": "つたえる",
+                "meaning": {
+                    "vi": "Truyền đạt",
+                    "en": "To convey / To tell"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "先生によろしくお伝えください。",
+                        "vi": "Hãy truyền đạt lời hỏi thăm đến giáo viên giúp tôi.",
+                        "en": "Please give my regards to the teacher."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_08_3",
+                "word": "伝わる",
+                "hanVietWord": "TRUYỀN",
+                "hiragana": "つたわる",
+                "meaning": {
+                    "vi": "Được truyền đạt",
+                    "en": "To be transmitted"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼の気持ちが私に伝わった。",
+                        "vi": "Cảm xúc của anh ấy đã được truyền đến tôi.",
+                        "en": "His feelings were conveyed to me."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_09",
+        "character": "転",
+        "hanViet": "CHUYỂN",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_09_1",
+                "word": "転ぶ",
+                "hanVietWord": "CHUYỂN",
+                "hiragana": "ころぶ",
+                "meaning": {
+                    "vi": "Ngã",
+                    "en": "To fall down"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "雪道で滑って転んだ。",
+                        "vi": "Tôi bị trượt ngã trên đường tuyết.",
+                        "en": "I slipped and fell on the snowy road."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_09_2",
+                "word": "転がり",
+                "hanVietWord": "CHUYỂN",
+                "hiragana": "ころがり",
+                "meaning": {
+                    "vi": "Sự lăn",
+                    "en": "Rolling"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ボールが転がり落ちた。",
+                        "vi": "Quả bóng đã lăn xuống.",
+                        "en": "The ball rolled down."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_09_3",
+                "word": "運転",
+                "hanVietWord": "VẬN CHUYỂN",
+                "hiragana": "うんてん",
+                "meaning": {
+                    "vi": "Lái xe",
+                    "en": "Driving"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "車の運転に気をつける。",
+                        "vi": "Cẩn thận khi lái xe ô tô.",
+                        "en": "Be careful when driving a car."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_34_10",
+        "character": "芸",
+        "hanViet": "NGHỆ",
+        "level": "N3",
+        "lesson": "Bài 34",
+        "words": [
+            {
+                "id": "kw_rkn3_34_10_1",
+                "word": "芸術",
+                "hanVietWord": "NGHỆ THUẬT",
+                "hiragana": "げいじゅつ",
+                "meaning": {
+                    "vi": "Nghệ thuật",
+                    "en": "Art"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼女は芸術の才能がある。",
+                        "vi": "Cô ấy có tài năng nghệ thuật.",
+                        "en": "She has an aptitude for art."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_10_2",
+                "word": "芸人",
+                "hanVietWord": "NGHỆ NHÂN",
+                "hiragana": "げいにん",
+                "meaning": {
+                    "vi": "Nghệ sĩ hài / Người làm nghệ",
+                    "en": "Entertainer / Comedian"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "テレビでお笑い芸人を見る。",
+                        "vi": "Xem nghệ sĩ hài trên tivi.",
+                        "en": "Watch a comedian on TV."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_34_10_3",
+                "word": "芸能人",
+                "hanVietWord": "NGHỆ NĂNG NHÂN",
+                "hiragana": "げいのうじん",
+                "meaning": {
+                    "vi": "Người trong giới giải trí / Nghệ sĩ",
+                    "en": "Celebrity"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "有名な芸能人に会った。",
+                        "vi": "Tôi đã gặp một nghệ sĩ nổi tiếng.",
+                        "en": "I met a famous celebrity."
+                    }
+                ]
+            }
+        ]
+    }
+]

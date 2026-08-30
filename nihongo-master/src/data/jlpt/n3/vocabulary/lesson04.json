@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "v_mon3_04_311",
+    "kanji": "世話",
+    "hiragana": "せわ",
+    "meaning": {
+      "vi": "chăm sóc",
+      "en": "care / looking after"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "ペットの犬の世話をする。",
+        "vi": "Chăm sóc con chó cưng.",
+        "en": "Take care of the pet dog."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_312",
+    "kanji": "家庭",
+    "hiragana": "かてい",
+    "meaning": {
+      "vi": "gia đình",
+      "en": "home / family"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "温かい家庭を築きたい。",
+        "vi": "Tôi muốn xây dựng một gia đình ấm áp.",
+        "en": "I want to build a warm family."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_313",
+    "kanji": "協力",
+    "hiragana": "きょうりょく",
+    "meaning": {
+      "vi": "hiệp lực, hợp tác",
+      "en": "cooperation"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "みんなで協力して仕事を終わらせた。",
+        "vi": "Mọi người đã hợp tác để hoàn thành công việc.",
+        "en": "Everyone cooperated to finish the work."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_314",
+    "kanji": "感謝",
+    "hiragana": "かんしゃ",
+    "meaning": {
+      "vi": "cảm tạ, biết ơn",
+      "en": "gratitude / thanks"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "手伝ってくれた友達に感謝する。",
+        "vi": "Biết ơn người bạn đã giúp đỡ mình.",
+        "en": "I am grateful to the friend who helped me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_315",
+    "kanji": "お礼",
+    "hiragana": "おれい",
+    "meaning": {
+      "vi": "đáp lễ, cảm ơn",
+      "en": "expression of gratitude"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "お世話になった方へお礼の手紙を書く。",
+        "vi": "Viết thư cảm ơn gửi đến người đã giúp đỡ mình.",
+        "en": "Write a thank-you letter to someone who helped me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_316",
+    "kanji": "お詫び",
+    "hiragana": "おわび",
+    "meaning": {
+      "vi": "xin lỗi",
+      "en": "apology"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "遅刻したことをお詫びします。",
+        "vi": "Tôi xin lỗi vì đã đến muộn.",
+        "en": "I apologize for being late."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_317",
+    "kanji": "",
+    "hiragana": "おじぎ",
+    "meaning": {
+      "vi": "cúi chào",
+      "en": "bowing"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "お客様に丁寧におじぎをする。",
+        "vi": "Cúi chào khách hàng một cách lịch sự.",
+        "en": "Bow politely to the customer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_318",
+    "kanji": "握手",
+    "hiragana": "あくしゅ",
+    "meaning": {
+      "vi": "bắt tay",
+      "en": "handshake"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "コンサートで歌手と握手した。",
+        "vi": "Tôi đã bắt tay với ca sĩ tại buổi hòa nhạc.",
+        "en": "I shook hands with the singer at the concert."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_319",
+    "kanji": "",
+    "hiragana": "いじわる",
+    "meaning": {
+      "vi": "xấu bụng, tâm địa xấu",
+      "en": "mean / ill-natured"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "彼はいじわるなことを言って、私を泣かせた。",
+        "vi": "Anh ta nói những lời xấu bụng làm tôi khóc.",
+        "en": "He said mean things and made me cry."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_320",
+    "kanji": "",
+    "hiragana": "いたずら",
+    "meaning": {
+      "vi": "nghịch ngợm",
+      "en": "mischief / prank"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "子供が壁にいたずら書きをした。",
+        "vi": "Bọn trẻ đã vẽ bậy (nghịch ngợm) lên tường.",
+        "en": "The child doodled on the wall as a prank."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_321",
+    "kanji": "節約",
+    "hiragana": "せつやく",
+    "meaning": {
+      "vi": "tiết kiệm",
+      "en": "saving / economizing"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "生活費を節約するために自炊する。",
+        "vi": "Tự nấu ăn để tiết kiệm chi phí sinh hoạt.",
+        "en": "Cook for oneself to save living expenses."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_322",
+    "kanji": "経営",
+    "hiragana": "けいえい",
+    "meaning": {
+      "vi": "quản lý, kinh doanh",
+      "en": "management / running a business"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "父は小さなレストランを経営している。",
+        "vi": "Bố tôi đang kinh doanh một nhà hàng nhỏ.",
+        "en": "My father runs a small restaurant."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_323",
+    "kanji": "反省",
+    "hiragana": "はんせい",
+    "meaning": {
+      "vi": "tự kiểm tra, kiểm điểm",
+      "en": "reflection / self-examination"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "自分のミスを深く反省した。",
+        "vi": "Tôi đã kiểm điểm sâu sắc về lỗi lầm của bản thân.",
+        "en": "I deeply reflected on my mistake."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_324",
+    "kanji": "実行",
+    "hiragana": "じっこう",
+    "meaning": {
+      "vi": "thực hành, thực thi",
+      "en": "execution / putting into practice"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "計画を行動に移して実行する。",
+        "vi": "Chuyển kế hoạch thành hành động và thực thi.",
+        "en": "Put the plan into action and execute it."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_325",
+    "kanji": "進歩",
+    "hiragana": "しんぽ",
+    "meaning": {
+      "vi": "tiến bộ",
+      "en": "progress / advance"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "科学の進歩によって生活が便利になった。",
+        "vi": "Nhờ sự tiến bộ của khoa học mà cuộc sống trở nên tiện lợi.",
+        "en": "Life has become convenient due to the progress of science."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_326",
+    "kanji": "変化",
+    "hiragana": "へんか",
+    "meaning": {
+      "vi": "thay đổi, biến hóa",
+      "en": "change / variation"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "最近、彼の態度に変化が見られる。",
+        "vi": "Gần đây có thể thấy sự thay đổi trong thái độ của anh ấy.",
+        "en": "Recently, a change can be seen in his attitude."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_327",
+    "kanji": "発達",
+    "hiragana": "はったつ",
+    "meaning": {
+      "vi": "phát triển",
+      "en": "development / growth"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "子供の心と体が発達する。",
+        "vi": "Trái tim và cơ thể của trẻ em phát triển.",
+        "en": "Children's minds and bodies develop."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_328",
+    "kanji": "体力",
+    "hiragana": "たいりょく",
+    "meaning": {
+      "vi": "thể lực",
+      "en": "physical strength"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "運動して体力をつける。",
+        "vi": "Tập thể dục để rèn luyện thể lực.",
+        "en": "Exercise to build physical strength."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_329",
+    "kanji": "出場",
+    "hiragana": "しゅつじょう",
+    "meaning": {
+      "vi": "tham dự",
+      "en": "participation / appearance (in a game)"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "彼はオリンピックに出場した。",
+        "vi": "Anh ấy đã tham dự Olympic.",
+        "en": "He participated in the Olympics."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_330",
+    "kanji": "活躍",
+    "hiragana": "かつやく",
+    "meaning": {
+      "vi": "hoạt động, thi đấu nổi bật",
+      "en": "active participation / great success"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日本の選手が海外で活躍している。",
+        "vi": "Cầu thủ Nhật Bản đang thi đấu nổi bật ở nước ngoài.",
+        "en": "Japanese athletes are actively playing abroad."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_331",
+    "kanji": "競争",
+    "hiragana": "きょうそう",
+    "meaning": {
+      "vi": "cạnh tranh",
+      "en": "competition"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "このクラスは成績の競争が激しい。",
+        "vi": "Lớp này cạnh tranh thành tích rất gay gắt.",
+        "en": "The competition for grades in this class is fierce."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_332",
+    "kanji": "応援",
+    "hiragana": "おうえん",
+    "meaning": {
+      "vi": "cổ vũ",
+      "en": "cheering / support"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "好きなチームを大声で応援する。",
+        "vi": "Cổ vũ lớn tiếng cho đội bóng yêu thích.",
+        "en": "Cheer loudly for your favorite team."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_333",
+    "kanji": "拍手",
+    "hiragana": "はくしゅ",
+    "meaning": {
+      "vi": "vỗ tay",
+      "en": "applause / clapping"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "素晴らしい演奏に拍手を送った。",
+        "vi": "Chúng tôi đã gửi tràng vỗ tay cho màn trình diễn tuyệt vời.",
+        "en": "We gave applause to the wonderful performance."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_334",
+    "kanji": "人気",
+    "hiragana": "にんき",
+    "meaning": {
+      "vi": "nổi tiếng, được hâm mộ",
+      "en": "popularity"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "あの店は若者に人気がある。",
+        "vi": "Quán đó rất được giới trẻ hâm mộ.",
+        "en": "That shop is popular among young people."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_335",
+    "kanji": "",
+    "hiragana": "うわさ",
+    "meaning": {
+      "vi": "tin đồn",
+      "en": "rumor"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "二人が結婚するといううわさを聞いた。",
+        "vi": "Tôi nghe tin đồn rằng hai người đó sẽ kết hôn.",
+        "en": "I heard a rumor that they are getting married."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_336",
+    "kanji": "情報",
+    "hiragana": "じょうほう",
+    "meaning": {
+      "vi": "thông tin",
+      "en": "information"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "インターネットで旅行の情報を集める。",
+        "vi": "Thu thập thông tin du lịch trên Internet.",
+        "en": "Gather travel information on the internet."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_337",
+    "kanji": "交換",
+    "hiragana": "こうかん",
+    "meaning": {
+      "vi": "trao đổi",
+      "en": "exchange"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "友達とプレゼントを交換した。",
+        "vi": "Tôi đã trao đổi quà với bạn bè.",
+        "en": "I exchanged presents with my friends."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_338",
+    "kanji": "流行",
+    "hiragana": "りゅうこう",
+    "meaning": {
+      "vi": "trào lưu, thịnh hành",
+      "en": "trend / fashion"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "今年の冬は黒いコートが流行している。",
+        "vi": "Mùa đông năm nay áo khoác đen đang thịnh hành.",
+        "en": "Black coats are in fashion this winter."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_339",
+    "kanji": "宣伝",
+    "hiragana": "せんでん",
+    "meaning": {
+      "vi": "tuyên truyền, quảng bá",
+      "en": "publicity / advertisement"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "新商品の宣伝のためにポスターを配る。",
+        "vi": "Phát áp phích để quảng bá sản phẩm mới.",
+        "en": "Distribute posters to publicize the new product."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_340",
+    "kanji": "広告",
+    "hiragana": "こうこく",
+    "meaning": {
+      "vi": "quảng cáo",
+      "en": "advertisement"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "雑誌に化粧品の広告が出ている。",
+        "vi": "Có quảng cáo mỹ phẩm xuất hiện trên tạp chí.",
+        "en": "There is a cosmetics advertisement in the magazine."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_341",
+    "kanji": "注目",
+    "hiragana": "ちゅうもく",
+    "meaning": {
+      "vi": "chú trọng, chú ý",
+      "en": "attention / notice"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "彼の新しい映画が世界中で注目されている。",
+        "vi": "Bộ phim mới của anh ấy đang được chú ý trên toàn thế giới.",
+        "en": "His new movie is gaining attention worldwide."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_342",
+    "kanji": "通訳",
+    "hiragana": "つうやく",
+    "meaning": {
+      "vi": "thông dịch",
+      "en": "interpretation"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "会議で英語の通訳をする。",
+        "vi": "Thông dịch tiếng Anh tại cuộc họp.",
+        "en": "Do English interpretation at the meeting."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_343",
+    "kanji": "翻訳",
+    "hiragana": "ほんやく",
+    "meaning": {
+      "vi": "biên dịch",
+      "en": "translation"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日本の小説を英語に翻訳する。",
+        "vi": "Biên dịch tiểu thuyết Nhật sang tiếng Anh.",
+        "en": "Translate Japanese novels into English."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_344",
+    "kanji": "伝言",
+    "hiragana": "でんごん",
+    "meaning": {
+      "vi": "tin nhắn thoại, lời nhắn",
+      "en": "message"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "山田さんからの伝言をお伝えします。",
+        "vi": "Tôi xin chuyển lại lời nhắn từ anh Yamada.",
+        "en": "I will pass on the message from Mr. Yamada."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_345",
+    "kanji": "報告",
+    "hiragana": "ほうこく",
+    "meaning": {
+      "vi": "báo cáo",
+      "en": "report"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "出張の結果を社長に報告する。",
+        "vi": "Báo cáo kết quả chuyến công tác cho giám đốc.",
+        "en": "Report the results of the business trip to the president."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_346",
+    "kanji": "録画",
+    "hiragana": "ろくが",
+    "meaning": {
+      "vi": "ghi lại, ghi hình",
+      "en": "video recording"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "見たい番組をビデオに録画する。",
+        "vi": "Ghi hình lại chương trình muốn xem vào video.",
+        "en": "Record the program I want to watch on video."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_347",
+    "kanji": "混雑",
+    "hiragana": "こんざつ",
+    "meaning": {
+      "vi": "hỗn tạp, đông đúc",
+      "en": "congestion / crowding"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "休日のデパートは大変混雑している。",
+        "vi": "Trung tâm thương mại ngày nghỉ vô cùng hỗn tạp, đông đúc.",
+        "en": "The department store is very crowded on holidays."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_348",
+    "kanji": "渋滞",
+    "hiragana": "じゅうたい",
+    "meaning": {
+      "vi": "tắc đường",
+      "en": "traffic jam"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "高速道路が渋滞して、車が進まない。",
+        "vi": "Đường cao tốc bị tắc nghẽn, xe không nhích lên được.",
+        "en": "The highway is jammed, and cars are not moving."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_349",
+    "kanji": "衝突",
+    "hiragana": "しょうとつ",
+    "meaning": {
+      "vi": "xung đột, va chạm",
+      "en": "collision / conflict"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "交差点でバスとトラックが衝突した。",
+        "vi": "Xe buýt và xe tải đã va chạm ở ngã tư.",
+        "en": "A bus and a truck collided at the intersection."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_350",
+    "kanji": "被害",
+    "hiragana": "ひがい",
+    "meaning": {
+      "vi": "thiệt hại",
+      "en": "damage"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "地震で大きな被害が出た。",
+        "vi": "Trận động đất đã gây ra thiệt hại lớn.",
+        "en": "Great damage was caused by the earthquake."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_351",
+    "kanji": "事故",
+    "hiragana": "じこ",
+    "meaning": {
+      "vi": "tai nạn",
+      "en": "accident"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "交通事故に気をつけてください。",
+        "vi": "Hãy cẩn thận tai nạn giao thông.",
+        "en": "Please be careful of traffic accidents."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_352",
+    "kanji": "事件",
+    "hiragana": "じけん",
+    "meaning": {
+      "vi": "sự kiện, vụ án",
+      "en": "incident / case"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "近所で殺人事件が起きた。",
+        "vi": "Một vụ án giết người đã xảy ra ở khu vực lân cận.",
+        "en": "A murder case occurred in the neighborhood."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_353",
+    "kanji": "故障",
+    "hiragana": "こしょう",
+    "meaning": {
+      "vi": "hỏng hóc",
+      "en": "breakdown / failure"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "パソコンが故障して、データが消えた。",
+        "vi": "Máy tính bị hỏng nên dữ liệu đã bị xóa.",
+        "en": "The computer broke down and the data was erased."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_354",
+    "kanji": "修理",
+    "hiragana": "しゅうり",
+    "meaning": {
+      "vi": "sửa chữa",
+      "en": "repair"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "壊れた時計を修理に出す。",
+        "vi": "Đem chiếc đồng hồ hỏng đi sửa chữa.",
+        "en": "Send the broken watch in for repair."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_355",
+    "kanji": "停電",
+    "hiragana": "ていでん",
+    "meaning": {
+      "vi": "mất điện",
+      "en": "power outage"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "雷が落ちて、停電になった。",
+        "vi": "Sét đánh nên đã bị mất điện.",
+        "en": "Lightning struck and there was a power outage."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_356",
+    "kanji": "調子",
+    "hiragana": "ちょうし",
+    "meaning": {
+      "vi": "trạng thái, tình trạng",
+      "en": "condition / state"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "今日は体の調子が悪い。",
+        "vi": "Hôm nay tình trạng cơ thể tôi không được tốt.",
+        "en": "My physical condition is bad today."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_357",
+    "kanji": "緊張",
+    "hiragana": "きんちょう",
+    "meaning": {
+      "vi": "căng thẳng, lo lắng",
+      "en": "tension / nervousness"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "面接の前にとても緊張した。",
+        "vi": "Tôi đã rất căng thẳng trước buổi phỏng vấn.",
+        "en": "I was very nervous before the interview."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_358",
+    "kanji": "自信",
+    "hiragana": "じしん",
+    "meaning": {
+      "vi": "tự tin",
+      "en": "self-confidence"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "一生懸命練習したので、勝つ自信がある。",
+        "vi": "Vì đã luyện tập hết sức nên tôi có tự tin chiến thắng.",
+        "en": "Since I practiced hard, I have the confidence to win."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_359",
+    "kanji": "自慢",
+    "hiragana": "じまん",
+    "meaning": {
+      "vi": "tự mãn, khoe khoang",
+      "en": "boasting / pride"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "彼はいつも成績がいいことを自慢している。",
+        "vi": "Anh ấy lúc nào cũng khoe khoang việc có thành tích tốt.",
+        "en": "He is always boasting about having good grades."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_360",
+    "kanji": "感心",
+    "hiragana": "かんしん",
+    "meaning": {
+      "vi": "ngưỡng mộ, quan tâm",
+      "en": "admiration"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "彼女の努力には本当に感心する。",
+        "vi": "Tôi thực sự ngưỡng mộ sự nỗ lực của cô ấy.",
+        "en": "I really admire her effort."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_361",
+    "kanji": "感動",
+    "hiragana": "かんどう",
+    "meaning": {
+      "vi": "cảm động",
+      "en": "being deeply moved"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "素晴らしい映画を見て感動した。",
+        "vi": "Tôi đã cảm động khi xem một bộ phim tuyệt vời.",
+        "en": "I was deeply moved watching a wonderful movie."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_362",
+    "kanji": "興奮",
+    "hiragana": "こうふん",
+    "meaning": {
+      "vi": "hưng phấn",
+      "en": "excitement"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "試合に勝って、選手たちは興奮している。",
+        "vi": "Thắng trận nên các cầu thủ đang rất hưng phấn.",
+        "en": "The players are excited after winning the game."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_363",
+    "kanji": "感想",
+    "hiragana": "かんそう",
+    "meaning": {
+      "vi": "cảm tưởng",
+      "en": "impression / thoughts"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "本を読んだ感想を文に書く。",
+        "vi": "Viết cảm tưởng sau khi đọc xong cuốn sách.",
+        "en": "Write down your thoughts after reading the book."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_364",
+    "kanji": "予想",
+    "hiragana": "よそう",
+    "meaning": {
+      "vi": "dự đoán",
+      "en": "expectation / prediction"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "選挙の結果は予想通りだった。",
+        "vi": "Kết quả bầu cử đúng như dự đoán.",
+        "en": "The election results were as predicted."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_365",
+    "kanji": "専門",
+    "hiragana": "せんもん",
+    "meaning": {
+      "vi": "chuyên môn",
+      "en": "specialty / major"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "大学で経済学を専門に勉強する。",
+        "vi": "Tôi học chuyên môn về kinh tế học ở đại học.",
+        "en": "I major in economics at the university."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_366",
+    "kanji": "研究",
+    "hiragana": "けんきゅう",
+    "meaning": {
+      "vi": "nghiên cứu",
+      "en": "research"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "新しい薬の研究を進めている。",
+        "vi": "Đang tiến hành nghiên cứu loại thuốc mới.",
+        "en": "We are advancing research on a new medicine."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_367",
+    "kanji": "調査",
+    "hiragana": "ちょうさ",
+    "meaning": {
+      "vi": "điều tra",
+      "en": "investigation / survey"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "アンケートで消費者の意見を調査する。",
+        "vi": "Điều tra ý kiến của người tiêu dùng bằng phiếu khảo sát.",
+        "en": "Survey consumer opinions using a questionnaire."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_368",
+    "kanji": "原因",
+    "hiragana": "げんいん",
+    "meaning": {
+      "vi": "nguyên nhân",
+      "en": "cause"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "火事の原因はまだわからない。",
+        "vi": "Vẫn chưa biết nguyên nhân của vụ hỏa hoạn.",
+        "en": "The cause of the fire is still unknown."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_369",
+    "kanji": "結果",
+    "hiragana": "けっか",
+    "meaning": {
+      "vi": "kết quả",
+      "en": "result"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "努力した結果、試験に合格した。",
+        "vi": "Kết quả của sự nỗ lực là tôi đã đỗ kỳ thi.",
+        "en": "As a result of my effort, I passed the exam."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_370",
+    "kanji": "解決",
+    "hiragana": "かいけつ",
+    "meaning": {
+      "vi": "giải quyết",
+      "en": "solution / resolution"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "話し合いで問題を解決する。",
+        "vi": "Giải quyết vấn đề bằng việc thảo luận.",
+        "en": "Resolve the problem through discussion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_371",
+    "kanji": "確認",
+    "hiragana": "かくにん",
+    "meaning": {
+      "vi": "xác nhận",
+      "en": "confirmation"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "出発の前に荷物を確認する。",
+        "vi": "Xác nhận lại hành lý trước khi xuất phát.",
+        "en": "Confirm your luggage before departure."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_372",
+    "kanji": "利用",
+    "hiragana": "りよう",
+    "meaning": {
+      "vi": "sử dụng",
+      "en": "use / utilization"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "水と風の力を利用して電気を作る。",
+        "vi": "Sử dụng sức nước và gió để tạo ra điện.",
+        "en": "Utilize the power of water and wind to generate electricity."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_373",
+    "kanji": "理解",
+    "hiragana": "りかい",
+    "meaning": {
+      "vi": "lý giải, hiểu",
+      "en": "understanding"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "先生の説明を聞いて、意味を理解した。",
+        "vi": "Nghe giáo viên giải thích xong thì tôi đã hiểu ý nghĩa.",
+        "en": "I understood the meaning after hearing the teacher's explanation."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_374",
+    "kanji": "発見",
+    "hiragana": "はっけん",
+    "meaning": {
+      "vi": "phát kiến, tìm ra",
+      "en": "discovery"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "コロンブスがアメリカ大陸を発見した。",
+        "vi": "Columbus đã phát kiến ra lục địa Châu Mỹ.",
+        "en": "Columbus discovered the American continent."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_375",
+    "kanji": "発明",
+    "hiragana": "はつめい",
+    "meaning": {
+      "vi": "phát minh",
+      "en": "invention"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "エジソンは電球を発明した。",
+        "vi": "Edison đã phát minh ra bóng đèn điện.",
+        "en": "Edison invented the light bulb."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_376",
+    "kanji": "関係",
+    "hiragana": "かんけい",
+    "meaning": {
+      "vi": "quan hệ",
+      "en": "relationship"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "あの二人はとてもいい関係を築いている。",
+        "vi": "Hai người đó đang xây dựng một mối quan hệ rất tốt.",
+        "en": "Those two are building a very good relationship."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_377",
+    "kanji": "団体",
+    "hiragana": "だんたい",
+    "meaning": {
+      "vi": "đoàn thể, nhóm",
+      "en": "organization / group"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "美術館に団体客が入ってきた。",
+        "vi": "Một nhóm khách đoàn đã vào bảo tàng mỹ thuật.",
+        "en": "A tour group entered the art museum."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_378",
+    "kanji": "選挙",
+    "hiragana": "せんきょ",
+    "meaning": {
+      "vi": "bầu cử",
+      "en": "election"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "明日は市長を選ぶ選挙がある。",
+        "vi": "Ngày mai có cuộc bầu cử chọn thị trưởng.",
+        "en": "Tomorrow there is an election to choose the mayor."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_379",
+    "kanji": "税金",
+    "hiragana": "ぜいきん",
+    "meaning": {
+      "vi": "thuế",
+      "en": "tax"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "国民は税金を払わなければならない。",
+        "vi": "Người dân phải nộp thuế.",
+        "en": "Citizens must pay taxes."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_380",
+    "kanji": "責任",
+    "hiragana": "せきにん",
+    "meaning": {
+      "vi": "trách nhiệm",
+      "en": "responsibility"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "失敗の責任は私が取ります。",
+        "vi": "Tôi sẽ chịu trách nhiệm cho thất bại này.",
+        "en": "I will take responsibility for the failure."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_381",
+    "kanji": "書類",
+    "hiragana": "しょるい",
+    "meaning": {
+      "vi": "tài liệu, giấy tờ",
+      "en": "document"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "会議のための書類を準備する。",
+        "vi": "Chuẩn bị tài liệu cho cuộc họp.",
+        "en": "Prepare documents for the meeting."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_382",
+    "kanji": "題名",
+    "hiragana": "だいめい",
+    "meaning": {
+      "vi": "tiêu đề",
+      "en": "title"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "この本の題名は何ですか。",
+        "vi": "Tiêu đề của cuốn sách này là gì?",
+        "en": "What is the title of this book?"
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_383",
+    "kanji": "条件",
+    "hiragana": "じょうけん",
+    "meaning": {
+      "vi": "điều kiện",
+      "en": "condition"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "良い条件の仕事を見つけたい。",
+        "vi": "Tôi muốn tìm một công việc có điều kiện tốt.",
+        "en": "I want to find a job with good conditions."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_384",
+    "kanji": "締め切り",
+    "hiragana": "しめきり",
+    "meaning": {
+      "vi": "hạn cuối",
+      "en": "deadline"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "レポートの締め切りは明日までだ。",
+        "vi": "Hạn cuối của báo cáo là đến ngày mai.",
+        "en": "The deadline for the report is tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_385",
+    "kanji": "期間",
+    "hiragana": "きかん",
+    "meaning": {
+      "vi": "thời gian, thời kỳ",
+      "en": "period / term"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "テストの期間は図書館が混む。",
+        "vi": "Thời gian thi cử thì thư viện rất đông.",
+        "en": "The library is crowded during the exam period."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_386",
+    "kanji": "倍",
+    "hiragana": "ばい",
+    "meaning": {
+      "vi": "gấp (lần)",
+      "en": "double / times"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "値段が二倍になった。",
+        "vi": "Giá cả đã tăng lên gấp đôi.",
+        "en": "The price has doubled."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_387",
+    "kanji": "",
+    "hiragana": "くじ",
+    "meaning": {
+      "vi": "xổ số, rút thăm",
+      "en": "lottery / drawing lots"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "スーパーでくじを引いたら、テレビが当たった。",
+        "vi": "Rút thăm ở siêu thị thì tôi đã trúng cái tivi.",
+        "en": "I drew a lot at the supermarket and won a TV."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_388",
+    "kanji": "近道",
+    "hiragana": "ちかみち",
+    "meaning": {
+      "vi": "đường tắt",
+      "en": "shortcut"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "駅への近道を通る。",
+        "vi": "Đi qua đường tắt để đến nhà ga.",
+        "en": "Take a shortcut to the station."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_389",
+    "kanji": "中心",
+    "hiragana": "ちゅうしん",
+    "meaning": {
+      "vi": "trung tâm",
+      "en": "center"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "町の中心に大きな公園がある。",
+        "vi": "Có một công viên lớn ở trung tâm thị trấn.",
+        "en": "There is a large park in the center of the town."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_390",
+    "kanji": "辺り",
+    "hiragana": "あたり",
+    "meaning": {
+      "vi": "gần, lân cận",
+      "en": "vicinity / nearby"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "この辺りは昔、海だったそうです。",
+        "vi": "Nghe nói vùng lân cận này ngày xưa là biển.",
+        "en": "I heard this vicinity used to be the sea."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_391",
+    "kanji": "周り",
+    "hiragana": "まわり",
+    "meaning": {
+      "vi": "xung quanh, vòng quanh",
+      "en": "surroundings"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "池の周りを走る。",
+        "vi": "Chạy vòng quanh hồ.",
+        "en": "Run around the pond."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_392",
+    "kanji": "穴",
+    "hiragana": "あな",
+    "meaning": {
+      "vi": "cái lỗ",
+      "en": "hole"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "服に小さな穴が空いている。",
+        "vi": "Có một lỗ thủng nhỏ trên quần áo.",
+        "en": "There is a small hole in the clothes."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_393",
+    "kanji": "列",
+    "hiragana": "れつ",
+    "meaning": {
+      "vi": "hàng, dãy",
+      "en": "line / row"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "レジの前に長い列ができている。",
+        "vi": "Có một hàng dài được xếp trước quầy thu ngân.",
+        "en": "A long line has formed in front of the cash register."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_394",
+    "kanji": "幅",
+    "hiragana": "はば",
+    "meaning": {
+      "vi": "chiều rộng",
+      "en": "width"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "この道は幅が狭くて、車が通れない。",
+        "vi": "Con đường này chiều rộng hẹp, ô tô không đi qua được.",
+        "en": "The width of this road is narrow, so cars cannot pass."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_395",
+    "kanji": "範囲",
+    "hiragana": "はんい",
+    "meaning": {
+      "vi": "phạm vi",
+      "en": "range / scope"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "明日のテストの範囲を教えてください。",
+        "vi": "Hãy cho em biết phạm vi bài kiểm tra ngày mai.",
+        "en": "Please tell me the scope of tomorrow's test."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_396",
+    "kanji": "内容",
+    "hiragana": "ないよう",
+    "meaning": {
+      "vi": "nội dung",
+      "en": "content"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "手紙の内容を読んで驚いた。",
+        "vi": "Đọc nội dung bức thư mà tôi ngạc nhiên.",
+        "en": "I was surprised reading the content of the letter."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_397",
+    "kanji": "中身",
+    "hiragana": "なかみ",
+    "meaning": {
+      "vi": "bên trong (đồ chứa)",
+      "en": "contents / interior"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "箱を開けて中身を確認する。",
+        "vi": "Mở hộp ra để xác nhận đồ bên trong.",
+        "en": "Open the box and check the contents."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_398",
+    "kanji": "特徴",
+    "hiragana": "とくちょう",
+    "meaning": {
+      "vi": "đặc trưng",
+      "en": "characteristic / feature"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "この製品の特徴は何ですか。",
+        "vi": "Đặc trưng của sản phẩm này là gì?",
+        "en": "What is the feature of this product?"
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_399",
+    "kanji": "普通",
+    "hiragana": "ふつう",
+    "meaning": {
+      "vi": "bình thường",
+      "en": "ordinary / normal"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "休日は普通、家でゴロゴロしている。",
+        "vi": "Ngày nghỉ tôi bình thường chỉ nằm lăn lóc ở nhà.",
+        "en": "On holidays, I normally just lounge around at home."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_400",
+    "kanji": "当たり前",
+    "hiragana": "あたりまえ",
+    "meaning": {
+      "vi": "đương nhiên",
+      "en": "natural / obvious"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "嘘をついたら怒られるのは当たり前だ。",
+        "vi": "Nói dối thì bị mắng là chuyện đương nhiên.",
+        "en": "It is obvious that you will be scolded if you lie."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_401",
+    "kanji": "偽",
+    "hiragana": "にせ",
+    "meaning": {
+      "vi": "giả mạo",
+      "en": "fake"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "警察は偽のお札を作った犯人を捕まえた。",
+        "vi": "Cảnh sát đã bắt được thủ phạm làm tiền giả.",
+        "en": "The police caught the criminal who made fake bills."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_402",
+    "kanji": "別",
+    "hiragana": "べつ",
+    "meaning": {
+      "vi": "khác, riêng biệt",
+      "en": "different / separate"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "その話とこの話は別です。",
+        "vi": "Chuyện đó và chuyện này là hai việc khác nhau.",
+        "en": "That story and this story are separate things."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_403",
+    "kanji": "国籍",
+    "hiragana": "こくせき",
+    "meaning": {
+      "vi": "quốc tịch",
+      "en": "nationality"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "私の国籍はベトナムです。",
+        "vi": "Quốc tịch của tôi là Việt Nam.",
+        "en": "My nationality is Vietnamese."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_404",
+    "kanji": "東洋",
+    "hiragana": "とうよう",
+    "meaning": {
+      "vi": "phương đông",
+      "en": "the East / Orient"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "東洋の文化に興味がある。",
+        "vi": "Tôi có hứng thú với văn hóa phương Đông.",
+        "en": "I am interested in Eastern culture."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_405",
+    "kanji": "西洋",
+    "hiragana": "せいよう",
+    "meaning": {
+      "vi": "phương tây",
+      "en": "the West"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "西洋の歴史について勉強する。",
+        "vi": "Tôi học về lịch sử phương Tây.",
+        "en": "I study about Western history."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_406",
+    "kanji": "国際",
+    "hiragana": "こくさい",
+    "meaning": {
+      "vi": "quốc tế",
+      "en": "international"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日本で国際会議が開かれる。",
+        "vi": "Một hội nghị quốc tế sẽ được mở tại Nhật Bản.",
+        "en": "An international conference will be held in Japan."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_407",
+    "kanji": "自然",
+    "hiragana": "しぜん",
+    "meaning": {
+      "vi": "tự nhiên, thiên nhiên",
+      "en": "nature"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "週末は自然の中でリラックスしたい。",
+        "vi": "Cuối tuần tôi muốn thư giãn giữa thiên nhiên.",
+        "en": "I want to relax in nature on the weekend."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_408",
+    "kanji": "景色",
+    "hiragana": "けしき",
+    "meaning": {
+      "vi": "phong cảnh",
+      "en": "scenery"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "山の頂上から美しい景色を見た。",
+        "vi": "Tôi đã ngắm nhìn phong cảnh tuyệt đẹp từ đỉnh núi.",
+        "en": "I saw beautiful scenery from the top of the mountain."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_409",
+    "kanji": "宗教",
+    "hiragana": "しゅうきょう",
+    "meaning": {
+      "vi": "tôn giáo",
+      "en": "religion"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "世界にはさまざまな宗教がある。",
+        "vi": "Trên thế giới có rất nhiều loại tôn giáo khác nhau.",
+        "en": "There are various religions in the world."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_04_410",
+    "kanji": "愛",
+    "hiragana": "あい",
+    "meaning": {
+      "vi": "tình yêu",
+      "en": "love"
+    },
+    "type": "noun",
+    "level": "N3",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "親は子供に深い愛を注ぐ。",
+        "vi": "Cha mẹ trút tình yêu sâu đậm cho con cái.",
+        "en": "Parents pour deep love into their children."
+      }
+    ]
+  }
+]

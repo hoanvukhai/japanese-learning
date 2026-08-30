@@ -1,0 +1,202 @@
+[
+  {
+    "id": "g_rkn3_20_01",
+    "level": "N3",
+    "structure": "〜最中に",
+    "structureKana": "〜さいちゅうに",
+    "meaning": {
+      "vi": "Đúng lúc đang... (thì bị ngắt quãng bởi sự cố đột ngột)",
+      "en": "Right in the middle of... (interrupted by a sudden incident)"
+    },
+    "formation": [
+      "Vている + 最中に",
+      "N-の + 最中に"
+    ],
+    "lesson": "Bài 20",
+    "group": "TimeSequence",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Vế sau LUÔN là MỘT SỰ CỐ ĐỘT NGỘT gây cản trở/phiền toái. Mạnh hơn ときに (thông thường). 最中に nhấn mạnh 'Đúng vào lúc bận nhất' → bị gián đoạn.",
+      "en": "⚠️ JLPT Trap: Latter clause is ALWAYS a SUDDEN INCIDENT causing interruption/inconvenience. Stronger than ときに (ordinary). 最中に emphasizes 'right at the most busy moment' → interrupted."
+    },
+    "examples": [
+      {
+        "jp": "シャワーを浴びている[最中に]、停電になった。",
+        "kana": "シャワーをあびている[さいちゅうに]、ていでんになった。",
+        "vi": "Đúng lúc đang tắm vòi sen thì bị cúp điện.",
+        "en": "Right in the middle of taking a shower, there was a power outage."
+      },
+      {
+        "jp": "会議の[最中に]携帯電話が鳴った。",
+        "kana": "かいぎの[さいちゅうに]けいたいでんわがなった。",
+        "vi": "Đúng lúc đang họp thì điện thoại di động reo lên.",
+        "en": "Right in the middle of the meeting, the mobile phone rang."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_20_02",
+    "level": "N3",
+    "structure": "〜て以来",
+    "structureKana": "〜ていらい",
+    "meaning": {
+      "vi": "Kể từ khi... (trạng thái mới được hình thành và kéo dài liên tục đến hiện tại)",
+      "en": "Since... / Ever since... (new state formed and continues to this day)"
+    },
+    "formation": [
+      "Vて + 以来",
+      "N + 以来"
+    ],
+    "lesson": "Bài 20",
+    "group": "TimeSequence",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Khác với てから (đơn thuần chỉ trình tự). 以来=Kể từ mốc đó, trạng thái MỚI hình thành và KÉO DÀI LIÊN TỤC đến nay. Vế sau thường đi với ずっと, まだ, 一度も〜ない. Không dùng cho quá khứ quá gần.",
+      "en": "⚠️ JLPT Trap: Unlike てから (mere sequence). 以来=Since that point, a NEW state formed and has CONTINUED UNTIL NOW. Latter clause often with ずっと, まだ, 一度も〜ない. Not for very recent past."
+    },
+    "examples": [
+      {
+        "jp": "日本に来て[以来]、ずっと同じアルバイトをしている。",
+        "kana": "にほんにきて[いらい]、ずっとおなじアルバイトをしている。",
+        "vi": "Kể từ khi đến Nhật, tôi cứ làm mãi một công việc làm thêm đó.",
+        "en": "Ever since coming to Japan, I have been doing the same part-time job."
+      },
+      {
+        "jp": "卒業[以来]、彼とは一度も会っていない。",
+        "kana": "そつぎょう[いらい]、かれとはいちどもあっていない。",
+        "vi": "Kể từ khi tốt nghiệp, tôi chưa gặp lại anh ấy một lần nào.",
+        "en": "Ever since graduation, I haven't met him even once."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_20_03",
+    "level": "N3",
+    "structure": "〜てからでないと",
+    "structureKana": "〜てからでないと",
+    "meaning": {
+      "vi": "Nếu chưa... thì không thể... (điều kiện tiên quyết phải hoàn thành trước)",
+      "en": "Unless... first / Until (A) is done, cannot (B)"
+    },
+    "formation": [
+      "Vて + からでないと / からでなければ + ~ない / ~できない"
+    ],
+    "lesson": "Bài 20",
+    "group": "Condition_Hypothesis",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Nhấn mạnh điều kiện TIÊN QUYẾT phải hoàn thành trước. Vế B LUÔN đi với phủ định hoặc ý nghĩa 'không thể'. Phân biệt với てから (chỉ trình tự thông thường, không nhấn mạnh điều kiện bắt buộc).",
+      "en": "⚠️ JLPT Trap: Emphasizes a PREREQUISITE that must be completed first. Clause B ALWAYS with negative or 'impossible' meaning. Vs. てから (simple sequence, no mandatory condition emphasis)."
+    },
+    "examples": [
+      {
+        "jp": "親に相談して[からでないと]、決められません。",
+        "kana": "おやにそうだんして[からでないと]、きめられません。",
+        "vi": "Nếu chưa bàn bạc với bố mẹ thì tôi không thể quyết định được.",
+        "en": "Unless I consult with my parents first, I cannot decide."
+      },
+      {
+        "jp": "この仕事が終わって[からでなければ]、帰れない。",
+        "kana": "このしごとがおわって[からでなければ]、かえれない。",
+        "vi": "Nếu công việc này chưa xong thì tôi không thể đi về.",
+        "en": "Until this job is finished, I cannot go home."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_20_04",
+    "level": "N3",
+    "structure": "〜からといって",
+    "structureKana": "〜からといって",
+    "meaning": {
+      "vi": "Cho dù nói là... (nhưng cũng không hẳn là... / cũng không được vì thế mà...)",
+      "en": "Just because... (doesn't mean... / doesn't justify...)"
+    },
+    "formation": [
+      "Thể thông thường + からといって + ~わけではない / ~とは限らない / ~てはいけない"
+    ],
+    "lesson": "Bài 20",
+    "group": "Contrast",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Phản bác lại suy nghĩ thông thường. Vế sau LUÔN đi với phủ định một phần (わけではない, とは限らない) hoặc cấm đoán (てはいけない). Đừng nhầm với からこそ (chính vì... nên...).",
+      "en": "⚠️ JLPT Trap: Refutes a common assumption. Latter clause ALWAYS with partial negation (わけではない, とは限らない) or prohibition (てはいけない). Don't confuse with からこそ (precisely because... therefore...)."
+    },
+    "examples": [
+      {
+        "jp": "日本人だ[からといって]、漢字が全部書けるわけではない。",
+        "kana": "にほんじんだ[からといって]、かんじがぜんぶかけるわけではない。",
+        "vi": "Cho dù nói là người Nhật thì cũng không hẳn là có thể viết được toàn bộ chữ Kanji.",
+        "en": "Just because someone is Japanese doesn't mean they can write all kanji."
+      },
+      {
+        "jp": "便利だ[からといって]、ネットばかり使うのはよくない。",
+        "kana": "べんりだ[からといって]、ネットばかりつかうのはよくない。",
+        "vi": "Cho dù nói là tiện lợi nhưng chỉ toàn dùng mạng internet là không tốt.",
+        "en": "Just because it's convenient doesn't mean it's good to only use the internet."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_20_05",
+    "level": "N3",
+    "structure": "〜わりに（は）",
+    "structureKana": "〜わりに（は）",
+    "meaning": {
+      "vi": "Dù... thế mà... (mức độ thực tế không tương xứng với tiêu chuẩn kỳ vọng)",
+      "en": "Considering... / For a... (actual result unexpected relative to the standard)"
+    },
+    "formation": [
+      "Thể thông thường (N-の / A-な) + わりに（は）"
+    ],
+    "lesson": "Bài 20",
+    "group": "Contrast",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Kết quả thực tế TRÁI VỚI KỲ VỌNG thông thường (có thể tốt hơn hoặc kém hơn). Trung lập, không mang sắc thái chê bai như くせに. Hay dùng với từ chỉ giá cả, tuổi tác.",
+      "en": "⚠️ JLPT Trap: Actual result CONTRARY TO EXPECTATION (can be better or worse). Neutral, unlike くせに (carries blame/contempt). Often with words indicating price or age."
+    },
+    "examples": [
+      {
+        "jp": "あのレストランは、値段が安い[わりには]美味しい。",
+        "kana": "あのレストランは、ねだんがやすい[わりには]おいしい。",
+        "vi": "Nhà hàng kia, mức giá rẻ thế mà ăn lại ngon.",
+        "en": "That restaurant is delicious considering how cheap the price is."
+      },
+      {
+        "jp": "彼は年の[わりに]、若く見える。",
+        "kana": "かれはとしの[わりに]、わかくみえる。",
+        "vi": "Anh ấy trông trẻ hơn nhiều so với tuổi của mình.",
+        "en": "He looks young for his age."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_20_06",
+    "level": "N3",
+    "structure": "〜くせに",
+    "structureKana": "〜くせに",
+    "meaning": {
+      "vi": "Dù... thế mà... (tức giận, khinh thường vì hành động trái với những gì đáng lẽ phải làm)",
+      "en": "Even though... / And yet... (carries anger, contempt, or blame)"
+    },
+    "formation": [
+      "Thể thông thường (N-の / A-な) + くせに"
+    ],
+    "lesson": "Bài 20",
+    "group": "Contrast",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT siêu bẫy — 2 điều phải nhớ: (1) Cảm xúc LUÔN là TỨC GIẬN hoặc KHINH THƯỜNG. (2) Chủ ngữ 2 vế PHẢI CÙNG MỘT NGƯỜI và TUYỆT ĐỐI không dùng cho bản thân mình. Phân biệt với わりに (trung lập).",
+      "en": "⚠️ JLPT Super trap — 2 things to remember: (1) Emotion is ALWAYS ANGER or CONTEMPT. (2) Subject in BOTH clauses MUST BE THE SAME PERSON and NEVER use for yourself. Vs. わりに (neutral)."
+    },
+    "examples": [
+      {
+        "jp": "彼は何も知らない[くせに]、文句ばかり言う。",
+        "kana": "かれはなにもしらない[くせに]、もんくばかりいう。",
+        "vi": "Anh ta chả biết cái gì thế mà chỉ toàn kêu ca phàn nàn.",
+        "en": "Even though he knows nothing, he does nothing but complain."
+      },
+      {
+        "jp": "男の[くせに]、そんなことで泣くなんて。",
+        "kana": "おとこの[くせに]、そんなことでなくなんて。",
+        "vi": "Đàn ông con trai thế mà lại đi khóc vì một chuyện như thế.",
+        "en": "Even though you're a man, to think you'd cry over something like that."
+      }
+    ]
+  }
+]

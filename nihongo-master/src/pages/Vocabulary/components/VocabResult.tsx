@@ -4,6 +4,9 @@ import { RefreshCw, CheckCircle2, XCircle, Clock, ChevronDown, ChevronUp, BookOp
 import { calcExp, LEVEL_CONFIG } from './VocabCommon';
 import type { Level, AttemptRecord } from './VocabCommon';
 import { getRankModifier, getStorageKey, saveBestRecord, getBestExp } from '../../../lib/rankSystem';
+import { syncPersonalHighScore } from '../../../lib/srs/firestoreSync';
+import { useAuth } from '../../../context/auth/useAuth';
+import { useEffect } from 'react';
 
 interface VocabResultProps {
   score: number;
@@ -32,12 +35,19 @@ export default function VocabResult({
   onRetry,
   onBack,
 }: VocabResultProps) {
+  const { user } = useAuth();
   const exp = calcExp(score, streak, timeLeft ?? 0, level, correct, total);
   const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total, maxExp);
 
   const storageKey = getStorageKey('vocab', level);
   const isNewBest = saveBestRecord(storageKey, exp, level, total, maxExp, correct === total);
   const bestExp = getBestExp(storageKey);
+
+  useEffect(() => {
+    if (user && isNewBest) {
+      syncPersonalHighScore(user.uid, storageKey, exp).catch(console.error);
+    }
+  }, [user, isNewBest, storageKey, exp]);
 
   // Review state
   const [showReview, setShowReview] = useState(false);
@@ -123,6 +133,11 @@ export default function VocabResult({
               <div className="text-xs text-slate-400 dark:text-slate-500">
                 🏆 Kỷ lục {LEVEL_CONFIG[level].label}: <strong className="text-slate-600 dark:text-slate-200">{bestExp} EXP</strong>
               </div>
+              {user && (
+                <div className="text-[11px] text-indigo-500 dark:text-indigo-400 font-medium flex items-center justify-center gap-1">
+                  ☁️ Kỷ lục đã tự động đồng bộ lên Cloud
+                </div>
+              )}
             </div>
 
             <div className="flex gap-2">

@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, ArrowRight, Trophy, Eye, EyeOff } from 'lucide-react';
-import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
 import type { Word } from '../../types';
 import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
 
@@ -20,7 +20,9 @@ function buildOptions(correct: Word, pool: Word[]): Word[] {
 }
 
 export default function VocabQuiz() {
-  const lessons = getN3Lessons();
+  const { course } = usePracticeContext();
+  const data = course.data as Word[];
+  const lessons = Array.from(new Set(data.map(w => w.lesson).filter(Boolean))) as string[];
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   const [showFurigana, setShowFurigana] = useState(false);
   const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
@@ -28,10 +30,10 @@ export default function VocabQuiz() {
 
   const pool = useMemo(() => {
     const base = selectedLessons.length === 0
-      ? vocabularyN3
-      : vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''));
+      ? data
+      : data.filter(w => selectedLessons.includes(w.lesson || ''));
     return shuffle(base);
-  }, [selectedLessons]);
+  }, [selectedLessons, data]);
 
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<Word | null>(null);
@@ -83,7 +85,7 @@ export default function VocabQuiz() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">📝 Trắc nghiệm</h1>
@@ -99,8 +101,8 @@ export default function VocabQuiz() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={vocabularyN3.length}
-              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => data.filter(w => w.lesson === l).length}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -194,7 +196,7 @@ export default function VocabQuiz() {
             <button onClick={handleRestart} className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-all">
               Làm lại
             </button>
-            <Link to="/practice/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-blue-400 transition-all text-center">
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-blue-400 transition-all text-center">
               Về dashboard
             </Link>
           </div>

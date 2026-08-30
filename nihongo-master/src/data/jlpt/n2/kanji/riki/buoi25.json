@@ -1,0 +1,924 @@
+[
+  {
+    "id": "k_rkn2_25_344",
+    "character": "敵",
+    "hanViet": "ĐỊCH",
+    "onyomi": "テキ",
+    "mnemonic": "Đứng (立) trên thành cổ (古) đánh (攵) kẻ địch (敵)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_344_1",
+        "word": "敵",
+        "hiragana": "てき",
+        "hanVietWord": "ĐỊCH",
+        "meaning": {
+          "vi": "Kẻ địch, đối thủ",
+          "en": "Enemy, opponent"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "敵を作らないために、言葉に気をつける",
+            "vi": "Để không tạo ra kẻ thù, tôi chú ý đến lời nói",
+            "en": "Be careful with words so as not to make enemies"
+          },
+          {
+            "jp": "敵か味方か",
+            "vi": "Là địch hay bạn",
+            "en": "Friend or foe"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_344_2",
+        "word": "敵対心",
+        "hiragana": "てきたいしん",
+        "hanVietWord": "ĐỊCH ĐỐI TÂM",
+        "meaning": {
+          "vi": "Lòng thù địch, sự thù hằn",
+          "en": "Hostility, enmity"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼女は同僚に敵対心をもちすぎている",
+            "vi": "Cô ấy mang quá nhiều lòng thù địch với đồng nghiệp",
+            "en": "She has too much hostility towards her colleagues"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_345",
+    "character": "領",
+    "hanViet": "LĨNH",
+    "onyomi": "リョウ",
+    "mnemonic": "Người đứng đầu (頁) được ra LỆNH (令) nên gọi là THỦ LĨNH (領)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_345_1",
+        "word": "領土",
+        "hiragana": "りょうど",
+        "hanVietWord": "LĨNH THỔ",
+        "meaning": {
+          "vi": "Lãnh thổ",
+          "en": "Territory"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "国同士が領土問題でもめている",
+            "vi": "Các nước đang tranh chấp về vấn đề lãnh thổ",
+            "en": "Countries are in dispute over territorial issues"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_345_2",
+        "word": "大統領",
+        "hiragana": "だいとうりょう",
+        "hanVietWord": "ĐẠI THỐNG LĨNH",
+        "meaning": {
+          "vi": "Tổng thống",
+          "en": "President"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "大統領",
+            "vi": "Tổng thống",
+            "en": "President"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_345_3",
+        "word": "領収書",
+        "hiragana": "りょうしゅうしょ",
+        "hanVietWord": "LĨNH THU THƯ",
+        "meaning": {
+          "vi": "Hóa đơn, biên lai",
+          "en": "Receipt"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "領収書をもらう",
+            "vi": "Nhận biên lai",
+            "en": "Receive a receipt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_346",
+    "character": "侵",
+    "hanViet": "XÂM",
+    "kunyomi": "おか-す",
+    "onyomi": "シン",
+    "mnemonic": "Đang ngủ (寝) có người (亻) xâm nhập (侵)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_346_1",
+        "word": "侵略",
+        "hiragana": "しんりゃく",
+        "hanVietWord": "XÂM LƯỢC",
+        "meaning": {
+          "vi": "Sự xâm lược",
+          "en": "Invasion, aggression"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "敵の領土を侵略する",
+            "vi": "Xâm lược lãnh thổ của địch",
+            "en": "Invade enemy territory"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_346_2",
+        "word": "侵入",
+        "hiragana": "しんにゅう",
+        "hanVietWord": "XÂM NHẬP",
+        "meaning": {
+          "vi": "Sự xâm nhập, đột nhập",
+          "en": "Invasion, intrusion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "犯人が建物に侵入した",
+            "vi": "Thủ phạm đã đột nhập vào tòa nhà",
+            "en": "The culprit broke into the building"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_346_3",
+        "word": "人権侵害",
+        "hiragana": "じんけんしんがい",
+        "hanVietWord": "NHÂN QUYỀN XÂM HẠI",
+        "meaning": {
+          "vi": "Sự vi phạm nhân quyền",
+          "en": "Human rights violation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "その発言は、人権侵害だ!",
+            "vi": "Phát ngôn đó là vi phạm nhân quyền!",
+            "en": "That remark is a violation of human rights!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_346_4",
+        "word": "侵す",
+        "hiragana": "おかす",
+        "hanVietWord": "XÂM",
+        "meaning": {
+          "vi": "Xâm phạm, vi phạm",
+          "en": "To invade, to violate"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "自由を侵す",
+            "vi": "Xâm phạm tự do",
+            "en": "Infringe upon freedom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_347",
+    "character": "銃",
+    "hanViet": "SÚNG",
+    "onyomi": "ジュウ",
+    "mnemonic": "Trả đủ (充) tiền (金) thì mua được súng (銃)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_347_1",
+        "word": "銃",
+        "hiragana": "じゅう",
+        "hanVietWord": "SÚNG",
+        "meaning": {
+          "vi": "Súng",
+          "en": "Gun, rifle"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "銃を持っていたのは少年だった",
+            "vi": "Người cầm súng là một thiếu niên",
+            "en": "The one holding the gun was a boy"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_347_2",
+        "word": "銃声",
+        "hiragana": "じゅうせい",
+        "hanVietWord": "SÚNG THANH",
+        "meaning": {
+          "vi": "Tiếng súng",
+          "en": "Gunshot"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "銃声は一晩中続いた",
+            "vi": "Tiếng súng kéo dài suốt đêm",
+            "en": "The gunshots continued all night"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_348",
+    "character": "護",
+    "hanViet": "HỘ",
+    "onyomi": "ゴ",
+    "mnemonic": "Bà Thảo (艹) nói (言) lời bảo hộ (護) cho chú chim (隹)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_348_1",
+        "word": "介護",
+        "hiragana": "かいご",
+        "hanVietWord": "GIỚI HỘ",
+        "meaning": {
+          "vi": "Sự chăm sóc (người bệnh, người già)",
+          "en": "Nursing care"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "親の介護をする",
+            "vi": "Chăm sóc bố mẹ già/ốm",
+            "en": "Care for an elderly parent"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_348_2",
+        "word": "警護",
+        "hiragana": "けいご",
+        "hanVietWord": "CẢNH HỘ",
+        "meaning": {
+          "vi": "Sự hộ tống, bảo vệ",
+          "en": "Bodyguarding, escort"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "社長を警護する",
+            "vi": "Hộ tống/bảo vệ giám đốc",
+            "en": "Escort/guard the company president"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_349",
+    "character": "衛",
+    "hanViet": "VỆ",
+    "onyomi": "エイ",
+    "mnemonic": "Khi đi vi (韋) hành (行) cần có thị vệ (衛)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_349_1",
+        "word": "護衛",
+        "hiragana": "ごえい",
+        "hanVietWord": "HỘ VỆ",
+        "meaning": {
+          "vi": "Hộ vệ, bảo vệ",
+          "en": "Guard, convoy"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "首相を護衛する",
+            "vi": "Bảo vệ thủ tướng",
+            "en": "Guard the Prime Minister"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_349_2",
+        "word": "衛生",
+        "hiragana": "えいせい",
+        "hanVietWord": "VỆ SINH",
+        "meaning": {
+          "vi": "Vệ sinh",
+          "en": "Hygiene, sanitation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "衛生管理",
+            "vi": "Quản lý vệ sinh",
+            "en": "Hygiene management"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_349_3",
+        "word": "衛星",
+        "hiragana": "えいせい",
+        "hanVietWord": "VỆ TINH",
+        "meaning": {
+          "vi": "Vệ tinh",
+          "en": "Satellite"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "人工衛星を飛ばす",
+            "vi": "Phóng vệ tinh nhân tạo",
+            "en": "Launch an artificial satellite"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_349_4",
+        "word": "自衛隊",
+        "hiragana": "じえいたい",
+        "hanVietWord": "TỰ VỆ ĐỘI",
+        "meaning": {
+          "vi": "Lực lượng phòng vệ (Nhật Bản)",
+          "en": "Self-Defense Forces (Japan)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "高校を卒業してから自衛隊に入隊した",
+            "vi": "Sau khi tốt nghiệp cấp 3 tôi đã gia nhập lực lượng phòng vệ",
+            "en": "I joined the Self-Defense Forces after graduating from high school"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_350",
+    "character": "屈",
+    "hanViet": "KHUẤT / QUẬT",
+    "kunyomi": "かが-む",
+    "onyomi": "クツ",
+    "mnemonic": "Đi ra khỏi (出) cửa (尸) KHUẤT (屈) tầm nhìn",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_350_1",
+        "word": "屈伸",
+        "hiragana": "くっしん",
+        "hanVietWord": "KHUẤT THÂN",
+        "meaning": {
+          "vi": "Sự co duỗi (khởi động)",
+          "en": "Bending and stretching"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "サッカーをする前にしっかり屈伸したほうがいいよ",
+            "vi": "Trước khi đá bóng thì nên khởi động co duỗi cẩn thận",
+            "en": "You should do proper bending and stretching before playing soccer"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_350_2",
+        "word": "退屈",
+        "hiragana": "たいくつ",
+        "hanVietWord": "THOÁI KHUẤT",
+        "meaning": {
+          "vi": "Buồn tẻ, chán ngắt",
+          "en": "Boredom, tediousness"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "退屈から抜け出したい",
+            "vi": "Muốn thoát khỏi sự buồn chán",
+            "en": "I want to break out of boredom"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_350_3",
+        "word": "屈む",
+        "hiragana": "かがむ",
+        "hanVietWord": "KHUẤT",
+        "meaning": {
+          "vi": "Cúi xuống, khom lưng",
+          "en": "To stoop, to bend down"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "屈んで靴をはく",
+            "vi": "Cúi xuống đi giày",
+            "en": "Bend down and put on shoes"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_350_4",
+        "word": "屈辱的",
+        "hiragana": "くつじょくてき",
+        "hanVietWord": "KHUẤT NHỤC ĐÍCH",
+        "meaning": {
+          "vi": "Nhục nhã, bẽ mặt",
+          "en": "Humiliating"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "みんなの前で怒られるなんて、屈辱的だ",
+            "vi": "Bị mắng trước mặt mọi người thật là đáng nhục nhã",
+            "en": "Being scolded in front of everyone is humiliating"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_351",
+    "character": "却",
+    "hanViet": "KHƯỚC",
+    "kunyomi": "かえ-って",
+    "onyomi": "キャク",
+    "mnemonic": "Dùng đao (卩) chặt bỏ khước (却) từ quá khứ (去)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_351_1",
+        "word": "返却",
+        "hiragana": "へんきゃく",
+        "hanVietWord": "PHẢN KHƯỚC",
+        "meaning": {
+          "vi": "Sự trả lại, hoàn trả",
+          "en": "Return (of something)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この本は、1週間後に返却してください",
+            "vi": "Cuốn sách này xin hãy trả lại sau 1 tuần",
+            "en": "Please return this book in a week"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_351_2",
+        "word": "却下",
+        "hiragana": "きゃっか",
+        "hanVietWord": "KHƯỚC HẠ",
+        "meaning": {
+          "vi": "Sự bác bỏ, từ chối",
+          "en": "Rejection, dismissal"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "部長にアイディアを却下された",
+            "vi": "Ý tưởng bị trưởng phòng bác bỏ",
+            "en": "The idea was rejected by the department head"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_351_3",
+        "word": "売却",
+        "hiragana": "ばいきゃく",
+        "hanVietWord": "MẠI KHƯỚC",
+        "meaning": {
+          "vi": "Sự bán đi, phát mãi",
+          "en": "Sale, disposal by sale"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "家/会社を高い値段で売却する",
+            "vi": "Bán nhà/công ty với giá cao",
+            "en": "Sell a house/company at a high price"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_352",
+    "character": "攻",
+    "hanViet": "CÔNG",
+    "kunyomi": "せ-める",
+    "onyomi": "コウ",
+    "mnemonic": "Công (工) nhân đánh nhau (攵)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_352_1",
+        "word": "攻撃",
+        "hiragana": "こうげき",
+        "hanVietWord": "CÔNG KÍCH",
+        "meaning": {
+          "vi": "Tấn công, công kích",
+          "en": "Attack, strike"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "後半戦はベトナムから攻撃を始める。",
+            "vi": "Hiệp 2 sẽ bắt đầu bằng đợt tấn công từ phía Việt Nam.",
+            "en": "The second half will start with an attack from Vietnam."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_352_2",
+        "word": "攻める",
+        "hiragana": "せめる",
+        "hanVietWord": "CÔNG",
+        "meaning": {
+          "vi": "Tấn công",
+          "en": "To attack, to assault"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "敵が攻めてきた",
+            "vi": "Kẻ địch đã tấn công",
+            "en": "The enemy has attacked"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_353",
+    "character": "撃",
+    "hanViet": "KÍCH",
+    "kunyomi": "う-つ",
+    "onyomi": "ゲキ",
+    "mnemonic": "TAY (手) đánh (殳) công KÍCH (撃) địch trên XE (車)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_353_1",
+        "word": "攻撃的",
+        "hiragana": "こうげきてき",
+        "hanVietWord": "CÔNG KÍCH ĐÍCH",
+        "meaning": {
+          "vi": "Mang tính công kích, hung hăng",
+          "en": "Aggressive, offensive"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼女とけんかし、ついつい攻撃的なことを言ってしまった",
+            "vi": "Cãi nhau với bạn gái, tôi đã lỡ nói những lời mang tính công kích",
+            "en": "While arguing with my girlfriend, I accidentally said aggressive things"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_353_2",
+        "word": "目撃",
+        "hiragana": "もくげき",
+        "hanVietWord": "MỤC KÍCH",
+        "meaning": {
+          "vi": "Sự chứng kiến, mục kích",
+          "en": "Witnessing, observing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "交通事故を目撃した",
+            "vi": "Đã chứng kiến vụ tai nạn giao thông",
+            "en": "Witnessed a traffic accident"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_353_3",
+        "word": "撃つ",
+        "hiragana": "うつ",
+        "hanVietWord": "KÍCH",
+        "meaning": {
+          "vi": "Bắn (súng)",
+          "en": "To shoot, to fire"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "自衛隊に入り、銃を撃つ訓練をする",
+            "vi": "Gia nhập lực lượng phòng vệ và huấn luyện bắn súng",
+            "en": "Join the Self-Defense Forces and train to shoot guns"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_354",
+    "character": "爆",
+    "hanViet": "BẠO / BẠC / BỘC",
+    "onyomi": "バク",
+    "mnemonic": "Ngọn lửa (火) bùng lên dữ dội (暴) và bùng nổ (爆発)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_354_1",
+        "word": "爆発",
+        "hiragana": "ばくはつ",
+        "hanVietWord": "BẠO PHÁT",
+        "meaning": {
+          "vi": "Sự bùng nổ, nổ tung",
+          "en": "Explosion, detonation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "爆発しそうな爆弾",
+            "vi": "Quả bom có vẻ sắp nổ",
+            "en": "A bomb that looks like it's going to explode"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_354_2",
+        "word": "爆弾",
+        "hiragana": "ばくだん",
+        "hanVietWord": "BẠO ĐẠN",
+        "meaning": {
+          "vi": "Bom",
+          "en": "Bomb"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_25_354_3",
+        "word": "爆笑",
+        "hiragana": "ばくしょう",
+        "hanVietWord": "BẠO TIẾU",
+        "meaning": {
+          "vi": "Cười phá lên, cười ầm lên",
+          "en": "Roar of laughter, bursting into laughter"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼に変な顔をされ、爆笑してしまった",
+            "vi": "Bị anh ta làm mặt lạ, tôi đã cười phá lên",
+            "en": "I burst into laughter when he made a funny face at me"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_355",
+    "character": "討",
+    "hanViet": "THẢO",
+    "onyomi": "トウ",
+    "mnemonic": "Lời nói (言) thảo (討) luận gì mà nghe rất thốn (寸)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_355_1",
+        "word": "討論",
+        "hiragana": "とうろん",
+        "hanVietWord": "THẢO LUẬN",
+        "meaning": {
+          "vi": "Sự thảo luận, tranh luận",
+          "en": "Debate, discussion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "授業でお題を決めて討論する",
+            "vi": "Quyết định chủ đề trong giờ học và thảo luận",
+            "en": "Decide on a topic in class and debate"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_355_2",
+        "word": "検討中",
+        "hiragana": "けんとうちゅう",
+        "hanVietWord": "KIỂM THẢO TRUNG",
+        "meaning": {
+          "vi": "Đang xem xét, đang cân nhắc",
+          "en": "Under consideration"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "その件については検討中でございまして",
+            "vi": "Về việc đó thì chúng tôi đang trong quá trình xem xét",
+            "en": "Regarding that matter, it is currently under consideration"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_356",
+    "character": "射",
+    "hanViet": "XẠ / DẠ / DỊCH",
+    "onyomi": "シャ",
+    "mnemonic": "Xạ (射) thủ mà bắn vào thân (身) thì rất thốn (寸)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_356_1",
+        "word": "発射",
+        "hiragana": "はっしゃ",
+        "hanVietWord": "PHÁT XẠ",
+        "meaning": {
+          "vi": "Sự phóng, bắn",
+          "en": "Firing, launching"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ロケット発射!",
+            "vi": "Phóng tên lửa!",
+            "en": "Rocket launch!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_356_2",
+        "word": "射撃",
+        "hiragana": "しゃげき",
+        "hanVietWord": "XẠ KÍCH",
+        "meaning": {
+          "vi": "Sự bắn súng",
+          "en": "Shooting, firing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "祖父は若いころ、射撃訓練をしたことがあるらしい",
+            "vi": "Ông tôi thời trẻ có vẻ đã từng tập huấn luyện bắn súng",
+            "en": "It seems my grandfather had shooting training when he was young"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_356_3",
+        "word": "反射",
+        "hiragana": "はんしゃ",
+        "hanVietWord": "PHẢN XẠ",
+        "meaning": {
+          "vi": "Sự phản chiếu, phản xạ",
+          "en": "Reflection"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "海に光が反射してとてもまぶしい",
+            "vi": "Ánh sáng phản chiếu xuống biển rất chói",
+            "en": "The light reflects off the sea and is very dazzling"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_25_357",
+    "character": "武",
+    "hanViet": "VŨ / VÕ",
+    "onyomi": "ブ, ム",
+    "mnemonic": "Các samurai (武) dừng (止) trận chiến với một con dao găm (戈)",
+    "level": "N2",
+    "lesson": "Buổi 25",
+    "words": [
+      {
+        "id": "kw_rkn2_25_357_1",
+        "word": "武士",
+        "hiragana": "ぶし",
+        "hanVietWord": "VŨ SĨ",
+        "meaning": {
+          "vi": "Võ sĩ (Samurai)",
+          "en": "Warrior, samurai"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "私の先祖は武士だった",
+            "vi": "Tổ tiên tôi là võ sĩ Samurai",
+            "en": "My ancestors were samurai"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_357_2",
+        "word": "武道家",
+        "hiragana": "ぶどうか",
+        "hanVietWord": "VŨ ĐẠO GIA",
+        "meaning": {
+          "vi": "Võ sư, người luyện võ",
+          "en": "Martial artist"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "柔道や剣道をしている人を武道家と呼ぶ",
+            "vi": "Những người học Judo hay Kendo được gọi là võ sư",
+            "en": "People who practice Judo or Kendo are called martial artists"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_25_357_3",
+        "word": "武者",
+        "hiragana": "むしゃ",
+        "hanVietWord": "VŨ GIẢ",
+        "meaning": {
+          "vi": "Chiến binh, võ sĩ",
+          "en": "Warrior"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "武者",
+            "vi": "Chiến binh, võ sĩ",
+            "en": "Warrior"
+          }
+        ]
+      }
+    ]
+  }
+]

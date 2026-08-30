@@ -1,0 +1,2737 @@
+[
+  {
+    "kanji": "評判",
+    "hiragana": "ひょうばん",
+    "hanViet": "BÌNH PHÁN",
+    "meaning": {
+      "vi": "Đánh giá / Có tiếng",
+      "en": "Reputation / Rumor"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "この映画、評判がいいらしいよ。",
+        "vi": "Bộ phim này có vẻ được đánh giá tốt đấy.",
+        "en": "This movie seems to have a good reputation."
+      },
+      {
+        "jp": "評判のいい店が探せて嬉しい！",
+        "vi": "Vui vì tìm được quán có tiếng tốt!",
+        "en": "I'm glad I found a reputable restaurant!"
+      }
+    ],
+    "note": {
+      "jp": "意味: 世の中からの評価\nポイント: 店、有名な人。＿＿がいい、悪い。＿＿が高まる、下がる。\n使い分け: 評判 (客観的 いい、悪い) vs 評価 (主観的 A－B－C・100－90－80)",
+      "vi": "Ý nghĩa: Sự đánh giá từ xã hội/mọi người.\nLưu ý: Thường dùng với Cửa hàng, Người nổi tiếng. Tốt/Xấu, Tăng/Giảm.\nPhân biệt: 評判 (Khách quan, tốt/xấu) vs 評価 (Chủ quan, đánh giá điểm số).",
+      "en": "Meaning: Evaluation from society/public.\nPoints: Used with shops, famous people. Good/Bad, Rise/Fall.\nNuance: 評判 (Objective, good/bad) vs 評価 (Subjective, grading points)."
+    },
+    "id": "v_rkn2_01_001"
+  },
+  {
+    "kanji": "雑談",
+    "hiragana": "ざつだん",
+    "hanViet": "TẠP ĐÀM",
+    "meaning": {
+      "vi": "Nói chuyện phiếm",
+      "en": "Chatting / Idle talk"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "みなさんは職場で仕事以外の話、例えばプライベートな話や雑談をしてもいいと思いますか？",
+        "vi": "Mọi người có nghĩ ở nơi làm việc có thể nói chuyện ngoài công việc, ví dụ chuyện cá nhân hay chuyện phiếm không?",
+        "en": "Do you think it's okay to have non-work related conversations, such as personal talk or idle chat, at the workplace?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 特にテーマを定めないで気楽に会話する\nポイント: ≒おしゃべり(軽い話）",
+      "vi": "Ý nghĩa: Nói chuyện một cách thoải mái mà không cần chủ đề nhất định.\nLưu ý: Gần nghĩa với おしゃべり (Câu chuyện nhẹ nhàng).",
+      "en": "Meaning: Conversing comfortably without a specific theme.\nPoints: Similar to おしゃべり (light conversation)."
+    },
+    "id": "v_rkn2_01_002"
+  },
+  {
+    "kanji": "おしゃべり",
+    "hiragana": "おしゃべり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nói chuyện / Hoạt ngôn",
+      "en": "Chatter / Talkative"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "授業中に隣の人とおしゃべりしていて、先生に怒られた。",
+        "vi": "Nói chuyện với người bên cạnh trong giờ học nên bị thầy mắng.",
+        "en": "I was scolded by the teacher for chatting with the person next to me during class."
+      },
+      {
+        "jp": "おしゃべりな子供",
+        "vi": "Đứa trẻ hoạt ngôn/hay nói",
+        "en": "A talkative child"
+      }
+    ],
+    "note": {
+      "jp": "意味 ① 軽い会話≒雑談\n意味 ② 口数が多いこと",
+      "vi": "Ý nghĩa ①: Cuộc hội thoại nhẹ nhàng (gần giống 雑談).\nÝ nghĩa ②: Nói nhiều, hoạt ngôn.",
+      "en": "Meaning 1: Light conversation (similar to 雑談).\nMeaning 2: Being talkative."
+    },
+    "id": "v_rkn2_01_003"
+  },
+  {
+    "kanji": "取材",
+    "hiragana": "しゅざい",
+    "hanViet": "THỦ TÀI",
+    "meaning": {
+      "vi": "Phỏng vấn / Thu thập tài liệu",
+      "en": "Gathering information / Interview"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "放送局の取材に応じる。",
+        "vi": "Nhận lời phỏng vấn của đài phát thanh.",
+        "en": "Respond to an interview from a broadcasting station."
+      },
+      {
+        "jp": "インタビューする前に、相手から取材許可をとる。",
+        "vi": "Trước khi phỏng vấn, phải xin phép thu thập thông tin từ đối phương.",
+        "en": "Get permission to gather information from the other party before the interview."
+      }
+    ],
+    "note": {
+      "jp": "意味: ニュースや記事の情報材料を集めるために、話を聞くこと",
+      "vi": "Ý nghĩa: Thu thập thông tin, lắng nghe câu chuyện để làm tư liệu cho tin tức, bài báo.",
+      "en": "Meaning: Listening to stories to gather informational materials for news or articles."
+    },
+    "id": "v_rkn2_01_004"
+  },
+  {
+    "kanji": "きっかけ",
+    "hiragana": "きっかけ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nguyên cớ / Động cơ",
+      "en": "Trigger / Motive / Reason"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "彼女と話したいのだが、話のきっかけがつかめない。",
+        "vi": "Muốn nói chuyện với cô ấy nhưng không tìm được cớ.",
+        "en": "I want to talk to her, but I can't find a reason to start the conversation."
+      },
+      {
+        "jp": "日本語を勉強しようと思ったきっかけは、山田さんとの出会いです。",
+        "vi": "Động cơ tôi quyết định học tiếng Nhật là cuộc gặp gỡ với anh Yamada.",
+        "en": "My trigger for deciding to study Japanese was meeting Mr. Yamada."
+      }
+    ],
+    "note": {
+      "jp": "意味: 何かを始める手がかり・糸口・動機\nポイント: 何かをスタートする理由になるもの",
+      "vi": "Ý nghĩa: Gợi ý, manh mối, động cơ để bắt đầu một việc gì đó.\nLưu ý: Trở thành lý do để bắt đầu một điều gì đó.",
+      "en": "Meaning: Clue, trigger, or motive to start something.\nPoints: Something that becomes the reason to start."
+    },
+    "id": "v_rkn2_01_005"
+  },
+  {
+    "kanji": "続出",
+    "hiragana": "ぞくしゅつ",
+    "hanViet": "TỤC XUẤT",
+    "meaning": {
+      "vi": "Liên tiếp xuất hiện",
+      "en": "Appearing one after another"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "暑い！真夏日続出",
+        "vi": "Nóng quá! Những ngày hè oi bức liên tiếp xuất hiện.",
+        "en": "It's hot! Midsummer days are appearing one after another."
+      },
+      {
+        "jp": "このゲーム！ハマる人続出！",
+        "vi": "Trò chơi này! Người nghiện liên tục xuất hiện!",
+        "en": "This game! People getting hooked are appearing one after another!"
+      }
+    ],
+    "note": {
+      "jp": "意味: 同じようなこと・人がどんどん出てくること",
+      "vi": "Ý nghĩa: Những việc, những người tương tự nhau liên tục xuất hiện.",
+      "en": "Meaning: Similar things or people continuously appearing."
+    },
+    "id": "v_rkn2_01_006"
+  },
+  {
+    "kanji": "外見",
+    "hiragana": "がいけん",
+    "hanViet": "NGOẠI KIẾN",
+    "meaning": {
+      "vi": "Ngoại hình / Vẻ bề ngoài",
+      "en": "Appearance / Exterior"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "人を判断するときは外見よりも中身が大切だ。",
+        "vi": "Khi phán xét một người, nội tâm quan trọng hơn vẻ bề ngoài.",
+        "en": "When judging a person, what's inside is more important than their appearance."
+      },
+      {
+        "jp": "この商品は外見は微妙だけど、超うまい。",
+        "vi": "Sản phẩm này bề ngoài hơi tệ nhưng ăn cực ngon.",
+        "en": "This product looks questionable, but it's super delicious."
+      }
+    ],
+    "note": {
+      "jp": "意味: 外側からの見ため\nポイント: ⇔中身、内面",
+      "vi": "Ý nghĩa: Vẻ bề ngoài nhìn từ bên ngoài.\nLưu ý: Trái nghĩa với 中身 (Nội dung bên trong), 内面 (Nội tâm).",
+      "en": "Meaning: Appearance seen from the outside.\nPoints: Opposite of 中身 (Inside), 内面 (Inner self)."
+    },
+    "id": "v_rkn2_01_007"
+  },
+  {
+    "kanji": "上昇",
+    "hiragana": "じょうしょう",
+    "hanViet": "THƯỢNG THĂNG",
+    "meaning": {
+      "vi": "Sự tăng lên / Tăng cao",
+      "en": "Rise / Ascension"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "午後から気温が急激に上昇した。",
+        "vi": "Từ chiều nhiệt độ tăng đột ngột.",
+        "en": "The temperature rose sharply from the afternoon."
+      }
+    ],
+    "note": {
+      "jp": "意味: 上がっていく、高くなる\nポイント: 気温、物価＿\n使い分け: 上昇 (新聞・ニュース) vs 上がる (日常)",
+      "vi": "Ý nghĩa: Đi lên, cao lên.\nLưu ý: Dùng với Khí quyển, Vật giá.\nPhân biệt: 上昇 (Báo chí, tin tức) vs 上がる (Hằng ngày).",
+      "en": "Meaning: Going up, becoming higher.\nPoints: Used with Temperature, Prices.\nNuance: 上昇 (News, formal) vs 上がる (Daily conversation)."
+    },
+    "id": "v_rkn2_01_008"
+  },
+  {
+    "kanji": "見解",
+    "hiragana": "けんかい",
+    "hanViet": "KIẾN GIẢI",
+    "meaning": {
+      "vi": "Quan điểm, ý kiến (khi xử lý vấn đề)",
+      "en": "Opinion / Point of view"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "来年の経済の見通しについて、政府が見解を述べた。",
+        "vi": "Chính phủ đã đưa ra quan điểm về triển vọng kinh tế năm tới.",
+        "en": "The government stated its views on the economic outlook for next year."
+      },
+      {
+        "jp": "事故原因については、専門家の間でも見解が分かれている。",
+        "vi": "Về nguyên nhân tai nạn, giữa các chuyên gia cũng có nhiều quan điểm khác nhau.",
+        "en": "Regarding the cause of the accident, opinions are divided even among experts."
+      }
+    ],
+    "note": {
+      "jp": "意味: ものの見方・考え方\nポイント: 専門性のある意見",
+      "vi": "Ý nghĩa: Cách nhìn nhận, suy nghĩ về một vấn đề.\nLưu ý: Ý kiến mang tính chuyên môn.",
+      "en": "Meaning: Way of looking at or thinking about things.\nPoints: Professional or expert opinion."
+    },
+    "id": "v_rkn2_01_009"
+  },
+  {
+    "kanji": "普及",
+    "hiragana": "ふきゅう",
+    "hanViet": "PHỔ CẬP",
+    "meaning": {
+      "vi": "Phổ cập / Lan rộng",
+      "en": "Diffusion / Spread"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 1",
+    "examples": [
+      {
+        "jp": "パソコンが一般家庭に普及するに伴い、インターネット利用者が急激に増えた。",
+        "vi": "Cùng với việc máy tính cá nhân phổ cập đến các hộ gia đình, người dùng internet tăng đột ngột.",
+        "en": "As personal computers became widespread in general households, internet users increased rapidly."
+      },
+      {
+        "jp": "スマホの普及率は１００％に近づいている。",
+        "vi": "Tỷ lệ phổ cập điện thoại thông minh đang tiến gần 100%.",
+        "en": "The penetration rate of smartphones is approaching 100%."
+      }
+    ],
+    "note": {
+      "jp": "意味: 新しいものが広がって当たり前になること",
+      "vi": "Ý nghĩa: Một cái gì đó mới mẻ được lan rộng và trở thành điều bình thường.",
+      "en": "Meaning: Something new spreading and becoming commonplace."
+    },
+    "id": "v_rkn2_01_010"
+  },
+  {
+    "kanji": "注目",
+    "hiragana": "ちゅうもく",
+    "hanViet": "CHÚ MỤC",
+    "meaning": {
+      "vi": "Chú ý / Quan tâm",
+      "en": "Attention / Notice"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "会議中におならをして注目を浴びて/集めてしまった",
+        "vi": "Đang họp thì xì hơi nên thu hút sự chú ý của mọi người.",
+        "en": "I farted during the meeting and ended up drawing attention."
+      },
+      {
+        "jp": "最近、ＲＩＫＩという日本語学校に注目している。",
+        "vi": "Gần đây tôi đang chú ý đến trường tiếng Nhật RIKI.",
+        "en": "Recently, I've been paying attention to a Japanese language school called RIKI."
+      }
+    ],
+    "note": {
+      "jp": "意味 ① 人の注意の目を集めること (注目される)\n意味 ② 注意して見ること (注目する)",
+      "vi": "Ý nghĩa ①: Thu hút sự chú ý của người khác.\nÝ nghĩa ②: Chú ý quan sát.",
+      "en": "Meaning 1: Gathering people's attention.\nMeaning 2: Looking carefully at something."
+    },
+    "id": "v_rkn2_02_011"
+  },
+  {
+    "kanji": "分析",
+    "hiragana": "ぶんせき",
+    "hanViet": "PHÂN TÍCH",
+    "meaning": {
+      "vi": "Phân tích",
+      "en": "Analysis"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "統計資料を見て、お客さんが増えた理由を分析する。",
+        "vi": "Xem tài liệu thống kê để phân tích lý do khách hàng tăng.",
+        "en": "Look at statistical data and analyze the reason for the increase in customers."
+      }
+    ],
+    "note": {
+      "jp": "意味: 複雑なことを１つ１つ分けて、 原因の結果を考える\nポイント: 「なぜ？要因は？」を考える。",
+      "vi": "Ý nghĩa: Chia nhỏ vấn đề phức tạp thành từng phần để tìm nguyên nhân.\nLưu ý: Đặt câu hỏi \"Tại sao? Yếu tố chính là gì?\".",
+      "en": "Meaning: Breaking down complex things to consider causes and results.\nPoints: Thinking about 'Why? What are the factors?'"
+    },
+    "id": "v_rkn2_02_012"
+  },
+  {
+    "kanji": "反映",
+    "hiragana": "はんえい",
+    "hanViet": "PHẢN ÁNH",
+    "meaning": {
+      "vi": "Phản ánh",
+      "en": "Reflection"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "国民の声を政治に反映させよう。",
+        "vi": "Hãy để tiếng nói của nhân dân phản ánh vào chính trị.",
+        "en": "Let's reflect the voices of the people in politics."
+      },
+      {
+        "jp": "お客様からいただいた意見をサービス改善に反映する。",
+        "vi": "Phản ánh ý kiến nhận được từ khách hàng vào việc cải thiện dịch vụ.",
+        "en": "Reflect the feedback received from customers into service improvement."
+      }
+    ],
+    "note": {
+      "jp": "意味: （主張、意見）が〜まで及ぶ。Ａ→Ｂに影響し、現れること。\nポイント: 意見・考えを〜に反映する",
+      "vi": "Ý nghĩa: Đưa (chủ trương, ý kiến) lan tỏa. Việc A ảnh hưởng đến B và thể hiện ra.\nLưu ý: Phản ánh ý kiến/suy nghĩ vào việc gì đó.",
+      "en": "Meaning: (Claims, opinions) reaching somewhere. A affecting B and appearing.\nPoints: Reflecting opinions/thoughts onto something."
+    },
+    "id": "v_rkn2_02_013"
+  },
+  {
+    "kanji": "強み",
+    "hiragana": "つよみ",
+    "hanViet": "CƯỜNG",
+    "meaning": {
+      "vi": "Sở trường, điểm mạnh",
+      "en": "Strength"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "ＲＩＫＩ日本語の強みは「面白さ」です。",
+        "vi": "Điểm mạnh của tiếng Nhật RIKI là 'Sự thú vị'.",
+        "en": "The strength of RIKI Japanese is its 'fun factor'."
+      }
+    ],
+    "note": {
+      "jp": "意味: 強いところ、長所\nポイント: ⇔ 弱み\n関連語彙: 類：長所",
+      "vi": "Ý nghĩa: Điểm mạnh, sở trường.\nLưu ý: Trái nghĩa với 弱み (Điểm yếu).\nTừ đồng nghĩa: 長所.",
+      "en": "Meaning: Strong points, merits.\nPoints: Opposite of 弱み (Weakness).\nRelated: 長所 (Merit)."
+    },
+    "id": "v_rkn2_02_014"
+  },
+  {
+    "kanji": "回復",
+    "hiragana": "かいふく",
+    "hanViet": "HỒI PHỤC",
+    "meaning": {
+      "vi": "Hồi phục",
+      "en": "Recovery / Restoration"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "祖父の体調が回復に向かっている。",
+        "vi": "Tình trạng sức khỏe của ông đang có chiều hướng hồi phục.",
+        "en": "My grandfather's health is heading towards recovery."
+      },
+      {
+        "jp": "景気が回復してきた。",
+        "vi": "Tình hình kinh tế đã hồi phục lại.",
+        "en": "The economy has recovered."
+      }
+    ],
+    "note": {
+      "jp": "意味: 悪い状態になったものが元に戻ること\nポイント: 経済、体調が回復する",
+      "vi": "Ý nghĩa: Trạng thái tồi tệ quay trở lại bình thường.\nLưu ý: Kinh tế, Thể trạng hồi phục.",
+      "en": "Meaning: Things in a bad state returning to normal.\nPoints: Economy, Physical condition recovering."
+    },
+    "id": "v_rkn2_02_015"
+  },
+  {
+    "kanji": "方針",
+    "hiragana": "ほうしん",
+    "hanViet": "PHƯƠNG CHÂM",
+    "meaning": {
+      "vi": "Phương châm",
+      "en": "Policy / Plan"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "来年に向けた会社の方針を発表する。",
+        "vi": "Công bố phương châm của công ty hướng tới năm sau.",
+        "en": "Announce the company's policy for next year."
+      },
+      {
+        "jp": "子供の教育方針について夫と意見が合わない。",
+        "vi": "Về phương châm giáo dục con cái, tôi và chồng không hợp ý nhau.",
+        "en": "I disagree with my husband regarding our children's educational policy."
+      }
+    ],
+    "note": {
+      "jp": "意味: 計画での目指す方向\nポイント: 針の方向",
+      "vi": "Ý nghĩa: Hướng đi được nhắm tới trong một kế hoạch.\nLưu ý: Phương hướng của kim chỉ nam.",
+      "en": "Meaning: The direction aimed for in a plan.\nPoints: Direction of the needle (compass)."
+    },
+    "id": "v_rkn2_02_016"
+  },
+  {
+    "kanji": "範囲",
+    "hiragana": "はんい",
+    "hanViet": "PHẠM VI",
+    "meaning": {
+      "vi": "Phạm vi",
+      "en": "Scope / Range"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "今回の試験範囲はかなり広いらしい。",
+        "vi": "Phạm vi bài thi lần này có vẻ khá rộng.",
+        "en": "The scope of this exam seems quite broad."
+      },
+      {
+        "jp": "「はい。できる範囲で協力しますよ。」",
+        "vi": "Vâng, tôi sẽ hợp tác trong phạm vi có thể.",
+        "en": "Yes, I will cooperate to the extent possible."
+      }
+    ],
+    "note": {
+      "jp": "意味: 〜から〜まで",
+      "vi": "Ý nghĩa: Từ đâu đến đâu.",
+      "en": "Meaning: From ~ to ~."
+    },
+    "id": "v_rkn2_02_017"
+  },
+  {
+    "kanji": "利益",
+    "hiragana": "りえき",
+    "hanViet": "LỢI ÍCH",
+    "meaning": {
+      "vi": "Lợi ích / Lợi nhuận",
+      "en": "Profit / Benefit"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "目の前の利益ばかり追っているといつか損をするよ。",
+        "vi": "Nếu chỉ theo đuổi lợi ích trước mắt thì sẽ có lúc bị lỗ đấy.",
+        "en": "If you only chase immediate profits, you'll eventually lose."
+      },
+      {
+        "jp": "今年は景気が良く、会社の利益も去年の２倍になった。",
+        "vi": "Năm nay kinh tế tốt, lợi nhuận của công ty cũng gấp đôi năm ngoái.",
+        "en": "This year the economy is good, and the company's profits have doubled compared to last year."
+      }
+    ],
+    "note": {
+      "jp": "意味: 得\nポイント: 売り上げー費用\n対義語: 利益 ⇔ 損失",
+      "vi": "Ý nghĩa: Sự có lợi.\nLưu ý: Bằng Doanh thu trừ đi Chi phí.\nTrái nghĩa: 損失 (Tổn thất).",
+      "en": "Meaning: Gain, profit.\nPoints: Sales minus expenses.\nOpposite: 損失 (Loss)."
+    },
+    "id": "v_rkn2_02_018"
+  },
+  {
+    "kanji": "解消",
+    "hiragana": "かいしょう",
+    "hanViet": "GIẢI TIÊU",
+    "meaning": {
+      "vi": "Giải tỏa, hủy bỏ",
+      "en": "Resolution / Cancellation"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "私のストレス解消法はカラオケに行くことです。",
+        "vi": "Cách giải tỏa căng thẳng của tôi là đi hát karaoke.",
+        "en": "My stress relief method is going to karaoke."
+      }
+    ],
+    "note": {
+      "jp": "意味: 今までの状態がなくなること\nポイント: 問題、ストレス＿",
+      "vi": "Ý nghĩa: Làm mất đi trạng thái trước đó.\nLưu ý: Giải quyết vấn đề, Giải tỏa căng thẳng.",
+      "en": "Meaning: The disappearance of a previous state.\nPoints: Problem, Stress resolution."
+    },
+    "id": "v_rkn2_02_019"
+  },
+  {
+    "kanji": "改善",
+    "hiragana": "かいぜん",
+    "hanViet": "CẢI THIỆN",
+    "meaning": {
+      "vi": "Cải thiện",
+      "en": "Improvement"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 2",
+    "examples": [
+      {
+        "jp": "この教材はまだまだ改善すべきだ。",
+        "vi": "Tài liệu này vẫn còn cần phải cải thiện.",
+        "en": "This teaching material still needs improvement."
+      }
+    ],
+    "note": {
+      "jp": "意味: あるものをさらに良くしていくこと\nポイント: 改めて、よく(善)する",
+      "vi": "Ý nghĩa: Làm cho một thứ gì đó trở nên tốt hơn.\nLưu ý: Xem xét lại và làm cho Tốt (Thiện) hơn.",
+      "en": "Meaning: Making something even better.\nPoints: Changing it to be good."
+    },
+    "id": "v_rkn2_02_020"
+  },
+  {
+    "kanji": "視野",
+    "hiragana": "しや",
+    "hanViet": "THỊ DÃ",
+    "meaning": {
+      "vi": "Tầm nhìn",
+      "en": "Field of vision / Perspective"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "山をじっと見ていたら、雲が視野に入ってきた。",
+        "vi": "Chăm chú nhìn ngọn núi thì mây lọt vào tầm nhìn.",
+        "en": "Staring at the mountain, clouds came into my field of vision."
+      },
+      {
+        "jp": "息子には留学して視野を広げてほしい。",
+        "vi": "Tôi muốn con trai đi du học để mở rộng tầm nhìn.",
+        "en": "I want my son to study abroad and broaden his perspective."
+      }
+    ],
+    "note": {
+      "jp": "意味 ①: 目を動かさずに見える景色の範囲\n意味 ②: 考え方 (視野が広い、狭い)\n関連語彙: 視界 (視野より範囲が広い)",
+      "vi": "Ý nghĩa ①: Phạm vi cảnh vật có thể nhìn thấy mà không cần đảo mắt.\nÝ nghĩa ②: Tầm suy nghĩ (rộng/hẹp).\nTừ liên quan: 視界 (rộng hơn 視野, tầm nhìn bao quát).",
+      "en": "Meaning 1: Field of view without moving eyes.\nMeaning 2: Perspective (broad/narrow).\nRelated: 視界 (Wider field of vision)."
+    },
+    "id": "v_rkn2_03_021"
+  },
+  {
+    "kanji": "機能",
+    "hiragana": "きのう",
+    "hanViet": "CƠ NĂNG",
+    "meaning": {
+      "vi": "Tính năng / Chức năng",
+      "en": "Function / Feature"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "最近のスマホは機能が多すぎる。",
+        "vi": "Smartphone dạo này có quá nhiều tính năng.",
+        "en": "Recent smartphones have too many features."
+      },
+      {
+        "jp": "あなたの心臓は、正常に機能しています。",
+        "vi": "Tim của bạn đang hoạt động/chức năng bình thường.",
+        "en": "Your heart is functioning normally."
+      }
+    ],
+    "note": {
+      "jp": "使い分け: 機能 (何ができるか？ 機能がある、ない) vs 性能 (能力が高い、低い？)",
+      "vi": "Phân biệt: 機能 (Có thể làm được gì? Chú trọng việc Có/Không có chức năng) vs 性能 (Tính năng đó hoạt động năng suất cao hay thấp?).",
+      "en": "Nuance: 機能 (What it can do? Has/lacks functions) vs 性能 (Performance level? High/low)."
+    },
+    "id": "v_rkn2_03_022"
+  },
+  {
+    "kanji": "世間",
+    "hiragana": "せけん",
+    "hanViet": "THẾ GIAN",
+    "meaning": {
+      "vi": "Xã hội / Thế gian",
+      "en": "World / Society / Public"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "有名芸能人の不倫事件が世間を騒がせている。",
+        "vi": "Vụ ngoại tình của nghệ sĩ nổi tiếng đang làm rúng động dư luận xã hội.",
+        "en": "The affair scandal of a famous entertainer is causing an uproar in society."
+      },
+      {
+        "jp": "本当はニートになりたいが、世間の目が怖いので働くしかない。",
+        "vi": "Thật ra muốn làm NEET nhưng sợ ánh mắt thế gian nên đành đi làm.",
+        "en": "I really want to be a NEET, but I'm afraid of the public eye, so I have no choice but to work."
+      },
+      {
+        "jp": "確かに彼は世間知らずだが、悪い奴というわけではない。",
+        "vi": "Quả thật cậu ta thiếu hiểu biết chuyện đời, nhưng không hẳn là kẻ xấu.",
+        "en": "It's true he's ignorant of the world, but it doesn't mean he's a bad guy."
+      }
+    ],
+    "note": {
+      "jp": "意味: 世の中、社会\n関連語彙: 世間体 (世間の人から見られる姿)",
+      "vi": "Ý nghĩa: Thế giới, dư luận xã hội.\nTừ liên quan: 世間体 (Thể diện, hình ảnh trong mắt xã hội).",
+      "en": "Meaning: The world, society.\nRelated: 世間体 (Public image/appearances)."
+    },
+    "id": "v_rkn2_03_023"
+  },
+  {
+    "kanji": "違反",
+    "hiragana": "いはん",
+    "hanViet": "VI PHẢN",
+    "meaning": {
+      "vi": "Vi phạm",
+      "en": "Violation / Offense"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "スピード違反で捕まってしまった。",
+        "vi": "Bị bắt vì vi phạm tốc độ.",
+        "en": "I got caught for a speeding violation."
+      }
+    ],
+    "note": {
+      "jp": "意味: ルール・決まりを守らないこと",
+      "vi": "Ý nghĩa: Không tuân thủ quy tắc, luật lệ.",
+      "en": "Meaning: Not following rules or regulations."
+    },
+    "id": "v_rkn2_03_024"
+  },
+  {
+    "kanji": "素質",
+    "hiragana": "そしつ",
+    "hanViet": "TỐ CHẤT",
+    "meaning": {
+      "vi": "Tố chất / Tài năng",
+      "en": "Aptitude / Talent"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "彼は有名な人の素質がある。",
+        "vi": "Anh ấy có tố chất của người nổi tiếng.",
+        "en": "He has the makings of a famous person."
+      }
+    ],
+    "note": {
+      "jp": "意味: 世の中からの評価\nポイント: ≒才能",
+      "vi": "Ý nghĩa: Tố chất bẩm sinh được người đời đánh giá.\nLưu ý: Gần nghĩa với 才能 (Tài năng).",
+      "en": "Meaning: Evaluation from society (innate qualities).\nPoints: Similar to 才能 (Talent)."
+    },
+    "id": "v_rkn2_03_025"
+  },
+  {
+    "kanji": "辞退",
+    "hiragana": "じたい",
+    "hanViet": "TỪ THỐI",
+    "meaning": {
+      "vi": "Rút lui / Khước từ",
+      "en": "Declining / Withdrawal"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "今回の大会は怪我のせいで辞退しなければならなくなった。",
+        "vi": "Giải đấu lần này vì vết thương nên tôi đành phải rút lui.",
+        "en": "Because of an injury, I had to withdraw from this tournament."
+      },
+      {
+        "jp": "「良いお話ですが、今回はご辞退させていただきます」",
+        "vi": "Chuyện này rất hay nhưng lần này tôi xin phép khước từ.",
+        "en": "It's a good offer, but I will decline this time."
+      }
+    ],
+    "note": {
+      "jp": "意味: すすめられたことを遠慮して断ること",
+      "vi": "Ý nghĩa: Từ chối một cách khách sáo những đề xuất, tiến cử.",
+      "en": "Meaning: Politely declining what is offered or recommended."
+    },
+    "id": "v_rkn2_03_026"
+  },
+  {
+    "kanji": "改正",
+    "hiragana": "かいせい",
+    "hanViet": "CẢI CHÍNH",
+    "meaning": {
+      "vi": "Sửa đổi (Pháp luật, luật lệ)",
+      "en": "Amendment / Revision"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "労働法を改正する。",
+        "vi": "Sửa đổi luật lao động.",
+        "en": "Amend the labor law."
+      }
+    ],
+    "note": {
+      "jp": "意味: 改めて、変える\n使い分け: 改正 (ルール、法律) vs 改善 (あらゆるもの)",
+      "vi": "Ý nghĩa: Xem xét và thay đổi (cho đúng đắn).\nPhân biệt: 改正 (Sửa luật, quy tắc) vs 改善 (Cải thiện mọi thứ chung chung).",
+      "en": "Meaning: Re-examining and changing.\nNuance: 改正 (Rules, laws) vs 改善 (General improvements)."
+    },
+    "id": "v_rkn2_03_027"
+  },
+  {
+    "kanji": "夢中",
+    "hiragana": "むちゅう",
+    "hanViet": "MỘNG TRUNG",
+    "meaning": {
+      "vi": "Say sưa / Miệt mài",
+      "en": "Absorbed / Crazy about"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "最近彼はＲＩＫＩの動画に夢中になっている。",
+        "vi": "Gần đây anh ấy đang say sưa với các video của RIKI.",
+        "en": "Recently he has been engrossed in RIKI's videos."
+      }
+    ],
+    "note": {
+      "jp": "意味: 周りが見えなくなるくらい集中すること\nポイント: 夢の中にいるような気分になるほど！",
+      "vi": "Ý nghĩa: Tập trung đến mức không nhìn thấy xung quanh.\nLưu ý: Tâm trạng giống như đang chìm đắm trong giấc mơ!",
+      "en": "Meaning: Concentrating so much you lose sight of surroundings.\nPoints: Feeling like you're in a dream!"
+    },
+    "id": "v_rkn2_03_028"
+  },
+  {
+    "kanji": "日中",
+    "hiragana": "にっちゅう",
+    "hanViet": "NHẬT TRUNG",
+    "meaning": {
+      "vi": "Ban ngày",
+      "en": "Daytime"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "「日中は仕事で家にいないので、夜だと助かります」",
+        "vi": "Ban ngày tôi đi làm không có ở nhà, nên nếu vào buổi tối thì tốt quá.",
+        "en": "I am out working during the day, so nighttime would be helpful."
+      }
+    ],
+    "note": {
+      "jp": "意味: 昼間・日がのぼっている間\nポイント: だいたい 12 時前後から 4 時ぐらいまで",
+      "vi": "Ý nghĩa: Khoảng thời gian ban ngày khi mặt trời đang chiếu sáng.\nLưu ý: Khoảng từ 12 giờ trưa đến 4 giờ chiều.",
+      "en": "Meaning: Daytime, while the sun is up.\nPoints: Roughly from noon to 4 PM."
+    },
+    "id": "v_rkn2_03_029"
+  },
+  {
+    "kanji": "矛盾",
+    "hiragana": "むじゅん",
+    "hanViet": "MÂU THUẪN",
+    "meaning": {
+      "vi": "Mâu thuẫn",
+      "en": "Contradiction / Inconsistency"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "上司がよく、「丁寧に急いで仕事をしなさい」というが、私には矛盾しているように感じる。",
+        "vi": "Sếp thường nói 'Hãy làm việc cẩn thận và nhanh nhẹn', nhưng tôi cảm thấy như vậy thật mâu thuẫn.",
+        "en": "My boss often says 'Work carefully and quickly,' but I feel that's a contradiction."
+      }
+    ],
+    "note": {
+      "jp": "意味: 一方では A と言い、一方では B と言い、話のロジックが合わないこと",
+      "vi": "Ý nghĩa: Một mặt thì nói A, mặt khác lại nói B, logic không khớp nhau.",
+      "en": "Meaning: Saying A on one hand and B on the other; logical inconsistency."
+    },
+    "id": "v_rkn2_03_030"
+  },
+  {
+    "kanji": "交代",
+    "hiragana": "こうたい",
+    "hanViet": "GIAO ĐẠI",
+    "meaning": {
+      "vi": "Thay phiên nhau / Thay đổi",
+      "en": "Alternation / Change"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "選手交代",
+        "vi": "Thay người (thể thao)",
+        "en": "Player substitution"
+      },
+      {
+        "jp": "社長交代",
+        "vi": "Thay giám đốc",
+        "en": "Change of company president"
+      }
+    ],
+    "note": {
+      "jp": "意味: 場所や位置を入れ替えること",
+      "vi": "Ý nghĩa: Hoán đổi vị trí cho nhau.",
+      "en": "Meaning: Swapping places or positions."
+    },
+    "id": "v_rkn2_04_031"
+  },
+  {
+    "kanji": "合図",
+    "hiragana": "あいず",
+    "hanViet": "HỢP ĐỒ",
+    "meaning": {
+      "vi": "Tín hiệu / Dấu hiệu",
+      "en": "Signal / Sign"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "片手で店員に合図をすると、誕生日ケーキが来た。",
+        "vi": "Ra hiệu bằng một tay với nhân viên thì bánh sinh nhật được mang ra.",
+        "en": "Signaled the clerk with one hand, and the birthday cake arrived."
+      },
+      {
+        "jp": "痛かったら合図してくださいね。",
+        "vi": "Nếu đau thì hãy ra tín hiệu nhé.",
+        "en": "If it hurts, please give me a sign."
+      }
+    ],
+    "note": {
+      "jp": "意味: 意志を伝えるために約束された、言葉以外の手段\nポイント: サイン",
+      "vi": "Ý nghĩa: Phương tiện phi ngôn ngữ được giao ước trước để truyền đạt ý định.\nLưu ý: Dấu hiệu, ra dấu (Sign).",
+      "en": "Meaning: Non-verbal means agreed upon to convey intent.\nPoints: A sign."
+    },
+    "id": "v_rkn2_04_032"
+  },
+  {
+    "kanji": "愚痴",
+    "hiragana": "ぐち",
+    "hanViet": "NGU SI",
+    "meaning": {
+      "vi": "Than vãn / Cằn nhằn",
+      "en": "Complaint / Grumble"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "課長は飲み会でいつも会社の愚痴をこぼす。",
+        "vi": "Trưởng phòng lúc đi nhậu lúc nào cũng than vãn về công ty.",
+        "en": "The section chief always complains about the company at drinking parties."
+      },
+      {
+        "jp": "ねぇ、ちょっとぐちってもいい？",
+        "vi": "Này, tôi than thở một chút được không?",
+        "en": "Hey, mind if I vent a bit?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 言っても仕方がないことを嘆く\nポイント: 嫌いな人や事のどうでもいい悪口を言うこと",
+      "vi": "Ý nghĩa: Than vãn về những việc không thể thay đổi được.\nLưu ý: Nói xấu về người hay việc mình không thích (愚痴をこぼす、愚痴る).",
+      "en": "Meaning: Lamenting things that can't be helped.\nPoints: Saying trivial bad things about people or things you dislike."
+    },
+    "id": "v_rkn2_04_033"
+  },
+  {
+    "kanji": "場面",
+    "hiragana": "ばめん",
+    "hanViet": "TRƯỜNG DIỆN",
+    "meaning": {
+      "vi": "Cảnh / Tình trạng / Hoàn cảnh",
+      "en": "Scene / Situation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "2021 年、世界は苦しい場面に直面している。",
+        "vi": "Năm 2021, thế giới đang đối mặt với hoàn cảnh khó khăn.",
+        "en": "In 2021, the world is facing a difficult situation."
+      },
+      {
+        "jp": "この本は使う場面別に文法が書かれているので勉強しやすい。",
+        "vi": "Cuốn sách này viết ngữ pháp theo từng hoàn cảnh sử dụng nên rất dễ học.",
+        "en": "This book is easy to study because grammar is written by usage scenario."
+      }
+    ],
+    "note": {
+      "jp": "意味: シーン、状況",
+      "vi": "Ý nghĩa: Hoàn cảnh (Scene), tình huống (Situation).",
+      "en": "Meaning: Scene, situation."
+    },
+    "id": "v_rkn2_04_034"
+  },
+  {
+    "kanji": "成長",
+    "hiragana": "せいちょう",
+    "hanViet": "THÀNH TRƯỞNG",
+    "meaning": {
+      "vi": "Trưởng thành / Phát triển",
+      "en": "Growth / Development"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "子どもの成長は本当に早い。",
+        "vi": "Sự trưởng thành của trẻ con thật sự rất nhanh.",
+        "en": "Children's growth is truly fast."
+      }
+    ],
+    "note": {
+      "jp": "意味: 育って大きくなること\nポイント: 人以外にも使う！経済・精神的な成長にも",
+      "vi": "Ý nghĩa: Lớn lên, phát triển.\nLưu ý: Có thể dùng cho cả Kinh tế, Tinh thần, không chỉ riêng con người.",
+      "en": "Meaning: Growing up and becoming bigger.\nPoints: Used for non-humans too! Economic or spiritual growth."
+    },
+    "id": "v_rkn2_04_035"
+  },
+  {
+    "kanji": "追加",
+    "hiragana": "ついか",
+    "hanViet": "TRUY GIA",
+    "meaning": {
+      "vi": "Thêm vào",
+      "en": "Addition / Supplement"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "「ミルクティー１つですね。トッピングを追加しますか？」",
+        "vi": "Một trà sữa nhỉ. Có thêm topping không ạ?",
+        "en": "One milk tea. Would you like to add any toppings?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 今あるものにつけ足すこと",
+      "vi": "Ý nghĩa: Bổ sung thêm vào những gì đang có sẵn.",
+      "en": "Meaning: Adding to what already exists."
+    },
+    "id": "v_rkn2_04_036"
+  },
+  {
+    "kanji": "廃止",
+    "hiragana": "はいし",
+    "hanViet": "PHẾ CHỈ",
+    "meaning": {
+      "vi": "Hủy bỏ / Bãi bỏ",
+      "en": "Abolition / Discontinuance"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "レジ袋の無料配布を廃止します。",
+        "vi": "Sẽ bãi bỏ việc phát túi ni lông miễn phí.",
+        "en": "We will abolish the free distribution of plastic shopping bags."
+      }
+    ],
+    "note": {
+      "jp": "意味: 制度・ルールをやめること\nポイント: 類：終了、中止",
+      "vi": "Ý nghĩa: Hủy bỏ một chế độ, điều luật.\nTừ đồng nghĩa: 終了 (Kết thúc), 中止 (Đình chỉ).",
+      "en": "Meaning: Abolishing a system or rule.\nPoints: Similar to 終了 (end), 中止 (stop)."
+    },
+    "id": "v_rkn2_04_037"
+  },
+  {
+    "kanji": "心強い",
+    "hiragana": "こころづよい",
+    "hanViet": "TÂM CƯỜNG",
+    "meaning": {
+      "vi": "Mạnh mẽ, vững tâm",
+      "en": "Encouraging / Reassuring"
+    },
+    "type": "adj_i",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "「そういってくれると本当に心強いです。」",
+        "vi": "Bạn nói vậy làm tôi thực sự vững tâm.",
+        "en": "It's really reassuring to hear you say that."
+      }
+    ],
+    "note": {
+      "jp": "意味: 頼りになって、安心できること\nポイント: ⇔心細い",
+      "vi": "Ý nghĩa: Cảm thấy an tâm vì có chỗ dựa vững chắc.\nTrái nghĩa: 心細い (Bất an, cô đơn).",
+      "en": "Meaning: Being reliable and making one feel at ease.\nPoints: Opposite of 心細い (lonely/insecure)."
+    },
+    "id": "v_rkn2_04_038"
+  },
+  {
+    "kanji": "解散",
+    "hiragana": "かいさん",
+    "hanViet": "GIẢI TÁN",
+    "meaning": {
+      "vi": "Giải tán / Giải thể (công ty/nhóm)",
+      "en": "Disbandment / Break up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "９時に集合、それから現地に向かって１時に昼食、３時に解散。",
+        "vi": "9 giờ tập trung, 1 giờ ăn trưa, 3 giờ giải tán.",
+        "en": "Assemble at 9 o'clock, head to the site, have lunch at 1 o'clock, and disband at 3 o'clock."
+      },
+      {
+        "jp": "有名なグループ〇〇が解散したらしい。",
+        "vi": "Nghe nói nhóm nhạc nổi tiếng OO đã giải tán rồi.",
+        "en": "I heard the famous group OO has disbanded."
+      }
+    ],
+    "note": {
+      "jp": "意味: 集まっていた人が分かれてバラバラになること",
+      "vi": "Ý nghĩa: Những người đang tụ tập tản ra, hoặc một nhóm tan rã.",
+      "en": "Meaning: Gathered people separating, or a group disbanding."
+    },
+    "id": "v_rkn2_04_039"
+  },
+  {
+    "kanji": "意欲",
+    "hiragana": "いよく",
+    "hanViet": "Ý DỤC",
+    "meaning": {
+      "vi": "Sự mong muốn / Hăng hái",
+      "en": "Will / Desire / Ambition"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "RIKI の学生は意欲のある学生ばかりだ。",
+        "vi": "Học sinh của RIKI toàn là những bạn rất hăng hái.",
+        "en": "RIKI students are full of enthusiasm."
+      },
+      {
+        "jp": "日本で頑張っている友達を見ると勉強意欲がわいてくる。",
+        "vi": "Nhìn thấy bạn bè đang cố gắng ở Nhật là tôi lại sục sôi ý chí học hành.",
+        "en": "Seeing my friends working hard in Japan fills me with the motivation to study."
+      }
+    ],
+    "note": {
+      "jp": "意味: 進んで何かをしようと思う事やる気",
+      "vi": "Ý nghĩa: Ý chí, động lực tự giác muốn làm một việc gì đó.",
+      "en": "Meaning: The motivation or drive to willingly do something."
+    },
+    "id": "v_rkn2_04_040"
+  },
+  {
+    "kanji": "専念",
+    "hiragana": "せんねん",
+    "hanViet": "CHUYÊN NIỆM",
+    "meaning": {
+      "vi": "Sự say mê / Tập trung chuyên tâm",
+      "en": "Devotion / Dedication"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "「今年は仕事に専念したいから恋愛はしないつもり。」",
+        "vi": "Năm nay tôi muốn tập trung chuyên tâm vào công việc nên không định yêu đương gì.",
+        "en": "I intend to dedicate myself to work this year, so I have no plans for romance."
+      }
+    ],
+    "note": {
+      "jp": "意味: 他のことを諦めて、一つのことに集中する",
+      "vi": "Ý nghĩa: Từ bỏ các việc khác để tập trung tuyệt đối vào một việc.",
+      "en": "Meaning: Giving up other things to concentrate on a single thing."
+    },
+    "id": "v_rkn2_05_041"
+  },
+  {
+    "kanji": "格好",
+    "hiragana": "かっこう",
+    "hanViet": "CÁCH HẢO",
+    "meaning": {
+      "vi": "Diện mạo / Gây ấn tượng",
+      "en": "Appearance / Form / Looking cool"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "同じ格好で並んで眠る柴犬",
+        "vi": "Những chú chó shiba xếp hàng ngủ cùng một tư thế.",
+        "en": "Shiba dogs sleeping side by side in the same posture."
+      },
+      {
+        "jp": "テスト 100 点では母に格好がつかない…。",
+        "vi": "Điểm 100 thì chẳng có gì ra oai với mẹ cả...",
+        "en": "Scoring 100 on the test doesn't look impressive to my mom..."
+      }
+    ],
+    "note": {
+      "jp": "意味 ①: 外から見た見た目、外見、姿\n意味 ②: 人に対して恥ずかしくない姿",
+      "vi": "Ý nghĩa ①: Vẻ bề ngoài, diện mạo.\nÝ nghĩa ②: Thể diện, dáng vẻ không bị xấu hổ trước người khác (格好がつかない - Mất thể diện).",
+      "en": "Meaning 1: Outward appearance, figure.\nMeaning 2: An appearance that is not embarrassing in front of others."
+    },
+    "id": "v_rkn2_05_042"
+  },
+  {
+    "kanji": "提示",
+    "hiragana": "ていじ",
+    "hanViet": "ĐỀ THỊ",
+    "meaning": {
+      "vi": "Xuất trình / Đưa ra",
+      "en": "Presentation / Exhibit"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "すみませんが、身分証の提示をお願いします。",
+        "vi": "Xin lỗi nhưng vui lòng xuất trình chứng minh nhân dân.",
+        "en": "Excuse me, but please present your ID."
+      },
+      {
+        "jp": "他社からいい条件を提示されたため、今の会社を辞めるつもりだ。",
+        "vi": "Vì được công ty khác đưa ra điều kiện tốt nên tôi định nghỉ công ty hiện tại.",
+        "en": "I intend to quit my current company because I was offered good conditions by another company."
+      }
+    ],
+    "note": {
+      "jp": "意味: 差し出して見せること\nポイント: クレジットカード、パスポート",
+      "vi": "Ý nghĩa: Đưa ra cho xem.\nLưu ý: Xuất trình thẻ tín dụng, hộ chiếu, đưa ra điều kiện.",
+      "en": "Meaning: Presenting and showing something.\nPoints: Credit cards, passports."
+    },
+    "id": "v_rkn2_05_043"
+  },
+  {
+    "kanji": "分野",
+    "hiragana": "ぶんや",
+    "hanViet": "PHÂN DÃ",
+    "meaning": {
+      "vi": "Lĩnh vực",
+      "en": "Field / Sphere / Realm"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "恋愛相談は私の得意分野です。",
+        "vi": "Tư vấn tình yêu là lĩnh vực sở trường của tôi.",
+        "en": "Romance counseling is my field of expertise."
+      }
+    ],
+    "note": {
+      "jp": "意味: 物事のある範囲\nポイント: A さんの得意分野➡計算・暗算",
+      "vi": "Ý nghĩa: Lĩnh vực, chuyên môn.\nLưu ý: 得意分野 (Lĩnh vực sở trường), 苦手分野 (Lĩnh vực kém).",
+      "en": "Meaning: A certain range or sphere of things.\nPoints: Areas of expertise or weakness."
+    },
+    "id": "v_rkn2_05_044"
+  },
+  {
+    "kanji": "中継",
+    "hiragana": "ちゅうけい",
+    "hanViet": "TRUNG KẾ",
+    "meaning": {
+      "vi": "Phát thanh / Truyền hình trực tiếp",
+      "en": "Relay / Broadcasting"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "スポーツ中継を見る。",
+        "vi": "Xem phát sóng thể thao.",
+        "en": "Watch a sports broadcast."
+      },
+      {
+        "jp": "「こちら現場からの中継です。」",
+        "vi": "Đây là đường truyền trực tiếp từ hiện trường.",
+        "en": "This is a live broadcast from the scene."
+      }
+    ],
+    "note": {
+      "jp": "意味: 中継放送の略。現場の放送を、他の人にも見せること\nポイント: 生中継",
+      "vi": "Ý nghĩa: Truyền hình trực tiếp, phát sóng tiếp sóng từ hiện trường.\nLưu ý: 生中継 (Truyền hình trực tiếp).",
+      "en": "Meaning: Abbreviation for relay broadcasting. Showing live scenes to others.\nPoints: Live broadcast."
+    },
+    "id": "v_rkn2_05_045"
+  },
+  {
+    "kanji": "見当",
+    "hiragana": "けんとう",
+    "hanViet": "KIẾN ĐƯƠNG",
+    "meaning": {
+      "vi": "Dự đoán / Ước lượng",
+      "en": "Guess / Estimate"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "誰が犯人なのか見当もつかない。",
+        "vi": "Chẳng thể đoán nổi ai là thủ phạm.",
+        "en": "I can't even guess who the culprit is."
+      }
+    ],
+    "note": {
+      "jp": "意味: 大体の予想をすること\nポイント: ＿がつく、つかない",
+      "vi": "Ý nghĩa: Việc đưa ra một dự đoán đại khái.\nLưu ý: 見当がつく (Đoán được), 見当がつかない (Không đoán được).",
+      "en": "Meaning: Making a rough guess.\nPoints: Being able to guess / not being able to guess."
+    },
+    "id": "v_rkn2_05_046"
+  },
+  {
+    "kanji": "比例",
+    "hiragana": "ひれい",
+    "hanViet": "TỶ LỆ",
+    "meaning": {
+      "vi": "Tỷ lệ (thuận)",
+      "en": "Proportion"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "身長と体重は必ず比例しているわけではない。",
+        "vi": "Chiều cao và cân nặng không nhất thiết lúc nào cũng tỷ lệ thuận với nhau.",
+        "en": "Height and weight are not necessarily always directly proportional."
+      }
+    ],
+    "note": {
+      "jp": "意味: １つが減ったり増えたりすると、もう１つも増えたり減ったりすること",
+      "vi": "Ý nghĩa: Khi một thứ tăng/giảm thì thứ kia cũng tăng/giảm theo.\nLưu ý: Thường dùng để biểu thị qua biểu đồ, đồ thị.",
+      "en": "Meaning: When one thing increases/decreases, the other does too."
+    },
+    "id": "v_rkn2_05_047"
+  },
+  {
+    "kanji": "ふもと",
+    "hiragana": "ふもと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chân núi",
+      "en": "Foot of a mountain"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "富士山のふもとでキャンプする。",
+        "vi": "Cắm trại ở chân núi Phú Sĩ.",
+        "en": "Camp at the foot of Mount Fuji."
+      }
+    ],
+    "note": {
+      "jp": "意味: 山の下の方のところ",
+      "vi": "Ý nghĩa: Khu vực dưới cùng của ngọn núi.",
+      "en": "Meaning: The bottom part of a mountain."
+    },
+    "id": "v_rkn2_05_048"
+  },
+  {
+    "kanji": "補足",
+    "hiragana": "ほそく",
+    "hanViet": "BỔ TÚC",
+    "meaning": {
+      "vi": "Bổ túc, bổ sung",
+      "en": "Supplement / Addition"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "補足説明はページの下にあります。",
+        "vi": "Giải thích bổ sung ở cuối trang.",
+        "en": "Supplementary explanation is at the bottom of the page."
+      },
+      {
+        "jp": "今の彼の意見に補足させていただきますと〜",
+        "vi": "Xin phép được bổ sung thêm vào ý kiến của anh ấy vừa rồi...",
+        "en": "If I may supplement his recent opinion..."
+      }
+    ],
+    "note": {
+      "jp": "意味: 不十分な説明をプラスすること\nポイント: 説明に対し、付け足して、補う。",
+      "vi": "Ý nghĩa: Bổ sung thêm cho những giải thích chưa đầy đủ.\nLưu ý: Thêm thắt, bổ trợ vào lời giải thích.",
+      "en": "Meaning: Adding to an insufficient explanation.\nPoints: Supplementing an explanation."
+    },
+    "id": "v_rkn2_05_049"
+  },
+  {
+    "kanji": "催促",
+    "hiragana": "さいそく",
+    "hanViet": "THÔI XÚC",
+    "meaning": {
+      "vi": "Thúc giục, hối thúc",
+      "en": "Urging / Pressing"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "取引先から催促の電話がかかってきた。",
+        "vi": "Đối tác đã gọi điện hối thúc.",
+        "en": "I received a pressing phone call from a business partner."
+      }
+    ],
+    "note": {
+      "jp": "意味: 早くするように何かを言ったり・したりすること\nポイント: 借金、料金、メール、締め切り",
+      "vi": "Ý nghĩa: Nói hoặc làm gì đó để yêu cầu đối phương thao tác nhanh lên.\nLưu ý: Thúc giục trả nợ, trả cước, trả lời email, nộp bài hạn chót.",
+      "en": "Meaning: Saying or doing something to make someone hurry.\nPoints: Debts, fees, emails, deadlines."
+    },
+    "id": "v_rkn2_05_050"
+  },
+  {
+    "kanji": "導入",
+    "hiragana": "どうにゅう",
+    "hanViet": "ĐẠO NHẬP",
+    "meaning": {
+      "vi": "Đưa vào / Dẫn nhập",
+      "en": "Introduction / Bringing in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "最近はどこもセルフレジを導入してるね。",
+        "vi": "Dạo này đâu cũng đưa vào sử dụng máy tự thanh toán nhỉ.",
+        "en": "Recently, everywhere is introducing self-checkout registers."
+      },
+      {
+        "jp": "授業では導入部分が大切です。",
+        "vi": "Trong giờ học phần dẫn nhập rất quan trọng.",
+        "en": "In class, the introductory part is important."
+      }
+    ],
+    "note": {
+      "jp": "意味 ①: 新しい何か（製品、サービス、制度）を社内に入れること\n意味 ②: はじまりの部分",
+      "vi": "Ý nghĩa ①: Áp dụng/đưa một thứ gì đó mới (sản phẩm, dịch vụ, chế độ) vào trong tổ chức.\nÝ nghĩa ②: Phần mở đầu/dẫn nhập.",
+      "en": "Meaning 1: Bringing something new (products, services) into a company.\nMeaning 2: The introductory part."
+    },
+    "id": "v_rkn2_06_051"
+  },
+  {
+    "kanji": "体格",
+    "hiragana": "たいかく",
+    "hanViet": "THỂ CÁCH",
+    "meaning": {
+      "vi": "Vóc dáng / Thể cách",
+      "en": "Physique / Build"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "ボディガードはみんな体格がいいなぁ。",
+        "vi": "Vệ sĩ ai cũng có vóc dáng tốt (vạm vỡ) nhỉ.",
+        "en": "All bodyguards have a great physique."
+      }
+    ],
+    "note": {
+      "jp": "意味: 体の筋肉・骨の太さ\n使い分け: 体格 (筋肉、骨の太さ) vs 体型 (太っている、痩せている)",
+      "vi": "Ý nghĩa: Độ dày của cơ bắp, khung xương cơ thể.\nPhân biệt: 体格 (Nói về xương, cơ bắp to/vạm vỡ) vs 体型 (Nói về mập/ốm).",
+      "en": "Meaning: Thickness of muscles and bones.\nNuance: 体格 (Muscular build) vs 体型 (Body shape - fat/thin)."
+    },
+    "id": "v_rkn2_06_052"
+  },
+  {
+    "kanji": "勘定",
+    "hiragana": "かんじょう",
+    "hanViet": "KHÁM ĐỊNH",
+    "meaning": {
+      "vi": "Sự thanh toán / Tính tiền",
+      "en": "Calculation / Payment"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "ここの勘定は私が。",
+        "vi": "Để tôi thanh toán chỗ này cho.",
+        "en": "I'll cover the bill here."
+      },
+      {
+        "jp": "お勘定お願いします。",
+        "vi": "Làm ơn tính tiền giúp tôi.",
+        "en": "Check, please."
+      }
+    ],
+    "note": {
+      "jp": "意味: 支払い金額を計算してお金を支払うこと\nポイント: ≒お会計",
+      "vi": "Ý nghĩa: Tính toán số tiền thanh toán rồi trả tiền.\nLưu ý: ≒お会計 (Tuy nhiên 勘定 có cảm giác cứng nhắc, trang trọng hơn).",
+      "en": "Meaning: Calculating the payment amount and paying.\nPoints: Similar to お会計 (but 勘定 is slightly more formal)."
+    },
+    "id": "v_rkn2_06_053"
+  },
+  {
+    "kanji": "人通り",
+    "hiragana": "ひとどおり",
+    "hanViet": "NHÂN THÔNG",
+    "meaning": {
+      "vi": "Lượng người đi lại",
+      "en": "Pedestrian traffic"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "東京の渋谷は人通りが多くて、にぎやかだ。",
+        "vi": "Shibuya ở Tokyo lượng người qua lại đông đúc và nhộn nhịp.",
+        "en": "Shibuya in Tokyo has a lot of pedestrian traffic and is lively."
+      }
+    ],
+    "note": {
+      "jp": "意味: 人が行き来すること。人の通行。\nポイント: ＿が多い、＿が少ない",
+      "vi": "Ý nghĩa: Sự đi lại qua lại của con người.\nLưu ý: 人通りが多い (Đông người qua lại), 人通りが少ない (Ít người qua lại).",
+      "en": "Meaning: People coming and going.\nPoints: High/Low pedestrian traffic."
+    },
+    "id": "v_rkn2_06_054"
+  },
+  {
+    "kanji": "訂正",
+    "hiragana": "ていせい",
+    "hanViet": "ĐÍNH CHÍNH",
+    "meaning": {
+      "vi": "Đính chính",
+      "en": "Correction / Revision"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "資料を訂正したので、確認しておいてね。",
+        "vi": "Tôi đã đính chính tài liệu, nhớ kiểm tra lại nhé.",
+        "en": "I've corrected the document, so please check it."
+      },
+      {
+        "jp": "先ほどは失礼な事を申しました。発言を訂正いたします。",
+        "vi": "Ban nãy tôi đã nói điều thất lễ. Xin đính chính lại phát ngôn.",
+        "en": "I said something rude earlier. I will correct my statement."
+      }
+    ],
+    "note": {
+      "jp": "意味: 間違っているものを正しく直すこと\nポイント: 自分に間違いがあった時",
+      "vi": "Ý nghĩa: Chỉnh sửa lại những điểm đang bị sai cho đúng.\nLưu ý: Thường dùng để sửa lỗi sai về từ ngữ khi BẢN THÂN mắc lỗi. (修正 dùng được cả khi đối phương sai).",
+      "en": "Meaning: Correcting things that are wrong.\nPoints: Used when YOU make a mistake. (修正 can be used for others' mistakes)."
+    },
+    "id": "v_rkn2_06_055"
+  },
+  {
+    "kanji": "用心",
+    "hiragana": "ようじん",
+    "hanViet": "DỤNG TÂM",
+    "meaning": {
+      "vi": "Cẩn trọng / Chú ý",
+      "en": "Precaution / Care"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "火の用心",
+        "vi": "Cẩn thận củi lửa",
+        "en": "Precaution against fire"
+      },
+      {
+        "jp": "この辺は夜危なそうだから、帰り道は用心してね。",
+        "vi": "Khu này buổi tối có vẻ nguy hiểm, đường về cẩn thận nhé.",
+        "en": "This area looks dangerous at night, so be careful on your way back."
+      }
+    ],
+    "note": {
+      "jp": "意味: 事前に気をつけること\n使い分け: 注意 (しかる時にも使う) vs 用心 (事前に気をつける場合に使う)",
+      "vi": "Ý nghĩa: Cẩn thận, đề phòng trước sự việc.\nPhân biệt: 注意 (Dùng cả khi mắng/nhắc nhở) vs 用心 (Cẩn thận, đề phòng trước tình huống).",
+      "en": "Meaning: Taking precautions beforehand.\nNuance: 注意 (Also used when scolding) vs 用心 (Used for prior precautions)."
+    },
+    "id": "v_rkn2_06_056"
+  },
+  {
+    "kanji": "会見",
+    "hiragana": "かいけん",
+    "hanViet": "HỘI KIẾN",
+    "meaning": {
+      "vi": "Họp báo / Phỏng vấn",
+      "en": "Interview / Press conference"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "謝罪会見",
+        "vi": "Họp báo xin lỗi",
+        "en": "Apology press conference"
+      },
+      {
+        "jp": "結婚会見",
+        "vi": "Họp báo kết hôn",
+        "en": "Marriage press conference"
+      }
+    ],
+    "note": {
+      "jp": "意味: 改まった形で人に会うこと公式な場面で使う",
+      "vi": "Ý nghĩa: Gặp gỡ người khác một cách trịnh trọng (thường dùng trong hoàn cảnh chính thức/công khai).",
+      "en": "Meaning: Meeting people in a formal manner (used in official settings)."
+    },
+    "id": "v_rkn2_06_057"
+  },
+  {
+    "kanji": "支持",
+    "hiragana": "しじ",
+    "hanViet": "CHI TRÌ",
+    "meaning": {
+      "vi": "Ủng hộ",
+      "en": "Support / Backing"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "新しい政治家の支持率が高い。",
+        "vi": "Tỷ lệ ủng hộ chính trị gia mới rất cao.",
+        "en": "The approval rating of the new politician is high."
+      }
+    ],
+    "note": {
+      "jp": "意味: 賛成して応援すること\nポイント: 政治の話でよく使います",
+      "vi": "Ý nghĩa: Tán thành và cổ vũ.\nLưu ý: Rất hay dùng trong các chủ đề chính trị.",
+      "en": "Meaning: Agreeing and supporting.\nPoints: Often used in political discussions."
+    },
+    "id": "v_rkn2_06_058"
+  },
+  {
+    "kanji": "言い訳",
+    "hiragana": "いいわけ",
+    "hanViet": "NGÔN DỊCH",
+    "meaning": {
+      "vi": "Biện minh / Lý do lý trấu",
+      "en": "Excuse"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "言い訳考えなきゃ、、、",
+        "vi": "Phải nghĩ ra lý do biện minh mới được...",
+        "en": "I have to think of an excuse..."
+      },
+      {
+        "jp": "言い訳するな！！！",
+        "vi": "Đừng có mà biện minh!!!",
+        "en": "Don't make excuses!!!"
+      }
+    ],
+    "note": {
+      "jp": "意味: そうなった理由を説明する",
+      "vi": "Ý nghĩa: Giải thích lý do tại sao sự việc lại trở nên như vậy (thường mang ý tiêu cực).",
+      "en": "Meaning: Explaining the reason why something turned out that way."
+    },
+    "id": "v_rkn2_06_059"
+  },
+  {
+    "kanji": "特色",
+    "hiragana": "とくしょく",
+    "hanViet": "ĐẶC SẮC",
+    "meaning": {
+      "vi": "Đặc sắc",
+      "en": "Characteristic / Feature"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 6",
+    "examples": [
+      {
+        "jp": "特色のある学校",
+        "vi": "Ngôi trường mang nét đặc sắc riêng",
+        "en": "A school with unique characteristics"
+      }
+    ],
+    "note": {
+      "jp": "意味: 他と違っていて、良い意味で目だつところ",
+      "vi": "Ý nghĩa: Điểm khác biệt so với những cái khác, nổi bật theo nghĩa tốt.",
+      "en": "Meaning: Being different from others, standing out in a good way."
+    },
+    "id": "v_rkn2_06_060"
+  },
+  {
+    "kanji": "所有",
+    "hiragana": "しょゆう",
+    "hanViet": "SỞ HỮU",
+    "meaning": {
+      "vi": "Sở hữu",
+      "en": "Ownership / Possession"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "このアパートは僕が所有しているんだ。",
+        "vi": "Căn hộ này là do tôi sở hữu đấy.",
+        "en": "I own this apartment."
+      },
+      {
+        "jp": "父の所有する土地",
+        "vi": "Khu đất do bố sở hữu",
+        "en": "Land owned by my father"
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分のものとして持っていること",
+      "vi": "Ý nghĩa: Giữ tư cách là tài sản của riêng mình.\nLưu ý: Thường đi với Sở hữu quyền lợi (権利), Sở hữu tài sản (財産).",
+      "en": "Meaning: Holding as one's own.\nPoints: Used with rights, property."
+    },
+    "id": "v_rkn2_07_061"
+  },
+  {
+    "kanji": "収納",
+    "hiragana": "しゅうのう",
+    "hanViet": "THU NẠP",
+    "meaning": {
+      "vi": "Sự cất trữ / Lưu trữ",
+      "en": "Storage"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "このアパートは収納が多い。",
+        "vi": "Căn hộ này có nhiều chỗ cất đồ.",
+        "en": "This apartment has a lot of storage space."
+      },
+      {
+        "jp": "山田さんは収納が上手ですね。",
+        "vi": "Anh Yamada giỏi cất trữ sắp xếp đồ nhỉ.",
+        "en": "Mr. Yamada is good at organizing and storing things."
+      }
+    ],
+    "note": {
+      "jp": "意味: ものを中に入れて・しまっておくこと",
+      "vi": "Ý nghĩa: Bỏ đồ vào trong và cất giữ đi.",
+      "en": "Meaning: Putting things inside and storing them away."
+    },
+    "id": "v_rkn2_07_062"
+  },
+  {
+    "kanji": "用途",
+    "hiragana": "ようと",
+    "hanViet": "DỤNG ĐỒ",
+    "meaning": {
+      "vi": "Công dụng / Mục đích sử dụng",
+      "en": "Use / Purpose"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "この商品は用途が多い。",
+        "vi": "Sản phẩm này có nhiều công dụng.",
+        "en": "This product has many uses."
+      }
+    ],
+    "note": {
+      "jp": "意味: 使う方法・使うところ",
+      "vi": "Ý nghĩa: Cách dùng, nơi dùng.\nLưu ý: Dùng với tính từ 多い (Nhiều công dụng), 広い (Công dụng rộng).",
+      "en": "Meaning: How to use, where to use.\nPoints: Often used with 多い (many) or 広い (wide)."
+    },
+    "id": "v_rkn2_07_063"
+  },
+  {
+    "kanji": "行方",
+    "hiragana": "ゆくえ",
+    "hanViet": "HÀNH PHƯƠNG",
+    "meaning": {
+      "vi": "Tung tích",
+      "en": "Whereabouts"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "日本全体の年間行方不明者数は増加した。",
+        "vi": "Số lượng người mất tích hàng năm trên toàn Nhật Bản đã tăng lên.",
+        "en": "The annual number of missing persons across Japan has increased."
+      }
+    ],
+    "note": {
+      "jp": "意味: どこにいるか",
+      "vi": "Ý nghĩa: (Ai đó) Đang ở đâu.",
+      "en": "Meaning: Where someone is."
+    },
+    "id": "v_rkn2_07_064"
+  },
+  {
+    "kanji": "予測",
+    "hiragana": "よそく",
+    "hanViet": "DỰ TRẮC",
+    "meaning": {
+      "vi": "Dự đoán",
+      "en": "Prediction / Estimation"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "コロナウイルスは今年中に収束すると予測しています。",
+        "vi": "Tôi dự đoán virus Corona sẽ lắng xuống trong năm nay.",
+        "en": "I predict that the coronavirus will be contained within this year."
+      }
+    ],
+    "note": {
+      "jp": "意味: その先や結果を前もって考える・予想すること",
+      "vi": "Ý nghĩa: Suy nghĩ, dự báo trước về tương lai hoặc kết quả.\nLưu ý: Mang tính khách quan và độ tin cậy cao hơn 予想.",
+      "en": "Meaning: Thinking or predicting the future or results in advance.\nPoints: More objective and reliable than 予想."
+    },
+    "id": "v_rkn2_07_065"
+  },
+  {
+    "kanji": "完了",
+    "hiragana": "かんりょう",
+    "hanViet": "HOÀN LIỄU",
+    "meaning": {
+      "vi": "Hoàn thành",
+      "en": "Completion"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "課長。会議の準備、完了しました。",
+        "vi": "Trưởng phòng, chuẩn bị cuộc họp đã hoàn tất rồi ạ.",
+        "en": "Section Chief. Meeting preparations have been completed."
+      }
+    ],
+    "note": {
+      "jp": "意味: 完全に終えること",
+      "vi": "Ý nghĩa: Kết thúc một cách hoàn toàn trọn vẹn.",
+      "en": "Meaning: Finishing completely."
+    },
+    "id": "v_rkn2_07_066"
+  },
+  {
+    "kanji": "相違",
+    "hiragana": "そうい",
+    "hanViet": "TƯƠNG VI",
+    "meaning": {
+      "vi": "Sự khác nhau",
+      "en": "Difference / Discrepancy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "２人の意見は相違点が多い。",
+        "vi": "Ý kiến của 2 người có nhiều điểm khác nhau.",
+        "en": "There are many differences in the opinions of the two people."
+      }
+    ],
+    "note": {
+      "jp": "意味: ２つのものの間に違いがあること",
+      "vi": "Ý nghĩa: Tồn tại sự khác biệt giữa hai sự vật/sự việc.\nLưu ý: Trái nghĩa với 共通点 (Điểm chung).",
+      "en": "Meaning: A difference existing between two things.\nPoints: Opposite of 共通点 (Common points)."
+    },
+    "id": "v_rkn2_07_067"
+  },
+  {
+    "kanji": "作成",
+    "hiragana": "さくせい",
+    "hanViet": "TÁC THÀNH",
+    "meaning": {
+      "vi": "Tạo / Soạn thảo",
+      "en": "Creation / Production"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "グエンさん、今日の会議の資料を作成してくれるかな。",
+        "vi": "Anh Nguyễn, anh soạn tài liệu cho buổi họp hôm nay giúp tôi nhé.",
+        "en": "Mr. Nguyen, could you please prepare the materials for today's meeting?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 計画や書類を作ること",
+      "vi": "Ý nghĩa: Tạo ra tài liệu, lập ra kế hoạch.",
+      "en": "Meaning: Making plans or documents."
+    },
+    "id": "v_rkn2_07_068"
+  },
+  {
+    "kanji": "中断",
+    "hiragana": "ちゅうだん",
+    "hanViet": "TRUNG ĐOẠN",
+    "meaning": {
+      "vi": "Gián đoạn / Tạm dừng",
+      "en": "Interruption / Suspension"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "雨でサッカーの試合が中断する。",
+        "vi": "Trận bóng đá bị gián đoạn vì trời mưa.",
+        "en": "The soccer match is interrupted due to rain."
+      }
+    ],
+    "note": {
+      "jp": "意味: 始まっているものを途中でやめること",
+      "vi": "Ý nghĩa: Đang bắt đầu làm thì dừng lại giữa chừng.\nLưu ý: Không phải từ bỏ hoàn toàn, mà sẽ bắt đầu lại (再開する).",
+      "en": "Meaning: Stopping something in the middle.\nPoints: Not quitting entirely, will resume (再開する)."
+    },
+    "id": "v_rkn2_07_069"
+  },
+  {
+    "kanji": "収穫",
+    "hiragana": "しゅうかく",
+    "hanViet": "THU HOẠCH",
+    "meaning": {
+      "vi": "Gặt hái, thu hoạch",
+      "en": "Harvest / Fruit (of one's effort)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "今年はたくさん収穫できたなぁ！",
+        "vi": "Năm nay thu hoạch được nhiều quá nhỉ!",
+        "en": "We had a great harvest this year!"
+      },
+      {
+        "jp": "今回の出張は収穫が多かったです。契約が３件も取れました。",
+        "vi": "Chuyến công tác lần này thu hoạch được rất nhiều. Ký được tới 3 hợp đồng.",
+        "en": "This business trip was very fruitful. We secured 3 contracts."
+      }
+    ],
+    "note": {
+      "jp": "意味: 何かをして得られること",
+      "vi": "Ý nghĩa: Đạt được điều gì đó sau khi thực hiện hành động.\nLưu ý: Thu hoạch thức ăn/trái cây, thu hoạch được kinh nghiệm, kết quả tốt.",
+      "en": "Meaning: Gaining something by doing an action.\nPoints: Harvesting food, gaining experience or good results."
+    },
+    "id": "v_rkn2_07_070"
+  },
+  {
+    "kanji": "衝突",
+    "hiragana": "しょうとつ",
+    "hanViet": "XUNG ĐỘT",
+    "meaning": {
+      "vi": "Xung đột / Va chạm",
+      "en": "Collision / Conflict"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "今日の朝車と自転車の衝突事故があったみたいだよ。",
+        "vi": "Sáng nay hình như có vụ va chạm giữa ô tô và xe đạp đấy.",
+        "en": "It seems there was a collision between a car and a bicycle this morning."
+      },
+      {
+        "jp": "意見衝突",
+        "vi": "Xung đột ý kiến",
+        "en": "Clash of opinions"
+      }
+    ],
+    "note": {
+      "jp": "意味: ぶつかること",
+      "vi": "Ý nghĩa: Va đập, đâm vào nhau.",
+      "en": "Meaning: Clashing or colliding."
+    },
+    "id": "v_rkn2_08_071"
+  },
+  {
+    "kanji": "発達",
+    "hiragana": "はったつ",
+    "hanViet": "PHÁT ĐẠT",
+    "meaning": {
+      "vi": "Phát triển / Mạnh dần lên",
+      "en": "Development / Growth"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "心身が発達する",
+        "vi": "Trí óc và cơ thể phát triển.",
+        "en": "Development of mind and body."
+      },
+      {
+        "jp": "現在台風９号が発達しており、来週には日本へ上陸するでしょう。",
+        "vi": "Hiện tại cơn bão số 9 đang mạnh lên, có lẽ tuần sau sẽ đổ bộ vào Nhật.",
+        "en": "Currently, Typhoon No. 9 is developing (gaining strength) and will likely land in Japan next week."
+      }
+    ],
+    "note": {
+      "jp": "意味: 成長してさらに機能をもつようになること",
+      "vi": "Ý nghĩa: Lớn mạnh và phát triển thêm các chức năng mới.\nLưu ý: Sự phát triển của cơ thể, tâm hồn, sự mạnh lên của cơn bão, hoặc văn minh.",
+      "en": "Meaning: Growing and acquiring further functions.\nPoints: Physical/mental development, typhoon gaining strength."
+    },
+    "id": "v_rkn2_08_072"
+  },
+  {
+    "kanji": "引退",
+    "hiragana": "いんたい",
+    "hanViet": "DẪN THỐI",
+    "meaning": {
+      "vi": "Nghỉ hưu, giải nghệ",
+      "en": "Retirement"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "引退会見",
+        "vi": "Họp báo giải nghệ",
+        "en": "Retirement press conference"
+      },
+      {
+        "jp": "○○は来年引退を考えているそうだ。",
+        "vi": "Nghe nói XX đang cân nhắc giải nghệ vào năm sau.",
+        "en": "I heard XX is considering retiring next year."
+      }
+    ],
+    "note": {
+      "jp": "意味: 今の役職や地位を離すこと\n使い分け: 引退会見 (Giải nghệ) vs 謝罪会見 (Xin lỗi)",
+      "vi": "Ý nghĩa: Rời bỏ chức vụ, địa vị hiện tại.\nPhân biệt: 引退会見 (Họp báo giải nghệ) vs 謝罪会見 (Họp báo xin lỗi).",
+      "en": "Meaning: Leaving one's current post or position.\nNuance: 引退会見 (Retirement) vs 謝罪会見 (Apology)."
+    },
+    "id": "v_rkn2_08_073"
+  },
+  {
+    "kanji": "順調",
+    "hiragana": "じゅんちょう",
+    "hanViet": "THUẬN ĐIỀU",
+    "meaning": {
+      "vi": "Thuận lợi",
+      "en": "Favorable / Smooth"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "ん？順調だよ。そっちは？",
+        "vi": "Hử? Vẫn thuận lợi lắm. Bên đó thì sao?",
+        "en": "Hmm? Things are going smoothly. How about you?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 問題なく物事がうまく進んでいる",
+      "vi": "Ý nghĩa: Sự việc tiến triển trôi chảy, không có vấn đề gì.\nLưu ý: Dùng với Công việc, cuộc sống hôn nhân thuận lợi.",
+      "en": "Meaning: Things proceeding well without problems.\nPoints: Smooth work or marriage life."
+    },
+    "id": "v_rkn2_08_074"
+  },
+  {
+    "kanji": "提供",
+    "hiragana": "ていきょう",
+    "hanViet": "ĐỀ CUNG",
+    "meaning": {
+      "vi": "Cung cấp",
+      "en": "Offer / Provision"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "あちらのカウンターでご提供いたしますので少々お待ちください。",
+        "vi": "Chúng tôi sẽ phục vụ tại quầy đằng kia nên quý khách vui lòng đợi một chút.",
+        "en": "We will serve you at the counter over there, so please wait a moment."
+      }
+    ],
+    "note": {
+      "jp": "意味: 相手の役に立つように、何かを渡すこと",
+      "vi": "Ý nghĩa: Trao/đưa thứ gì đó để mang lại lợi ích cho đối phương.\nLưu ý: Cung cấp vật phẩm, dịch vụ.",
+      "en": "Meaning: Handing something over to be useful to the other party.\nPoints: Providing goods or services."
+    },
+    "id": "v_rkn2_08_075"
+  },
+  {
+    "kanji": "邪魔",
+    "hiragana": "じゃま",
+    "hanViet": "TÀ MA",
+    "meaning": {
+      "vi": "Cản trở / Vướng víu",
+      "en": "Hindrance / Obstacle"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "そこにいると邪魔だよ。ゲームできない。",
+        "vi": "Ngồi đó vướng quá. Không chơi game được.",
+        "en": "You're in the way if you stay there. I can't play the game."
+      }
+    ],
+    "note": {
+      "jp": "意味: 妨げること",
+      "vi": "Ý nghĩa: Gây cản trở, làm phiền.",
+      "en": "Meaning: Hindering or disturbing."
+    },
+    "id": "v_rkn2_08_076"
+  },
+  {
+    "kanji": "息抜き",
+    "hiragana": "いきぬき",
+    "hanViet": "TỨC BẠT",
+    "meaning": {
+      "vi": "Đổi gió, xả hơi, nghỉ ngơi",
+      "en": "Relaxation / Breather"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "仕事中の息抜きはどうしていますか？",
+        "vi": "Anh thường xả hơi giải lao trong công việc thế nào?",
+        "en": "How do you take a breather during work?"
+      }
+    ],
+    "note": {
+      "jp": "意味: 気分転換のために休んだり・何か好きなことをすること",
+      "vi": "Ý nghĩa: Việc nghỉ ngơi hoặc làm điều mình thích để thay đổi tâm trạng/giải tỏa căng thẳng.",
+      "en": "Meaning: Resting or doing something you like for a change of pace."
+    },
+    "id": "v_rkn2_08_077"
+  },
+  {
+    "kanji": "延長",
+    "hiragana": "えんちょう",
+    "hanViet": "DIÊN TRƯỜNG",
+    "meaning": {
+      "vi": "Kéo dài",
+      "en": "Extension / Prolongation"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "感染者が減らず、ロックダウンが９月まで延長されるそうだ。",
+        "vi": "Người nhiễm không giảm, nghe nói lệnh phong tỏa sẽ kéo dài đến tháng 9.",
+        "en": "With no decrease in infected people, I hear the lockdown will be extended until September."
+      },
+      {
+        "jp": "彼は仕事が遊びの延長だと思っている。",
+        "vi": "Anh ta coi công việc chỉ là sự kéo dài của trò chơi.",
+        "en": "He thinks of work as an extension of play."
+      }
+    ],
+    "note": {
+      "jp": "意味 ①: 期間を延ばすこと・延びること\n使い分け: 延長 (始まっている) vs 延期 (まだ始まってない)",
+      "vi": "Ý nghĩa ①: Kéo dài thêm thời gian/thời hạn.\nÝ nghĩa ②: Sự tiếp nối.\nPhân biệt: 延長 (Đang diễn ra bị kéo dài thêm) vs 延期 (Chưa bắt đầu, bị hoãn).",
+      "en": "Meaning 1: Extending a period.\nMeaning 2: Continuation.\nNuance: 延長 (Already started) vs 延期 (Postponed, not yet started)."
+    },
+    "id": "v_rkn2_08_078"
+  },
+  {
+    "kanji": "目上",
+    "hiragana": "めうえ",
+    "hanViet": "MỤC THƯỢNG",
+    "meaning": {
+      "vi": "Người trên",
+      "en": "Superior / One's elder"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "目上の人に「ご苦労様」はだめです！「お疲れ様」を使いましょう！",
+        "vi": "Không được nói Gokurousama với người trên! Hãy dùng Otsukaresama!",
+        "en": "You shouldn't say 'Gokurousama' to your superiors! Let's use 'Otsukaresama'!"
+      }
+    ],
+    "note": {
+      "jp": "意味: 年齢・地位が自分より上\nポイント: ⇔目下",
+      "vi": "Ý nghĩa: Người có tuổi tác, địa vị cao hơn mình.\nLưu ý: Trái nghĩa với 目下 (Người bề dưới).",
+      "en": "Meaning: Someone older or higher in status.\nPoints: Opposite of 目下 (Subordinate)."
+    },
+    "id": "v_rkn2_08_079"
+  },
+  {
+    "kanji": "反省",
+    "hiragana": "はんせい",
+    "hanViet": "PHẢN TỈNH",
+    "meaning": {
+      "vi": "Kiểm điểm / Xem lại bản thân",
+      "en": "Reflection / Repentance"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 8",
+    "examples": [
+      {
+        "jp": "今回のプロジェクト失敗の原因を探すために反省会を開いた。",
+        "vi": "Để tìm ra nguyên nhân thất bại của dự án, chúng tôi đã mở cuộc họp kiểm điểm rút kinh nghiệm.",
+        "en": "We held a review meeting to find the cause of this project's failure."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分のよくなかったところを認めて、よくしようとすること",
+      "vi": "Ý nghĩa: Tự nhìn nhận lại những điểm chưa tốt của bản thân và cố gắng sửa chữa.",
+      "en": "Meaning: Admitting one's faults and trying to improve."
+    },
+    "id": "v_rkn2_08_080"
+  },
+  {
+    "kanji": "確保",
+    "hiragana": "かくほ",
+    "hanViet": "XÁC BẢO",
+    "meaning": {
+      "vi": "Duy trì / Bắt giữ / Đảm bảo",
+      "en": "Securing / Guarantee"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "紛争地域では、食料を確保することも難しい。",
+        "vi": "Ở vùng xung đột, việc đảm bảo lương thực cũng rất khó khăn.",
+        "en": "In conflict zones, even securing food is difficult."
+      },
+      {
+        "jp": "犯人を確保しました。",
+        "vi": "Đã bắt giữ được tội phạm.",
+        "en": "We have secured (arrested) the suspect."
+      }
+    ],
+    "note": {
+      "jp": "意味 ①: 確実に手に入れること\n意味 ②: 失わないように、しっかりと保つこと",
+      "vi": "Ý nghĩa ①: Chắc chắn lấy được, thu được.\nÝ nghĩa ②: Cố định vững chắc để không bị mất đi.",
+      "en": "Meaning 1: Reliably obtaining.\nMeaning 2: Keeping firmly so as not to lose."
+    },
+    "id": "v_rkn2_09_081"
+  },
+  {
+    "kanji": "契機",
+    "hiragana": "けいき",
+    "hanViet": "KHẾ CƠ",
+    "meaning": {
+      "vi": "Thời cơ / Cơ hội",
+      "en": "Opportunity / Chance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "卒業を契機に日本に行くことを決めた。",
+        "vi": "Nhân cơ hội tốt nghiệp tôi đã quyết định đi Nhật.",
+        "en": "I decided to go to Japan, taking graduation as an opportunity."
+      }
+    ],
+    "note": {
+      "jp": "意味: 「きっかけ」よりも堅い言い方\n≒卒業を機に",
+      "vi": "Ý nghĩa: Cách nói trang trọng, cứng nhắc hơn của きっかけ (Cơ hội, nguyên cớ).",
+      "en": "Meaning: A stiffer way of saying きっかけ (Trigger/Opportunity)."
+    },
+    "id": "v_rkn2_09_082"
+  },
+  {
+    "kanji": "誤り",
+    "hiragana": "あやまり",
+    "hanViet": "NGỘ",
+    "meaning": {
+      "vi": "Sai, nhầm, lỗi",
+      "en": "Error / Mistake"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "パスワード連続誤りが続ければ、アカウントがロックされる。",
+        "vi": "Nếu tiếp tục sai mật khẩu liên tiếp, tài khoản sẽ bị khóa.",
+        "en": "If you continue to enter the wrong password consecutively, your account will be locked."
+      }
+    ],
+    "note": {
+      "jp": "意味: 正しくないこと。間違い。\nポイント: ≒エラー、間違い",
+      "vi": "Ý nghĩa: Không chính xác. Lỗi sai.\nLưu ý: ≒ エラー (Error), 間違い.",
+      "en": "Meaning: Incorrect things. Mistakes.\nPoints: Similar to エラー (Error)."
+    },
+    "id": "v_rkn2_09_083"
+  },
+  {
+    "kanji": "臆病",
+    "hiragana": "おくびょう",
+    "hanViet": "ỨC BỆNH",
+    "meaning": {
+      "vi": "Hèn nhát / Nhát gan",
+      "en": "Cowardly / Timid"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "私は恐がりで臆病で、よく泣く子供だった。",
+        "vi": "Tôi từng là một đứa trẻ sợ sệt, nhát gan và hay khóc.",
+        "en": "I was a fearful, cowardly, and often-crying child."
+      }
+    ],
+    "note": {
+      "jp": "意味: ちょっとしたことで怖がる\n対義語: 勇気",
+      "vi": "Ý nghĩa: Hơi có chuyện chút xíu đã hoảng sợ.\nTrái nghĩa: 勇気 (Dũng cảm).",
+      "en": "Meaning: Getting scared over trivial things.\nOpposite: 勇気 (Courage)."
+    },
+    "id": "v_rkn2_09_084"
+  },
+  {
+    "kanji": "頂上",
+    "hiragana": "ちょうじょう",
+    "hanViet": "ĐÍNH THƯỢNG",
+    "meaning": {
+      "vi": "Đỉnh (dốc, núi,...)",
+      "en": "Top / Summit"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ファンシパン山の頂上からの景色は最高だよ！",
+        "vi": "Phong cảnh từ đỉnh núi Fansipan là tuyệt vời nhất đấy!",
+        "en": "The view from the top of Mount Fansipan is the best!"
+      }
+    ],
+    "note": {
+      "jp": "意味: 一番高いところ。\n関連語彙: 頂 (いただき)",
+      "vi": "Ý nghĩa: Điểm cao nhất.\nTừ liên quan: 頂 (いただき - Đỉnh).",
+      "en": "Meaning: The highest point.\nRelated: 頂 (Peak)."
+    },
+    "id": "v_rkn2_09_085"
+  },
+  {
+    "kanji": "節約",
+    "hiragana": "せつやく",
+    "hanViet": "TIẾT ƯỚC",
+    "meaning": {
+      "vi": "Tiết kiệm",
+      "en": "Saving / Economizing"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "生活費の節約",
+        "vi": "Tiết kiệm phí sinh hoạt",
+        "en": "Saving on living expenses"
+      },
+      {
+        "jp": "電気や水を節約する。",
+        "vi": "Tiết kiệm điện, nước.",
+        "en": "Save electricity and water."
+      }
+    ],
+    "note": {
+      "jp": "意味: お金を貯めるために無駄に使わないこと\n使い分け: 節約 (お金以外にも) vs 倹約 (お金だけ)",
+      "vi": "Ý nghĩa: Không sử dụng lãng phí để tích lũy.\nPhân biệt: 節約 (Dùng được cho cả ngoài tiền bạc) vs 倹約 (Chỉ giới hạn về tiết kiệm Tiền).",
+      "en": "Meaning: Not wasting in order to save money.\nNuance: 節約 (For things other than money too) vs 倹約 (Only for money)."
+    },
+    "id": "v_rkn2_09_086"
+  },
+  {
+    "kanji": "苦情",
+    "hiragana": "くじょう",
+    "hanViet": "KHỔ TÌNH",
+    "meaning": {
+      "vi": "Than phiền, phàn nàn",
+      "en": "Complaint / Grievance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "近所が毎晩うるさいので苦情を言った。",
+        "vi": "Hàng xóm đêm nào cũng ồn ào nên tôi đã phàn nàn.",
+        "en": "The neighborhood is noisy every night, so I made a complaint."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分以外が原因で、困っていることをいうこと\n使い分け: 文句 (被害がなくても) vs 苦情 (被害があった) vs クレーム (お客さんによる)",
+      "vi": "Ý nghĩa: Nói ra sự khó chịu do nguyên nhân từ người khác.\nPhân biệt: 文句 (Cằn nhằn dù chưa bị thiệt hại) vs 苦情 (Đã bị thiệt hại) vs クレーム (Khách hàng khiếu nại).",
+      "en": "Meaning: Saying things you're troubled with due to others.\nNuance: 文句 (No actual damage needed) vs 苦情 (Damage occurred) vs クレーム (Customer complaint)."
+    },
+    "id": "v_rkn2_09_087"
+  },
+  {
+    "kanji": "名所",
+    "hiragana": "めいしょ",
+    "hanViet": "DANH SỞ",
+    "meaning": {
+      "vi": "Nơi nổi tiếng",
+      "en": "Famous place"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "フエは古くからの名所が多い。",
+        "vi": "Huế có rất nhiều danh lam thắng cảnh từ xa xưa.",
+        "en": "Hue has many famous places from ancient times."
+      }
+    ],
+    "note": {
+      "jp": "意味: 有名なところ",
+      "vi": "Ý nghĩa: Địa danh nổi tiếng.",
+      "en": "Meaning: Famous place."
+    },
+    "id": "v_rkn2_09_088"
+  },
+  {
+    "kanji": "記憶",
+    "hiragana": "きおく",
+    "hanViet": "KÍ ỨC",
+    "meaning": {
+      "vi": "Kí ức",
+      "en": "Memory / Recollection"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "記憶が全くない…お酒を飲みすぎたな…",
+        "vi": "Chẳng nhớ cái gì cả... Chắc uống nhiều rượu quá rồi...",
+        "en": "I have absolutely no memory... I must have drunk too much alcohol..."
+      }
+    ],
+    "note": {
+      "jp": "意味: 過去のことを覚えていること",
+      "vi": "Ý nghĩa: Ghi nhớ những chuyện trong quá khứ.",
+      "en": "Meaning: Remembering things from the past."
+    },
+    "id": "v_rkn2_09_089"
+  },
+  {
+    "kanji": "不平",
+    "hiragana": "ふへい",
+    "hanViet": "BẤT BÌNH",
+    "meaning": {
+      "vi": "Than phiền / Bất bình",
+      "en": "Discontent / Dissatisfaction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ぶつぶつと不平を言う。",
+        "vi": "Lầm bầm cằn nhằn.",
+        "en": "Mutter complaints."
+      }
+    ],
+    "note": {
+      "jp": "使い分け: 不平 (態度であらわすことも) vs 文句 (うちに出していうこと)",
+      "vi": "Lưu ý: ≒文句、ぐち.\nPhân biệt: 不平 (Không cần thốt ra lời, thể hiện bằng thái độ) vs 文句 (Bắt buộc phải thốt ra thành lời).",
+      "en": "Nuance: 不平 (Can be expressed through attitude) vs 文句 (Must be spoken out loud)."
+    },
+    "id": "v_rkn2_09_090"
+  },
+  {
+    "kanji": "限定",
+    "hiragana": "げんてい",
+    "hanViet": "HẠN ĐỊNH",
+    "meaning": {
+      "vi": "Giới hạn",
+      "en": "Limitation / Restriction"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "アプリ会員限定価格！",
+        "vi": "Giá đặc biệt giới hạn cho hội viên app!",
+        "en": "Limited price for app members!"
+      },
+      {
+        "jp": "先着２００名限定！",
+        "vi": "Giới hạn 200 người đến sớm nhất!",
+        "en": "Limited to the first 200 arrivals!"
+      }
+    ],
+    "note": {
+      "jp": "意味: その個数・期間しかないこと",
+      "vi": "Ý nghĩa: Chỉ có trong khoảng số lượng/thời gian đó thôi.",
+      "en": "Meaning: Limited only to that quantity or period."
+    },
+    "id": "v_rkn2_10_091"
+  },
+  {
+    "kanji": "論戦",
+    "hiragana": "ろんせん",
+    "hanViet": "LUẬN CHIẾN",
+    "meaning": {
+      "vi": "Tranh cãi / Tranh luận",
+      "en": "Verbal dispute / Controversy"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "昨日の政治家たちの論戦はかなり激しかった。",
+        "vi": "Cuộc tranh luận của các chính trị gia ngày hôm qua khá là gay gắt.",
+        "en": "Yesterday's debate among the politicians was quite intense."
+      }
+    ],
+    "note": {
+      "jp": "意味: 議論（話すこと）で戦うこと",
+      "vi": "Ý nghĩa: Chiến đấu bằng tranh luận (ngôn từ).",
+      "en": "Meaning: Fighting through discussion (words)."
+    },
+    "id": "v_rkn2_10_092"
+  },
+  {
+    "kanji": "独特",
+    "hiragana": "どくとく",
+    "hanViet": "ĐỘC ĐẶC",
+    "meaning": {
+      "vi": "Độc đáo",
+      "en": "Unique / Peculiar"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "一度見たら忘れられない独特な雰囲気の男だった。",
+        "vi": "Đó là một người đàn ông có bầu không khí độc đáo, nhìn một lần là không thể quên.",
+        "en": "He was a man with a unique atmosphere that you could never forget once you saw him."
+      }
+    ],
+    "note": {
+      "jp": "使い分け: 独自 (自分しかない) vs 独特 (自分だけが持っている様子、特徴)",
+      "vi": "Ý nghĩa: Không ở đâu có, chỉ riêng người/vật đó mang nét riêng biệt.\nPhân biệt: 独自 (Chỉ bản thân mình có, không đụng hàng) vs 独特 (Đặc trưng mang tính độc đáo của riêng mình).",
+      "en": "Nuance: 独自 (Only oneself has it) vs 独特 (Unique features only oneself possesses)."
+    },
+    "id": "v_rkn2_10_093"
+  },
+  {
+    "kanji": "じたばた",
+    "hiragana": "じたばた",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vùng vẫy, vật lộn",
+      "en": "Struggling / Floundering"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "まぁまぁ。今更じたばたしてもしょうがないよ。",
+        "vi": "Thôi thôi. Đến giờ này có cuống lên cũng chẳng làm được gì đâu.",
+        "en": "Now, now. It's no use panicking/struggling at this point."
+      }
+    ],
+    "note": {
+      "jp": "意味: ≒慌てる",
+      "vi": "Ý nghĩa: Cuống cuồng, vùng vẫy (≒慌てる).",
+      "en": "Meaning: Panicking/Struggling (similar to 慌てる)."
+    },
+    "id": "v_rkn2_10_094"
+  },
+  {
+    "kanji": "役目",
+    "hiragana": "やくめ",
+    "hanViet": "DỊCH MỤC",
+    "meaning": {
+      "vi": "Vai trò, bổn phận",
+      "en": "Duty / Role"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "子どもが２０歳になって親としての役目は終わった。",
+        "vi": "Con đã 20 tuổi, vai trò làm cha mẹ đã kết thúc.",
+        "en": "My child has turned 20, so my role as a parent is over."
+      }
+    ],
+    "note": {
+      "jp": "意味: 自分がやらなければならない事・立場（抽象的）\nポイント: ＿を果たす、を背負う",
+      "vi": "Ý nghĩa: Vị trí, những việc bản thân cần phải làm (tính trừu tượng).\nLưu ý: Dùng với 役目を果たす (Hoàn thành bổn phận), 役目を背負う (Gánh vác bổn phận).",
+      "en": "Meaning: Things you must do, abstract position.\nPoints: Fulfill a duty, shoulder a duty."
+    },
+    "id": "v_rkn2_10_095"
+  },
+  {
+    "kanji": "最寄り",
+    "hiragana": "もより",
+    "hanViet": "TỐI KÍ",
+    "meaning": {
+      "vi": "Gần nhất",
+      "en": "Nearest"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "最寄りの駅まで徒歩１０分くらいです。",
+        "vi": "Đến nhà ga gần nhất đi bộ mất khoảng 10 phút.",
+        "en": "It takes about 10 minutes on foot to the nearest station."
+      },
+      {
+        "jp": "財布を拾ったので、最寄りの交番に届ける。",
+        "vi": "Nhặt được ví nên mang nộp ở đồn cảnh sát gần nhất.",
+        "en": "I found a wallet, so I'll turn it in at the nearest police box."
+      }
+    ],
+    "note": {
+      "jp": "意味: 最も（一番）近い\nポイント: ＿の駅、交番→場所",
+      "vi": "Ý nghĩa: Gần nhất.\nLưu ý: Thường hay dùng chỉ Địa điểm (最寄りの駅 - Nhà ga gần nhất).",
+      "en": "Meaning: Closest.\nPoints: Usually used for locations (Nearest station)."
+    },
+    "id": "v_rkn2_10_096"
+  },
+  {
+    "kanji": "解約",
+    "hiragana": "かいやく",
+    "hanViet": "GIẢI ƯỚC",
+    "meaning": {
+      "vi": "Huỷ hợp đồng",
+      "en": "Cancellation of contract"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "ケータイ代が高すぎるので来月解約することにした。",
+        "vi": "Tiền điện thoại cao quá nên tháng sau tôi quyết định hủy hợp đồng.",
+        "en": "The cell phone bill is too high, so I decided to cancel the contract next month."
+      }
+    ],
+    "note": {
+      "jp": "意味: 契約を取り消すこと\nポイント: 契約を＿する",
+      "vi": "Ý nghĩa: Xóa bỏ hợp đồng đã ký.\nLưu ý: 契約を解約する (Hủy hợp đồng).",
+      "en": "Meaning: Cancelling a contract.\nPoints: To cancel a contract."
+    },
+    "id": "v_rkn2_10_097"
+  },
+  {
+    "kanji": "演説",
+    "hiragana": "えんぜつ",
+    "hanViet": "DIỄN THUYẾT",
+    "meaning": {
+      "vi": "Diễn thuyết",
+      "en": "Speech / Address"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "オバマ大統領の演説は素晴らしい。",
+        "vi": "Bài diễn thuyết của tổng thống Obama rất tuyệt vời.",
+        "en": "President Obama's speech is wonderful."
+      }
+    ],
+    "note": {
+      "jp": "意味: 大勢の前で自分の意見を話すこと",
+      "vi": "Ý nghĩa: Nói ra ý kiến của mình trước đám đông.",
+      "en": "Meaning: Expressing one's opinion in front of a large crowd."
+    },
+    "id": "v_rkn2_10_098"
+  },
+  {
+    "kanji": "点検",
+    "hiragana": "てんけん",
+    "hanViet": "ĐIỂM KIỂM",
+    "meaning": {
+      "vi": "Bảo dưỡng / Kiểm tra",
+      "en": "Inspection / Check"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "安全のために一年に一回は車の点検をしてください。",
+        "vi": "Vì sự an toàn, hãy bảo dưỡng xe mỗi năm một lần.",
+        "en": "For safety, please have your car inspected once a year."
+      }
+    ],
+    "note": {
+      "jp": "意味: 悪い所や異常がないかを一つ一つしっかり検査すること\nポイント: 施設、エレベーター、車、パソコン＋＿＿＿",
+      "vi": "Ý nghĩa: Kiểm tra kỹ lưỡng từng bộ phận xem có bất thường hay hư hỏng nào không.\nLưu ý: Đi kèm với máy móc/thiết bị (施設、エレベーター、車、パソコン＋点検).",
+      "en": "Meaning: Inspecting carefully one by one to see if there are any faults.\nPoints: Used with facilities, elevators, cars, PCs."
+    },
+    "id": "v_rkn2_10_099"
+  },
+  {
+    "kanji": "地元",
+    "hiragana": "じもと",
+    "hanViet": "ĐỊA NGUYÊN",
+    "meaning": {
+      "vi": "Địa phương / Quê quán",
+      "en": "Local / Hometown"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 10",
+    "examples": [
+      {
+        "jp": "親元から離れたくないので、地元の会社で働きたい。",
+        "vi": "Không muốn rời xa bố mẹ nên tôi muốn làm việc ở công ty địa phương.",
+        "en": "I don't want to leave my parents, so I want to work at a local company."
+      },
+      {
+        "jp": "あの政治家は地元の声に耳を傾けている。",
+        "vi": "Chính trị gia đó luôn lắng nghe tiếng nói của địa phương.",
+        "en": "That politician listens to the voices of the local community."
+      }
+    ],
+    "note": {
+      "jp": "使い分け: 出身地、故郷 (生まれたところ、硬い言葉) vs 地元 (生まれ育った or 長く住んでいるところ)",
+      "vi": "Ý nghĩa: Nơi đã/đang sinh sống lâu năm.\nPhân biệt: 出身地、故郷 (Từ cứng, chỉ nơi được sinh ra) vs 地元 (Nơi được sinh ra và lớn lên, mang tình cảm).",
+      "en": "Nuance: 出身地、故郷 (Formal, birthplace) vs 地元 (Where you grew up or lived long, with emotional attachment)."
+    },
+    "id": "v_rkn2_10_100"
+  }
+]

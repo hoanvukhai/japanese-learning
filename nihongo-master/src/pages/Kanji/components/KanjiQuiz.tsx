@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { CheckCircle2, XCircle } from 'lucide-react';
 import type { QuizQ, HanVietQ } from './KanjiCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface KanjiQuizProps {
   q: QuizQ | HanVietQ;

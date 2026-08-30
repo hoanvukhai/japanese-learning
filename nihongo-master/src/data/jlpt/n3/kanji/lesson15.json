@@ -1,0 +1,586 @@
+[
+    {
+        "id": "k_rkn3_15_01",
+        "character": "込",
+        "hanViet": "NHẬP",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_01_1",
+                "word": "申し込み",
+                "hanVietWord": "THÂN NHẬP",
+                "hiragana": "もうしこみ",
+                "meaning": {
+                    "vi": "Đăng ký / Nộp đơn",
+                    "en": "Application"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "試験の申し込みは明日までです。",
+                        "vi": "Việc đăng ký kỳ thi là đến ngày mai.",
+                        "en": "The application for the exam is until tomorrow."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_01_2",
+                "word": "飛び込む",
+                "hanVietWord": "PHI NHẬP",
+                "hiragana": "とびこむ",
+                "meaning": {
+                    "vi": "Nhảy vào / Lao vào",
+                    "en": "To jump in / To dive in"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "プールに飛び込む。",
+                        "vi": "Nhảy vào hồ bơi.",
+                        "en": "Dive into the pool."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_01_3",
+                "word": "込める",
+                "hanVietWord": "NHẬP",
+                "hiragana": "こめる",
+                "meaning": {
+                    "vi": "Bỏ vào / Dồn vào / Gửi gắm (tình cảm)",
+                    "en": "To put into / To include"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "心を込めて手紙を書いた。",
+                        "vi": "Tôi đã dồn tình cảm vào để viết thư.",
+                        "en": "I wrote the letter with all my heart."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_02",
+        "character": "遊",
+        "hanViet": "DU",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_02_1",
+                "word": "遊ぶ",
+                "hanVietWord": "DU",
+                "hiragana": "あそぶ",
+                "meaning": {
+                    "vi": "Chơi",
+                    "en": "To play"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "公園で子供たちが遊んでいる。",
+                        "vi": "Bọn trẻ đang chơi ở công viên.",
+                        "en": "Children are playing in the park."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_02_2",
+                "word": "遊園地",
+                "hanVietWord": "DU VIÊN ĐỊA",
+                "hiragana": "ゆうえんち",
+                "meaning": {
+                    "vi": "Công viên giải trí",
+                    "en": "Amusement park"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "週末は家族で遊園地に行く。",
+                        "vi": "Cuối tuần tôi cùng gia đình đi công viên giải trí.",
+                        "en": "I will go to the amusement park with my family on the weekend."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_03",
+        "character": "過",
+        "hanViet": "QUÁ",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_03_1",
+                "word": "過去",
+                "hanVietWord": "QUÁ KHỨ",
+                "hiragana": "かこ",
+                "meaning": {
+                    "vi": "Quá khứ",
+                    "en": "Past"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "過去の失敗から学ぶ。",
+                        "vi": "Học hỏi từ thất bại trong quá khứ.",
+                        "en": "Learn from past mistakes."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_03_2",
+                "word": "過ぎる",
+                "hanVietWord": "QUÁ",
+                "hiragana": "すぎる",
+                "meaning": {
+                    "vi": "Vượt quá",
+                    "en": "To pass / To exceed"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "約束の時間を過ぎてしまった。",
+                        "vi": "Đã qua mất thời gian hẹn.",
+                        "en": "The appointed time has passed."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_03_3",
+                "word": "過ごす",
+                "hanVietWord": "QUÁ",
+                "hiragana": "すごす",
+                "meaning": {
+                    "vi": "Trải qua / Dành (thời gian)",
+                    "en": "To spend (time)"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "楽しい時間を過ごした。",
+                        "vi": "Tôi đã trải qua một thời gian vui vẻ.",
+                        "en": "I spent a fun time."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_04",
+        "character": "逆",
+        "hanViet": "NGHỊCH",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_04_1",
+                "word": "逆",
+                "hanVietWord": "NGHỊCH",
+                "hiragana": "ぎゃく",
+                "meaning": {
+                    "vi": "Ngược",
+                    "en": "Reverse / Opposite"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "シャツを逆に着てしまった。",
+                        "vi": "Tôi đã mặc áo sơ mi ngược mất rồi.",
+                        "en": "I wore the shirt inside out."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_04_2",
+                "word": "逆立ち",
+                "hanVietWord": "NGHỊCH LẬP",
+                "hiragana": "さかだち",
+                "meaning": {
+                    "vi": "Trồng cây chuối",
+                    "en": "Handstand"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼は逆立ちをして歩ける。",
+                        "vi": "Anh ấy có thể trồng cây chuối và đi bộ.",
+                        "en": "He can walk while doing a handstand."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_04_3",
+                "word": "逆転勝利",
+                "hanVietWord": "NGHỊCH CHUYỂN THẮNG LỢI",
+                "hiragana": "ぎゃくてんしょうり",
+                "meaning": {
+                    "vi": "Chiến thắng lội ngược dòng",
+                    "en": "Come-from-behind victory"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "試合の最後に逆転勝利した。",
+                        "vi": "Đã chiến thắng lội ngược dòng vào phút cuối trận đấu.",
+                        "en": "Achieved a come-from-behind victory at the end of the game."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_04_4",
+                "word": "逆らう",
+                "hanVietWord": "NGHỊCH",
+                "hiragana": "さからう",
+                "meaning": {
+                    "vi": "Chống lại / Cãi lại",
+                    "en": "To go against / To oppose"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "親の命令に逆らう。",
+                        "vi": "Cãi lại mệnh lệnh của bố mẹ.",
+                        "en": "Go against parents' orders."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_05",
+        "character": "迎",
+        "hanViet": "NGHÊNH",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_05_1",
+                "word": "歓迎会",
+                "hanVietWord": "HOAN NGHÊNH HỘI",
+                "hiragana": "かんげいかい",
+                "meaning": {
+                    "vi": "Tiệc chào mừng",
+                    "en": "Welcome party"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新入社員の歓迎会を開く。",
+                        "vi": "Mở tiệc chào mừng nhân viên mới.",
+                        "en": "Hold a welcome party for new employees."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_05_2",
+                "word": "大歓迎",
+                "hanVietWord": "ĐẠI HOAN NGHÊNH",
+                "hiragana": "だいかんげい",
+                "meaning": {
+                    "vi": "Nhiệt liệt chào mừng",
+                    "en": "Warm welcome"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "あなたの参加を大歓迎します。",
+                        "vi": "Nhiệt liệt hoan nghênh sự tham gia của bạn.",
+                        "en": "We warmly welcome your participation."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_05_3",
+                "word": "迎え",
+                "hanVietWord": "NGHÊNH",
+                "hiragana": "むかえ",
+                "meaning": {
+                    "vi": "Sự đón / Việc đón",
+                    "en": "Greeting / Meeting someone"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "空港まで友達を迎えに行く。",
+                        "vi": "Đi đến sân bay để đón bạn.",
+                        "en": "Go to the airport to pick up a friend."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_06",
+        "character": "退",
+        "hanViet": "THOÁI",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_06_1",
+                "word": "引退する",
+                "hanVietWord": "DẪN THOÁI",
+                "hiragana": "いんたいする",
+                "meaning": {
+                    "vi": "Giải nghệ / Rút lui",
+                    "en": "To retire"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "有名な選手が引退した。",
+                        "vi": "Tuyển thủ nổi tiếng đã giải nghệ.",
+                        "en": "The famous athlete retired."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_06_2",
+                "word": "早退",
+                "hanVietWord": "TẢO THOÁI",
+                "hiragana": "そうたい",
+                "meaning": {
+                    "vi": "Về sớm",
+                    "en": "Leaving early"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "気分が悪いので、今日は早退します。",
+                        "vi": "Vì thấy khó chịu nên hôm nay tôi sẽ về sớm.",
+                        "en": "I feel sick, so I will leave early today."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_06_3",
+                "word": "退職届",
+                "hanVietWord": "THOÁI CHỨC GIỚI",
+                "hiragana": "たいしょくとどけ",
+                "meaning": {
+                    "vi": "Đơn xin nghỉ việc",
+                    "en": "Letter of resignation"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "社長に退職届を出した。",
+                        "vi": "Tôi đã nộp đơn xin nghỉ việc cho giám đốc.",
+                        "en": "I submitted my letter of resignation to the president."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_07",
+        "character": "選",
+        "hanViet": "TUYỂN",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_07_1",
+                "word": "選択",
+                "hanVietWord": "TUYỂN TRẠCH",
+                "hiragana": "せんたく",
+                "meaning": {
+                    "vi": "Sự lựa chọn",
+                    "en": "Choice / Selection"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "難しい選択をしなければならない。",
+                        "vi": "Tôi phải đưa ra một sự lựa chọn khó khăn.",
+                        "en": "I have to make a difficult choice."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_07_2",
+                "word": "選手",
+                "hanVietWord": "TUYỂN THỦ",
+                "hiragana": "せんしゅ",
+                "meaning": {
+                    "vi": "Vận động viên / Tuyển thủ",
+                    "en": "Athlete / Player"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は日本代表の選手だ。",
+                        "vi": "Anh ấy là tuyển thủ đại diện của Nhật Bản.",
+                        "en": "He is a representative player for Japan."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_07_3",
+                "word": "選ぶ",
+                "hanVietWord": "TUYỂN",
+                "hiragana": "えらぶ",
+                "meaning": {
+                    "vi": "Lựa chọn",
+                    "en": "To choose"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "好きなケーキを選んでください。",
+                        "vi": "Hãy chọn chiếc bánh kem mà bạn thích.",
+                        "en": "Please choose your favorite cake."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_08",
+        "character": "緑",
+        "hanViet": "LỤC",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_08_1",
+                "word": "緑茶",
+                "hanVietWord": "LỤC TRÀ",
+                "hiragana": "りょくちゃ",
+                "meaning": {
+                    "vi": "Trà xanh",
+                    "en": "Green tea"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "食後に温かい緑茶を飲む。",
+                        "vi": "Uống trà xanh ấm sau bữa ăn.",
+                        "en": "Drink warm green tea after a meal."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_08_2",
+                "word": "緑",
+                "hanVietWord": "LỤC",
+                "hiragana": "みどり",
+                "meaning": {
+                    "vi": "Màu xanh lá",
+                    "en": "Green"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "森の緑が美しい。",
+                        "vi": "Màu xanh của khu rừng thật đẹp.",
+                        "en": "The green of the forest is beautiful."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_15_09",
+        "character": "録",
+        "hanViet": "LỤC",
+        "level": "N3",
+        "lesson": "Bài 15",
+        "words": [
+            {
+                "id": "kw_rkn3_15_09_1",
+                "word": "登録する",
+                "hanVietWord": "ĐĂNG LỤC",
+                "hiragana": "とうろくする",
+                "meaning": {
+                    "vi": "Đăng ký",
+                    "en": "To register"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しいサイトに会員登録する。",
+                        "vi": "Đăng ký hội viên trên trang web mới.",
+                        "en": "Register as a member on the new site."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_09_2",
+                "word": "録画",
+                "hanVietWord": "LỤC HỌA",
+                "hiragana": "ろくが",
+                "meaning": {
+                    "vi": "Ghi hình",
+                    "en": "Video recording"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "好きな番組をビデオに録画する。",
+                        "vi": "Ghi hình lại chương trình yêu thích vào video.",
+                        "en": "Record my favorite program on video."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_15_09_3",
+                "word": "記録",
+                "hanVietWord": "KỶ LỤC",
+                "hiragana": "きろく",
+                "meaning": {
+                    "vi": "Ghi chép / Kỷ lục",
+                    "en": "Record / Document"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "水泳の大会で世界記録が出た。",
+                        "vi": "Đã có kỷ lục thế giới được lập ra ở đại hội bơi lội.",
+                        "en": "A world record was set at the swimming competition."
+                    }
+                ]
+            }
+        ]
+    }
+]

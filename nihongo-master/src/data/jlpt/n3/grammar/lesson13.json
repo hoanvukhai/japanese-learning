@@ -1,0 +1,200 @@
+[
+  {
+    "id": "g_rkn3_13_01",
+    "level": "N3",
+    "structure": "〜ことか",
+    "structureKana": "〜ことか",
+    "meaning": {
+      "vi": "Thật là... / Biết bao nhiêu là... (nhấn mạnh cảm xúc sâu sắc)",
+      "en": "How...! / So much... (expressing deep emotion emphatically)"
+    },
+    "formation": [
+      "どんなに / どれほど + Thể thông thường (N-な / A-な) + ことか"
+    ],
+    "lesson": "Bài 13",
+    "group": "Emotion_Desire",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Bộc lộ cảm xúc cực độ từ tận đáy lòng. LUÔN đi kèm từ để hỏi chỉ mức độ (どんなに, どれほど, 何度). Dùng trong văn viết và độc thoại, ít dùng trong hội thoại thông thường.",
+      "en": "⚠️ JLPT Trap: Expresses extreme emotion from the heart. ALWAYS used with degree interrogatives (どんなに, どれほど, 何度). Used in writing and monologue, rarely in daily conversation."
+    },
+    "examples": [
+      {
+        "jp": "合格できたと知ったとき、どんなに嬉しかった[ことか]。",
+        "kana": "ごうかくできたとしったとき、どんなにうれしかった[ことか]。",
+        "vi": "Khi biết mình đã thi đỗ, tôi đã vui mừng biết bao nhiêu.",
+        "en": "How happy I was when I found out I had passed!"
+      },
+      {
+        "jp": "日本での生活は、最初どれほど大変だった[ことか]。",
+        "kana": "にほんでのせいかつは、さいしょどれほどたいへんだった[ことか]。",
+        "vi": "Cuộc sống ở Nhật Bản thời gian đầu đã vất vả biết nhường nào.",
+        "en": "How difficult life in Japan was at the beginning!"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_13_02",
+    "level": "N3",
+    "structure": "〜一方で（は）",
+    "structureKana": "〜いっぽうで（は）",
+    "meaning": {
+      "vi": "Một mặt thì... mặt khác thì... (hai khía cạnh song song của cùng một sự vật)",
+      "en": "On one hand... on the other hand... (two parallel aspects of the same thing)"
+    },
+    "formation": [
+      "Thể thông thường (N-である / A-な/である) + 一方で"
+    ],
+    "lesson": "Bài 13",
+    "group": "Contrast",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: 2 mặt đối lập/song song của CÙNG MỘT sự vật. Khác với のに対して (2 SỰ VẬT KHÁC NHAU đối lập nhau). 一方で=cùng 1 thứ, のに対して=2 thứ khác nhau.",
+      "en": "⚠️ JLPT Trap: 2 opposing/parallel aspects of THE SAME thing. vs. のに対して (2 DIFFERENT things contrasted). 一方で=same thing, のに対して=2 different things."
+    },
+    "examples": [
+      {
+        "jp": "この仕事は給料が高い[一方で]、ストレスも大きい。",
+        "kana": "このしごとはきゅうりょうがたかい[いっぽうで]、ストレスもおおきい。",
+        "vi": "Công việc này một mặt thì lương cao, nhưng mặt khác thì áp lực cũng lớn.",
+        "en": "While this job pays well, on the other hand, it is also highly stressful."
+      },
+      {
+        "jp": "人口が増える[一方で]、自然環境は悪化している。",
+        "kana": "じんこうがふえる[いっぽうで]、しぜんかんきょうはあっかしている。",
+        "vi": "Trong khi dân số tăng lên thì môi trường tự nhiên lại đang xấu đi.",
+        "en": "While the population is growing, the natural environment is deteriorating."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_13_03",
+    "level": "N3",
+    "structure": "〜を中心に（して）",
+    "structureKana": "〜をちゅうしんに（して）",
+    "meaning": {
+      "vi": "Lấy... làm trung tâm / Trọng tâm là...",
+      "en": "Centered around... / Focusing on..."
+    },
+    "formation": [
+      "N + を中心に / を中心にして / を中心として"
+    ],
+    "lesson": "Bài 13",
+    "group": "Particles",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Chỉ ra một nhân vật, địa điểm, chủ đề làm CỐT LÕI, xung quanh đó các hành động/sự việc khác xoay quanh và lan rộng ra.",
+      "en": "⚠️ JLPT Trap: Indicates a person, place, or topic as the CORE, around which other actions/events revolve and expand."
+    },
+    "examples": [
+      {
+        "jp": "東京[を中心に]、広い範囲で地震がありました。",
+        "kana": "とうきょう[をちゅうしんに]、ひろいはんいでじしんがありました。",
+        "vi": "Đã có động đất trên diện rộng, lấy Tokyo làm trung tâm.",
+        "en": "There was an earthquake over a wide area, centered around Tokyo."
+      },
+      {
+        "jp": "文法[を中心に]日本語を勉強している。",
+        "kana": "ぶんぽう[をちゅうしんに]にほんごをべんきょうしている。",
+        "vi": "Tôi đang học tiếng Nhật với trọng tâm là ngữ pháp.",
+        "en": "I am studying Japanese focusing primarily on grammar."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_13_04",
+    "level": "N3",
+    "structure": "〜に違いない",
+    "structureKana": "〜にちがいない",
+    "meaning": {
+      "vi": "Chắc chắn là... / Không thể sai được (phán đoán tin tưởng 100%)",
+      "en": "There is no doubt that... / Must be... (100% confident judgment)"
+    },
+    "formation": [
+      "Thể thông thường (N / A-な bỏ だ) + に違いない"
+    ],
+    "lesson": "Bài 13",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Phán đoán CHỦ QUAN với niềm tin 100%. Mạnh hơn はずだ (có căn cứ logic). Tương đương にきまっている. Cả hai đều không dùng dấu証拠 trực tiếp như ようだ.",
+      "en": "⚠️ JLPT Trap: SUBJECTIVE judgment with 100% confidence. Stronger than はずだ (logical basis). Equivalent to にきまっている. Neither uses direct sensory evidence like ようだ."
+    },
+    "examples": [
+      {
+        "jp": "鍵がない。どこかに落とした[に違いない]。",
+        "kana": "かぎがない。どこかにおとした[にちがいない]。",
+        "vi": "Không thấy chìa khóa đâu. Chắc chắn là tôi đã làm rơi ở đâu đó rồi.",
+        "en": "The key is missing. I must have dropped it somewhere."
+      },
+      {
+        "jp": "あんなに練習したのだから、彼は合格する[に違いない]。",
+        "kana": "あんなにれんしゅうしたのだから、かれはごうかくする[にちがいない]。",
+        "vi": "Luyện tập nhiều đến thế cơ mà, cậu ấy chắc chắn sẽ đỗ thôi.",
+        "en": "Since he practiced that much, there is no doubt he will pass."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_13_05",
+    "level": "N3",
+    "structure": "〜に従って (biến đổi cùng)",
+    "structureKana": "〜にしたがって",
+    "meaning": {
+      "vi": "Cùng với sự thay đổi của A... thì B cũng thay đổi theo (tỉ lệ thuận)",
+      "en": "As A changes, B also changes / Along with..."
+    },
+    "formation": [
+      "Vる + に従って / に従い"
+    ],
+    "lesson": "Bài 13",
+    "group": "StateTendency",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Nghĩa 1 (biến đổi cùng) — giống につれて/に伴って. Phân biệt với Nghĩa 2 (tuân theo quy tắc). Khi vế trước là Vる, thường là nghĩa 1. Khi vế trước là N (quy tắc, chỉ thị), thường là nghĩa 2.",
+      "en": "⚠️ JLPT Trap: Meaning 1 (change together) — similar to につれて/に伴って. Vs. Meaning 2 (follow rules). When preceding is Vる, usually meaning 1. When preceding is N (rules, instructions), usually meaning 2."
+    },
+    "examples": [
+      {
+        "jp": "町が発展する[に従って]、自然が少なくなってきた。",
+        "kana": "まちがはってんする[にしたがって]、しぜんがすくなくなってきた。",
+        "vi": "Cùng với sự phát triển của thị trấn, thiên nhiên ngày càng ít đi.",
+        "en": "As the town develops, nature has become increasingly scarce."
+      },
+      {
+        "jp": "年を取る[に従って]、体力が落ちてくる。",
+        "kana": "としをとる[にしたがって]、たいりょくがおちてくる。",
+        "vi": "Cùng với tuổi tác ngày càng cao, thể lực ngày càng giảm sút.",
+        "en": "As one gets older, physical strength declines."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_13_06",
+    "level": "N3",
+    "structure": "〜に従って (tuân theo)",
+    "structureKana": "〜にしたがって",
+    "meaning": {
+      "vi": "Tuân theo... / Làm theo... (quy tắc, chỉ thị, pháp luật)",
+      "en": "In accordance with... / Following... (rules, instructions, laws)"
+    },
+    "formation": [
+      "N(quy tắc/chỉ thị) + に従って / に従い"
+    ],
+    "lesson": "Bài 13",
+    "group": "StateTendency",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Nghĩa 2 — làm theo quy tắc/chỉ thị. Vế trước là N chỉ quy tắc, lệnh, pháp luật. Giống に基づいて nhưng に従って nhấn mạnh hành động tuân thủ hơn.",
+      "en": "⚠️ JLPT Trap: Meaning 2 — following rules/instructions. Preceding is N indicating rules, commands, or laws. Similar to に基づいて but に従って emphasizes the act of compliance."
+    },
+    "examples": [
+      {
+        "jp": "先生の指示[に従って]、テストを始めてください。",
+        "kana": "せんせいのしじ[にしたがって]、テストをはじめてください。",
+        "vi": "Hãy tuân theo chỉ thị của giáo viên và bắt đầu bài kiểm tra.",
+        "en": "Please follow the teacher's instructions and start the test."
+      },
+      {
+        "jp": "法律[に従って]行動しなければならない。",
+        "kana": "ほうりつ[にしたがって]こうどうしなければならない。",
+        "vi": "Phải hành động theo pháp luật.",
+        "en": "We must act in accordance with the law."
+      }
+    ]
+  }
+]

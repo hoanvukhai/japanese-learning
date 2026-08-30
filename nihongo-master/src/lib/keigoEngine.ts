@@ -4,7 +4,7 @@
 // ============================================================
 import type { KeigoVerb, KeigoFormKey } from '../types/keigo';
 import { getMasuForm } from './conjugator';
-import { keigoVerbs } from '../data/keigoDb';
+import { keigoVerbs } from '../data/jlpt/keigo/keigoDb';
 
 const PREFIX_MAP: Record<string, string> = {
   o: 'お',
@@ -19,6 +19,7 @@ const PREFIX_MAP: Record<string, string> = {
 const getMasuStem = (verb: KeigoVerb): string => {
   const wordLike = {
     id: verb.id, kanji: verb.kanji, hiragana: verb.hiragana,
+    template: 'japanese' as const,
     group: verb.group, type: 'verb' as const, level: 'N4' as const, meaning: verb.meaning,
   };
   return getMasuForm(wordLike).replace(/ます$/, '');
@@ -108,6 +109,7 @@ export const generateTeinei = (verb: KeigoVerb, format: 'dict' | 'masu' = 'dict'
   } else {
     const wordLike = {
       id: verb.id, kanji: verb.kanji, hiragana: verb.hiragana,
+      template: 'japanese' as const,
       group: verb.group, type: 'verb' as const, level: 'N4' as const, meaning: verb.meaning,
     };
     results = [getMasuForm(wordLike)]; // This is already masu-ish, wait. getMasuForm returns ~ます
@@ -207,18 +209,25 @@ export const generateDistractors = (
   // Lọc trùng & đúng
   let unique = [...new Set(pool)].filter(d => !correct.includes(d) && d.length > 0);
 
-  // Fallback: dùng dạng Keigo THẬT của các động từ khác trong DB
+  // Fallback: Nếu vẫn chưa đủ, tạo các bẫy chia đuôi sai ngữ pháp
   if (unique.length < count) {
-    const crossPool = keigoVerbs
-      .filter(v => v.id !== verb.id && v[targetKey].type !== 'none')
-      .flatMap(v => getKeigoResult(v, targetKey, format))
-      .filter(r => !correct.includes(r) && r !== '(なし)' && !unique.includes(r));
-
-    const shuffledCross = [...crossPool].sort(() => Math.random() - 0.5);
-    unique = [...unique, ...shuffledCross].slice(0, count);
+    // Lấy đáp án đúng đầu tiên để chế bẫy
+    const baseStr = correct[0] || '';
+    if (baseStr) {
+      if (format === 'masu') {
+        unique.push(baseStr.replace(/ます$/, 'ません'));
+        unique.push(baseStr.replace(/ます$/, 'ました'));
+        unique.push(baseStr.replace(/ます$/, 'ましたら'));
+      } else {
+        unique.push(baseStr + 'ない');
+        unique.push(baseStr + 'た');
+        unique.push(baseStr + 'なかった');
+      }
+    }
   }
 
-  // Shuffle kết quả cuối
+  // Lọc lại một lần nữa
+  unique = [...new Set(unique)].filter(d => !correct.includes(d) && d.length > 0);
   for (let i = unique.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [unique[i], unique[j]] = [unique[j], unique[i]];

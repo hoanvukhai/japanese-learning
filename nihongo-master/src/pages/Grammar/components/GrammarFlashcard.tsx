@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { formatKeyForDisplay } from './GrammarCommon';
 import type { FlashQ } from './GrammarCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface GrammarFlashcardProps {
   q: FlashQ;

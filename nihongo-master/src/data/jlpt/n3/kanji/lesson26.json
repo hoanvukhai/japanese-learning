@@ -1,0 +1,468 @@
+[
+    {
+        "id": "k_rkn3_26_01",
+        "character": "以",
+        "hanViet": "DĨ",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_01_1",
+                "word": "以降",
+                "hanVietWord": "DĨ GIÁNG",
+                "hiragana": "いこう",
+                "meaning": {
+                    "vi": "Từ ~ trở đi",
+                    "en": "On and after / Henceforth"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "来週の月曜以降なら時間があります。",
+                        "vi": "Nếu từ thứ hai tuần sau trở đi thì tôi có thời gian.",
+                        "en": "I have time from next Monday onwards."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_01_2",
+                "word": "以内",
+                "hanVietWord": "DĨ NỘI",
+                "hiragana": "いない",
+                "meaning": {
+                    "vi": "Trong phạm vi ~",
+                    "en": "Within"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "一時間以内に戻ります。",
+                        "vi": "Tôi sẽ quay lại trong phạm vi 1 tiếng.",
+                        "en": "I will return within an hour."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_01_3",
+                "word": "以来",
+                "hanVietWord": "DĨ LAI",
+                "hiragana": "いらい",
+                "meaning": {
+                    "vi": "Kể từ ~",
+                    "en": "Since"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本に来て以来、彼に会っていない。",
+                        "vi": "Kể từ khi đến Nhật, tôi chưa gặp anh ấy.",
+                        "en": "Since coming to Japan, I haven't seen him."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_02",
+        "character": "似",
+        "hanViet": "TỰ",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_02_1",
+                "word": "似る",
+                "hanVietWord": "TỰ",
+                "hiragana": "にる",
+                "meaning": {
+                    "vi": "Giống",
+                    "en": "To resemble"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼女は母親によく似ている。",
+                        "vi": "Cô ấy trông rất giống mẹ.",
+                        "en": "She looks a lot like her mother."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_03",
+        "character": "建",
+        "hanViet": "KIẾN",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_03_1",
+                "word": "建設",
+                "hanVietWord": "KIẾN THIẾT",
+                "hiragana": "けんせつ",
+                "meaning": {
+                    "vi": "Xây dựng / Thi công",
+                    "en": "Construction"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい橋の建設が始まった。",
+                        "vi": "Việc xây dựng cây cầu mới đã bắt đầu.",
+                        "en": "The construction of the new bridge has started."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_03_2",
+                "word": "建てる",
+                "hanVietWord": "KIẾN",
+                "hiragana": "たてる",
+                "meaning": {
+                    "vi": "Xây",
+                    "en": "To build"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "自分の家を建てるのが夢だ。",
+                        "vi": "Ước mơ của tôi là xây được nhà riêng.",
+                        "en": "My dream is to build my own house."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_03_3",
+                "word": "建つ",
+                "hanVietWord": "KIẾN",
+                "hiragana": "たつ",
+                "meaning": {
+                    "vi": "Được xây",
+                    "en": "To be built"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "駅前に大きなビルが建つ。",
+                        "vi": "Một tòa nhà lớn được xây trước nhà ga.",
+                        "en": "A large building is built in front of the station."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_04",
+        "character": "健",
+        "hanViet": "KIỆN",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_04_1",
+                "word": "健康",
+                "hanVietWord": "KIỆN KHANG",
+                "hiragana": "けんこう",
+                "meaning": {
+                    "vi": "Sức khỏe",
+                    "en": "Health"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "健康のために運動する。",
+                        "vi": "Tập thể dục vì sức khỏe.",
+                        "en": "Exercise for health."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_04_2",
+                "word": "健康的",
+                "hanVietWord": "KIỆN KHANG ĐÍCH",
+                "hiragana": "けんこうてき",
+                "meaning": {
+                    "vi": "Khỏe mạnh / Tốt cho sức khỏe",
+                    "en": "Healthy"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "健康的な生活を送る。",
+                        "vi": "Sống một cuộc sống lành mạnh.",
+                        "en": "Lead a healthy life."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_05",
+        "character": "律",
+        "hanViet": "LUẬT",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_05_1",
+                "word": "法律",
+                "hanVietWord": "PHÁP LUẬT",
+                "hiragana": "ほうりつ",
+                "meaning": {
+                    "vi": "Pháp luật",
+                    "en": "Law"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "国の法律を守らなければならない。",
+                        "vi": "Phải tuân thủ pháp luật của quốc gia.",
+                        "en": "We must obey the laws of the country."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_05_2",
+                "word": "規律",
+                "hanVietWord": "QUY LUẬT",
+                "hiragana": "きりつ",
+                "meaning": {
+                    "vi": "Quy luật / Kỷ luật / Quy củ",
+                    "en": "Discipline / Rule"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "学校の規律を守る。",
+                        "vi": "Tuân thủ kỷ luật của trường học.",
+                        "en": "Follow the school discipline."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_06",
+        "character": "卒",
+        "hanViet": "TỐT",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_06_1",
+                "word": "卒業する",
+                "hanVietWord": "TỐT NGHIỆP",
+                "hiragana": "そつぎょうする",
+                "meaning": {
+                    "vi": "Tốt nghiệp",
+                    "en": "To graduate"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "来年、大学を卒業します。",
+                        "vi": "Năm sau tôi sẽ tốt nghiệp đại học.",
+                        "en": "I will graduate from university next year."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_07",
+        "character": "式",
+        "hanViet": "THỨC",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_07_1",
+                "word": "形式",
+                "hanVietWord": "HÌNH THỨC",
+                "hiragana": "けいしき",
+                "meaning": {
+                    "vi": "Hình thức",
+                    "en": "Form / Format"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "書類の形式をチェックする。",
+                        "vi": "Kiểm tra hình thức của tài liệu.",
+                        "en": "Check the format of the document."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_07_2",
+                "word": "結婚式",
+                "hanVietWord": "KẾT HÔN THỨC",
+                "hiragana": "けっこんしき",
+                "meaning": {
+                    "vi": "Lễ cưới",
+                    "en": "Wedding ceremony"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "友達の結婚式に出席する。",
+                        "vi": "Tham dự lễ cưới của người bạn.",
+                        "en": "Attend a friend's wedding ceremony."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_08",
+        "character": "未",
+        "hanViet": "VỊ",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_08_1",
+                "word": "未満",
+                "hanVietWord": "VỊ MÃN",
+                "hiragana": "みまん",
+                "meaning": {
+                    "vi": "Dưới ~ / Chưa tới",
+                    "en": "Less than"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "18歳未満はお酒を飲めません。",
+                        "vi": "Dưới 18 tuổi thì không được uống rượu.",
+                        "en": "People under 18 cannot drink alcohol."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_08_2",
+                "word": "未成年",
+                "hanVietWord": "VỊ THÀNH NIÊN",
+                "hiragana": "みせいねん",
+                "meaning": {
+                    "vi": "Vị thành niên",
+                    "en": "Minor / Underage"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "未成年のタバコは禁止されている。",
+                        "vi": "Vị thành niên bị cấm hút thuốc.",
+                        "en": "Smoking by minors is prohibited."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_08_3",
+                "word": "未来",
+                "hanVietWord": "VỊ LAI",
+                "hiragana": "みらい",
+                "meaning": {
+                    "vi": "Tương lai",
+                    "en": "Future"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明るい未来を想像する。",
+                        "vi": "Tưởng tượng về một tương lai tươi sáng.",
+                        "en": "Imagine a bright future."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_26_09",
+        "character": "失",
+        "hanViet": "THẤP",
+        "level": "N3",
+        "lesson": "Bài 26",
+        "words": [
+            {
+                "id": "kw_rkn3_26_09_1",
+                "word": "失恋",
+                "hanVietWord": "THẤT LUYẾN",
+                "hiragana": "しつれん",
+                "meaning": {
+                    "vi": "Thất tình",
+                    "en": "Broken heart"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "失恋してたくさん泣いた。",
+                        "vi": "Tôi thất tình và đã khóc rất nhiều.",
+                        "en": "I was brokenhearted and cried a lot."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_09_2",
+                "word": "失業率",
+                "hanVietWord": "THẤT NGHIỆP SUẤT",
+                "hiragana": "しつぎょうりつ",
+                "meaning": {
+                    "vi": "Tỷ lệ thất nghiệp",
+                    "en": "Unemployment rate"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この国の失業率が高くなっている。",
+                        "vi": "Tỷ lệ thất nghiệp ở quốc gia này đang tăng cao.",
+                        "en": "The unemployment rate in this country is getting higher."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_26_09_3",
+                "word": "失う",
+                "hanVietWord": "THẤT",
+                "hiragana": "うしなう",
+                "meaning": {
+                    "vi": "Mất / Đánh mất",
+                    "en": "To lose"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "事故で大切な家族を失った。",
+                        "vi": "Tôi đã mất đi gia đình quan trọng trong vụ tai nạn.",
+                        "en": "I lost my precious family in an accident."
+                    }
+                ]
+            }
+        ]
+    }
+]

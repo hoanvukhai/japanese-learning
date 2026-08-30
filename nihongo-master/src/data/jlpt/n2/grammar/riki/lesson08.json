@@ -1,0 +1,304 @@
+[
+  {
+    "id": "g_rkn2_08_01",
+    "level": "N2",
+    "structure": "〜てからでないと",
+    "structureKana": "〜てからでないと",
+    "meaning": {
+      "vi": "Nếu chưa... thì sẽ (không thể) / Chỉ sau khi...",
+      "en": "Unless... / Not until after..."
+    },
+    "formation": [
+      "Vて + からでないと",
+      "Vて + からでなければ"
+    ],
+    "lesson": "Bài 8",
+    "group": "Condition_Prerequisite",
+    "confusedWith": [],
+    "caution": {
+      "vi": "Nếu không thực hiện hành động A trước thì sẽ không thể làm B (A là điều kiện tiên quyết). Vế sau luôn luôn đi với dạng phủ định hoặc biểu hiện ý nghĩa tiêu cực (không được, không thể, khó khăn).",
+      "en": "Unless action A is completed first, action B cannot happen (A is a prerequisite). The following clause always takes a negative form or expresses a negative meaning (impossible, forbidden, difficult)."
+    },
+    "examples": [
+      {
+        "jp": "確認し[てからでないと]お答えできません。",
+        "kana": "かくにんし[てからでないと]おこたえできません。",
+        "vi": "[Nếu chưa] xác nhận lại [thì] tôi không thể trả lời được.",
+        "en": "I cannot answer [until after] I confirm it."
+      },
+      {
+        "jp": "N2に合格し[てからでなければ]、この会社は応募できない。",
+        "kana": "N2にごうかくし[てからでなければ]、このかいしゃはおうぼできない。",
+        "vi": "[Nếu chưa] thi đỗ N2 [thì] không thể ứng tuyển vào công ty này.",
+        "en": "You cannot apply to this company [unless] you pass N2 first."
+      },
+      {
+        "jp": "20歳になっ[てからでないと]お酒を飲んではいけない。",
+        "kana": "にじゅっさいになっ[てからでないと]おさけをのんではいけない。",
+        "vi": "[Nếu chưa] đến 20 tuổi [thì] không được phép uống rượu.",
+        "en": "You must not drink alcohol [until after] you turn 20."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_08_02",
+    "level": "N2",
+    "structure": "〜てしょうがない / 〜て仕方がない",
+    "structureKana": "〜てしょうがない / 〜てしかたがない",
+    "meaning": {
+      "vi": "Rất... (đến mức không chịu được)",
+      "en": "Can't help but... / Extremely..."
+    },
+    "formation": [
+      "Vて + しょうがない / 仕方がない",
+      "Aい (bỏ い) -> くて + しょうがない / 仕方がない",
+      "Aな -> で + しょうがない / 仕方がない"
+    ],
+    "lesson": "Bài 8",
+    "group": "Emotion_Degree",
+    "confusedWith": [
+      "〜てたまらない",
+      "〜てならない"
+    ],
+    "caution": {
+      "vi": "Thể hiện tình cảm, cảm xúc hoặc trạng thái cơ thể rất mạnh đến mức không thể kiềm chế được. Thường đi với các từ chỉ cảm xúc, giác quan (vui, buồn, cô đơn, buồn ngủ, lạnh...). Trong văn nói dùng 'てしょうがない', văn viết dùng 'て仕方がない'.",
+      "en": "Expresses that a feeling, emotion, or physical state is so strong that it cannot be controlled. Often used with words related to emotions or physical senses (happy, sad, lonely, sleepy, cold...)."
+    },
+    "examples": [
+      {
+        "jp": "もう全然集中できない。トイレに行き[たくてしょうがない]。",
+        "kana": "もうぜんぜんしゅうちゅうできない。トイレにいき[たくてしょうがない]。",
+        "vi": "Tôi không thể tập trung được nữa. Tôi rất muốn đi vệ sinh [đến mức không chịu được].",
+        "en": "I can't concentrate at all anymore. I want to go to the toilet [so badly I can't stand it]."
+      },
+      {
+        "jp": "昨夜徹夜したので、眠くて眠く[てしょうがない]。",
+        "kana": "さくやてつやしたので、ねむくてねむく[てしょうがない]。",
+        "vi": "Đêm qua tôi thức trắng nên bây giờ buồn ngủ [không chịu nổi].",
+        "en": "Because I stayed up all night last night, I am [incredibly] sleepy."
+      },
+      {
+        "jp": "試験に１点差で落ちた。悔しく[てしょうがない]。",
+        "kana": "しけんに１てんさでおちた。くやしく[てしょうがない]。",
+        "vi": "Thi trượt chỉ vì thiếu 1 điểm. Tôi thực sự rất tiếc nuối [không chịu được].",
+        "en": "I failed the exam by 1 point. I am [unbearably] frustrated."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_08_03",
+    "level": "N2",
+    "structure": "〜ては / 〜ていては",
+    "structureKana": "〜ては / 〜ていては",
+    "meaning": {
+      "vi": "Nếu cứ... thì (sẽ dẫn đến kết quả xấu)",
+      "en": "If (this continues)... then (bad result)"
+    },
+    "formation": [
+      "Vて + は / いては",
+      "Aい (bỏ い) -> くては",
+      "Aな / N -> では"
+    ],
+    "lesson": "Bài 8",
+    "group": "Condition_NegativeResult",
+    "confusedWith": [
+      "〜たら",
+      "〜ば"
+    ],
+    "caution": {
+      "vi": "Đưa ra một giả định hoặc nhắc đến một trạng thái đang tiếp diễn, mà nếu cứ tiếp tục như thế thì chắc chắn sẽ dẫn đến kết quả tiêu cực. Vế sau luôn là những phán đoán mang tính bi quan, cảnh báo.",
+      "en": "Presents an assumption or an ongoing state that, if continued, will definitely lead to a negative result. The following clause is always a pessimistic judgment or a warning."
+    },
+    "examples": [
+      {
+        "jp": "そんなに毎日甘いものばかり食べ[ていては]虫歯になりますよ。",
+        "kana": "そんなにまいにちあまいものばかりたべ[ていては]むしばになりますよ。",
+        "vi": "[Nếu cứ] ngày nào cũng toàn ăn đồ ngọt như thế [thì] sẽ bị sâu răng đấy.",
+        "en": "[If] you [keep] eating nothing but sweets every day like that, you'll get cavities."
+      },
+      {
+        "jp": "そんな暗い部屋で本を読ん[でいては]目が悪くなるから、電気を付けなさい。",
+        "kana": "そんなくらいへやでほんをよん[でいては]めがわるくなるから、でんきをつけなさい。",
+        "vi": "[Nếu cứ] đọc sách trong căn phòng tối như thế [thì] mắt sẽ kém đi đấy, hãy bật đèn lên đi.",
+        "en": "[If you keep] reading in such a dark room, your eyesight will get worse, so turn on the light."
+      },
+      {
+        "jp": "こんなに物価が上昇し[ては]、生活が苦しくなるばかりです。",
+        "kana": "こんなにぶっかがじょうしょうし[ては]、せいかつがくるしくなるばかりです。",
+        "vi": "[Nếu] vật giá [cứ] tăng như thế này [thì] cuộc sống sẽ chỉ càng trở nên khó khăn hơn thôi.",
+        "en": "[If] prices [continue to] rise like this, life will only get harder."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_08_04",
+    "level": "N2",
+    "structure": "〜ということだ / 〜とのことだ",
+    "structureKana": "〜ということだ / 〜とのことだ",
+    "meaning": {
+      "vi": "Nghe nói là... / Tức là, có nghĩa là...",
+      "en": "I heard that... / It means that..."
+    },
+    "formation": [
+      "Thể thông thường + ということだ / とのことだ"
+    ],
+    "lesson": "Bài 8",
+    "group": "Hearsay_Definition",
+    "confusedWith": [
+      "〜そうだ",
+      "〜らしい"
+    ],
+    "caution": {
+      "vi": "Có hai nghĩa chính: 1. 'Nghe nói' (giống そうだ nhưng trang trọng hơn, dùng để báo cáo lại thông tin, đặc biệt hay dùng とのことだ trong môi trường công sở). 2. 'Có nghĩa là / Tức là' (dùng để giải thích hoặc rút ra kết luận cho một sự việc).",
+      "en": "Has two main meanings: 1. 'I heard that' (more formal than そうだ, used to report information, especially とのことだ in business settings). 2. 'It means that' (used to explain or draw a conclusion)."
+    },
+    "examples": [
+      {
+        "jp": "彼によると、景気が回復しつつある[とのことです]。",
+        "kana": "かれによると、けいきがかいふくしつつある[とのことです]。",
+        "vi": "Theo như anh ấy nói thì [nghe nói] nền kinh tế đang dần phục hồi.",
+        "en": "According to him, [he says that] the economy is gradually recovering."
+      },
+      {
+        "jp": "消防当局によると、火事が発生しましたが、客は全員無事だった[とのことです]。",
+        "kana": "しょうぼうとうきょくによると、かじがはっせいしましたが、きゃくはぜんいんぶじだった[とのことです]。",
+        "vi": "Theo lực lượng cứu hỏa, một vụ hỏa hoạn đã xảy ra nhưng [nghe nói] toàn bộ khách hàng đều an toàn.",
+        "en": "According to the fire authorities, a fire broke out, but [they report that] all customers were safe."
+      },
+      {
+        "jp": "2本で3000円か。つまり、一本1500円[ということだ]ね。",
+        "kana": "2ほんで3000えんか。つまり、いっぽん1500えん[ということだ]ね。",
+        "vi": "2 chai giá 3000 yên hả. [Tức là] 1 chai giá 1500 yên chứ gì.",
+        "en": "3000 yen for two bottles. [That means] it's 1500 yen for one bottle."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_08_05",
+    "level": "N2",
+    "structure": "〜といっても",
+    "structureKana": "〜といっても",
+    "meaning": {
+      "vi": "Dẫu nói là... nhưng (thực tế lại khác)",
+      "en": "Even if one says... / Although..."
+    },
+    "formation": [
+      "Thể thông thường + といっても"
+    ],
+    "lesson": "Bài 8",
+    "group": "Contrast",
+    "confusedWith": [
+      "〜けれども",
+      "〜のに"
+    ],
+    "caution": {
+      "vi": "Mặc dù nói là A (dễ khiến người ta hình dung ra quy mô lớn hoặc sự việc to tát), nhưng thực tế B lại khác xa hoặc ở mức độ thấp hơn nhiều so với kỳ vọng.",
+      "en": "Although one says A (which might make people imagine a large scale or something significant), the reality B is far different or at a much lower level than expected."
+    },
+    "examples": [
+      {
+        "jp": "料理の勉強を始めた[といっても]まだ3ヶ月にすぎない。",
+        "kana": "りょうりのべんきょうをはじめ[たといっても]まださんかげつにすぎない。",
+        "vi": "[Dẫu nói là] bắt đầu học nấu ăn [nhưng] thực ra cũng mới chỉ được 3 tháng thôi.",
+        "en": "[Even though I say] I've started studying cooking, it's actually only been 3 months."
+      },
+      {
+        "jp": "頭が痛い[といっても]、病院に行くほどじゃないから、大丈夫だよ。",
+        "kana": "あたまがいたい[といっても]、びょういんにいくほどじゃないから、だいじょうぶだよ。",
+        "vi": "[Dẫu nói là] đau đầu [nhưng] chưa đến mức phải đi bệnh viện nên không sao đâu.",
+        "en": "[Even though I say] my head hurts, it's not bad enough to go to the hospital, so I'm fine."
+      },
+      {
+        "jp": "カレーライス[といっても]地域や店によって結構違うけどね。",
+        "kana": "カレーライス[といっても]ちいきやみせによってけっこうちがうけどね。",
+        "vi": "[Mặc dù đều gọi là] cơm cà ri [nhưng] tùy từng khu vực và cửa hàng mà cũng khá khác nhau đấy.",
+        "en": "[Even if we just call it] curry rice, it actually varies quite a bit depending on the region and the restaurant."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_08_06",
+    "level": "N2",
+    "structure": "〜とか / 〜とかで",
+    "structureKana": "〜とか / 〜とかで",
+    "meaning": {
+      "vi": "Nghe đâu là... / Nghe đâu vì...",
+      "en": "I heard that... / Rumor has it that (because of)..."
+    },
+    "formation": [
+      "Thể thông thường + とか / とかで"
+    ],
+    "lesson": "Bài 8",
+    "group": "Hearsay_Reason",
+    "confusedWith": [
+      "〜そうだ",
+      "〜らしい"
+    ],
+    "caution": {
+      "vi": "Dùng để truyền đạt lại thông tin nghe được nhưng mang sắc thái mập mờ, không chắc chắn lắm, hoặc cố tình làm mơ hồ nguồn thông tin. 'とかで' mang ý nghĩa 'Nghe đâu là vì...' (chỉ một lý do chưa xác thực).",
+      "en": "Used to convey information heard, but with a vague, uncertain nuance, or to intentionally obscure the source. 'とかで' means 'I heard it's because...' (an unconfirmed reason)."
+    },
+    "examples": [
+      {
+        "jp": "田中さんは熱がある[とかで]、今日は休むそうです。",
+        "kana": "たなかさんはねつがある[とかで]、きょうはやすむそうです。",
+        "vi": "[Nghe đâu vì] bị sốt nên hôm nay anh Tanaka sẽ nghỉ.",
+        "en": "[I heard that because] he has a fever, Mr. Tanaka will be absent today."
+      },
+      {
+        "jp": "来週の試験はかなり難しい[とかで]、妹は毎晩遅くまで勉強している。",
+        "kana": "らいしゅうのしけんはかなりむずかしい[とかで]、いもうとはまいばんおそくまでべんきょうしている。",
+        "vi": "[Nghe đâu vì] kỳ thi tuần sau khá khó nên tối nào em gái tôi cũng học đến khuya.",
+        "en": "[Rumor has it that because] next week's exam is quite difficult, my younger sister is studying late every night."
+      },
+      {
+        "jp": "なんか、田中先生、来年結婚なさる[とか]。",
+        "kana": "なんか、たなかせんせい、らいねんけっこんなさる[とか]。",
+        "vi": "Thấy bảo [nghe đâu] năm sau thầy Tanaka sẽ kết hôn đấy.",
+        "en": "[I heard rumors that] Mr. Tanaka is getting married next year."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_08_07",
+    "level": "N2",
+    "structure": "〜とは",
+    "structureKana": "〜とは",
+    "meaning": {
+      "vi": "Thì thật là... / Cái thứ gọi là...",
+      "en": "To think that... / I can't believe that..."
+    },
+    "formation": [
+      "Thể thông thường + とは"
+    ],
+    "lesson": "Bài 8",
+    "group": "Surprise_Definition",
+    "confusedWith": [
+      "〜なんて"
+    ],
+    "caution": {
+      "vi": "Vế trước đưa ra một sự thật vừa nghe/thấy. Vế sau thể hiện cảm xúc ngạc nhiên, sốc hoặc ngoài sức tưởng tượng của người nói. Trọng tâm nhấn mạnh vào cảm giác bàng hoàng. Trong giao tiếp thường ngày hay dùng 'なんて' với ý nghĩa tương tự.",
+      "en": "The preceding clause states a fact just heard/seen. The following clause expresses the speaker's surprise, shock, or disbelief. In daily conversation, 'なんて' is often used with a similar meaning."
+    },
+    "examples": [
+      {
+        "jp": "まさか彼が犯人だった[とは]。。夢にも思わなかった。",
+        "kana": "まさかかれがはんにんだった[とは]。。ゆめにもおもわなかった。",
+        "vi": "Việc anh ta lại là thủ phạm [thì thật là]... Tôi cũng chưa từng mơ tới.",
+        "en": "[To think that] he was the culprit... I never even dreamed of it."
+      },
+      {
+        "jp": "普段はおとなしい彼があんなに怒る[とは]、よほどひどいことを言われたのだろうね。",
+        "kana": "ふだんはおとなしいかれがあんなにおこる[とは]、よほどひどいことをいわれたのだろうね。",
+        "vi": "Người bình thường hiền lành như anh ấy mà lại nổi giận như vậy [thì thật là], chắc hẳn đã bị nói điều gì tồi tệ lắm.",
+        "en": "[I can't believe that] someone normally quiet like him would get so angry; he must have been told something terrible."
+      },
+      {
+        "jp": "まさか４Kテレビが３万円代[とは]。。。",
+        "kana": "まさかよんケーテレビがさんまんえんだい[とは]。。。",
+        "vi": "Không thể tin nổi tivi 4K mà giá chỉ ở mức 3 man [thì thật là]...",
+        "en": "[To think that] a 4K TV is priced in the 30,000 yen range..."
+      }
+    ]
+  }
+]

@@ -3,11 +3,13 @@ import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Clock, Flame, Heart } from 'lucide-react';
-import { kanjiN3 } from '../../data/kanjiN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
+import type { Kanji } from '../../types';
 import {
   calculateMaxPossibleExp,
 } from '../../lib/rankSystem';
-import shortcuts from '../../data/shortcuts.json';
+import shortcuts from '../../data/jlpt/core/shortcuts.json';
+import * as wanakana from 'wanakana';
 
 // Import local components and types
 import {
@@ -38,18 +40,20 @@ import KanjiFlashcard from './components/KanjiFlashcard';
 import KanjiError from './components/KanjiError';
 import KanjiMatching from './components/KanjiMatching';
 
-const BACK_PATH = '/practice/kanji';
 const RESULT_SECS = 5;
 
-function buildFlatWords(): FlatWord[] {
+function buildFlatWords(data: Kanji[]): FlatWord[] {
   const flat: FlatWord[] = [];
-  kanjiN3.forEach(k => k.words.forEach(w => flat.push({ kanji: k, word: w })));
+  data.forEach(k => k.words.forEach(w => flat.push({ kanji: k, word: w })));
   return flat;
 }
 
 export default function KanjiFullRun() {
   const navigate = useNavigate();
-  const flatWords = useMemo(() => buildFlatWords(), []);
+  const { course } = usePracticeContext();
+  const data = course.data as Kanji[];
+  const flatWords = useMemo(() => buildFlatWords(data), [data]);
+  const BACK_PATH = `/course/${course.id}/practice`;
 
   // Setup state
   const [level, setLevel] = useState<Level>('normal');
@@ -63,7 +67,7 @@ export default function KanjiFullRun() {
   const lvl = LEVEL_CONFIG[level];
 
   // Game state
-  const questions = useMemo(() => buildQuestions(flatWords, kanjiN3, { totalQ: lvl.questions, runMode }), [flatWords, lvl.questions, seed, runMode]);
+  const questions = useMemo(() => buildQuestions(flatWords, data, { totalQ: lvl.questions, runMode }), [flatWords, data, lvl.questions, seed, runMode]);
   const maxExp = useMemo(() => calculateMaxPossibleExp(questions, level, lvl.blitzSecs, 'kanji'), [questions, level, lvl.blitzSecs]);
   const [qIdx, setQIdx] = useState(0);
   const [correct, setCorrect] = useState(0);
@@ -496,7 +500,10 @@ export default function KanjiFullRun() {
                 onSubmit={e => {
                   e.preventDefault();
                   if (typingSubmitted) return;
-                  const ok = typingInput.trim() !== '' && typingInput.trim().toLowerCase() === (currentQ as TypingQ).answer.toLowerCase();
+                  const ans = (currentQ as TypingQ).answer.trim().toLowerCase();
+                  const ok = typingInput.trim() !== '' && 
+                    (typingInput.trim().toLowerCase() === ans || 
+                     wanakana.toHiragana(typingInput.trim()) === wanakana.toHiragana(ans));
                   setTypingCorrect(ok);
                   setTypingSubmitted(true);
                   triggerResult(ok);

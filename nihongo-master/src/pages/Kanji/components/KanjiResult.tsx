@@ -4,6 +4,9 @@ import { RefreshCw, CheckCircle2, XCircle, Clock, ChevronDown, ChevronUp, BookOp
 import { calcExp, LEVEL_CONFIG } from './KanjiCommon';
 import type { Level, AttemptRecord } from './KanjiCommon';
 import { getRankModifier, getStorageKey, getStorageKeyGlobal, saveBestRecord, getBestExp } from '../../../lib/rankSystem';
+import { syncPersonalHighScore } from '../../../lib/srs/firestoreSync';
+import { useAuth } from '../../../context/auth/useAuth';
+import { useEffect } from 'react';
 
 interface KanjiResultProps {
   score: number;
@@ -34,6 +37,7 @@ export default function KanjiResult({
   onBack,
   runMode,
 }: KanjiResultProps) {
+  const { user } = useAuth();
   const exp = calcExp(score, streak, timeLeft ?? 0, level, correct, total);
   const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total, maxExp);
   
@@ -45,6 +49,13 @@ export default function KanjiResult({
   
   const bestExp = getBestExp(storageKey);
   const globalBestExp = getBestExp(globalKey);
+
+  useEffect(() => {
+    if (user) {
+      if (isNewBest) syncPersonalHighScore(user.uid, storageKey, exp).catch(console.error);
+      if (isNewGlobalBest) syncPersonalHighScore(user.uid, globalKey, exp).catch(console.error);
+    }
+  }, [user, isNewBest, isNewGlobalBest, storageKey, globalKey, exp]);
 
   // Review state
   const [showReview, setShowReview] = useState(false);
@@ -142,6 +153,11 @@ export default function KanjiResult({
               {globalBestExp > 0 && (
                 <div className="text-xs text-slate-400 dark:text-slate-500">
                   🌟 Kỷ lục Tổng: <strong className="text-amber-500">{globalBestExp} EXP</strong>
+                </div>
+              )}
+              {user && (
+                <div className="text-[11px] text-amber-600 dark:text-amber-400 font-medium flex items-center justify-center gap-1">
+                  ☁️ Kỷ lục đã tự động đồng bộ lên Cloud
                 </div>
               )}
             </div>

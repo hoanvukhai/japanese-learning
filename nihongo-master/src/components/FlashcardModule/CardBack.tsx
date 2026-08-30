@@ -5,7 +5,7 @@ import type { FormType } from '../../context/features/flashcard/FlashcardSetting
 import { useFlashcardSettings } from '../../context/features/flashcard/useFlashcardSettings';
 import { useSettings } from '../../context/global/useSettings';
 import { FORM_REGISTRY, getFormLabel } from '../../lib/formRegistry';
-import { getRuleForForm } from '../../data/conjugationRules';
+import { getRuleForForm } from '../../data/jlpt/conjugation/conjugationRules';
 import { Volume2, BookOpen, Star, Zap, ChevronRight, X } from 'lucide-react';
 
 interface CardBackProps {

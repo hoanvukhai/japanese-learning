@@ -2,7 +2,8 @@ import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Eye, EyeOff, Shuffle, MousePointerClick, ShieldAlert } from 'lucide-react';
-import { kanjiN3 } from '../../data/kanjiN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
+import type { Kanji } from '../../types';
 import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -23,7 +24,9 @@ interface ErrorItem {
 type GameMode = 'truefalse' | 'pickwrong';
 
 export default function KanjiErrorDetect() {
-  const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
+  const { course } = usePracticeContext();
+  const data = course.data as Kanji[];
+  const lessons = Array.from(new Set(data.map(k => k.lesson))).filter(Boolean) as string[];
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   const [started, setStarted] = useState(false);
   const [showFurigana, setShowFurigana] = useState(false);
@@ -33,36 +36,46 @@ export default function KanjiErrorDetect() {
   
   const pool = useMemo<ErrorItem[]>(() => {
     let base = selectedLessons.length > 0
-      ? kanjiN3.filter(w => selectedLessons.includes(w.lesson || ''))
-      : kanjiN3;
+      ? data.filter(w => selectedLessons.includes(w.lesson || ''))
+      : data;
 
     if (base.length === 0) return [];
 
     if (mode === 'kanji-hanviet') {
       const items: ErrorItem[] = [];
+      const mixed: { char: string, hv: string, id: string, lesson: string }[] = [];
       base.forEach(k => {
+        mixed.push({ char: k.character, hv: k.hanViet, id: k.id, lesson: k.lesson || '' });
+        if (k.words) {
+          k.words.filter(w => w.hanVietWord).forEach((w, idx) => {
+            mixed.push({ char: w.word, hv: w.hanVietWord as string, id: `${k.id}_whv_${idx}`, lesson: k.lesson || '' });
+          });
+        }
+      });
+
+      mixed.forEach(k => {
         const isCorrect = Math.random() > 0.5;
-        let displayedMeaning = k.hanViet;
+        let displayedMeaning = k.hv;
         let wrongMeaningSourceWord = undefined;
 
         if (!isCorrect) {
-          const others = base.filter(ow => ow.id !== k.id);
+          const others = mixed.filter(ow => ow.id !== k.id);
           if (others.length > 0) {
             const rand = others[Math.floor(Math.random() * others.length)];
-            displayedMeaning = rand.hanViet;
-            wrongMeaningSourceWord = rand.character;
+            displayedMeaning = rand.hv;
+            wrongMeaningSourceWord = rand.char;
           }
         }
 
         items.push({
           id: k.id,
           isCorrect,
-          word: k.character,
+          word: k.char,
           hiragana: undefined,
           displayedMeaning,
-          actualMeaning: k.hanViet,
+          actualMeaning: k.hv,
           wrongMeaningSourceWord,
-          lesson: k.lesson || '',
+          lesson: k.lesson,
         });
       });
       return shuffle(items);
@@ -198,7 +211,7 @@ export default function KanjiErrorDetect() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans text-slate-800 dark:text-slate-100 transition-colors duration-300">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-amber-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
 
@@ -221,8 +234,13 @@ export default function KanjiErrorDetect() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={kanjiN3.length}
-              getCount={(l) => kanjiN3.filter(k => k.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => {
+                if (mode === 'kanji-hanviet') {
+                  return data.filter(k => k.lesson === l).reduce((acc, k) => acc + 1 + (k.words?.filter(w => w.hanVietWord).length || 0), 0);
+                }
+                return data.filter(k => k.lesson === l).reduce((acc, k) => acc + (k.words?.length || 0), 0);
+              }}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -355,7 +373,7 @@ export default function KanjiErrorDetect() {
             <button onClick={handleStart} className="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white font-bold rounded-xl transition-all">
               Chơi lại
             </button>
-            <Link to="/practice/kanji" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
               Về Dashboard
             </Link>
           </div>

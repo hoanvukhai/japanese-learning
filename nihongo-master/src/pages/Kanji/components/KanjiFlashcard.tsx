@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { formatKeyForDisplay } from './KanjiCommon';
 import type { FlashQ } from './KanjiCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface KanjiFlashcardProps {
   q: FlashQ;

@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "v_mon3_05_411",
+    "kanji": "届く",
+    "hiragana": "とどく",
+    "meaning": {
+      "vi": "được giao đến / chạm tới",
+      "en": "to reach / to arrive"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "インターネットで買った荷物が届いた。",
+        "vi": "Hành lý mua trên internet đã được giao đến.",
+        "en": "The package I bought online has arrived."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_412",
+    "kanji": "届ける",
+    "hiragana": "とどける",
+    "meaning": {
+      "vi": "giao đến / đưa đến",
+      "en": "to deliver / to send"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "隣の家に荷物を届ける。",
+        "vi": "Giao hành lý đến nhà hàng xóm.",
+        "en": "Deliver the package to the neighbor's house."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_413",
+    "kanji": "掻く",
+    "hiragana": "かく",
+    "meaning": {
+      "vi": "gãi",
+      "en": "to scratch"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "虫に刺されたところをかく。",
+        "vi": "Gãi vào chỗ bị côn trùng đốt.",
+        "en": "Scratch the place where the insect bit."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_414",
+    "kanji": "掴む",
+    "hiragana": "つかむ",
+    "meaning": {
+      "vi": "tóm, chộp / nắm bắt",
+      "en": "to grab / to grasp"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "電車の中でつり革をつかむ。",
+        "vi": "Chộp lấy tay vịn trong tàu điện.",
+        "en": "Grab the strap on the train."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_415",
+    "kanji": "握る",
+    "hiragana": "にぎる",
+    "meaning": {
+      "vi": "nắm chặt",
+      "en": "to grip / to hold"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "子供の手をしっかりと握る。",
+        "vi": "Nắm thật chặt tay đứa trẻ.",
+        "en": "Hold the child's hand firmly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_416",
+    "kanji": "抑える",
+    "hiragana": "おさえる",
+    "meaning": {
+      "vi": "giữ / đè nén",
+      "en": "to suppress / to hold down"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "怒りを抑えて、冷静に話す。",
+        "vi": "Đè nén cơn giận và nói chuyện một cách bình tĩnh.",
+        "en": "Suppress anger and speak calmly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_417",
+    "kanji": "近づく",
+    "hiragana": "ちかづく",
+    "meaning": {
+      "vi": "lại gần / đến gần",
+      "en": "to get closer / to approach"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "目的地がだんだん近づいてきた。",
+        "vi": "Đích đến đang dần đến gần rồi.",
+        "en": "The destination is gradually getting closer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_418",
+    "kanji": "近づける",
+    "hiragana": "ちかづける",
+    "meaning": {
+      "vi": "mang đến gần",
+      "en": "to bring close"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "絵に顔を近づけてよく見る。",
+        "vi": "Đưa mặt đến gần bức tranh để nhìn kĩ.",
+        "en": "Bring your face close to the picture and look carefully."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_419",
+    "kanji": "合う",
+    "hiragana": "あう",
+    "meaning": {
+      "vi": "hợp / vừa",
+      "en": "to match / to fit"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "この靴はサイズがぴったり合う。",
+        "vi": "Đôi giày này kích cỡ vừa khít.",
+        "en": "The size of these shoes fits perfectly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_420",
+    "kanji": "合わせる",
+    "hiragana": "あわせる",
+    "meaning": {
+      "vi": "tập hợp, ghép lại",
+      "en": "to put together / to combine"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "みんなで力を合わせて頑張ろう。",
+        "vi": "Mọi người hãy cùng hợp lực và cố gắng nhé.",
+        "en": "Let's put our strength together and do our best."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_421",
+    "kanji": "当たる",
+    "hiragana": "あたる",
+    "meaning": {
+      "vi": "bị đánh / trúng",
+      "en": "to be hit / to win (a lottery)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "飛んできたボールが頭に当たった。",
+        "vi": "Quả bóng bay tới đã đập trúng đầu tôi.",
+        "en": "The flying ball hit me on the head."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_422",
+    "kanji": "当てる",
+    "hiragana": "あてる",
+    "meaning": {
+      "vi": "đánh / trúng đích",
+      "en": "to hit / to guess"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "クイズの答えを当てる。",
+        "vi": "Đoán trúng câu trả lời của câu đố.",
+        "en": "Guess the answer to the quiz."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_423",
+    "kanji": "比べる",
+    "hiragana": "くらべる",
+    "meaning": {
+      "vi": "so sánh",
+      "en": "to compare"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "東京と大阪の物価を比べる。",
+        "vi": "So sánh vật giá của Tokyo và Osaka.",
+        "en": "Compare prices in Tokyo and Osaka."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_424",
+    "kanji": "似合う",
+    "hiragana": "にあう",
+    "meaning": {
+      "vi": "hợp (quần áo, kiểu tóc)",
+      "en": "to suit / to look good on"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "その赤いドレス、よく似合っていますよ。",
+        "vi": "Bộ váy đỏ đó rất hợp với bạn đấy.",
+        "en": "That red dress suits you very well."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_425",
+    "kanji": "似る",
+    "hiragana": "にる",
+    "meaning": {
+      "vi": "giống",
+      "en": "to resemble / to be similar"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "彼女は母親に顔がよく似ている。",
+        "vi": "Cô ấy có khuôn mặt rất giống mẹ.",
+        "en": "She looks a lot like her mother."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_426",
+    "kanji": "似せる",
+    "hiragana": "にせる",
+    "meaning": {
+      "vi": "bắt chước / làm cho giống",
+      "en": "to imitate / to make similar"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "アイドルの髪型に似せてカットした。",
+        "vi": "Tôi đã cắt tóc bắt chước kiểu của Idol.",
+        "en": "I cut my hair to imitate an idol's hairstyle."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_427",
+    "kanji": "分かれる",
+    "hiragana": "わかれる",
+    "meaning": {
+      "vi": "được chia ra",
+      "en": "to be divided"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "道が二つに分かれている。",
+        "vi": "Con đường được chia ra làm hai.",
+        "en": "The road is divided into two."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_428",
+    "kanji": "分ける",
+    "hiragana": "わける",
+    "meaning": {
+      "vi": "chia",
+      "en": "to divide / to share"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "ケーキをみんなで分ける。",
+        "vi": "Mọi người cùng nhau chia chiếc bánh.",
+        "en": "Everyone shares the cake."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_429",
+    "kanji": "足す",
+    "hiragana": "たす",
+    "meaning": {
+      "vi": "cộng, thêm vào",
+      "en": "to add"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "味が薄いので塩を足す。",
+        "vi": "Vị nhạt quá nên tôi thêm muối vào.",
+        "en": "The taste is light, so I'll add salt."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_430",
+    "kanji": "引く",
+    "hiragana": "ひく",
+    "meaning": {
+      "vi": "kéo, trừ",
+      "en": "to pull / to subtract"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "ドアを引いて開ける。",
+        "vi": "Kéo cửa để mở.",
+        "en": "Pull the door to open it."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_431",
+    "kanji": "増える",
+    "hiragana": "ふえる",
+    "meaning": {
+      "vi": "tăng lên",
+      "en": "to increase (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "最近、外国人の観光客が増えている。",
+        "vi": "Gần đây, khách du lịch nước ngoài đang tăng lên.",
+        "en": "Recently, the number of foreign tourists is increasing."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_432",
+    "kanji": "増やす",
+    "hiragana": "ふやす",
+    "meaning": {
+      "vi": "làm tăng lên",
+      "en": "to increase (transitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "貯金を増やすためにアルバイトをする。",
+        "vi": "Tôi làm thêm để làm tăng tiền tiết kiệm.",
+        "en": "I work a part-time job to increase my savings."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_433",
+    "kanji": "減る",
+    "hiragana": "へる",
+    "meaning": {
+      "vi": "giảm xuống",
+      "en": "to decrease (intransitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "人口が減っている。",
+        "vi": "Dân số đang giảm xuống.",
+        "en": "The population is decreasing."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_434",
+    "kanji": "減らす",
+    "hiragana": "へらす",
+    "meaning": {
+      "vi": "làm giảm xuống",
+      "en": "to decrease (transitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "ダイエットのために食事の量を減らす。",
+        "vi": "Giảm lượng thức ăn để ăn kiêng.",
+        "en": "Decrease the amount of food for a diet."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_435",
+    "kanji": "変わる",
+    "hiragana": "かわる",
+    "meaning": {
+      "vi": "thay đổi",
+      "en": "to change (intransitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "季節が変わる。",
+        "vi": "Mùa đã thay đổi.",
+        "en": "The season changes."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_436",
+    "kanji": "変える",
+    "hiragana": "かえる",
+    "meaning": {
+      "vi": "làm thay đổi",
+      "en": "to change (transitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "髪型を変えて気分をリフレッシュする。",
+        "vi": "Thay đổi kiểu tóc để làm mới tâm trạng.",
+        "en": "Change hair style to refresh the mood."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_437",
+    "kanji": "代わる",
+    "alt_kanji": "替わる・換わる",
+    "hiragana": "かわる",
+    "meaning": {
+      "vi": "thay thế",
+      "en": "to substitute / to replace"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "社長が代わって、会社の方針が変わった。",
+        "vi": "Giám đốc được thay thế nên phương châm của công ty thay đổi.",
+        "en": "The president was replaced, and the company policy changed."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_438",
+    "kanji": "代える",
+    "alt_kanji": "替える・換える",
+    "hiragana": "かえる",
+    "meaning": {
+      "vi": "đổi / thay thế",
+      "en": "to exchange / to swap"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "古い車を新しい車に代える。",
+        "vi": "Đổi xe ô tô cũ sang xe ô tô mới.",
+        "en": "Exchange an old car for a new one."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_439",
+    "kanji": "返る",
+    "hiragana": "かえる",
+    "meaning": {
+      "vi": "được trả lại",
+      "en": "to be returned"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "失くした財布が警察から返ってきた。",
+        "vi": "Chiếc ví bị mất đã được trả lại từ phía cảnh sát.",
+        "en": "The lost wallet was returned from the police."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_440",
+    "kanji": "返す",
+    "hiragana": "かえす",
+    "meaning": {
+      "vi": "trả lại",
+      "en": "to return something"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "借りた本を図書館に返す。",
+        "vi": "Trả lại thư viện cuốn sách đã mượn.",
+        "en": "Return the borrowed book to the library."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_441",
+    "kanji": "譲る",
+    "hiragana": "ゆずる",
+    "meaning": {
+      "vi": "nhường",
+      "en": "to hand over / to yield"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "電車でお年寄りに席を譲る。",
+        "vi": "Nhường ghế cho người già trên tàu điện.",
+        "en": "Yield a seat to an elderly person on the train."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_442",
+    "kanji": "助かる",
+    "hiragana": "たすかる",
+    "meaning": {
+      "vi": "được giúp, được cứu",
+      "en": "to be saved / to be helped"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "あなたが手伝ってくれて、本当に助かった。",
+        "vi": "Có bạn giúp đỡ nên tôi đã được cứu thực sự.",
+        "en": "You helped me, and I was really saved."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_443",
+    "kanji": "助ける",
+    "hiragana": "たすける",
+    "meaning": {
+      "vi": "giúp, cứu",
+      "en": "to help / to rescue"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "川で溺れている子供を助ける。",
+        "vi": "Cứu một đứa trẻ đang bị đuối nước ở sông.",
+        "en": "Rescue a child drowning in the river."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_444",
+    "kanji": "苛める",
+    "hiragana": "いじめる",
+    "meaning": {
+      "vi": "bắt nạt",
+      "en": "to bully"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "弱い動物をいじめてはいけない。",
+        "vi": "Không được bắt nạt các động vật yếu ớt.",
+        "en": "You must not bully weak animals."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_445",
+    "kanji": "騙す",
+    "hiragana": "だます",
+    "meaning": {
+      "vi": "lừa",
+      "en": "to deceive / to cheat"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "お金をだまし取る悪い人がいる。",
+        "vi": "Có những kẻ xấu lừa lấy tiền.",
+        "en": "There are bad people who swindle money."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_446",
+    "kanji": "盗む",
+    "hiragana": "ぬすむ",
+    "meaning": {
+      "vi": "lấy cắp",
+      "en": "to steal"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "銀行から大金が盗まれた。",
+        "vi": "Một số tiền lớn đã bị đánh cắp từ ngân hàng.",
+        "en": "A large amount of money was stolen from the bank."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_447",
+    "kanji": "刺さる",
+    "hiragana": "ささる",
+    "meaning": {
+      "vi": "bị đâm, mắc vào",
+      "en": "to stick into / to pierce"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "指にトゲが刺さって痛い。",
+        "vi": "Bị gai đâm vào ngón tay đau quá.",
+        "en": "A thorn pierced my finger and it hurts."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_448",
+    "kanji": "刺す",
+    "hiragana": "さす",
+    "meaning": {
+      "vi": "đâm, châm",
+      "en": "to stab / to sting"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "蚊に腕を刺された。",
+        "vi": "Tôi bị muỗi châm vào cánh tay.",
+        "en": "I was stung on the arm by a mosquito."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_449",
+    "kanji": "殺す",
+    "hiragana": "ころす",
+    "meaning": {
+      "vi": "giết",
+      "en": "to kill"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "ゴキブリを薬で殺す。",
+        "vi": "Giết con gián bằng thuốc.",
+        "en": "Kill a cockroach with medicine."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_450",
+    "kanji": "隠れる",
+    "hiragana": "かくれる",
+    "meaning": {
+      "vi": "ẩn náu, trốn",
+      "en": "to hide (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "月が雲の後ろに隠れた。",
+        "vi": "Mặt trăng đã ẩn nấp sau đám mây.",
+        "en": "The moon hid behind the clouds."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_451",
+    "kanji": "隠す",
+    "hiragana": "かくす",
+    "meaning": {
+      "vi": "che giấu",
+      "en": "to hide something (transitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "親にテストの悪い点数を隠す。",
+        "vi": "Giấu bố mẹ điểm kém của bài kiểm tra.",
+        "en": "Hide the bad test score from my parents."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_452",
+    "kanji": "埋まる",
+    "hiragana": "うまる",
+    "meaning": {
+      "vi": "bị chôn, bị lấp",
+      "en": "to be buried"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "道が雪で埋まっている。",
+        "vi": "Con đường đang bị chôn vùi trong tuyết.",
+        "en": "The road is buried in snow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_453",
+    "kanji": "埋める",
+    "hiragana": "うめる",
+    "meaning": {
+      "vi": "chôn, lấp",
+      "en": "to bury / to fill up"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "庭に桜の木を埋める。",
+        "vi": "Chôn (trồng) cây hoa anh đào ở trong sân.",
+        "en": "Plant (bury) a cherry tree in the garden."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_454",
+    "kanji": "囲む",
+    "hiragana": "かこむ",
+    "meaning": {
+      "vi": "vây quanh",
+      "en": "to surround"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "テーブルを囲んで食事をする。",
+        "vi": "Ngồi vây quanh bàn để dùng bữa.",
+        "en": "Sit around the table and eat."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_455",
+    "kanji": "詰まる",
+    "hiragana": "つまる",
+    "meaning": {
+      "vi": "đầy, tắc chặt",
+      "en": "to be packed / to be clogged"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "トイレが詰まって水が流れない。",
+        "vi": "Bồn cầu bị tắc nên nước không chảy được.",
+        "en": "The toilet is clogged and the water won't flow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_456",
+    "kanji": "詰める",
+    "hiragana": "つめる",
+    "meaning": {
+      "vi": "đóng gói, nhét vào",
+      "en": "to pack / to stuff"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "カバンに荷物をたくさん詰める。",
+        "vi": "Nhét rất nhiều hành lý vào trong túi.",
+        "en": "Stuff a lot of luggage into the bag."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_457",
+    "kanji": "開く",
+    "hiragana": "ひらく",
+    "meaning": {
+      "vi": "mở (sự kiện, tài khoản)",
+      "en": "to open"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "銀行で口座を開く。",
+        "vi": "Mở tài khoản ở ngân hàng.",
+        "en": "Open an account at the bank."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_458",
+    "kanji": "閉じる",
+    "hiragana": "とじる",
+    "meaning": {
+      "vi": "đóng (sách, mắt)",
+      "en": "to close"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "本を閉じて、先生の話を聞く。",
+        "vi": "Gấp sách lại và nghe giáo viên nói.",
+        "en": "Close the book and listen to the teacher."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_459",
+    "kanji": "飛ぶ",
+    "hiragana": "とぶ",
+    "meaning": {
+      "vi": "bay",
+      "en": "to fly"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "空を鳥が飛んでいる。",
+        "vi": "Chim đang bay trên bầu trời.",
+        "en": "A bird is flying in the sky."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_460",
+    "kanji": "飛ばす",
+    "hiragana": "とばす",
+    "meaning": {
+      "vi": "cho bay, thổi bay",
+      "en": "to let fly / to blow away"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "風船を空に飛ばす。",
+        "vi": "Thả cho bóng bay bay lên trời.",
+        "en": "Let a balloon fly into the sky."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_461",
+    "kanji": "振る",
+    "hiragana": "ふる",
+    "meaning": {
+      "vi": "rung, vẫy (tay)",
+      "en": "to wave / to shake"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "手を振って友達に別れを告げた。",
+        "vi": "Vẫy tay chào tạm biệt bạn.",
+        "en": "Waved my hand to say goodbye to my friend."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_462",
+    "kanji": "めくる",
+    "hiragana": "めくる",
+    "meaning": {
+      "vi": "lật lên",
+      "en": "to turn over (a page)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "本のページをめくる。",
+        "vi": "Lật trang sách.",
+        "en": "Turn the pages of a book."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_463",
+    "kanji": "見かける",
+    "hiragana": "みかける",
+    "meaning": {
+      "vi": "tình cờ thấy",
+      "en": "to happen to see"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "街で偶然、先生を見かけた。",
+        "vi": "Tình cờ nhìn thấy giáo viên trên phố.",
+        "en": "I happened to see my teacher on the street."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_464",
+    "kanji": "確かめる",
+    "hiragana": "たしかめる",
+    "meaning": {
+      "vi": "kiểm tra lại",
+      "en": "to check / to confirm"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "出発の前に、もう一度パスポートを確かめる。",
+        "vi": "Trước khi xuất phát, kiểm tra lại hộ chiếu một lần nữa.",
+        "en": "Check your passport once more before departure."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_465",
+    "kanji": "試す",
+    "hiragana": "ためす",
+    "meaning": {
+      "vi": "thử",
+      "en": "to try / to test"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "新しいパソコンの性能を試す。",
+        "vi": "Thử nghiệm tính năng của máy tính mới.",
+        "en": "Test the performance of the new computer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_466",
+    "kanji": "繰り返す",
+    "hiragana": "くりかえす",
+    "meaning": {
+      "vi": "lặp lại",
+      "en": "to repeat"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "彼は同じ間違いを何度も繰り返す。",
+        "vi": "Anh ta cứ lặp đi lặp lại một lỗi sai nhiều lần.",
+        "en": "He repeats the same mistake over and over."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_467",
+    "kanji": "訳す",
+    "hiragana": "やくす",
+    "meaning": {
+      "vi": "dịch",
+      "en": "to translate"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "英語の文章を日本語に訳す。",
+        "vi": "Dịch đoạn văn tiếng Anh sang tiếng Nhật.",
+        "en": "Translate an English sentence into Japanese."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_468",
+    "kanji": "行う",
+    "hiragana": "おこなう",
+    "meaning": {
+      "vi": "tổ chức, tiến hành",
+      "en": "to hold / to carry out"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "明日、学校でテストを行う。",
+        "vi": "Ngày mai sẽ tổ chức bài kiểm tra ở trường.",
+        "en": "A test will be held at school tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_469",
+    "kanji": "間違う",
+    "hiragana": "まちがう",
+    "meaning": {
+      "vi": "bị sai",
+      "en": "to make a mistake"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "この計算は間違っている。",
+        "vi": "Phép tính này bị sai rồi.",
+        "en": "This calculation is wrong."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_470",
+    "kanji": "間違える",
+    "hiragana": "まちがえる",
+    "meaning": {
+      "vi": "làm sai, nhầm",
+      "en": "to mistake / to get wrong"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "テストで簡単な問題を間違えた。",
+        "vi": "Tôi đã làm sai một câu hỏi dễ trong bài kiểm tra.",
+        "en": "I got an easy question wrong on the test."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_471",
+    "kanji": "許す",
+    "hiragana": "ゆるす",
+    "meaning": {
+      "vi": "tha thứ, cho phép",
+      "en": "to forgive / to allow"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "親に嘘をついたが、許してもらった。",
+        "vi": "Tôi đã nói dối bố mẹ nhưng đã được tha thứ.",
+        "en": "I lied to my parents but they forgave me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_472",
+    "kanji": "慣れる",
+    "hiragana": "なれる",
+    "meaning": {
+      "vi": "quen với",
+      "en": "to get used to"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "日本での生活にもう慣れましたか。",
+        "vi": "Bạn đã quen với cuộc sống ở Nhật chưa?",
+        "en": "Are you used to life in Japan yet?"
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_473",
+    "kanji": "慣らす",
+    "hiragana": "ならす",
+    "meaning": {
+      "vi": "khởi động, làm cho quen",
+      "en": "to acclimatize / to warm up"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "泳ぐ前に体を水に慣らす。",
+        "vi": "Làm cho cơ thể quen với nước trước khi bơi.",
+        "en": "Accustom your body to the water before swimming."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_474",
+    "kanji": "立つ",
+    "hiragana": "たつ",
+    "meaning": {
+      "vi": "đứng",
+      "en": "to stand"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "名前を呼ばれたら、立ってください。",
+        "vi": "Nếu được gọi tên thì hãy đứng lên.",
+        "en": "Please stand up if your name is called."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_475",
+    "kanji": "立てる",
+    "hiragana": "たてる",
+    "meaning": {
+      "vi": "dựng lên, lập (kế hoạch)",
+      "en": "to set up / to establish"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "休日の計画を立てる。",
+        "vi": "Lập kế hoạch cho ngày nghỉ.",
+        "en": "Make a plan for the holiday."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_476",
+    "kanji": "建つ",
+    "hiragana": "たつ",
+    "meaning": {
+      "vi": "được xây",
+      "en": "to be built"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "駅の前に新しいビルが建った。",
+        "vi": "Một tòa nhà mới đã được xây trước nhà ga.",
+        "en": "A new building was built in front of the station."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_477",
+    "kanji": "建てる",
+    "hiragana": "たてる",
+    "meaning": {
+      "vi": "xây dựng",
+      "en": "to build"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "将来、自分の家を建てたい。",
+        "vi": "Tương lai tôi muốn xây nhà của riêng mình.",
+        "en": "I want to build my own house in the future."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_478",
+    "kanji": "育つ",
+    "hiragana": "そだつ",
+    "meaning": {
+      "vi": "được nuôi dạy, khôn lớn",
+      "en": "to grow up"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "子供が元気に育っている。",
+        "vi": "Đứa trẻ đang khôn lớn khỏe mạnh.",
+        "en": "The child is growing up healthily."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_479",
+    "kanji": "育てる",
+    "hiragana": "そだてる",
+    "meaning": {
+      "vi": "nuôi, dạy",
+      "en": "to raise / to bring up"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "花を大事に育てる。",
+        "vi": "Trồng và chăm sóc hoa một cách cẩn thận.",
+        "en": "Raise flowers with care."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_480",
+    "kanji": "生える",
+    "hiragana": "はえる",
+    "meaning": {
+      "vi": "mọc (cỏ, tóc)",
+      "en": "to grow (hair/plants)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "庭に雑草が生えている。",
+        "vi": "Cỏ dại đang mọc trong sân.",
+        "en": "Weeds are growing in the garden."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_481",
+    "kanji": "生やす",
+    "hiragana": "はやす",
+    "meaning": {
+      "vi": "nuôi (râu), để mọc",
+      "en": "to let grow (beard)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "最近、彼はひげを生やしている。",
+        "vi": "Gần đây, anh ấy đang nuôi râu.",
+        "en": "He is growing a beard recently."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_482",
+    "kanji": "汚れる",
+    "hiragana": "よごれる",
+    "meaning": {
+      "vi": "bị bẩn",
+      "en": "to get dirty"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "雨で靴が汚れてしまった。",
+        "vi": "Giày đã bị bẩn vì trời mưa.",
+        "en": "My shoes got dirty because of the rain."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_483",
+    "kanji": "汚す",
+    "hiragana": "よごす",
+    "meaning": {
+      "vi": "làm bẩn",
+      "en": "to make dirty"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "服を汚さないように気をつける。",
+        "vi": "Cẩn thận để không làm bẩn quần áo.",
+        "en": "Be careful not to get your clothes dirty."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_484",
+    "kanji": "壊れる",
+    "hiragana": "こわれる",
+    "meaning": {
+      "vi": "bị hỏng",
+      "en": "to break (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "パソコンが壊れてしまった。",
+        "vi": "Máy tính đã bị hỏng mất rồi.",
+        "en": "My computer has broken."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_485",
+    "kanji": "壊す",
+    "hiragana": "こわす",
+    "meaning": {
+      "vi": "làm hỏng",
+      "en": "to break (transitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "子供がおもちゃを壊した。",
+        "vi": "Đứa trẻ đã làm hỏng đồ chơi.",
+        "en": "The child broke the toy."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_486",
+    "kanji": "割れる",
+    "hiragana": "われる",
+    "meaning": {
+      "vi": "bị vỡ",
+      "en": "to break / to smash (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "落としたグラスが割れた。",
+        "vi": "Cái cốc bị đánh rơi đã vỡ vụn.",
+        "en": "The dropped glass broke."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_487",
+    "kanji": "割る",
+    "hiragana": "わる",
+    "meaning": {
+      "vi": "làm vỡ, chia",
+      "en": "to break (transitive) / to divide"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "卵を割ってボウルに入れる。",
+        "vi": "Đập vỡ trứng và cho vào bát.",
+        "en": "Break an egg and put it in a bowl."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_488",
+    "kanji": "折れる",
+    "hiragana": "おれる",
+    "meaning": {
+      "vi": "bị gãy",
+      "en": "to break / to snap (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "風で木の枝が折れた。",
+        "vi": "Cành cây đã bị gãy do gió.",
+        "en": "A tree branch broke due to the wind."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_489",
+    "kanji": "折る",
+    "hiragana": "おる",
+    "meaning": {
+      "vi": "làm gãy, bẻ",
+      "en": "to break (transitive) / to fold"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "転んで足の骨を折ってしまった。",
+        "vi": "Tôi bị ngã và làm gãy xương chân.",
+        "en": "I fell and broke my leg bone."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_490",
+    "kanji": "破れる",
+    "hiragana": "やぶれる",
+    "meaning": {
+      "vi": "bị rách",
+      "en": "to be torn"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "シャツが破れている。",
+        "vi": "Áo sơ mi đang bị rách.",
+        "en": "The shirt is torn."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_491",
+    "kanji": "破る",
+    "hiragana": "やぶる",
+    "meaning": {
+      "vi": "xé rách, phá vỡ",
+      "en": "to tear / to break (a promise)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "約束を破ってはいけない。",
+        "vi": "Không được phép phá vỡ lời hứa.",
+        "en": "You must not break your promise."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_492",
+    "kanji": "曲がる",
+    "hiragana": "まがる",
+    "meaning": {
+      "vi": "gập, cong, rẽ",
+      "en": "to turn / to bend (intransitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "次の角を右に曲がってください。",
+        "vi": "Hãy rẽ phải ở góc đường tiếp theo.",
+        "en": "Please turn right at the next corner."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_493",
+    "kanji": "曲げる",
+    "hiragana": "まげる",
+    "meaning": {
+      "vi": "bẻ cong, uốn",
+      "en": "to bend (transitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "痛くて膝を曲げられない。",
+        "vi": "Đau quá nên không thể uốn cong đầu gối.",
+        "en": "It hurts so much I can't bend my knee."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_494",
+    "kanji": "外れる",
+    "hiragana": "はずれる",
+    "meaning": {
+      "vi": "bị rời ra, tuột",
+      "en": "to come off / to miss"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "シャツのボタンが外れている。",
+        "vi": "Cúc áo sơ mi đang bị tuột ra.",
+        "en": "The shirt button has come off."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_495",
+    "kanji": "外す",
+    "hiragana": "はずす",
+    "meaning": {
+      "vi": "tách ra, tháo ra",
+      "en": "to take off / to remove"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "時計を外して手を洗う。",
+        "vi": "Tháo đồng hồ ra và rửa tay.",
+        "en": "Take off the watch and wash my hands."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_496",
+    "kanji": "揺れる",
+    "hiragana": "ゆれる",
+    "meaning": {
+      "vi": "bị rung, lắc",
+      "en": "to shake / to sway (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "地震で家が大きく揺れた。",
+        "vi": "Ngôi nhà đã rung lắc mạnh do động đất.",
+        "en": "The house shook heavily due to the earthquake."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_497",
+    "kanji": "揺らす",
+    "hiragana": "ゆらす",
+    "meaning": {
+      "vi": "đung đưa, làm rung",
+      "en": "to shake (transitive)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "子供がブランコを揺らして遊ぶ。",
+        "vi": "Đứa trẻ đung đưa xích đu để chơi.",
+        "en": "The child plays by swinging the swing."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_498",
+    "kanji": "流れる",
+    "hiragana": "ながれる",
+    "meaning": {
+      "vi": "chảy, trôi",
+      "en": "to flow (intransitive)"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "川の水が静かに流れている。",
+        "vi": "Nước sông đang chảy một cách tĩnh lặng.",
+        "en": "The river water is flowing quietly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_499",
+    "kanji": "流す",
+    "hiragana": "ながす",
+    "meaning": {
+      "vi": "cho chảy, xả",
+      "en": "to let flow / to flush"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "トイレの水を流す。",
+        "vi": "Xả nước bồn cầu.",
+        "en": "Flush the toilet."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_500",
+    "kanji": "濡れる",
+    "hiragana": "ぬれる",
+    "meaning": {
+      "vi": "bị ướt",
+      "en": "to get wet"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "雨で服が濡れてしまった。",
+        "vi": "Quần áo đã bị ướt vì trời mưa.",
+        "en": "My clothes got wet in the rain."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_501",
+    "kanji": "濡らす",
+    "hiragana": "ぬらす",
+    "meaning": {
+      "vi": "làm ướt",
+      "en": "to wet (something)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "水でタオルを濡らして顔を拭く。",
+        "vi": "Làm ướt khăn bằng nước rồi lau mặt.",
+        "en": "Wet a towel with water and wipe my face."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_502",
+    "kanji": "迷う",
+    "hiragana": "まよう",
+    "meaning": {
+      "vi": "lạc đường, lúng túng",
+      "en": "to get lost / to hesitate"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "初めての町で道に迷った。",
+        "vi": "Tôi đã bị lạc đường ở một thị trấn lần đầu tiên đến.",
+        "en": "I got lost in a town I visited for the first time."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_503",
+    "kanji": "悩む",
+    "hiragana": "なやむ",
+    "meaning": {
+      "vi": "băn khoăn, phiền não",
+      "en": "to be worried / to be troubled"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "将来の仕事について悩んでいる。",
+        "vi": "Tôi đang băn khoăn về công việc tương lai.",
+        "en": "I am worried about my future job."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_504",
+    "kanji": "慌てる",
+    "hiragana": "あわてる",
+    "meaning": {
+      "vi": "vội vàng, luống cuống",
+      "en": "to panic / to hurry"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "寝坊して慌てて家を出た。",
+        "vi": "Tôi ngủ quên nên đã luống cuống đi ra khỏi nhà.",
+        "en": "I overslept and rushed out of the house in a panic."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_505",
+    "kanji": "覚める",
+    "hiragana": "さめる",
+    "meaning": {
+      "vi": "thức dậy, tỉnh",
+      "en": "to wake up / to become sober"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "朝早くに目が覚めた。",
+        "vi": "Tôi đã tỉnh giấc vào sáng sớm.",
+        "en": "I woke up early in the morning."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_506",
+    "kanji": "覚ます",
+    "hiragana": "さます",
+    "meaning": {
+      "vi": "mở mắt, đánh thức",
+      "en": "to awaken (someone)"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "濃いコーヒーを飲んで目を覚ます。",
+        "vi": "Tôi uống cà phê đậm để làm tỉnh ngủ.",
+        "en": "I drink strong coffee to wake myself up."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_507",
+    "kanji": "眠る",
+    "hiragana": "ねむる",
+    "meaning": {
+      "vi": "ngủ",
+      "en": "to sleep"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "疲れていたので、ぐっすり眠った。",
+        "vi": "Vì mệt nên tôi đã ngủ rất say.",
+        "en": "I was tired, so I slept soundly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_508",
+    "kanji": "祈る",
+    "hiragana": "いのる",
+    "meaning": {
+      "vi": "cầu, khấn",
+      "en": "to pray"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "家族の健康を祈る。",
+        "vi": "Cầu nguyện cho sức khỏe của gia đình.",
+        "en": "Pray for the family's health."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_509",
+    "kanji": "祝う",
+    "hiragana": "いわう",
+    "meaning": {
+      "vi": "ăn mừng, chúc mừng",
+      "en": "to celebrate / to congratulate"
+    },
+    "type": "verb",
+    "group": 1,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "友達の誕生日を祝う。",
+        "vi": "Ăn mừng sinh nhật của bạn.",
+        "en": "Celebrate a friend's birthday."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_05_510",
+    "kanji": "感じる",
+    "hiragana": "かんじる",
+    "meaning": {
+      "vi": "cảm thấy",
+      "en": "to feel"
+    },
+    "type": "verb",
+    "group": 2,
+    "level": "N3",
+    "lesson": "Bài 5",
+    "examples": [
+      {
+        "jp": "急に寒さを感じた。",
+        "vi": "Đột nhiên tôi cảm thấy lạnh.",
+        "en": "I suddenly felt cold."
+      }
+    ]
+  }
+]

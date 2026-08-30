@@ -15,7 +15,7 @@ interface FlipCardProps {
   cardSeed?: number;
 }
 
-const resolveForm = (form: FormType, seed: number, index: number, word: Word, excludeForms: FormType[] = []): FormType => {
+export const resolveForm = (form: FormType, seed: number, index: number, word: Word, excludeForms: FormType[] = []): FormType => {
   if (form !== 'random') return form;
 
   const validForms = FORM_REGISTRY.filter(f =>

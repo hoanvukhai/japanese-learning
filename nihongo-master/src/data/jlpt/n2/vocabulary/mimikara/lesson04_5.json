@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "v_mon2_04_5_371",
+    "kanji": "立ち上がる",
+    "hanViet": "LẬP THƯỢNG",
+    "hiragana": "たちあがる",
+    "meaning": {
+      "vi": "Đứng dậy, khởi động (IT)",
+      "en": "Stand up, boot up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "いすから立ち上がる。",
+        "vi": "Đứng dậy từ ghế.",
+        "en": "Stand up from the chair."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_372",
+    "kanji": "飛び上がる",
+    "hanViet": "PHI THƯỢNG",
+    "hiragana": "とびあがる",
+    "meaning": {
+      "vi": "Bay lên, nhảy lên",
+      "en": "Jump up, fly up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "驚いて飛び上がった。",
+        "vi": "Ngạc nhiên nên tôi đã nhảy cẫng lên.",
+        "en": "I jumped up in surprise."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_373",
+    "kanji": "浮かび上がる",
+    "hanViet": "PHÙ THƯỢNG",
+    "hiragana": "うかびあがる",
+    "meaning": {
+      "vi": "Nổi lên (trên mặt nước, trong đầu)",
+      "en": "Surface, come to mind"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "水面に魚が浮かび上がった。",
+        "vi": "Con cá nổi lên trên mặt nước.",
+        "en": "A fish surfaced on the water."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_374",
+    "kanji": "舞い上がる",
+    "hanViet": "VŨ THƯỢNG",
+    "hiragana": "まいあがる",
+    "meaning": {
+      "vi": "Bay vút lên, hưng phấn (tinh thần)",
+      "en": "Soar, be in high spirits"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "砂が風で舞い上がる。",
+        "vi": "Cát bay vút lên do gió.",
+        "en": "Sand soars up in the wind."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_375",
+    "kanji": "燃え上がる",
+    "hanViet": "NHIÊN THƯỢNG",
+    "hiragana": "もえあがる",
+    "meaning": {
+      "vi": "Bốc cháy, cháy bùng lên",
+      "en": "Flare up, burst into flames"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "火が勢いよく燃え上がった。",
+        "vi": "Ngọn lửa bốc cháy dữ dội.",
+        "en": "The fire flared up fiercely."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_376",
+    "kanji": "盛り上がる",
+    "hanViet": "THỊNH THƯỢNG",
+    "hiragana": "もりあがる",
+    "meaning": {
+      "vi": "Tăng lên, phấn khích, sôi nổi",
+      "en": "Swell, get excited"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "パーティーが盛り上がる。",
+        "vi": "Bữa tiệc trở nên sôi nổi.",
+        "en": "The party gets exciting."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_377",
+    "kanji": "沸き上がる",
+    "hanViet": "PHÍ THƯỢNG",
+    "hiragana": "わきあがる",
+    "meaning": {
+      "vi": "Sôi lên, dâng trào (cảm xúc)",
+      "en": "Boil up, erupt (cheers)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "会場から歓声が沸き上がった。",
+        "vi": "Tiếng hoan hô dâng trào từ hội trường.",
+        "en": "Cheers erupted from the venue."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_378",
+    "kanji": "晴れ上がる",
+    "hanViet": "TÌNH THƯỢNG",
+    "hiragana": "はれあがる",
+    "meaning": {
+      "vi": "Sáng sủa, quang đãng",
+      "en": "Clear up (weather)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "雨がやんで、空が晴れ上がった。",
+        "vi": "Mưa tạnh và bầu trời trở nên quang đãng.",
+        "en": "The rain stopped and the sky cleared up."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_379",
+    "kanji": "震え上がる",
+    "hanViet": "CHẤN",
+    "hiragana": "ふるえあがる",
+    "meaning": {
+      "vi": "Run rẩy, run lập cập",
+      "en": "Shiver, tremble violently"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "寒さで震え上がった。",
+        "vi": "Run rẩy vì lạnh.",
+        "en": "Shivered with cold."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_380",
+    "kanji": "縮み上がる",
+    "hanViet": "SÚC",
+    "hiragana": "ちぢみあがる",
+    "meaning": {
+      "vi": "Co rúm lại, sợ hãi",
+      "en": "Shrink, cower"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "恐怖で縮み上がった。",
+        "vi": "Co rúm lại vì sợ hãi.",
+        "en": "Cowered in fear."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_381",
+    "kanji": "干上がる",
+    "hanViet": "CAN THƯỢNG",
+    "hiragana": "ひあがる",
+    "meaning": {
+      "vi": "Khô hạn, cạn kiệt",
+      "en": "Dry up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "日照り続きで池が干上がった。",
+        "vi": "Nắng nóng kéo dài làm ao cạn kiệt nước.",
+        "en": "The pond dried up due to the long drought."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_382",
+    "kanji": "でき上がる",
+    "hanViet": "THƯỢNG",
+    "hiragana": "できあがる",
+    "meaning": {
+      "vi": "Hoàn thành, làm xong",
+      "en": "Be completed, be finished"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "美味しい料理ができ上がった。",
+        "vi": "Món ăn ngon đã được hoàn thành.",
+        "en": "A delicious dish has been completed."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_383",
+    "kanji": "持ち上げる",
+    "hanViet": "TRÌ THƯỢNG",
+    "hiragana": "もちあげる",
+    "meaning": {
+      "vi": "Nâng lên, nhấc lên",
+      "en": "Lift up, raise"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "重い荷物を持ち上げる。",
+        "vi": "Nhấc hành lý nặng lên.",
+        "en": "Lift up heavy luggage."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_384",
+    "kanji": "見上げる",
+    "hanViet": "KIẾN THƯỢNG",
+    "hiragana": "みあげる",
+    "meaning": {
+      "vi": "Nhìn lên (trời), ngưỡng mộ",
+      "en": "Look up, admire"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "夜空を見上げる。",
+        "vi": "Nhìn lên bầu trời đêm.",
+        "en": "Look up at the night sky."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_385",
+    "kanji": "積み上げる",
+    "hanViet": "TÍCH",
+    "hiragana": "つみあげる",
+    "meaning": {
+      "vi": "Chất đống, tích lũy",
+      "en": "Pile up, accumulate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "段ボール箱を積み上げる。",
+        "vi": "Chất đống các thùng các tông lên.",
+        "en": "Pile up cardboard boxes."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_386",
+    "kanji": "打ち上げる",
+    "hanViet": "ĐẢ",
+    "hiragana": "うちあげる",
+    "meaning": {
+      "vi": "Bắn lên, hoàn thành",
+      "en": "Launch, finish (a project)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "ロケットを打ち上げる。",
+        "vi": "Phóng tên lửa lên.",
+        "en": "Launch a rocket."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_387",
+    "kanji": "立ち上げる",
+    "hanViet": "LẬP THƯỢNG",
+    "hiragana": "たちあげる",
+    "meaning": {
+      "vi": "Khởi động (máy tính), thành lập (dự án)",
+      "en": "Start up, launch"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "パソコンを立ち上げる。",
+        "vi": "Khởi động máy tính.",
+        "en": "Start up a computer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_388",
+    "kanji": "切り上げる",
+    "hanViet": "THIẾT THƯỢNG",
+    "hiragana": "きりあげる",
+    "meaning": {
+      "vi": "Hoàn thành, kết thúc (công việc)",
+      "en": "Finish, cut short"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "今日はこの辺で仕事を切り上げよう。",
+        "vi": "Hôm nay chúng ta kết thúc công việc ở đây thôi.",
+        "en": "Let's finish the work here for today."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_389",
+    "kanji": "繰り上げる",
+    "hanViet": "SÀO THƯỢNG",
+    "hiragana": "くりあげる",
+    "meaning": {
+      "vi": "Sớm hơn (dự định, thời gian), đẩy lên",
+      "en": "Move up, advance"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "予定を繰り上げて出発する。",
+        "vi": "Đẩy lịch lên và xuất phát sớm hơn dự định.",
+        "en": "Advance the schedule and depart early."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_390",
+    "kanji": "磨き上げる",
+    "hanViet": "MA THƯỢNG",
+    "hiragana": "みがきあげる",
+    "meaning": {
+      "vi": "Đánh bóng (cho đến khi sáng loáng)",
+      "en": "Polish up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "靴をピカピカに磨き上げる。",
+        "vi": "Đánh bóng đôi giày cho đến khi sáng loáng.",
+        "en": "Polish the shoes until they shine."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_391",
+    "kanji": "鍛え上げる",
+    "hanViet": "ĐOÁN THƯỢNG",
+    "hiragana": "きたえあげる",
+    "meaning": {
+      "vi": "Rèn luyện (cho đến khi hoàn thiện)",
+      "en": "Train thoroughly, build up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "厳しい練習で体を鍛え上げる。",
+        "vi": "Rèn luyện cơ thể thông qua các bài tập khắc nghiệt.",
+        "en": "Build up the body through rigorous training."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_392",
+    "kanji": "書き上げる",
+    "hanViet": "THƯ THƯỢNG",
+    "hiragana": "かきあげる",
+    "meaning": {
+      "vi": "Viết xong",
+      "en": "Finish writing"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "徹夜でレポートを書き上げた。",
+        "vi": "Tôi đã thức trắng đêm để viết xong báo cáo.",
+        "en": "I stayed up all night and finished writing the report."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_393",
+    "kanji": "育て上げる",
+    "hanViet": "DỤC THƯỢNG",
+    "hiragana": "そだてあげる",
+    "meaning": {
+      "vi": "Nuôi dưỡng (đến lúc khôn lớn)",
+      "en": "Bring up, raise"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "三人の子供を立派に育て上げた。",
+        "vi": "Nuôi dưỡng 3 đứa con khôn lớn đàng hoàng.",
+        "en": "Brought up three children splendidly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_394",
+    "kanji": "読み上げる",
+    "hanViet": "ĐỘC THƯỢNG",
+    "hiragana": "よみあげる",
+    "meaning": {
+      "vi": "Đọc to ra",
+      "en": "Read out loud"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "先生が生徒の名前を読み上げる。",
+        "vi": "Giáo viên đọc to tên học sinh.",
+        "en": "The teacher reads out the students' names."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_395",
+    "kanji": "数え上げる",
+    "hanViet": "SỐ THƯỢNG",
+    "hiragana": "かぞえあげる",
+    "meaning": {
+      "vi": "Đếm từng cái, liệt kê ra",
+      "en": "Count up, enumerate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "彼の欠点を数え上げたらきりがない。",
+        "vi": "Nếu liệt kê ra các khuyết điểm của anh ta thì không kể xiết.",
+        "en": "There's no end if you start enumerating his faults."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_396",
+    "kanji": "投げ出す",
+    "hanViet": "ĐẦU XUẤT",
+    "hiragana": "なげだす",
+    "meaning": {
+      "vi": "Vứt bỏ, gác chân, bỏ cuộc",
+      "en": "Throw out, abandon, stretch out (legs)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "足を投げ出して座る。",
+        "vi": "Gác chân ra rồi ngồi.",
+        "en": "Sit with one's legs stretched out."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_397",
+    "kanji": "持ち出す",
+    "hanViet": "TRÌ XUẤT",
+    "hiragana": "もちだす",
+    "meaning": {
+      "vi": "Mang ra ngoài",
+      "en": "Take out"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "会社の資料を無断で持ち出してはいけない。",
+        "vi": "Không được tự ý mang tài liệu của công ty ra ngoài.",
+        "en": "You must not take company materials out without permission."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_398",
+    "kanji": "追い出す",
+    "hanViet": "TRUY XUẤT",
+    "hiragana": "おいだす",
+    "meaning": {
+      "vi": "Đuổi đi, xua đuổi",
+      "en": "Drive out, expel"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "部屋に入ってきた虫を追い出す。",
+        "vi": "Đuổi con côn trùng bay vào phòng ra ngoài.",
+        "en": "Drive out an insect that came into the room."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_399",
+    "kanji": "放り出す",
+    "hanViet": "PHÓNG XUẤT",
+    "hiragana": "ほうりだす",
+    "meaning": {
+      "vi": "Vứt ra, bỏ cuộc",
+      "en": "Throw out, abandon"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "途中で仕事を放り出す。",
+        "vi": "Bỏ cuộc giữa chừng trong công việc.",
+        "en": "Abandon the work halfway."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_400",
+    "kanji": "貸し出す",
+    "hanViet": "THẢI XUẤT",
+    "hiragana": "かしだす",
+    "meaning": {
+      "vi": "Cho mượn, cho vay (tài sản)",
+      "en": "Lend out"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "図書館で本を貸し出す。",
+        "vi": "Thư viện cho mượn sách.",
+        "en": "The library lends out books."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_401",
+    "kanji": "聞き出す",
+    "hanViet": "VĂN XUẤT",
+    "hiragana": "ききだす",
+    "meaning": {
+      "vi": "Chất vấn, hỏi ra được thông tin",
+      "en": "Find out by asking, extract information"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "犯人から事件の真相を聞き出す。",
+        "vi": "Hỏi ra được chân tướng vụ án từ hung thủ.",
+        "en": "Extract the truth of the incident from the culprit."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_402",
+    "kanji": "連れ出す",
+    "hanViet": "LIÊN XUẤT",
+    "hiragana": "つれだす",
+    "meaning": {
+      "vi": "Dẫn ra ngoài",
+      "en": "Take someone out"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "子供を公園に連れ出す。",
+        "vi": "Dẫn trẻ con ra công viên.",
+        "en": "Take the child out to the park."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_403",
+    "kanji": "引っ張り出す",
+    "hanViet": "DẪN TƯỞNG XUẤT",
+    "hiragana": "ひっぱりだす",
+    "meaning": {
+      "vi": "Lôi kéo ra, kéo ra ngoài",
+      "en": "Drag out, pull out"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "押し入れの奥から古いアルバムを引っ張り出す。",
+        "vi": "Kéo cuốn album cũ từ sâu trong tủ ra.",
+        "en": "Pull out an old album from the back of the closet."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_404",
+    "kanji": "逃げ出す",
+    "hanViet": "ĐÀO XUẤT",
+    "hiragana": "にげだす",
+    "meaning": {
+      "vi": "Bỏ chạy, chạy trốn",
+      "en": "Run away, escape"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "ライオンが動物園から逃げ出した。",
+        "vi": "Con sư tử đã chạy trốn khỏi sở thú.",
+        "en": "The lion escaped from the zoo."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_405",
+    "kanji": "飛び出す",
+    "hanViet": "PHI XUẤT",
+    "hiragana": "とびだす",
+    "meaning": {
+      "vi": "Phóng ra, bay ra ngoài",
+      "en": "Jump out, rush out"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "子供が道路に飛び出す。",
+        "vi": "Trẻ con phóng ra đường.",
+        "en": "A child rushes out into the street."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_406",
+    "kanji": "見つけ出す",
+    "hanViet": "KIẾN XUẤT",
+    "hiragana": "みつけだす",
+    "meaning": {
+      "vi": "Tìm thấy",
+      "en": "Find out, discover"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "図書館で必要な資料を見つけ出した。",
+        "vi": "Đã tìm thấy tài liệu cần thiết ở thư viện.",
+        "en": "I found the necessary materials in the library."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_407",
+    "kanji": "探し出す",
+    "hanViet": "THAM XUẤT",
+    "hiragana": "さがしだす",
+    "meaning": {
+      "vi": "Tìm ra được, phát hiện ra",
+      "en": "Search out, locate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "行方不明になっていた犬を探し出した。",
+        "vi": "Tôi đã tìm thấy chú chó đi lạc.",
+        "en": "I tracked down the missing dog."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_408",
+    "kanji": "書き出す",
+    "hanViet": "THƯ XUẤT",
+    "hiragana": "かきだす",
+    "meaning": {
+      "vi": "Viết ra (giấy)",
+      "en": "Write down, list up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "考えを紙に書き出す。",
+        "vi": "Viết những suy nghĩ của mình ra giấy.",
+        "en": "Write down one's thoughts on paper."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_409",
+    "kanji": "飛び込む",
+    "hanViet": "PHI NHẬP",
+    "hiragana": "とびこむ",
+    "meaning": {
+      "vi": "Lao vào, nhảy vào",
+      "en": "Jump in, plunge in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "プールに飛び込む。",
+        "vi": "Nhảy xuống bể bơi.",
+        "en": "Jump into the pool."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_410",
+    "kanji": "駆け込む",
+    "hanViet": "KHU NHẬP",
+    "hiragana": "かけこむ",
+    "meaning": {
+      "vi": "Chạy vào (vội vã)",
+      "en": "Run into, rush in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "遅刻しそうになって、教室に駆け込んだ。",
+        "vi": "Vì sắp muộn nên tôi đã chạy vội vào lớp học.",
+        "en": "I was about to be late, so I rushed into the classroom."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_411",
+    "kanji": "割り込む",
+    "hanViet": "CÁT NHẬP",
+    "hiragana": "わりこむ",
+    "meaning": {
+      "vi": "Chen ngang",
+      "en": "Cut in, interrupt"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "列に割り込むのはマナー違反だ。",
+        "vi": "Chen ngang hàng là vi phạm phép lịch sự.",
+        "en": "Cutting in line is bad manners."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_412",
+    "kanji": "差し込む",
+    "hanViet": "SAI NHẬP",
+    "hiragana": "さしこむ",
+    "meaning": {
+      "vi": "Chiếu vào, cắm vào",
+      "en": "Insert, shine in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "部屋に朝日が差し込む。",
+        "vi": "Nắng ban mai chiếu rọi vào phòng.",
+        "en": "The morning sun shines into the room."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_413",
+    "kanji": "染み込む",
+    "hanViet": "NHIỄM NHẬP",
+    "hiragana": "しみこむ",
+    "meaning": {
+      "vi": "Thấm vào",
+      "en": "Soak in, sink in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "雨が靴の中に染み込んだ。",
+        "vi": "Nước mưa thấm vào trong giày.",
+        "en": "Rain soaked into my shoes."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_414",
+    "kanji": "引っ込む",
+    "hanViet": "DẪN NHẬP",
+    "hiragana": "ひっこむ",
+    "meaning": {
+      "vi": "Lui vào, rút lui",
+      "en": "Draw back, step back"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "父は退職後、田舎に引っ込んだ。",
+        "vi": "Bố tôi lui về ở ẩn vùng quê sau khi nghỉ hưu.",
+        "en": "My father retired to the countryside."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_415",
+    "kanji": "詰め込む",
+    "hanViet": "CẬT NHẬP",
+    "hiragana": "つめこむ",
+    "meaning": {
+      "vi": "Nhồi nhét",
+      "en": "Cram, stuff into"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "かばんに荷物を詰め込む。",
+        "vi": "Nhồi nhét hành lý vào cặp.",
+        "en": "Stuff things into a bag."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_416",
+    "kanji": "飲み込む",
+    "hanViet": "ẨM NHẬP",
+    "hiragana": "のみこむ",
+    "meaning": {
+      "vi": "Nuốt chửng, hiểu rõ",
+      "en": "Swallow, grasp/understand"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "状況をすぐに飲み込んだ。",
+        "vi": "Tôi nhanh chóng nắm bắt được tình hình.",
+        "en": "I grasped the situation immediately."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_417",
+    "kanji": "運び込む",
+    "hanViet": "VẬN NHẬP",
+    "hiragana": "はこびこむ",
+    "meaning": {
+      "vi": "Mang vào bên trong",
+      "en": "Carry into"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "新しい家具を部屋に運び込む。",
+        "vi": "Khuân nội thất mới vào phòng.",
+        "en": "Carry new furniture into the room."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_418",
+    "kanji": "打ち込む",
+    "hanViet": "ĐẢ NHẬP",
+    "hiragana": "うちこむ",
+    "meaning": {
+      "vi": "Nhập liệu, cống hiến hết mình",
+      "en": "Type in, devote oneself to"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "彼は仕事に打ち込んでいる。",
+        "vi": "Anh ấy đang cống hiến hết mình cho công việc.",
+        "en": "He is devoting himself to his work."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_419",
+    "kanji": "注ぎ込む",
+    "hanViet": "CHÚ NHẬP",
+    "hiragana": "そそぎこむ",
+    "meaning": {
+      "vi": "Đổ vào, dồn hết (tình cảm, tiền bạc)",
+      "en": "Pour into"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "子供に愛情を注ぎ込む。",
+        "vi": "Dành hết tình yêu thương cho con cái.",
+        "en": "Pour love into one's children."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_420",
+    "kanji": "引き込む",
+    "hanViet": "DẪN NHẬP",
+    "hiragana": "ひきこむ",
+    "meaning": {
+      "vi": "Lôi kéo, dẫn vào",
+      "en": "Draw in, pull in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "友人を悪の道に引き込む。",
+        "vi": "Lôi kéo người bạn vào con đường xấu.",
+        "en": "Draw a friend into a bad path."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_421",
+    "kanji": "書き込む",
+    "hanViet": "THƯ NHẬP",
+    "hiragana": "かきこむ",
+    "meaning": {
+      "vi": "Nhập dữ liệu, viết vào",
+      "en": "Write in, fill in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "手帳に予定を書き込む。",
+        "vi": "Viết lịch trình vào sổ tay.",
+        "en": "Write a schedule in a notebook."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_422",
+    "kanji": "巻き込む",
+    "hanViet": "QUYỂN NHẬP",
+    "hiragana": "まきこむ",
+    "meaning": {
+      "vi": "Cuốn vào, dính líu vào",
+      "en": "Involve, entangle"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "事件に巻き込まれる。",
+        "vi": "Bị dính líu vào vụ án.",
+        "en": "Get involved in an incident."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_423",
+    "kanji": "追い込む",
+    "hanViet": "TRUY NHẬP",
+    "hiragana": "おいこむ",
+    "meaning": {
+      "vi": "Dồn vào (chỗ bí, góc)",
+      "en": "Corner, drive into"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "敵を隅に追い込む。",
+        "vi": "Dồn kẻ địch vào góc.",
+        "en": "Corner the enemy."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_424",
+    "kanji": "呼び込む",
+    "hanViet": "HÔ NHẬP",
+    "hiragana": "よびこむ",
+    "meaning": {
+      "vi": "Mời gọi, gọi vào",
+      "en": "Call in, invite in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "店にお客を呼び込む。",
+        "vi": "Mời gọi khách hàng vào quán.",
+        "en": "Call customers into the shop."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_425",
+    "kanji": "座り込む",
+    "hanViet": "TỌA NHẬP",
+    "hiragana": "すわりこむ",
+    "meaning": {
+      "vi": "Ngồi lì, ngồi bệt",
+      "en": "Sit down (and refuse to move)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "疲れて道に座り込んだ。",
+        "vi": "Mệt quá nên ngồi bệt luôn xuống đường.",
+        "en": "I was so tired I sat down on the road."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_426",
+    "kanji": "寝込む",
+    "hanViet": "TẨM NHẬP",
+    "hiragana": "ねこむ",
+    "meaning": {
+      "vi": "Nằm liệt giường, ngủ say",
+      "en": "Stay in bed (due to illness), fall deeply asleep"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "風邪で一週間寝込んだ。",
+        "vi": "Vì bị cảm nên tôi nằm liệt giường suốt 1 tuần.",
+        "en": "I was bedridden with a cold for a week."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_427",
+    "kanji": "話し込む",
+    "hanViet": "THOẠI NHẬP",
+    "hiragana": "はなしこむ",
+    "meaning": {
+      "vi": "Mải nói chuyện, say sưa nói chuyện",
+      "en": "Be absorbed in talking"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "友達と夜遅くまで話し込んだ。",
+        "vi": "Say sưa nói chuyện với bạn đến tận khuya.",
+        "en": "I talked deeply with my friend until late at night."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_428",
+    "kanji": "黙り込む",
+    "hanViet": "MẶC NHẬP",
+    "hiragana": "だまりこむ",
+    "meaning": {
+      "vi": "Chìm vào im lặng",
+      "en": "Fall silent"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "質問されて、彼は黙り込んだ。",
+        "vi": "Bị hỏi nên anh ta chìm vào im lặng.",
+        "en": "He fell silent when asked a question."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_429",
+    "kanji": "泊まり込む",
+    "hanViet": "BẠC NHẬP",
+    "hiragana": "とまりこむ",
+    "meaning": {
+      "vi": "Trọ lại",
+      "en": "Stay overnight (for work, etc.)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "会社に泊まり込んで仕事をした。",
+        "vi": "Tôi trọ lại luôn ở công ty để làm việc.",
+        "en": "I stayed overnight at the office to work."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_430",
+    "kanji": "住み込む",
+    "hanViet": "TRÚ NHẬP",
+    "hiragana": "すみこむ",
+    "meaning": {
+      "vi": "Đến ở hẳn, sống tại",
+      "en": "Live in"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "住み込みで働く。",
+        "vi": "Làm việc kiểu đến ở luôn tại chỗ làm.",
+        "en": "Work as a live-in employee."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_431",
+    "kanji": "煮込む",
+    "hanViet": "CHỬ NHẬP",
+    "hiragana": "にこむ",
+    "meaning": {
+      "vi": "Ninh, hầm nhừ",
+      "en": "Boil well, stew"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "肉が柔らかくなるまでよく煮込む。",
+        "vi": "Ninh thật kỹ cho đến khi thịt mềm rục.",
+        "en": "Stew the meat well until it becomes tender."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_432",
+    "kanji": "売り込む",
+    "hanViet": "MẠI NHẬP",
+    "hiragana": "うりこむ",
+    "meaning": {
+      "vi": "Tiếp thị, bán hàng, lăng xê",
+      "en": "Push (a product), market oneself"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "新製品を客に売り込む。",
+        "vi": "Tiếp thị sản phẩm mới cho khách hàng.",
+        "en": "Push a new product to customers."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_433",
+    "kanji": "頼み込む",
+    "hanViet": "LẠI NHẬP",
+    "hiragana": "たのみこむ",
+    "meaning": {
+      "vi": "Thiết tha nhờ vả, yêu cầu khẩn khoản",
+      "en": "Earnestly request, beg"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "親に頼み込んで、留学させてもらった。",
+        "vi": "Thiết tha nhờ vả bố mẹ và được cho đi du học.",
+        "en": "I earnestly requested my parents and they let me study abroad."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_434",
+    "kanji": "教え込む",
+    "hanViet": "GIÁO NHẬP",
+    "hiragana": "おしえこむ",
+    "meaning": {
+      "vi": "Dạy dỗ kỹ lưỡng, truyền bá (tư tưởng)",
+      "en": "Instill, train strictly"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "犬に芸を教え込む。",
+        "vi": "Dạy cho chú chó kỹ năng diễn xiếc.",
+        "en": "Train a dog to do tricks."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_435",
+    "kanji": "話し合う",
+    "hanViet": "THOẠI HỢP",
+    "hiragana": "はなしあう",
+    "meaning": {
+      "vi": "Thảo luận",
+      "en": "Discuss, talk together"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "将来について家族と話し合う。",
+        "vi": "Thảo luận với gia đình về tương lai.",
+        "en": "Discuss the future with family."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_436",
+    "kanji": "言い合う",
+    "hanViet": "NGÔN HỢP",
+    "hiragana": "いいあう",
+    "meaning": {
+      "vi": "Tranh luận, cãi cọ, nói qua nói lại",
+      "en": "Argue, exchange words"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "兄弟で言い合う。",
+        "vi": "Anh em nói qua nói lại (cãi nhau).",
+        "en": "Brothers argue with each other."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_437",
+    "kanji": "語り合う",
+    "hanViet": "NGỮ HỢP",
+    "hiragana": "かたりあう",
+    "meaning": {
+      "vi": "Tâm sự, hàn huyên",
+      "en": "Talk together (intimately)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "久しぶりに会った友人と、一晩中語り合った。",
+        "vi": "Tôi đã hàn huyên suốt đêm với người bạn lâu ngày mới gặp.",
+        "en": "I talked intimately all night with a friend I hadn't seen for a long time."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_438",
+    "kanji": "見つめ合う",
+    "hanViet": "KIẾN HỢP",
+    "hiragana": "みつめあう",
+    "meaning": {
+      "vi": "Nhìn chằm chằm nhau",
+      "en": "Stare at each other"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "二人は無言で見つめ合った。",
+        "vi": "Hai người nhìn nhau không nói một lời.",
+        "en": "The two stared at each other in silence."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_439",
+    "kanji": "向かい合う",
+    "hanViet": "HƯỚNG HỢP",
+    "hiragana": "むかいあう",
+    "meaning": {
+      "vi": "Đối diện nhau",
+      "en": "Face each other"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "テーブルを挟んで向かい合って座る。",
+        "vi": "Ngồi đối diện nhau qua chiếc bàn.",
+        "en": "Sit facing each other across the table."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_440",
+    "kanji": "助け合う",
+    "hanViet": "TRỢ HỢP",
+    "hiragana": "たすけあう",
+    "meaning": {
+      "vi": "Giúp đỡ lẫn nhau",
+      "en": "Help each other"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "困ったときは助け合いましょう。",
+        "vi": "Khi gặp khó khăn hãy giúp đỡ lẫn nhau nhé.",
+        "en": "Let's help each other when in trouble."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_441",
+    "kanji": "分け合う",
+    "hanViet": "PHÂN HỢP",
+    "hiragana": "わけあう",
+    "meaning": {
+      "vi": "Chia sẻ cho nhau",
+      "en": "Share with each other"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "一つのパンを兄弟で分け合った。",
+        "vi": "Hai anh em đã chia sẻ chung một cái bánh mì.",
+        "en": "The brothers shared a piece of bread."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_442",
+    "kanji": "出し合う",
+    "hanViet": "XUẤT HỢP",
+    "hiragana": "だしあう",
+    "meaning": {
+      "vi": "Chung nhau, góp chung (tiền)",
+      "en": "Chip in, contribute jointly"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "みんなでお金を出し合って、プレゼントを買った。",
+        "vi": "Mọi người đã góp chung tiền lại và mua quà.",
+        "en": "We all chipped in money and bought a present."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_443",
+    "kanji": "申し合わせる",
+    "hanViet": "THÂN HỢP",
+    "hiragana": "もうしあわせる",
+    "meaning": {
+      "vi": "Thu xếp, hẹn trước, thỏa thuận",
+      "en": "Arrange, agree upon"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "事前に申し合わせておいた通りに行動する。",
+        "vi": "Hành động đúng theo những gì đã thỏa thuận từ trước.",
+        "en": "Act according to what was agreed upon in advance."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_444",
+    "kanji": "誘い合わせる",
+    "hanViet": "DỤ HỢP",
+    "hiragana": "さそいあわせる",
+    "meaning": {
+      "vi": "Mời gọi nhau (cùng làm gì đó)",
+      "en": "Invite each other to go together"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "クラスメートを誘い合わせて、映画を見に行った。",
+        "vi": "Rủ rê các bạn cùng lớp đi xem phim chung.",
+        "en": "I invited my classmates to go see a movie together."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_445",
+    "kanji": "隣り合わせる",
+    "hanViet": "LÂN HỢP",
+    "hiragana": "となりあわせる",
+    "meaning": {
+      "vi": "Ở bên cạnh, nối tiếp nhau",
+      "en": "Be side by side, border on"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "新幹線で偶然友人と隣り合わせた。",
+        "vi": "Trên tàu Shinkansen, tôi tình cờ ngồi ngay bên cạnh bạn mình.",
+        "en": "I happened to sit next to a friend on the bullet train."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_446",
+    "kanji": "組み合わせる",
+    "hanViet": "TỔ HỢP",
+    "hiragana": "くみあわせる",
+    "meaning": {
+      "vi": "Kết hợp, liên kết",
+      "en": "Combine, join together"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "いくつかの部品を組み合わせて、機械を作る。",
+        "vi": "Kết hợp vài linh kiện lại để chế tạo máy móc.",
+        "en": "Combine several parts to make a machine."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_447",
+    "kanji": "詰め合わせる",
+    "hanViet": "CẬT HỢP",
+    "hiragana": "つめあわせる",
+    "meaning": {
+      "vi": "Đóng gói chung (nhiều loại)",
+      "en": "Pack an assortment of things"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "色々な種類のお菓子を箱に詰め合わせる。",
+        "vi": "Đóng gói nhiều loại kẹo bánh vào cùng một hộp.",
+        "en": "Pack an assortment of sweets in a box."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_448",
+    "kanji": "重ね合わせる",
+    "hanViet": "TRỌNG HỢP",
+    "hiragana": "かさねあわせる",
+    "meaning": {
+      "vi": "Chồng lên nhau",
+      "en": "Superimpose, overlap"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "二つの図形を重ね合わせる。",
+        "vi": "Chồng hai hình vẽ lên nhau.",
+        "en": "Superimpose the two figures."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_449",
+    "kanji": "居合わせる",
+    "hanViet": "CƯ HỢP",
+    "hiragana": "いあわせる",
+    "meaning": {
+      "vi": "Tình cờ có mặt",
+      "en": "Happen to be present"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "事件の現場に居合わせた。",
+        "vi": "Tình cờ có mặt tại hiện trường vụ án.",
+        "en": "I happened to be present at the scene of the incident."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_450",
+    "kanji": "乗り合わせる",
+    "hanViet": "THỪA HỘI",
+    "hiragana": "のりあわせる",
+    "meaning": {
+      "vi": "Đi cùng, đi chung chuyến xe",
+      "en": "Happen to ride together"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "バスで彼と乗り合わせた。",
+        "vi": "Tình cờ đi chung chuyến xe buýt với anh ta.",
+        "en": "I happened to ride the same bus with him."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_451",
+    "kanji": "持ち合わせる",
+    "hanViet": "TRÌ HỢP",
+    "hiragana": "もちあわせる",
+    "meaning": {
+      "vi": "Mang theo (bên mình)",
+      "en": "Happen to have on hand"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "あいにく名刺を持ち合わせておりません。",
+        "vi": "Thật không may là tôi không mang theo danh thiếp bên mình.",
+        "en": "Unfortunately, I don't happen to have my business card on me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_452",
+    "kanji": "問い合わせる",
+    "hanViet": "VẤN HỢP",
+    "hiragana": "といあわせる",
+    "meaning": {
+      "vi": "Hỏi, hỏi thăm, liên hệ",
+      "en": "Inquire, ask"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "詳細については電話で問い合わせてください。",
+        "vi": "Xin vui lòng liên hệ qua điện thoại để biết thêm chi tiết.",
+        "en": "Please inquire by phone for details."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_453",
+    "kanji": "照らし合わせる",
+    "hanViet": "CHIẾU HỢP",
+    "hiragana": "てらしあわせる",
+    "meaning": {
+      "vi": "Đối chiếu, so sánh",
+      "en": "Check and compare"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "原本とコピーを照らし合わせる。",
+        "vi": "Đối chiếu bản gốc và bản sao.",
+        "en": "Compare the original with the copy."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_454",
+    "kanji": "聞き直す",
+    "hanViet": "VẤN TRỰC",
+    "hiragana": "ききなおす",
+    "meaning": {
+      "vi": "Nghe lại, hỏi lại",
+      "en": "Ask again, listen again"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "よく聞こえなかったので、もう一度聞き直した。",
+        "vi": "Vì không nghe rõ nên tôi đã hỏi lại một lần nữa.",
+        "en": "I couldn't hear well, so I asked again."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_455",
+    "kanji": "やり直す",
+    "hanViet": "TRỰC",
+    "hiragana": "やりなおす",
+    "meaning": {
+      "vi": "Làm lại",
+      "en": "Do over again"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "失敗したので、最初からやり直す。",
+        "vi": "Vì bị thất bại nên tôi sẽ làm lại từ đầu.",
+        "en": "I failed, so I'll do it over from the beginning."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_456",
+    "kanji": "かけ直す",
+    "hanViet": "TRỰC",
+    "hiragana": "かけなおす",
+    "meaning": {
+      "vi": "Gọi lại (điện thoại)",
+      "en": "Call back"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "後でこちらから電話をかけ直します。",
+        "vi": "Lát nữa tôi sẽ gọi lại.",
+        "en": "I will call you back later."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_457",
+    "kanji": "出直す",
+    "hanViet": "XUẤT TRỰC",
+    "hiragana": "でなおす",
+    "meaning": {
+      "vi": "Làm lại từ đầu, ghé thăm lần nữa",
+      "en": "Start over, come again"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "留守だったので、また明日出直してきます。",
+        "vi": "Vì chủ nhà đi vắng nên ngày mai tôi sẽ ghé thăm lại.",
+        "en": "Since you were out, I will come again tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_458",
+    "kanji": "持ち直す",
+    "hanViet": "TRÌ TRỰC",
+    "hiragana": "もちなおす",
+    "meaning": {
+      "vi": "Chuyển biến tốt lên, cầm lại (cho chắc)",
+      "en": "Recover, change one's grip"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "病状が持ち直す。",
+        "vi": "Tình trạng bệnh chuyển biến tốt lên.",
+        "en": "The medical condition takes a turn for the better."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_459",
+    "kanji": "考え直す",
+    "hanViet": "KHẢO TRỰC",
+    "hiragana": "かんがえなおす",
+    "meaning": {
+      "vi": "Suy nghĩ lại, xem xét lại",
+      "en": "Reconsider, rethink"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "その計画はもう一度考え直したほうがいい。",
+        "vi": "Nên suy nghĩ lại kế hoạch đó một lần nữa thì tốt hơn.",
+        "en": "You had better reconsider that plan."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_5_460",
+    "kanji": "思い直す",
+    "hanViet": "TƯ TRỰC",
+    "hiragana": "おもいなおす",
+    "meaning": {
+      "vi": "Nghĩ lại, thay đổi ý định",
+      "en": "Change one's mind"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 4.5",
+    "examples": [
+      {
+        "jp": "大学をやめようと思ったが、思い直して卒業することにした。",
+        "vi": "Tôi từng định bỏ học đại học, nhưng nghĩ lại nên đã quyết định sẽ tốt nghiệp.",
+        "en": "I thought about dropping out of college, but I changed my mind and decided to graduate."
+      }
+    ]
+  }
+]

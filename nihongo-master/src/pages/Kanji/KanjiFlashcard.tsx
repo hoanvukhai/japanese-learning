@@ -2,7 +2,8 @@ import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2, Eye, EyeOff } from 'lucide-react';
-import { kanjiN3 } from '../../data/kanjiN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
+import type { Kanji } from '../../types';
 import KanjiLessonChips from '../../components/kanji/KanjiLessonChips';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -10,26 +11,47 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function KanjiFlashcard() {
-  const lessons = Array.from(new Set(kanjiN3.map(k => k.lesson))).filter(Boolean);
+  const { course } = usePracticeContext();
+  const data = course.data as Kanji[];
+  // kanji_words course → chỉ học từ ghép (word-meaning); kanji_single → học chữ Hán (kanji-hanviet)
+  const isKanjiWords = course.subject === 'kanji_words';
+  const lessons = Array.from(new Set(data.map(k => k.lesson))).filter(Boolean) as string[];
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
-  const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>('kanji-hanviet');
+  const [mode, setMode] = useState<'kanji-hanviet' | 'word-meaning'>(isKanjiWords ? 'word-meaning' : 'kanji-hanviet');
   const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
   const [showFurigana, setShowFurigana] = useState(false);
   const [started, setStarted] = useState(false);
 
   const pool = useMemo(() => {
     const base = selectedLessons.length === 0
-      ? kanjiN3
-      : kanjiN3.filter(k => selectedLessons.includes(k.lesson || ''));
+      ? data
+      : data.filter(k => selectedLessons.includes(k.lesson || ''));
     
     if (mode === 'kanji-hanviet') {
-      return shuffle(base).map(k => ({
-        id: k.id,
-        character: k.character,
-        hanViet: k.hanViet,
-        lesson: k.lesson,
-        words: k.words,
-      }));
+      const items: any[] = [];
+      base.forEach(k => {
+        items.push({
+          id: `char_${k.id}`,
+          isWord: false,
+          character: k.character,
+          hanViet: k.hanViet,
+          lesson: k.lesson,
+        });
+        if (k.words) {
+          k.words.filter(w => w.hanVietWord).forEach((w, idx) => {
+            items.push({
+              id: `word_${k.id}_${idx}`,
+              isWord: true,
+              character: w.word,
+              hanViet: w.hanVietWord as string,
+              lesson: k.lesson,
+              hiragana: w.hiragana,
+              meaning: typeof w.meaning === 'object' ? w.meaning.vi : w.meaning,
+            });
+          });
+        }
+      });
+      return shuffle(items);
     } else {
       const wordsList: any[] = [];
       base.forEach(k => {
@@ -47,7 +69,7 @@ export default function KanjiFlashcard() {
       });
       return shuffle(wordsList);
     }
-  }, [selectedLessons, mode]);
+  }, [selectedLessons, mode, data]);
 
   const [queue, setQueue] = useState<any[]>([]);
   const [known, setKnown] = useState<any[]>([]);
@@ -100,7 +122,7 @@ export default function KanjiFlashcard() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/kanji" className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ Kanji</h1>
@@ -116,41 +138,53 @@ export default function KanjiFlashcard() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={kanjiN3.length}
-              getCount={(l) => kanjiN3.filter(k => k.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => {
+                if (mode === 'kanji-hanviet') {
+                  return data.filter(k => k.lesson === l).reduce((acc, k) => acc + 1 + (k.words?.filter(w => w.hanVietWord).length || 0), 0);
+                }
+                return data.filter(k => k.lesson === l).reduce((acc, k) => acc + (k.words?.length || 0), 0);
+              }}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ ôn tập</label>
-                <div className="grid grid-cols-1 gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setMode('kanji-hanviet')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                      mode === 'kanji-hanviet'
-                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    <span>Chữ Kanji & Hán Việt</span>
-                    <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
-                  </button>
+              {/* kanji_single: cả 2 mode; kanji_words: chỉ word-meaning (đã set default, ẩn selector) */}
+              {!isKanjiWords ? (
+                <div>
+                  <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ ôn tập</label>
+                  <div className="grid grid-cols-1 gap-3">
+                    <button
+                      type="button"
+                      onClick={() => setMode('kanji-hanviet')}
+                      className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
+                        mode === 'kanji-hanviet'
+                          ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                          : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                      }`}
+                    >
+                      <span>Chữ Kanji & Hán Việt</span>
+                      <span className="text-xs font-normal opacity-70">共 ⇄ CỘNG</span>
+                    </button>
 
-                  <button
-                    type="button"
-                    onClick={() => setMode('word-meaning')}
-                    className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
-                      mode === 'word-meaning'
-                        ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
-                        : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
-                    }`}
-                  >
-                    <span>Từ ghép & Nghĩa tiếng Việt</span>
-                    <span className="text-xs font-normal opacity-70">共通点 ⇄ Điểm chung</span>
-                  </button>
+                    <button
+                      type="button"
+                      onClick={() => setMode('word-meaning')}
+                      className={`py-3 px-4 rounded-xl border-2 font-bold text-sm transition-all text-left flex justify-between items-center ${
+                        mode === 'word-meaning'
+                          ? 'border-violet-500 bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-400 shadow-sm'
+                          : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:border-slate-300'
+                      }`}
+                    >
+                      <span>Từ ghép & Nghĩa tiếng Việt</span>
+                      <span className="text-xs font-normal opacity-70">共通点 ⇄ Điểm chung</span>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div className="col-span-2 p-4 rounded-xl bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-800/40 text-orange-700 dark:text-orange-400 text-sm font-bold">
+                  📖 Khóa Chữ Hán (Từ Vựng): Luyện từ ghép và nghĩa — mặt chữ đơn học ở khóa "Hán Tự (Chữ Gốc)"
+                </div>
+              )}
 
               <div>
                 <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">🔄 Hướng lật thẻ</label>
@@ -254,7 +288,7 @@ export default function KanjiFlashcard() {
             >
               <RotateCcw size={16} /> Ôn lại tất cả
             </button>
-            <Link to="/practice/kanji" className="block w-full py-3 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>
@@ -357,36 +391,15 @@ export default function KanjiFlashcard() {
                           {direction === 'forward' ? current.hanViet : current.character}
                         </div>
 
-                        <div className="space-y-3 mt-4 text-left w-full border-t border-violet-500 pt-6 max-h-[300px] overflow-y-auto pr-1">
-                          {current.words && current.words.map((w: any, idx: number) => (
-                            <div key={idx} className="bg-white/10 rounded-xl p-3 flex flex-col justify-between items-start">
-                              <div className="flex w-full justify-between items-start">
-                                <div>
-                                  <div className="flex items-center gap-2 mb-1">
-                                    <span className="text-xl font-bold text-white">{w.word}</span>
-                                    {w.type && (
-                                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-violet-800/50 text-violet-200 uppercase font-bold tracking-wider">
-                                        {w.type === 'verb' ? `Verb ${w.group ? `G${w.group}` : ''}` : w.type}
-                                      </span>
-                                    )}
-                                  </div>
-                                  <div className="text-sm text-violet-200">{w.hiragana}</div>
-                                </div>
-                                <div className="text-right">
-                                  <div className="text-sm text-white">{typeof w.meaning === 'object' ? w.meaning.vi : w.meaning}</div>
-                                  <div className="text-xs text-violet-300">Âm {w.readingType}</div>
-                                </div>
-                              </div>
-                              
-                              {w.examples && w.examples.length > 0 && (
-                                <div className="w-full mt-2 pt-2 border-t border-violet-400/30 text-left">
-                                  <div className="text-xs text-violet-100">{w.examples[0].jp}</div>
-                                  <div className="text-[10px] text-violet-300">{w.examples[0].vi}</div>
-                                </div>
-                              )}
-                            </div>
-                          ))}
-                        </div>
+                        {current.isWord && (
+                          <div className="mt-4 text-left w-full border-t border-violet-500 pt-4">
+                            <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">Cách đọc</div>
+                            <div className="text-xl font-bold mb-3 text-white">{current.hiragana}</div>
+                            
+                            <div className="text-violet-200 text-sm mb-1 font-medium uppercase tracking-widest">Ý nghĩa</div>
+                            <div className="text-lg font-bold mb-3 text-white">{current.meaning}</div>
+                          </div>
+                        )}
                       </>
                     ) : (
                       <>

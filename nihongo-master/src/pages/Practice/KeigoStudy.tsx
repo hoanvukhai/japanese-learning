@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Search, AlertTriangle, Gamepad2 } from 'lucide-react';
 import { useSettings } from '../../context/global/useSettings';
-import { keigoVerbs } from '../../data/keigoDb';
-import { keigoVocabList } from '../../data/keigoVocabDb';
+import { keigoVerbs } from '../../data/jlpt/keigo/keigoDb';
+import { keigoVocabList } from '../../data/jlpt/keigo/keigoVocabDb';
 import { toMasuForm } from '../../lib/keigoEngine';
 
 export default function KeigoStudy() {
@@ -29,15 +29,13 @@ export default function KeigoStudy() {
     );
   });
 
-  // Filter polite vocab
+  // Filter O/Go vocab
   const filteredVocab = keigoVocabList.filter(v => {
     const q = searchTerm.toLowerCase();
     return (
       !q ||
-      v.normal.includes(q) ||
-      (v.normalHiragana && v.normalHiragana.includes(q)) ||
-      v.polite.includes(q) ||
-      (v.politeHiragana && v.politeHiragana.includes(q)) ||
+      v.word.includes(q) ||
+      v.hiragana.includes(q) ||
       v.meaning.vi.toLowerCase().includes(q)
     );
   });
@@ -63,10 +61,10 @@ export default function KeigoStudy() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="flex-1">
-            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-green-600 mb-4 transition-colors font-medium">
+            <Link to="/course/keigo-master" className="inline-flex items-center gap-2 text-slate-500 hover:text-green-600 mb-4 transition-colors font-medium">
               <ArrowLeft size={18} /> Quay lại Học Tập
             </Link>
             <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🎓 Học Kính Ngữ</h1>
@@ -324,10 +322,29 @@ export default function KeigoStudy() {
           </div>
         </section>
 
-        {/* Bảng Từ Vựng Lịch Sự */}
+        {/* Bảng Từ Vựng Tiền tố お / ご */}
         <section className="mt-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-4 gap-4">
-            <h2 className="text-2xl font-bold text-slate-800 dark:text-white border-l-4 border-amber-500 pl-4">3. Từ vựng Lịch sự (Teineigo / Bikago)</h2>
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white border-l-4 border-amber-500 pl-4">3. Tiền tố Mỹ hóa ngữ (お / ご)</h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm text-slate-700 dark:text-slate-300">
+              <h3 className="font-bold text-lg mb-2 text-slate-800 dark:text-white">Quy tắc cơ bản:</h3>
+              <ul className="list-disc list-inside space-y-1 text-sm">
+                <li><strong className="text-rose-500">お</strong> đi với từ thuần Nhật (Wago), thường đọc âm Kun.</li>
+                <li><strong className="text-blue-500">ご</strong> đi với từ Hán Nhật (Kango), thường đọc âm On.</li>
+                <li>Không dùng cho bản thân mình.</li>
+              </ul>
+            </div>
+            <div className="bg-amber-50 dark:bg-amber-900/20 p-5 rounded-2xl border border-amber-200 dark:border-amber-800/50 text-slate-700 dark:text-slate-300">
+              <h3 className="font-bold text-lg mb-2 text-amber-700 dark:text-amber-400">Các ngoại lệ thường gặp:</h3>
+              <ul className="list-disc list-inside space-y-1 text-sm">
+                <li>Từ Hán dùng <strong className="text-rose-500">お</strong>: お茶, お電話, お食事, お料理, お天気, お時間...</li>
+                <li>Từ thuần Nhật dùng <strong className="text-blue-500">ご</strong>: ごゆっくり, ごもっとも.</li>
+                <li>Riêng từ <strong className="font-medium">お天気 (Thời tiết)</strong> dùng để làm đẹp (mỹ hóa ngữ) chứ không mang ý tôn kính.</li>
+              </ul>
+            </div>
           </div>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden">
@@ -335,9 +352,10 @@ export default function KeigoStudy() {
               <table className="w-full text-left border-collapse min-w-[600px]">
                 <thead>
                   <tr className="bg-slate-50 dark:bg-slate-900 text-slate-500 dark:text-slate-400 text-sm">
-                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/3">Ý Nghĩa</th>
-                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/3">Từ thông thường</th>
-                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/3 text-amber-600 dark:text-amber-500">Từ Lịch sự (Trang trọng)</th>
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/4">Ý Nghĩa</th>
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/4">Từ gốc</th>
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/4 text-amber-600 dark:text-amber-500">Sau khi thêm Tiền tố</th>
+                    <th className="py-4 px-6 border-b border-slate-200 dark:border-slate-700 font-bold w-1/4">Ghi chú</th>
                   </tr>
                 </thead>
                 <tbody className="text-slate-800 dark:text-slate-200">
@@ -351,22 +369,45 @@ export default function KeigoStudy() {
                           {vocab.meaning[language as 'vi' | 'en'] || vocab.meaning.vi}
                         </td>
                         <td className="py-4 px-6">
-                          <div className="text-base text-slate-600 dark:text-slate-300">{vocab.normal}</div>
-                          {vocab.normalHiragana && vocab.normal !== vocab.normalHiragana && (
-                            <div className="text-xs text-slate-400">{vocab.normalHiragana}</div>
+                          <div className="text-base text-slate-600 dark:text-slate-300">{vocab.word}</div>
+                          {vocab.hiragana && vocab.word !== vocab.hiragana && (
+                            <div className="text-xs text-slate-400">{vocab.hiragana}</div>
                           )}
                         </td>
                         <td className="py-4 px-6">
-                          <div className="font-bold text-lg text-amber-600 dark:text-amber-500">{vocab.polite}</div>
-                          {vocab.politeHiragana && vocab.polite !== vocab.politeHiragana && (
-                            <div className="text-xs text-amber-500/70">{vocab.politeHiragana}</div>
+                          <div className="font-bold text-lg text-amber-600 dark:text-amber-500 flex items-center gap-1">
+                            <span className={vocab.prefix === 'o' ? 'text-rose-500' : 'text-blue-500'}>
+                              {vocab.prefix === 'o' ? 'お' : 'ご'}
+                            </span>
+                            <span>{vocab.word}</span>
+                          </div>
+                          {vocab.hiragana && vocab.word !== vocab.hiragana && (
+                            <div className="text-xs text-amber-500/70">
+                              {vocab.prefix === 'o' ? 'お' : 'ご'}{vocab.hiragana}
+                            </div>
+                          )}
+                        </td>
+                        <td className="py-4 px-6">
+                          {vocab.isException ? (
+                            <span className="inline-flex px-2 py-0.5 rounded-full bg-amber-100 text-amber-700 text-xs font-bold border border-amber-200">
+                              Ngoại lệ
+                            </span>
+                          ) : (
+                            <span className="text-xs text-slate-400 font-medium">
+                              {vocab.type === 'wago' ? 'Thuần Nhật (Wago)' : 'Hán Nhật (Kango)'}
+                            </span>
+                          )}
+                          {vocab.note && (
+                            <div className="mt-1 text-xs text-slate-500 italic">
+                              {vocab.note[language as 'vi' | 'en'] || vocab.note.vi}
+                            </div>
                           )}
                         </td>
                       </tr>
                     ))
                   ) : (
                     <tr>
-                      <td colSpan={3} className="py-10 text-center text-slate-500">
+                      <td colSpan={4} className="py-10 text-center text-slate-500">
                         Không tìm thấy từ vựng nào khớp với "{searchTerm}".
                       </td>
                     </tr>

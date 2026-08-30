@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { formatKeyForDisplay } from './VocabCommon';
 import type { FlashQ } from './VocabCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface VocabFlashcardProps {
   q: FlashQ;

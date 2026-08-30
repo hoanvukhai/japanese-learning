@@ -1,0 +1,763 @@
+[
+  {
+    "id": "v_mon3_07_551",
+    "kanji": "濃い",
+    "hiragana": "こい",
+    "meaning": {
+      "vi": "đậm, đặc",
+      "en": "thick / strong (flavor, color)"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "このコーヒーは少し味が濃い。",
+        "vi": "Cốc cà phê này vị hơi đậm.",
+        "en": "This coffee has a strong flavor."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_552",
+    "kanji": "薄い",
+    "hiragana": "うすい",
+    "meaning": {
+      "vi": "mỏng, nhạt",
+      "en": "thin / weak (flavor, color)"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "壁が薄いので、隣の部屋の音が聞こえる。",
+        "vi": "Tường mỏng nên nghe thấy cả tiếng phòng bên cạnh.",
+        "en": "The walls are thin, so I can hear the next room."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_553",
+    "kanji": "酸っぱい",
+    "hiragana": "すっぱい",
+    "meaning": {
+      "vi": "chua",
+      "en": "sour"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "レモンをかじったら、とても酸っぱかった。",
+        "vi": "Cắn quả chanh thấy chua loét.",
+        "en": "I bit the lemon and it was very sour."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_554",
+    "kanji": "臭い",
+    "hiragana": "くさい",
+    "meaning": {
+      "vi": "thối, hôi",
+      "en": "smelly / stinky"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "何日も洗っていない靴下が臭い。",
+        "vi": "Đôi tất mấy ngày không giặt bốc mùi hôi thối.",
+        "en": "The socks that haven't been washed for days are smelly."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_555",
+    "kanji": "",
+    "hiragana": "おかしい",
+    "meaning": {
+      "vi": "lạ, buồn cười",
+      "en": "strange / funny"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼の話はおかしくて、みんな笑った。",
+        "vi": "Câu chuyện của anh ấy buồn cười nên mọi người đều cười.",
+        "en": "His story was funny, and everyone laughed."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_556",
+    "kanji": "",
+    "hiragana": "かっこいい",
+    "meaning": {
+      "vi": "bảnh bao, ngầu",
+      "en": "cool / handsome"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "あの俳優はとてもかっこいい。",
+        "vi": "Nam diễn viên đó trông rất ngầu.",
+        "en": "That actor is very cool."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_557",
+    "kanji": "",
+    "hiragana": "うまい",
+    "meaning": {
+      "vi": "ngon, giỏi",
+      "en": "delicious / skillful"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "母が作ったカレーはすごくうまい。",
+        "vi": "Món cà ri mẹ nấu cực kỳ ngon.",
+        "en": "The curry my mother made is very delicious."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_558",
+    "kanji": "親しい",
+    "hiragana": "したしい",
+    "meaning": {
+      "vi": "thân thiết",
+      "en": "intimate / close"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼とは学生時代から親しい友達だ。",
+        "vi": "Tôi và cậu ấy là bạn bè thân thiết từ thời học sinh.",
+        "en": "He and I have been close friends since our student days."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_559",
+    "kanji": "詳しい",
+    "hiragana": "くわしい",
+    "meaning": {
+      "vi": "chi tiết, tường tận",
+      "en": "detailed / well-informed"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "この件について詳しい説明をお願いします。",
+        "vi": "Xin hãy giải thích chi tiết về vấn đề này.",
+        "en": "Please give a detailed explanation about this matter."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_560",
+    "kanji": "細かい",
+    "hiragana": "こまかい",
+    "meaning": {
+      "vi": "tiểu tiết, bé, nhỏ",
+      "en": "fine / small / detailed"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "玉ねぎを細かく切る。",
+        "vi": "Thái nhỏ hành tây.",
+        "en": "Cut the onion into small pieces."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_561",
+    "kanji": "浅い",
+    "hiragana": "あさい",
+    "meaning": {
+      "vi": "nông, cạn",
+      "en": "shallow"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "この川は浅いので、子供でも安全だ。",
+        "vi": "Con sông này cạn nên trẻ em cũng an toàn.",
+        "en": "This river is shallow, so it is safe even for children."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_562",
+    "kanji": "固い",
+    "alt_kanji": "硬い",
+    "hiragana": "かたい",
+    "meaning": {
+      "vi": "cứng",
+      "en": "hard / solid"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "このパンは固くて食べられない。",
+        "vi": "Bánh mì này cứng quá không ăn được.",
+        "en": "This bread is too hard to eat."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_563",
+    "kanji": "",
+    "hiragana": "ぬるい",
+    "meaning": {
+      "vi": "nguội, âm ấm",
+      "en": "lukewarm"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "お茶がぬるくなってしまった。",
+        "vi": "Trà đã bị nguội mất rồi.",
+        "en": "The tea has become lukewarm."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_564",
+    "kanji": "",
+    "hiragana": "まぶしい",
+    "meaning": {
+      "vi": "chói",
+      "en": "dazzling / glaring"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "太陽の光がまぶしい。",
+        "vi": "Ánh sáng mặt trời thật chói mắt.",
+        "en": "The sunlight is dazzling."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_565",
+    "kanji": "蒸し暑い",
+    "hiragana": "むしあつい",
+    "meaning": {
+      "vi": "nóng ẩm, oi bức",
+      "en": "humid / muggy"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "日本の夏は蒸し暑くて大変だ。",
+        "vi": "Mùa hè ở Nhật oi bức nên rất vất vả.",
+        "en": "Summer in Japan is tough because it's muggy."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_566",
+    "kanji": "清潔",
+    "hiragana": "せいけつ",
+    "meaning": {
+      "vi": "sạch sẽ",
+      "en": "clean / hygienic"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "トイレはいつも清潔にしておきましょう。",
+        "vi": "Hãy luôn giữ nhà vệ sinh sạch sẽ.",
+        "en": "Let's always keep the toilet clean."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_567",
+    "kanji": "新鮮",
+    "hiragana": "しんせん",
+    "meaning": {
+      "vi": "tươi, mới",
+      "en": "fresh"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "新鮮な魚でお寿司を作る。",
+        "vi": "Làm sushi bằng cá tươi.",
+        "en": "Make sushi with fresh fish."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_568",
+    "kanji": "豊か",
+    "hiragana": "ゆたか",
+    "meaning": {
+      "vi": "giàu có, phong phú",
+      "en": "rich / abundant"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "この国は自然が豊かだ。",
+        "vi": "Đất nước này có thiên nhiên phong phú.",
+        "en": "This country is rich in nature."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_569",
+    "kanji": "立派",
+    "hiragana": "りっぱ",
+    "meaning": {
+      "vi": "siêu, tuyệt vời, hoành tráng",
+      "en": "splendid / fine"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼は立派な医者になった。",
+        "vi": "Cậu ấy đã trở thành một bác sĩ tuyệt vời.",
+        "en": "He became a splendid doctor."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_570",
+    "kanji": "正確",
+    "hiragana": "せいかく",
+    "meaning": {
+      "vi": "chính xác",
+      "en": "accurate / correct"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "正確なデータが必要です。",
+        "vi": "Cần có dữ liệu chính xác.",
+        "en": "Accurate data is necessary."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_571",
+    "kanji": "確か",
+    "hiragana": "たしか",
+    "meaning": {
+      "vi": "đích thực, chắc chắn",
+      "en": "certain / sure"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼の言っていることは確かな情報だ。",
+        "vi": "Những gì anh ấy nói là thông tin chắc chắn.",
+        "en": "What he is saying is certain information."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_572",
+    "kanji": "重要",
+    "hiragana": "じゅうよう",
+    "meaning": {
+      "vi": "quan trọng",
+      "en": "important"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "明日、重要な会議があります。",
+        "vi": "Ngày mai có một cuộc họp quan trọng.",
+        "en": "There is an important meeting tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_573",
+    "kanji": "必要",
+    "hiragana": "ひつよう",
+    "meaning": {
+      "vi": "cần thiết",
+      "en": "necessary"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "海外旅行にはパスポートが必要だ。",
+        "vi": "Đi du lịch nước ngoài thì hộ chiếu là cần thiết.",
+        "en": "A passport is necessary for overseas travel."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_574",
+    "kanji": "",
+    "hiragana": "もったいない",
+    "meaning": {
+      "vi": "lãng phí",
+      "en": "wasteful"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "食べ物を残すのはもったいない。",
+        "vi": "Để thừa thức ăn thì thật lãng phí.",
+        "en": "It is wasteful to leave food uneaten."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_575",
+    "kanji": "",
+    "hiragana": "すごい",
+    "meaning": {
+      "vi": "ghê, siêu",
+      "en": "amazing / terrible"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼女のピアノの才能はすごい。",
+        "vi": "Tài năng chơi piano của cô ấy thật siêu.",
+        "en": "Her piano talent is amazing."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_576",
+    "kanji": "",
+    "hiragana": "ひどい",
+    "meaning": {
+      "vi": "tồi, kinh khủng",
+      "en": "terrible / awful"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "今日はひどい雨だ。",
+        "vi": "Hôm nay mưa kinh khủng.",
+        "en": "It's a terrible rain today."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_577",
+    "kanji": "激しい",
+    "hiragana": "はげしい",
+    "meaning": {
+      "vi": "mãnh liệt, dữ dội",
+      "en": "violent / intense"
+    },
+    "type": "adj_i",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "風が激しく吹いている。",
+        "vi": "Gió đang thổi dữ dội.",
+        "en": "The wind is blowing violently."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_578",
+    "kanji": "",
+    "hiragana": "そっくり",
+    "meaning": {
+      "vi": "giống y hệt",
+      "en": "exactly alike"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "あの兄弟は顔がそっくりだ。",
+        "vi": "Hai anh em đó có khuôn mặt giống y hệt nhau.",
+        "en": "Those brothers look exactly alike."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_579",
+    "kanji": "急",
+    "hiragana": "きゅう",
+    "meaning": {
+      "vi": "đột nhiên, gấp",
+      "en": "sudden / urgent"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "急な用事で帰らなければならない。",
+        "vi": "Có việc gấp nên tôi phải về.",
+        "en": "I have to go back due to urgent business."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_580",
+    "kanji": "適当",
+    "hiragana": "てきとう",
+    "meaning": {
+      "vi": "phù hợp, thích hợp",
+      "en": "appropriate / suitable"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "野菜を適当な大きさに切る。",
+        "vi": "Thái rau với kích cỡ phù hợp.",
+        "en": "Cut the vegetables into an appropriate size."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_581",
+    "kanji": "特別",
+    "hiragana": "とくべつ",
+    "meaning": {
+      "vi": "đặc biệt",
+      "en": "special"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "今日は私にとって特別な日だ。",
+        "vi": "Hôm nay là một ngày đặc biệt đối với tôi.",
+        "en": "Today is a special day for me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_582",
+    "kanji": "完全",
+    "hiragana": "かんぜん",
+    "meaning": {
+      "vi": "hoàn toàn, toàn bộ",
+      "en": "perfect / complete"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "病気は完全に治った。",
+        "vi": "Bệnh đã khỏi hoàn toàn.",
+        "en": "The illness has completely healed."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_583",
+    "kanji": "盛ん",
+    "hiragana": "さかん",
+    "meaning": {
+      "vi": "thịnh vượng, phổ biến",
+      "en": "thriving / popular"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "私の国ではサッカーが盛んだ。",
+        "vi": "Ở nước tôi, bóng đá rất phổ biến.",
+        "en": "Soccer is popular in my country."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_584",
+    "kanji": "様々",
+    "hiragana": "さまざま",
+    "meaning": {
+      "vi": "đa dạng",
+      "en": "various"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "人によってさまざまな考え方がある。",
+        "vi": "Tùy mỗi người mà có những cách suy nghĩ đa dạng khác nhau.",
+        "en": "There are various ways of thinking depending on the person."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_585",
+    "kanji": "可能",
+    "hiragana": "かのう",
+    "meaning": {
+      "vi": "khả thi, có thể",
+      "en": "possible"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "明日までにこの仕事を終わらせるのは可能だ。",
+        "vi": "Việc hoàn thành công việc này trước ngày mai là khả thi.",
+        "en": "It is possible to finish this work by tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_586",
+    "kanji": "不可能",
+    "hiragana": "ふかのう",
+    "meaning": {
+      "vi": "bất khả thi, không thể",
+      "en": "impossible"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "一日でこの本を全部読むのは不可能だ。",
+        "vi": "Đọc hết cuốn sách này trong một ngày là bất khả thi.",
+        "en": "It is impossible to read this whole book in one day."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_587",
+    "kanji": "基本的",
+    "hiragana": "きほんてき",
+    "meaning": {
+      "vi": "mang tính cơ bản",
+      "en": "fundamental / basic"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "パソコンの基本的な使い方を学ぶ。",
+        "vi": "Học cách sử dụng cơ bản của máy tính.",
+        "en": "Learn the basic usage of a computer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_588",
+    "kanji": "国際的",
+    "hiragana": "こくさいてき",
+    "meaning": {
+      "vi": "mang tính quốc tế",
+      "en": "international"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼は国際的なビジネスマンとして活躍している。",
+        "vi": "Anh ấy đang hoạt động tích cực như một doanh nhân mang tầm quốc tế.",
+        "en": "He is active as an international businessman."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_589",
+    "kanji": "",
+    "hiragana": "ばらばら",
+    "meaning": {
+      "vi": "tung tóe, rời rạc",
+      "en": "scattered / disjointed"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "家族の意見がばらばらで決まらない。",
+        "vi": "Ý kiến của gia đình rời rạc nên không thể quyết định được.",
+        "en": "The family's opinions are scattered and cannot be decided."
+      }
+    ]
+  },
+  {
+    "id": "v_mon3_07_590",
+    "kanji": "",
+    "hiragana": "ぼろぼろ",
+    "meaning": {
+      "vi": "rách nát, te tua",
+      "en": "worn out / tattered"
+    },
+    "type": "adj_na",
+    "level": "N3",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "十年も着ているので、コートがぼろぼろだ。",
+        "vi": "Mặc tận 10 năm rồi nên cái áo khoác đã rách bươm.",
+        "en": "Because I've worn it for ten years, the coat is tattered."
+      }
+    ]
+  }
+]

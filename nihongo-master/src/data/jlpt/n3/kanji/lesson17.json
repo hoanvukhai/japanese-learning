@@ -1,0 +1,705 @@
+[
+    {
+        "id": "k_rkn3_17_01",
+        "character": "完",
+        "hanViet": "HOÀN",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_01_1",
+                "word": "完了",
+                "hanVietWord": "HOÀN LIỄU",
+                "hiragana": "かんりょう",
+                "meaning": {
+                    "vi": "Hoàn thành",
+                    "en": "Completion"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "データのダウンロードが完了した。",
+                        "vi": "Việc tải dữ liệu đã hoàn thành.",
+                        "en": "The data download is completed."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_01_2",
+                "word": "完璧",
+                "hiragana": "かんぺき",
+                "meaning": {
+                    "vi": "Hoàn hảo",
+                    "en": "Perfect"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼の日本語は完璧だ。",
+                        "vi": "Tiếng Nhật của anh ấy thật hoàn hảo.",
+                        "en": "His Japanese is perfect."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_02",
+        "character": "空",
+        "hanViet": "KHÔNG",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_02_1",
+                "word": "空",
+                "hiragana": "そら",
+                "meaning": {
+                    "vi": "Bầu trời",
+                    "en": "Sky"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "青い空に白い雲が浮かんでいる。",
+                        "vi": "Mây trắng trôi bồng bềnh trên bầu trời xanh.",
+                        "en": "White clouds are floating in the blue sky."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_02_2",
+                "word": "空",
+                "hiragana": "から",
+                "meaning": {
+                    "vi": "Trống rỗng",
+                    "en": "Empty"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "空の箱を捨てる。",
+                        "vi": "Vứt chiếc hộp trống rỗng.",
+                        "en": "Throw away the empty box."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_02_3",
+                "word": "空港",
+                "hanVietWord": "KHÔNG CẢNG",
+                "hiragana": "くうこう",
+                "meaning": {
+                    "vi": "Sân bay",
+                    "en": "Airport"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "タクシーで空港へ向かう。",
+                        "vi": "Hướng đến sân bay bằng taxi.",
+                        "en": "Head to the airport by taxi."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_02_4",
+                "word": "空く",
+                "hanVietWord": "KHÔNG",
+                "hiragana": "あく",
+                "meaning": {
+                    "vi": "Trống / Có chỗ trống",
+                    "en": "To become empty / available"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "電車の席が空いた。",
+                        "vi": "Ghế trên tàu điện đã trống.",
+                        "en": "A seat on the train became available."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_03",
+        "character": "守",
+        "hanViet": "THỦ",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_03_1",
+                "word": "留守",
+                "hanVietWord": "LƯU THỦ",
+                "hiragana": "るす",
+                "meaning": {
+                    "vi": "Vắng nhà",
+                    "en": "Absence from home"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は今、留守にしています。",
+                        "vi": "Bây giờ anh ấy đang vắng nhà.",
+                        "en": "He is currently away from home."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_03_2",
+                "word": "留守番",
+                "hanVietWord": "LƯU THỦ PHIÊN",
+                "hiragana": "るすばん",
+                "meaning": {
+                    "vi": "Trông nhà",
+                    "en": "Looking after the house"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "犬と一緒に留守番をする。",
+                        "vi": "Trông nhà cùng với chú chó.",
+                        "en": "Look after the house with the dog."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_03_3",
+                "word": "守る",
+                "hanVietWord": "THỦ",
+                "hiragana": "まもる",
+                "meaning": {
+                    "vi": "Bảo vệ / Tuân thủ",
+                    "en": "To protect / To obey"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ルールはしっかり守ってください。",
+                        "vi": "Hãy tuân thủ luật lệ một cách nghiêm túc.",
+                        "en": "Please firmly obey the rules."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_04",
+        "character": "実",
+        "hanViet": "THỰC",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_04_1",
+                "word": "実力",
+                "hanVietWord": "THỰC LỰC",
+                "hiragana": "じつりょく",
+                "meaning": {
+                    "vi": "Thực lực",
+                    "en": "True ability"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "試合で自分の実力を出す。",
+                        "vi": "Thể hiện thực lực của bản thân trong trận đấu.",
+                        "en": "Show my true ability in the game."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_04_2",
+                "word": "現実",
+                "hanVietWord": "HIỆN THỰC",
+                "hiragana": "げんじつ",
+                "meaning": {
+                    "vi": "Hiện thực",
+                    "en": "Reality"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "理想と現実は違う。",
+                        "vi": "Lý tưởng và hiện thực là khác nhau.",
+                        "en": "Ideal and reality are different."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_04_3",
+                "word": "実行",
+                "hanVietWord": "THỰC HÀNH",
+                "hiragana": "じっこう",
+                "meaning": {
+                    "vi": "Thực thi",
+                    "en": "Execution"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "計画を実行に移す。",
+                        "vi": "Chuyển kế hoạch sang bước thực thi.",
+                        "en": "Put the plan into execution."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_04_4",
+                "word": "実る",
+                "hanVietWord": "THỰC",
+                "hiragana": "みのる",
+                "meaning": {
+                    "vi": "Kết quả / Ra quả",
+                    "en": "To bear fruit / To produce results"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "これまでの努力が実った。",
+                        "vi": "Sự nỗ lực từ trước đến nay đã đơm hoa kết trái.",
+                        "en": "The efforts up to now have borne fruit."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_05",
+        "character": "突",
+        "hanViet": "ĐỘT",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_05_1",
+                "word": "突然",
+                "hanVietWord": "ĐỘT NHIÊN",
+                "hiragana": "とつぜん",
+                "meaning": {
+                    "vi": "Đột nhiên",
+                    "en": "Suddenly"
+                },
+                "type": "adv",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "突然、雨が降ってきた。",
+                        "vi": "Đột nhiên trời đổ mưa.",
+                        "en": "Suddenly, it started raining."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_05_2",
+                "word": "衝突する",
+                "hanVietWord": "XUNG ĐỘT",
+                "hiragana": "しょうとつする",
+                "meaning": {
+                    "vi": "Va chạm / Xung đột",
+                    "en": "To collide / To clash"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "交差点で車が衝突した。",
+                        "vi": "Hai chiếc xe đã va chạm ở ngã tư.",
+                        "en": "Cars collided at the intersection."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_06",
+        "character": "宅",
+        "hanViet": "TRẠCH",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_06_1",
+                "word": "住宅",
+                "hanVietWord": "TRÚ TRẠCH",
+                "hiragana": "じゅうたく",
+                "meaning": {
+                    "vi": "Nhà ở",
+                    "en": "Housing"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ここは静かな住宅地だ。",
+                        "vi": "Đây là một khu dân cư (nhà ở) yên tĩnh.",
+                        "en": "This is a quiet residential area."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_06_2",
+                "word": "在宅勤務制度",
+                "hanVietWord": "TẠI TRẠCH CẦN VỤ CHẾ ĐỘ",
+                "hiragana": "ざいたくきんむせいど",
+                "meaning": {
+                    "vi": "Chế độ làm việc tại nhà",
+                    "en": "Work-from-home system"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会社で在宅勤務制度が始まった。",
+                        "vi": "Công ty đã bắt đầu chế độ làm việc tại nhà.",
+                        "en": "The work-from-home system started at the company."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_06_3",
+                "word": "宅配便",
+                "hanVietWord": "TRẠCH PHỐI TIỆN",
+                "hiragana": "たくはいびん",
+                "meaning": {
+                    "vi": "Dịch vụ chuyển phát tận nhà",
+                    "en": "Home delivery service"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "宅配便で荷物を送る。",
+                        "vi": "Gửi hành lý bằng dịch vụ chuyển phát tận nhà.",
+                        "en": "Send a package via home delivery service."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_07",
+        "character": "定",
+        "hanViet": "ĐỊNH",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_07_1",
+                "word": "安定する",
+                "hanVietWord": "AN ĐỊNH",
+                "hiragana": "あんていする",
+                "meaning": {
+                    "vi": "Ổn định",
+                    "en": "To become stable"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "生活が安定するまで頑張る。",
+                        "vi": "Tôi sẽ cố gắng cho đến khi cuộc sống ổn định.",
+                        "en": "I will do my best until my life becomes stable."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_07_2",
+                "word": "予定",
+                "hanVietWord": "DỰ ĐỊNH",
+                "hiragana": "よてい",
+                "meaning": {
+                    "vi": "Kế hoạch / Dự định",
+                    "en": "Plan / Schedule"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "明日の予定を教えてください。",
+                        "vi": "Hãy cho tôi biết dự định của ngày mai.",
+                        "en": "Please tell me tomorrow's schedule."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_07_3",
+                "word": "定まる",
+                "hanVietWord": "ĐỊNH",
+                "hiragana": "さだまる",
+                "meaning": {
+                    "vi": "Được xác định",
+                    "en": "To be determined"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "出発の日が定まった。",
+                        "vi": "Ngày xuất phát đã được xác định.",
+                        "en": "The departure date was determined."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_08",
+        "character": "官",
+        "hanViet": "QUAN",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_08_1",
+                "word": "警察官",
+                "hanVietWord": "CẢNH SÁT QUAN",
+                "hiragana": "けいさつかん",
+                "meaning": {
+                    "vi": "Cảnh sát",
+                    "en": "Police officer"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "将来は警察官になりたいです。",
+                        "vi": "Tương lai tôi muốn trở thành cảnh sát.",
+                        "en": "I want to become a police officer in the future."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_09",
+        "character": "追",
+        "hanViet": "TRUY",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_09_1",
+                "word": "追加する",
+                "hanVietWord": "TRUY GIA",
+                "hiragana": "ついかする",
+                "meaning": {
+                    "vi": "Thêm vào",
+                    "en": "To add"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "飲み物を追加する。",
+                        "vi": "Gọi thêm đồ uống.",
+                        "en": "Add drinks."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_09_2",
+                "word": "追う",
+                "hanVietWord": "TRUY",
+                "hiragana": "おう",
+                "meaning": {
+                    "vi": "Đuổi theo",
+                    "en": "To chase"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "泥棒を追って走る。",
+                        "vi": "Chạy đuổi theo tên trộm.",
+                        "en": "Run chasing the thief."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_10",
+        "character": "師",
+        "hanViet": "SƯ",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_10_1",
+                "word": "教師",
+                "hanVietWord": "GIÁO SƯ",
+                "hiragana": "きょうし",
+                "meaning": {
+                    "vi": "Giáo viên",
+                    "en": "Teacher"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は数学の教師です。",
+                        "vi": "Anh ấy là giáo viên dạy toán.",
+                        "en": "He is a math teacher."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_10_2",
+                "word": "医師",
+                "hanVietWord": "Y SƯ",
+                "hiragana": "いし",
+                "meaning": {
+                    "vi": "Bác sĩ",
+                    "en": "Doctor / Physician"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "病院で医師に診てもらう。",
+                        "vi": "Nhờ bác sĩ khám ở bệnh viện.",
+                        "en": "Be examined by a doctor at the hospital."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_11",
+        "character": "容",
+        "hanViet": "DUNG",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_11_1",
+                "word": "容量",
+                "hanVietWord": "DUNG LƯỢNG",
+                "hiragana": "ようりょう",
+                "meaning": {
+                    "vi": "Dung lượng",
+                    "en": "Capacity"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "パソコンの容量が足りない。",
+                        "vi": "Dung lượng máy tính không đủ.",
+                        "en": "The computer's capacity is insufficient."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_11_2",
+                "word": "容易",
+                "hanVietWord": "DUNG DỊCH",
+                "hiragana": "ようい",
+                "meaning": {
+                    "vi": "Dễ dàng",
+                    "en": "Easy"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "それは容易な仕事ではない。",
+                        "vi": "Đó không phải là một công việc dễ dàng.",
+                        "en": "That is not an easy job."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_11_3",
+                "word": "内容",
+                "hanVietWord": "NỘI DUNG",
+                "hiragana": "ないよう",
+                "meaning": {
+                    "vi": "Nội dung",
+                    "en": "Content"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ニュースの内容を理解する。",
+                        "vi": "Hiểu nội dung bản tin.",
+                        "en": "Understand the content of the news."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_17_12",
+        "character": "浴",
+        "hanViet": "DỤC",
+        "level": "N3",
+        "lesson": "Bài 17",
+        "words": [
+            {
+                "id": "kw_rkn3_17_12_1",
+                "word": "浴室",
+                "hanVietWord": "DỤC THẤT",
+                "hiragana": "よくしつ",
+                "meaning": {
+                    "vi": "Phòng tắm",
+                    "en": "Bathroom"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "浴室を綺麗に掃除する。",
+                        "vi": "Dọn dẹp phòng tắm sạch sẽ.",
+                        "en": "Clean the bathroom nicely."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_17_12_2",
+                "word": "浴びる",
+                "hanVietWord": "DỤC",
+                "hiragana": "あびる",
+                "meaning": {
+                    "vi": "Tắm / Hứng",
+                    "en": "To bathe / To bask in"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "朝、シャワーを浴びる。",
+                        "vi": "Buổi sáng, tôi tắm vòi hoa sen.",
+                        "en": "I take a shower in the morning."
+                    }
+                ]
+            }
+        ]
+    }
+]

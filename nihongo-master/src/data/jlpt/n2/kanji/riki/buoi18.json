@@ -1,0 +1,1011 @@
+[
+  {
+    "id": "k_rkn2_18_244",
+    "character": "純",
+    "hanViet": "THUẦN",
+    "onyomi": "ジュン",
+    "mnemonic": "Buộc móc câu (屯) vào sợi dây (糸) là việc đơn thuần (純)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_244_1",
+        "word": "純粋",
+        "hiragana": "じゅんすい",
+        "hanVietWord": "THUẦN TÚY",
+        "meaning": {
+          "vi": "Thuần túy, ngây thơ, trong sáng",
+          "en": "Pure, innocent"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "子どものように純粋な人",
+            "vi": "Người trong sáng như trẻ con",
+            "en": "A person as innocent as a child"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_244_2",
+        "word": "単純",
+        "hiragana": "たんじゅん",
+        "hanVietWord": "ĐƠN THUẦN",
+        "meaning": {
+          "vi": "Đơn giản, đơn thuần",
+          "en": "Simple, straightforward"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "単純な仕組み",
+            "vi": "Cơ chế đơn giản",
+            "en": "A simple mechanism"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_244_3",
+        "word": "純白",
+        "hiragana": "じゅんぱく",
+        "hanVietWord": "THUẦN BẠCH",
+        "meaning": {
+          "vi": "Trắng tinh, thuần khiết",
+          "en": "Pure white"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "純白のドレス",
+            "vi": "Chiếc váy trắng tinh",
+            "en": "A pure white dress"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_244_4",
+        "word": "不純",
+        "hiragana": "ふじゅん",
+        "hanVietWord": "BẤT THUẦN",
+        "meaning": {
+          "vi": "Không trong sáng, không thuần khiết",
+          "en": "Impure"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "不純な動機",
+            "vi": "Động cơ không trong sáng",
+            "en": "Impure motives"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_245",
+    "character": "快",
+    "hanViet": "KHOÁI",
+    "kunyomi": "こころよ-い",
+    "onyomi": "カイ",
+    "mnemonic": "Trái tim (心) khi đưa ra quyết định (決) thì cảm thấy nhẹ nhõm (快)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_245_1",
+        "word": "快晴",
+        "hiragana": "かいせい",
+        "hanVietWord": "KHOÁI TÌNH",
+        "meaning": {
+          "vi": "Trời nắng đẹp, quang đãng",
+          "en": "Fine weather, clear sky"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "久しぶりの快晴で、洗濯物がよく乾く",
+            "vi": "Trời nắng đẹp sau nhiều ngày, nên quần áo giặt rất mau khô",
+            "en": "Because it's fine weather for the first time in a while, the laundry dries well"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_245_2",
+        "word": "愉快",
+        "hiragana": "ゆかい",
+        "hanVietWord": "DU KHOÁI",
+        "meaning": {
+          "vi": "Hài hước, vui vẻ",
+          "en": "Pleasant, amusing"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "実に愉快な人だ",
+            "vi": "Quả thực là một người vui tính/hài hước",
+            "en": "A truly amusing person"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_245_3",
+        "word": "不愉快",
+        "hiragana": "ふゆかい",
+        "hanVietWord": "BẤT DU KHOÁI",
+        "meaning": {
+          "vi": "Khó chịu, không vui",
+          "en": "Unpleasant, disagreeable"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼と話すと不愉快になる",
+            "vi": "Nói chuyện với anh ta khiến tôi khó chịu",
+            "en": "Talking to him makes me feel unpleasant"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_245_4",
+        "word": "快速",
+        "hiragana": "かいそく",
+        "hanVietWord": "KHOÁI TỐC",
+        "meaning": {
+          "vi": "Tàu nhanh, tốc độ cao",
+          "en": "High speed, rapid (train)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "普通列車から快速列車に乗り換える",
+            "vi": "Chuyển từ tàu thường sang tàu nhanh",
+            "en": "Transfer from a local train to a rapid train"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_245_5",
+        "word": "軽快",
+        "hiragana": "けいかい",
+        "hanVietWord": "KHINH KHOÁI",
+        "meaning": {
+          "vi": "Nhịp nhàng, vui tươi, nhẹ nhàng",
+          "en": "Light, nimble, cheerful"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "軽快な音楽",
+            "vi": "Âm nhạc vui tươi nhịp nhàng",
+            "en": "Upbeat/cheerful music"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_245_6",
+        "word": "快く",
+        "hiragana": "こころよく",
+        "hanVietWord": "KHOÁI",
+        "meaning": {
+          "vi": "Sẵn lòng, vui vẻ",
+          "en": "Willingly, gladly"
+        },
+        "type": "adv",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼女はいつも快く雑務を引き受けてくれる",
+            "vi": "Cô ấy lúc nào cũng vui vẻ nhận làm các việc vặt",
+            "en": "She always willingly takes on miscellaneous duties"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_246",
+    "character": "甘",
+    "hanViet": "CAM",
+    "kunyomi": "あま-い, あま-える",
+    "mnemonic": "Hình dáng của 1 lon nước ngọt có vị ngọt (甘)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_246_1",
+        "word": "甘い",
+        "hiragana": "あまい",
+        "hanVietWord": "CAM",
+        "meaning": {
+          "vi": "Ngọt, dễ dãi",
+          "en": "Sweet, lenient"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼は甘いものに目がない",
+            "vi": "Anh ấy cực kì thích đồ ngọt",
+            "en": "He has a weakness for sweets"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_246_2",
+        "word": "甘える",
+        "hiragana": "あまえる",
+        "hanVietWord": "CAM",
+        "meaning": {
+          "vi": "Làm nũng, nhõng nhẽo, ỷ lại",
+          "en": "To behave like a spoiled child, to depend on"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "親に甘える",
+            "vi": "Làm nũng bố mẹ",
+            "en": "To act spoiled to one's parents"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_247",
+    "character": "薄",
+    "hanViet": "BẠC / BÁC",
+    "kunyomi": "うす-い, うす-める",
+    "onyomi": "ハク",
+    "mnemonic": "Không chuyên cần (専) tưới nước (水) hoa cỏ (艹) sẽ bạc (薄) màu",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_247_1",
+        "word": "薄い",
+        "hiragana": "うすい",
+        "hanVietWord": "BẠC",
+        "meaning": {
+          "vi": "Mỏng, nhạt",
+          "en": "Thin, light, pale"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "薄いスマホ",
+            "vi": "Điện thoại thông minh mỏng",
+            "en": "Thin smartphone"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_247_2",
+        "word": "薄める",
+        "hiragana": "うすめる",
+        "hanVietWord": "BẠC",
+        "meaning": {
+          "vi": "Làm nhạt, pha loãng",
+          "en": "To dilute, to thin"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "コーヒーをお湯で薄めて飲む",
+            "vi": "Pha loãng cà phê bằng nước nóng rồi uống",
+            "en": "Dilute coffee with hot water and drink it"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_247_3",
+        "word": "薄化粧",
+        "hiragana": "うすげしょう",
+        "hanVietWord": "BẠC HÓA TRANG",
+        "meaning": {
+          "vi": "Trang điểm nhẹ",
+          "en": "Light makeup"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "今日は珍しく薄化粧です",
+            "vi": "Hôm nay hiếm hoi mới thấy cô ấy trang điểm nhẹ",
+            "en": "Unusually, she is wearing light makeup today"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_247_4",
+        "word": "薄情者",
+        "hiragana": "はくじょうもの",
+        "hanVietWord": "BẠC TÌNH GIẢ",
+        "meaning": {
+          "vi": "Kẻ bạc tình, kẻ vô tình",
+          "en": "Cold-hearted person"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "田中さんは、薄情者だ",
+            "vi": "Tanaka là kẻ vô tình bạc nghĩa",
+            "en": "Mr. Tanaka is a cold-hearted person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_248",
+    "character": "硬",
+    "hanViet": "NGẠNH",
+    "kunyomi": "かた-い",
+    "onyomi": "コウ",
+    "mnemonic": "Hãy làm cho hòn đá (石) cứng (硬) hơn nữa (更)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_248_1",
+        "word": "硬貨",
+        "hiragana": "こうか",
+        "hanVietWord": "NGẠNH HÓA",
+        "meaning": {
+          "vi": "Tiền xu",
+          "en": "Coin"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ベトナムも、昔は硬貨をつかっていた。",
+            "vi": "Việt Nam ngày xưa cũng từng sử dụng tiền xu.",
+            "en": "Vietnam also used coins in the past."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_248_2",
+        "word": "硬さ",
+        "hiragana": "かたさ",
+        "hanVietWord": "NGẠNH",
+        "meaning": {
+          "vi": "Độ cứng",
+          "en": "Hardness, stiffness"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "麺の硬さをお選びください!",
+            "vi": "Xin hãy chọn độ cứng của mì!",
+            "en": "Please choose the firmness of the noodles!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_248_3",
+        "word": "硬い",
+        "hiragana": "かたい",
+        "hanVietWord": "NGẠNH",
+        "meaning": {
+          "vi": "Cứng, cứng nhắc",
+          "en": "Hard, stiff"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "緊張で表情が硬い",
+            "vi": "Biểu cảm cứng đờ vì căng thẳng",
+            "en": "Stiff expression due to nervousness"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_249",
+    "character": "鋭",
+    "hanViet": "NHUỆ",
+    "kunyomi": "するど-い",
+    "onyomi": "エイ",
+    "mnemonic": "Ông anh trai (兄) có chiếc sừng vàng (金) cắm trên đầu",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_249_1",
+        "word": "鋭い",
+        "hiragana": "するどい",
+        "hanVietWord": "NHUỆ",
+        "meaning": {
+          "vi": "Sắc, nhọn, sắc sảo",
+          "en": "Sharp, pointed"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "鋭い目線を感じる",
+            "vi": "Cảm nhận được ánh nhìn sắc bén",
+            "en": "Feel a sharp gaze"
+          },
+          {
+            "jp": "彼女は勘が鋭い",
+            "vi": "Cô ấy có trực giác nhạy bén",
+            "en": "She has sharp intuition"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_249_2",
+        "word": "精鋭部隊",
+        "hiragana": "せいえいぶたい",
+        "hanVietWord": "TINH NHUỆ BỘ ĐỘI",
+        "meaning": {
+          "vi": "Lực lượng tinh nhuệ",
+          "en": "Elite troops"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "精鋭部隊が集められた",
+            "vi": "Lực lượng tinh nhuệ đã được tập hợp",
+            "en": "Elite troops were gathered"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_250",
+    "character": "鈍",
+    "hanViet": "ĐỘN",
+    "kunyomi": "にぶ-い",
+    "onyomi": "ドン",
+    "mnemonic": "Có vàng (金) mà vẫn phải gian truân (屯) đúng là đần độn (鈍)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_250_1",
+        "word": "鈍感",
+        "hiragana": "どんかん",
+        "hanVietWord": "ĐỘN CẢM",
+        "meaning": {
+          "vi": "Kém nhạy bén, vô tâm, đần độn",
+          "en": "Thickheaded, insensitive, dull"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "私の気持ちがまだわからない。やっぱり男は鈍感だね。。",
+            "vi": "Đến giờ vẫn chưa hiểu được tình cảm của tôi. Đàn ông quả nhiên là vô tâm/kém nhạy bén thật..",
+            "en": "Still doesn't understand my feelings. Men are indeed insensitive.."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_250_2",
+        "word": "鈍い",
+        "hiragana": "にぶい",
+        "hanVietWord": "ĐỘN",
+        "meaning": {
+          "vi": "Chậm chạp, cùn, đần độn",
+          "en": "Dull, slow"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼はいつも動きが鈍い",
+            "vi": "Anh ta lúc nào cũng chuyển động chậm chạp",
+            "en": "He is always slow in his movements"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_251",
+    "character": "詳",
+    "hanViet": "TƯỜNG",
+    "kunyomi": "くわ-しい",
+    "onyomi": "ショウ",
+    "mnemonic": "Nói (言) tường tận (詳) thì con dê (羊) mới hiểu",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_251_1",
+        "word": "詳細",
+        "hiragana": "しょうさい",
+        "hanVietWord": "TƯỜNG TẾ",
+        "meaning": {
+          "vi": "Chi tiết, tường tận",
+          "en": "Details, particulars"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "詳細につきまして添付ファイルをご覧ください。",
+            "vi": "Về chi tiết xin vui lòng xem file đính kèm.",
+            "en": "For details, please refer to the attached file."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_251_2",
+        "word": "詳しい",
+        "hiragana": "くわしい",
+        "hanVietWord": "TƯỜNG",
+        "meaning": {
+          "vi": "Chi tiết, tường tận, am hiểu",
+          "en": "Detailed, well-informed"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "あの人は機械に詳しい",
+            "vi": "Người đó am hiểu về máy móc",
+            "en": "That person is knowledgeable about machines"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_252",
+    "character": "簡",
+    "hanViet": "GIẢN",
+    "onyomi": "カン",
+    "mnemonic": "Tre trúc (竹) tạo nên không gian (間) đơn giản (簡)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_252_1",
+        "word": "簡潔",
+        "hiragana": "かんけつ",
+        "hanVietWord": "GIẢN KHIẾT",
+        "meaning": {
+          "vi": "Ngắn gọn, thanh khiết",
+          "en": "Conciseness, brevity"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "簡潔にまとめて話す",
+            "vi": "Tóm tắt lại ngắn gọn rồi nói",
+            "en": "Summarize concisely and speak"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_252_2",
+        "word": "簡単",
+        "hiragana": "かんたん",
+        "hanVietWord": "GIẢN ĐƠN",
+        "meaning": {
+          "vi": "Đơn giản",
+          "en": "Simple, easy"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今回のテストはとても簡単だった",
+            "vi": "Bài kiểm tra lần này rất đơn giản",
+            "en": "This test was very easy"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_252_3",
+        "word": "簡易",
+        "hiragana": "かんい",
+        "hanVietWord": "GIẢN DỊ",
+        "meaning": {
+          "vi": "Đơn giản, giản dị, dã chiến",
+          "en": "Simplicity, easy, convenient"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "震災に備えて、簡易トイレを用意している",
+            "vi": "Chuẩn bị sẵn nhà vệ sinh dã chiến/tiện lợi để đề phòng thảm họa động đất",
+            "en": "Preparing portable toilets in case of an earthquake disaster"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_253",
+    "character": "潔",
+    "hanViet": "KHIẾT",
+    "kunyomi": "いさぎよ-い",
+    "onyomi": "ケツ",
+    "mnemonic": "Dưới làn nước (氵) thanh khiết (潔) bà chủ (主) cầm dao (刀) cắt chỉ (糸)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_253_1",
+        "word": "清潔",
+        "hiragana": "せいけつ",
+        "hanVietWord": "THANH KHIẾT",
+        "meaning": {
+          "vi": "Sạch sẽ, thanh khiết",
+          "en": "Clean, hygienic"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "いつも部屋を清潔に保つようにしている。",
+            "vi": "Tôi luôn cố gắng giữ cho căn phòng sạch sẽ.",
+            "en": "I always try to keep my room clean."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_253_2",
+        "word": "簡潔",
+        "hiragana": "かんけつ",
+        "hanVietWord": "GIẢN KHIẾT",
+        "meaning": {
+          "vi": "Ngắn gọn, súc tích",
+          "en": "Concise, brief"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "会議の内容を簡潔に伝える",
+            "vi": "Truyền đạt ngắn gọn nội dung cuộc họp",
+            "en": "Convey the contents of the meeting concisely"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_253_3",
+        "word": "潔癖症",
+        "hiragana": "けっぺきしょう",
+        "hanVietWord": "KHIẾT PHÍCH CHỨNG",
+        "meaning": {
+          "vi": "Chứng sợ bẩn, ưa sạch sẽ thái quá",
+          "en": "Mysophobia, fastidiousness"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼は、潔癖症らしい",
+            "vi": "Có vẻ anh ấy mắc chứng sạch sẽ thái quá",
+            "en": "He seems to have a phobia of dirt"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_253_4",
+        "word": "潔い",
+        "hiragana": "いさぎよい",
+        "hanVietWord": "KHIẾT",
+        "meaning": {
+          "vi": "Thẳng thắn, hiên ngang, dứt khoát",
+          "en": "Manly, sportsmanlike, gracious"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼は潔く罪を認めた",
+            "vi": "Anh ấy đã thẳng thắn/dứt khoát nhận tội",
+            "en": "He graciously admitted his guilt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_254",
+    "character": "頑",
+    "hanViet": "NGOAN",
+    "kunyomi": "かたく-な",
+    "onyomi": "ガン",
+    "mnemonic": "Cái đầu (頭) là sự khởi nguyên (元) của ngoan cố (頑)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_254_1",
+        "word": "頑固",
+        "hiragana": "がんこ",
+        "hanVietWord": "NGOAN CỐ",
+        "meaning": {
+          "vi": "Ngoan cố, bảo thủ",
+          "en": "Stubborn, obstinate"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "あの店のおやじはとても頑固だ",
+            "vi": "Ông chủ quán đó rất bảo thủ/cố chấp",
+            "en": "The old man at that shop is very stubborn"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_254_2",
+        "word": "頑丈",
+        "hiragana": "がんじょう",
+        "hanVietWord": "NGOAN TRƯỢNG",
+        "meaning": {
+          "vi": "Vững chắc, bền",
+          "en": "Solid, sturdy"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この家はとても頑丈にできている",
+            "vi": "Ngôi nhà này được xây rất vững chắc",
+            "en": "This house is built very sturdily"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_254_3",
+        "word": "頑張る",
+        "hiragana": "がんばる",
+        "hanVietWord": "NGOAN TRƯƠNG",
+        "meaning": {
+          "vi": "Cố gắng",
+          "en": "To do one's best, to try hard"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "力を合わせて頑張ろう!",
+            "vi": "Hãy cùng chung sức cố gắng nhé!",
+            "en": "Let's combine our strength and do our best!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_254_4",
+        "word": "頑な",
+        "hiragana": "かたくな",
+        "hanVietWord": "NGOAN",
+        "meaning": {
+          "vi": "Bướng bỉnh, ngoan cố",
+          "en": "Stubborn, obstinate"
+        },
+        "type": "adj-na",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "頑な態度をとる",
+            "vi": "Tỏ thái độ bướng bỉnh/ngoan cố",
+            "en": "Take a stubborn attitude"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_255",
+    "character": "勇",
+    "hanViet": "DŨNG",
+    "kunyomi": "いさ-ましい",
+    "onyomi": "ユウ",
+    "mnemonic": "Đàn ông (男) dũng cảm (勇) không sợ ma (マ)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_255_1",
+        "word": "勇気",
+        "hiragana": "ゆうき",
+        "hanVietWord": "DŨNG KHÍ",
+        "meaning": {
+          "vi": "Dũng khí, can đảm",
+          "en": "Courage, bravery"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "勇気を出して告白する",
+            "vi": "Lấy hết can đảm để tỏ tình",
+            "en": "Muster up courage to confess one's love"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_255_2",
+        "word": "勇敢",
+        "hiragana": "ゆうかん",
+        "hanVietWord": "DŨNG CẢM",
+        "meaning": {
+          "vi": "Dũng cảm",
+          "en": "Brave, heroic"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "戦士たちは勇敢にたたかった",
+            "vi": "Các chiến binh đã chiến đấu rất dũng cảm",
+            "en": "The warriors fought bravely"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_255_3",
+        "word": "勇ましい",
+        "hiragana": "いさましい",
+        "hanVietWord": "DŨNG",
+        "meaning": {
+          "vi": "Dũng cảm, oai phong",
+          "en": "Brave, valiant, gallant"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "勇ましい姿",
+            "vi": "Dáng vẻ oai phong / dũng mãnh",
+            "en": "A valiant figure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_256",
+    "character": "賢",
+    "hanViet": "HIỀN",
+    "kunyomi": "かしこ-い",
+    "onyomi": "ケン",
+    "mnemonic": "Con sò (貝) vỏ cứng (堅い) thì rất thông minh (賢い)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_256_1",
+        "word": "賢い",
+        "hiragana": "かしこい",
+        "hanVietWord": "HIỀN",
+        "meaning": {
+          "vi": "Thông minh, khôn ngoan",
+          "en": "Smart, clever, wise"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "カラスはとても賢い鳥だ",
+            "vi": "Quạ là một loài chim rất khôn ngoan",
+            "en": "Crows are very smart birds"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_256_2",
+        "word": "賢者",
+        "hiragana": "けんじゃ",
+        "hanVietWord": "HIỀN GIẢ",
+        "meaning": {
+          "vi": "Hiền giả, nhà thông thái",
+          "en": "Wise man, sage"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ハリーポッターと賢者の石",
+            "vi": "Harry Potter và Hòn đá Phù thủy (Hiền giả)",
+            "en": "Harry Potter and the Sorcerer's Stone"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_256_3",
+        "word": "賢明",
+        "hiragana": "けんめい",
+        "hanVietWord": "HIỀN MINH",
+        "meaning": {
+          "vi": "Sáng suốt, khôn ngoan",
+          "en": "Wise, sensible"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "賢明な判断だったと課長にほめられた",
+            "vi": "Được tổ trưởng khen ngợi rằng đó là một phán đoán sáng suốt",
+            "en": "Was praised by the section chief that it was a wise judgment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_18_257",
+    "character": "珍",
+    "hanViet": "TRÂN",
+    "kunyomi": "めずら-しい",
+    "onyomi": "チン",
+    "mnemonic": "Ông Vua (王) đội nón tết tóc đuôi sam (㐱) là điều rất hiếm (珍しい)",
+    "level": "N2",
+    "lesson": "Buổi 18",
+    "words": [
+      {
+        "id": "kw_rkn2_18_257_1",
+        "word": "珍味",
+        "hiragana": "ちんみ",
+        "hanVietWord": "TRÂN VỊ",
+        "meaning": {
+          "vi": "Món ăn quý hiếm, cao lương mỹ vị",
+          "en": "Delicacy"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "世界三大珍味を食べる",
+            "vi": "Ăn 3 món ăn quý hiếm/cao lương mỹ vị lớn nhất thế giới",
+            "en": "Eat the world's three great delicacies"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_18_257_2",
+        "word": "珍しい",
+        "hiragana": "めずらしい",
+        "hanVietWord": "TRÂN",
+        "meaning": {
+          "vi": "Hiếm, hiếm có, kỳ lạ",
+          "en": "Rare, unusual"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "君にしては珍しく賢明な決断をしたね",
+            "vi": "Đối với cậu thì đây quả là một quyết định sáng suốt hiếm thấy nhỉ",
+            "en": "For you, you made an unusually wise decision"
+          }
+        ]
+      }
+    ]
+  }
+]

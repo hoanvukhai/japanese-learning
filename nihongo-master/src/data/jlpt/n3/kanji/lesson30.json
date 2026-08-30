@@ -1,0 +1,599 @@
+[
+    {
+        "id": "k_rkn3_30_01",
+        "character": "初",
+        "hanViet": "SƠ",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_01_1",
+                "word": "初めに",
+                "hanVietWord": "SƠ",
+                "hiragana": "はじめに",
+                "meaning": {
+                    "vi": "Lúc đầu, ban đầu",
+                    "en": "At first / In the beginning"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "初めは日本語が全く分からなかった。",
+                        "vi": "Ban đầu tôi hoàn toàn không hiểu tiếng Nhật.",
+                        "en": "At first, I didn't understand Japanese at all."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_01_2",
+                "word": "最初",
+                "hanVietWord": "TỐI SƠ",
+                "hiragana": "さいしょ",
+                "meaning": {
+                    "vi": "Đầu tiên",
+                    "en": "First / Beginning"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "列の最初に並ぶ。",
+                        "vi": "Xếp hàng ở vị trí đầu tiên của hàng.",
+                        "en": "Line up at the beginning of the line."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_01_3",
+                "word": "初恋",
+                "hanVietWord": "SƠ LUYẾN",
+                "hiragana": "はつこい",
+                "meaning": {
+                    "vi": "Mối tình đầu",
+                    "en": "First love"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "これは私の初恋の思い出だ。",
+                        "vi": "Đây là kỷ niệm về mối tình đầu của tôi.",
+                        "en": "This is a memory of my first love."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_02",
+        "character": "券",
+        "hanViet": "KHOÁN",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_02_1",
+                "word": "乗車券",
+                "hanVietWord": "THỪA XA KHOÁN",
+                "hiragana": "じょうしゃけん",
+                "meaning": {
+                    "vi": "Vé lên xe, vé tàu",
+                    "en": "Passenger ticket"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "駅で乗車券を買う。",
+                        "vi": "Mua vé lên tàu ở nhà ga.",
+                        "en": "Buy a passenger ticket at the station."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_02_2",
+                "word": "入場券",
+                "hanVietWord": "NHẬP TRÀNG KHOÁN",
+                "hiragana": "にゅうじょうけん",
+                "meaning": {
+                    "vi": "Vé vào cửa",
+                    "en": "Admission ticket"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "映画館の入場券を手に入れる。",
+                        "vi": "Có được vé vào cửa của rạp chiếu phim.",
+                        "en": "Get an admission ticket for the movie theater."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_03",
+        "character": "測",
+        "hanViet": "TRẮC",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_03_1",
+                "word": "測る",
+                "hanVietWord": "TRẮC",
+                "hiragana": "はかる",
+                "meaning": {
+                    "vi": "Đo lường, đo đạc",
+                    "en": "To measure"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "熱を測る。",
+                        "vi": "Đo nhiệt độ (cơ thể).",
+                        "en": "Measure one's temperature."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_03_2",
+                "word": "予測",
+                "hanVietWord": "DỰ TRẮC",
+                "hiragana": "よそく",
+                "meaning": {
+                    "vi": "Dự đoán",
+                    "en": "Prediction"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "経済の動きを予測する。",
+                        "vi": "Dự đoán sự chuyển động của nền kinh tế.",
+                        "en": "Predict the movement of the economy."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_04",
+        "character": "側",
+        "hanViet": "TRẮC",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_04_1",
+                "word": "内側",
+                "hanVietWord": "NỘI TRẮC",
+                "hiragana": "うちがわ",
+                "meaning": {
+                    "vi": "Phía bên trong",
+                    "en": "Inside / Inner part"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "箱の内側をきれいにする。",
+                        "vi": "Làm sạch phía bên trong của chiếc hộp.",
+                        "en": "Clean the inside of the box."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_04_2",
+                "word": "両側",
+                "hanVietWord": "LƯỠNG TRẮC",
+                "hiragana": "りょうがわ",
+                "meaning": {
+                    "vi": "Cả hai bên",
+                    "en": "Both sides"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "道の両側に木が植えられている。",
+                        "vi": "Cây được trồng ở cả hai bên đường.",
+                        "en": "Trees are planted on both sides of the road."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_04_3",
+                "word": "側",
+                "hanVietWord": "TRẮC",
+                "hiragana": "そば",
+                "meaning": {
+                    "vi": "Bên cạnh",
+                    "en": "Beside / Near"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "いつも私の側にいてください。",
+                        "vi": "Hãy luôn ở bên cạnh tôi.",
+                        "en": "Please always be by my side."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_05",
+        "character": "割",
+        "hanViet": "CÁT",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_05_1",
+                "word": "割る",
+                "hanVietWord": "CÁT",
+                "hiragana": "わる",
+                "meaning": {
+                    "vi": "Chia / Làm vỡ",
+                    "en": "To divide / To break"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "グラスを落として割ってしまった。",
+                        "vi": "Tôi đánh rơi cốc và làm vỡ mất rồi.",
+                        "en": "I dropped the glass and broke it."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_05_2",
+                "word": "割引",
+                "hanVietWord": "CÁT DẪN",
+                "hiragana": "わりびき",
+                "meaning": {
+                    "vi": "Giảm giá",
+                    "en": "Discount"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "学生は10％の割引があります。",
+                        "vi": "Học sinh có giảm giá 10%.",
+                        "en": "There is a 10% discount for students."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_05_3",
+                "word": "割合",
+                "hanVietWord": "CÁT HỢP",
+                "hiragana": "わりあい",
+                "meaning": {
+                    "vi": "Tỷ lệ",
+                    "en": "Ratio / Proportion"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "このクラスは男子の割合が高い。",
+                        "vi": "Lớp này tỷ lệ nam sinh cao.",
+                        "en": "The proportion of boys in this class is high."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_06",
+        "character": "型",
+        "hanViet": "HÌNH",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_06_1",
+                "word": "血液型",
+                "hanVietWord": "HUYẾT DỊCH HÌNH",
+                "hiragana": "けつえきがた",
+                "meaning": {
+                    "vi": "Nhóm máu",
+                    "en": "Blood type"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "私の血液型はA型です。",
+                        "vi": "Nhóm máu của tôi là nhóm A.",
+                        "en": "My blood type is A."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_06_2",
+                "word": "典型的",
+                "hanVietWord": "ĐIỂN HÌNH ĐÍCH",
+                "hiragana": "てんけいてき",
+                "meaning": {
+                    "vi": "Điển hình",
+                    "en": "Typical"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は典型的な日本人だ。",
+                        "vi": "Anh ấy là người Nhật Bản điển hình.",
+                        "en": "He is a typical Japanese person."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_07",
+        "character": "刻",
+        "hanViet": "KHẮC",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_07_1",
+                "word": "刻む",
+                "hanVietWord": "KHẮC",
+                "hiragana": "きざむ",
+                "meaning": {
+                    "vi": "Khắc / Thái nhỏ",
+                    "en": "To chop / To carve"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ねぎを細かく刻む。",
+                        "vi": "Thái nhỏ hành lá.",
+                        "en": "Chop the green onions finely."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_07_2",
+                "word": "時刻表",
+                "hanVietWord": "THỜI KHẮC BIỂU",
+                "hiragana": "じこくひょう",
+                "meaning": {
+                    "vi": "Thời gian biểu / Lịch trình (tàu xe)",
+                    "en": "Timetable / Schedule"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "駅で電車の時刻表を見る。",
+                        "vi": "Xem lịch trình tàu điện ở ga.",
+                        "en": "Look at the train timetable at the station."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_07_3",
+                "word": "深刻",
+                "hanVietWord": "THÂM KHẮC",
+                "hiragana": "しんこく",
+                "meaning": {
+                    "vi": "Nghiêm trọng",
+                    "en": "Serious"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "環境問題は深刻になっている。",
+                        "vi": "Vấn đề môi trường đang trở nên nghiêm trọng.",
+                        "en": "Environmental issues are becoming serious."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_08",
+        "character": "制",
+        "hanViet": "CHẾ",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_08_1",
+                "word": "年齢制限",
+                "hanVietWord": "NIÊN LINH CHẾ HẠN",
+                "hiragana": "ねんれいせいげん",
+                "meaning": {
+                    "vi": "Giới hạn độ tuổi",
+                    "en": "Age limit"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この映画には年齢制限がある。",
+                        "vi": "Bộ phim này có giới hạn độ tuổi.",
+                        "en": "This movie has an age limit."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_08_2",
+                "word": "制服",
+                "hanVietWord": "CHẾ PHỤC",
+                "hiragana": "せいふく",
+                "meaning": {
+                    "vi": "Đồng phục",
+                    "en": "Uniform"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "高校の制服を着る。",
+                        "vi": "Mặc đồng phục của trường cấp 3.",
+                        "en": "Wear the high school uniform."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_09",
+        "character": "製",
+        "hanViet": "CHẾ",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_09_1",
+                "word": "～製",
+                "hanVietWord": "CHẾ",
+                "hiragana": "～せい",
+                "meaning": {
+                    "vi": "Sản xuất tại ~ / Làm bằng ~",
+                    "en": "Made in / Made of"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "これは日本製のカメラだ。",
+                        "vi": "Đây là máy ảnh sản xuất tại Nhật.",
+                        "en": "This is a camera made in Japan."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_09_2",
+                "word": "製造",
+                "hanVietWord": "CHẾ TẠO",
+                "hiragana": "せいぞう",
+                "meaning": {
+                    "vi": "Chế tạo / Sản xuất",
+                    "en": "Manufacturing / Production"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "この工場は車を製造している。",
+                        "vi": "Nhà máy này đang chế tạo ô tô.",
+                        "en": "This factory manufactures cars."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_10",
+        "character": "到",
+        "hanViet": "ĐÁO",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_10_1",
+                "word": "到着",
+                "hanVietWord": "ĐÁO TRỨ",
+                "hiragana": "とうちゃく",
+                "meaning": {
+                    "vi": "Đến nơi",
+                    "en": "Arrival"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "飛行機が空港に到着した。",
+                        "vi": "Máy bay đã đến sân bay.",
+                        "en": "The plane arrived at the airport."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_10_2",
+                "word": "到達",
+                "hanVietWord": "ĐÁO ĐẠT",
+                "hiragana": "とうたつ",
+                "meaning": {
+                    "vi": "Đạt đến",
+                    "en": "Reaching / Attaining"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "目標に到達するために頑張る。",
+                        "vi": "Cố gắng để đạt đến mục tiêu.",
+                        "en": "Work hard to reach the goal."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_30_11",
+        "character": "倒",
+        "hanViet": "ĐẢO",
+        "level": "N3",
+        "lesson": "Bài 30",
+        "words": [
+            {
+                "id": "kw_rkn3_30_11_1",
+                "word": "倒れる",
+                "hanVietWord": "ĐẢO",
+                "hiragana": "たおれる",
+                "meaning": {
+                    "vi": "Ngã xuống / Đổ",
+                    "en": "To fall down / To collapse"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "台風で木が倒れた。",
+                        "vi": "Cây đã bị đổ do bão.",
+                        "en": "The tree fell down due to the typhoon."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_30_11_2",
+                "word": "倒産",
+                "hanVietWord": "ĐẢO SẢN",
+                "hiragana": "とうさん",
+                "meaning": {
+                    "vi": "Phá sản",
+                    "en": "Bankruptcy"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "不景気で会社が倒産した。",
+                        "vi": "Công ty đã bị phá sản do kinh tế ảm đạm.",
+                        "en": "The company went bankrupt due to the bad economy."
+                    }
+                ]
+            }
+        ]
+    }
+]

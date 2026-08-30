@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "k_rkn2_28_388",
+    "character": "請",
+    "hanViet": "THỈNH",
+    "kunyomi": "う-ける",
+    "onyomi": "セイ",
+    "mnemonic": "Dùng cả Thanh (青) xuân đi Hàn để Thỉnh Cầu (請) sản xuất nhiều phim Ngôn (言) tình",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_388_1",
+        "word": "申請",
+        "hiragana": "しんせい",
+        "hanVietWord": "THÂN THỈNH",
+        "meaning": {
+          "vi": "Sự xin, yêu cầu, đăng ký",
+          "en": "Application, request, petition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "パスポートを申請する",
+            "vi": "Xin cấp hộ chiếu",
+            "en": "Apply for a passport"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_388_2",
+        "word": "請求",
+        "hiragana": "せいきゅう",
+        "hanVietWord": "THỈNH CẦU",
+        "meaning": {
+          "vi": "Sự yêu cầu, thanh toán",
+          "en": "Claim, demand, charge"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "交通費を会社に請求する",
+            "vi": "Yêu cầu công ty trả chi phí đi lại",
+            "en": "Claim transportation expenses from the company"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_388_3",
+        "word": "請け負う",
+        "hiragana": "うけおう",
+        "hanVietWord": "THỈNH PHỤ",
+        "meaning": {
+          "vi": "Nhận thầu, đảm nhận",
+          "en": "To undertake, to contract"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "先輩から仕事を請け負う",
+            "vi": "Đảm nhận công việc từ tiền bối",
+            "en": "Undertake a job from a senior"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_389",
+    "character": "属",
+    "hanViet": "THUỘC",
+    "onyomi": "ゾク",
+    "mnemonic": "Tập tính của côn trùng (虫) phụ THUỘC (属) vào nhà (尸) nó ở",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_389_1",
+        "word": "所属",
+        "hiragana": "しょぞく",
+        "hanVietWord": "SỞ THUỘC",
+        "meaning": {
+          "vi": "Trực thuộc, thuộc về",
+          "en": "Belonging to, attached to"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "私の所属は、営業部です",
+            "vi": "Tôi thuộc phòng kinh doanh",
+            "en": "I belong to the sales department"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_389_2",
+        "word": "金属",
+        "hiragana": "きんぞく",
+        "hanVietWord": "KIM THUỘC",
+        "meaning": {
+          "vi": "Kim loại",
+          "en": "Metal"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "金属製品",
+            "vi": "Sản phẩm kim loại",
+            "en": "Metal products"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_389_3",
+        "word": "配属",
+        "hiragana": "はいぞく",
+        "hanVietWord": "PHỐI THUỘC",
+        "meaning": {
+          "vi": "Sự phân bổ, điều phối (nhân sự)",
+          "en": "Assignment, posting"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "新しくできた部署に配属された",
+            "vi": "Được phân công vào phòng ban mới thành lập",
+            "en": "Assigned to a newly established department"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_390",
+    "character": "免",
+    "hanViet": "MIỄN / VẤN",
+    "kunyomi": "まぬが-れる",
+    "onyomi": "メン",
+    "mnemonic": "Miễn (免) giảm học phí cho những người đeo kính",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_390_1",
+        "word": "免許",
+        "hiragana": "めんきょ",
+        "hanVietWord": "MIỄN HỨA",
+        "meaning": {
+          "vi": "Giấy phép, bằng lái",
+          "en": "License, permit"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "自動車の免許を取る",
+            "vi": "Lấy bằng lái xe ô tô",
+            "en": "Get a driver's license"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_390_2",
+        "word": "免税",
+        "hiragana": "めんぜい",
+        "hanVietWord": "MIỄN THUẾ",
+        "meaning": {
+          "vi": "Miễn thuế",
+          "en": "Tax exemption"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ユニクロで免税申請してお得な買い物をした",
+            "vi": "Đăng ký miễn thuế ở Uniqlo và đã mua sắm được món hời",
+            "en": "I applied for tax exemption at Uniqlo and made a good purchase"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_390_3",
+        "word": "免除",
+        "hiragana": "めんじょ",
+        "hanVietWord": "MIỄN TRỪ",
+        "meaning": {
+          "vi": "Sự miễn trừ",
+          "en": "Exemption, exoneration"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "1人だけ試験を免除される",
+            "vi": "Chỉ 1 người được miễn thi",
+            "en": "Only one person is exempted from the exam"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_390_4",
+        "word": "免れる",
+        "hiragana": "まぬがれる",
+        "hanVietWord": "MIỄN",
+        "meaning": {
+          "vi": "Tránh khỏi, thoát khỏi",
+          "en": "To escape from, to be exempted from"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "責任を免れる",
+            "vi": "Trốn tránh trách nhiệm",
+            "en": "Escape responsibility"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_391",
+    "character": "剣",
+    "hanViet": "KIẾM",
+    "onyomi": "ケン",
+    "mnemonic": "10 người (人) đang đội mũ cầm kiếm (刂)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_391_1",
+        "word": "真剣",
+        "hiragana": "しんけん",
+        "hanVietWord": "CHÂN KIẾM",
+        "meaning": {
+          "vi": "Nghiêm túc, đứng đắn",
+          "en": "Serious, earnest"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "真剣に課題に取り組んだので試験を免除された",
+            "vi": "Vì nghiêm túc làm bài tập nên tôi đã được miễn thi",
+            "en": "Because I worked seriously on the assignments, I was exempted from the exam"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_391_2",
+        "word": "剣道",
+        "hiragana": "けんどう",
+        "hanVietWord": "KIẾM ĐẠO",
+        "meaning": {
+          "vi": "Kiếm đạo (Kendo)",
+          "en": "Kendo (Japanese fencing)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "剣道を習う",
+            "vi": "Học kiếm đạo",
+            "en": "Learn Kendo"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_391_3",
+        "word": "剣",
+        "hiragana": "けん",
+        "hanVietWord": "KIẾM",
+        "meaning": {
+          "vi": "Thanh kiếm",
+          "en": "Sword"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "金属でできた剣",
+            "vi": "Thanh kiếm làm bằng kim loại",
+            "en": "Sword made of metal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_392",
+    "character": "辞",
+    "hanViet": "TỪ",
+    "kunyomi": "や-める",
+    "onyomi": "ジ",
+    "mnemonic": "Từ (辞) đầu Lưỡi (舌) thốt ra những lời đắng Cay (辛)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_392_1",
+        "word": "辞書",
+        "hiragana": "じしょ",
+        "hanVietWord": "TỪ THƯ",
+        "meaning": {
+          "vi": "Từ điển",
+          "en": "Dictionary"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "辞書で日本語の意味を調べる",
+            "vi": "Tra nghĩa tiếng Nhật bằng từ điển",
+            "en": "Look up the meaning of Japanese words in a dictionary"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_392_2",
+        "word": "辞表",
+        "hiragana": "じひょう",
+        "hanVietWord": "TỪ BIỂU",
+        "meaning": {
+          "vi": "Đơn từ chức",
+          "en": "Letter of resignation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "直属の上司に辞表を提出する",
+            "vi": "Nộp đơn từ chức cho sếp trực tiếp",
+            "en": "Submit a letter of resignation to one's direct supervisor"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_392_3",
+        "word": "辞める",
+        "hiragana": "やめる",
+        "hanVietWord": "TỪ",
+        "meaning": {
+          "vi": "Từ bỏ, nghỉ việc",
+          "en": "To resign, to quit, to leave (one's job)"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "今月で会社を辞める",
+            "vi": "Tháng này sẽ nghỉ việc ở công ty",
+            "en": "I will quit the company this month"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_393",
+    "character": "適",
+    "hanViet": "THÍCH",
+    "onyomi": "テキ",
+    "mnemonic": "Ta THÍCH (適) ĐỨNG (立) và BƯỚC ĐI trên VÙNG ĐẤT (辶) CỔ (古)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_393_1",
+        "word": "快適",
+        "hiragana": "かいてき",
+        "hanVietWord": "KHOÁI THÍCH",
+        "meaning": {
+          "vi": "Thoải mái, sảng khoái",
+          "en": "Comfortable, pleasant"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "オフィスを快適な温度に調節する",
+            "vi": "Điều chỉnh nhiệt độ văn phòng cho thoải mái",
+            "en": "Adjust the office to a comfortable temperature"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_393_2",
+        "word": "適切",
+        "hiragana": "てきせつ",
+        "hanVietWord": "THÍCH THIẾT",
+        "meaning": {
+          "vi": "Thích hợp, phù hợp",
+          "en": "Appropriate, adequate"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "適切な指導・判断",
+            "vi": "Sự chỉ đạo/phán đoán thích hợp",
+            "en": "Appropriate guidance/judgment"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_393_3",
+        "word": "適度",
+        "hiragana": "てきど",
+        "hanVietWord": "THÍCH ĐỘ",
+        "meaning": {
+          "vi": "Mức độ vừa phải",
+          "en": "Moderate degree, proper amount"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "適度な甘さがちょうどよい",
+            "vi": "Độ ngọt vừa phải là được",
+            "en": "A moderate sweetness is just right"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_393_4",
+        "word": "適当",
+        "hiragana": "てきとう",
+        "hanVietWord": "THÍCH ĐƯƠNG",
+        "meaning": {
+          "vi": "Thích đáng, hời hợt, qua loa",
+          "en": "Suitable, proper / half-hearted, perfunctory"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼女:ねーねーなんで私のことが好き? 彼氏:好きだから。 彼女:適当な返事だね...",
+            "vi": "Bạn gái: Nè nè sao anh lại thích em? Bạn trai: Vì thích thôi. Bạn gái: Trả lời qua loa ghê...",
+            "en": "Girlfriend: Hey, why do you like me? Boyfriend: Just because. Girlfriend: What a half-hearted answer..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_394",
+    "character": "儀",
+    "hanViet": "NGHI",
+    "onyomi": "ギ",
+    "mnemonic": "Người (亻) lễ phép (礼儀正しい) là chính nghĩa (正義)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_394_1",
+        "word": "儀式",
+        "hiragana": "ぎしき",
+        "hanVietWord": "NGHI THỨC",
+        "meaning": {
+          "vi": "Nghi thức, nghi lễ",
+          "en": "Ceremony, rite"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "古くから村に伝わる儀式をする",
+            "vi": "Thực hiện nghi thức được truyền lại từ xưa trong làng",
+            "en": "Perform a ceremony handed down in the village from old times"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_394_2",
+        "word": "葬儀",
+        "hiragana": "そうぎ",
+        "hanVietWord": "TÁNG NGHI",
+        "meaning": {
+          "vi": "Lễ tang",
+          "en": "Funeral"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "祖父の葬儀が行われた",
+            "vi": "Đã tổ chức lễ tang cho ông",
+            "en": "My grandfather's funeral was held"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_394_3",
+        "word": "お行儀",
+        "hiragana": "おぎょうぎ",
+        "hanVietWord": "HÀNH NGHI",
+        "meaning": {
+          "vi": "Cách cư xử, cách ứng xử",
+          "en": "Manners, behavior"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "お行儀がいいお子さんですね。",
+            "vi": "Đứa bé cư xử ngoan quá nhỉ.",
+            "en": "What a well-behaved child."
+          },
+          {
+            "jp": "行儀悪い",
+            "vi": "Cách cư xử tồi",
+            "en": "Bad manners"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_394_4",
+        "word": "礼儀",
+        "hiragana": "れいぎ",
+        "hanVietWord": "LỄ NGHI",
+        "meaning": {
+          "vi": "Lễ nghi, phép lịch sự",
+          "en": "Manners, courtesy, etiquette"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "礼儀(相手、社会に対して)",
+            "vi": "Lễ nghi (đối với đối phương, xã hội)",
+            "en": "Courtesy (towards others, society)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_395",
+    "character": "施",
+    "hanViet": "THI / THÍ",
+    "kunyomi": "ほどこ-す",
+    "onyomi": "シ",
+    "mnemonic": "Anh Phương (方) nằm dưới đất (也) ôn thi (施)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_395_1",
+        "word": "実施",
+        "hiragana": "じっし",
+        "hanVietWord": "THỰC THI",
+        "meaning": {
+          "vi": "Thực thi, thực hiện",
+          "en": "Implementation, execution"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "運動会は小雨の中、実施された",
+            "vi": "Hội thao đã được tổ chức trong trời mưa phùn",
+            "en": "The sports day was held in the light rain"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_395_2",
+        "word": "施設",
+        "hiragana": "しせつ",
+        "hanVietWord": "THI THIẾT",
+        "meaning": {
+          "vi": "Cơ sở vật chất, cơ sở",
+          "en": "Facility, institution"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "家の近くにお年寄りが通う施設ができた",
+            "vi": "Gần nhà có một cơ sở mà người già hay lui tới mới được xây dựng",
+            "en": "A facility for the elderly has been built near my house"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_395_3",
+        "word": "施し",
+        "hiragana": "ほどこし",
+        "hanVietWord": "THI",
+        "meaning": {
+          "vi": "Sự bố thí, cấp dưỡng",
+          "en": "Alms, charity"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "施しをもらう",
+            "vi": "Nhận sự bố thí",
+            "en": "Receive alms"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_395_4",
+        "word": "施す",
+        "hiragana": "ほどこす",
+        "hanVietWord": "THI",
+        "meaning": {
+          "vi": "Tiến hành, ban phát, bố thí",
+          "en": "To conduct, to apply, to give (alms)"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_396",
+    "character": "推",
+    "hanViet": "THÔI / SUY",
+    "kunyomi": "お-す",
+    "onyomi": "スイ",
+    "mnemonic": "Tay (扌) cầm con chim (隹) suy (推) nghĩ nên làm món gì",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_396_1",
+        "word": "推薦",
+        "hiragana": "すいせん",
+        "hanVietWord": "THÔI TIẾN",
+        "meaning": {
+          "vi": "Sự giới thiệu, tiến cử",
+          "en": "Recommendation, referral"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "佐藤さんをリーダーに推薦します",
+            "vi": "Tiến cử anh Sato làm leader",
+            "en": "Recommend Mr. Sato for the leader"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_396_2",
+        "word": "推す",
+        "hiragana": "おす",
+        "hanVietWord": "THÔI",
+        "meaning": {
+          "vi": "Tiến cử, đề cử",
+          "en": "To recommend, to support"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "リーダーに推す",
+            "vi": "Bầu làm leader",
+            "en": "Recommend for leader"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_396_3",
+        "word": "推理",
+        "hiragana": "すいり",
+        "hanVietWord": "SUY LÝ",
+        "meaning": {
+          "vi": "Sự suy luận",
+          "en": "Reasoning, inference, deduction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "事件のトリックを推理する",
+            "vi": "Suy luận thủ đoạn của vụ án",
+            "en": "Deduce the trick of the case"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_396_4",
+        "word": "推測",
+        "hiragana": "すいそく",
+        "hanVietWord": "SUY TRẮC",
+        "meaning": {
+          "vi": "Sự suy đoán, phỏng đoán",
+          "en": "Guess, conjecture"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "トラブルをある程度、推測しておくといいですよ",
+            "vi": "Nên phỏng đoán trước các rắc rối ở một mức độ nào đó",
+            "en": "It is good to anticipate trouble to some extent"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_396_5",
+        "word": "推移",
+        "hiragana": "すいい",
+        "hanVietWord": "SUY DI",
+        "meaning": {
+          "vi": "Sự biến động, thay đổi",
+          "en": "Transition, change, shift"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "人口の推移を調べる",
+            "vi": "Điều tra sự biến động dân số",
+            "en": "Investigate demographic changes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_397",
+    "character": "副",
+    "hanViet": "PHÓ",
+    "onyomi": "フク",
+    "mnemonic": "Ông phó (副) giám đốc cầm dao (刂) quản lý ruộng (田)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_397_1",
+        "word": "副",
+        "hiragana": "ふく",
+        "hanVietWord": "PHÓ",
+        "meaning": {
+          "vi": "Phó (chức vụ)",
+          "en": "Vice-, assistant, deputy"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "部長から、チームの副リーダーに推された",
+            "vi": "Được trưởng phòng tiến cử làm phó leader của đội",
+            "en": "I was recommended by the department head to be the vice-leader of the team"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_397_2",
+        "word": "副業禁止",
+        "hiragana": "ふくぎょうきんし",
+        "hanVietWord": "PHÓ NGHIỆP CẤM CHỈ",
+        "meaning": {
+          "vi": "Cấm làm thêm nghề tay trái",
+          "en": "Prohibition of side jobs"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この会社は副業禁止です",
+            "vi": "Công ty này cấm làm thêm nghề tay trái",
+            "en": "This company prohibits side jobs"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_397_3",
+        "word": "副作用",
+        "hiragana": "ふくさよう",
+        "hanVietWord": "PHÓ TÁC DỤNG",
+        "meaning": {
+          "vi": "Tác dụng phụ",
+          "en": "Side effect"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "主作用と副作用",
+            "vi": "Tác dụng chính và tác dụng phụ",
+            "en": "Main effect and side effect"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_398",
+    "character": "滴",
+    "hanViet": "TÍCH / TRÍCH",
+    "onyomi": "テキ",
+    "mnemonic": "Bình rượu (酒) cổ (古) còn tích (滴) vài giọt nước (氵)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_398_1",
+        "word": "水滴",
+        "hiragana": "すいてき",
+        "hanVietWord": "THỦY TÍCH",
+        "meaning": {
+          "vi": "Giọt nước",
+          "en": "Drop of water"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "屋根から水滴が落ちてきた",
+            "vi": "Giọt nước rơi xuống từ mái nhà",
+            "en": "Drops of water fell from the roof"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_398_2",
+        "word": "点滴",
+        "hiragana": "てんてき",
+        "hanVietWord": "ĐIỂM TÍCH",
+        "meaning": {
+          "vi": "Truyền dịch, tiêm truyền",
+          "en": "Intravenous drip (IV)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "風邪をひいてしまい、病院で点滴をしてもらう",
+            "vi": "Vì bị cảm nên được truyền dịch ở bệnh viện",
+            "en": "I caught a cold and received an IV drip at the hospital"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_399",
+    "character": "密",
+    "hanViet": "MẬT",
+    "kunyomi": "ひそ-か",
+    "onyomi": "ミツ",
+    "mnemonic": "Làm nhà (宀) trên núi (山) thì bí mật (密) là điều tất yếu (必)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_399_1",
+        "word": "秘密",
+        "hiragana": "ひみつ",
+        "hanVietWord": "BÍ MẬT",
+        "meaning": {
+          "vi": "Bí mật",
+          "en": "Secret"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "これは企業秘密だ",
+            "vi": "Đây là bí mật doanh nghiệp",
+            "en": "This is a corporate secret"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_399_2",
+        "word": "親密",
+        "hiragana": "しんみつ",
+        "hanVietWord": "THÂN MẬT",
+        "meaning": {
+          "vi": "Thân mật, thân thiết",
+          "en": "Intimate, close"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "最近、あの2人は親密な関係になった",
+            "vi": "Gần đây 2 người đó đã trở thành mối quan hệ thân thiết",
+            "en": "Recently, those two have become in a close relationship"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_399_3",
+        "word": "3密",
+        "hiragana": "さんみつ",
+        "hanVietWord": "TAM MẬT",
+        "meaning": {
+          "vi": "3 Không (tránh nơi kém thông thoáng, đông người, tiếp xúc gần)",
+          "en": "The 3 Cs (closed spaces, crowded places, close-contact settings)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "日本ではコロナ対策で「3密」を行っている",
+            "vi": "Ở Nhật đang thực hiện \"3 Mật\" để đối phó với Corona",
+            "en": "Japan is practicing the '3 Cs' as a countermeasure against Corona"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_399_4",
+        "word": "密集",
+        "hiragana": "みっしゅう",
+        "hanVietWord": "MẬT TẬP",
+        "meaning": {
+          "vi": "Tập trung đông đúc, dày đặc",
+          "en": "Crowding together, dense"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この辺は居酒屋が密集している",
+            "vi": "Khu vực này tập trung dày đặc các quán nhậu",
+            "en": "This area is densely packed with izakaya"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_399_5",
+        "word": "密か",
+        "hiragana": "ひそか",
+        "hanVietWord": "MẬT",
+        "meaning": {
+          "vi": "Thầm kín, bí mật",
+          "en": "Secret, private, stealthy"
+        },
+        "type": "adj-na",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "密かにYOUTUBERをしている",
+            "vi": "Bí mật làm Youtuber",
+            "en": "Secretly working as a Youtuber"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_400",
+    "character": "陽",
+    "hanViet": "DƯƠNG",
+    "onyomi": "ヨウ",
+    "mnemonic": "Bố Dương (陽) làm việc ở công trường (昜) dưới ánh mặt trời (日)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_400_1",
+        "word": "太陽",
+        "hiragana": "たいよう",
+        "hanVietWord": "THÁI DƯƠNG",
+        "meaning": {
+          "vi": "Mặt trời",
+          "en": "Sun"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ひまわりは、太陽の光の方を向いて咲く",
+            "vi": "Hoa hướng dương nở hướng về phía ánh sáng mặt trời",
+            "en": "Sunflowers bloom facing the sunlight"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_400_2",
+        "word": "陽気",
+        "hiragana": "ようき",
+        "hanVietWord": "DƯƠNG KHÍ",
+        "meaning": {
+          "vi": "Vui vẻ, cởi mở",
+          "en": "Cheerful, jovial, merry"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "陽気な人は周りを明るくする",
+            "vi": "Người vui vẻ làm cho xung quanh trở nên tươi sáng",
+            "en": "A cheerful person brightens up the surroundings"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_400_3",
+        "word": "陽性反応",
+        "hiragana": "ようせいはんのう",
+        "hanVietWord": "DƯƠNG TÍNH PHẢN ỨNG",
+        "meaning": {
+          "vi": "Phản ứng dương tính",
+          "en": "Positive reaction (medical)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "コロナで陽性反応が出てしまった。。。",
+            "vi": "Bị dương tính với Corona mất rồi...",
+            "en": "I tested positive for Corona..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_401",
+    "character": "乏",
+    "hanViet": "PHẠP",
+    "kunyomi": "とぼ-しい",
+    "onyomi": "ボウ",
+    "mnemonic": "Khốn (乏) cùng thở dài phộp phạp",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_401_1",
+        "word": "貧乏",
+        "hiragana": "びんぼう",
+        "hanVietWord": "BẦN PHẠP",
+        "meaning": {
+          "vi": "Nghèo túng",
+          "en": "Poverty, poor"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "貧乏になる悪い習慣だと思われている",
+            "vi": "Bị cho là thói quen xấu dẫn đến nghèo túng",
+            "en": "It is considered a bad habit that leads to poverty"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_401_2",
+        "word": "欠乏",
+        "hiragana": "けつぼう",
+        "hanVietWord": "KHIẾM PHẠP",
+        "meaning": {
+          "vi": "Sự thiếu thốn",
+          "en": "Deficiency, shortage"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "病院へ行ったら、「ビタミンが欠乏している」といわれた",
+            "vi": "Đi bệnh viện thì bị nói là \"Đang thiếu vitamin\"",
+            "en": "When I went to the hospital, I was told, 'You have a vitamin deficiency'"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_401_3",
+        "word": "乏しい",
+        "hiragana": "とぼしい",
+        "hanVietWord": "PHẠP",
+        "meaning": {
+          "vi": "Nghèo nàn, thiếu thốn",
+          "en": "Scarce, meager, lacking"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_402",
+    "character": "築",
+    "hanViet": "TRÚC",
+    "kunyomi": "きず-く",
+    "onyomi": "チク",
+    "mnemonic": "Kiến trúc (築) thời xưa được làm hoàn (丸) toàn thủ công (工) từ cây (木) trúc (竹)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_402_1",
+        "word": "新築",
+        "hiragana": "しんちく",
+        "hanVietWord": "TÂN TRÚC",
+        "meaning": {
+          "vi": "Xây mới",
+          "en": "New building, newly built"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "40歳までに新築の家を建てる",
+            "vi": "Đến năm 40 tuổi sẽ xây căn nhà mới",
+            "en": "Build a newly constructed house by the age of 40"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_402_2",
+        "word": "建築",
+        "hiragana": "けんちく",
+        "hanVietWord": "KIẾN TRÚC",
+        "meaning": {
+          "vi": "Kiến trúc",
+          "en": "Architecture, construction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "建築に携わる仕事がしたい",
+            "vi": "Muốn làm công việc liên quan đến kiến trúc",
+            "en": "I want to do a job involved in architecture"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_402_3",
+        "word": "築く",
+        "hiragana": "きずく",
+        "hanVietWord": "TRÚC",
+        "meaning": {
+          "vi": "Xây dựng (tài sản, mối quan hệ)",
+          "en": "To build, to construct, to amass"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "お客さんと信頼関係を築く",
+            "vi": "Xây dựng mối quan hệ tin cậy với khách hàng",
+            "en": "Build a trusting relationship with clients"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_403",
+    "character": "識",
+    "hanViet": "THỨC",
+    "onyomi": "シキ",
+    "mnemonic": "Người có tri thức (識) ngôn (言) ngữ nói ra âm (音) vang sắc bén như cái mác (戈)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_403_1",
+        "word": "知識",
+        "hiragana": "ちしき",
+        "hanVietWord": "TRI THỨC",
+        "meaning": {
+          "vi": "Kiến thức, tri thức",
+          "en": "Knowledge, information"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "いろいろな知識を吸収した",
+            "vi": "Đã tiếp thu nhiều kiến thức",
+            "en": "Absorbed various kinds of knowledge"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_403_2",
+        "word": "博識",
+        "hiragana": "はくしき",
+        "hanVietWord": "BÁC THỨC",
+        "meaning": {
+          "vi": "Sự uyên bác, có học thức rộng",
+          "en": "Extensive knowledge, erudition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼は大学一の博識と言われている",
+            "vi": "Anh ấy được cho là người uyên bác nhất trường đại học",
+            "en": "He is said to be the most erudite person in the university"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_403_3",
+        "word": "標識",
+        "hiragana": "ひょうしき",
+        "hanVietWord": "TIÊU THỨC",
+        "meaning": {
+          "vi": "Biển báo",
+          "en": "Sign, mark"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "道路の標識を見ながら運転してくださいね",
+            "vi": "Hãy vừa nhìn biển báo giao thông vừa lái xe nhé",
+            "en": "Please drive while looking at the road signs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_28_404",
+    "character": "擦",
+    "hanViet": "SÁT",
+    "kunyomi": "こす-る",
+    "onyomi": "サツ",
+    "mnemonic": "Cảnh sát (察) dùng tay (扌) chà vào nhau tạo ra ma sát (擦)",
+    "level": "N2",
+    "lesson": "Buổi 28",
+    "words": [
+      {
+        "id": "kw_rkn2_28_404_1",
+        "word": "摩擦",
+        "hiragana": "まさつ",
+        "hanVietWord": "MA SÁT",
+        "meaning": {
+          "vi": "Ma sát",
+          "en": "Friction, rubbing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "昔の人は、摩擦の力を使って火をおこした",
+            "vi": "Người xưa dùng lực ma sát để tạo ra lửa",
+            "en": "People in the old days used the force of friction to start fires"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_28_404_2",
+        "word": "擦る",
+        "hiragana": "こする",
+        "hanVietWord": "SÁT",
+        "meaning": {
+          "vi": "Chà xát, cọ",
+          "en": "To rub, to scrub"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "かゆくて目を擦る",
+            "vi": "Vì ngứa nên dụi mắt",
+            "en": "Rub eyes because they are itchy"
+          }
+        ]
+      }
+    ]
+  }
+]

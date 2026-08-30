@@ -7,8 +7,8 @@ import {
   BookMarked, MessagesSquare, Clock, CheckCircle2, ChevronDown,
   Flame, Target, Info, Star,
 } from 'lucide-react';
-import { tracks, NOTE_CONFIG } from '../data/roadmapData';
-import type { Phase, PhaseItem } from '../data/roadmapData';
+import { tracks, NOTE_CONFIG } from '../data/jlpt/core/roadmapData';
+import type { Phase, PhaseItem } from '../data/jlpt/core/roadmapData';
 
 // ──────────────────────────────────────────────────────────────────────────────
 // COLOR SYSTEM

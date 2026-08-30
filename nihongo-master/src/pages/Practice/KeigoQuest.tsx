@@ -2,8 +2,8 @@ import { useState, useCallback, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Star, RefreshCw, Heart, X, Check, Lightbulb, Type } from 'lucide-react';
-import { keigoVerbs } from '../../data/keigoDb';
-import keigoN3Questions from '../../data/keigoQuestions.json';
+import { keigoVerbs } from '../../data/jlpt/keigo/keigoDb';
+import keigoN3Questions from '../../data/jlpt/keigo/keigoQuestions.json';
 import type { KeigoVerb, KeigoFormKey } from '../../types/keigo';
 import { getKeigoResult, generateDistractors } from '../../lib/keigoEngine';
 import { useSettings } from '../../context/global/useSettings';
@@ -62,61 +62,95 @@ const buildQ = (): Question | null => {
     if (qData.correct_answer_type === 'teineigo') formKey = 'teinei';
 
     let distractors: string[] = [];
-    if (verbObj) {
-      distractors = generateDistractors(verbObj, formKey, 3, 'masu');
-    } else {
-      // Fallback string-based distractors for verbs not in DB
+    if (qData.correct_answer_type === 'bikago') {
       const pool = new Set<string>();
-      if (correct.startsWith('お')) pool.add('ご' + correct.slice(1));
-      else if (correct.startsWith('ご')) pool.add('お' + correct.slice(1));
+      const baseWord = qData.target_verb;
+      
+      if (correct.startsWith('お')) pool.add('ご' + baseWord);
+      else if (correct.startsWith('ご')) pool.add('お' + baseWord);
 
-      if (correct.endsWith('になります')) {
-        pool.add(correct.replace('になります', 'します'));
-        pool.add(correct.replace('になります', 'いたします'));
-      } else if (correct.endsWith('します')) {
-        pool.add(correct.replace('します', 'になります'));
-        pool.add(correct.replace('します', 'されます'));
-      } else if (correct.endsWith('いたします')) {
-        pool.add(correct.replace('いたします', 'になります'));
-      }
-
-      if (correct.startsWith('お') || correct.startsWith('ご')) {
-        const withoutPrefix = correct.slice(1);
-        if (correct.endsWith('になります')) pool.add(withoutPrefix.replace('になります', 'ます'));
-        else if (correct.endsWith('します')) pool.add(withoutPrefix.replace('します', 'ます'));
-        else if (correct.endsWith('いたします')) pool.add(withoutPrefix.replace('いたします', 'ます'));
-        else pool.add(withoutPrefix);
-      }
-
-      if (correct.endsWith('れます') || correct.endsWith('られます')) {
-        pool.add(correct.replace('れます', 'ます').replace('られます', 'ます'));
-      }
+      pool.add(baseWord);
+      pool.add('み' + baseWord);
+      pool.add('大' + baseWord);
       
       distractors = Array.from(pool).filter(d => d !== correct && d.length > 0);
+    } else {
+      if (verbObj) {
+        distractors = generateDistractors(verbObj, formKey, 3, 'masu');
+      } else {
+        // Fallback string-based distractors for verbs not in DB
+        const pool = new Set<string>();
+
+        if (correct.startsWith('お')) pool.add('ご' + correct.slice(1));
+        else if (correct.startsWith('ご')) pool.add('お' + correct.slice(1));
+
+        if (correct.endsWith('になります')) {
+          pool.add(correct.replace('になります', 'します'));
+          pool.add(correct.replace('になります', 'いたします'));
+          pool.add(correct.replace('になります', 'されます'));
+        } else if (correct.endsWith('します')) {
+          pool.add(correct.replace('します', 'になります'));
+          pool.add(correct.replace('します', 'されます'));
+          pool.add(correct.replace('します', 'いたします'));
+        } else if (correct.endsWith('いたします')) {
+          pool.add(correct.replace('いたします', 'になります'));
+          pool.add(correct.replace('いたします', 'されます'));
+        } else if (correct.endsWith('れます') || correct.endsWith('られます')) {
+          pool.add(correct.replace('れます', 'ます').replace('られます', 'ます'));
+          pool.add('お' + correct.replace('れます', 'します').replace('られます', 'します'));
+        } else {
+          // Just append some standard wrong suffixes if nothing matches
+          pool.add(correct + 'になります');
+          pool.add(correct + 'いたします');
+        }
+
+        if (correct.startsWith('お') || correct.startsWith('ご')) {
+          const withoutPrefix = correct.slice(1);
+          if (correct.endsWith('になります')) pool.add(withoutPrefix.replace('になります', 'ます'));
+          else if (correct.endsWith('します')) pool.add(withoutPrefix.replace('します', 'ます'));
+          else if (correct.endsWith('いたします')) pool.add(withoutPrefix.replace('いたします', 'ます'));
+          else pool.add(withoutPrefix);
+        }
+
+        distractors = Array.from(pool).filter(d => d !== correct && d.length > 0);
+      }
     }
 
     // Ensure no exact duplicates in distractors
     const uniqueDistractors = Array.from(new Set(distractors)).filter(d => d !== correct);
-    let attempts = 0;
-    while (uniqueDistractors.length < 3 && attempts < 50) {
-      attempts++;
-      const fallback = keigoVerbs[Math.floor(Math.random() * keigoVerbs.length)];
-      const res = getKeigoResult(fallback, formKey, 'masu');
-      if (res[0] !== '(なし)' && res[0] !== correct && !uniqueDistractors.includes(res[0])) {
-        uniqueDistractors.push(res[0]);
+    
+    // If we STILL don't have enough distractors, do NOT pull random verbs.
+    // Instead, do some basic string manipulation on the correct answer.
+    if (uniqueDistractors.length < 3) {
+      if (qData.correct_answer_type === 'bikago') {
+        uniqueDistractors.push('み' + qData.target_verb);
+        uniqueDistractors.push('貴' + qData.target_verb);
+      } else {
+        uniqueDistractors.push(correct.replace(/ます$/, 'ません'));
+        uniqueDistractors.push(correct.replace(/ます$/, 'ました'));
+        uniqueDistractors.push(correct.replace(/ます$/, 'ましたら'));
       }
     }
 
-    const choiceStrings = shuffle([correct, ...uniqueDistractors.slice(0, 3)]);
+    const choiceStrings = shuffle([correct, ...uniqueDistractors]).slice(0, 4);
 
-    const hintVi = qData.speaker === 'self' 
-      ? 'Hành động của Bản thân / Phe mình ➔ Dùng Khiêm Nhường Ngữ' 
-      : 'Hành động của Đối phương / Bề trên ➔ Dùng Tôn Kính Ngữ';
-    const hintEn = qData.speaker === 'self' 
-      ? 'Action of yourself / In-group ➔ Use Humble Form' 
-      : 'Action of the other person / Superior ➔ Use Honorific Form';
+    let hintVi = '';
+    let hintEn = '';
+    if (qData.correct_answer_type === 'bikago') {
+      hintVi = 'Dùng tiền tố お cho từ Thuần Nhật, ご cho từ Hán Nhật.';
+      hintEn = 'Use prefix お for Wago (Native Japanese), ご for Kango (Sino-Japanese).';
+    } else {
+      hintVi = qData.speaker === 'self' 
+        ? 'Hành động của Bản thân / Phe mình ➔ Dùng Khiêm Nhường Ngữ' 
+        : 'Hành động của Đối phương / Bề trên ➔ Dùng Tôn Kính Ngữ';
+      hintEn = qData.speaker === 'self' 
+        ? 'Action of yourself / In-group ➔ Use Humble Form' 
+        : 'Action of the other person / Superior ➔ Use Honorific Form';
+    }
 
-    const typeVi = qData.correct_answer_type === 'sonkeigo' ? 'Tôn kính ngữ' : qData.correct_answer_type === 'teineigo' ? 'Lịch sự ngữ' : 'Khiêm nhường ngữ';
+    const typeVi = qData.correct_answer_type === 'sonkeigo' ? 'Tôn kính ngữ' : 
+                   qData.correct_answer_type === 'teineigo' ? 'Lịch sự ngữ' : 
+                   qData.correct_answer_type === 'bikago' ? 'Mỹ hóa ngữ (お/ご)' : 'Khiêm nhường ngữ';
 
     return {
       id: Math.random().toString(),
@@ -269,7 +303,7 @@ export default function KeigoQuest() {
           </h2>
           <p className="text-slate-500 dark:text-slate-400 mb-3">{lang==='vi'?`Điểm số: ${score}`:`Score: ${score}`}</p>
           <div className="flex gap-3">
-            <button onClick={()=>navigate('/practice/keigo')} className="flex-1 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 text-slate-700 dark:text-white rounded-2xl font-semibold">
+            <button onClick={()=>navigate('/course/keigo-master/practice')} className="flex-1 py-3 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 text-slate-700 dark:text-white rounded-2xl font-semibold">
               {lang==='vi'?'Quay lại':'Back'}
             </button>
             <button onClick={init} className="flex-1 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold flex items-center justify-center gap-2">
@@ -285,7 +319,7 @@ export default function KeigoQuest() {
     <div className="min-h-[calc(100vh-3.5rem)] bg-slate-100 dark:bg-slate-900 flex flex-col">
       {/* TOP BAR */}
       <div className="flex items-center justify-between px-4 pt-4 pb-2">
-        <button onClick={()=>navigate('/practice/keigo')} className="p-2 rounded-full bg-white dark:bg-slate-800 text-slate-500 hover:text-slate-800 border border-slate-200 shadow-sm">
+        <button onClick={()=>navigate('/course/keigo-master/practice')} className="p-2 rounded-full bg-white dark:bg-slate-800 text-slate-500 hover:text-slate-800 border border-slate-200 shadow-sm">
           <ArrowLeft size={18}/>
         </button>
         <div className="flex items-center gap-2">

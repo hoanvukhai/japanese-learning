@@ -3,11 +3,14 @@ import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Clock, Flame, Heart } from 'lucide-react';
-import { vocabularyN3 } from '../../data/vocabularyN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
+import type { Word } from '../../types';
 import {
-  calculateMaxPossibleExp,
+  calculateMaxPossibleExp
 } from '../../lib/rankSystem';
-import shortcuts from '../../data/shortcuts.json';
+import { useAuth } from '../../context/auth/useAuth';
+import { syncPersonalHighScore } from '../../lib/srs/firestoreSync';
+import shortcuts from '../../data/jlpt/core/shortcuts.json';
 
 // Import local components and types
 import {
@@ -36,11 +39,14 @@ import VocabFlashcard from './components/VocabFlashcard';
 import VocabError from './components/VocabError';
 import VocabMatching from './components/VocabMatching';
 
-const BACK_PATH = '/practice/vocabulary';
 const RESULT_SECS = 5;
 
 export default function VocabFullRun() {
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const { course } = usePracticeContext();
+  const data = course.data as Word[];
+  const BACK_PATH = `/course/${course.id}/practice`;
 
   // Setup state
   const [level, setLevel] = useState<Level>('normal');
@@ -53,7 +59,7 @@ export default function VocabFullRun() {
   const lvl = LEVEL_CONFIG[level];
 
   // Game state
-  const questions = useMemo(() => buildQuestions(vocabularyN3, { totalQ: lvl.questions }), [lvl.questions, seed]);
+  const questions = useMemo(() => buildQuestions(data, { totalQ: lvl.questions }), [lvl.questions, seed, data]);
   const maxExp = useMemo(() => calculateMaxPossibleExp(questions, level, lvl.blitzSecs, 'vocab'), [questions, level, lvl.blitzSecs]);
   const [qIdx, setQIdx] = useState(0);
   const [correct, setCorrect] = useState(0);
@@ -65,6 +71,13 @@ export default function VocabFullRun() {
   const [lives, setLives] = useState(3);
   const [done, setDone] = useState(false);
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
+
+  // Sync high score to Firestore when done
+  useEffect(() => {
+    if (done && user && score > 0) {
+      syncPersonalHighScore(user.uid, 'vocab_fullrun', score);
+    }
+  }, [done, user, score]);
 
   // Per-question state
   const [typingInput, setTypingInput] = useState('');
@@ -359,7 +372,7 @@ export default function VocabFullRun() {
     <div className={`min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 flex flex-col font-sans transition-colors duration-500 ${isLivesCritical ? 'ring-[4px] ring-red-500/50 ring-inset' : ''}`}>
       {/* Top bar */}
       <div className="flex items-center justify-between px-4 pt-3 pb-2 bg-white dark:bg-slate-800 border-b border-slate-100 dark:border-slate-700">
-        <button onClick={() => setDone(true)} className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500">
+        <button onClick={() => { if(window.confirm('Thoát bài học? Kết quả chưa hoàn thành sẽ không được lưu.')) navigate(BACK_PATH) }} className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500">
           <ArrowLeft size={18} />
         </button>
         <div className="flex items-center gap-3 text-sm">

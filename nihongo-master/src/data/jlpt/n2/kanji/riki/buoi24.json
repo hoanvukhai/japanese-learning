@@ -1,0 +1,950 @@
+[
+  {
+    "id": "k_rkn2_24_331",
+    "character": "党",
+    "hanViet": "ĐẢNG",
+    "onyomi": "トウ",
+    "mnemonic": "Ông anh (兄) học (学) cảm tình Đảng (党)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_331_1",
+        "word": "政党",
+        "hiragana": "せいとう",
+        "hanVietWord": "CHÍNH ĐẢNG",
+        "meaning": {
+          "vi": "Đảng phái chính trị",
+          "en": "Political party"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "日本には様々な政党がある",
+            "vi": "Ở Nhật Bản có nhiều đảng phái chính trị khác nhau",
+            "en": "There are various political parties in Japan"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_331_2",
+        "word": "与党",
+        "hiragana": "よとう",
+        "hanVietWord": "DỮ ĐẢNG",
+        "meaning": {
+          "vi": "Đảng cầm quyền",
+          "en": "Ruling party"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "与党と野党の言い合い",
+            "vi": "Cuộc tranh luận giữa đảng cầm quyền và đảng đối lập",
+            "en": "Argument between the ruling party and the opposition party"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_331_3",
+        "word": "野党",
+        "hiragana": "やとう",
+        "hanVietWord": "DÃ ĐẢNG",
+        "meaning": {
+          "vi": "Đảng đối lập",
+          "en": "Opposition party"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_24_331_4",
+        "word": "悪党",
+        "hiragana": "あくとう",
+        "hanVietWord": "ÁC ĐẢNG",
+        "meaning": {
+          "vi": "Bọn xấu, kẻ ác",
+          "en": "Villain, scoundrel"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "お金を取る悪党",
+            "vi": "Bọn ác tước đoạt tiền bạc",
+            "en": "Villains who steal money"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_332",
+    "character": "民",
+    "hanViet": "DÂN",
+    "onyomi": "ミン",
+    "mnemonic": "Người dân (民)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_332_1",
+        "word": "国民",
+        "hiragana": "こくみん",
+        "hanVietWord": "QUỐC DÂN",
+        "meaning": {
+          "vi": "Quốc dân, nhân dân",
+          "en": "Citizens, people"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "国民の意見を反映してくれる政党に投票する",
+            "vi": "Bỏ phiếu cho đảng phái chính trị phản ánh ý kiến của nhân dân",
+            "en": "Vote for a political party that reflects the people's opinions"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_332_2",
+        "word": "民主主義",
+        "hiragana": "みんしゅしゅぎ",
+        "hanVietWord": "DÂN CHỦ CHỦ NGHĨA",
+        "meaning": {
+          "vi": "Chủ nghĩa dân chủ",
+          "en": "Democracy"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "日本は民主主義の国だ",
+            "vi": "Nhật Bản là quốc gia dân chủ",
+            "en": "Japan is a democratic country"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_332_3",
+        "word": "民族衣装",
+        "hiragana": "みんぞくいしょう",
+        "hanVietWord": "DÂN TỘC Y TRANG",
+        "meaning": {
+          "vi": "Trang phục dân tộc",
+          "en": "National costume, ethnic dress"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "サパで民族衣装を着る",
+            "vi": "Mặc trang phục dân tộc ở Sapa",
+            "en": "Wear ethnic clothing in Sapa"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_332_4",
+        "word": "民間企業",
+        "hiragana": "みんかんきぎょう",
+        "hanVietWord": "DÂN GIAN XÍ NGHIỆP",
+        "meaning": {
+          "vi": "Doanh nghiệp tư nhân",
+          "en": "Private enterprise"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "民間企業",
+            "vi": "Doanh nghiệp tư nhân",
+            "en": "Private enterprise"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_333",
+    "character": "挙",
+    "hanViet": "CỬ",
+    "kunyomi": "あ-げる",
+    "onyomi": "キョ",
+    "mnemonic": "Quang (光) giơ tay (手) xin ứng cử (挙)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_333_1",
+        "word": "挙手",
+        "hiragana": "きょしゅ",
+        "hanVietWord": "CỬ THỦ",
+        "meaning": {
+          "vi": "Giơ tay",
+          "en": "Raising one's hand"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "意見がある人は挙手してください",
+            "vi": "Người nào có ý kiến xin hãy giơ tay",
+            "en": "Those who have an opinion, please raise your hand"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_333_2",
+        "word": "挙式",
+        "hiragana": "きょしき",
+        "hanVietWord": "CỬ THỨC",
+        "meaning": {
+          "vi": "Tổ chức lễ (cưới)",
+          "en": "Holding a ceremony (esp. a wedding)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "鈴木さんは来週、挙式をする",
+            "vi": "Suzuki sẽ tổ chức lễ cưới vào tuần sau",
+            "en": "Mr./Ms. Suzuki will hold a wedding ceremony next week"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_333_3",
+        "word": "選挙",
+        "hiragana": "せんきょ",
+        "hanVietWord": "TUYỂN CỬ",
+        "meaning": {
+          "vi": "Bầu cử",
+          "en": "Election"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "選挙に行くのは国民の義務だ",
+            "vi": "Đi bầu cử là nghĩa vụ của công dân",
+            "en": "Going to vote is the duty of citizens"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_333_4",
+        "word": "挙げる",
+        "hiragana": "あげる",
+        "hanVietWord": "CỬ",
+        "meaning": {
+          "vi": "Đưa ra (ví dụ), giơ lên",
+          "en": "To give (an example), to raise"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "例を挙げて説明する",
+            "vi": "Đưa ra ví dụ và giải thích",
+            "en": "Explain by giving an example"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_334",
+    "character": "委",
+    "hanViet": "ỦY / UY",
+    "kunyomi": "ゆだ-ねる",
+    "onyomi": "イ",
+    "mnemonic": "Phụ nữ (女) thường được ủy thác (委) việc cấy lúa (禾)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_334_1",
+        "word": "委員長",
+        "hiragana": "いいんちょう",
+        "hanVietWord": "ỦY VIÊN TRƯỞNG",
+        "meaning": {
+          "vi": "Trưởng ban, chủ tịch ủy ban",
+          "en": "Committee chairman"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "委員長に立候補する人は挙手してください",
+            "vi": "Những người ứng cử vị trí trưởng ban hãy giơ tay",
+            "en": "Those who want to run for committee chairman, please raise your hand"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_334_2",
+        "word": "委託",
+        "hiragana": "いたく",
+        "hanVietWord": "ỦY THÁC",
+        "meaning": {
+          "vi": "Ủy thác, giao phó",
+          "en": "Entrustment, consignment"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "民間企業に仕事を委託する",
+            "vi": "Ủy thác công việc cho doanh nghiệp tư nhân",
+            "en": "Entrust work to a private enterprise"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_334_3",
+        "word": "委ねる",
+        "hiragana": "ゆだねる",
+        "hanVietWord": "ỦY",
+        "meaning": {
+          "vi": "Giao phó, ủy thác",
+          "en": "To entrust to, to leave to"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "最終判断は部長に委ねられた",
+            "vi": "Quyết định cuối cùng đã được giao cho trưởng phòng",
+            "en": "The final decision was entrusted to the department head"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_335",
+    "character": "権",
+    "hanViet": "QUYỀN",
+    "onyomi": "ケン",
+    "mnemonic": "Quyền(権) của con chim(隹) là nằm trên cây(木)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_335_1",
+        "word": "権力",
+        "hiragana": "けんりょく",
+        "hanVietWord": "QUYỀN LỰC",
+        "meaning": {
+          "vi": "Quyền lực",
+          "en": "Power, authority"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "選挙に当選し、権力を持つ",
+            "vi": "Trúng cử và nắm giữ quyền lực",
+            "en": "Win an election and hold power"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_335_2",
+        "word": "権利",
+        "hiragana": "けんり",
+        "hanVietWord": "QUYỀN LỢI",
+        "meaning": {
+          "vi": "Quyền lợi",
+          "en": "Right, privilege"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "国民の権利",
+            "vi": "Quyền lợi của người dân",
+            "en": "Rights of the citizens"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_335_3",
+        "word": "棄権",
+        "hiragana": "きけん",
+        "hanVietWord": "KHÍ QUYỀN",
+        "meaning": {
+          "vi": "Bỏ cuộc, từ bỏ quyền lợi",
+          "en": "Abstention, withdrawal, forfeiture of right"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "けがのため、オリンピックを棄権する",
+            "vi": "Vì bị thương nên tôi từ bỏ việc tham gia Olympic",
+            "en": "Withdraw from the Olympics due to an injury"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_336",
+    "character": "票",
+    "hanViet": "PHIẾU",
+    "onyomi": "ヒョウ",
+    "mnemonic": "Bỏ phiếu (票) để biểu thị (示) những gì quan trọng (覀)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_336_1",
+        "word": "投票",
+        "hiragana": "とうひょう",
+        "hanVietWord": "ĐẦU PHIẾU",
+        "meaning": {
+          "vi": "Bầu cử, bỏ phiếu",
+          "en": "Voting, poll"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "投票の結果、今年の社員旅行は沖縄に行くことになった。",
+            "vi": "Kết quả bỏ phiếu là chuyến du lịch công ty năm nay sẽ đi Okinawa.",
+            "en": "As a result of the vote, this year's company trip will be to Okinawa."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_336_2",
+        "word": "開票",
+        "hiragana": "かいひょう",
+        "hanVietWord": "KHAI PHIẾU",
+        "meaning": {
+          "vi": "Kiểm phiếu",
+          "en": "Counting of votes"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "選挙の開票が始まった",
+            "vi": "Việc kiểm phiếu bầu cử đã bắt đầu",
+            "en": "The counting of election votes has begun"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_336_3",
+        "word": "住民票",
+        "hiragana": "じゅうみんひょう",
+        "hanVietWord": "TRÚ DÂN PHIẾU",
+        "meaning": {
+          "vi": "Giấy chứng nhận cư trú",
+          "en": "Certificate of residence"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "引越し後は住民票を移す必要がある",
+            "vi": "Sau khi chuyển nhà cần phải chuyển giấy chứng nhận cư trú",
+            "en": "After moving, it is necessary to transfer the certificate of residence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_337",
+    "character": "統",
+    "hanViet": "THỐNG",
+    "onyomi": "トウ",
+    "mnemonic": "Sợi dây (糸) truyền thống(統) mang theo sự sung túc(充)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_337_1",
+        "word": "統一",
+        "hiragana": "とういつ",
+        "hanVietWord": "THỐNG NHẤT",
+        "meaning": {
+          "vi": "Thống nhất",
+          "en": "Unification, unity"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "国を統一する",
+            "vi": "Thống nhất đất nước",
+            "en": "Unify the country"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_337_2",
+        "word": "統括",
+        "hiragana": "とうかつ",
+        "hanVietWord": "THỐNG QUÁT",
+        "meaning": {
+          "vi": "Bao quát, quản lý chung",
+          "en": "Supervision, general control"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "田中部長はこのエリアを統括している",
+            "vi": "Trưởng phòng Tanaka đang quản lý/bao quát khu vực này",
+            "en": "Department Head Tanaka is supervising this area"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_337_3",
+        "word": "伝統的",
+        "hiragana": "でんとうてき",
+        "hanVietWord": "TRUYỀN THỐNG ĐÍCH",
+        "meaning": {
+          "vi": "Mang tính truyền thống",
+          "en": "Traditional"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "アオザイはベトナムの伝統的な服だ",
+            "vi": "Áo dài là trang phục truyền thống của Việt Nam",
+            "en": "Ao dai is a traditional Vietnamese dress"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_337_4",
+        "word": "統計",
+        "hiragana": "とうけい",
+        "hanVietWord": "THỐNG KẾ",
+        "meaning": {
+          "vi": "Thống kê",
+          "en": "Statistics"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "統計を出す",
+            "vi": "Đưa ra thống kê",
+            "en": "Produce statistics"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_338",
+    "character": "序",
+    "hanViet": "TỰ",
+    "kunyomi": "つい-で",
+    "onyomi": "ジョ",
+    "mnemonic": "Dự (予) ngồi trong nhà (广) chờ đến số thứ tự (序)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_338_1",
+        "word": "順序",
+        "hiragana": "じゅんじょ",
+        "hanVietWord": "THUẬN TỰ",
+        "meaning": {
+          "vi": "Thứ tự",
+          "en": "Order, sequence"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "順序を守る",
+            "vi": "Tuân thủ thứ tự",
+            "en": "Follow the order"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_338_2",
+        "word": "序列",
+        "hiragana": "じょれつ",
+        "hanVietWord": "TỰ LIỆT",
+        "meaning": {
+          "vi": "Thứ bậc, thứ tự (trong tổ chức)",
+          "en": "Rank, hierarchy"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "社内の序列",
+            "vi": "Thứ bậc trong công ty",
+            "en": "Hierarchy within the company"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_339",
+    "character": "批",
+    "hanViet": "PHÊ",
+    "onyomi": "ヒ",
+    "mnemonic": "Người tay (扌) to suốt ngày so (比) kè với kẻ yếu hơn thật đáng phê bình (批)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_339_1",
+        "word": "批判",
+        "hiragana": "ひはん",
+        "hanVietWord": "PHÊ PHÁN",
+        "meaning": {
+          "vi": "Sự phê phán, chỉ trích",
+          "en": "Criticism, judgement"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "あの議員は、ほかの政党の批判しかしない",
+            "vi": "Vị nghị sĩ đó chỉ toàn chỉ trích đảng phái khác",
+            "en": "That assemblyman does nothing but criticize other political parties"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_339_2",
+        "word": "批評",
+        "hiragana": "ひひょう",
+        "hanVietWord": "PHÊ BÌNH",
+        "meaning": {
+          "vi": "Sự phê bình, bình luận",
+          "en": "Review, critique"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "新作映画を批評する",
+            "vi": "Bình luận bộ phim mới ra",
+            "en": "Review a newly released movie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_340",
+    "character": "条",
+    "hanViet": "ĐIỀU",
+    "onyomi": "ジョウ",
+    "mnemonic": "Truy (夂) tìm điều (条) bí ẩn trốn sau cái cây (木)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_340_1",
+        "word": "第一条",
+        "hiragana": "だいいちじょう",
+        "hanVietWord": "ĐỆ NHẤT ĐIỀU",
+        "meaning": {
+          "vi": "Điều 1",
+          "en": "Article 1"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "憲法第一条",
+            "vi": "Điều 1 của Hiến pháp",
+            "en": "Article 1 of the Constitution"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_340_2",
+        "word": "条約",
+        "hiragana": "じょうやく",
+        "hanVietWord": "ĐIỀU ƯỚC",
+        "meaning": {
+          "vi": "Hiệp ước, hiệp định",
+          "en": "Treaty, pact"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "A国とB国はお互い平和条約を結んだ",
+            "vi": "Quốc gia A và quốc gia B đã ký kết hiệp ước hòa bình với nhau",
+            "en": "Country A and Country B mutually signed a peace treaty"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_340_3",
+        "word": "条例",
+        "hiragana": "じょうれい",
+        "hanVietWord": "ĐIỀU LỆ",
+        "meaning": {
+          "vi": "Điều lệ, quy định (của địa phương)",
+          "en": "Regulations, ordinance"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "A市は市長の給料を減らす条例を作った",
+            "vi": "Thành phố A đã đưa ra quy định giảm lương của thị trưởng",
+            "en": "City A made an ordinance to reduce the mayor's salary"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_340_4",
+        "word": "条件",
+        "hiragana": "じょうけん",
+        "hanVietWord": "ĐIỀU KIỆN",
+        "meaning": {
+          "vi": "Điều kiện",
+          "en": "Condition, terms"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "一番条件のいい会社を選ぶ",
+            "vi": "Chọn công ty có điều kiện tốt nhất",
+            "en": "Choose the company with the best conditions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_341",
+    "character": "司",
+    "hanViet": "TI",
+    "onyomi": "シ",
+    "mnemonic": "Làm quản lý (司) nói (口) 1 (一) lời chắc như đinh đóng cột",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_341_1",
+        "word": "司会者",
+        "hiragana": "しかいしゃ",
+        "hanVietWord": "TI HỘI GIẢ",
+        "meaning": {
+          "vi": "Người dẫn chương trình (MC)",
+          "en": "Master of ceremonies (MC), presenter"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "司会者",
+            "vi": "Người dẫn chương trình",
+            "en": "Master of ceremonies"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_341_2",
+        "word": "司法機関",
+        "hiragana": "しほうきかん",
+        "hanVietWord": "TI PHÁP CƠ QUAN",
+        "meaning": {
+          "vi": "Cơ quan tư pháp",
+          "en": "Judicial organ, judiciary"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "裁判所は代表的な司法機関である",
+            "vi": "Tòa án là cơ quan tư pháp tiêu biểu",
+            "en": "The court is a representative judicial organ"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_341_3",
+        "word": "上司",
+        "hiragana": "じょうし",
+        "hanVietWord": "THƯỢNG TI",
+        "meaning": {
+          "vi": "Cấp trên, sếp",
+          "en": "Boss, superior"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "上司の許可を得る",
+            "vi": "Nhận được sự cho phép của sếp",
+            "en": "Get permission from one's boss"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_342",
+    "character": "省",
+    "hanViet": "TỈNH",
+    "kunyomi": "はぶ-く, かえり-みる",
+    "onyomi": "ショウ, セイ",
+    "mnemonic": "MẮT (目) mà THIẾU (少) ngủ thì không TỈNH (省) được",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_342_1",
+        "word": "省略",
+        "hiragana": "しょうりゃく",
+        "hanVietWord": "TỈNH LƯỢC",
+        "meaning": {
+          "vi": "Sự lược bớt, tóm tắt",
+          "en": "Omission, abbreviation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "時間がないので挨拶は省略します",
+            "vi": "Vì không có thời gian nên tôi sẽ lược bớt phần chào hỏi",
+            "en": "Because there is no time, I will omit the greetings"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_342_2",
+        "word": "反省",
+        "hiragana": "はんせい",
+        "hanVietWord": "PHẢN TỈNH",
+        "meaning": {
+          "vi": "Sự kiểm điểm, xem xét lại bản thân",
+          "en": "Reflection, regret, repentance"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "あなたが悪かったからちゃんと反省しなさい!",
+            "vi": "Vì bạn đã làm sai nên hãy kiểm điểm lại cẩn thận đi!",
+            "en": "Since you were in the wrong, reflect properly on your actions!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_342_3",
+        "word": "省みる",
+        "hiragana": "かえりみる",
+        "hanVietWord": "TỈNH",
+        "meaning": {
+          "vi": "Nhìn lại (bản thân)",
+          "en": "To reflect on (oneself), to look back"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "人生を省みる",
+            "vi": "Nhìn lại cuộc đời",
+            "en": "Reflect on one's life"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_342_4",
+        "word": "省く",
+        "hiragana": "はぶく",
+        "hanVietWord": "TỈNH",
+        "meaning": {
+          "vi": "Lược bỏ, tiết kiệm",
+          "en": "To omit, to eliminate, to save"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "エネルギーを省く",
+            "vi": "Tiết kiệm năng lượng",
+            "en": "Save energy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_24_343",
+    "character": "庁",
+    "hanViet": "SẢNH",
+    "onyomi": "チョウ",
+    "mnemonic": "Cái sảnh (庁) trong nhà (广) rải nhiều đinh (丁)",
+    "level": "N2",
+    "lesson": "Buổi 24",
+    "words": [
+      {
+        "id": "kw_rkn2_24_343_1",
+        "word": "県庁",
+        "hiragana": "けんちょう",
+        "hanVietWord": "HUYỆN SẢNH",
+        "meaning": {
+          "vi": "Tòa thị chính tỉnh (huyện)",
+          "en": "Prefectural office"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "埼玉県庁",
+            "vi": "Tòa thị chính tỉnh Saitama",
+            "en": "Saitama Prefectural Office"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_24_343_2",
+        "word": "都庁",
+        "hiragana": "とちょう",
+        "hanVietWord": "ĐÔ SẢNH",
+        "meaning": {
+          "vi": "Tòa thị chính thủ đô (Tokyo)",
+          "en": "Tokyo Metropolitan Government Office"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "都庁は、新宿にある",
+            "vi": "Tòa thị chính thủ đô Tokyo nằm ở Shinjuku",
+            "en": "The Tokyo Metropolitan Government Office is in Shinjuku"
+          },
+          {
+            "jp": "東京都庁では夜無料で夜景が見られます",
+            "vi": "Tại Tòa thị chính thủ đô Tokyo, bạn có thể ngắm cảnh đêm miễn phí",
+            "en": "You can see the night view for free at the Tokyo Metropolitan Government Office"
+          }
+        ]
+      }
+    ]
+  }
+]

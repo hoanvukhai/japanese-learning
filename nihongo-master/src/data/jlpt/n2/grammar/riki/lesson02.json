@@ -1,0 +1,258 @@
+[
+  {
+    "id": "g_rkn2_02_01",
+    "level": "N2",
+    "structure": "〜末（に）",
+    "structureKana": "〜すえ（に）",
+    "meaning": {
+      "vi": "Sau một thời gian (dài)... thì cuối cùng...",
+      "en": "After a long period of time... finally..."
+    },
+    "formation": [
+      "N + の + 末（に）",
+      "Vた + 末（に）"
+    ],
+    "lesson": "Bài 2",
+    "group": "Time_Result",
+    "confusedWith": [
+      "〜あげく"
+    ],
+    "caution": {
+      "vi": "Nhấn mạnh việc ở cuối một khoảng thời gian dài, sau khi trải qua một quá trình (trăn trở, cân nhắc, suy xét, nỗ lực...) thì cuối cùng cũng có kết quả. Khác với あげく (luôn là kết quả xấu), 末に có thể là kết quả tốt hoặc xấu.",
+      "en": "Emphasizes that after a long period or a difficult process (pondering, struggling, making efforts), a result is finally reached. Unlike あげく (which always leads to a bad result), 末に can be followed by a good or bad result."
+    },
+    "examples": [
+      {
+        "jp": "長時間にわたる会議の[末]、結論を出した。",
+        "kana": "ちょうじかんにわたるかいぎの[すえ]、けつろんをだした。",
+        "vi": "[Sau] một cuộc họp kéo dài, cuối cùng đã đưa ra kết luận.",
+        "en": "[After] a long meeting, we finally reached a conclusion."
+      },
+      {
+        "jp": "いろいろと考えた[末]、この夏でサッカーを引退することを決めました。",
+        "kana": "いろいろとかんがえた[すえ]、このなつでサッカーをいんたいすることをきめました。",
+        "vi": "[Sau] khi suy nghĩ rất nhiều, tôi đã quyết định sẽ giải nghệ bóng đá vào mùa hè này.",
+        "en": "[After] thinking a lot, I decided to retire from soccer this summer."
+      },
+      {
+        "jp": "一生懸命勉強した[末に]早稲田大学に合格した。",
+        "kana": "いっしょうけんめいべんきょうした[すえに]わせだだいがくにごうかくした。",
+        "vi": "[Sau một thời gian] nỗ lực học tập chăm chỉ, tôi đã đỗ Đại học Waseda.",
+        "en": "[After] studying as hard as I could, I passed Waseda University."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_02_02",
+    "level": "N2",
+    "structure": "〜だけ",
+    "structureKana": "〜だけ",
+    "meaning": {
+      "vi": "Đến mức tối đa nhất có thể / Hết mức có thể...",
+      "en": "As much as possible / To the utmost extent..."
+    },
+    "formation": [
+      "V (thể thông thường) + だけ"
+    ],
+    "lesson": "Bài 2",
+    "group": "Limit_Extent",
+    "confusedWith": [],
+    "caution": {
+      "vi": "Thể hiện hành động đến mức tối đa có thể làm được, được chừng nào hay chừng ấy. Cũng có nghĩa là cho thoả thích, muốn bao nhiêu thì bấy nhiêu.",
+      "en": "Expresses doing something to the maximum possible extent, or doing something to one's heart's content (as much as one wants)."
+    },
+    "examples": [
+      {
+        "jp": "やれる[だけ]のことは全部やったから、もう自分を信じる[だけ]だね。",
+        "kana": "やれる[だけ]のことはぜんぶやったから、もうじぶんをしんじる[だけ]だね。",
+        "vi": "Những gì có thể làm tôi đã làm [hết mức có thể] rồi, nên giờ chỉ còn cách tin vào bản thân thôi.",
+        "en": "I did everything [as much as] I could, so now I just have to believe in myself."
+      },
+      {
+        "jp": "どうぞ、好きな[だけ]食べてください。",
+        "kana": "どうぞ、すきな[だけ]たべてください。",
+        "vi": "Xin mời ăn thoả thích [bao nhiêu tuỳ ý].",
+        "en": "Please eat [as much as] you like."
+      },
+      {
+        "jp": "泣きたい時は、我慢せずに泣きたい[だけ]泣けばいいと思うよ。",
+        "kana": "なきたいときは、がまんせずになきたい[だけ]なけばいいとおもうよ。",
+        "vi": "Những lúc muốn khóc thì tôi nghĩ bạn không cần kiềm chế, cứ khóc thoả thích [như bạn muốn].",
+        "en": "When you want to cry, I think you should just cry [as much as] you want without holding back."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_02_03",
+    "level": "N2",
+    "structure": "〜だけに / 〜だけあって",
+    "structureKana": "〜だけに / 〜だけあって",
+    "meaning": {
+      "vi": "Quả đúng là... / Chính vì... nên quả nhiên là...",
+      "en": "As expected of... / Precisely because..."
+    },
+    "formation": [
+      "N, Aな (bỏ だ) + なだけに / なだけあって",
+      "V, Aい (thể thông thường) + だけに / だけあって"
+    ],
+    "lesson": "Bài 2",
+    "group": "Cause_Reason",
+    "confusedWith": [
+      "〜ばかりに"
+    ],
+    "caution": {
+      "vi": "Nhấn mạnh vào lý do, đúng như người nói dự đoán hoặc mong đợi. 「だけあって」thường được dùng để khen ngợi người khác.",
+      "en": "Emphasizes the reason, meaning things are exactly as the speaker expected or anticipated. 「だけあって」is often used to praise someone."
+    },
+    "examples": [
+      {
+        "jp": "このレストランは高い[だけに]酒も料理も全部おいしい。",
+        "kana": "このレストランはたかい[だけに]さけもりょうりもぜんぶおいしい。",
+        "vi": "Nhà hàng này đắt tiền [nên quả nhiên là] rượu và đồ ăn đều ngon cả.",
+        "en": "This restaurant is expensive, [so as expected], all the alcohol and food are delicious."
+      },
+      {
+        "jp": "日本語を20年以上教えている[だけあって]、教え方がとても上手だ。",
+        "kana": "にほんごを20ねんいじょうおしえている[だけあって]、おしえかたがとてもじょうずだ。",
+        "vi": "[Quả đúng là] người dạy tiếng Nhật hơn 20 năm, cách dạy rất giỏi.",
+        "en": "[As expected of] someone who has been teaching Japanese for over 20 years, their teaching method is very good."
+      },
+      {
+        "jp": "携帯をなくした。。。昨日買ったばかりな[だけに]、ショックだ。",
+        "kana": "けいたいをなくした。。。きのうかったばかりな[だけに]、ショックだ。",
+        "vi": "Mất điện thoại rồi... [Chính vì] vừa mới mua hôm qua nên tôi thật sự rất sốc.",
+        "en": "I lost my phone... I am shocked [precisely because] I just bought it yesterday."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_02_04",
+    "level": "N2",
+    "structure": "〜だって",
+    "structureKana": "〜だって",
+    "meaning": {
+      "vi": "Nghe nói là... / Ngay cả... / Tại vì...",
+      "en": "I heard that... / Even... / Because..."
+    },
+    "formation": [
+      "(Truyền đạt lại) Thể thông thường + だって",
+      "(Ngay cả, Thậm chí) N + だって"
+    ],
+    "lesson": "Bài 2",
+    "group": "Hearsay_Emphasis",
+    "confusedWith": [
+      "〜って",
+      "〜みたい",
+      "〜らしい"
+    ],
+    "caution": {
+      "vi": "Dùng rất nhiều trong văn nói với nhiều nghĩa: 1. Nghe nói (truyền đạt lại thông tin, giống みたい/らしい). 2. Thậm chí, ngay cả (giống も/でも). 3. Ấy là tại vì... (nhấn mạnh nguyên nhân biện hộ).",
+      "en": "Very common in spoken language with multiple meanings: 1. Hearsay (like みたい/らしい). 2. Even (like も/でも). 3. Because... (emphasizing an excuse/reason)."
+    },
+    "examples": [
+      {
+        "jp": "今日の野球の試合は、天気が悪いから中止なん[だって]。",
+        "kana": "きょうのやきゅうのしあいは、てんきがわるいからちゅうしなん[だって]。",
+        "vi": "[Nghe nói] trận bóng chày hôm nay bị hủy vì thời tiết xấu đấy.",
+        "en": "[I heard that] today's baseball game was canceled because of the bad weather."
+      },
+      {
+        "jp": "この漢字、小学生[だって]読めるよ。",
+        "kana": "このかんじ、しょうがくせい[だって]よめるよ。",
+        "vi": "Chữ Hán này thì [đến cả] học sinh tiểu học cũng đọc được đấy.",
+        "en": "[Even] an elementary school student can read this kanji."
+      },
+      {
+        "jp": "中村くん、毎日ジョギングしてるん[だって]？",
+        "kana": "なかむらくん、まいにちジョギングしてるん[だって]？",
+        "vi": "Nakamura, [nghe nói] cậu chạy bộ mỗi ngày à?",
+        "en": "Nakamura, [is it true that] you go jogging every day?"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_02_05",
+    "level": "N2",
+    "structure": "〜て以来",
+    "structureKana": "〜ていらい",
+    "meaning": {
+      "vi": "Kể từ khi... (thì vẫn luôn...)",
+      "en": "Ever since... (has continued to...)"
+    },
+    "formation": [
+      "Vて + 以来",
+      "N + 以来"
+    ],
+    "lesson": "Bài 2",
+    "group": "Time_Continuing",
+    "confusedWith": [
+      "〜て初めて",
+      "〜てから"
+    ],
+    "caution": {
+      "vi": "Nhấn mạnh việc kể từ khi sự việc đó xảy ra thì vẫn luôn giữ nguyên trạng thái không có gì thay đổi cho tới tận bây giờ. Tránh nhầm lẫn với 「て初めて」 (kể từ khi làm gì đó thì mới bắt đầu nhận ra/có sự thay đổi).",
+      "en": "Emphasizes that ever since an event occurred, a certain state has continued unchanged until now. Do not confuse with 「て初めて」 (only after doing something did one realize/start a change)."
+    },
+    "examples": [
+      {
+        "jp": "卒業し[て以来]会っていない。",
+        "kana": "そつぎょうし[ていらい]あっていない。",
+        "vi": "[Kể từ khi] tốt nghiệp đến nay chúng tôi vẫn chưa gặp lại nhau.",
+        "en": "[Ever since] we graduated, we haven't met."
+      },
+      {
+        "jp": "けんかし[て以来]、一回も話してない。",
+        "kana": "けんかし[ていらい]、いっかいもはなしてない。",
+        "vi": "[Kể từ khi] cãi nhau đến nay, chúng tôi chưa nói chuyện với nhau một lần nào.",
+        "en": "[Ever since] we fought, we haven't spoken a single time."
+      },
+      {
+        "jp": "このカバンは就職した時に買っ[て以来]ずっと使っています。",
+        "kana": "このカバンはしゅうしょくしたときにかっ[ていらい]ずっとつかっています。",
+        "vi": "Cái cặp này [kể từ khi] mua lúc đi làm đến nay tôi vẫn luôn sử dụng.",
+        "en": "I have been using this bag continuously [ever since] I bought it when I started working."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_02_06",
+    "level": "N2",
+    "structure": "〜のではないか / 〜んじゃない",
+    "structureKana": "〜のではないか / 〜んじゃない",
+    "meaning": {
+      "vi": "Chẳng phải là... hay sao? / Tôi nghĩ là...",
+      "en": "Isn't it that...? / I think that..."
+    },
+    "formation": [
+      "Thể thông thường + のではないか / んじゃないか",
+      "Aな, N + なのではないか / なんじゃないか"
+    ],
+    "lesson": "Bài 2",
+    "group": "Opinion_Conjecture",
+    "confusedWith": [],
+    "caution": {
+      "vi": "Dùng để nhấn mạnh ý kiến, phán đoán của người nói (mặc dù có hình thức là câu hỏi phủ định nhưng mang nghĩa khẳng định). 「のではないか」dùng trong văn viết, phát biểu trang trọng. Trong văn nói thân mật thường dùng 「んじゃない」.",
+      "en": "Used to emphasize the speaker's opinion or conjecture (despite being a negative question, it conveys a strong affirmative guess). 「のではないか」is used in formal writing/speeches. In casual speech, 「んじゃない」is used."
+    },
+    "examples": [
+      {
+        "jp": "「このまだと国はダメになる[のではないか]！」",
+        "kana": "「このままだとくにはダメになる[のではないか]！」",
+        "vi": "\"Cứ thế này [chẳng phải] đất nước sẽ hỏng bét [hay sao]!\"",
+        "en": "\"If things continue like this, [isn't it that] the country will be ruined!\""
+      },
+      {
+        "jp": "風が強かったから、外に落ちちゃった[んじゃない]？",
+        "kana": "かぜがつよかったから、そとにおちちゃった[んじゃない]？",
+        "vi": "Vì gió mạnh nên [chẳng phải là] nó đã rơi ra ngoài rồi [sao]?",
+        "en": "Because the wind was strong, [isn't it that] it fell outside?"
+      },
+      {
+        "jp": "もう来た[んじゃない]？",
+        "kana": "もうきた[んじゃない]？",
+        "vi": "[Hình như] người đó đã đến rồi đó, [phải không]?",
+        "en": "[I think] they have already arrived, [haven't they]?"
+      }
+    ]
+  }
+]

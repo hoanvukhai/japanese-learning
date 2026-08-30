@@ -1,0 +1,511 @@
+[
+    {
+        "id": "k_rkn3_11_01",
+        "character": "札",
+        "hanViet": "TRÁT",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_01_1",
+                "word": "～札",
+                "hanVietWord": "TRÁT",
+                "hiragana": "～さつ",
+                "meaning": {
+                    "vi": "Tờ (đếm tiền giấy)",
+                    "en": "Bill / Note counter"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "千円札を一枚出す。",
+                        "vi": "Đưa ra một tờ 1000 yên.",
+                        "en": "Take out a 1000-yen bill."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_01_2",
+                "word": "名札",
+                "hanVietWord": "DANH TRÁT",
+                "hiragana": "なふだ",
+                "meaning": {
+                    "vi": "Thẻ tên",
+                    "en": "Name tag"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "胸に名札をつける。",
+                        "vi": "Đeo thẻ tên trước ngực.",
+                        "en": "Wear a name tag on the chest."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_02",
+        "character": "材",
+        "hanViet": "TÀI",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_02_1",
+                "word": "材料",
+                "hanVietWord": "TÀI LIỆU",
+                "hiragana": "ざい료う",
+                "meaning": {
+                    "vi": "Nguyên liệu / Vật liệu",
+                    "en": "Ingredients / Material"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "料理の材料を買いにいく。",
+                        "vi": "Đi mua nguyên liệu nấu ăn.",
+                        "en": "Go to buy cooking ingredients."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_02_2",
+                "word": "教材",
+                "hanVietWord": "GIÁO TÀI",
+                "hiragana": "きょうざい",
+                "meaning": {
+                    "vi": "Tài liệu giảng dạy",
+                    "en": "Teaching materials"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい教材を準備する。",
+                        "vi": "Chuẩn bị tài liệu giảng dạy mới.",
+                        "en": "Prepare new teaching materials."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_02_3",
+                "word": "取材",
+                "hanVietWord": "THỦ TÀI",
+                "hiragana": "しゅざい",
+                "meaning": {
+                    "vi": "Thu thập tư liệu / Phỏng vấn",
+                    "en": "Data collection / Interview"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "有名人に取材を申し込む。",
+                        "vi": "Đăng ký phỏng vấn người nổi tiếng.",
+                        "en": "Apply for an interview with a celebrity."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_03",
+        "character": "枚",
+        "hanViet": "MAI",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_03_1",
+                "word": "何枚",
+                "hanVietWord": "HÀ MAI",
+                "hiragana": "なんまい",
+                "meaning": {
+                    "vi": "Mấy tờ / Mấy tấm",
+                    "en": "How many sheets"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "チケットは何枚必要ですか。",
+                        "vi": "Cần mấy tấm vé vậy?",
+                        "en": "How many tickets do you need?"
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_03_2",
+                "word": "枚数",
+                "hanVietWord": "MAI SỐ",
+                "hiragana": "まいすう",
+                "meaning": {
+                    "vi": "Số tờ / Số tấm",
+                    "en": "Number of sheets"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "コピーの枚数を確認する。",
+                        "vi": "Xác nhận lại số tờ photo.",
+                        "en": "Check the number of copies."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_03_3",
+                "word": "～枚",
+                "hanVietWord": "MAI",
+                "hiragana": "～まい",
+                "meaning": {
+                    "vi": "Đếm vật mỏng (tờ, tấm...)",
+                    "en": "Counter for flat objects"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "紙を三枚持ってくる。",
+                        "vi": "Mang lại đây 3 tờ giấy.",
+                        "en": "Bring three sheets of paper."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_04",
+        "character": "機",
+        "hanViet": "CƠ",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_04_1",
+                "word": "機械",
+                "hanVietWord": "CƠ GIỚI",
+                "hiragana": "きかい",
+                "meaning": {
+                    "vi": "Máy móc",
+                    "en": "Machine"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "工場の機械を動かす。",
+                        "vi": "Vận hành máy móc của nhà máy.",
+                        "en": "Operate the factory machine."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_04_2",
+                "word": "洗濯機",
+                "hanVietWord": "TẨY TRẠC CƠ",
+                "hiragana": "せんたくき",
+                "meaning": {
+                    "vi": "Máy giặt",
+                    "en": "Washing machine"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しい洗濯機を買った。",
+                        "vi": "Tôi đã mua chiếc máy giặt mới.",
+                        "en": "I bought a new washing machine."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_04_3",
+                "word": "機会",
+                "hanVietWord": "CƠ HỘI",
+                "hiragana": "きかい",
+                "meaning": {
+                    "vi": "Cơ hội",
+                    "en": "Opportunity"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "留学の機会を逃さないで。",
+                        "vi": "Đừng bỏ lỡ cơ hội du học.",
+                        "en": "Don't miss the study abroad opportunity."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_05",
+        "character": "横",
+        "hanViet": "HOÀNH",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_05_1",
+                "word": "横",
+                "hanVietWord": "HOÀNH",
+                "hiragana": "よこ",
+                "meaning": {
+                    "vi": "Bên cạnh / Chiều ngang",
+                    "en": "Side / Horizontal"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "ノートに横の線を引く。",
+                        "vi": "Kẻ một đường ngang vào vở.",
+                        "en": "Draw a horizontal line in the notebook."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_05_2",
+                "word": "横断歩道",
+                "hanVietWord": "HOÀNH ĐOẠN BỘ ĐẠO",
+                "hiragana": "おうだんほどう",
+                "meaning": {
+                    "vi": "Vạch qua đường",
+                    "en": "Pedestrian crossing"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "横断歩道を渡りましょう。",
+                        "vi": "Hãy cùng sang đường ở vạch qua đường.",
+                        "en": "Let's cross at the pedestrian crossing."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_06",
+        "character": "根",
+        "hanViet": "CĂN",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_06_1",
+                "word": "大根",
+                "hanVietWord": "ĐẠI CĂN",
+                "hiragana": "だいこん",
+                "meaning": {
+                    "vi": "Củ cải trắng",
+                    "en": "White radish"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "大根のスープを作る。",
+                        "vi": "Nấu súp củ cải trắng.",
+                        "en": "Make white radish soup."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_06_2",
+                "word": "根",
+                "hanVietWord": "CĂN",
+                "hiragana": "ね",
+                "meaning": {
+                    "vi": "Rễ / Gốc",
+                    "en": "Root"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "草の根を抜く。",
+                        "vi": "Nhổ rễ cỏ.",
+                        "en": "Pull out the grass root."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_06_3",
+                "word": "屋根",
+                "hanVietWord": "ỐC CĂN",
+                "hiragana": "やね",
+                "meaning": {
+                    "vi": "Mái nhà",
+                    "en": "Roof"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "屋根を修理する。",
+                        "vi": "Sửa chữa mái nhà.",
+                        "en": "Repair the roof."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_07",
+        "character": "相",
+        "hanViet": "TƯƠNG",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_07_1",
+                "word": "相談",
+                "hanVietWord": "TƯƠNG ĐÀM",
+                "hiragana": "そうだん",
+                "meaning": {
+                    "vi": "Trao đổi / Bàn bạc",
+                    "en": "Consultation / Discussion"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "先生に進路を相談する。",
+                        "vi": "Thảo luận hướng đi tương lai với giáo viên.",
+                        "en": "Consult the teacher about my career path."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_07_2",
+                "word": "首相",
+                "hanVietWord": "THỦ TƯỚNG",
+                "hiragana": "しゅしょう",
+                "meaning": {
+                    "vi": "Thủ tướng",
+                    "en": "Prime Minister"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "日本の首相が演説する。",
+                        "vi": "Thủ tướng Nhật Bản phát biểu diễn thuyết.",
+                        "en": "The Japanese Prime Minister gives a speech."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_07_3",
+                "word": "相手",
+                "hanVietWord": "TƯƠNG THỦ",
+                "hiragana": "あいて",
+                "meaning": {
+                    "vi": "Đối phương / Người kia",
+                    "en": "Partner / Opponent"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "相手の顔をしっかり見る。",
+                        "vi": "Nhìn thẳng vào khuôn mặt của đối phương.",
+                        "en": "Look firmly at the partner's face."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_07_4",
+                "word": "相変わらず",
+                "hanVietWord": "TƯƠNG BIẾN",
+                "hiragana": "あいかわらず",
+                "meaning": {
+                    "vi": "Vẫn như mọi khi",
+                    "en": "As usual"
+                },
+                "type": "adv",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼は相変わらず元気だ。",
+                        "vi": "Anh ấy vẫn khỏe mạnh như mọi khi.",
+                        "en": "He is healthy as usual."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_11_08",
+        "character": "想",
+        "hanViet": "TƯỞNG",
+        "level": "N3",
+        "lesson": "Bài 11",
+        "words": [
+            {
+                "id": "kw_rkn3_11_08_1",
+                "word": "感想",
+                "hanVietWord": "CẢM TƯỞNG",
+                "hiragana": "かんそう",
+                "meaning": {
+                    "vi": "Cảm tưởng",
+                    "en": "Impression / Thoughts"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "映画の感想を書く。",
+                        "vi": "Viết cảm tưởng về bộ phim.",
+                        "en": "Write impressions of the movie."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_08_2",
+                "word": "予想",
+                "hanVietWord": "DỰ TƯỞNG",
+                "hiragana": "よそう",
+                "meaning": {
+                    "vi": "Dự đoán",
+                    "en": "Prediction / Expectation"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "結果は予想と違った。",
+                        "vi": "Kết quả đã khác so với dự đoán.",
+                        "en": "The result was different from the prediction."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_11_08_3",
+                "word": "想像",
+                "hanVietWord": "TƯỞNG TƯỢNG",
+                "hiragana": "そうぞう",
+                "meaning": {
+                    "vi": "Tưởng tượng",
+                    "en": "Imagination"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "未来の生活を想像する。",
+                        "vi": "Tưởng tượng về cuộc sống tương lai.",
+                        "en": "Imagine future life."
+                    }
+                ]
+            }
+        ]
+    }
+]

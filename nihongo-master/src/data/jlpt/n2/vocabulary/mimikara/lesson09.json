@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "v_mon2_09_791",
+    "kanji": "インテリア",
+    "hiragana": "インテリア",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nội thất, trang trí",
+      "en": "Interior"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "部屋のインテリア。",
+        "vi": "Nội thất căn phòng.",
+        "en": "Interior"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_792",
+    "kanji": "コーナー",
+    "hiragana": "コーナー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Góc, phần, mục",
+      "en": "Corner"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "おもちゃのコーナー。",
+        "vi": "Khu vực đồ chơi.",
+        "en": "Corner"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_793",
+    "kanji": "カウンター",
+    "hiragana": "カウンター",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Quầy",
+      "en": "Counter"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "カウンター席。",
+        "vi": "Ghế ở quầy.",
+        "en": "Counter"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_794",
+    "kanji": "スペース",
+    "hiragana": "スペース",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chỗ, khoảng trống",
+      "en": "Space"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "駐車スペース。",
+        "vi": "Không gian đỗ xe.",
+        "en": "Space"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_795",
+    "kanji": "オープン",
+    "hiragana": "オープン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mở",
+      "en": "Open"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "新しくオープンした店。",
+        "vi": "Cửa hàng mới mở.",
+        "en": "Open"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_796",
+    "kanji": "センター",
+    "hiragana": "センター",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trung tâm",
+      "en": "Center"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ショッピングセンター。",
+        "vi": "Trung tâm mua sắm.",
+        "en": "Center"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_797",
+    "kanji": "カルチャー",
+    "hiragana": "カルチャー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Văn hoá",
+      "en": "Culture"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "カルチャーセンター。",
+        "vi": "Trung tâm văn hóa.",
+        "en": "Culture"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_798",
+    "kanji": "ブーム",
+    "hiragana": "ブーム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bùng nổ",
+      "en": "Boom"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "タピオカブーム。",
+        "vi": "Trào lưu trà sữa trân châu.",
+        "en": "Boom"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_799",
+    "kanji": "インフォメーション",
+    "hiragana": "インフォメーション",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thông tin",
+      "en": "Information"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "インフォメーションデスク。",
+        "vi": "Quầy thông tin.",
+        "en": "Information"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_800",
+    "kanji": "キャッチ",
+    "hiragana": "キャッチ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bắt",
+      "en": "Catch"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ボールをキャッチする。",
+        "vi": "Bắt quả bóng.",
+        "en": "Catch"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_801",
+    "kanji": "メディア",
+    "hiragana": "メディア",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Truyền thông",
+      "en": "Media"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "マスメディア。",
+        "vi": "Phương tiện truyền thông đại chúng.",
+        "en": "Media"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_802",
+    "kanji": "コメント",
+    "hiragana": "コメント",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bình luận",
+      "en": "Comment"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "コメントを残す。",
+        "vi": "Để lại bình luận.",
+        "en": "Comment"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_803",
+    "kanji": "コラム",
+    "hiragana": "コラム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cột",
+      "en": "Column"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "新聞のコラム。",
+        "vi": "Cột báo.",
+        "en": "Column"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_804",
+    "kanji": "エピソード",
+    "hiragana": "エピソード",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tập, chuyện vặt",
+      "en": "Episode"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "面白いエピソード。",
+        "vi": "Câu chuyện thú vị.",
+        "en": "Episode"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_805",
+    "kanji": "アリバイ",
+    "hiragana": "アリバイ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chứng cứ ngoại phạm",
+      "en": "Alibi"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "アリバイを証明する。",
+        "vi": "Chứng minh chứng cứ ngoại phạm.",
+        "en": "Alibi"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_806",
+    "kanji": "シリーズ",
+    "hiragana": "シリーズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Series, loạt (phim, truyện)",
+      "en": "Series"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "人気ドラマのシリーズ。",
+        "vi": "Series phim truyền hình ăn khách.",
+        "en": "Series"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_807",
+    "kanji": "ポイント",
+    "hiragana": "ポイント",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Điểm, mấu chốt",
+      "en": "Point"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ポイントカード。",
+        "vi": "Thẻ tích điểm.",
+        "en": "Point"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_808",
+    "kanji": "キー",
+    "hiragana": "キー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chìa khóa",
+      "en": "Key"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "車のキー。",
+        "vi": "Chìa khóa xe.",
+        "en": "Key"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_809",
+    "kanji": "マスター",
+    "hiragana": "マスター",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Làm chủ, thành thạo",
+      "en": "Master"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "英語をマスターする。",
+        "vi": "Thành thạo tiếng Anh.",
+        "en": "Master"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_810",
+    "kanji": "ビジネス",
+    "hiragana": "ビジネス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kinh doanh",
+      "en": "Business"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ビジネスを始める。",
+        "vi": "Bắt đầu kinh doanh.",
+        "en": "Business"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_811",
+    "kanji": "キャリア",
+    "hiragana": "キャリア",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự nghiệp",
+      "en": "Career"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "キャリアを積む。",
+        "vi": "Tích lũy kinh nghiệm nghề nghiệp.",
+        "en": "Career"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_812",
+    "kanji": "ベテラン",
+    "hiragana": "ベテラン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kỳ cựu, chuyên gia",
+      "en": "Veteran"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ベテランの選手。",
+        "vi": "Tuyển thủ kỳ cựu.",
+        "en": "Veteran"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_813",
+    "kanji": "フリー",
+    "hiragana": "フリー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Người làm việc tự do",
+      "en": "Freelance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "フリーのカメラマン。",
+        "vi": "Nhiếp ảnh gia tự do.",
+        "en": "Freelance"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_814",
+    "kanji": "エコノミー",
+    "hiragana": "エコノミー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kinh tế",
+      "en": "Economy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "エコノミークラス。",
+        "vi": "Hạng phổ thông (máy bay).",
+        "en": "Economy"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_815",
+    "kanji": "キャッシュ",
+    "hiragana": "キャッシュ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tiền mặt",
+      "en": "Cash"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "キャッシュで払う。",
+        "vi": "Trả bằng tiền mặt.",
+        "en": "Cash"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_816",
+    "kanji": "インフレ",
+    "hiragana": "インフレ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lạm phát",
+      "en": "Inflation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "インフレが進む。",
+        "vi": "Lạm phát gia tăng.",
+        "en": "Inflation"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_817",
+    "kanji": "デモ",
+    "hiragana": "デモ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Biểu tình phản đối",
+      "en": "Demonstration"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "デモ行進。",
+        "vi": "Cuộc diễu hành biểu tình.",
+        "en": "Demonstration"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_818",
+    "kanji": "メーカー",
+    "hiragana": "メーカー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhà sản xuất",
+      "en": "Manufacturer"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "自動車メーカー。",
+        "vi": "Nhà sản xuất ô tô.",
+        "en": "Manufacturer"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_819",
+    "kanji": "システム",
+    "hiragana": "システム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hệ thống",
+      "en": "System"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "新しいシステムを導入する。",
+        "vi": "Áp dụng hệ thống mới.",
+        "en": "System"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_820",
+    "kanji": "ケース",
+    "hiragana": "ケース",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hộp, trường hợp",
+      "en": "Case"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "スマホのケース。",
+        "vi": "Ốp lưng điện thoại.",
+        "en": "Case"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_821",
+    "kanji": "パターン",
+    "hiragana": "パターン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mẫu, mẫu thử, họa tiết",
+      "en": "Pattern"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "花柄のパターン。",
+        "vi": "Họa tiết hình hoa.",
+        "en": "Pattern"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_822",
+    "kanji": "プラン",
+    "hiragana": "プラン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kế hoạch",
+      "en": "Plan"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "旅行のプラン。",
+        "vi": "Kế hoạch du lịch.",
+        "en": "Plan"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_823",
+    "kanji": "トラブル",
+    "hiragana": "トラブル",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Rắc rối",
+      "en": "Trouble"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "トラブルに巻き込まれる。",
+        "vi": "Bị cuốn vào rắc rối.",
+        "en": "Trouble"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_824",
+    "kanji": "エラー",
+    "hiragana": "エラー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lỗi",
+      "en": "Error"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "エラーが発生する。",
+        "vi": "Phát sinh lỗi.",
+        "en": "Error"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_825",
+    "kanji": "クレーム",
+    "hiragana": "クレーム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Phàn nàn",
+      "en": "Complaint"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "客からのクレーム。",
+        "vi": "Sự phàn nàn từ khách hàng.",
+        "en": "Complaint"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_826",
+    "kanji": "キャンセル",
+    "hiragana": "キャンセル",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hủy bỏ",
+      "en": "Cancel"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "予約をキャンセルする。",
+        "vi": "Hủy đặt chỗ.",
+        "en": "Cancel"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_827",
+    "kanji": "ストップ",
+    "hiragana": "ストップ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ngưng, dừng",
+      "en": "Stop"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "作業をストップする。",
+        "vi": "Dừng công việc.",
+        "en": "Stop"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_828",
+    "kanji": "カット",
+    "hiragana": "カット",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cắt, giảm",
+      "en": "Cut"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "予算をカットする。",
+        "vi": "Cắt giảm ngân sách.",
+        "en": "Cut"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_829",
+    "kanji": "カバー",
+    "hiragana": "カバー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bọc, phủ, bao che",
+      "en": "Cover"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "本のカバー。",
+        "vi": "Bìa sách.",
+        "en": "Cover"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_830",
+    "kanji": "リハビリ",
+    "hiragana": "リハビリ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Phục hồi",
+      "en": "Rehabilitation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "リハビリを続ける。",
+        "vi": "Tiếp tục phục hồi chức năng.",
+        "en": "Rehabilitation"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_831",
+    "kanji": "プレッシャー",
+    "hiragana": "プレッシャー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Áp lực",
+      "en": "Pressure"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "プレッシャーを感じる。",
+        "vi": "Cảm thấy áp lực.",
+        "en": "Pressure"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_832",
+    "kanji": "カウンセリング",
+    "hiragana": "カウンセリング",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tư vấn, khuyến cáo",
+      "en": "Counseling"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "カウンセリングを受ける。",
+        "vi": "Nhận tư vấn.",
+        "en": "Counseling"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_833",
+    "kanji": "キャラクター",
+    "hiragana": "キャラクター",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tính cách, nhân vật",
+      "en": "Character"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "アニメのキャラクター。",
+        "vi": "Nhân vật anime.",
+        "en": "Character"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_834",
+    "kanji": "ユニーク",
+    "hiragana": "ユニーク",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Độc nhất, đặc biệt",
+      "en": "Unique"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ユニークなアイデア。",
+        "vi": "Ý tưởng độc đáo.",
+        "en": "Unique"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_835",
+    "kanji": "ルーズ",
+    "hiragana": "ルーズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lỏng lẻo, cẩu thả",
+      "en": "Loose"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "時間にルーズな人。",
+        "vi": "Người cẩu thả về thời gian.",
+        "en": "Loose"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_836",
+    "kanji": "ロマンチック",
+    "hiragana": "ロマンチック",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lãng mạn",
+      "en": "Romantic"
+    },
+    "type": "adj_na",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ロマンチックな映画。",
+        "vi": "Bộ phim lãng mạn.",
+        "en": "Romantic"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_837",
+    "kanji": "センス",
+    "hiragana": "センス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cảm giác, ý thức, giác quan",
+      "en": "Sense"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ユーモアのセンスがある。",
+        "vi": "Có khiếu hài hước.",
+        "en": "Sense"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_838",
+    "kanji": "エコロジー",
+    "hiragana": "エコロジー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hệ sinh thái",
+      "en": "Ecology"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "エコロジーに配慮する。",
+        "vi": "Quan tâm đến hệ sinh thái.",
+        "en": "Ecology"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_839",
+    "kanji": "ダム",
+    "hiragana": "ダム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đập nước",
+      "en": "Dam"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "ダムを建設する。",
+        "vi": "Xây dựng đập nước.",
+        "en": "Dam"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_09_840",
+    "kanji": "コンクリート",
+    "hiragana": "コンクリート",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bê tông",
+      "en": "Concrete"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 9",
+    "examples": [
+      {
+        "jp": "コンクリートの壁。",
+        "vi": "Bức tường bê tông.",
+        "en": "Concrete"
+      }
+    ]
+  }
+]

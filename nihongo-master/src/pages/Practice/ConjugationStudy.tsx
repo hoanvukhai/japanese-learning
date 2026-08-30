@@ -136,10 +136,10 @@ export default function ConjugationStudy() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 md:p-8 font-sans">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="flex-1">
-            <Link to="/study" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-4 transition-colors font-medium">
+            <Link to="/course/verb-conjugation" className="inline-flex items-center gap-2 text-slate-500 hover:text-blue-600 mb-4 transition-colors font-medium">
               <ArrowLeft size={18} /> Quay lại Học Tập
             </Link>
             <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2 flex items-center gap-2">

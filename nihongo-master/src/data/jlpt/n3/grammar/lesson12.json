@@ -1,0 +1,234 @@
+[
+  {
+    "id": "g_rkn3_12_01",
+    "level": "N3",
+    "structure": "〜らしい (đặc trưng)",
+    "structureKana": "〜らしい",
+    "meaning": {
+      "vi": "Đúng chuẩn... / Ra dáng... / Đậm chất... (thể hiện đúng bản chất lý tưởng)",
+      "en": "Typical of... / Like a true... (exhibits true ideal nature)"
+    },
+    "formation": [
+      "N + らしい"
+    ],
+    "lesson": "Bài 12",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Đây là nghĩa 1 của らしい — chỉ tính chất đặc trưng. Nghĩa 2 của らしい (nghe nói) khác hoàn toàn. Phân biệt: らしい(đặc trưng)=N+らしい, みたいだ=so sánh bề ngoài với thứ khác.",
+      "en": "⚠️ JLPT Trap: This is meaning 1 of らしい — characteristic nature. Meaning 2 of らしい (hearsay) is completely different. らしい(characteristic)=N+らしい, みたいだ=appearance comparison."
+    },
+    "examples": [
+      {
+        "jp": "今日は春[らしい]暖かい一日だった。",
+        "kana": "きょうははる[らしい]あたたかいいちにちだった。",
+        "vi": "Hôm nay là một ngày ấm áp đúng chuẩn mùa xuân.",
+        "en": "Today was a warm day typical of spring."
+      },
+      {
+        "jp": "もっと自分[らしい]生き方をしたい。",
+        "kana": "もっとじぶん[らしい]いきかたをしたい。",
+        "vi": "Tôi muốn sống một lối sống đậm chất bản thân mình hơn.",
+        "en": "I want to live a life that is more true to myself."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_12_02",
+    "level": "N3",
+    "structure": "〜らしい (nghe nói)",
+    "structureKana": "〜らしい",
+    "meaning": {
+      "vi": "Nghe nói... / Có vẻ như... (suy luận dựa vào thông tin gián tiếp)",
+      "en": "I heard that... / Apparently... / It seems that... (indirect information)"
+    },
+    "formation": [
+      "Thể thông thường (N/A-な không có だ) + らしい"
+    ],
+    "lesson": "Bài 12",
+    "group": "Inference",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Suy luận dựa vào THÔNG TIN GIÁN TIẾP (nghe người khác nói, đọc báo...). Phân biệt: らしい=thông tin nghe được, そうだ(伝聞)=cũng nghe nói nhưng trực tiếp hơn, ようだ=dựa vào bằng chứng trực tiếp.",
+      "en": "⚠️ JLPT Trap: Based on INDIRECT INFORMATION (heard from others, read in news...). らしい=indirect info, そうだ(传聞)=hearsay but more direct, ようだ=based on direct evidence."
+    },
+    "examples": [
+      {
+        "jp": "彼女は来月結婚する[らしい]。",
+        "kana": "かのじょはらいつきけっこんする[らしい]。",
+        "vi": "Nghe nói cô ấy sẽ kết hôn vào tháng tới.",
+        "en": "Apparently she is getting married next month."
+      },
+      {
+        "jp": "明日は台風が来る[らしい]よ。",
+        "kana": "あしたはたいふうがくる[らしい]よ。",
+        "vi": "Nghe nói ngày mai bão sẽ đến đấy.",
+        "en": "I heard a typhoon is coming tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_12_03",
+    "level": "N3",
+    "structure": "〜おかげで",
+    "structureKana": "〜おかげで",
+    "meaning": {
+      "vi": "Nhờ có... (kết quả tốt, biết ơn)",
+      "en": "Thanks to... (positive result, gratitude)"
+    },
+    "formation": [
+      "Thể thông thường (N-の / A-な) + おかげで / おかげだ"
+    ],
+    "lesson": "Bài 12",
+    "group": "Cause_Reason",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: LUÔN dẫn đến kết quả TÍCH CỰC và mang hàm ý biết ơn. Ngược lại hoàn toàn với せいで (tiêu cực, đổ lỗi). JLPT hay hỏi chọn おかげで hay せいで.",
+      "en": "⚠️ JLPT Trap: ALWAYS leads to POSITIVE result with grateful nuance. Completely opposite of せいで (negative, blame). JLPT often asks to choose between おかげで and せいで."
+    },
+    "examples": [
+      {
+        "jp": "先生が教えてくれた[おかげで]、試験に合格できました。",
+        "kana": "せんせいがおしえてくれた[おかげで]、しけんにごうかくできました。",
+        "vi": "Nhờ có thầy giáo dạy bảo mà em đã có thể thi đỗ kỳ thi.",
+        "en": "Thanks to the teacher teaching me, I was able to pass the exam."
+      },
+      {
+        "jp": "天気が良かった[おかげで]、旅行が楽しかった。",
+        "kana": "てんきがよかった[おかげで]、りょこうがたのしかった。",
+        "vi": "Nhờ thời tiết đẹp mà chuyến đi du lịch rất vui vẻ.",
+        "en": "Thanks to the good weather, the trip was enjoyable."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_12_04",
+    "level": "N3",
+    "structure": "〜せいで",
+    "structureKana": "〜せいで",
+    "meaning": {
+      "vi": "Tại vì... / Do lỗi của... (kết quả xấu, đổ lỗi)",
+      "en": "Due to... / Because of... (negative result, blame)"
+    },
+    "formation": [
+      "Thể thông thường (N-の / A-な) + せいで / せいだ"
+    ],
+    "lesson": "Bài 12",
+    "group": "Cause_Reason",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: LUÔN dẫn đến kết quả TIÊU CỰC, hàm ý đổ lỗi cho nguyên nhân. Phân biệt với せいか (không chắc có phải tại vì... không) — せいか dùng khi người nói không chắc chắn về nguyên nhân.",
+      "en": "⚠️ JLPT Trap: ALWAYS negative result, implies blaming the cause. Vs. せいか (uncertain if it's because of...) — せいか used when speaker is uncertain about the cause."
+    },
+    "examples": [
+      {
+        "jp": "バスが遅れた[せいで]、会議に間に合わなかった。",
+        "kana": "バスがおくれた[せいで]、かいぎにまにあわなかった。",
+        "vi": "Tại vì xe buýt trễ nên tôi đã không kịp giờ họp.",
+        "en": "Because the bus was delayed, I didn't make it to the meeting in time."
+      },
+      {
+        "jp": "あなた[のせいで]こうなったんだ！",
+        "kana": "あなた[のせいで]こうなったんだ！",
+        "vi": "Tại anh mà mọi chuyện mới thành ra như thế này!",
+        "en": "It's your fault that things turned out this way!"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_12_05",
+    "level": "N3",
+    "structure": "〜せいか",
+    "structureKana": "〜せいか",
+    "meaning": {
+      "vi": "Không biết có phải tại vì... / Có lẽ do... (không chắc về nguyên nhân, kết quả xấu)",
+      "en": "Perhaps because of... / Maybe due to... (uncertain cause, negative result)"
+    },
+    "formation": [
+      "Thể thông thường (N-の / A-な) + せいか"
+    ],
+    "lesson": "Bài 12",
+    "group": "Cause_Reason",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: せいか = người nói KHÔNG CHẮC về nguyên nhân, chỉ đoán. Giữ nguyên sắc thái tiêu cực như せいで. Phân biệt với せいで (chắc chắn về nguyên nhân).",
+      "en": "⚠️ JLPT Trap: せいか = speaker is UNCERTAIN about the cause, just guessing. Maintains negative nuance like せいで. Differs from せいで (certain about cause)."
+    },
+    "examples": [
+      {
+        "jp": "疲れている[せいか]、頭が痛い。",
+        "kana": "つかれている[せいか]、あたまがいたい。",
+        "vi": "Không biết có phải tại vì mệt mỏi hay không mà tôi bị đau đầu.",
+        "en": "Perhaps because I'm tired, I have a headache."
+      },
+      {
+        "jp": "年を取った[せいか]、最近物忘れが多い。",
+        "kana": "としをとった[せいか]、さいきんものわすれがおおい。",
+        "vi": "Không biết có phải do tuổi tác hay không mà dạo này hay quên lắm.",
+        "en": "Perhaps because of age, I've been forgetting things a lot lately."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_12_06",
+    "level": "N3",
+    "structure": "〜のだから / 〜んだから",
+    "structureKana": "〜のだから / 〜んだから",
+    "meaning": {
+      "vi": "Bởi vì... (sự thật cả hai đều biết, nên đương nhiên là...)",
+      "en": "Because... (shared understanding, so naturally...)"
+    },
+    "formation": [
+      "Thể thông thường (N-な / A-な) + のだから / んだから"
+    ],
+    "lesson": "Bài 12",
+    "group": "Cause_Reason",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Nêu lý do/sự thật CẢ HAI ĐỀU BIẾT. Vế sau thường là đánh giá, lời khuyên, mệnh lệnh hoặc rủ rê. Mạnh hơn だから/ので vì nhấn mạnh cả người nghe cũng phải hiểu điều đó.",
+      "en": "⚠️ JLPT Trap: States a reason/fact KNOWN TO BOTH parties. Latter clause is often evaluation, advice, command or invitation. Stronger than だから/ので because it emphasizes shared understanding."
+    },
+    "examples": [
+      {
+        "jp": "あなたはもう大人な[んだから]、自分のことは自分で決めなさい。",
+        "kana": "あなたはもうおとなな[んだから]、じぶんのことはじぶんできめなさい。",
+        "vi": "Bởi vì con đã là người lớn rồi nên chuyện của mình hãy tự mình quyết định.",
+        "en": "Because you are already an adult, decide your own matters yourself."
+      },
+      {
+        "jp": "せっかく海に来た[んだから]、泳ごうよ。",
+        "kana": "せっかくうみにきた[んだから]、およごうよ。",
+        "vi": "Bởi vì cất công đến biển rồi nên đương nhiên là phải bơi thôi.",
+        "en": "Since we took the trouble to come to the sea, let's swim."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_12_07",
+    "level": "N3",
+    "structure": "〜まま",
+    "structureKana": "〜まま",
+    "meaning": {
+      "vi": "Cứ để nguyên như vậy / Giữ nguyên trạng thái... (không thay đổi dù đáng lẽ phải thay đổi)",
+      "en": "Leaving as is / Remaining in the same state... (unchanged despite expectation)"
+    },
+    "formation": [
+      "Vた / Vない + まま",
+      "N-の / A-い / A-な + まま"
+    ],
+    "lesson": "Bài 12",
+    "group": "StateTendency",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Diễn tả việc giữ nguyên trạng thái mà LẼ RA PHẢI THAY ĐỔI. Chú ý: động từ tích cực dùng Vた+まま (眼鏡をかけたまま=vẫn đang đeo kính), động từ tiêu cực dùng Vない+まま (起きないまま=vẫn chưa thức dậy).",
+      "en": "⚠️ JLPT Trap: Describes keeping a state that SHOULD HAVE CHANGED. Note: positive verbs use Vた+まま (still wearing glasses), negative verbs use Vない+まま (still not woken up)."
+    },
+    "examples": [
+      {
+        "jp": "昨夜はテレビをつけた[まま]寝てしまった。",
+        "kana": "さくやはテレビをつけた[まま]ねてしまった。",
+        "vi": "Đêm qua tôi đã ngủ thiếp đi mà cứ để nguyên tivi bật.",
+        "en": "Last night I fell asleep leaving the TV on."
+      },
+      {
+        "jp": "靴の[まま]家に入らないでください。",
+        "kana": "くつの[まま]いえにはいらないでください。",
+        "vi": "Xin đừng cứ để nguyên giày như vậy mà đi vào nhà.",
+        "en": "Please do not enter the house with your shoes on."
+      }
+    ]
+  }
+]

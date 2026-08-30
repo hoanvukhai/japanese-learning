@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, RotateCcw, Eye, EyeOff } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { grammarN3Clean as grammarN3, getN3GrammarLessons } from '../../data/grammarN3';
+import { grammarN3Clean as grammarN3, getN3GrammarLessons } from '../../data/jlpt/n3/grammarN3';
 import { useSettings } from '../../context/global/useSettings';
 import GrammarLessonChips, { getGroupLabel } from '../../components/grammar/GrammarLessonChips';
 
@@ -57,7 +57,7 @@ export default function GrammarMatching() {
     }
     const pool = uniquePool.length >= Math.min(6, basePool.length) ? uniquePool : shuffled.slice(0, 6);
     if (mode === 'structure-meaning') {
-      // LEFT: cấu trúc (kana = structureKana)
+      // LEFT: cáº¥u trÃºc (kana = structureKana)
       setLefts(shuffle(pool.map(g => ({
         id: g.id,
         text: g.structure,
@@ -67,12 +67,12 @@ export default function GrammarMatching() {
       }))));
       setRights(shuffle(pool.map(g => ({
         id: g.id,
-        text: g.meaning[language as 'vi' | 'en'] || g.meaning.vi,
+        text: typeof g.meaning === 'object' ? (g.meaning as any)[language as 'vi' | 'en'] || (g.meaning as any).vi : g.meaning,
         matched: false,
         selected: false,
       }))));
     } else if (mode === 'structure-example') {
-      // LEFT: cấu trúc (kana = structureKana)
+      // LEFT: cáº¥u trÃºc (kana = structureKana)
       setLefts(shuffle(pool.map(g => ({
         id: g.id,
         text: g.structure,
@@ -80,7 +80,7 @@ export default function GrammarMatching() {
         matched: false,
         selected: false,
       }))));
-      // RIGHT: câu ví dụ + kana + translation
+      // RIGHT: cÃ¢u vÃ­ dá»¥ + kana + translation
       setRights(shuffle(pool.map(g => {
         const cleanEx = g.examples[0]?.jp.replace(/\[([^\]]+)\]/g, '$1') || g.structure;
         const kana = g.examples[0]?.kana ? g.examples[0].kana.replace(/\[([^\]]+)\]/g, '$1') : undefined;
@@ -88,8 +88,8 @@ export default function GrammarMatching() {
         return { id: g.id, text: cleanEx, kana, translation, matched: false, selected: false };
       })));
     } else {
-      // structure ↔ first formation rule
-      // LEFT: cấu trúc (kana = structureKana)
+      // structure â†” first formation rule
+      // LEFT: cáº¥u trÃºc (kana = structureKana)
       setLefts(shuffle(pool.map(g => ({
         id: g.id,
         text: g.structure,
@@ -160,21 +160,21 @@ export default function GrammarMatching() {
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
           <Link to="/practice/grammar" className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 mb-3 transition-colors">
-            <ArrowLeft size={18} /> Quay lại
+            <ArrowLeft size={18} /> Quay láº¡i
           </Link>
-          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🔗 Nối Ngữ Pháp</h1>
-          <p className="text-slate-500 dark:text-slate-400 mb-3">Ghép cấu trúc với nghĩa tiếng Việt — phản xạ siêu tốc.</p>
+          <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">ðŸ”— Ná»‘i Ngá»¯ PhÃ¡p</h1>
+          <p className="text-slate-500 dark:text-slate-400 mb-3">GhÃ©p cáº¥u trÃºc vá»›i nghÄ©a tiáº¿ng Viá»‡t â€” pháº£n xáº¡ siÃªu tá»‘c.</p>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl p-4 md:p-6 shadow-sm border border-slate-100 dark:border-slate-700 space-y-4">
 
             {/* Mode */}
             <div>
-              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">⚙️ Chế độ nối</label>
+              <label className="block text-sm font-semibold text-slate-600 dark:text-slate-300 mb-2">âš™ï¸ Cháº¿ Ä‘á»™ ná»‘i</label>
               <div className="grid grid-cols-1 gap-2">
                 {([
-                  { val: 'structure-meaning', label: 'Cấu trúc ↔ Nghĩa tiếng Việt', hint: '〜がる ↔ Cảm thấy...' },
-                  { val: 'structure-example', label: 'Cấu trúc ↔ Câu ví dụ', hint: '〜がる ↔ 怖がっている...' },
-                  { val: 'structure-formation', label: 'Cấu trúc ↔ Cách thành lập', hint: '〜がる ↔ A(bỏ i) + がる' },
+                  { val: 'structure-meaning', label: 'Cáº¥u trÃºc â†” NghÄ©a tiáº¿ng Viá»‡t', hint: 'ã€œãŒã‚‹ â†” Cáº£m tháº¥y...' },
+                  { val: 'structure-example', label: 'Cáº¥u trÃºc â†” CÃ¢u vÃ­ dá»¥', hint: 'ã€œãŒã‚‹ â†” æ€–ãŒã£ã¦ã„ã‚‹...' },
+                  { val: 'structure-formation', label: 'Cáº¥u trÃºc â†” CÃ¡ch thÃ nh láº­p', hint: 'ã€œãŒã‚‹ â†” A(bá» i) + ãŒã‚‹' },
                 ] as const).map(opt => (
                   <button
                     key={opt.val}
@@ -196,7 +196,7 @@ export default function GrammarMatching() {
             {/* Display options */}
             <div>
               <label className="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-                Hiển thị
+                Hiá»ƒn thá»‹
               </label>
               <div className="flex gap-3">
                 <button
@@ -218,7 +218,7 @@ export default function GrammarMatching() {
                         : 'border-slate-200 dark:border-slate-700 text-slate-500 hover:border-slate-300'
                     }`}
                   >
-                    {showTranslation ? <Eye size={12} /> : <EyeOff size={12} />} Dịch ví dụ
+                    {showTranslation ? <Eye size={12} /> : <EyeOff size={12} />} Dá»‹ch vÃ­ dá»¥
                   </button>
                 )}
               </div>
@@ -249,8 +249,8 @@ export default function GrammarMatching() {
               className="w-full py-4 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all active:scale-[0.98] shadow-lg shadow-teal-500/20 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {basePool.length < 6
-                ? `Cần ít nhất 6 mẫu (hiện có ${basePool.length})`
-                : 'Bắt đầu trò chơi'}
+                ? `Cáº§n Ã­t nháº¥t 6 máº«u (hiá»‡n cÃ³ ${basePool.length})`
+                : 'Báº¯t Ä‘áº§u trÃ² chÆ¡i'}
             </button>
           </div>
         </div>
@@ -263,16 +263,16 @@ export default function GrammarMatching() {
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-3">
           <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-teal-600 transition-colors font-medium">
-            <ArrowLeft size={18} /> Quay lại
+            <ArrowLeft size={18} /> Quay láº¡i
           </button>
           <div className="text-sm font-semibold text-slate-500 dark:text-slate-400">
-            {mode === 'structure-meaning' ? 'Nối Cấu trúc ↔ Nghĩa'
-              : mode === 'structure-example' ? 'Nối Cấu trúc ↔ Ví dụ'
-              : 'Nối Cấu trúc ↔ Thành lập'}
+            {mode === 'structure-meaning' ? 'Ná»‘i Cáº¥u trÃºc â†” NghÄ©a'
+              : mode === 'structure-example' ? 'Ná»‘i Cáº¥u trÃºc â†” VÃ­ dá»¥'
+              : 'Ná»‘i Cáº¥u trÃºc â†” ThÃ nh láº­p'}
           </div>
           <div className="flex items-center gap-2">
-            <div className="text-sm font-bold text-teal-600 dark:text-teal-400">{roundScore} ✓</div>
-            {/* Kana toggle — available in all modes */}
+            <div className="text-sm font-bold text-teal-600 dark:text-teal-400">{roundScore} âœ“</div>
+            {/* Kana toggle â€” available in all modes */}
             <button
               onClick={() => setShowFurigana(v => !v)}
               className={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl border-2 text-xs font-bold transition-all ${
@@ -284,7 +284,7 @@ export default function GrammarMatching() {
               {showFurigana ? <Eye size={13} /> : <EyeOff size={13} />}
               <span>Kana</span>
             </button>
-            {/* Translation toggle — only in example mode */}
+            {/* Translation toggle â€” only in example mode */}
             {mode === 'structure-example' && (
               <button
                 onClick={() => setShowTranslation(v => !v)}
@@ -295,7 +295,7 @@ export default function GrammarMatching() {
                 }`}
               >
                 {showTranslation ? <Eye size={13} /> : <EyeOff size={13} />}
-                <span>Dịch</span>
+                <span>Dá»‹ch</span>
               </button>
             )}
           </div>
@@ -307,24 +307,24 @@ export default function GrammarMatching() {
             animate={{ opacity: 1, scale: 1 }}
             className="bg-white dark:bg-slate-800 rounded-3xl p-10 shadow-xl text-center max-w-sm mx-auto"
           >
-            <div className="text-5xl mb-3">🎉</div>
-            <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Xuất sắc!</h2>
-            <p className="text-slate-500 dark:text-slate-400 mb-3">Đã nối đúng {roundScore} cặp · Vòng {totalRounds}</p>
+            <div className="text-5xl mb-3">ðŸŽ‰</div>
+            <h2 className="text-2xl font-extrabold text-slate-800 dark:text-white mb-2">Xuáº¥t sáº¯c!</h2>
+            <p className="text-slate-500 dark:text-slate-400 mb-3">ÄÃ£ ná»‘i Ä‘Ãºng {roundScore} cáº·p Â· VÃ²ng {totalRounds}</p>
             <button
               onClick={initRound}
               className="w-full py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2 mb-3 shadow-md"
             >
-              <RotateCcw size={18} /> Chơi tiếp (bộ mới)
+              <RotateCcw size={18} /> ChÆ¡i tiáº¿p (bá»™ má»›i)
             </button>
             <Link to="/practice/grammar" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
-              Về dashboard
+              Vá» dashboard
             </Link>
           </motion.div>
         ) : (
           <div className="grid grid-cols-2 gap-4 md:gap-8">
-            {/* Cột Trái — Cấu trúc */}
+            {/* Cá»™t TrÃ¡i â€” Cáº¥u trÃºc */}
             <div className="space-y-3">
-              <div className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider text-center mb-2">Cấu trúc</div>
+              <div className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider text-center mb-2">Cáº¥u trÃºc</div>
               {lefts.map(l => {
                 let cls = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-white hover:border-teal-400';
                 if (l.matched) cls = 'bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-600 dark:text-green-400 opacity-50 cursor-default';
@@ -338,7 +338,7 @@ export default function GrammarMatching() {
                     className={`w-full min-h-[5rem] p-3 flex flex-col items-center justify-center rounded-2xl border-2 transition-all shadow-sm ${cls} text-center`}
                   >
                     <span className={getTextSize(l.text)}>{l.text}</span>
-                    {/* Kana dưới cấu trúc — hiện ở cả 3 chế độ khi bật */}
+                    {/* Kana dÆ°á»›i cáº¥u trÃºc â€” hiá»‡n á»Ÿ cáº£ 3 cháº¿ Ä‘á»™ khi báº­t */}
                     {showFurigana && l.kana && (
                       <span className="text-[10px] text-teal-500 dark:text-teal-400 font-mono mt-0.5 leading-tight">{l.kana}</span>
                     )}
@@ -347,12 +347,12 @@ export default function GrammarMatching() {
               })}
             </div>
 
-            {/* Cột Phải */}
+            {/* Cá»™t Pháº£i */}
             <div className="space-y-3">
               <div className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider text-center mb-2">
-                {mode === 'structure-meaning' ? 'Nghĩa'
-                  : mode === 'structure-example' ? 'Câu ví dụ'
-                  : 'Cách thành lập'}
+                {mode === 'structure-meaning' ? 'NghÄ©a'
+                  : mode === 'structure-example' ? 'CÃ¢u vÃ­ dá»¥'
+                  : 'CÃ¡ch thÃ nh láº­p'}
               </div>
               {rights.map(r => {
                 let cls = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-white hover:border-teal-400';
@@ -367,11 +367,11 @@ export default function GrammarMatching() {
                     className={`w-full min-h-[5rem] p-3 flex flex-col items-center justify-center rounded-2xl border-2 transition-all shadow-sm ${cls} text-center`}
                   >
                     <span className={getTextSize(r.text)}>{r.text}</span>
-                    {/* Furigana kana dưới câu ví dụ trong mode structure-example */}
+                    {/* Furigana kana dÆ°á»›i cÃ¢u vÃ­ dá»¥ trong mode structure-example */}
                     {showFurigana && r.kana && (
                       <span className="text-[10px] text-slate-400 font-mono mt-0.5 leading-tight">{r.kana}</span>
                     )}
-                    {/* Dịch ví dụ — chỉ trong mode structure-example */}
+                    {/* Dá»‹ch vÃ­ dá»¥ â€” chá»‰ trong mode structure-example */}
                     {showTranslation && mode === 'structure-example' && r.translation && (
                       <span className="text-[10px] text-amber-500 dark:text-amber-400 italic mt-0.5 leading-tight">{r.translation}</span>
                     )}

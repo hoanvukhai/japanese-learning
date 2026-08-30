@@ -6,7 +6,7 @@ import { useFlashcardSettings } from '../../context/features/flashcard/useFlashc
 import { useSettings } from '../../context/global/useSettings';
 import { FORM_REGISTRY, getFormLabel } from '../../lib/formRegistry';
 import { RotateCcw, Volume2, BookOpen, ArrowRight, X } from 'lucide-react';
-import { getRuleForForm } from '../../data/conjugationRules';
+import { getRuleForForm } from '../../data/jlpt/conjugation/conjugationRules';
 
 interface CardFrontProps {
   word: Word;

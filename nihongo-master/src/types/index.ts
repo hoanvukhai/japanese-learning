@@ -4,19 +4,27 @@ export type WordType = 'verb' | 'adj_i' | 'adj_na' | 'noun' | 'adv' | 'expressio
 export type VerbGroup = 1 | 2 | 3 | null;
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 
-export interface Word {
+export type TemplateType = 'japanese' | 'english' | 'generic';
+
+export interface BaseLearningItem {
   id: string;
+  template: TemplateType;
+}
+
+export interface Word extends BaseLearningItem {
+  template: 'japanese';
   kanji: string;
   alt_kanji?: string;
-  hiragana: string; // Cách đọc (furigana)
+  hiragana: string;
   romaji?: string;
-  meaning: {vi: string; en: string} | string; // Hỗ trợ cả dạng chuỗi đơn giản và đối tượng đa ngôn ngữ
+  meaning: {vi: string; en?: string} | string;
   type: WordType;
-  group?: VerbGroup; // Bắt buộc với động từ (1, 2, 3), undefined/null với loại khác
+  group?: VerbGroup;
   level: JLPTLevel;
-  isSpecial?: boolean; // Đánh dấu các trường hợp bất quy tắc (ví dụ: 行く)
-  lesson?: string; // Ví dụ: "Bài 1", "Chương 3", "Topic: Gia đình"
-  examples?: { jp: string; vi: string }[];
+  isSpecial?: boolean;
+  lesson?: string;
+  examples?: { jp: string; vi: string; en?: string }[];
+  note?: { jp: string; vi: string; en?: string } | string;
 }
 
 // Thêm vào src/types/index.ts
@@ -60,10 +68,13 @@ export interface KanjiWord {
   }[];
 }
 
-export interface Kanji {
-  id: string;               // VD: 'k_01_01'
+export interface Kanji extends BaseLearningItem {
+  template: 'japanese';
   character: string;        // Chữ Hán (VD: '任')
   hanViet: string;          // Âm Hán Việt (VD: 'NHIỆM')
+  kunyomi?: string;         // Âm Kun (VD: 'ちーる')
+  onyomi?: string;          // Âm On (VD: 'サン')
+  mnemonic?: string;        // Mẹo nhớ (VD: 'Cô gái đi dạo...')
   level: JLPTLevel;         // 'N3'
   lesson: string;           // 'Bài 1'
   
@@ -72,29 +83,54 @@ export interface Kanji {
 
 // Grammar types
 export interface GrammarExample {
-  jp: string;               // C\u00e2u v\u00ed d\u1ee5 ti\u1ebfng Nh\u1eadt, c\u00f3 d\u1ea5u [...] \u0111\u00e1nh d\u1ea5u \u0111i\u1ec3m r\u01a1i ng\u1eef ph\u00e1p: "妹は犬を怖[がる]。"
-  kana: string;             // \u0110\u1ecdc to\u00e0n b\u1ed9 b\u1eb1ng hiragana, c\u0169ng c\u00f3 [...]: "いもうとはいぬをこわ[がる]。"
-  vi: string;               // Ngh\u0129a ti\u1ebfng Vi\u1ec7t
-  en?: string;              // Ngh\u0129a ti\u1ebfng Anh (optional)
+  jp: string;               // Câu ví dụ tiếng Nhật, có dấu [...] đánh dấu điểm rơi ngữ pháp: "妹は犬を怖[がる]。"
+  kana: string;             // Đọc toàn bộ bằng hiragana, cũng có [...]: "いもうとはいぬをこわ[がる]。"
+  vi: string;               // Nghĩa tiếng Việt
+  en?: string;              // Nghĩa tiếng Anh (optional)
 }
 
-export interface GrammarItem {
-  id: string;               // VD: 'g_01_01' \u2014 1 ID = 1 m\u1eabu \u0111\u1ed9c l\u1eadp (Atomic)
-  level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1'; // Scalability
-  structure: string;        // C\u1ea5u tr\u00fac (VD: '\u301c\u304c\u308b')
-  structureKana: string;    // \u0110\u1ecdc b\u1eb1ng kana (VD: '\u301c\u304c\u308b') \u2014 d\u00f9ng \u0111\u1ec3 search hi\u1ebfragana
+export interface GrammarItem extends BaseLearningItem {
+  template: 'japanese';
+  level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
+  structure: string;        // Cấu trúc (VD: '〜がる')
+  structureKana: string;    // Đọc bằng kana (VD: '〜がる') — dùng để search hiragana
   meaning: {
     vi: string;
     en?: string;
-  };                        // Ngh\u0129a ti\u1ebfng Vi\u1ec7t v\u00e0 ti\u1ebfng Anh ng\u1eafn g\u1ecdn
-  formation: string[];      // C\u00e1ch th\u00e0nh l\u1eadp (m\u1ea3ng c\u00e1c d\u1ea1ng bi\u1ebfn th\u1ec3)
-  lesson: string;           // 'B\u00e0i 1' \u2014 d\u00f9ng cho ch\u1ebf \u0111\u1ed9 H\u1ecdc theo b\u00e0i
-  group: string;            // 'Emotion_Desire' \u2014 d\u00f9ng cho Game \u0111\u1ed1i kh\u00e1ng
-  confusedWith?: string[];  // C\u00e1c c\u1ea5u tr\u00fac d\u1ec5 nh\u1ea7m l\u1eabn: ['\u301c\u305f\u3044', '\u301c\u3066\u307b\u3057\u3044']
+  };
+  formation: string[];      // Cách thành lập (mảng các dạng biến thể)
+  lesson: string;           // 'Bài 1' — dùng cho chế độ Học theo bài
+  group: string;            // 'Emotion_Desire' — dùng cho Game đối kháng
+  confusedWith?: string[];  // Các cấu trúc dễ nhầm lẫn
   caution: {
     vi: string;
     en?: string;
-  };                        // L\u1eddi nh\u1eafc b\u1eaby JLPT
-  examples: GrammarExample[]; // C\u00e2u v\u00ed d\u1ee5
+  } | string;
+  examples: GrammarExample[]; // Câu ví dụ
 }
 
+// ----------------------------------------------------
+// English Interfaces (Future expansion)
+// ----------------------------------------------------
+export interface EnglishWord extends BaseLearningItem {
+  template: 'english';
+  word: string;
+  ipa: string;
+  cefrLevel: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  partOfSpeech: string;
+  meaning: { vi: string; en?: string };
+  examples?: { en: string; vi: string }[];
+}
+
+// ----------------------------------------------------
+// Generic Interface (For user-generated or new languages)
+// ----------------------------------------------------
+export interface GenericItem extends BaseLearningItem {
+  template: 'generic';
+  front: string;
+  back: string;
+  notes?: string;
+}
+
+// The core union type for all learning items
+export type LearningItem = Word | Kanji | GrammarItem | EnglishWord | GenericItem;

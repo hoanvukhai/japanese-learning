@@ -4,6 +4,7 @@ import { RefreshCw, CheckCircle2, XCircle, Clock, ChevronDown, ChevronUp, BookOp
 import { calcExp, LEVEL_CONFIG } from './GrammarCommon';
 import type { Level, AttemptRecord } from './GrammarCommon';
 import { getRankModifier, getStorageKey, saveBestRecord, getBestExp } from '../../../lib/rankSystem';
+import { useAuth } from '../../../context/auth/useAuth';
 
 interface GrammarResultProps {
   score: number;
@@ -32,6 +33,7 @@ export default function GrammarResult({
   onRetry,
   onBack,
 }: GrammarResultProps) {
+  const { user } = useAuth();
   const exp = calcExp(score, streak, timeLeft ?? 0, level, correct, total);
   const { rank, modifier, isPerfect } = getRankModifier(exp, level, correct === total, maxExp);
   
@@ -119,6 +121,11 @@ export default function GrammarResult({
               <div className="text-xs text-slate-400 dark:text-slate-500">
                 🏆 Kỷ lục {LEVEL_CONFIG[level].label}: <strong className="text-slate-600 dark:text-slate-200">{bestExp} EXP</strong>
               </div>
+              {user && (
+                <div className="text-[11px] text-indigo-500 dark:text-indigo-400 font-medium flex items-center justify-center gap-1">
+                  ☁️ Kỷ lục đã tự động đồng bộ lên Cloud
+                </div>
+              )}
             </div>
 
             <div className="flex gap-2">

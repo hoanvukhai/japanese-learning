@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { shuffle } from './KanjiCommon';
 import type { MatchQ, Level } from './KanjiCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface MatchTile { uid: string; pairId: string; label: string; sub?: string; side: 'jp' | 'vi'; origIdx: number }
 

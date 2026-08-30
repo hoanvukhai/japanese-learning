@@ -1,0 +1,238 @@
+[
+  {
+    "id": "g_rkn3_01_01",
+    "level": "N3",
+    "structure": "〜がる",
+    "structureKana": "〜がる",
+    "meaning": {
+      "vi": "Tỏ ra... / Có vẻ muốn... (thường xuyên/bản tính của người khác)",
+      "en": "To show signs of... / Tends to feel... (describing others)"
+    },
+    "formation": [
+      "A-い(bỏ い) + がる",
+      "A-な(bỏ な) + がる",
+      "Vたい(bỏ い) + がる"
+    ],
+    "lesson": "Bài 1",
+    "group": "Emotion_Desire",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Tuyệt đối KHÔNG dùng ~がる để nói về cảm xúc/mong muốn của bản thân. Chỉ dùng để miêu tả biểu hiện thường xuyên/bản tính của NGƯỜI KHÁC (ngôi 3). Phân biệt với ~がっている (đang diễn ra ngay lúc này).",
+      "en": "⚠️ JLPT Trap: NEVER use ~がる for your own feelings. Only describes habitual/characteristic behavior of OTHERS (3rd person). Distinguish from ~がっている (happening right now)."
+    },
+    "examples": [
+      {
+        "jp": "妹は犬を怖[がる]。",
+        "kana": "いもうとはいぬをこわ[がる]。",
+        "vi": "Em gái tôi (bản tính) rất sợ chó.",
+        "en": "My younger sister shows fear of dogs."
+      },
+      {
+        "jp": "彼は新しいゲームを欲し[がる]。",
+        "kana": "かれはあたらしいゲームをほし[がる]。",
+        "vi": "Thằng bé hay đòi có trò chơi mới.",
+        "en": "He often shows that he wants new games."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_01_02",
+    "level": "N3",
+    "structure": "〜がっている",
+    "structureKana": "〜がっている",
+    "meaning": {
+      "vi": "Đang tỏ ra... / Đang cảm thấy... (của người khác, ngay lúc này)",
+      "en": "Is showing signs of... / Is feeling right now (describing others)"
+    },
+    "formation": [
+      "A-い(bỏ い) + がっている",
+      "A-な(bỏ な) + がっている",
+      "Vたい(bỏ い) + がっている"
+    ],
+    "lesson": "Bài 1",
+    "group": "Emotion_Desire",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Khác với ~がる (thói quen/bản tính), ~がっている nhấn mạnh cảm xúc/trạng thái đang diễn ra NGAY LÚC NÀY của người khác.",
+      "en": "⚠️ JLPT Trap: Unlike ~がる (habit/nature), ~がっている emphasizes the emotion/state happening RIGHT NOW to someone else."
+    },
+    "examples": [
+      {
+        "jp": "彼は新しいゲームを欲し[がっている]。",
+        "kana": "かれはあたらしいゲームをほし[がっている]。",
+        "vi": "Thằng bé ĐANG tỏ ra rất muốn có trò chơi mới.",
+        "en": "He is showing that he wants the new game right now."
+      },
+      {
+        "jp": "田中さんはその知らせを聞いて悲し[がっている]。",
+        "kana": "たなかさんはそのしらせをきいてかなし[がっている]。",
+        "vi": "Anh Tanaka đang tỏ ra rất buồn sau khi nghe tin đó.",
+        "en": "Mr. Tanaka is showing sadness after hearing that news."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_01_03",
+    "level": "N3",
+    "structure": "〜てほしい",
+    "structureKana": "〜てほしい",
+    "meaning": {
+      "vi": "Muốn (ai đó) làm gì cho mình (thân mật)",
+      "en": "Want someone to do something (casual)"
+    },
+    "formation": [
+      "N(người) に + Vて / Vないで + ほしい"
+    ],
+    "lesson": "Bài 1",
+    "group": "Request_Advice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Dùng với bạn bè, người thân hoặc cấp dưới. Người thực hiện hành động đi với trợ từ に. Không dùng với cấp trên/khách hàng → dùng ~ていただきたい.",
+      "en": "⚠️ JLPT Trap: Used with friends, family, or subordinates. The doer is marked with に. Do NOT use with superiors/customers → use ~ていただきたい."
+    },
+    "examples": [
+      {
+        "jp": "親には長生きし[てほしい]。",
+        "kana": "おやにはながいきし[てほしい]。",
+        "vi": "Tôi muốn bố mẹ sống thật lâu.",
+        "en": "I want my parents to live a long life."
+      },
+      {
+        "jp": "もっと早く来[てほしかった]。",
+        "kana": "もっとはやくき[てほしかった]。",
+        "vi": "Tôi đã muốn bạn đến sớm hơn.",
+        "en": "I wanted you to come earlier."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_01_04",
+    "level": "N3",
+    "structure": "〜てもらいたい",
+    "structureKana": "〜てもらいたい",
+    "meaning": {
+      "vi": "Muốn nhận được việc gì từ ai đó (người nói nhận lợi ích)",
+      "en": "Want to receive an action from someone (speaker receives benefit)"
+    },
+    "formation": [
+      "N(người) に + Vて / Vないで + もらいたい"
+    ],
+    "lesson": "Bài 1",
+    "group": "Request_Advice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Ý nghĩa gần giống ~てほしい nhưng nhấn mạnh việc người nói NHẬN ĐƯỢC lợi ích từ hành động đó. Lịch sự hơn ~てほしい một chút.",
+      "en": "⚠️ JLPT Trap: Similar to ~てほしい but emphasizes that the speaker RECEIVES a benefit. Slightly more polite than ~てほしい."
+    },
+    "examples": [
+      {
+        "jp": "このことは誰にも言わないで[もらいたい]。",
+        "kana": "このことはだれにもいわないで[もらいたい]。",
+        "vi": "Tôi muốn bạn đừng nói chuyện này với bất kỳ ai.",
+        "en": "I want you not to tell anyone about this."
+      },
+      {
+        "jp": "もう少し声を小さくし[てもらいたい]。",
+        "kana": "もうすこしこえをちいさくし[てもらいたい]。",
+        "vi": "Tôi muốn bạn nói nhỏ hơn một chút.",
+        "en": "I would like you to lower your voice a bit."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_01_05",
+    "level": "N3",
+    "structure": "〜ていただきたい",
+    "structureKana": "〜ていただきたい",
+    "meaning": {
+      "vi": "Rất mong ngài/anh/chị làm... giúp (Lịch sự - Kính ngữ)",
+      "en": "Would humbly like you to do... (Formal - Humble)"
+    },
+    "formation": [
+      "N(người) に + Vて / Vないで + いただきたい"
+    ],
+    "lesson": "Bài 1",
+    "group": "Request_Advice",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Đây là Khiêm nhường ngữ (謙譲語). Chỉ dùng để bày tỏ mong muốn với người bề trên, cấp trên hoặc khách hàng. Dùng sai đối tượng sẽ nghe rất kỳ lạ.",
+      "en": "⚠️ JLPT Trap: This is Humble language (謙譲語). Only used to express desire to superiors, bosses, or customers. Using with wrong person sounds very strange."
+    },
+    "examples": [
+      {
+        "jp": "先生にこの作文を読んで[いただきたい]んですが。",
+        "kana": "せんせいにこのさくぶんをよんで[いただきたい]んですが。",
+        "vi": "Em rất mong thầy/cô đọc giúp em bài văn này ạ.",
+        "en": "I would humbly like you to read this essay, professor."
+      },
+      {
+        "jp": "ご確認して[いただきたい]と思います。",
+        "kana": "ごかくにんして[いただきたい]とおもいます。",
+        "vi": "Tôi rất mong anh/chị xem xét giúp ạ.",
+        "en": "I would like to humbly request your confirmation."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_01_06",
+    "level": "N3",
+    "structure": "〜って",
+    "structureKana": "〜って",
+    "meaning": {
+      "vi": "Nghe nói là... / Cái gọi là... / Được biết rằng... (văn nói thân mật)",
+      "en": "I heard that... / The thing called... / Apparently... (casual speech)"
+    },
+    "formation": [
+      "Thể thông thường (普通形) + って"
+    ],
+    "lesson": "Bài 1",
+    "group": "Hearsay_Quotation",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Dùng trong văn nói thân mật, thay thế cho: 「〜と言っていました」(nghe nói), 「〜という」(cái gọi là), 「〜とは」(định nghĩa). KHÔNG dùng trong văn viết trang trọng.",
+      "en": "⚠️ JLPT Trap: Casual speech only, replacing: 「〜と言っていました」(heard that), 「〜という」(called), 「〜とは」(definition). Do NOT use in formal writing."
+    },
+    "examples": [
+      {
+        "jp": "山田さん、明日の会議に遅れる[って]。",
+        "kana": "やまださん、あしたのかいぎにおくれる[って]。",
+        "vi": "Yamada bảo là ngày mai sẽ đến họp muộn đấy.",
+        "en": "Yamada said he will be late for tomorrow's meeting."
+      },
+      {
+        "jp": "「君の名は」[って]映画、見た？",
+        "kana": "「きみのなは」[って]えいが、みた？",
+        "vi": "Cậu đã xem bộ phim (có tên) là 'Your Name' chưa?",
+        "en": "Have you seen the movie called 'Your Name'?"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn3_01_07",
+    "level": "N3",
+    "structure": "〜ずに / 〜せずに",
+    "structureKana": "〜ずに / 〜せずに",
+    "meaning": {
+      "vi": "Không làm... mà (làm việc khác) / Bỏ qua hành động A",
+      "en": "Without doing... / Skipping action A to do B"
+    },
+    "formation": [
+      "Vない(bỏ ない) + ずに",
+      "※ Ngoại lệ duy nhất: する → せずに"
+    ],
+    "lesson": "Bài 1",
+    "group": "Condition_Negative",
+    "caution": {
+      "vi": "⚠️ Bẫy JLPT: Đồng nghĩa với 「〜ないで」nhưng mang sắc thái văn viết hơn. Nhớ kỹ ngoại lệ duy nhất: する → せずに (đề thi rất hay hỏi chỗ này).",
+      "en": "⚠️ JLPT Trap: Synonymous with 「〜ないで」but more literary. Remember the ONLY exception: する → せずに (very common exam question)."
+    },
+    "examples": [
+      {
+        "jp": "辞書を使わ[ずに]、日本語の新聞を読んだ。",
+        "kana": "じしょをつかわ[ずに]、にほんごのしんぶんをよんだ。",
+        "vi": "Tôi đã đọc báo tiếng Nhật mà không dùng từ điển.",
+        "en": "I read a Japanese newspaper without using a dictionary."
+      },
+      {
+        "jp": "昨夜は歯を磨か[ずに]寝てしまった。",
+        "kana": "さくやははをみがか[ずに]ねてしまった。",
+        "vi": "Đêm qua tôi đã ngủ thiếp đi mà không đánh răng.",
+        "en": "I fell asleep last night without brushing my teeth."
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import {  } from 'lucide-react';
 import { formatKeyForDisplay } from './KanjiCommon';
 import type { ErrorQ } from './KanjiCommon';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 interface KanjiErrorProps {
   q: ErrorQ;

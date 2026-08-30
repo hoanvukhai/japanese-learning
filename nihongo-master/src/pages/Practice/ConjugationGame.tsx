@@ -6,6 +6,7 @@ import type { FormType } from '../../context/features/flashcard/FlashcardSetting
 import { FORM_REGISTRY } from '../../lib/formRegistry';
 import FlipCard from '../../components/FlashcardModule/FlipCard';
 import SwipeableCard from '../../components/FlashcardModule/SwipeableCard';
+import TypingChallenge from '../../components/FlashcardModule/TypingChallenge';
 import EndlessControls from '../../components/FlashcardModule/EndlessControls';
 import SettingsModal from '../../components/FlashcardModule/Settings/SettingsModal';
 import { useFlashcardSettings } from '../../context/features/flashcard/useFlashcardSettings';
@@ -302,7 +303,7 @@ export default function Practice() {
       {/* HEADER */}
       <div className="w-full max-w-md mb-3 space-y-4">
         <button 
-          onClick={() => navigate('/practice/conjugation')} 
+          onClick={() => navigate('/course/verb-conjugation/practice')} 
           className="group flex items-center text-slate-500 hover:text-indigo-600 font-semibold mb-2 transition-colors"
         >
           <ArrowLeft className="mr-2 h-5 w-5 group-hover:-translate-x-1 transition-transform" />
@@ -460,10 +461,60 @@ export default function Practice() {
             )}
           </div>
         ) : (
-          /* Typing Test placeholder */
-          <div className="text-gray-500 dark:text-gray-400 flex flex-col items-center gap-4">
-            <Target size={48} className="opacity-30" />
-            <p>{language === 'en' ? 'Typing Test – Coming soon' : 'Nhập liệu – Sắp ra mắt'}</p>
+          <div className="w-full flex flex-col items-center animate-in fade-in zoom-in-95 duration-300">
+            {isQuizMode && isFinished ? (
+              <div className="w-80 h-96 sm:w-96 sm:h-[26rem] bg-white dark:bg-slate-800 rounded-2xl shadow-xl flex flex-col items-center justify-center p-8 text-center border-2 border-green-200 dark:border-green-800">
+                <div className="w-20 h-20 bg-green-100 dark:bg-green-900/30 text-green-600 rounded-full flex items-center justify-center mb-3">
+                  <CheckCircle size={40} />
+                </div>
+                <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">{t.done}</h2>
+                <p className="text-gray-500 dark:text-gray-400 mb-3">
+                  {t.doneDesc} ({quizTotal}/{quizTotal})
+                </p>
+                <div className="flex gap-4">
+                  {lastAction && (
+                    <button onClick={handleUndo} className="p-4 bg-gray-100 dark:bg-slate-700 text-gray-600 dark:text-gray-300 rounded-full hover:bg-gray-200 dark:hover:bg-slate-600 shadow-md transition-colors">
+                      <Undo2 size={20} />
+                    </button>
+                  )}
+                  <button onClick={initData} className="flex items-center gap-2 px-8 py-4 bg-slate-800 dark:bg-slate-600 text-white font-bold rounded-full hover:bg-slate-700 shadow-lg transition-colors">
+                    <RotateCcw size={20} /> {t.newRound}
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <>
+                {currentCard && (
+                  <TypingChallenge
+                    word={currentCard.word}
+                    targetFormsOverride={currentCard.targetForms}
+                    cardSeed={currentCard.randomSeed}
+                    onCorrect={() => handleQuizSwipe(true)}
+                    onWrong={() => handleQuizSwipe(false)}
+                    onNextEndless={handleEndlessNext}
+                    isQuizMode={isQuizMode}
+                  />
+                )}
+                {isQuizMode ? (
+                  <div className="w-full flex flex-col items-center mt-4">
+                    <div className="w-full max-w-sm flex items-center gap-3 mb-3">
+                      <div className="text-xs font-bold text-slate-400 w-8">{rememberedCount}</div>
+                      <div className="flex-1 h-3 bg-gray-200 dark:bg-slate-700 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-green-500 transition-all duration-500 ease-out"
+                          style={{ width: quizTotal > 0 ? `${(rememberedCount / quizTotal) * 100}%` : '0%' }}
+                        />
+                      </div>
+                      <div className="text-xs font-bold text-slate-400 w-8 text-right">{quizTotal}</div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex flex-col items-center mt-4 gap-3">
+                    <EndlessControls onNext={handleEndlessNext} onOpenSettings={() => setIsSettingsOpen(true)} />
+                  </div>
+                )}
+              </>
+            )}
           </div>
         )}
       </div>

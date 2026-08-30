@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "v_mon2_07_581",
+    "kanji": "食料",
+    "hiragana": "しょくりょう",
+    "hanViet": "THỰC LIÊU",
+    "meaning": {
+      "vi": "Lương thực",
+      "en": "Food, provisions"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "食料を買う。",
+        "vi": "Mua lương thực.",
+        "en": "Buy food."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_582",
+    "kanji": "粒",
+    "hiragana": "つぶ",
+    "hanViet": "LẠP",
+    "meaning": {
+      "vi": "Hạt",
+      "en": "Grain, drop"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "米の粒。",
+        "vi": "Hạt gạo.",
+        "en": "A grain of rice."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_583",
+    "kanji": "",
+    "hiragana": "くず",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vụn",
+      "en": "Waste, scrap"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "紙くずを捨てる。",
+        "vi": "Vứt giấy vụn.",
+        "en": "Throw away scrap paper."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_584",
+    "kanji": "栽培",
+    "hiragana": "さいばい",
+    "hanViet": "TÀI BỒI",
+    "meaning": {
+      "vi": "Trồng trọt",
+      "en": "Cultivation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "野菜を栽培する。",
+        "vi": "Trồng rau.",
+        "en": "Cultivate vegetables."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_585",
+    "kanji": "収穫",
+    "hiragana": "しゅうかく",
+    "hanViet": "THU HOẠCH",
+    "meaning": {
+      "vi": "Thu hoạch",
+      "en": "Harvest"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "秋の収穫。",
+        "vi": "Thu hoạch mùa thu.",
+        "en": "Autumn harvest."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_586",
+    "kanji": "産地",
+    "hiragana": "さんち",
+    "hanViet": "SẢN ĐỊA",
+    "meaning": {
+      "vi": "Nơi sản xuất",
+      "en": "Producing area"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "リンゴの産地。",
+        "vi": "Nơi sản xuất táo.",
+        "en": "Apple producing area."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_587",
+    "kanji": "土地",
+    "hiragana": "とち",
+    "hanViet": "THỔ ĐỊA",
+    "meaning": {
+      "vi": "Đất đai",
+      "en": "Land"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "土地を買う。",
+        "vi": "Mua đất đai.",
+        "en": "Buy land."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_588",
+    "kanji": "倉庫",
+    "hiragana": "そうこ",
+    "hanViet": "THƯƠNG KHỐ",
+    "meaning": {
+      "vi": "kho",
+      "en": "Warehouse"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "荷物を倉庫に運ぶ。",
+        "vi": "Chuyển hành lý vào kho.",
+        "en": "Move luggage to the warehouse."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_589",
+    "kanji": "所有",
+    "hiragana": "しょゆう",
+    "hanViet": "SỠ HỮU",
+    "meaning": {
+      "vi": "Sở hữu",
+      "en": "Ownership"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "土地を所有する。",
+        "vi": "Sở hữu đất đai.",
+        "en": "Own land."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_590",
+    "kanji": "収集",
+    "hiragana": "しゅうしゅう",
+    "hanViet": "THU TẬP",
+    "meaning": {
+      "vi": "Thu thập",
+      "en": "Collection"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "ゴミの収集。",
+        "vi": "Thu gom rác.",
+        "en": "Garbage collection."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_591",
+    "kanji": "滞在",
+    "hiragana": "たいざい",
+    "hanViet": "TRỆ TẠI",
+    "meaning": {
+      "vi": "Lưu trú",
+      "en": "Stay"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "ホテルに滞在する。",
+        "vi": "Lưu trú tại khách sạn.",
+        "en": "Stay at a hotel."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_592",
+    "kanji": "便",
+    "hiragana": "べん",
+    "hanViet": "TIỆN",
+    "meaning": {
+      "vi": "Tiện",
+      "en": "Convenience"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "交通の便がいい。",
+        "vi": "Giao thông thuận tiện.",
+        "en": "Transportation is convenient."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_593",
+    "kanji": "便",
+    "hiragana": "びん",
+    "hanViet": "TIỆN",
+    "meaning": {
+      "vi": "Chuyến bay",
+      "en": "Flight, mail"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "次の便に乗る。",
+        "vi": "Lên chuyến bay tiếp theo.",
+        "en": "Take the next flight."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_594",
+    "kanji": "設備",
+    "hiragana": "せつび",
+    "hanViet": "THIẾT BỊ",
+    "meaning": {
+      "vi": "Thiết bị",
+      "en": "Equipment, facilities"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "設備が整っている。",
+        "vi": "Thiết bị được trang bị đầy đủ.",
+        "en": "Well-equipped."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_595",
+    "kanji": "設計",
+    "hiragana": "せっけい",
+    "hanViet": "THIẾT KẾ",
+    "meaning": {
+      "vi": "Thiết kế",
+      "en": "Design"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "家を設計する。",
+        "vi": "Thiết kế ngôi nhà.",
+        "en": "Design a house."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_596",
+    "kanji": "製作",
+    "hiragana": "せいさく",
+    "hanViet": "CHẾ TÁC",
+    "meaning": {
+      "vi": "Chế tác, tạo ra",
+      "en": "Production, creation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "映画を製作する。",
+        "vi": "Sản xuất bộ phim.",
+        "en": "Produce a movie."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_597",
+    "kanji": "製造",
+    "hiragana": "せいぞう",
+    "hanViet": "CHẾ TẠO",
+    "meaning": {
+      "vi": "Chế tạo",
+      "en": "Manufacturing"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "部品を製造する。",
+        "vi": "Chế tạo linh kiện.",
+        "en": "Manufacture parts."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_598",
+    "kanji": "建築",
+    "hiragana": "けんちく",
+    "hanViet": "KIẾN TRÚC",
+    "meaning": {
+      "vi": "Kiến trúc, xây dựng",
+      "en": "Architecture, construction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "ビルを建築する。",
+        "vi": "Xây dựng tòa nhà.",
+        "en": "Construct a building."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_599",
+    "kanji": "人工",
+    "hiragana": "じんこう",
+    "hanViet": "NHÂN CÔNG",
+    "meaning": {
+      "vi": "Nhân tạo",
+      "en": "Artificial"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "人工の島。",
+        "vi": "Đảo nhân tạo.",
+        "en": "Artificial island."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_600",
+    "kanji": "圧力",
+    "hiragana": "あつりょく",
+    "hanViet": "ÁP LỰC",
+    "meaning": {
+      "vi": "Áp lực",
+      "en": "Pressure"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "圧力をかける。",
+        "vi": "Gây áp lực.",
+        "en": "Put pressure on."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_601",
+    "kanji": "刺激",
+    "hiragana": "しげき",
+    "hanViet": "THỨ KÍCH",
+    "meaning": {
+      "vi": "Kích thích",
+      "en": "Stimulus"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "刺激を与える。",
+        "vi": "Tạo kích thích.",
+        "en": "Give a stimulus."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_602",
+    "kanji": "摩擦",
+    "hiragana": "まさつ",
+    "hanViet": "MA SÁT",
+    "meaning": {
+      "vi": "Ma sát",
+      "en": "Friction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "摩擦が起きる。",
+        "vi": "Xảy ra ma sát.",
+        "en": "Friction occurs."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_603",
+    "kanji": "立場",
+    "hiragana": "たちば",
+    "hanViet": "LẬP TRƯỜNG",
+    "meaning": {
+      "vi": "Lập trường, vị trí",
+      "en": "Position, standpoint"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "苦しい立場。",
+        "vi": "Lập trường khó khăn.",
+        "en": "Difficult position."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_604",
+    "kanji": "役割",
+    "hiragana": "やくわり",
+    "hanViet": "DỊCH CÁT",
+    "meaning": {
+      "vi": "Vai trò",
+      "en": "Role"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "役割を果たす。",
+        "vi": "Hoàn thành vai trò.",
+        "en": "Fulfill a role."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_605",
+    "kanji": "分担",
+    "hiragana": "ぶんたん",
+    "hanViet": "PHÂN ĐAM",
+    "meaning": {
+      "vi": "Đảm nhận, gánh vác",
+      "en": "Sharing (work)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "仕事を分担する。",
+        "vi": "Chia sẻ công việc.",
+        "en": "Share the work."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_606",
+    "kanji": "担当",
+    "hiragana": "たんとう",
+    "hanViet": "ĐAM ĐƯƠNG",
+    "meaning": {
+      "vi": "Đảm nhiệm",
+      "en": "In charge of"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "営業を担当する。",
+        "vi": "Đảm nhiệm việc kinh doanh.",
+        "en": "Be in charge of sales."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_607",
+    "kanji": "交替",
+    "hiragana": "こうたい",
+    "hanViet": "GIAO THẾ",
+    "meaning": {
+      "vi": "Thay đổi (ca,...)",
+      "en": "Alternation, shift"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "運転を交替する。",
+        "vi": "Thay phiên lái xe.",
+        "en": "Take turns driving."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_608",
+    "kanji": "代理",
+    "hiragana": "だいり",
+    "hanViet": "ĐẠI LÍ",
+    "meaning": {
+      "vi": "Đại lý, đại diện",
+      "en": "Representation, proxy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "社長の代理。",
+        "vi": "Đại diện cho giám đốc.",
+        "en": "President's proxy."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_609",
+    "kanji": "審判",
+    "hiragana": "しんぱん",
+    "hanViet": "THẨM PHÁN",
+    "meaning": {
+      "vi": "Thẩm phán, trọng tài",
+      "en": "Referee, judgment"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "審判を下す。",
+        "vi": "Đưa ra phán quyết.",
+        "en": "Make a judgment."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_610",
+    "kanji": "監督",
+    "hiragana": "かんとく",
+    "hanViet": "GIAM ĐỐC",
+    "meaning": {
+      "vi": "Huấn luyện viên",
+      "en": "Director, supervisor"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "映画の監督。",
+        "vi": "Đạo diễn phim.",
+        "en": "Movie director."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_611",
+    "kanji": "予測",
+    "hiragana": "よそく",
+    "hanViet": "DƯ TRẮC",
+    "meaning": {
+      "vi": "Dự báo",
+      "en": "Prediction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "結果を予測する。",
+        "vi": "Dự đoán kết quả.",
+        "en": "Predict the result."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_612",
+    "kanji": "予期",
+    "hiragana": "よき",
+    "hanViet": "DƯ KÌ",
+    "meaning": {
+      "vi": "Mong đợi, dự đoán",
+      "en": "Expectation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "予期しない出来事。",
+        "vi": "Sự kiện không ngờ tới.",
+        "en": "Unexpected event."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_613",
+    "kanji": "判断",
+    "hiragana": "はんだん",
+    "hanViet": "PHÁN ĐOẠN",
+    "meaning": {
+      "vi": "Phán đoán",
+      "en": "Judgment"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "状況を判断する。",
+        "vi": "Phán đoán tình hình.",
+        "en": "Judge the situation."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_614",
+    "kanji": "評価",
+    "hiragana": "ひょうか",
+    "hanViet": "BÌNH GIÁ",
+    "meaning": {
+      "vi": "Đánh giá",
+      "en": "Evaluation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "高く評価される。",
+        "vi": "Được đánh giá cao.",
+        "en": "Be highly evaluated."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_615",
+    "kanji": "指示",
+    "hiragana": "しじ",
+    "hanViet": "CHỈ THỊ",
+    "meaning": {
+      "vi": "Chỉ thị",
+      "en": "Instruction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "指示に従う。",
+        "vi": "Tuân theo chỉ thị.",
+        "en": "Follow instructions."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_616",
+    "kanji": "無視",
+    "hiragana": "むし",
+    "hanViet": "VÔ THỊ",
+    "meaning": {
+      "vi": "Phớt lờ, không quan tâm",
+      "en": "Ignoring"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "忠告を無視する。",
+        "vi": "Phớt lờ lời khuyên.",
+        "en": "Ignore advice."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_617",
+    "kanji": "無断",
+    "hiragana": "むだん",
+    "hanViet": "VÔ ĐOẠN",
+    "meaning": {
+      "vi": "Việc không được cho phép",
+      "en": "Without permission"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "無断で休む。",
+        "vi": "Nghỉ không phép.",
+        "en": "Take a day off without permission."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_618",
+    "kanji": "承知",
+    "hiragana": "しょうち",
+    "hanViet": "THỪA TRI",
+    "meaning": {
+      "vi": "Đồng ý, hiểu",
+      "en": "Consent, understanding"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "承知しました。",
+        "vi": "Tôi hiểu rồi.",
+        "en": "Understood."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_619",
+    "kanji": "納得",
+    "hiragana": "なっとく",
+    "hanViet": "NẠP ĐẮC",
+    "meaning": {
+      "vi": "Thừa nhận, đồng ý",
+      "en": "Consent, convincing"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "説明に納得する。",
+        "vi": "Đồng ý với lời giải thích.",
+        "en": "Be convinced by the explanation."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_620",
+    "kanji": "疑問",
+    "hiragana": "ぎもん",
+    "hanViet": "NGHI VẤN",
+    "meaning": {
+      "vi": "Nghi vấn",
+      "en": "Doubt, question"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "疑問に思う。",
+        "vi": "Cảm thấy nghi vấn.",
+        "en": "Have a doubt."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_621",
+    "kanji": "推測",
+    "hiragana": "すいそく",
+    "hanViet": "THÔI TRẮC",
+    "meaning": {
+      "vi": "Suy đoán",
+      "en": "Guess, speculation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "理由を推測する。",
+        "vi": "Suy đoán lý do.",
+        "en": "Guess the reason."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_622",
+    "kanji": "肯定",
+    "hiragana": "こうてい",
+    "hanViet": "KHẲNG ĐỊNH",
+    "meaning": {
+      "vi": "Khẳng định",
+      "en": "Affirmation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "意見を肯定する。",
+        "vi": "Khẳng định ý kiến.",
+        "en": "Affirm the opinion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_623",
+    "kanji": "参考",
+    "hiragana": "さんこう",
+    "hanViet": "THAM KHẢO",
+    "meaning": {
+      "vi": "Tham khảo",
+      "en": "Reference"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "資料を参考にする。",
+        "vi": "Tham khảo tài liệu.",
+        "en": "Refer to documents."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_624",
+    "kanji": "程度",
+    "hiragana": "ていど",
+    "hanViet": "TRÌNH ĐỘ",
+    "meaning": {
+      "vi": "Trình độ",
+      "en": "Degree"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "ある程度わかる。",
+        "vi": "Hiểu ở một mức độ nào đó.",
+        "en": "Understand to some extent."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_625",
+    "kanji": "評判",
+    "hiragana": "ひょうばん",
+    "hanViet": "BÌNH PHÁN",
+    "meaning": {
+      "vi": "Bình luận",
+      "en": "Reputation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "評判がいい。",
+        "vi": "Đánh giá tốt.",
+        "en": "Have a good reputation."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_626",
+    "kanji": "批評",
+    "hiragana": "ひひょう",
+    "hanViet": "PHÊ BÌNH",
+    "meaning": {
+      "vi": "Phê bình, phê phán",
+      "en": "Criticism, review"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "作品を批評する。",
+        "vi": "Phê bình tác phẩm.",
+        "en": "Review a work."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_627",
+    "kanji": "推薦",
+    "hiragana": "すいせん",
+    "hanViet": "THÔI TIẾN",
+    "meaning": {
+      "vi": "Sự tiến cứ",
+      "en": "Recommendation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "本を推薦する。",
+        "vi": "Tiến cử một cuốn sách.",
+        "en": "Recommend a book."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_628",
+    "kanji": "信用",
+    "hiragana": "しんよう",
+    "hanViet": "TÍN DỤNG",
+    "meaning": {
+      "vi": "Tin tưởng, trung thành",
+      "en": "Trust, credit"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "彼を信用する。",
+        "vi": "Tin tưởng anh ấy.",
+        "en": "Trust him."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_629",
+    "kanji": "信頼",
+    "hiragana": "しんらい",
+    "hanViet": "TÍN LẠI",
+    "meaning": {
+      "vi": "Tin tưởng",
+      "en": "Reliance, trust"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "信頼できる人。",
+        "vi": "Người đáng tin cậy.",
+        "en": "A reliable person."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_630",
+    "kanji": "尊重",
+    "hiragana": "そんちょう",
+    "hanViet": "TÔNG TRỌNG",
+    "meaning": {
+      "vi": "Tôn trọng",
+      "en": "Respect"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "意見を尊重する。",
+        "vi": "Tôn trọng ý kiến.",
+        "en": "Respect the opinion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_631",
+    "kanji": "作業",
+    "hiragana": "さぎょう",
+    "hanViet": "TÁC NGHIỆP",
+    "meaning": {
+      "vi": "Công việc",
+      "en": "Work, operation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "作業を始める。",
+        "vi": "Bắt đầu công việc.",
+        "en": "Start the work."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_632",
+    "kanji": "工夫",
+    "hiragana": "くふう",
+    "hanViet": "CÔNG PHU",
+    "meaning": {
+      "vi": "Công phu",
+      "en": "Device, devising"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "やり方を工夫する。",
+        "vi": "Bỏ công phu tìm cách làm.",
+        "en": "Devise a way to do it."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_633",
+    "kanji": "消化",
+    "hiragana": "しょうか",
+    "hanViet": "TIÊU HÓA",
+    "meaning": {
+      "vi": "Tiêu hóa",
+      "en": "Digestion"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "食べ物を消化する。",
+        "vi": "Tiêu hóa thức ăn.",
+        "en": "Digest food."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_634",
+    "kanji": "吸収",
+    "hiragana": "きゅうしゅう",
+    "hanViet": "HẤP THU",
+    "meaning": {
+      "vi": "Sự hấp thụ",
+      "en": "Absorption"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "水分を吸収する。",
+        "vi": "Hấp thụ nước.",
+        "en": "Absorb water."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_635",
+    "kanji": "設置",
+    "hiragana": "せっち",
+    "hanViet": "THIẾT TRÍ",
+    "meaning": {
+      "vi": "Thiết lập, lắp đặt",
+      "en": "Establishment, installation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "カメラを設置する。",
+        "vi": "Lắp đặt camera.",
+        "en": "Install a camera."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_636",
+    "kanji": "設定",
+    "hiragana": "せってい",
+    "hanViet": "THIẾT LẬP",
+    "meaning": {
+      "vi": "Cài đặt, thiết lập",
+      "en": "Setting"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "温度を設定する。",
+        "vi": "Cài đặt nhiệt độ.",
+        "en": "Set the temperature."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_637",
+    "kanji": "調節",
+    "hiragana": "ちょうせつ",
+    "hanViet": "ĐIỀU TIẾT",
+    "meaning": {
+      "vi": "Điều tiết (mang tính mực độ)",
+      "en": "Adjustment"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "音量を調節する。",
+        "vi": "Điều tiết âm lượng.",
+        "en": "Adjust the volume."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_638",
+    "kanji": "調整",
+    "hiragana": "ちょうせい",
+    "hanViet": "ĐIỀU CHỈNH",
+    "meaning": {
+      "vi": "Điều chỉnh (xảy ra v.đề)",
+      "en": "Adjustment, regulation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "日程を調整する。",
+        "vi": "Điều chỉnh lịch trình.",
+        "en": "Adjust the schedule."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_639",
+    "kanji": "解放",
+    "hiragana": "かいほう",
+    "hanViet": "GIẢI PHÓNG",
+    "meaning": {
+      "vi": "Giải phóng",
+      "en": "Release, liberation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "ストレスから解放される。",
+        "vi": "Được giải phóng khỏi căng thẳng.",
+        "en": "Be released from stress."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_640",
+    "kanji": "総合",
+    "hiragana": "そうごう",
+    "hanViet": "TỔNG HỢP",
+    "meaning": {
+      "vi": "Tổng hợp",
+      "en": "Synthesis, comprehensive"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "総合的に判断する。",
+        "vi": "Đánh giá một cách tổng hợp.",
+        "en": "Judge comprehensively."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_641",
+    "kanji": "連続",
+    "hiragana": "れんぞく",
+    "hanViet": "LIÊN TỤC",
+    "meaning": {
+      "vi": "Liên tục",
+      "en": "Continuation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "3日連続で雨が降る。",
+        "vi": "Mưa liên tục 3 ngày.",
+        "en": "Rain for 3 consecutive days."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_642",
+    "kanji": "持続",
+    "hiragana": "じぞく",
+    "hanViet": "TRÌ TỤC",
+    "meaning": {
+      "vi": "Kéo dài",
+      "en": "Continuation, endurance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "効果が持続する。",
+        "vi": "Hiệu quả kéo dài.",
+        "en": "The effect lasts."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_643",
+    "kanji": "中断",
+    "hiragana": "ちゅうだん",
+    "hanViet": "TRUNG ĐOẠN",
+    "meaning": {
+      "vi": "Gián đoạn",
+      "en": "Interruption"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "試合が中断する。",
+        "vi": "Trận đấu bị gián đoạn.",
+        "en": "The match is interrupted."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_644",
+    "kanji": "安定",
+    "hiragana": "あんてい",
+    "hanViet": "AN ĐỊNH",
+    "meaning": {
+      "vi": "An định, ổn định",
+      "en": "Stability"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "生活が安定する。",
+        "vi": "Cuộc sống ổn định.",
+        "en": "Life becomes stable."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_645",
+    "kanji": "混乱",
+    "hiragana": "こんらん",
+    "hanViet": "HỖN LOẠN",
+    "meaning": {
+      "vi": "Hỗn loạn",
+      "en": "Confusion"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "頭が混乱する。",
+        "vi": "Đầu óc hỗn loạn.",
+        "en": "My mind is confused."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_646",
+    "kanji": "上昇",
+    "hiragana": "じょうしょう",
+    "hanViet": "THƯỢNG THĂNG",
+    "meaning": {
+      "vi": "Tiến lên, lên cao",
+      "en": "Rise, ascent"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "気温が上昇する。",
+        "vi": "Nhiệt độ tăng lên.",
+        "en": "The temperature rises."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_647",
+    "kanji": "達成",
+    "hiragana": "たっせい",
+    "hanViet": "ĐẠT THÀNH",
+    "meaning": {
+      "vi": "Đạt được, thành tựu",
+      "en": "Achievement"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "目標を達成する。",
+        "vi": "Đạt được mục tiêu.",
+        "en": "Achieve the goal."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_648",
+    "kanji": "事情",
+    "hiragana": "じじょう",
+    "hanViet": "SỰ TÌNH",
+    "meaning": {
+      "vi": "Tình hình, lý do",
+      "en": "Circumstances, reasons"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "事情を説明する。",
+        "vi": "Giải thích tình hình.",
+        "en": "Explain the circumstances."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_649",
+    "kanji": "事態",
+    "hiragana": "じたい",
+    "hanViet": "SỰ THÁI",
+    "meaning": {
+      "vi": "Tình hình",
+      "en": "Situation, state of affairs"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "事態が悪化する。",
+        "vi": "Tình hình xấu đi.",
+        "en": "The situation worsens."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_650",
+    "kanji": "障害",
+    "hiragana": "しょうがい",
+    "hanViet": "CHƯỚNG HẠI",
+    "meaning": {
+      "vi": "Khuyết tật, chướng ngại",
+      "en": "Obstacle, disability"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "障害を乗り越える。",
+        "vi": "Vượt qua chướng ngại.",
+        "en": "Overcome an obstacle."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_651",
+    "kanji": "福祉",
+    "hiragana": "ふくし",
+    "hanViet": "PHÚC CHỈ",
+    "meaning": {
+      "vi": "Phúc lợi",
+      "en": "Welfare"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "社会福祉。",
+        "vi": "Phúc lợi xã hội.",
+        "en": "Social welfare."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_652",
+    "kanji": "社会",
+    "hiragana": "しゃかい",
+    "hanViet": "XÃ HỘI",
+    "meaning": {
+      "vi": "Xã hội",
+      "en": "Society"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "社会に出る。",
+        "vi": "Bước ra xã hội.",
+        "en": "Enter society."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_653",
+    "kanji": "都会",
+    "hiragana": "とかい",
+    "hanViet": "ĐÔ HỘI",
+    "meaning": {
+      "vi": "Thành phố",
+      "en": "City"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "都会に住む。",
+        "vi": "Sống ở thành phố.",
+        "en": "Live in the city."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_654",
+    "kanji": "世論",
+    "hiragana": "よろん",
+    "hanViet": "THẾ LUẬN",
+    "meaning": {
+      "vi": "Công luận",
+      "en": "Public opinion"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "世論に耳を傾ける。",
+        "vi": "Lắng nghe dư luận.",
+        "en": "Listen to public opinion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_07_655",
+    "kanji": "民族",
+    "hiragana": "みんぞく",
+    "hanViet": "DÂN TỘC",
+    "meaning": {
+      "vi": "Dân tộc",
+      "en": "Ethnic group, race"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 7",
+    "examples": [
+      {
+        "jp": "少数民族。",
+        "vi": "Dân tộc thiểu số.",
+        "en": "Ethnic minority."
+      }
+    ]
+  }
+]

@@ -2,8 +2,9 @@ import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Eye, EyeOff, Shuffle, MousePointerClick, ShieldAlert } from 'lucide-react';
-import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
 import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
+import type { Word } from '../../types';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
@@ -23,7 +24,9 @@ interface ErrorItem {
 type GameMode = 'truefalse' | 'pickwrong';
 
 export default function VocabErrorDetect() {
-  const lessons = getN3Lessons();
+  const { course } = usePracticeContext();
+  const data = course.data as Word[];
+  const lessons = Array.from(new Set(data.map(w => w.lesson).filter(Boolean))) as string[];
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   const [started, setStarted] = useState(false);
   const [showFurigana, setShowFurigana] = useState(false);
@@ -31,8 +34,8 @@ export default function VocabErrorDetect() {
 
   const pool = useMemo<ErrorItem[]>(() => {
     let base = selectedLessons.length > 0
-      ? vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''))
-      : vocabularyN3;
+      ? data.filter(w => selectedLessons.includes(w.lesson || ''))
+      : data;
 
     if (base.length < 4) return [];
 
@@ -156,7 +159,7 @@ export default function VocabErrorDetect() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans text-slate-800 dark:text-slate-100 transition-colors duration-300">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-rose-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-rose-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
 
@@ -179,8 +182,8 @@ export default function VocabErrorDetect() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={vocabularyN3.length}
-              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => data.filter(w => w.lesson === l).length}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -277,7 +280,7 @@ export default function VocabErrorDetect() {
             <button onClick={handleStart} className="w-full py-3 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-xl transition-all">
               Chơi lại
             </button>
-            <Link to="/practice/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-slate-300 transition-all text-center">
               Về Dashboard
             </Link>
           </div>

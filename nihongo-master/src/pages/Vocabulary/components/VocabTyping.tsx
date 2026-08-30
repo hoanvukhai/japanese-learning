@@ -32,6 +32,7 @@ export default function VocabTyping({
   resultSecs,
 }: VocabTypingProps) {
   const hasHint = !!q.hintText && q.hintText.trim() !== '';
+  const isExpectedKatakana = /^[\u30A0-\u30FF\u30FC\s]+$/.test(q.answer);
 
   return (
     <div className="space-y-3">
@@ -47,7 +48,11 @@ export default function VocabTyping({
           disabled={typingSubmitted}
           onChange={e => {
             if (!typingSubmitted) {
-              setTypingInput(wanakana.toHiragana(e.target.value, { IMEMode: true }));
+              if (isExpectedKatakana) {
+                setTypingInput(wanakana.toKatakana(e.target.value, { IMEMode: true }));
+              } else {
+                setTypingInput(wanakana.toHiragana(e.target.value, { IMEMode: true }));
+              }
             }
           }}
           onFocus={e => {

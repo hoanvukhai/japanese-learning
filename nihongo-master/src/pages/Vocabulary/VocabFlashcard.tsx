@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, ThumbsUp, ThumbsDown, CheckCircle2, Eye, EyeOff } from 'lucide-react';
-import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
 import type { Word } from '../../types';
 import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
 
@@ -14,7 +14,10 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function VocabFlashcard() {
-  const lessons = getN3Lessons();
+  const { course } = usePracticeContext();
+  const data = course.data as Word[];
+  const lessons = Array.from(new Set(data.map(w => w.lesson).filter(Boolean))) as string[];
+  
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
 
   const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
@@ -23,10 +26,10 @@ export default function VocabFlashcard() {
 
   const pool = useMemo(() => {
     const base = selectedLessons.length === 0
-      ? vocabularyN3
-      : vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''));
+      ? data
+      : data.filter(w => selectedLessons.includes(w.lesson || ''));
     return shuffle(base);
-  }, [selectedLessons]);
+  }, [selectedLessons, data]);
 
   const [queue, setQueue] = useState<Word[]>([]);
   const [known, setKnown] = useState<Word[]>([]);
@@ -75,7 +78,7 @@ export default function VocabFlashcard() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-violet-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">🃏 Lật thẻ từ vựng</h1>
@@ -92,8 +95,8 @@ export default function VocabFlashcard() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={vocabularyN3.length}
-              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => data.filter(w => w.lesson === l).length}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -203,7 +206,7 @@ export default function VocabFlashcard() {
             >
               <RotateCcw size={16} /> Học lại tất cả
             </button>
-            <Link to="/practice/vocabulary" className="block w-full py-3 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl transition-all text-center">
+            <Link to={`/course/${course.id}/practice`} className="block w-full py-3 bg-violet-600 hover:bg-violet-700 text-white font-bold rounded-xl transition-all text-center">
               Về dashboard
             </Link>
           </div>

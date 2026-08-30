@@ -1,0 +1,505 @@
+[
+    {
+        "id": "k_rkn3_22_01",
+        "character": "亡",
+        "hanViet": "VONG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_01_1",
+                "word": "亡くなる",
+                "hanVietWord": "VONG",
+                "hiragana": "なくなる",
+                "meaning": {
+                    "vi": "Mất (chết)",
+                    "en": "To pass away"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "祖父が病気で亡くなった。",
+                        "vi": "Ông tôi đã mất vì bệnh.",
+                        "en": "My grandfather passed away due to illness."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_01_2",
+                "word": "死亡",
+                "hanVietWord": "TỬ VONG",
+                "hiragana": "しぼう",
+                "meaning": {
+                    "vi": "Tử vong",
+                    "en": "Death / Mortality"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "事故による死亡者が増える。",
+                        "vi": "Số người tử vong do tai nạn tăng lên.",
+                        "en": "The number of deaths caused by accidents increases."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_02",
+        "character": "忘",
+        "hanViet": "VONG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_02_1",
+                "word": "忘れる",
+                "hanVietWord": "VONG",
+                "hiragana": "わすれる",
+                "meaning": {
+                    "vi": "Quên",
+                    "en": "To forget"
+                },
+                "type": "verb",
+                "group": 2,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "宿題を家に忘れた。",
+                        "vi": "Tôi đã để quên bài tập ở nhà.",
+                        "en": "I forgot my homework at home."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_02_2",
+                "word": "忘年会",
+                "hanVietWord": "VONG NIÊN HỘI",
+                "hiragana": "ぼうねんかい",
+                "meaning": {
+                    "vi": "Tiệc tất niên",
+                    "en": "Year-end party"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "会社の忘年会に参加する。",
+                        "vi": "Tham gia tiệc tất niên của công ty.",
+                        "en": "Participate in the company's year-end party."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_03",
+        "character": "忙",
+        "hanViet": "MANG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_03_1",
+                "word": "忙しい",
+                "hanVietWord": "MANG",
+                "hiragana": "いそがしい",
+                "meaning": {
+                    "vi": "Bận rộn",
+                    "en": "Busy"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "仕事がとても忙しい。",
+                        "vi": "Công việc rất bận rộn.",
+                        "en": "Work is very busy."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_03_2",
+                "word": "多忙",
+                "hanVietWord": "ĐA MANG",
+                "hiragana": "たぼう",
+                "meaning": {
+                    "vi": "Rất bận",
+                    "en": "Very busy"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "多忙な日々を送る。",
+                        "vi": "Trải qua những ngày tháng cực kỳ bận rộn.",
+                        "en": "Spend very busy days."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_04",
+        "character": "望",
+        "hanViet": "VỌNG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_04_1",
+                "word": "希望",
+                "hanVietWord": "HI VỌNG",
+                "hiragana": "きぼう",
+                "meaning": {
+                    "vi": "Hy vọng",
+                    "en": "Hope"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "平和な世界を希望する。",
+                        "vi": "Hy vọng về một thế giới hòa bình.",
+                        "en": "Hope for a peaceful world."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_04_2",
+                "word": "欲望",
+                "hanVietWord": "DỤC VỌNG",
+                "hiragana": "よくぼう",
+                "meaning": {
+                    "vi": "Ham muốn",
+                    "en": "Desire / Lust"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "人間の欲望には限りがない。",
+                        "vi": "Ham muốn của con người là không có giới hạn.",
+                        "en": "Human desire has no limits."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_04_3",
+                "word": "望む",
+                "hanVietWord": "VỌNG",
+                "hiragana": "のぞむ",
+                "meaning": {
+                    "vi": "Mong muốn",
+                    "en": "To desire / To wish for"
+                },
+                "type": "verb",
+                "group": 1,
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "彼からの返事を望んでいる。",
+                        "vi": "Tôi đang mong muốn sự hồi đáp từ anh ấy.",
+                        "en": "I am wishing for a reply from him."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_05",
+        "character": "短",
+        "hanViet": "ĐOẢN",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_05_1",
+                "word": "短所",
+                "hanVietWord": "ĐOẢN SỞ",
+                "hiragana": "たんしょ",
+                "meaning": {
+                    "vi": "Nhược điểm",
+                    "en": "Weak point / Shortcoming"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "自分の短所を理解する。",
+                        "vi": "Hiểu rõ nhược điểm của bản thân.",
+                        "en": "Understand your own weak points."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_05_2",
+                "word": "短気",
+                "hanVietWord": "ĐOẢN KHÍ",
+                "hiragana": "たんき",
+                "meaning": {
+                    "vi": "Nóng tính",
+                    "en": "Short-tempered"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は短気ですぐに怒る。",
+                        "vi": "Anh ấy nóng tính nên rất dễ nổi giận.",
+                        "en": "He is short-tempered and gets angry easily."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_06",
+        "character": "登",
+        "hanViet": "ĐĂNG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_06_1",
+                "word": "山登り",
+                "hanVietWord": "SƠN ĐĂNG",
+                "hiragana": "やまのぼり",
+                "meaning": {
+                    "vi": "Leo núi",
+                    "en": "Mountain climbing"
+                },
+                "type": "noun",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "週末に山登りに行く。",
+                        "vi": "Đi leo núi vào cuối tuần.",
+                        "en": "Go mountain climbing on the weekend."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_06_2",
+                "word": "登山",
+                "hanVietWord": "ĐĂNG SƠN",
+                "hiragana": "とざん",
+                "meaning": {
+                    "vi": "Leo núi",
+                    "en": "Mountain climbing"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "富士山で登山を楽しむ。",
+                        "vi": "Tận hưởng việc leo núi Phú Sĩ.",
+                        "en": "Enjoy mountain climbing at Mt. Fuji."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_06_3",
+                "word": "登録する",
+                "hanVietWord": "ĐĂNG LỤC",
+                "hiragana": "とうろくする",
+                "meaning": {
+                    "vi": "Đăng ký",
+                    "en": "To register"
+                },
+                "type": "verb",
+                "group": 3,
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "ウェブサイトに登録する。",
+                        "vi": "Đăng ký vào trang web.",
+                        "en": "Register on the website."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_06_4",
+                "word": "登場",
+                "hanVietWord": "ĐĂNG TRƯỜNG",
+                "hiragana": "とうじょう",
+                "meaning": {
+                    "vi": "Xuất hiện / Ra sân",
+                    "en": "Appearance / Entrance"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "新しいキャラクターが登場した。",
+                        "vi": "Nhân vật mới đã xuất hiện.",
+                        "en": "A new character appeared."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_07",
+        "character": "豊",
+        "hanViet": "PHONG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_07_1",
+                "word": "豊か",
+                "hanVietWord": "PHONG",
+                "hiragana": "ゆたか",
+                "meaning": {
+                    "vi": "Giàu có / Phong phú",
+                    "en": "Rich / Abundant"
+                },
+                "type": "adj_na",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "日本は自然が豊かだ。",
+                        "vi": "Nhật Bản có thiên nhiên phong phú.",
+                        "en": "Japan is rich in nature."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_07_2",
+                "word": "豊富",
+                "hanVietWord": "PHONG PHÚ",
+                "hiragana": "ほうふ",
+                "meaning": {
+                    "vi": "Phong phú",
+                    "en": "Abundant / Wealthy"
+                },
+                "type": "adj_na",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は知識が豊富だ。",
+                        "vi": "Anh ấy có kiến thức rất phong phú.",
+                        "en": "He is abundant in knowledge."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_07_3",
+                "word": "豊作",
+                "hanVietWord": "PHONG TÁC",
+                "hiragana": "ほうさく",
+                "meaning": {
+                    "vi": "Bội thu",
+                    "en": "Bountiful harvest"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "今年はお米が豊作だ。",
+                        "vi": "Năm nay lúa gạo bội thu.",
+                        "en": "There is a bountiful harvest of rice this year."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_08",
+        "character": "農",
+        "hanViet": "NÔNG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_08_1",
+                "word": "農家",
+                "hanVietWord": "NÔNG GIA",
+                "hiragana": "のうか",
+                "meaning": {
+                    "vi": "Nông dân",
+                    "en": "Farmer / Farm family"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "彼は農家で働いている。",
+                        "vi": "Anh ấy đang làm việc ở một hộ nông dân.",
+                        "en": "He works at a farm family."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_08_2",
+                "word": "農業",
+                "hanVietWord": "NÔNG NGHIỆP",
+                "hiragana": "のうぎょう",
+                "meaning": {
+                    "vi": "Nông nghiệp",
+                    "en": "Agriculture"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "農業の技術が進歩する。",
+                        "vi": "Kỹ thuật nông nghiệp tiến bộ.",
+                        "en": "Agricultural technology advances."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "k_rkn3_22_09",
+        "character": "濃",
+        "hanViet": "NỒNG",
+        "level": "N3",
+        "lesson": "Bài 22",
+        "words": [
+            {
+                "id": "kw_rkn3_22_09_1",
+                "word": "濃い",
+                "hanVietWord": "NỒNG",
+                "hiragana": "こい",
+                "meaning": {
+                    "vi": "Đậm (màu / vị)",
+                    "en": "Thick / Strong"
+                },
+                "type": "adj_i",
+                "readingType": "訓",
+                "examples": [
+                    {
+                        "jp": "コーヒーの味が濃い。",
+                        "vi": "Vị của cà phê đậm.",
+                        "en": "The taste of the coffee is strong."
+                    }
+                ]
+            },
+            {
+                "id": "kw_rkn3_22_09_2",
+                "word": "濃度",
+                "hanVietWord": "NỒNG ĐỘ",
+                "hiragana": "のうど",
+                "meaning": {
+                    "vi": "Nồng độ",
+                    "en": "Concentration / Density"
+                },
+                "type": "noun",
+                "readingType": "音",
+                "examples": [
+                    {
+                        "jp": "塩分の濃度を測る。",
+                        "vi": "Đo nồng độ muối.",
+                        "en": "Measure the salt concentration."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -6,7 +6,7 @@ import {
   RANKS,
   LEVEL_EXP_THRESHOLDS,
 } from '../../../lib/rankSystem';
-import shortcuts from '../../../data/shortcuts.json';
+import shortcuts from '../../../data/jlpt/core/shortcuts.json';
 
 // ── types ────────────────────────────────────────────────────────
 export type Level = 'easy' | 'normal' | 'hard';
@@ -156,10 +156,12 @@ export function buildQuestions(pool: Word[], opts: { totalQ: number }): UnifiedQ
       } else if (type === 'typing') {
         const dir = (Math.random() > 0.5 && hasKanji(w)) ? 'w2h' : 'm2h';
         const exp = `${w.kanji ? `${w.kanji} (${w.hiragana})` : w.hiragana} — Nghĩa: ${meaning}`;
+        const isKatakanaWord = w.kanji && /^[\u30A0-\u30FF\u30FC]+$/.test(w.kanji);
+        const expectedAnswer = isKatakanaWord ? w.kanji : w.hiragana;
         if (dir === 'm2h') {
-          qs.push({ id, type: 'typing', prompt: meaning, answer: w.hiragana, answerDisplay: `${label} (${w.hiragana})`, hintText: label, explanation: exp });
+          qs.push({ id, type: 'typing', prompt: meaning, answer: expectedAnswer, answerDisplay: `${label} (${expectedAnswer})`, hintText: label, explanation: exp });
         } else {
-          qs.push({ id, type: 'typing', prompt: label, promptSub: w.hiragana, answer: w.hiragana, answerDisplay: w.hiragana, hintText: meaning, explanation: exp });
+          qs.push({ id, type: 'typing', prompt: label, answer: expectedAnswer, answerDisplay: expectedAnswer, hintText: meaning, explanation: exp });
         }
       } else if (type === 'flashcard') {
         const dir = Math.random() > 0.5 ? 'w2m' : 'm2w';

@@ -4,7 +4,8 @@ import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, RotateCcw, Trophy, Eye, EyeOff } from 'lucide-react';
-import { vocabularyN3, getN3Lessons } from '../../data/vocabularyN3';
+import { usePracticeContext } from '../Practice/PracticeContext';
+import type { Word } from '../../types';
 
 import VocabLessonChips from '../../components/vocabulary/VocabLessonChips';
 
@@ -23,7 +24,9 @@ interface Tile {
 }
 
 export default function VocabMatching() {
-  const lessons = getN3Lessons();
+  const { course } = usePracticeContext();
+  const data = course.data as Word[];
+  const lessons = Array.from(new Set(data.map(w => w.lesson).filter(Boolean))) as string[];
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   const [showFurigana, setShowFurigana] = useState(false);
   const [started, setStarted] = useState(false);
@@ -32,9 +35,9 @@ export default function VocabMatching() {
 
   const fullPool = useMemo(() => {
     return selectedLessons.length === 0
-      ? vocabularyN3
-      : vocabularyN3.filter(w => selectedLessons.includes(w.lesson || ''));
-  }, [selectedLessons]);
+      ? data
+      : data.filter(w => selectedLessons.includes(w.lesson || ''));
+  }, [selectedLessons, data]);
 
   // Mỗi round lấy PAIR_COUNT từ pool (xoay vòng)
   const tiles: Tile[] = useMemo(() => {
@@ -109,7 +112,7 @@ export default function VocabMatching() {
     return (
       <div className="min-h-[calc(100vh-3.5rem)] bg-slate-50 dark:bg-slate-900 p-6 md:p-12 font-sans">
         <div className="max-w-3xl mx-auto">
-          <Link to="/practice/vocabulary" className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-3 transition-colors">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 mb-3 transition-colors">
             <ArrowLeft size={18} /> Quay lại
           </Link>
           <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white mb-2 font-display">🧩 Nối từ</h1>
@@ -125,8 +128,8 @@ export default function VocabMatching() {
                 );
               }}
               onSelectAll={() => setSelectedLessons([])}
-              totalCount={vocabularyN3.length}
-              getCount={(l) => vocabularyN3.filter(w => w.lesson === l).length}
+              totalCount={data.length}
+              getCount={(l) => data.filter(w => w.lesson === l).length}
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -177,9 +180,9 @@ export default function VocabMatching() {
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-3">
-          <button onClick={() => setStarted(false)} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 transition-colors font-medium">
+          <Link to={`/course/${course.id}/practice`} className="inline-flex items-center gap-2 text-slate-500 hover:text-emerald-600 transition-colors font-medium">
             <ArrowLeft size={18} /> Quay lại
-          </button>
+          </Link>
           
           <div className="flex items-center gap-4">
             <button
@@ -253,7 +256,7 @@ export default function VocabMatching() {
                   >
                     <RotateCcw size={16} /> Vòng mới
                   </button>
-                  <Link to="/practice/vocabulary" className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-emerald-400 transition-all text-center">
+                  <Link to={`/course/${course.id}/practice`} className="block w-full py-3 border-2 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 font-bold rounded-xl hover:border-emerald-400 transition-all text-center">
                     Về dashboard
                   </Link>
                 </div>
