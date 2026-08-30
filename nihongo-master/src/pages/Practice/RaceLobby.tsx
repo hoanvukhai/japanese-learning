@@ -1,6 +1,6 @@
 // src/pages/Practice/RaceLobby.tsx
 import { useState, useEffect, useMemo, useRef } from 'react';
-import { useNavigate, useLocation, useParams } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../../context/auth/useAuth';
 import { useSettings } from '../../context/global/useSettings';
 import { useAudio } from '../../context/audio/useAudio';
@@ -98,12 +98,6 @@ export default function RaceLobby() {
     }
   };
 
-  const getRankLabel = (idx: number) => {
-    if (idx === 0) return '🥇';
-    if (idx === 1) return '🥈';
-    if (idx === 2) return '🥉';
-    return (idx + 1) + '.';
-  };
 
   // Game Meta Data
   const gameMeta = useMemo(() => {
@@ -135,15 +129,7 @@ export default function RaceLobby() {
     return { ...item, rankPosition: rank };
   }, [user, leaderboard]);
 
-  const top10Slots = useMemo(() => {
-    const slots: Array<LeaderboardUser | null> = [];
-    for (let i = 0; i < 10; i++) {
-      slots.push(leaderboard[i] || null);
-    }
-    return slots;
-  }, [leaderboard]);
 
-  const isUserInTop10 = currentUserItem ? currentUserItem.rankPosition! <= 10 : false;
   const userScore = currentUserItem?.raceScores?.[modeKey] || 0;
   const prevBest = locState?.prevHighScore !== undefined ? locState.prevHighScore : userScore;
 

@@ -6,7 +6,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../context/auth/useAuth';
-import { ArrowLeft, BookOpen, RefreshCw, CheckCircle2, CheckSquare, Square, Zap, Lock, Plus, ChevronsUp, FastForward, Droplet, EyeOff } from 'lucide-react';
+import { ArrowLeft, BookOpen, RefreshCw, CheckCircle2, CheckSquare, Square, Plus, ChevronsUp, Droplet, EyeOff } from 'lucide-react';
 import MasteryIcon from '../../components/srs/MasteryIcon';
 import MasterySVG from '../../components/srs/MasterySVG';
 import { fetchAllProgress, batchUpdateWordMasteredStatus } from '../../lib/srs/firestoreSync';
@@ -39,18 +39,6 @@ interface LessonGroup {
 
 // ── Helpers ───────────────────────────────────────────────────────────────
 
-/** Tính thời gian còn lại đến lần ôn tập tiếp theo */
-function formatReviewDate(date: Date): string {
-  const now = new Date();
-  const diffMs = date.getTime() - now.getTime();
-  if (diffMs <= 0) return 'Cần tưới!';
-  const diffH = Math.floor(diffMs / (1000 * 60 * 60));
-  const diffD = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  if (diffH < 1) return 'Dưới 1 giờ';
-  if (diffH < 24) return `${diffH} giờ nữa`;
-  if (diffD === 1) return 'Ngày mai';
-  return `${diffD} ngày nữa`;
-}
 
 /** Xây danh sách phẳng từ course.data dựa trên course.subject */
 function buildFlatList(subject: string, data: any[]): any[] {
@@ -304,25 +292,6 @@ export default function LearnCourseDetail() {
     }
   };
 
-  // [FIX-2] Tương tự cho single toggle
-  const handleSingleToggleMastered = async (itemId: string, currentIsMastered: boolean) => {
-    if (!user || !course) return;
-    setUpdating(true);
-    try {
-      await batchUpdateWordMasteredStatus(
-        user.uid,
-        course.id,
-        course.subject as SRSSubject,
-        [itemId],
-        !currentIsMastered
-      );
-      await loadData();
-    } catch (e) {
-      console.error('Single toggle error:', e);
-    } finally {
-      setUpdating(false);
-    }
-  };
 
   // ── Tính toán số lượng từ hợp lệ cho Batch Actions ─────────────────────
   const eligibleForLv2Count = selectedItemIds.filter(id => {

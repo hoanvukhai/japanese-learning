@@ -98,16 +98,7 @@ export default function CourseRaceHub() {
     return true;
   });
 
-  const getRankLabel = (idx: number) => {
-    if (idx === 0) return '🥇';
-    if (idx === 1) return '🥈';
-    if (idx === 2) return '🥉';
-    return (idx + 1) + '.';
-  };
-
-  const top10Slots = Array.from({ length: 10 }).map((_, i) => leaderboard[i] || null);
   const currentUserItem = user ? leaderboard.find(u => u.uid === user?.uid) : null;
-  const isUserInTop10 = currentUserItem ? leaderboard.findIndex(u => u.uid === user?.uid) < 10 : false;
   const userScore = currentUserItem?.courseRaceScores?.[course.id] || 0;
 
   return (

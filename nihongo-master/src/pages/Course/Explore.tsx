@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { getAllCourses } from '../../data/courses/registry';
 import { useMyCourses } from '../../context/global/useMyCourses';
-import { Plus, Check, Compass, LogIn } from 'lucide-react';
+import { Plus, Check, Compass } from 'lucide-react';
 import { useAuth } from '../../context/auth/useAuth';
 
 export default function Explore() {

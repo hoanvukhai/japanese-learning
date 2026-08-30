@@ -1,10 +1,6 @@
 import { vocabularyN3 } from '../jlpt/n3/vocabularyN3';
-import { vocabularyMimikaraN2 } from '../jlpt/n2/vocabulary/mimikara';
-import { vocabularyRikiN2 } from '../jlpt/n2/vocabulary/riki';
 import { kanjiN3 } from '../jlpt/n3/kanjiN3';
-import { allN2Kanji } from '../jlpt/n2/kanji';
 import { grammarN3 } from '../jlpt/n3/grammarN3';
-import { allN2Grammar } from '../jlpt/n2/grammar';
 import { keigoVerbs } from '../jlpt/keigo/keigoDb';
 import verbsConjugation from '../jlpt/conjugation/verbs.json';
 
@@ -38,24 +34,6 @@ export const COURSE_REGISTRY: Course[] = [
     data: vocabularyN3
   },
   {
-    id: 'n2-vocab-mimikara',
-    name: 'Từ vựng N2 Mimikara',
-    description: 'Tổng hợp từ vựng N2 theo giáo trình Mimikara Oboeru.',
-    subject: 'vocab',
-    level: 'N2',
-    color: 'rose',
-    data: vocabularyMimikaraN2
-  },
-  {
-    id: 'n2-vocab-riki',
-    name: 'Từ vựng N2 Riki',
-    description: 'Tổng hợp từ vựng N2 theo giáo trình Riki Nihongo.',
-    subject: 'vocab',
-    level: 'N2',
-    color: 'blue',
-    data: vocabularyRikiN2
-  },
-  {
     id: 'n3-kanji-single',
     name: 'Hán Tự N3 Riki (Chữ Gốc)',
     description: 'Học mặt chữ, Bộ thủ và Âm Hán Việt cơ bản.',
@@ -74,24 +52,6 @@ export const COURSE_REGISTRY: Course[] = [
     data: kanjiN3
   },
   {
-    id: 'n2-kanji-single',
-    name: 'Hán Tự N2 Riki (Chữ Gốc)',
-    description: 'Kanji N2 cấp cao và Âm Hán Việt.',
-    subject: 'kanji_single',
-    level: 'N2',
-    color: 'emerald',
-    data: allN2Kanji as any[]
-  },
-  {
-    id: 'n2-kanji-words',
-    name: 'Chữ Hán N2 Riki (Từ Vựng)',
-    description: 'Từ vựng cấu tạo từ các Hán Tự N2.',
-    subject: 'kanji_words',
-    level: 'N2',
-    color: 'teal',
-    data: allN2Kanji as any[]
-  },
-  {
     id: 'n3-grammar-core',
     name: 'Ngữ pháp N3 Riki',
     description: 'Nắm chắc ngữ pháp N3 với ví dụ và bẫy JLPT.',
@@ -99,15 +59,6 @@ export const COURSE_REGISTRY: Course[] = [
     level: 'N3',
     color: 'teal',
     data: grammarN3
-  },
-  {
-    id: 'n2-grammar-core',
-    name: 'Ngữ pháp N2 Riki',
-    description: 'Luyện thi ngữ pháp N2 theo Shinkanzen Master.',
-    subject: 'grammar',
-    level: 'N2',
-    color: 'cyan',
-    data: allN2Grammar
   },
   {
     id: 'keigo-master',

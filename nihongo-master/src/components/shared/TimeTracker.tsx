@@ -9,7 +9,7 @@ export function TimeTracker() {
   const { user } = useAuth();
   const lastActiveTime = useRef<number>(Date.now());
   const accumulatedSeconds = useRef<number>(0);
-  const syncInterval = useRef<NodeJS.Timeout | null>(null);
+  const syncInterval = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (!user) return;

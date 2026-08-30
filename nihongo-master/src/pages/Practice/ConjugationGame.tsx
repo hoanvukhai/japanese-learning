@@ -11,7 +11,7 @@ import EndlessControls from '../../components/FlashcardModule/EndlessControls';
 import SettingsModal from '../../components/FlashcardModule/Settings/SettingsModal';
 import { useFlashcardSettings } from '../../context/features/flashcard/useFlashcardSettings';
 import { useSettings } from '../../context/global/useSettings';
-import { BookOpen, Keyboard, AlertTriangle, CheckCircle, RotateCcw, Undo2, Target, Settings, ArrowLeft } from 'lucide-react';
+import { BookOpen, Keyboard, AlertTriangle, CheckCircle, RotateCcw, Undo2, Settings, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 // ──────────────────────────────────────────────────────────────

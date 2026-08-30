@@ -8,7 +8,7 @@ import { ArrowLeft, Heart, Flame } from 'lucide-react';
 import { useAuth } from '../../context/auth/useAuth';
 import { useSettings } from '../../context/global/useSettings';
 import { useAudio } from '../../context/audio/useAudio';
-import { syncPersonalHighScore } from '../../lib/srs/firestoreSync';
+
 import { recordArenaRace } from '../../lib/srs/pointsEngine';
 import { romajiToHiragana } from '../../lib/romajiConverter';
 import { buildVocabQuestions, buildKanjiWordQuestions, buildHanjtQuestions, buildGrammarQuestions, shuffleArray as qbShuffle, getMeaning } from '../../lib/race/questionBuilder';
@@ -180,7 +180,7 @@ export default function RaceArena() {
     setCountdown(3);
   };
 
-  const setupMatchingRound = (sub: string, lvl: string, roundNum: number) => {
+  const setupMatchingRound = (sub: string, _lvl: string, roundNum: number) => {
     let rawData: any[];
     let getPrompt: (item: any) => string;
     let getMeaningStr: (item: any) => string;

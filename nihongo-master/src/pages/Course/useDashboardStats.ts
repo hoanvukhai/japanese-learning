@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../../lib/firebase';
 import { fetchUserSRSProgress } from '../../lib/srs/firestoreSync';
-import type { WordProgress } from '../../lib/srs/srsTypes';
 
 export interface CourseStats {
   dueCount: number;

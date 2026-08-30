@@ -4,7 +4,7 @@
 // ============================================================
 import type { KeigoVerb, KeigoFormKey } from '../types/keigo';
 import { getMasuForm } from './conjugator';
-import { keigoVerbs } from '../data/jlpt/keigo/keigoDb';
+
 
 const PREFIX_MAP: Record<string, string> = {
   o: 'お',

@@ -6,7 +6,7 @@ import CourseSettings from './CourseSettings';
 import CourseTheory from './CourseTheory';
 import LearnCourseDetail from '../Learn/LearnCourseDetail';
 import { PracticeProvider } from '../Practice/PracticeContext';
-import { ArrowLeft, BookOpen, Gamepad2, Trophy, Settings, Sparkles, Flame, Plus, Book, FileText, Crown } from 'lucide-react';
+import { ArrowLeft, Gamepad2, Trophy, Settings, Sparkles, Flame, Plus, Book, FileText, Crown } from 'lucide-react';
 import { useAuth } from '../../context/auth/useAuth';
 import { useMyCourses } from '../../context/global/useMyCourses';
 import { useDashboardStats } from './useDashboardStats';
@@ -28,7 +28,7 @@ export default function CourseHub() {
   const navigate = useNavigate();
   const location = useLocation();
   const { user } = useAuth();
-  const { myCourseIds, addCourse } = useMyCourses();
+  const { myCourseIds } = useMyCourses();
   const [searchParams] = useSearchParams();
   const selectedLesson = searchParams.get('lesson');
   const { executeWithGate, GateComponent } = useAuthGate();

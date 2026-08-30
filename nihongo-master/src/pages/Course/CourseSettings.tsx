@@ -1,41 +1,17 @@
-import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getCourseById } from '../../data/courses/registry';
-import { useAuth } from '../../context/auth/useAuth';
-import { Trash2, AlertTriangle, ArrowLeft } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { useMyCourses } from '../../context/global/useMyCourses';
 
 export default function CourseSettings() {
   const { courseId } = useParams();
   const navigate = useNavigate();
   const course = getCourseById(courseId || '');
-  const { user } = useAuth();
+
   const { removeCourse } = useMyCourses();
   
-  const [isConfirming, setIsConfirming] = useState(false);
-  const [isDeleting, setIsDeleting] = useState(false);
-
   if (!course) return null;
 
-  const handleReset = async () => {
-    if (!user) {
-      alert('Bạn cần đăng nhập để thực hiện chức năng này.');
-      return;
-    }
-    
-    setIsDeleting(true);
-    try {
-      await resetCourseProgress(user.uid, course.id);
-      alert('Đã xóa thành công toàn bộ tiến độ của khóa học này!');
-      navigate(`/course/${course.id}`);
-    } catch (error) {
-      console.error(error);
-      alert('Có lỗi xảy ra khi xóa tiến độ.');
-    } finally {
-      setIsDeleting(false);
-      setIsConfirming(false);
-    }
-  };
 
   const handleRemoveFromMyCourses = () => {
     if (confirm('Bạn có chắc chắn muốn xóa khóa học này khỏi danh sách "Khóa học của tôi"? (Tiến độ học sẽ không bị mất)')) {

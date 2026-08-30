@@ -1,12 +1,12 @@
 // src/pages/Settings.tsx
-import { useAuth } from '../context/auth/useAuth';
+
 import { useSettings } from '../context/global/useSettings';
 import { useAudio } from '../context/audio/useAudio';
 import { Moon, Sun, Monitor, Volume2, VolumeX, Type, Globe } from 'lucide-react';
-import { useState } from 'react';
+
 
 export default function Settings() {
-  const { user } = useAuth();
+
   const { theme, language, fontSize, updateSettings } = useSettings();
   const { isMuted, toggleMute } = useAudio();
 

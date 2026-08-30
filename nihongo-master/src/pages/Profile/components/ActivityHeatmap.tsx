@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useRef, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 
 interface ActivityHeatmapProps {
   // Now receives seconds from dailyStudyTime

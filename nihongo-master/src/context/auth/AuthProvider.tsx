@@ -8,7 +8,7 @@ import {
 } from 'firebase/auth';
 import { doc, setDoc, updateDoc, serverTimestamp, onSnapshot, increment } from 'firebase/firestore';
 import { auth, db } from '../../lib/firebase';
-import { AuthContext } from './AuthContext';
+import { AuthContext, type UserProfile } from './AuthContext';
 
 
 

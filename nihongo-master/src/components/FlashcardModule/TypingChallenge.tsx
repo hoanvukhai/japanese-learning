@@ -101,7 +101,6 @@ export default function TypingChallenge({
   };
 
   const isCorrectFB = feedback === 'correct';
-  const isWrongFB = feedback === 'wrong';
 
   return (
     <div className="w-full max-w-sm sm:max-w-md mx-auto">

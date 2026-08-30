@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { AuthGateModal } from '../components/shared/AuthGateModal';
 import type { AuthGateType } from '../components/shared/AuthGateModal';
 import { useAuth } from '../context/auth/useAuth';

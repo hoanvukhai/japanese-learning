@@ -20,7 +20,7 @@ interface TypingQuestionItem {
 
 export default function KanjiTyping() {
   const [searchParams] = useSearchParams();
-  const level = (searchParams.get('level') || 'N3').toUpperCase();
+
   const initialMode = searchParams.get('mode') === 'words' ? 'word-hiragana' : 'kanji-hanviet';
 
   const { course } = usePracticeContext();

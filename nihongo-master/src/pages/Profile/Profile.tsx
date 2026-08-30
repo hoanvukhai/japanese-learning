@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../../context/auth/useAuth';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { updateProfile } from 'firebase/auth';
@@ -6,20 +6,20 @@ import { db } from '../../lib/firebase';
 import { fetchGlobalLeaderboard, type LeaderboardUser } from '../../lib/srs/firestoreSync';
 import { ActivityHeatmap } from './components/ActivityHeatmap';
 import { LeaderboardWidget } from '../../components/shared/LeaderboardWidget';
-import { Trophy, Brain, Flame, Pencil, Check } from 'lucide-react';
+import { Trophy, Flame, Pencil, Check } from 'lucide-react';
 
 export default function Profile() {
   const { user, userProfile, role } = useAuth();
 
   const [userData, setUserData] = useState<any>(null);
-  const [loadingUser, setLoadingUser] = useState(true);
+
 
   const [studyLeaderboard, setStudyLeaderboard] = useState<LeaderboardUser[]>([]);
   const [raceLeaderboard, setRaceLeaderboard] = useState<LeaderboardUser[]>([]);
   const [loadingStudy, setLoadingStudy] = useState(true);
   const [loadingRace, setLoadingRace] = useState(true);
 
-  const [activeTab, setActiveTab] = useState<'study' | 'race'>('study');
+
   const [modalLeaderboard, setModalLeaderboard] = useState<'study' | 'race' | null>(null);
 
   const [isEditingName, setIsEditingName] = useState(false);
@@ -59,8 +59,6 @@ export default function Profile() {
         }
       } catch (e) {
         console.error("Error loading user data", e);
-      } finally {
-        setLoadingUser(false);
       }
     };
     loadUser();

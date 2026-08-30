@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, LogIn, FolderPlus } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';

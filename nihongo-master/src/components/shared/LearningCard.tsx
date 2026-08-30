@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { LearningItem } from '../../types';
 import JapaneseGrammarCard from '../grammar/JapaneseGrammarCard';
 import JapaneseKanjiCard from '../kanji/JapaneseKanjiCard';

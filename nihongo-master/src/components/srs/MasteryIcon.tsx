@@ -1,4 +1,4 @@
-import React from 'react';
+
 import MasterySVG from './MasterySVG';
 import { MASTERY_LABELS_VI, MASTERY_COLORS } from '../../lib/srs/srsTypes';
 

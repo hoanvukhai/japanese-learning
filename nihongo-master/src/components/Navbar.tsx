@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { Home, Book, Gamepad2, Settings, Brain, Menu, X, LogIn, Trophy, Library, Compass, UserCircle } from 'lucide-react';
+import { Menu, X, UserCircle, LogIn, Library, Compass, Settings } from 'lucide-react';
 import { useSettings } from '../context/global/useSettings';
 import { useAuth } from '../context/auth/useAuth';
 import { motion, AnimatePresence } from 'framer-motion';

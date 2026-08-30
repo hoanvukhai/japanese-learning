@@ -198,7 +198,7 @@ export async function recordSrsExp(
 ): Promise<number> {
   if (!userId) return 0;
   try {
-    const { userRef, data, dailyStats, today } = await getDailyStats(userId);
+    const { userRef, dailyStats, today } = await getDailyStats(userId);
     
     let awardedExp = 0;
     if (type === 'new') awardedExp = 5;

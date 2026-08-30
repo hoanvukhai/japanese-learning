@@ -6,7 +6,7 @@ import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../context/auth/useAuth';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Volume2, RotateCcw, Sparkles, ChevronRight, CheckCircle, XCircle, X, ChevronsUp, MousePointerClick, Keyboard, Check, Swords } from 'lucide-react';
+import { Volume2, RotateCcw, Sparkles, ChevronRight, X, ChevronsUp, MousePointerClick, Keyboard, Check, Swords } from 'lucide-react';
 
 import { romajiToHiragana } from '../../lib/romajiConverter';
 import * as wanakana from 'wanakana';
@@ -14,7 +14,7 @@ import {
   saveWordProgress,
   getLearnedItemIds,
   getNewItemIds,
-  updateUserTotalExp,
+
   fetchDueItems,
 } from '../../lib/srs/firestoreSync';
 import {
@@ -198,7 +198,7 @@ export default function LearnSession() {
   const [testQueue, setTestQueue] = useState<QueueItem[]>([]);
   const [currentQIdx, setCurrentQIdx] = useState(0);
   const [feedback, setFeedback] = useState<FeedbackState>('none');
-  const [showTypingResult, setShowTypingResult] = useState(false);
+
   const [selectedOpt, setSelectedOpt] = useState<string | null>(null);
   const [userTyping, setUserTyping] = useState('');
   const [quizOptions, setQuizOptions] = useState<string[]>([]);
@@ -530,7 +530,7 @@ export default function LearnSession() {
     setCurrentQIdx(0);
     setPhase('test');
     setFeedback('none');
-    setShowTypingResult(false);
+
     setUserTyping('');
   }, [currentBatch, allRawItems]);
   useEffect(() => { startTestRef.current = startTest; }, [startTest]);
@@ -607,7 +607,7 @@ export default function LearnSession() {
     }
 
     setFeedback('none');
-    setShowTypingResult(false);
+
     setUserTyping('');
     setSelectedOpt(null);
 
@@ -681,7 +681,7 @@ export default function LearnSession() {
       const converted = wanakana.toKana(userTyping.trim());
       correct = wanakana.toHiragana(converted) === wanakana.toHiragana(target) || userTyping.trim().toLowerCase() === target.toLowerCase();
     }
-    setShowTypingResult(true);
+
     handleAnswer(correct, raw);
   }, [currentQ, feedback, userTyping, handleAnswer]);
   useEffect(() => { submitTypingRef.current = submitTyping; }, [submitTyping]);
@@ -930,8 +930,8 @@ export default function LearnSession() {
   // ── TEST Phase ─────────────────────────────────────────────────────────
   if (!currentQ) return null;
 
-  const isCorrectFB = feedback === 'correct';
-  const isWrongFB = feedback === 'wrong';
+
+
   const correctAns = currentQ.direction === 'fwd' ? currentQ.raw.meaning : currentQ.raw.kanji;
 
   return (
