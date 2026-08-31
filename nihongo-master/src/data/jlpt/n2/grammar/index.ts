@@ -1,4 +1,4 @@
-import type { GrammarItem } from '../../../../types';
+
 import lesson01 from './riki/lesson01.json';
 import lesson02 from './riki/lesson02.json';
 import lesson03 from './riki/lesson03.json';
