@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "k_rkn2_19_258",
+    "character": "宇",
+    "hanViet": "VŨ",
+    "onyomi": "ウ",
+    "mnemonic": "Cơ thể (于) đang trôi nổi trong tàu (宀) vũ (宇) trụ",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_258_1",
+        "word": "宇宙",
+        "hiragana": "うちゅう",
+        "hanVietWord": "VŨ TRỤ",
+        "meaning": {
+          "vi": "Vũ trụ",
+          "en": "Universe, space"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "いつか宇宙に行きたい",
+            "vi": "Lúc nào đó tôi muốn đi vào vũ trụ",
+            "en": "I want to go to space someday"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_259",
+    "character": "宙",
+    "hanViet": "TRỤ",
+    "onyomi": "チュウ",
+    "mnemonic": "Vũ trụ (宙) là mái nhà (宀) tự do (由)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_259_1",
+        "word": "宇宙飛行士",
+        "hiragana": "うちゅうひこうし",
+        "hanVietWord": "VŨ TRỤ PHI HÀNH SĨ",
+        "meaning": {
+          "vi": "Phi hành gia vũ trụ",
+          "en": "Astronaut"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "宇宙飛行士はアイドル並みに有名だ",
+            "vi": "Phi hành gia vũ trụ nổi tiếng ngang với thần tượng",
+            "en": "Astronauts are as famous as idols"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_259_2",
+        "word": "宙",
+        "hiragana": "ちゅう",
+        "hanVietWord": "TRỤ",
+        "meaning": {
+          "vi": "Không trung, không gian",
+          "en": "Midair, space"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "体が宙に浮く",
+            "vi": "Cơ thể lơ lửng trên không trung",
+            "en": "The body floats in midair"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_260",
+    "character": "環",
+    "hanViet": "HOÀN",
+    "onyomi": "カン",
+    "mnemonic": "Mắt (目) và mồm (口) của người mặc y phục (衣) luôn tuần hoàn (環)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_260_1",
+        "word": "環境保護",
+        "hiragana": "かんきょうほご",
+        "hanVietWord": "HOÀN CẢNH BẢO HỘ",
+        "meaning": {
+          "vi": "Sự bảo vệ môi trường",
+          "en": "Environmental protection"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "環境保護",
+            "vi": "Bảo vệ môi trường",
+            "en": "Environmental protection"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_260_2",
+        "word": "循環",
+        "hiragana": "じゅんかん",
+        "hanVietWord": "TUẦN HOÀN",
+        "meaning": {
+          "vi": "Sự tuần hoàn, xoay vòng",
+          "en": "Circulation, cycle"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この電車は、東京を時計回りで循環する",
+            "vi": "Chuyến tàu này chạy vòng quanh Tokyo theo chiều kim đồng hồ",
+            "en": "This train circulates around Tokyo clockwise"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_261",
+    "character": "境",
+    "hanViet": "CẢNH",
+    "kunyomi": "さかい",
+    "onyomi": "キョウ",
+    "mnemonic": "Đứng (立) trên vùng đất (土) ranh giới (境) để ngắm (見) cảnh",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_261_1",
+        "word": "境",
+        "hiragana": "さかい",
+        "hanVietWord": "CẢNH",
+        "meaning": {
+          "vi": "Ranh giới, giới hạn",
+          "en": "Border, boundary"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "この駅は A 市と B 市の境になる",
+            "vi": "Nhà ga này trở thành ranh giới giữa thành phố A và thành phố B",
+            "en": "This station is the border between City A and City B"
+          },
+          {
+            "jp": "母の死を境に、彼は暗い人になってしまった",
+            "vi": "Lấy cái chết của mẹ làm ranh giới, anh ấy đã trở thành một người u ám",
+            "en": "Following his mother's death, he became a gloomy person"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_261_2",
+        "word": "国境",
+        "hiragana": "こっきょう",
+        "hanVietWord": "QUỐC CẢNH",
+        "meaning": {
+          "vi": "Biên giới quốc gia",
+          "en": "National border"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "日本はどの国とも国境を接していない",
+            "vi": "Nhật Bản không tiếp giáp biên giới quốc gia với bất kỳ nước nào",
+            "en": "Japan does not share a land border with any country"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_261_3",
+        "word": "境界線",
+        "hiragana": "きょうかいせん",
+        "hanVietWord": "CẢNH GIỚI TUYẾN",
+        "meaning": {
+          "vi": "Đường ranh giới",
+          "en": "Boundary line"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "境界線を引く",
+            "vi": "Vạch ra đường ranh giới",
+            "en": "Draw a boundary line"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_262",
+    "character": "極",
+    "hanViet": "CỰC",
+    "kunyomi": "きわ-める",
+    "onyomi": "キョク",
+    "mnemonic": "Trồng 1 (一) loại cây (木) nuôi 5 miệng (口) ăn cực (極) kỳ mệt",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_262_1",
+        "word": "南極",
+        "hiragana": "なんきょく",
+        "hanVietWord": "NAM CỰC",
+        "meaning": {
+          "vi": "Nam cực",
+          "en": "South Pole, Antarctica"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "南極と北極",
+            "vi": "Nam cực và Bắc cực",
+            "en": "The South Pole and the North Pole"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_262_2",
+        "word": "北極",
+        "hiragana": "ほっきょく",
+        "hanVietWord": "BẮC CỰC",
+        "meaning": {
+          "vi": "Bắc cực",
+          "en": "North Pole, Arctic"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_19_262_3",
+        "word": "極端",
+        "hiragana": "きょくたん",
+        "hanVietWord": "CỰC ĐOAN",
+        "meaning": {
+          "vi": "Cực đoan",
+          "en": "Extreme"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "極端な主張は人々から共感を得るのが難しい",
+            "vi": "Chủ trương cực đoan thì khó nhận được sự đồng cảm từ mọi người",
+            "en": "It is difficult for extreme claims to gain sympathy from people"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_262_4",
+        "word": "極める",
+        "hiragana": "きわめる",
+        "hanVietWord": "CỰC",
+        "meaning": {
+          "vi": "Bồi dưỡng, nâng cao, tìm hiểu đến cùng",
+          "en": "To master, to carry to extremes"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "漢字を極めたい",
+            "vi": "Muốn tìm hiểu/chinh phục Kanji đến cùng",
+            "en": "I want to master Kanji"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_262_5",
+        "word": "極めて",
+        "hiragana": "きわめて",
+        "hanVietWord": "CỰC",
+        "meaning": {
+          "vi": "Cực kỳ, vô cùng",
+          "en": "Extremely, exceedingly"
+        },
+        "type": "adv",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "極めて残念な発言です",
+            "vi": "Đó là một phát ngôn vô cùng đáng tiếc",
+            "en": "It is an extremely regrettable statement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_263",
+    "character": "昇",
+    "hanViet": "THĂNG",
+    "kunyomi": "のぼ-る",
+    "onyomi": "ショウ",
+    "mnemonic": "Chi (チ) Pu cầm mic (l) ngắm mặt trời (日) lên (昇)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_263_1",
+        "word": "昇る",
+        "hiragana": "のぼる",
+        "hanVietWord": "THĂNG",
+        "meaning": {
+          "vi": "Mọc lên, thăng lên",
+          "en": "To rise, to go up"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "日が昇る前に目覚めた",
+            "vi": "Tôi đã thức giấc trước khi mặt trời mọc",
+            "en": "I woke up before the sun rose"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_263_2",
+        "word": "上昇",
+        "hiragana": "じょうしょう",
+        "hanVietWord": "THƯỢNG THĂNG",
+        "meaning": {
+          "vi": "Sự tăng lên, bay lên",
+          "en": "Rise, increase"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "物価が上昇する",
+            "vi": "Vật giá tăng lên",
+            "en": "Prices are rising"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_263_3",
+        "word": "昇進",
+        "hiragana": "しょうしん",
+        "hanVietWord": "THĂNG TIẾN",
+        "meaning": {
+          "vi": "Sự thăng tiến, thăng chức",
+          "en": "Promotion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "会社で昇進する",
+            "vi": "Thăng tiến trong công ty",
+            "en": "To be promoted in the company"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_264",
+    "character": "乾",
+    "hanViet": "KIỀN",
+    "kunyomi": "かわ-く",
+    "onyomi": "カン",
+    "mnemonic": "Khô (乾) hạn suốt 20 (十十) ngày (日) nên quỳ (乞) xin mưa",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_264_1",
+        "word": "乾燥機",
+        "hiragana": "かんそうき",
+        "hanVietWord": "KIỀN TÁO CƠ",
+        "meaning": {
+          "vi": "Máy sấy",
+          "en": "Dryer"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "洗濯ものを乾燥機に入れる",
+            "vi": "Cho quần áo giặt vào máy sấy",
+            "en": "Put the laundry in the dryer"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_264_2",
+        "word": "乾燥",
+        "hiragana": "かんそう",
+        "hanVietWord": "KIỀN TÁO",
+        "meaning": {
+          "vi": "Khô hanh, sấy khô",
+          "en": "Dryness, drying"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "乾燥して唇がひび割れる",
+            "vi": "Bị nứt nẻ môi do khô hanh",
+            "en": "Lips are chapped due to dryness"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_264_3",
+        "word": "乾く",
+        "hiragana": "かわく",
+        "hanVietWord": "KIỀN",
+        "meaning": {
+          "vi": "Khô, ráo",
+          "en": "To dry"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "空気が乾いている日は火事に気をつけましょう",
+            "vi": "Những ngày không khí khô hanh thì hãy cẩn thận hỏa hoạn",
+            "en": "On days when the air is dry, let's be careful of fires"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_265",
+    "character": "燥",
+    "hanViet": "TÁO",
+    "onyomi": "ソウ",
+    "mnemonic": "Dùng lửa (火) sấy khô (燥) sản phẩm (品) từ cây (木) táo",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_265_1",
+        "word": "乾燥",
+        "hiragana": "かんそう",
+        "hanVietWord": "KIỀN TÁO",
+        "meaning": {
+          "vi": "Sự khô hanh, sấy khô",
+          "en": "Dryness, drying"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今日は乾燥しているから、洗濯ものがすぐ乾く",
+            "vi": "Hôm nay trời khô hanh nên quần áo giặt sẽ nhanh khô",
+            "en": "Because it's dry today, the laundry will dry quickly"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_266",
+    "character": "湿",
+    "hanViet": "THẤP",
+    "kunyomi": "しめ-る",
+    "onyomi": "シツ, シッ",
+    "mnemonic": "Mặt trời (日) xuống thấp, hơi nước (氵) bốc lên ẩm ướt (湿)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_266_1",
+        "word": "湿気",
+        "hiragana": "しっき",
+        "hanVietWord": "THẤP KHÍ",
+        "meaning": {
+          "vi": "Hơi ẩm, sự ẩm ướt",
+          "en": "Moisture, humidity"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "湿気が多い部屋",
+            "vi": "Căn phòng có nhiều hơi ẩm",
+            "en": "A room with a lot of moisture"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_266_2",
+        "word": "湿度",
+        "hiragana": "しつど",
+        "hanVietWord": "THẤP ĐỘ",
+        "meaning": {
+          "vi": "Độ ẩm",
+          "en": "Humidity"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今日は湿度が高いので肌が潤っている",
+            "vi": "Hôm nay độ ẩm cao nên da dẻ ẩm ướt/căng mịn",
+            "en": "Because the humidity is high today, my skin is moisturized"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_266_3",
+        "word": "除湿機能",
+        "hiragana": "じょしつきのう",
+        "hanVietWord": "TRỪ THẤP CƠ NĂNG",
+        "meaning": {
+          "vi": "Chức năng hút ẩm",
+          "en": "Dehumidification function"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "部屋を乾燥させるためにエアコンの除湿機能を使う",
+            "vi": "Sử dụng chức năng hút ẩm của điều hòa để làm khô phòng",
+            "en": "Use the air conditioner's dehumidification function to dry the room"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_266_4",
+        "word": "湿布",
+        "hiragana": "しっぷ",
+        "hanVietWord": "THẤP BỐ",
+        "meaning": {
+          "vi": "Miếng dán giảm đau, gạc chườm",
+          "en": "Compress, poultice"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "湿布を肩に貼る",
+            "vi": "Dán miếng dán giảm đau lên vai",
+            "en": "Put a compress on the shoulder"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_266_5",
+        "word": "湿らせる",
+        "hiragana": "しめらせる",
+        "hanVietWord": "THẤP",
+        "meaning": {
+          "vi": "Làm ẩm",
+          "en": "To moisten, to dampen"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "ハンカチを湿らせて傷口をおさえる",
+            "vi": "Làm ẩm khăn tay rồi ấn lên miệng vết thương",
+            "en": "Moisten a handkerchief and press it against the wound"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_266_6",
+        "word": "湿る",
+        "hiragana": "しめる",
+        "hanVietWord": "THẤP",
+        "meaning": {
+          "vi": "Trở nên ẩm ướt",
+          "en": "To become damp, to become moist"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "髪が湿ってチリチリになってしまった",
+            "vi": "Tóc bị ẩm nên trở nên xoăn tít",
+            "en": "My hair got damp and became frizzy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_267",
+    "character": "涼",
+    "hanViet": "LƯƠNG",
+    "kunyomi": "すず-しい",
+    "onyomi": "リョウ",
+    "mnemonic": "Nước (氵) ở kinh (京) đô mát (涼) hơn ở quê",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_267_1",
+        "word": "清涼",
+        "hiragana": "せいりょう",
+        "hanVietWord": "THANH LƯƠNG",
+        "meaning": {
+          "vi": "Thanh mát, sảng khoái (thường đi kèm đồ uống)",
+          "en": "Cool, refreshing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "清涼飲料水はダイエットの敵だ",
+            "vi": "Nước giải khát là kẻ thù của việc ăn kiêng",
+            "en": "Soft drinks are the enemy of dieting"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_267_2",
+        "word": "涼しい",
+        "hiragana": "すずしい",
+        "hanVietWord": "LƯƠNG",
+        "meaning": {
+          "vi": "Mát mẻ",
+          "en": "Cool"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "エアコンから涼しい風が出ている",
+            "vi": "Gió mát đang thổi ra từ máy điều hòa",
+            "en": "Cool breeze is coming out of the air conditioner"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_268",
+    "character": "雷",
+    "hanViet": "LÔI",
+    "kunyomi": "かみなり",
+    "onyomi": "ライ",
+    "mnemonic": "Thiên lôi (雷) đánh sấm sét (雷) cho mưa (雨) xuống ruộng (田)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_268_1",
+        "word": "雷",
+        "hiragana": "かみなり",
+        "hanVietWord": "LÔI",
+        "meaning": {
+          "vi": "Sấm sét",
+          "en": "Thunder, lightning"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "雷が落ち(る)",
+            "vi": "Sét đánh xuống",
+            "en": "Lightning strikes"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_268_2",
+        "word": "落雷",
+        "hiragana": "らくらい",
+        "hanVietWord": "LẠC LÔI",
+        "meaning": {
+          "vi": "Sét đánh",
+          "en": "Lightning strike"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "落雷で隣の家が火事になった",
+            "vi": "Nhà hàng xóm bị hỏa hoạn do sét đánh",
+            "en": "The neighbor's house caught fire due to a lightning strike"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_268_3",
+        "word": "雷雲",
+        "hiragana": "らいうん",
+        "hanVietWord": "LÔI VÂN",
+        "meaning": {
+          "vi": "Đám mây giông",
+          "en": "Thundercloud"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "雷雲が紫に光っている",
+            "vi": "Đám mây giông đang phát sáng màu tím",
+            "en": "The thundercloud is glowing purple"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_269",
+    "character": "嵐",
+    "hanViet": "LAM",
+    "kunyomi": "あらし",
+    "mnemonic": "Trên núi (山) gió (風) thổi lớn như bão (嵐)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_269_1",
+        "word": "嵐",
+        "hiragana": "あらし",
+        "hanVietWord": "LAM",
+        "meaning": {
+          "vi": "Bão táp, giông bão",
+          "en": "Storm"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "嵐の前の静けさと思ったら雷が聞こえてきた",
+            "vi": "Tưởng là sự yên tĩnh trước cơn bão, thì lại nghe thấy tiếng sấm",
+            "en": "I thought it was the calm before the storm, but then I heard thunder"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_269_2",
+        "word": "砂嵐",
+        "hiragana": "すなあらし",
+        "hanVietWord": "SA LAM",
+        "meaning": {
+          "vi": "Bão cát",
+          "en": "Sandstorm"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "校庭で砂嵐が発生した",
+            "vi": "Bão cát xảy ra trên sân trường",
+            "en": "A sandstorm occurred on the schoolyard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_270",
+    "character": "漁",
+    "hanViet": "NGƯ",
+    "onyomi": "ギョ, リョウ",
+    "mnemonic": "Ngư dân (漁) xuống nước (氵) bắt cá (魚)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_270_1",
+        "word": "漁船",
+        "hiragana": "ぎょせん",
+        "hanVietWord": "NGƯ THUYỀN",
+        "meaning": {
+          "vi": "Thuyền đánh cá",
+          "en": "Fishing boat"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "マグロ漁船",
+            "vi": "Thuyền đánh bắt cá ngừ",
+            "en": "Tuna fishing boat"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_270_2",
+        "word": "漁師",
+        "hiragana": "りょうし",
+        "hanVietWord": "NGƯ SƯ",
+        "meaning": {
+          "vi": "Ngư dân, người chài lưới",
+          "en": "Fisherman"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_271",
+    "character": "航",
+    "hanViet": "HÀNG",
+    "onyomi": "コウ",
+    "mnemonic": "Trên tàu (舟) đội mũ (亠) ngồi vào bàn (几) làm việc",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_271_1",
+        "word": "航海",
+        "hiragana": "こうかい",
+        "hanVietWord": "HÀNG HẢI",
+        "meaning": {
+          "vi": "Hàng hải, chuyến đi biển",
+          "en": "Voyage, sailing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "海を航海する",
+            "vi": "Đi biển/vượt đại dương",
+            "en": "To sail the sea"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_271_2",
+        "word": "航空会社",
+        "hiragana": "こうくうがいしゃ",
+        "hanVietWord": "HÀNG KHÔNG HỘI XÃ",
+        "meaning": {
+          "vi": "Công ty hàng không",
+          "en": "Airline company"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_19_271_3",
+        "word": "欠航",
+        "hiragana": "けっこう",
+        "hanVietWord": "KHIẾM HÀNG",
+        "meaning": {
+          "vi": "Sự hủy chuyến (bay, tàu)",
+          "en": "Cancellation (of a flight/voyage)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "台風によって欠航になった",
+            "vi": "Chuyến bay bị hủy do bão",
+            "en": "The flight was canceled due to the typhoon"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_271_4",
+        "word": "難航",
+        "hiragana": "なんこう",
+        "hanVietWord": "NAN HÀNG",
+        "meaning": {
+          "vi": "Gặp khó khăn, bế tắc",
+          "en": "Difficult voyage, rough going"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "交渉は難航している",
+            "vi": "Cuộc đàm phán đang gặp bế tắc",
+            "en": "The negotiations are facing difficulties"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_272",
+    "character": "融",
+    "hanViet": "DUNG/DONG",
+    "onyomi": "ユウ",
+    "mnemonic": "Cách (鬲) để côn trùng (虫) không vào nhà là dùng DUNG dịch (融)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_272_1",
+        "word": "金融",
+        "hiragana": "きんゆう",
+        "hanVietWord": "KIM DUNG",
+        "meaning": {
+          "vi": "Tài chính, tín dụng",
+          "en": "Finance"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "銀行は金融機関である",
+            "vi": "Ngân hàng là tổ chức tài chính",
+            "en": "A bank is a financial institution"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_272_2",
+        "word": "融通",
+        "hiragana": "ゆうずう",
+        "hanVietWord": "DUNG THÔNG",
+        "meaning": {
+          "vi": "Sự linh hoạt, sự thích nghi",
+          "en": "Flexibility, accommodation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この仕事は時間の融通が利く",
+            "vi": "Công việc này có thể linh hoạt về thời gian",
+            "en": "This job has flexible hours"
+          },
+          {
+            "jp": "融通がきかない",
+            "vi": "Cứng nhắc, không linh hoạt",
+            "en": "Inflexible, rigid"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_272_3",
+        "word": "融資",
+        "hiragana": "ゆうし",
+        "hanVietWord": "DUNG TƯ",
+        "meaning": {
+          "vi": "Sự cấp vốn, cho vay vốn",
+          "en": "Financing, loan"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "無利子で融資を受ける",
+            "vi": "Được nhận khoản vay không lãi suất",
+            "en": "Receive an interest-free loan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_273",
+    "character": "層",
+    "hanViet": "TẰNG",
+    "onyomi": "ソウ",
+    "mnemonic": "Leo lên nhà (尸) nhiều TẰNG (層) có ngày (日) đứt hơi",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_273_1",
+        "word": "階層",
+        "hiragana": "かいそう",
+        "hanVietWord": "GIAI TẰNG",
+        "meaning": {
+          "vi": "Giai cấp, tầng lớp",
+          "en": "Class, level"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "富裕な階層",
+            "vi": "Tầng lớp thượng lưu / giàu có",
+            "en": "Wealthy class"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_273_2",
+        "word": "層",
+        "hiragana": "そう",
+        "hanVietWord": "TẰNG",
+        "meaning": {
+          "vi": "Tầng, lớp",
+          "en": "Layer, class"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今の政権は国民の幅広い層から支持されている",
+            "vi": "Chính quyền hiện tại đang được sự ủng hộ từ nhiều tầng lớp nhân dân",
+            "en": "The current administration is supported by a wide range of citizens"
+          },
+          {
+            "jp": "このチームは選手の層がとても厚い",
+            "vi": "Đội ngũ này có đội hình cầu thủ rất dồi dào/chất lượng",
+            "en": "This team has a very deep roster of players"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_273_3",
+        "word": "高層",
+        "hiragana": "こうそう",
+        "hanVietWord": "CAO TẰNG",
+        "meaning": {
+          "vi": "Cao tầng",
+          "en": "High-rise, multi-story"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "高層マンション",
+            "vi": "Chung cư cao tầng",
+            "en": "High-rise apartment building"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_19_274",
+    "character": "砂",
+    "hanViet": "SA",
+    "kunyomi": "すな",
+    "onyomi": "サ, シャ",
+    "mnemonic": "Nơi có ít (少) đá (石) thì đó là bãi cát (砂)",
+    "level": "N2",
+    "lesson": "Buổi 19",
+    "words": [
+      {
+        "id": "kw_rkn2_19_274_1",
+        "word": "砂",
+        "hiragana": "すな",
+        "hanVietWord": "SA",
+        "meaning": {
+          "vi": "Cát",
+          "en": "Sand"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "服に砂がつく",
+            "vi": "Cát dính vào quần áo",
+            "en": "Sand sticks to clothes"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_274_2",
+        "word": "砂漠",
+        "hiragana": "さばく",
+        "hanVietWord": "SA MẠC",
+        "meaning": {
+          "vi": "Sa mạc",
+          "en": "Desert"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_19_274_3",
+        "word": "砂糖",
+        "hiragana": "さとう",
+        "hanVietWord": "SA ĐƯỜNG",
+        "meaning": {
+          "vi": "Đường (gia vị)",
+          "en": "Sugar"
+        },
+        "type": "noun",
+        "readingType": "特殊",
+        "examples": [
+          {
+            "jp": "料理に砂糖を入れる",
+            "vi": "Cho đường vào thức ăn",
+            "en": "Add sugar to the dish"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_19_274_4",
+        "word": "土砂",
+        "hiragana": "どしゃ",
+        "hanVietWord": "THỔ SA",
+        "meaning": {
+          "vi": "Đất cát",
+          "en": "Earth and sand"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "地震で土砂崩れが多数発生した",
+            "vi": "Nhiều vụ sạt lở đất đã xảy ra do động đất",
+            "en": "Many landslides occurred due to the earthquake"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "k_rkn2_20_275",
+    "character": "災",
+    "hanViet": "TAI",
+    "kunyomi": "わざわ-い",
+    "onyomi": "サイ",
+    "mnemonic": "Lũ lụt (巛) và hỏa hoạn (火) được gọi là tai họa (災)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_275_1",
+        "word": "災難",
+        "hiragana": "さいなん",
+        "hanVietWord": "TAI NAN",
+        "meaning": {
+          "vi": "Tai nạn, rủi ro, rủi ro không may",
+          "en": "Disaster, misfortune"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "島に災難が発生し、住民のほとんどは島から出た",
+            "vi": "Tai nạn đã xảy ra trên đảo, và hầu hết cư dân đã rời khỏi đảo",
+            "en": "A disaster occurred on the island, and most of the residents left the island"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_275_2",
+        "word": "火災",
+        "hiragana": "かさい",
+        "hanVietWord": "HỎA TAI",
+        "meaning": {
+          "vi": "Hỏa hoạn",
+          "en": "Fire"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "火災警報",
+            "vi": "Cảnh báo hỏa hoạn",
+            "en": "Fire alarm"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_275_3",
+        "word": "被災地",
+        "hiragana": "ひさいち",
+        "hanVietWord": "BỊ TAI ĐỊA",
+        "meaning": {
+          "vi": "Vùng chịu thiên tai",
+          "en": "Disaster area"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "被災地に行ってボランティアをする",
+            "vi": "Đến vùng chịu thiên tai để làm tình nguyện",
+            "en": "Go to a disaster area to volunteer"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_275_4",
+        "word": "災い",
+        "hiragana": "わざわい",
+        "hanVietWord": "TAI",
+        "meaning": {
+          "vi": "Tai họa, rủi ro",
+          "en": "Calamity, disaster"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "口は災いのもと",
+            "vi": "Cái miệng là nguồn gốc của tai họa (Họa từ miệng mà ra)",
+            "en": "Out of the mouth comes evil (The mouth is the source of disaster)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_276",
+    "character": "害",
+    "hanViet": "HẠI",
+    "onyomi": "ガイ",
+    "mnemonic": "Ông chủ (主) nhà (宀) suốt ngày ăn (口) đồ có hại (害) cho sức khỏe",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_276_1",
+        "word": "被害者",
+        "hiragana": "ひがいしゃ",
+        "hanVietWord": "BỊ HẠI GIẢ",
+        "meaning": {
+          "vi": "Nạn nhân, người bị hại",
+          "en": "Victim"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "地震の被害者",
+            "vi": "Nạn nhân của trận động đất",
+            "en": "Victims of the earthquake"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_276_2",
+        "word": "損害額",
+        "hiragana": "そんがいがく",
+        "hanVietWord": "TỔN HẠI NGẠCH",
+        "meaning": {
+          "vi": "Mức độ thiệt hại, số tiền thiệt hại",
+          "en": "Amount of damage"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この災害で損害額は数百億円に上った",
+            "vi": "Số tiền thiệt hại do thảm họa này đã lên tới hàng trăm tỷ yên",
+            "en": "The amount of damage from this disaster reached tens of billions of yen"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_276_3",
+        "word": "殺害事件",
+        "hiragana": "さつがいじけん",
+        "hanVietWord": "SÁT HẠI SỰ KIỆN",
+        "meaning": {
+          "vi": "Vụ án sát hại",
+          "en": "Murder case"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_277",
+    "character": "防",
+    "hanViet": "PHÒNG",
+    "kunyomi": "ふせ-ぐ",
+    "onyomi": "ボウ",
+    "mnemonic": "Phương (方) dựa lưng vào tường (阝) để phòng thủ (防)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_277_1",
+        "word": "防犯",
+        "hiragana": "ぼうはん",
+        "hanVietWord": "PHÒNG PHẠM",
+        "meaning": {
+          "vi": "Phòng chống tội phạm",
+          "en": "Crime prevention"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "防犯カメラを設置し、犯罪を事前に防ぐ。",
+            "vi": "Lắp đặt camera an ninh để phòng ngừa tội phạm từ trước.",
+            "en": "Install security cameras to prevent crime in advance."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_277_2",
+        "word": "防ぐ",
+        "hiragana": "ふせぐ",
+        "hanVietWord": "PHÒNG",
+        "meaning": {
+          "vi": "Đề phòng, ngăn ngừa",
+          "en": "To defend, to prevent"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "犯罪を事前に防ぐ",
+            "vi": "Ngăn ngừa tội phạm từ trước",
+            "en": "Prevent crime in advance"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_277_3",
+        "word": "予防注射",
+        "hiragana": "よぼうちゅうしゃ",
+        "hanVietWord": "DỰ PHÒNG CHÚ XẠ",
+        "meaning": {
+          "vi": "Tiêm phòng",
+          "en": "Preventive injection, vaccination"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "予防注射を受ける",
+            "vi": "Đi tiêm phòng",
+            "en": "Get a vaccination"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_277_4",
+        "word": "消防車",
+        "hiragana": "しょうぼうしゃ",
+        "hanVietWord": "TIÊU PHÒNG XA",
+        "meaning": {
+          "vi": "Xe cứu hỏa",
+          "en": "Fire engine"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_278",
+    "character": "影",
+    "hanViet": "ẢNH",
+    "kunyomi": "かげ",
+    "onyomi": "エイ",
+    "mnemonic": "Mặt trời (日) mọc ở Kinh đô (京) nắng chiếu (彡) đẹp như bức ảnh (影)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_278_1",
+        "word": "影",
+        "hiragana": "かげ",
+        "hanVietWord": "ẢNH",
+        "meaning": {
+          "vi": "Cái bóng, bóng râm",
+          "en": "Shadow, silhouette"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "光があれば影ができる",
+            "vi": "Có ánh sáng thì sẽ có bóng",
+            "en": "If there is light, there will be a shadow"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_278_2",
+        "word": "影響",
+        "hiragana": "えいきょう",
+        "hanVietWord": "ẢNH HƯỞNG",
+        "meaning": {
+          "vi": "Sự ảnh hưởng",
+          "en": "Influence, effect"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "サッカー選手だった父の影響で、サッカーを始めた",
+            "vi": "Do ảnh hưởng của bố từng là cầu thủ bóng đá, tôi đã bắt đầu chơi bóng đá",
+            "en": "Influenced by my father, who was a soccer player, I started playing soccer"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_278_3",
+        "word": "撮影",
+        "hiragana": "さつえい",
+        "hanVietWord": "TOÁT ẢNH",
+        "meaning": {
+          "vi": "Sự quay phim, chụp ảnh",
+          "en": "Photographing, filming"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "映画の撮影",
+            "vi": "Quay phim điện ảnh",
+            "en": "Filming a movie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_279",
+    "character": "響",
+    "hanViet": "HƯỞNG",
+    "kunyomi": "ひび-く",
+    "onyomi": "キョウ",
+    "mnemonic": "Âm thanh (音) của quê hương (郷) ảnh hưởng (響) đến tôi",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_279_1",
+        "word": "響く",
+        "hiragana": "ひびく",
+        "hanVietWord": "HƯỞNG",
+        "meaning": {
+          "vi": "Vang dội, chấn động, làm rung động",
+          "en": "To resound, to echo, to affect"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "鐘の音が遠くまで響く",
+            "vi": "Tiếng chuông vang vọng đến tận đằng xa",
+            "en": "The sound of the bell echoes far away"
+          },
+          {
+            "jp": "心に響く演説",
+            "vi": "Bài diễn thuyết làm rung động lòng người",
+            "en": "A speech that touches the heart"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_279_2",
+        "word": "反響",
+        "hiragana": "はんきょう",
+        "hanVietWord": "PHẢN HƯỞNG",
+        "meaning": {
+          "vi": "Tiếng vang, phản hồi",
+          "en": "Echo, repercussion, reaction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この動画はSNSで反響を呼んだ",
+            "vi": "Video này đã tạo được tiếng vang trên mạng xã hội",
+            "en": "This video created an echo (reaction) on social media"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_280",
+    "character": "被",
+    "hanViet": "BỊ",
+    "kunyomi": "かぶ-る",
+    "onyomi": "ヒ",
+    "mnemonic": "Người bị hại (被) bị rách cả áo (衣) hở hết cả da (皮)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_280_1",
+        "word": "被害者",
+        "hiragana": "ひがいしゃ",
+        "hanVietWord": "BỊ HẠI GIẢ",
+        "meaning": {
+          "vi": "Nạn nhân, người bị hại",
+          "en": "Victim"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "被害者の話を聞く",
+            "vi": "Lắng nghe câu chuyện của nạn nhân",
+            "en": "Listen to the victim's story"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_280_2",
+        "word": "被災地",
+        "hiragana": "ひさいち",
+        "hanVietWord": "BỊ TAI ĐỊA",
+        "meaning": {
+          "vi": "Vùng chịu thiên tai",
+          "en": "Disaster area"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "被災地にいってボランティアをする",
+            "vi": "Đến vùng chịu thiên tai để làm tình nguyện",
+            "en": "Go to a disaster area to volunteer"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_280_3",
+        "word": "被る",
+        "hiragana": "かぶる",
+        "hanVietWord": "BỊ",
+        "meaning": {
+          "vi": "Đội (mũ), chịu (tổn thất)",
+          "en": "To wear (on the head), to suffer"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "帽子を被る",
+            "vi": "Đội mũ",
+            "en": "Wear a hat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_281",
+    "character": "壊",
+    "hanViet": "HOẠI",
+    "kunyomi": "こわ-す",
+    "onyomi": "カイ",
+    "mnemonic": "Áo (衣) dính đất (土) 10 lần (十) thì hỏng (壊)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_281_1",
+        "word": "壊す",
+        "hiragana": "こわす",
+        "hanVietWord": "HOẠI",
+        "meaning": {
+          "vi": "Làm hỏng, phá vỡ",
+          "en": "To break, to destroy"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "買ったばかりのスマホを壊してしまった",
+            "vi": "Tôi đã lỡ làm hỏng chiếc điện thoại thông minh vừa mới mua",
+            "en": "I accidentally broke the smartphone I just bought"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_281_2",
+        "word": "破壊",
+        "hiragana": "はかい",
+        "hanVietWord": "PHÁ HOẠI",
+        "meaning": {
+          "vi": "Sự phá hoại, hủy diệt",
+          "en": "Destruction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "爆弾によって破壊されたビル",
+            "vi": "Tòa nhà bị phá hủy bởi bom",
+            "en": "A building destroyed by a bomb"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_281_3",
+        "word": "半壊",
+        "hiragana": "はんかい",
+        "hanVietWord": "BÁN HOẠI",
+        "meaning": {
+          "vi": "Bị phá hủy một nửa",
+          "en": "Partial destruction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "半壊と全壊の家の戸数を調べる",
+            "vi": "Điều tra số hộ gia đình bị phá hủy một nửa và bị phá hủy hoàn toàn",
+            "en": "Investigate the number of partially destroyed and fully destroyed houses"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_282",
+    "character": "傾",
+    "hanViet": "KHUYNH",
+    "kunyomi": "かたむ-く, かたむ-ける",
+    "onyomi": "ケイ",
+    "mnemonic": "Khuynh hướng (傾) của con người (亻) là lưu giữ khoảnh khắc (頃)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_282_1",
+        "word": "傾く",
+        "hiragana": "かたむく",
+        "hanVietWord": "KHUYNH",
+        "meaning": {
+          "vi": "Nghiêng, nghiêng ngả",
+          "en": "To incline, to lean"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "震災で家が半壊し、扉が傾いている",
+            "vi": "Nhà bị phá hủy một nửa do động đất, và cánh cửa đang nghiêng ngả",
+            "en": "The house was partially destroyed in the disaster, and the door is leaning"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_282_2",
+        "word": "傾ける",
+        "hiragana": "かたむける",
+        "hanVietWord": "KHUYNH",
+        "meaning": {
+          "vi": "Làm nghiêng, dồn vào, chú ý (lắng nghe)",
+          "en": "To incline, to list, to listen to"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "首を傾ける",
+            "vi": "Nghiêng đầu",
+            "en": "Tilt one's head"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_282_3",
+        "word": "傾斜",
+        "hiragana": "けいしゃ",
+        "hanVietWord": "KHUYNH TÀ",
+        "meaning": {
+          "vi": "Độ nghiêng, sườn dốc",
+          "en": "Inclination, slant"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "傾斜のゆるい坂でランニングする",
+            "vi": "Chạy bộ trên một con dốc có độ nghiêng thoai thoải",
+            "en": "Jog on a gently sloping hill"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_282_4",
+        "word": "傾向",
+        "hiragana": "けいこう",
+        "hanVietWord": "KHUYNH HƯỚNG",
+        "meaning": {
+          "vi": "Khuynh hướng, xu hướng",
+          "en": "Trend, tendency"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "若者たちは結婚式を行わない傾向にある",
+            "vi": "Giới trẻ có khuynh hướng không tổ chức lễ cưới",
+            "en": "Young people tend not to hold wedding ceremonies"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_282_5",
+        "word": "傾聴",
+        "hiragana": "けいちょう",
+        "hanVietWord": "KHUYNH THÍNH",
+        "meaning": {
+          "vi": "Sự chú ý lắng nghe",
+          "en": "Listening closely"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "社長の話を傾聴する",
+            "vi": "Chú ý lắng nghe câu chuyện của giám đốc",
+            "en": "Listen closely to the president's talk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_283",
+    "character": "崩",
+    "hanViet": "BĂNG",
+    "kunyomi": "くず-れる",
+    "onyomi": "ホウ",
+    "mnemonic": "Mất 2 tháng (月+月) để băng (崩) qua núi (山)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_283_1",
+        "word": "崩れる",
+        "hiragana": "くずれる",
+        "hanVietWord": "BĂNG",
+        "meaning": {
+          "vi": "Đổ sụp, sụp đổ, lở",
+          "en": "To collapse, to crumble"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "大雨で山が崩れ落ちる",
+            "vi": "Vì mưa lớn nên núi lở sụp đổ xuống",
+            "en": "The mountain crumbles down due to heavy rain"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_283_2",
+        "word": "崩壊",
+        "hiragana": "ほうかい",
+        "hanVietWord": "BĂNG HOẠI",
+        "meaning": {
+          "vi": "Sự sụp đổ, băng hoại",
+          "en": "Collapse, breakdown"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "コロナの患者が増えて医療崩壊が起こった",
+            "vi": "Bệnh nhân mắc Covid tăng lên nên đã xảy ra sự sụp đổ hệ thống y tế",
+            "en": "The medical system collapsed due to the increase in Covid patients"
+          },
+          {
+            "jp": "城が崩壊する",
+            "vi": "Tòa lâu đài sụp đổ",
+            "en": "The castle collapses"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_284",
+    "character": "洪",
+    "hanViet": "HỒNG",
+    "onyomi": "コウ",
+    "mnemonic": "Nước (氵) cộng dồn (共) lại thành trận đại hồng thủy (洪)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_284_1",
+        "word": "洪水",
+        "hiragana": "こうずい",
+        "hanVietWord": "HỒNG THỦY",
+        "meaning": {
+          "vi": "Lũ lụt",
+          "en": "Flood"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "台風で各地に洪水の被害が出た",
+            "vi": "Vì bão nên ở các nơi đã xuất hiện thiệt hại do lũ lụt",
+            "en": "Damage from flooding occurred in various places due to the typhoon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_285",
+    "character": "津",
+    "hanViet": "TÂN",
+    "kunyomi": "つ",
+    "mnemonic": "Cây bút/duật (聿) nước (氵) Bến (津) Tre",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_285_1",
+        "word": "津波",
+        "hiragana": "つなみ",
+        "hanVietWord": "TÂN BA",
+        "meaning": {
+          "vi": "Sóng thần",
+          "en": "Tsunami, tidal wave"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "大きな地震の後は、津波が起こる",
+            "vi": "Sau trận động đất lớn, sóng thần sẽ xảy ra",
+            "en": "After a large earthquake, a tsunami occurs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_286",
+    "character": "荒",
+    "hanViet": "HOANG",
+    "kunyomi": "あれ-る",
+    "onyomi": "コウ",
+    "mnemonic": "Cảnh hoang tàn (荒) bên dòng sông (川) cỏ cây (艹) chết (亡)",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_286_1",
+        "word": "荒れる",
+        "hiragana": "あれる",
+        "hanVietWord": "HOANG",
+        "meaning": {
+          "vi": "Động biển, bão bùng, nứt nẻ",
+          "en": "To be stormy, to be rough, to be chapped"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "台風で海が荒れている",
+            "vi": "Do bão nên biển đang động",
+            "en": "The sea is rough due to the typhoon"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_286_2",
+        "word": "肌荒れ",
+        "hiragana": "はだあれ",
+        "hanVietWord": "CƠ HOANG",
+        "meaning": {
+          "vi": "Da nứt nẻ, da sần sùi",
+          "en": "Rough skin"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "最近、肌荒れがひどい",
+            "vi": "Gần đây, da tôi bị nứt nẻ nghiêm trọng",
+            "en": "Recently, my skin has been very rough/chapped"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_286_3",
+        "word": "荒野",
+        "hiragana": "こうや",
+        "hanVietWord": "HOANG DÃ",
+        "meaning": {
+          "vi": "Vùng hoang dã, đất hoang",
+          "en": "Wasteland, wilderness"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ここは戦争のせいで荒野になってしまった",
+            "vi": "Nơi này đã trở thành vùng đất hoang vu do chiến tranh",
+            "en": "This place has become a wasteland because of the war"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_20_287",
+    "character": "激",
+    "hanViet": "KÍCH",
+    "kunyomi": "はげ-しい",
+    "onyomi": "ゲキ",
+    "mnemonic": "Nước biển (氵) bị KÍCH thích (激) tung bọt trắng (白) khi đánh (攵) hướng (方) vào vách đá",
+    "level": "N2",
+    "lesson": "Buổi 20",
+    "words": [
+      {
+        "id": "kw_rkn2_20_287_1",
+        "word": "激しい",
+        "hiragana": "はげしい",
+        "hanVietWord": "KÍCH",
+        "meaning": {
+          "vi": "Mãnh liệt, dữ dội, gắt",
+          "en": "Violent, intense, fierce"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "激しいキス",
+            "vi": "Nụ hôn mãnh liệt",
+            "en": "Passionate kiss"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_287_2",
+        "word": "激怒",
+        "hiragana": "げきど",
+        "hanVietWord": "KÍCH NỘ",
+        "meaning": {
+          "vi": "Sự tức giận đỉnh điểm, lôi đình",
+          "en": "Rage, fury"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "激怒する",
+            "vi": "Nổi trận lôi đình / Tức giận dữ dội",
+            "en": "To fly into a rage"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_287_3",
+        "word": "激痛",
+        "hiragana": "げきつう",
+        "hanVietWord": "KÍCH THỐNG",
+        "meaning": {
+          "vi": "Cơn đau dữ dội",
+          "en": "Sharp pain, intense pain"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "足首に激痛が走る",
+            "vi": "Một cơn đau nhói chạy dọc ở cổ chân",
+            "en": "A sharp pain shoots through the ankle"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_287_4",
+        "word": "激励",
+        "hiragana": "げきれい",
+        "hanVietWord": "KÍCH LỆ",
+        "meaning": {
+          "vi": "Sự khích lệ, động viên mạnh mẽ",
+          "en": "Encouragement"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "社長に激励してもらう",
+            "vi": "Được giám đốc khích lệ",
+            "en": "Receive encouragement from the president"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_20_287_5",
+        "word": "刺激",
+        "hiragana": "しげき",
+        "hanVietWord": "THỨ KÍCH",
+        "meaning": {
+          "vi": "Sự kích thích",
+          "en": "Stimulus, stimulation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "五感を刺激する",
+            "vi": "Kích thích 5 giác quan",
+            "en": "Stimulate the five senses"
+          }
+        ]
+      }
+    ]
+  }
+]

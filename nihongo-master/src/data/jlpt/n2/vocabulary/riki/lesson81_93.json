@@ -1,0 +1,2961 @@
+[
+  {
+    "kanji": "がっしり",
+    "hiragana": "がっしり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chắc chắn, chắc nịch",
+      "en": "Solidly / Firmly built"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "筋トレを 1 年続けて、体ががっしりしてきた。",
+        "vi": "Sau 1 năm kiên trì tập Gym thì cơ thể đã trở nên vạm vỡ chắc nịch.",
+        "en": "After continuing strength training for a year, my body has become solidly built."
+      }
+    ],
+    "id": "v_rkn2_81_801"
+  },
+  {
+    "kanji": "うっかり",
+    "hiragana": "うっかり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lơ đễnh, lỡ",
+      "en": "Carelessly / Thoughtlessly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "うっかり内緒話を友だちに話してしまった。",
+        "vi": "Tôi lơ đễnh trót/lỡ nói chuyện bí mật cho bạn bè mất rồi.",
+        "en": "I carelessly told my friend a secret."
+      }
+    ],
+    "id": "v_rkn2_81_802"
+  },
+  {
+    "kanji": "ほんの",
+    "hiragana": "ほんの",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chỉ, chỉ là",
+      "en": "Merely / Only"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "やらなくてほんの少しでも後悔すると思うなら、絶対にやるべきだよ。",
+        "vi": "Nếu cảm thấy k làm mà hối hận Dẫu Chỉ Là 1 Chút đi chăng nữa, thì bạn tuyệt đối nên làm đi.",
+        "en": "If you think you'll regret not doing it even just a little bit, you should absolutely do it."
+      }
+    ],
+    "id": "v_rkn2_81_803"
+  },
+  {
+    "kanji": "あらゆる",
+    "hiragana": "あらゆる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mọi, tất cả",
+      "en": "All / Every"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "このスーパーにはあらゆる国の食品が売られています。",
+        "vi": "Siêu thị này đang bày bán thực phẩm của Tất Cả các Quốc gia.",
+        "en": "Foods from all countries are sold in this supermarket."
+      },
+      {
+        "jp": "あらゆる方法を試してみたが、だめだった。",
+        "vi": "Đã thử nghiệm Tất cả các phương pháp nhưng vẫn vô vọng.",
+        "en": "I tried all kinds of methods, but it was no use."
+      }
+    ],
+    "id": "v_rkn2_81_804"
+  },
+  {
+    "kanji": "いずれ",
+    "hiragana": "いずれ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Sớm muộn... / 2. Cái nào cũng, bất kỳ",
+      "en": "1. Sooner or later 2. Either / Any"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "今の状況はかなり悪いが、いずれ回復する。",
+        "vi": "Tình trạng hiện nay khá là tồi tệ, nhưng Sớm muộn thì cũng hồi phục thôi.",
+        "en": "The current situation is quite bad, but it will recover sooner or later."
+      },
+      {
+        "jp": "この場合は、A も B も、いずれも正解です。",
+        "vi": "Trong trường hợp này, cả A và B, Dù là phương án nào đi nữa cũng là đáp án đúng.",
+        "en": "In this case, both A and B, either one is the correct answer."
+      }
+    ],
+    "id": "v_rkn2_81_805"
+  },
+  {
+    "kanji": "見事に",
+    "hiragana": "みごとに",
+    "hanViet": "KIẾN SỰ",
+    "meaning": {
+      "vi": "Tuyệt vời, ngoạn mục",
+      "en": "Splendidly / Beautifully"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "彼の予想は見事に的中した。",
+        "vi": "Dự đoán của a ta Đã trúng phóc 1 cách Vô cùng Ngoạn Mục/Tuyệt Vời.",
+        "en": "His prediction hit the mark perfectly."
+      }
+    ],
+    "id": "v_rkn2_81_806"
+  },
+  {
+    "kanji": "改めて",
+    "hiragana": "あらためて",
+    "hanViet": "CẢI",
+    "meaning": {
+      "vi": "Một lần nữa",
+      "en": "Once again / Anew"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "「日を改めてメールにてご連絡いたします。」",
+        "vi": "(Đã nói qua 1 lần rồi, nay chốt lại 1 lần nữa): Tôi xin phép sẽ liên lạc lại thêm Một lần Nữa bằng Email vào một ngày gần nhất.",
+        "en": "'I will contact you again by email on another day.'"
+      }
+    ],
+    "id": "v_rkn2_81_807"
+  },
+  {
+    "kanji": "何となく",
+    "hiragana": "なんとなく",
+    "hanViet": "HÀ",
+    "meaning": {
+      "vi": "Bằng cách nào đó, có linh cảm",
+      "en": "Somehow / For some reason"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "なんとなく今日はいい日になる気がする。",
+        "vi": "Không hiểu vì sao mà tôi có linh cảm/cảm giác hôm nay sẽ là 1 ngày tuyệt vời.",
+        "en": "For some reason, I feel like today is going to be a good day."
+      },
+      {
+        "jp": "A：なんで結婚しようと思ったの？ B：うーん。はっきりした理由はわからないけど、彼女と出会ったときになんとなく、この人と結婚するべきだと思ったんだ。",
+        "vi": "A: Tại sao m lại có ý định Kết hôn thế? B: Ừm. T k hiểu rõ lí do lắm, nhưng tại thời khắc gặp cô ấy, chả hiểu sao t lại nghĩ: Mình nên kết hôn với ng này.",
+        "en": "A: 'Why did you decide to get married?' B: 'Hmm. I don't know the exact reason, but when I met her, somehow I thought I should marry this person.'"
+      }
+    ],
+    "id": "v_rkn2_81_808"
+  },
+  {
+    "kanji": "次第に",
+    "hiragana": "しだいに",
+    "hanViet": "THỨ ĐỆ",
+    "meaning": {
+      "vi": "1. Dần dần, từ từ / 2. Ngay sau khi",
+      "en": "1. Gradually 2. As soon as"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "今は大変かもしれないけど、次第に慣れてくるよ。",
+        "vi": "Có thể bây giờ m vất vả đấy, nhưng rồi Dần Dần sẽ quen thôi.",
+        "en": "It might be hard now, but you will gradually get used to it."
+      },
+      {
+        "jp": "日程が決まり次第、すぐご連絡いたします。",
+        "vi": "(V masu bỏ masu + 次第): Lịch trình Ngay Sau Khi được quyết định, tôi sẽ liên lạc lại ngay.",
+        "en": "As soon as the schedule is decided, I will contact you right away."
+      }
+    ],
+    "id": "v_rkn2_81_809"
+  },
+  {
+    "kanji": "ようやく",
+    "hiragana": "ようやく",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cuối cùng",
+      "en": "Finally / At last"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 81",
+    "examples": [
+      {
+        "jp": "アルバイトから働き初めて 5 年、ようやく正社員になることができた。",
+        "vi": "Đã 5 năm kể từ khi bắt đầu làm từ thân phận làm thêm, Cuối Cùng Thì tôi cũng trở thành nhân viên chính thức.",
+        "en": "Five years after starting to work part-time, I was finally able to become a full-time employee."
+      }
+    ],
+    "id": "v_rkn2_81_810"
+  },
+  {
+    "kanji": "いわゆる",
+    "hiragana": "いわゆる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cái gọi là...",
+      "en": "So-called"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "彼は 1 日に 10 時間はゲームをする、いわゆるゲーマーだ。",
+        "vi": "Anh ta thì 1 ngày cày game những 10 tiếng đồng hồ, Cái Gọi Là Gamer (Người chơi game).",
+        "en": "He plays games for 10 hours a day, a so-called gamer."
+      }
+    ],
+    "id": "v_rkn2_82_811"
+  },
+  {
+    "kanji": "幾分",
+    "hiragana": "いくぶん",
+    "hanViet": "KI PHÂN",
+    "meaning": {
+      "vi": "1. Một phần / 2. Một chút",
+      "en": "1. A part 2. Somewhat / A little"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "売上の幾分かを動物愛護団体に寄付している。",
+        "vi": "Đang quyên góp 1 phần nhỏ doanh thu của mình vào cho Đoàn thể Yêu thương Động vật.",
+        "en": "Donating a portion of the sales to an animal protection organization."
+      },
+      {
+        "jp": "A：体調はよくなった？ B：先週よりは幾分かマシになったかな。",
+        "vi": "A: Cơ thể khỏe hơn chưa? B: So với tuần trước thì cũng Đã đỡ hơn Được Một Chút rồi á.",
+        "en": "A: 'Are you feeling better?' B: 'I'm somewhat better than last week.'"
+      }
+    ],
+    "id": "v_rkn2_82_812"
+  },
+  {
+    "kanji": "一段と",
+    "hiragana": "いちだんと",
+    "hanViet": "NHẤT ĐOẠN",
+    "meaning": {
+      "vi": "Hơn hẳn",
+      "en": "Much more / Still more"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "メイク変えた？今日は一段と可愛いね。",
+        "vi": "Em thay đổi Makeup hả? Hôm nay em Đáng yêu Hơn Hẳn bình thường đấy.",
+        "en": "Did you change your makeup? You're even cuter today."
+      }
+    ],
+    "id": "v_rkn2_82_813"
+  },
+  {
+    "kanji": "大いに",
+    "hiragana": "おおいに",
+    "hanViet": "ĐẠI",
+    "meaning": {
+      "vi": "Nhiều, lớn, rất",
+      "en": "Very much / Greatly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "若い時は大いに学び、大いに遊ぶべきだ。",
+        "vi": "Hồi còn trẻ thì chúng ta nên Vui chơi Hết Mình (Cực kì nhiều) và học hành hết mình.",
+        "en": "When you are young, you should learn a lot and play a lot."
+      },
+      {
+        "jp": "山田さんには大いに感謝している。",
+        "vi": "Tôi vô cùng (Rất nhiều) biết ơn ông Yamada.",
+        "en": "I am very grateful to Mr. Yamada."
+      }
+    ],
+    "id": "v_rkn2_82_814"
+  },
+  {
+    "kanji": "せいぜい",
+    "hiragana": "せいぜい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Tối đa, cùng lắm chỉ / 2. Nhiều nhất có thể",
+      "en": "1. At most 2. To the utmost"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "A：今日お客さんけっこうきましたね。 売上すごいんじゃないですか？ B：セールしたからね。今日の売上はせいぜい 10 万円くらいかな。",
+        "vi": "A: Nay khách đông nha. Doanh thu chắc khủng lắm nhỉ? B: Do có SALE mà. Doanh thu hôm nay Cùng lắm/Tối đa cũng chỉ cỡ 10 Man thôi.",
+        "en": "A: 'Many customers came today, didn't they? Isn't the sales amazing?' B: 'Because we had a sale. Today's sales are at most about 100,000 yen.'"
+      },
+      {
+        "jp": "「では、この件はみんなせいぜい頑張ってください。」",
+        "vi": "'Vâng, vụ này thì phiền mọi người hãy cố gắng hết mức có thể nhé'.",
+        "en": "'Well then, everyone, please do your best on this matter.'"
+      }
+    ],
+    "id": "v_rkn2_82_815"
+  },
+  {
+    "kanji": "とりあえず",
+    "hiragana": "とりあえず",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trước hết",
+      "en": "For now / First of all"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "迷ったらとりあえず、初めて見る",
+        "vi": "Nếu thấy lưỡng lự thì Trước Mắt / Trước Tiên cứ thử xem lần đầu xem sao.",
+        "en": "If you are unsure, just try looking at it first."
+      },
+      {
+        "jp": "とりあえず生で！",
+        "vi": "Trước tiên hãy (Cho tôi 1 ly) Bia Tươi cái đã!",
+        "en": "Draft beer for now!"
+      }
+    ],
+    "id": "v_rkn2_82_816"
+  },
+  {
+    "kanji": "既に",
+    "hiragana": "すでに",
+    "hanViet": "KÍ",
+    "meaning": {
+      "vi": "Đã, đã rồi",
+      "en": "Already"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "申し訳ございませんが、募集は既に終了しております。",
+        "vi": "Vô cùng xin lỗi, thế nhưng thời gian Tuyển dụng Đã kết thúc mất rồi.",
+        "en": "I'm sorry, but the recruitment has already closed."
+      }
+    ],
+    "id": "v_rkn2_82_817"
+  },
+  {
+    "kanji": "にわかに",
+    "hiragana": "にわかに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bỗng nhiên, đột ngột",
+      "en": "Suddenly / Unexpectedly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "テレビでの紹介をきっかけに、彼女の曲はにわかに注目を集め、すぐに大人気歌手となった。",
+        "vi": "Lấy việc được giới thiệu trên TV làm cơ hội/bước đệm, những ca khúc của cô ấy Đột Nhiên (にわかに) thu hút được sự chú ý, và lập tức trở thành 1 Ca sĩ đại tài.",
+        "en": "Triggered by being introduced on TV, her songs suddenly attracted attention, and she immediately became a very popular singer."
+      }
+    ],
+    "id": "v_rkn2_82_818"
+  },
+  {
+    "kanji": "再三",
+    "hiragana": "さいさん",
+    "hanViet": "TÁI TAM",
+    "meaning": {
+      "vi": "Dăm ba bận, vài lần",
+      "en": "Again and again / Repeatedly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "先方に再三催促しているのに、まだ支払いがない",
+        "vi": "Đã Thúc giục/Nhắc nhở đối phương dăm ba lần (Vài lần) rồi, thế mà vẫn chưa thấy thanh toán đéo gì.",
+        "en": "I have repeatedly urged the other party, but there is still no payment."
+      },
+      {
+        "jp": "再三忠告しているのに、彼は言う事を聞く気がない",
+        "vi": "Dù đã khuyên can Dăm Lần Bảy Lượt, thế mà thằng chả vẫn đéo chịu nghe.",
+        "en": "Even though I have repeatedly warned him, he has no intention of listening to what I say."
+      }
+    ],
+    "id": "v_rkn2_82_819"
+  },
+  {
+    "kanji": "しょっちゅう",
+    "hiragana": "しょっちゅう",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thường xuyên, hay",
+      "en": "Always / Constantly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 82",
+    "examples": [
+      {
+        "jp": "山田さんはしょっちゅう部長に怒られている。",
+        "vi": "Ông Yamada Cứ Thường Xuyên bị ông Trưởng phòng sạc/mắng cho tơi bời.",
+        "en": "Mr. Yamada is constantly being scolded by the department manager."
+      },
+      {
+        "jp": "デート中にしょっちゅうスマホをいじっている彼氏",
+        "vi": "Ông bạn trai đang Hẹn hò mà cứ hay Nghịch điện thoại Thường Xuyên/Liên tục.",
+        "en": "A boyfriend who constantly fiddles with his smartphone during a date."
+      }
+    ],
+    "id": "v_rkn2_82_820"
+  },
+  {
+    "kanji": "単に",
+    "hiragana": "たんに",
+    "hanViet": "ĐƠN",
+    "meaning": {
+      "vi": "Đơn thuần là...",
+      "en": "Simply / Merely"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "Ｑ：朝ご飯は何でしたか？ Ａ：単に牛乳だけでした",
+        "vi": "Q: Đồ ăn sáng nãy là gì thế? A: Đơn thuần chỉ là 1 ly sữa bò mà thôi.",
+        "en": "Q: 'What was for breakfast?' A: 'It was simply milk.'"
+      },
+      {
+        "jp": "コロナじゃないよ、単なる風邪だから。",
+        "vi": "K phải Corona đâu m, Đơn thuần/Chỉ là cảm cúm (単なる) thôi.",
+        "en": "It's not Corona, it's just a mere cold."
+      }
+    ],
+    "id": "v_rkn2_83_821"
+  },
+  {
+    "kanji": "あれこれ",
+    "hiragana": "あれこれ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cái này cái kia",
+      "en": "This and that"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "周りがあれこれ言ってきても、自分がやりたいことをやったほうがいいと思うよ。",
+        "vi": "Cho dù những người xung quanh có dèm pha (Nói chuyện Này chuyện Lọ) đi chăng nữa, thì T vẫn nghĩ là M cứ làm những thứ m muốn làm là được.",
+        "en": "Even if the people around you say this and that, I think you should do what you want to do."
+      }
+    ],
+    "id": "v_rkn2_83_822"
+  },
+  {
+    "kanji": "およそ",
+    "hiragana": "およそ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đại khái, khoảng",
+      "en": "Approximately / About"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "目的地まではおよそ 30 分で到着します。",
+        "vi": "Cho tới Điểm đến thì mất Khoảng / Đại Khái 30 phút nữa là tới nơi.",
+        "en": "It takes about 30 minutes to arrive at the destination."
+      }
+    ],
+    "id": "v_rkn2_83_823"
+  },
+  {
+    "kanji": "さらに",
+    "hiragana": "さらに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hơn nữa, ngoài ra",
+      "en": "Furthermore / Moreover / Even more"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "今だけセール価格からさらに 20％OFF",
+        "vi": "Chỉ ngay tại thời điểm này, So với Giá Sale Hơn Nữa lại còn được giảm tiếp 20% (OFF).",
+        "en": "Only now, an additional 20% OFF from the sale price."
+      }
+    ],
+    "id": "v_rkn2_83_824"
+  },
+  {
+    "kanji": "最も",
+    "hiragana": "もっとも",
+    "hanViet": "TỐI",
+    "meaning": {
+      "vi": "1. Nhất, vô cùng / 2. Đương nhiên, đúng đắn",
+      "en": "1. Most 2. Reasonable / Natural"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "世界で最もハンサムな顔 2021",
+        "vi": "Khuôn mặt đẹp trai Nhất (Most) trên Thế giới năm 2021.",
+        "en": "The most handsome face in the world 2021."
+      },
+      {
+        "jp": "彼女の言っていることはもっともだ。",
+        "vi": "Những gì mà cô ta đang nói quả là Rất Đúng Đắn / Hợp Tình Hợp Lý.",
+        "en": "What she is saying is quite reasonable/natural."
+      }
+    ],
+    "id": "v_rkn2_83_825"
+  },
+  {
+    "kanji": "万一",
+    "hiragana": "まんいち",
+    "hanViet": "VẠN NHẤT",
+    "meaning": {
+      "vi": "Ngộ nhỡ, bất trắc",
+      "en": "By any chance / In the worst case"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "万一の災害時における対策",
+        "vi": "Sách lược ứng phó Ngộ Nhỡ như gặp thảm họa/tai ương.",
+        "en": "Measures for the worst-case scenario of a disaster."
+      },
+      {
+        "jp": "万一のとき、ここが不安…",
+        "vi": "Tới lúc Ngộ Nhỡ gặp phải, thì chỗ này lo ghê...",
+        "en": "In the worst case, this part is worrying..."
+      }
+    ],
+    "id": "v_rkn2_83_826"
+  },
+  {
+    "kanji": "めったに",
+    "hiragana": "めったに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hiếm khi",
+      "en": "Seldom / Rarely"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "うちの会社は残業がめったにない",
+        "vi": "Công ty tôi thì chuyện OT/Làm thêm là Hiếm Khi xảy ra lắm.",
+        "en": "Our company rarely has overtime."
+      }
+    ],
+    "id": "v_rkn2_83_827"
+  },
+  {
+    "kanji": "そのうち",
+    "hiragana": "そのうち",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sớm muộn...",
+      "en": "Before long / Eventually"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "今は大変かもしれないけど、そのうち慣れてくるよ。",
+        "vi": "Bây giờ có thể vất vả khó khăn, nhưng Sớm muộn (Một ngày gần nhất) thì cũng quen thôi.",
+        "en": "It might be hard now, but you'll get used to it before long."
+      }
+    ],
+    "id": "v_rkn2_83_828"
+  },
+  {
+    "kanji": "むしろ",
+    "hiragana": "むしろ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ngược lại/Thà...",
+      "en": "Rather / Instead"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "残業は嫌だという人もいるが、僕はむしろやりたいくらいだ。",
+        "vi": "Tuy là có 1 bộ phận ng ghét làm thêm/OT. Cơ mà về phần tớ thì Thà (Ngược lại) còn muốn làm thêm ấy chứ.",
+        "en": "There are people who hate overtime, but I rather want to do it."
+      },
+      {
+        "jp": "優しい人より、むしろ厳しい人が好きだ。",
+        "vi": "So với mấy con ng quá hiền lành, Ngược lại tôi lại có phần thích những người nghiêm khắc hơn.",
+        "en": "Rather than gentle people, I like strict people."
+      }
+    ],
+    "id": "v_rkn2_83_829"
+  },
+  {
+    "kanji": "かえって",
+    "hiragana": "かえって",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ngược lại (trái với kỳ vọng)",
+      "en": "On the contrary / Rather"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 83",
+    "examples": [
+      {
+        "jp": "儲けようとして投資したら、かえって損をしてしまった。",
+        "vi": "Cứ ngỡ là đầu tư kiếm lời đc 1 mớ, ai dè Ngược Lại còn bị lỗ/tổn thất.",
+        "en": "I invested to make a profit, but on the contrary, I suffered a loss."
+      },
+      {
+        "jp": "遅れそうだったのでタクシーに乗ったら、道が込んで、かえって時間がかかってしまった。",
+        "vi": "Sắp trễ nên vội lên Taxi, ấy thế mà đường lại tắc, Ngược lại hóa ra lại còn tốn thời gian Hơn Cả lúc bình thường.",
+        "en": "It looked like I was going to be late, so I took a taxi, but the road was crowded, and it ended up taking more time instead."
+      }
+    ],
+    "id": "v_rkn2_83_830"
+  },
+  {
+    "kanji": "なんだか",
+    "hiragana": "なんだか",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Không hiểu vì sao, có cảm giác...",
+      "en": "Somewhat / For some reason"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "私なんだかいける気がしてきた…！",
+        "vi": "Bản thân tôi, Đéo hiểu vì lí do gì lại có cảm giác là mình Có thể làm được/Suôn sẻ...",
+        "en": "For some reason, I feel like I can do it...!"
+      }
+    ],
+    "id": "v_rkn2_84_831"
+  },
+  {
+    "kanji": "やがて",
+    "hiragana": "やがて",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chẳng mấy chốc, sắp sửa",
+      "en": "Before long / Soon"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "何も咲かない寒い日は下へ下へと根を伸ばせやがて大きな花が咲く。",
+        "vi": "Ngày đông giá rét k có thứ gì đâm chồi thì hãy vươn rễ cắm sâu xuống dưới. Chẳng mấy chốc sẽ nở ra bông hoa Tuyệt đẹp.",
+        "en": "On cold days when nothing blooms, stretch your roots down and down, and soon large flowers will bloom."
+      }
+    ],
+    "id": "v_rkn2_84_832"
+  },
+  {
+    "kanji": "今に",
+    "hiragana": "いまに",
+    "hanViet": "KIM",
+    "meaning": {
+      "vi": "1. Tương lai gần, sắp / 2. Một ngày nào đó (thể hiện quyết tâm)",
+      "en": "1. Before long 2. Someday (showing determination)"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "僕の言っている意味が今にわかるだろう。",
+        "vi": "Ý nghĩa lời tôi vừa nói, Sắp Tới / Một ngày nào đó m sẽ khắc hiểu thôi ha.",
+        "en": "You will understand the meaning of what I am saying before long."
+      },
+      {
+        "jp": "今に見てろよ！練習して、絶対に勝つからな！",
+        "vi": "(Thể hiện sự quyết tâm): Một Ngày Nào Đó chống mắt lên mà coi! Tao sẽ Luyện tập và Tuyệt đối sẽ Thắng cho coi!",
+        "en": "Just you wait and see someday! I will practice and definitely win!"
+      }
+    ],
+    "id": "v_rkn2_84_833"
+  },
+  {
+    "kanji": "果たして",
+    "hiragana": "はたして",
+    "hanViet": "QUẢ",
+    "meaning": {
+      "vi": "Rốt cuộc là / Quả nhiên",
+      "en": "Sure enough / Really / As expected"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "果たして結果は？",
+        "vi": "Rốt cuộc thì Kết quả ra làm sao?",
+        "en": "What is the result after all?"
+      }
+    ],
+    "id": "v_rkn2_84_834"
+  },
+  {
+    "kanji": "ばったり",
+    "hiragana": "ばったり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Bất ngờ (gặp ai đó) / 2. Đột nhiên đổ gục",
+      "en": "1. Unexpectedly (meeting) 2. Suddenly falling"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "道で元彼とばったり会いました。",
+        "vi": "Vô tình (Chạm mặt Đột nhiên) Bắt gặp Thằng Người yêu cũ ở ngoài đường.",
+        "en": "I ran into my ex-boyfriend unexpectedly on the street."
+      },
+      {
+        "jp": "疲れすぎて、帰宅してすぐベッドにばったり倒れた。",
+        "vi": "Quá mức mệt nhọc, vừa về tới nhà là Ngã ụp / Đổ rập người/Sập nguồn xuống giường.",
+        "en": "I was so tired that I suddenly collapsed onto the bed as soon as I got home."
+      }
+    ],
+    "id": "v_rkn2_84_835"
+  },
+  {
+    "kanji": "ひとまず",
+    "hiragana": "ひとまず",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trong lúc này, tạm thời",
+      "en": "For now / For the time being"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "父の手術が無事に終わり、ひとまず安心だ。",
+        "vi": "Ca phẫu thuật của bố đã kết thúc vô sự, Tạm Thời thì cũng có thể Thở phào an tâm rồi.",
+        "en": "My father's surgery ended safely, so for now, it is a relief."
+      }
+    ],
+    "id": "v_rkn2_84_836"
+  },
+  {
+    "kanji": "しばしば",
+    "hiragana": "しばしば",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thường xuyên",
+      "en": "Often / Frequently"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "普段はお酒を飲みませんが、飲み会では飲むこともしばしばあります。",
+        "vi": "Bình thường thì tôi k uống rượu, nhưng Hễ Đi Nhậu thì Thường Xuyên (Cũng hay) uống.",
+        "en": "I don't usually drink alcohol, but at drinking parties, I often drink."
+      },
+      {
+        "jp": "年のせいか、しばしば物忘れをするようになった。",
+        "vi": "Có lẽ là do Tuổi tác, nên tôi Trở nên Hay quên Thường xuyên.",
+        "en": "Perhaps due to my age, I have started forgetting things frequently."
+      }
+    ],
+    "id": "v_rkn2_84_837"
+  },
+  {
+    "kanji": "しーんと／しんと",
+    "hiragana": "しーんと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Im như tờ",
+      "en": "Silently / Deadly quiet"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "彼女が教室に入ると子どもたちはしんとなった。",
+        "vi": "Vừa mới bước vào phòng học là bọn trẻ con đã Im Phăng Phắc (Im như tờ).",
+        "en": "When she entered the classroom, the children became dead silent."
+      },
+      {
+        "jp": "この辺りは人が少なく車も走っておらず、しーんとしている。",
+        "vi": "Vùng này ít ng lại k có bóng dáng xe cộ, nên nó Im lìm/Vắng tanh.",
+        "en": "This area has few people and no cars running, so it is deadly quiet."
+      }
+    ],
+    "id": "v_rkn2_84_838"
+  },
+  {
+    "kanji": "めっきり",
+    "hiragana": "めっきり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "(Thay đổi) đáng kể",
+      "en": "Remarkably / Noticeably"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "車を買ってから、めっきり電車を使わなくなった。",
+        "vi": "Từ hồi sắm Ô tô xong là tôi Đáng kể (Giảm đi hẳn) đéo dùng tàu điện nữa.",
+        "en": "Since buying a car, I noticeably stopped using the train."
+      },
+      {
+        "jp": "コロナになってから、めっきり外食をしなくなった。",
+        "vi": "Từ hồi dính Covid là tôi Rõ ràng / Đáng kể (Giảm hẳn) cái việc đi ăn ngoài.",
+        "en": "Since getting Corona, I noticeably stopped eating out."
+      }
+    ],
+    "id": "v_rkn2_84_839"
+  },
+  {
+    "kanji": "なお",
+    "hiragana": "なお",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Ngoài ra, thêm vào đó / 2. Hơn nữa",
+      "en": "1. Furthermore / In addition 2. Still / Yet"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 84",
+    "examples": [
+      {
+        "jp": "社員旅行の費用は会社にて負担いたします。なお、個人での買い物については各自負担になります。",
+        "vi": "Chi phí du lịch cty thì cty sẽ đài thọ hoàn toàn. Ngoài Ra / Thêm vào đó, những chi tiêu mua sắm cá nhân thì tự túc.",
+        "en": "The company will cover the expenses for the company trip. In addition, personal shopping will be borne by each individual."
+      },
+      {
+        "jp": "彼女は前からきれいだったが、結婚してなおきれいになった。",
+        "vi": "Cô ta từ trc đến nay vốn đã đẹp sẵn rồi, thế mà Cưới xong lại Càng Đẹp Hơn Nữa.",
+        "en": "She was beautiful before, but she became even more beautiful after getting married."
+      }
+    ],
+    "id": "v_rkn2_84_840"
+  },
+  {
+    "kanji": "ずらりと",
+    "hiragana": "ずらりと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "(Xếp) thành một hàng",
+      "en": "In a row / Lined up"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "この店は手前から奥まできれいなカバンがずらりと並んでいる。",
+        "vi": "Cửa hàng này thì Những cái cặp sách Xinh đẹp Được xếp ngay ngắn Thành 1 Hàng từ ngoài vào trong.",
+        "en": "This shop has beautiful bags lined up in a row from the front to the back."
+      }
+    ],
+    "id": "v_rkn2_85_841"
+  },
+  {
+    "kanji": "わざわざ",
+    "hiragana": "わざわざ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cất công",
+      "en": "Going out of one's way / Taking the trouble"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "遠いのに、わざわざ来てくれてありがとう。",
+        "vi": "Đường xá xa xôi thế mà m Cất Công/Dày công lặn lội tới đây, cảm ơn m nha.",
+        "en": "Even though it's far, thank you for going out of your way to come."
+      },
+      {
+        "jp": "会いにきてくれただけで嬉しいのに！わざわざ出産祝いまでありがとう。",
+        "vi": "M cất công tới thăm là t đã vui lắm rồi, lại còn Mất Công mang cả Đồ mừng sinh em bé tới nữa. Cảm ơn nhé.",
+        "en": "I'm happy enough that you came to see me! Thank you for taking the trouble to bring a baby gift."
+      }
+    ],
+    "id": "v_rkn2_85_842"
+  },
+  {
+    "kanji": "わざと",
+    "hiragana": "わざと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cố ý, có mục đích",
+      "en": "On purpose / Intentionally"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "彼と話すために、わざとハンカチを落としてみた。",
+        "vi": "Nhằm mục đích nói chuyện với anh ta, tôi đã Cố Ý thả rơi chiếc Khăn mùi xoa.",
+        "en": "To talk to him, I intentionally dropped my handkerchief."
+      },
+      {
+        "jp": "サッカーでわざと倒れて、イエローカードをもらおうとする人がいる。",
+        "vi": "Cũng có những thằng cha Cố Tình ngã trong trận đấu bóng nhằm câu mồi Thẻ Vàng.",
+        "en": "There are people who fall on purpose in soccer to try to get a yellow card."
+      },
+      {
+        "jp": "わざとじゃないんです。",
+        "vi": "K phải tôi Cố Ý làm thế đâu.",
+        "en": "It wasn't on purpose."
+      }
+    ],
+    "id": "v_rkn2_85_843"
+  },
+  {
+    "kanji": "もしかすると",
+    "hiragana": "もしかすると",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Có lẽ, k chừng",
+      "en": "Perhaps / Maybe / By any chance"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "うーん。もしかすると、なにかあったのかもしれませんね。",
+        "vi": "Ừm. Có Lẽ/Không chừng là Đã xảy ra chuyện quái quỷ gì đó chăng.",
+        "en": "Hmm. Perhaps something might have happened."
+      },
+      {
+        "jp": "このごろ成績が上がってきたから、もしかしたら東京大学に合格できるかもしれない。",
+        "vi": "(Mở rộng もしかしたら): Dạo gần đây thành tích đang đi lên, nên Có Lẽ là Có thể Đỗ cả ĐH Tokyo ấy chứ k đùa.",
+        "en": "(Related): Lately grades have been going up, so maybe I can pass Tokyo University."
+      }
+    ],
+    "id": "v_rkn2_85_844"
+  },
+  {
+    "kanji": "すっと",
+    "hiragana": "すっと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Nhanh như chớp, thoắt 1 cái / 2. Nhẹ nhàng, thoải mái",
+      "en": "1. Quickly / Swiftly 2. Feeling refreshed/relieved"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "泣いていた私にすっとハンカチを渡してくれた。",
+        "vi": "Thoắt 1 cái (Nhanh như chớp) a ấy đưa cho tôi chiếc khăn tay lúc tôi đang khóc.",
+        "en": "He swiftly handed me a handkerchief when I was crying."
+      },
+      {
+        "jp": "彼との悩みを友達に話したら、心がすっとした。",
+        "vi": "Kể chuyện phiền não về a ta cho lũ bạn nghe xong, lòng tôi nhẹ bẫng / Thoải mái mượt mà (すっとした).",
+        "en": "When I talked about my worries about him with my friends, my heart felt relieved."
+      }
+    ],
+    "id": "v_rkn2_85_845"
+  },
+  {
+    "kanji": "どうやら",
+    "hiragana": "どうやら",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Dường như, có vẻ như",
+      "en": "It seems / Apparently"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "課長が会議からずっと戻ってこない…。どうやら今日は残業になりそうだ。",
+        "vi": "Trưởng phòng đi họp mãi đéo thấy quay lại... Có vẻ như hôm nay lại xác định OT/làm thêm rồi.",
+        "en": "The section chief hasn't come back from the meeting for a long time... It seems like we'll have to work overtime today."
+      }
+    ],
+    "id": "v_rkn2_85_846"
+  },
+  {
+    "kanji": "未だに",
+    "hiragana": "いまだに",
+    "hanViet": "VỊ",
+    "meaning": {
+      "vi": "Ngay cả bây giờ, vẫn chưa",
+      "en": "Even now / Still"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "子供のころ、犬にかまれてから犬が怖くて、大人になっても未だに犬を触れない。",
+        "vi": "Hồi bé bị chó cắn cho phát đâm ra sợ chó, đến mức lớn tồng ngồng rồi mà Ngay cả bây giờ Vẫn K dám sờ con chó.",
+        "en": "Since I was bitten by a dog when I was a child, I am afraid of dogs, and even as an adult, I still cannot touch dogs."
+      },
+      {
+        "jp": "10 年も元彼を忘れられない！未だに忘れられない。",
+        "vi": "Đã 10 năm rồi mà k quên được Thằng Ng Yêu cũ! Ngay Cả Bây Giờ Vẫn chưa thể quên đc.",
+        "en": "I can't forget my ex-boyfriend even after 10 years! I still can't forget him."
+      }
+    ],
+    "id": "v_rkn2_85_847"
+  },
+  {
+    "kanji": "まさに",
+    "hiragana": "まさに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đúng đắn, chính xác",
+      "en": "Exactly / Surely / Right now"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "これはまさに、私が求めていた部屋です。",
+        "vi": "Căn phòng này Quả Thực Chính Xác là những gì tôi đang kiếm tìm bấy lâu.",
+        "en": "This is exactly the room I was looking for."
+      },
+      {
+        "jp": "まさにその通りです。。。",
+        "vi": "Quả thật (Hoàn toàn chính xác) là như vậy...",
+        "en": "That is exactly right..."
+      }
+    ],
+    "id": "v_rkn2_85_848"
+  },
+  {
+    "kanji": "しかも",
+    "hiragana": "しかも",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hơn nữa",
+      "en": "Moreover / Furthermore"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "A:くじで、高級ホテルの宿泊券が当たった！ B:まじか。うらやましい。 A:しかもさ最上階のスイートルームだぜ！",
+        "vi": "A: T bốc thăm Trúng cmn Vé Nghỉ dưỡng KS hạng sang rồi. B: Thật à? Gato vãi. A: Hơn thế nữa, lại còn Phòng Suite Tầng Cao Nhất luôn cơ!",
+        "en": "A: 'I won a voucher for a luxury hotel in a lottery!' B: 'Seriously? I'm jealous.' A: 'Moreover, it's the suite on the top floor!'"
+      },
+      {
+        "jp": "この商品は当店の人気商品です。しかも今ならセールで半額で買えます。",
+        "vi": "Mặt hàng này hiện đang rất Hot ở tiệm tớ. Hơn Thế Nữa, Đang đợt Sale nên chỉ cần nửa giá là Mua đc ồi nha.",
+        "en": "This product is a popular item in our store. Moreover, you can buy it at half price on sale right now."
+      }
+    ],
+    "id": "v_rkn2_85_849"
+  },
+  {
+    "kanji": "にやにや",
+    "hiragana": "にやにや",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cười toe toét, cười tủm tỉm",
+      "en": "Grinning / Smirking"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 85",
+    "examples": [
+      {
+        "jp": "好きな子と LINE する時はにやにやが止まらない。",
+        "vi": "Những lúc được nt Line với Crush là cái miệng đéo ngừng Cười Toe Toét/Tủm tỉm được.",
+        "en": "When I LINE with the person I like, I can't stop grinning."
+      }
+    ],
+    "id": "v_rkn2_85_850"
+  },
+  {
+    "kanji": "たった",
+    "hiragana": "たった",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chỉ vẻn vẹn",
+      "en": "Only / Merely / Just"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "この家は駅までたったの１分です。",
+        "vi": "Căn nhà này đi tới nhà ga Chỉ Vẻn Vẹn có 1 Phút.",
+        "en": "This house is just 1 minute away from the station."
+      },
+      {
+        "jp": "たった 1 分：お腹が凹む「やせる姿勢」お作り方",
+        "vi": "Chỉ vẻn vẹn 1 Phút: Cách tạo 'Tư thế Ốm' để bụng được hõm vào.",
+        "en": "Just 1 minute: How to create a 'thinning posture' where the stomach caves in."
+      }
+    ],
+    "id": "v_rkn2_86_851"
+  },
+  {
+    "kanji": "事前に",
+    "hiragana": "じぜんに",
+    "hanViet": "SỰ TIỀN",
+    "meaning": {
+      "vi": "Trước",
+      "en": "In advance / Beforehand"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "お客さん：事前に予約しておきました。中田です。 店員：あっ、中田様ですね。お待ちしておりました。こちらへどうぞ。",
+        "vi": "Khách: Tôi đã Đặt chỗ Trước rồi ạ. Tên là Nakata. NV: A vâng ngài Nakata ạ. Bọn e đang đợi ngài đây. Mời đi lối này.",
+        "en": "Guest: 'I made a reservation in advance. I am Nakata.' Staff: 'Ah, Mr. Nakata. We've been expecting you. Right this way.'"
+      }
+    ],
+    "id": "v_rkn2_86_852"
+  },
+  {
+    "kanji": "ぐっと",
+    "hiragana": "ぐっと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hết mình (Động lòng, lay động)",
+      "en": "Deeply moving / Firmly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "彼のその言葉にはぐっときた。",
+        "vi": "Những Ngôn Từ của anh ấy đã thực sự Chạm đến/Lay động Trái tim tôi.",
+        "en": "His words deeply moved me."
+      },
+      {
+        "jp": "心にぐっとくる深イイ歌",
+        "vi": "Một bài hát sâu sắc Lay động Trái tim.",
+        "en": "A deep song that touches the heart."
+      }
+    ],
+    "id": "v_rkn2_86_853"
+  },
+  {
+    "kanji": "どうしても",
+    "hiragana": "どうしても",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bằng mọi giá",
+      "en": "By all means / No matter what"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "どうしても納豆は食べられない。。。",
+        "vi": "Dù Có Thế Nào Đi Nữa / Bằng Mọi Giá T cũng Đéo Thể đớp được Natto.",
+        "en": "I absolutely cannot eat natto no matter what..."
+      }
+    ],
+    "id": "v_rkn2_86_854"
+  },
+  {
+    "kanji": "こっそり",
+    "hiragana": "こっそり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vụng trộm, lén lút",
+      "en": "Secretly / Stealthily"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "彼が寝る間にこっそりケータイを見た。",
+        "vi": "Tranh thủ lúc lão đang ngủ, t Lén lút/Vụng trộm kiểm tra điện thoại ổng.",
+        "en": "While he was sleeping, I secretly checked his mobile phone."
+      },
+      {
+        "jp": "今は言えないけど、あとでこっそり教えてあげるね。",
+        "vi": "Bây giờ thì k tiện nói đâu, cơ mà lát nữa t sẽ Lén nói thầm cho m nghe nha.",
+        "en": "I can't say it now, but I'll secretly tell you later."
+      }
+    ],
+    "id": "v_rkn2_86_855"
+  },
+  {
+    "kanji": "ところで",
+    "hiragana": "ところで",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thế còn, nhân tiện (Chuyển chủ đề)",
+      "en": "By the way / Incidentally"
+    },
+    "type": "conjunction",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "では来週の火曜日に打ち合わせしましょう。 あ、ところであの件はどうなりましたか？",
+        "vi": "Vâng vậy thì hãy cùng bàn giao vào Thứ 3 tuần tới nha. A Nhân Tiện thì, cái Vụ kia tính sao/Ra sao rồi?",
+        "en": "Then let's have a meeting next Tuesday. Ah, by the way, what happened to that matter?"
+      }
+    ],
+    "id": "v_rkn2_86_856"
+  },
+  {
+    "kanji": "フロント",
+    "hiragana": "フロント",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Phía trước / 2. Quầy tiếp tân, lễ tân",
+      "en": "1. Front 2. Front desk / Reception"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "フロントエアバッグ。",
+        "vi": "Túi khí phía trước.",
+        "en": "Front airbag."
+      },
+      {
+        "jp": "フロントスタッフ",
+        "vi": "Nhân viên Lễ tân (Front staff).",
+        "en": "Front desk staff."
+      }
+    ],
+    "id": "v_rkn2_86_857"
+  },
+  {
+    "kanji": "リハビリ",
+    "hiragana": "リハビリ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Phục hồi chức năng",
+      "en": "Rehabilitation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "骨折で入院し、退院後もしばらくリハビリのため病院に通った。",
+        "vi": "Vì gãy xương nên nằm viện, sau khi xuất viện rồi 1 khoảng thgian vẫn phải lên BV để Phục Hồi Chức Năng.",
+        "en": "I was hospitalized for a bone fracture, and even after discharge, I went to the hospital for a while for rehabilitation."
+      }
+    ],
+    "id": "v_rkn2_86_858"
+  },
+  {
+    "kanji": "オーバー",
+    "hiragana": "オーバー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Vượt quá dự tính / 2. Nói phét, nói phóng đại / 3. Áo khoác ngoài",
+      "en": "1. Over / Exceed 2. Exaggerated 3. Overcoat"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "予算オーバー",
+        "vi": "Vượt quá Dự toán (Budget Over).",
+        "en": "Over budget."
+      },
+      {
+        "jp": "プロジェクトの予算オーバー防止。",
+        "vi": "Phòng chống Việc Vượt quá Dự toán của Dự án.",
+        "en": "Prevention of project budget overruns."
+      },
+      {
+        "jp": "彼はいつもオーバーだ。",
+        "vi": "Anh ta lúc mẹ nào cũng Phóng Đại/Làm quá mọi chuyện.",
+        "en": "He is always exaggerating."
+      }
+    ],
+    "id": "v_rkn2_86_859"
+  },
+  {
+    "kanji": "サイレン",
+    "hiragana": "サイレン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Còi báo động",
+      "en": "Siren"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 86",
+    "examples": [
+      {
+        "jp": "警察はサイレンを鳴らす",
+        "vi": "Cảnh sát Bấm Còi Báo Động in ỏi.",
+        "en": "The police sound the siren."
+      }
+    ],
+    "id": "v_rkn2_86_860"
+  },
+  {
+    "kanji": "サイン",
+    "hiragana": "サイン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Chữ ký / 2. Dấu hiệu",
+      "en": "1. Signature / Autograph 2. Sign / Signal"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "「よろしかったらこちらにサインしていただけますか？ファンなんです。」",
+        "vi": "Nếu được thì nhờ ngài Ký Tên (Sign) vào đây được k ạ? E là Fan hâm mộ.",
+        "en": "'If you don't mind, could you please sign here? I am a fan.'"
+      },
+      {
+        "jp": "後ろの車にサインを送る （先に行ってください）",
+        "vi": "Gửi Tín hiệu/Dấu hiệu cho Xe đằng sau (Xin hãy lên trước đi ạ).",
+        "en": "Send a signal to the car behind (Please go ahead)."
+      }
+    ],
+    "id": "v_rkn2_87_861"
+  },
+  {
+    "kanji": "フレッシュ",
+    "hiragana": "フレッシュ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tươi mới, tươi ngon",
+      "en": "Fresh"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "フレッシュジュース",
+        "vi": "Nước ép Tươi ngon (Fresh juice).",
+        "en": "Fresh juice."
+      }
+    ],
+    "id": "v_rkn2_87_862"
+  },
+  {
+    "kanji": "マイペース",
+    "hiragana": "マイペース",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Theo ý riêng của mình (My pace)",
+      "en": "At one's own pace / Doing things one's own way"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "彼は周りを気にしないマイペースな性格だ。",
+        "vi": "A ta có cái tính là Đéo qtâm tới mọi người xung quanh, Toàn làm Việc theo Nhịp độ/Sở thích của Riêng mình.",
+        "en": "He has a personality of doing things at his own pace, not caring about his surroundings."
+      }
+    ],
+    "id": "v_rkn2_87_863"
+  },
+  {
+    "kanji": "シーズン",
+    "hiragana": "シーズン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mùa (bóng đá, du lịch)",
+      "en": "Season"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "「苦しい時の神頼み」受験シーズンにおすすめの神社 31 選",
+        "vi": "'Khi gặp khó khăn thì cầu cứu Thần Linh': Mùa Thi Cử, giới thiệu tuyển tập 31 Đền Thờ thần đạo nên tới thắp hương.",
+        "en": "'Praying to God in hard times': 31 recommended shrines for the exam season."
+      },
+      {
+        "jp": "今シーズンは○○選手に注目している。",
+        "vi": "Mùa (Season) giải này Đang tập trung chú ý vào Tuyển thủ XXX.",
+        "en": "This season, I'm paying attention to player XX."
+      }
+    ],
+    "id": "v_rkn2_87_864"
+  },
+  {
+    "kanji": "レンタル",
+    "hiragana": "レンタル",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự cho thuê",
+      "en": "Rental"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "カメラも家電も気軽にレンタル",
+        "vi": "Cả máy ảnh lẫn Điện Gia Dụng cũng Vô tư Cho Thuê/Thuê (Rental).",
+        "en": "Feel free to rent both cameras and home appliances."
+      }
+    ],
+    "id": "v_rkn2_87_865"
+  },
+  {
+    "kanji": "ブーム",
+    "hiragana": "ブーム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự bùng nổ, thịnh hành",
+      "en": "Boom / Fad / Craze"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "タピオカブームは去って、今はフルーツサンド(イッチ)ブームだ。",
+        "vi": "Trào lưu/Sự bùng nổ (Boom) Trà Sữa Trân châu nay đã đi xa, Hiện tại Đang là Thời kì Thịnh hành của Trào lưu Bánh Sandwich Kẹp Hoa Quả.",
+        "en": "The tapioca boom has passed, and now it's the fruit sandwich boom."
+      }
+    ],
+    "id": "v_rkn2_87_866"
+  },
+  {
+    "kanji": "スムーズ",
+    "hiragana": "スムーズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trôi chảy, trơn tru",
+      "en": "Smooth / Smoothly"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "会議や雑談をスムーズに行うポイント",
+        "vi": "Point (Mấu chốt) của việc Tiến hành Cuộc Họp hoặc Cuộc tán gẫu 1 cách Trơn tru / Mượt mà (Smooth).",
+        "en": "Points for conducting meetings and small talk smoothly."
+      },
+      {
+        "jp": "車線変更をスムーズに！4 つのポイント",
+        "vi": "Đổi làn xe 1 cách Thật mượt/trơn tru! 4 Point cần lưu ý.",
+        "en": "Change lanes smoothly! 4 points."
+      }
+    ],
+    "id": "v_rkn2_87_867"
+  },
+  {
+    "kanji": "プラン",
+    "hiragana": "プラン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kế hoạch",
+      "en": "Plan"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "人生プランを立てる",
+        "vi": "Lập ra Kế Hoạch (Plan) đời người.",
+        "en": "Make a life plan."
+      }
+    ],
+    "id": "v_rkn2_87_868"
+  },
+  {
+    "kanji": "パンク",
+    "hiragana": "パンク",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Xịt lốp xe (Puncture)",
+      "en": "Puncture / Flat tire / Burst"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "車のタイヤがパンクしてしまった。",
+        "vi": "Lốp Ô tô đã bị Thủng/Xịt cmnr (Puncture).",
+        "en": "The car tire got a puncture/flat."
+      },
+      {
+        "jp": "勉強のしすぎで頭がパンクしそうだ。",
+        "vi": "Vì học quá nhiều nên Đầu óc muốn Nổ Tung (Thủng Lốp) cmnl.",
+        "en": "I've studied so much that my head feels like it's going to burst."
+      }
+    ],
+    "id": "v_rkn2_87_869"
+  },
+  {
+    "kanji": "リラックス",
+    "hiragana": "リラックス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự nghỉ ngơi, thư giãn",
+      "en": "Relax / Relaxation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 87",
+    "examples": [
+      {
+        "jp": "大丈夫。緊張しないで、リラックスして。",
+        "vi": "Đéo sao đâu m. Đừng có căng thẳng quá, Hãy Relax (Thư giãn) đi m.",
+        "en": "It's okay. Don't be nervous, just relax."
+      }
+    ],
+    "id": "v_rkn2_87_870"
+  },
+  {
+    "kanji": "テンポ",
+    "hiragana": "テンポ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhịp độ",
+      "en": "Tempo / Pace"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "彼とは気が合うので会話のテンポが早い。",
+        "vi": "Vì hợp cạ với hắn ta, nên Nhịp độ (Tempo) câu chuyện được đẩy lên rất Nhanh.",
+        "en": "Because I get along with him, the tempo of our conversation is fast."
+      }
+    ],
+    "id": "v_rkn2_88_871"
+  },
+  {
+    "kanji": "アピール",
+    "hiragana": "アピール",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự thu hút (PR)",
+      "en": "Appeal / Attraction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "私たちはデサインで“強み”をアピールします！",
+        "vi": "Chúng tôi Thu hút (Appeal) 'Điểm mạnh' Thông qua Bản Thiết kế!",
+        "en": "We appeal our 'strengths' through design!"
+      },
+      {
+        "jp": "協調性をアピールするための方法",
+        "vi": "Phương pháp nhằm mục đích PR/Thu hút tính Hợp Tác của bản thân.",
+        "en": "Methods to appeal one's cooperativeness."
+      }
+    ],
+    "id": "v_rkn2_88_872"
+  },
+  {
+    "kanji": "アレンジ",
+    "hiragana": "アレンジ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự sắp xếp, điều chỉnh",
+      "en": "Arrange / Arrangement"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "巻かない＆ゴムだけでできる 簡単へアレンジ 12 選",
+        "vi": "K cần dùng Xương Cuốn, Chỉ với Dây Chun. 12 Lựa chọn Điều Chỉnh/Tạo Hình (Arrange) tóc Siêu đơn giản.",
+        "en": "No curling & only rubber bands. 12 simple hair arrangement choices."
+      }
+    ],
+    "id": "v_rkn2_88_873"
+  },
+  {
+    "kanji": "スペース",
+    "hiragana": "スペース",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Khoảng trống, không gian",
+      "en": "Space"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "このベッドには四人も寝るスペースはない。",
+        "vi": "Cái giường này thì k có nổi cái Không Gian / Chỗ trống (Space) dành cho 4 người lớn nằm đâu.",
+        "en": "There is no space for four people to sleep in this bed."
+      },
+      {
+        "jp": "スペースが多すぎ！もっと詰めよう！",
+        "vi": "Nhiều Chỗ trống (Space) quá chừng! Lèn thêm vào cho khít đê!",
+        "en": "Too much space! Let's pack more in!"
+      }
+    ],
+    "id": "v_rkn2_88_874"
+  },
+  {
+    "kanji": "テクニック",
+    "hiragana": "テクニック",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kỹ thuật, tiểu xảo",
+      "en": "Technique"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "彼の運転テクニックは友達のなかでも有名だ。",
+        "vi": "Kỹ thuật (Technique) lái xe của a ấy thì Nổi tiếng Vãi lều trong đám bạn bè.",
+        "en": "His driving technique is famous even among our friends."
+      },
+      {
+        "jp": "テクニックだけで生まれつき美人に見せる",
+        "vi": "Hiển hiện như 1 Tuyệt Sắc Giai Nhân bẩm sinh, Nhờ vào Kỹ năng/Kĩ xảo make up.",
+        "en": "Making oneself look like a natural beauty just with technique."
+      }
+    ],
+    "id": "v_rkn2_88_875"
+  },
+  {
+    "kanji": "プレッシャー",
+    "hiragana": "プレッシャー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Áp lực, sức ép tâm lý",
+      "en": "Pressure"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "ストレスに苦しむあなたへ仕事のプレッシャーを乗り越える 15 の方法。",
+        "vi": "Dành cho Bạn (1 kẻ đag trầm mình trong Stress) 15 phương pháp giúp vượt qua Áp Lực (Pressure) Công việc.",
+        "en": "15 ways to overcome work pressure for you who are suffering from stress."
+      },
+      {
+        "jp": "余計なプレッシャーかけるなよ。",
+        "vi": "Đừng có đè nén Thêm Áp Lực dư thừa cho bố nha m.",
+        "en": "Don't put unnecessary pressure on me."
+      }
+    ],
+    "id": "v_rkn2_88_876"
+  },
+  {
+    "kanji": "ハード",
+    "hiragana": "ハード",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Khó khăn, bận rộn (Hard)",
+      "en": "Hard / Difficult / Tough"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "今月は出張が多く、ハードスケジュールだ。",
+        "vi": "Tháng này đi Công tác quá nhiều, Đúng là một Lịch Trình Khó Nhằn / Vất vả / Bận rộn (Hard).",
+        "en": "This month there are many business trips, it's a hard schedule."
+      },
+      {
+        "jp": "なぜ、一流の人はハードワークでも心が疲れないのか？",
+        "vi": "Tại vì sao, những Người Khét Lẹt/Top 1, dù công việc có Căng Thẳng/Vất vả (Hard) đi chăng nữa tâm trí cũng k biết mệt mỏi?",
+        "en": "Why do top-class people not get mentally tired even with hard work?"
+      }
+    ],
+    "id": "v_rkn2_88_877"
+  },
+  {
+    "kanji": "ターゲット",
+    "hiragana": "ターゲット",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mục tiêu, mục đích",
+      "en": "Target"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "この商品は 20 代の女性をターゲットに作られました。",
+        "vi": "Sản phẩm này được tạo ra, với Đối tượng Mục Tiêu (Target) nhắm tới là những Phụ nữ lứa tuổi 20.",
+        "en": "This product was made targeting women in their 20s."
+      },
+      {
+        "jp": "ターゲット層にアプローチする方法",
+        "vi": "Phương pháp Tiếp cận tới Tầng lớp Đối Tượng Mục Tiêu (Target).",
+        "en": "How to approach the target audience."
+      }
+    ],
+    "id": "v_rkn2_88_878"
+  },
+  {
+    "kanji": "ガイド",
+    "hiragana": "ガイド",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hướng dẫn",
+      "en": "Guide"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "観光ガイドをしています。",
+        "vi": "Đang làm Công việc Hướng dẫn viên (Guide) Du lịch.",
+        "en": "I am working as a tour guide."
+      },
+      {
+        "jp": "ガイドブック",
+        "vi": "Sách Hướng Dẫn (Guide book).",
+        "en": "Guidebook."
+      }
+    ],
+    "id": "v_rkn2_88_879"
+  },
+  {
+    "kanji": "シリーズ",
+    "hiragana": "シリーズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Series, sê-ri",
+      "en": "Series"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 88",
+    "examples": [
+      {
+        "jp": "この映画のシリーズは迫力があっておもしろい。",
+        "vi": "Cái Series Phim ảnh này Có Sức lôi cuốn và Vô cùng Thú vị.",
+        "en": "This movie series is powerful and interesting."
+      },
+      {
+        "jp": "角川まんが学習シリーズ：日本の歴史",
+        "vi": "Học tập Thông qua Manga Series (Kadokawa Manga Learning Series): Lịch sử Nhật Bản.",
+        "en": "Kadokawa Manga Learning Series: Japanese History."
+      }
+    ],
+    "id": "v_rkn2_88_880"
+  },
+  {
+    "kanji": "クリア",
+    "hiragana": "クリア",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Rõ ràng / 2. Trong suốt / 3. Vượt qua level",
+      "en": "1. Clear 2. Transparent 3. Clear (a game)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "このイヤホンは音がクリアで聞きやすい。",
+        "vi": "Cái Tai nghe này thì Âm thanh rất Rõ Ràng (Clear) và Dễ nghe.",
+        "en": "This earphone has clear sound and is easy to hear."
+      },
+      {
+        "jp": "クリアファイル",
+        "vi": "Tệp đựng hồ sơ trong suốt (Clear file).",
+        "en": "Clear file folder."
+      },
+      {
+        "jp": "ゲームのレベル１をクリアする。",
+        "vi": "Phá đảo/Vượt Qua (Clear) cái Level 1 của Trò chơi.",
+        "en": "Clear level 1 of the game."
+      }
+    ],
+    "id": "v_rkn2_89_881"
+  },
+  {
+    "kanji": "ストライキ",
+    "hiragana": "ストライキ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đình công",
+      "en": "Strike"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "鉄道会社でストライキがおきた。",
+        "vi": "Một Cuộc Đình Công (Strike) đã nổ ra tại công ty Đường Sắt.",
+        "en": "A strike occurred at the railway company."
+      },
+      {
+        "jp": "大学生が学費値上げ反対のストライキをおこした。",
+        "vi": "Sinh viên Đại học đã dấy lên 1 Cuộc Đình Công phản đối việc Tăng Học phí.",
+        "en": "University students staged a strike protesting the tuition hike."
+      }
+    ],
+    "id": "v_rkn2_89_882"
+  },
+  {
+    "kanji": "ライバル",
+    "hiragana": "ライバル",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đối thủ",
+      "en": "Rival"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "彼とは入学した時からテニスのライバルだ。",
+        "vi": "Với hắn ta thì tính từ Hồi ms Nhập học đã coi nhau là Kỳ Phùng Địch Thủ / Đối thủ (Rival) trong môn Tennis rồi.",
+        "en": "He has been my tennis rival since we entered the school."
+      }
+    ],
+    "id": "v_rkn2_89_883"
+  },
+  {
+    "kanji": "ゲスト",
+    "hiragana": "ゲスト",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Khách mời, khách",
+      "en": "Guest"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "今日は特別なゲストをお呼びしています。",
+        "vi": "Hôm nay tôi xin phép được mời tới một Khách mời (Guest) vô cùng Đặc biệt.",
+        "en": "Today we have invited a special guest."
+      }
+    ],
+    "id": "v_rkn2_89_884"
+  },
+  {
+    "kanji": "エラー",
+    "hiragana": "エラー",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lỗi",
+      "en": "Error"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "今日の試合の敗因は彼のエラーだ。",
+        "vi": "Nguyên nhân thua cuộc trong Trận đấu hôm nay Lỗi (Error) nằm ở Anh ta.",
+        "en": "The cause of defeat in today's match is his error."
+      },
+      {
+        "jp": "プログラムにエラーが発生した。",
+        "vi": "Lỗi (Error) đã phát sinh trong Phần mềm hệ thống.",
+        "en": "An error occurred in the program."
+      }
+    ],
+    "id": "v_rkn2_89_885"
+  },
+  {
+    "kanji": "インストール",
+    "hiragana": "インストール",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lắp đặt, Cài đặt",
+      "en": "Install / Installation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "新しいアプリは容量が大きくインストールに時間がかる",
+        "vi": "Cái App mới này Dung lượng Khá lớn đâm ra Tốn thời gian Cài Đặt (Install).",
+        "en": "The new app is large in capacity and takes time to install."
+      }
+    ],
+    "id": "v_rkn2_89_886"
+  },
+  {
+    "kanji": "チャージ",
+    "hiragana": "チャージ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nạp (tiền), sạc (pin)",
+      "en": "Charge"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "プリペイドカードに残高をチャージする。",
+        "vi": "Nạp (Charge) số dư vào thẻ Trả trước (Prepaid card).",
+        "en": "Charge the balance to the prepaid card."
+      },
+      {
+        "jp": "電池をチャージする。",
+        "vi": "Sạc (Charge) pin.",
+        "en": "Charge the battery."
+      }
+    ],
+    "id": "v_rkn2_89_887"
+  },
+  {
+    "kanji": "ゴール",
+    "hiragana": "ゴール",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Sự vào lưới, tới đích / 2. Mục tiêu",
+      "en": "1. Goal / Finish line 2. Target"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "マラソン大会で１位でゴールした。",
+        "vi": "Tại Đại hội Marathon, tôi Đã Về Đích (Goal) Vị trí thứ 1.",
+        "en": "I finished (goal) first in the marathon."
+      },
+      {
+        "jp": "本田選手は試合終了５秒前にゴールを決めた。",
+        "vi": "Tuyển thủ Honda đã chốt hạ Ghi Bàn (Goal) chỉ 5s trước khi kết thúc Trận Đấu.",
+        "en": "Player Honda scored a goal 5 seconds before the end of the match."
+      },
+      {
+        "jp": "優勝というゴールを目指して頑張ろう！",
+        "vi": "Hãy Nhắm tới Mục Tiêu / Đích Đến (Goal) là giành chức Vô Địch và cùng Cố gắng nào!",
+        "en": "Let's do our best aiming for the goal of winning the championship!"
+      }
+    ],
+    "id": "v_rkn2_89_888"
+  },
+  {
+    "kanji": "インパクト",
+    "hiragana": "インパクト",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ấn tượng, tác động",
+      "en": "Impact"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "セクシーな彼女の初回の登場シーンはインパクトがあった。",
+        "vi": "Khung cảnh xuất hiện lần đầu của cô nàng Sexy kia Quả thực Tạo Sự Chấn Động/ Ấn tượng Sâu sắc (Impact).",
+        "en": "Her sexy first appearance scene had an impact."
+      }
+    ],
+    "id": "v_rkn2_89_889"
+  },
+  {
+    "kanji": "ペンキ",
+    "hiragana": "ペンキ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sơn, vôi màu",
+      "en": "Paint"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 89",
+    "examples": [
+      {
+        "jp": "ここはペンキが塗りたてだから気をつけて。",
+        "vi": "Chỗ kia Sơn (Paint) mới chỉ Vừa được bôi xong thôi, hãy cẩn thận kẻo quệt vào.",
+        "en": "The paint here is fresh, so be careful."
+      }
+    ],
+    "id": "v_rkn2_89_890"
+  },
+  {
+    "kanji": "ダム",
+    "hiragana": "ダム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Con đập",
+      "en": "Dam"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "日本の黒部ダムは日本一大きく、観光地になっている。",
+        "vi": "Con Đập (Dam) Kurobe của Nhật Bản thì to nhất NB, và hiện đag trở thành địa điểm du lịch.",
+        "en": "Japan's Kurobe Dam is the largest in Japan and has become a tourist destination."
+      }
+    ],
+    "id": "v_rkn2_90_891"
+  },
+  {
+    "kanji": "セロテープ",
+    "hiragana": "セロテープ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Băng dính",
+      "en": "Cellophane tape / Sellotape"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "セロテープでくっつけたからすぐ取れちゃう。",
+        "vi": "Vì dán vào bằng Băng dính (Sellotape), thế nên tháo cái vèo là ra ngay.",
+        "en": "Because I attached it with cellophane tape, it comes off immediately."
+      },
+      {
+        "jp": "封筒の封をする時にのりがなかったので、セロテープでとめた。",
+        "vi": "Hồi đi đóng nắp Phong bì, do chả có Hồ Dán, nên dán tạm bằng Băng Dính cho kín.",
+        "en": "When sealing the envelope, there was no glue, so I fastened it with sellotape."
+      }
+    ],
+    "id": "v_rkn2_90_892"
+  },
+  {
+    "kanji": "リポーター",
+    "hiragana": "リポーター",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Phóng viên",
+      "en": "Reporter"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "試合会場からリポーターがお伝えします。",
+        "vi": "Sau đây Phóng Viên (Reporter) xin phép Truyền đạt thông tin Từ Hội Trường Thi Đấu.",
+        "en": "A reporter will report from the match venue."
+      }
+    ],
+    "id": "v_rkn2_90_893"
+  },
+  {
+    "kanji": "ムード",
+    "hiragana": "ムード",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tâm trạng (Bầu không khí)",
+      "en": "Mood / Atmosphere"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "バーに来て彼女と良いムードになった。",
+        "vi": "Tới quán Bar và Đã có 1 Bầu Không Khí / Tâm Trạng (Mood) tuyệt vời vs Cô ấy.",
+        "en": "We came to a bar and got into a good mood with her."
+      }
+    ],
+    "id": "v_rkn2_90_894"
+  },
+  {
+    "kanji": "タイヤ",
+    "hiragana": "タイヤ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lốp xe",
+      "en": "Tire"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "バイクのタイヤがパンクしてしまった。",
+        "vi": "Cái Lốp (Tire) của xe máy Bị thủng/xịt cmnr.",
+        "en": "The motorcycle tire got a puncture."
+      }
+    ],
+    "id": "v_rkn2_90_895"
+  },
+  {
+    "kanji": "ダウン",
+    "hiragana": "ダウン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Đi xuống, giảm / 2. Mệt, kiệt sức",
+      "en": "1. Down / Decrease 2. Exhausted / Collapsed"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "スピードダウンする",
+        "vi": "Giảm tốc độ / Speed Down.",
+        "en": "Speed down."
+      },
+      {
+        "jp": "彼は熱中症でダウンした。",
+        "vi": "Thằng chả bị say nắng đổ gục/Sập nguồn (Down) mất rồi.",
+        "en": "He collapsed (went down) from heatstroke."
+      }
+    ],
+    "id": "v_rkn2_90_896"
+  },
+  {
+    "kanji": "インテリア",
+    "hiragana": "インテリア",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nội thất",
+      "en": "Interior"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "IKEA に売っているような、北欧インテリアに憧れる。",
+        "vi": "Tôi ngưỡng mộ/Khao khát Có 1 bộ Đồ Nội Thất (Interior) Bắc Âu hệt như Đồ đang bán tại IKEA.",
+        "en": "I admire Scandinavian interiors like those sold at IKEA."
+      }
+    ],
+    "id": "v_rkn2_90_897"
+  },
+  {
+    "kanji": "カルシウム",
+    "hiragana": "カルシウム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Can xi",
+      "en": "Calcium"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "牛乳にはカルシウムが豊富に含まれている。",
+        "vi": "Bên trong Sữa Bò được bao hàm 1 Lượng lớn Can-xi (Calcium) vô cùng phong phú.",
+        "en": "Milk contains a rich amount of calcium."
+      }
+    ],
+    "id": "v_rkn2_90_898"
+  },
+  {
+    "kanji": "スタッフ",
+    "hiragana": "スタッフ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhân viên",
+      "en": "Staff"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "スタッフを３名増やすことにした。",
+        "vi": "Đã đi tới quyết định là Gia tăng Số Nhân Viên (Staff) lên 3 người.",
+        "en": "Decided to increase the staff by 3 people."
+      }
+    ],
+    "id": "v_rkn2_90_899"
+  },
+  {
+    "kanji": "ダメージ",
+    "hiragana": "ダメージ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sự phá huỷ, phá hoại",
+      "en": "Damage"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 90",
+    "examples": [
+      {
+        "jp": "ダメージジーンズは一歩間違えるとダサい。",
+        "vi": "Dăm ba cái Quần Jeans Rách (Damage), sai 1 li thui là nhìn Quê mùa ngay.",
+        "en": "Damage jeans can look tacky if you make a wrong move."
+      },
+      {
+        "jp": "振られたダメージは大きい",
+        "vi": "Vết thương/Tổn thất (Damage) do bị (Ny) đá thì quả thực Rất Lớn.",
+        "en": "The damage of being dumped is great."
+      }
+    ],
+    "id": "v_rkn2_90_900"
+  },
+  {
+    "kanji": "コンプレックス",
+    "hiragana": "コンプレックス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mặc cảm, tự ti",
+      "en": "Complex / Inferiority complex"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "私は身長が低いことがコンプレックスだ。",
+        "vi": "Việc Chiều cao t thấp lùn chính là Nỗi Tự Ti / Mặc cảm (Complex) lớn nhất đời t.",
+        "en": "My short height is my complex."
+      }
+    ],
+    "id": "v_rkn2_91_901"
+  },
+  {
+    "kanji": "コスト",
+    "hiragana": "コスト",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Giá cả",
+      "en": "Cost"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "この商品はコストがかかりすぎて利益が全然ない。",
+        "vi": "Sản phẩm này Tiêu tốn quá nhiều Giá Thành / Chi Phí (Cost), đâm ra Lợi Nhuận là con số 0 (Hoàn toàn k có).",
+        "en": "This product costs too much and there is no profit at all."
+      }
+    ],
+    "id": "v_rkn2_91_902"
+  },
+  {
+    "kanji": "プラスチック",
+    "hiragana": "プラスチック",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhựa",
+      "en": "Plastic"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "燃えるゴミとプラスチックゴミは分けてください。",
+        "vi": "Hãy Phân loại Rác cháy được và Rác Nhựa (Plastic) ra.",
+        "en": "Please separate burnable garbage and plastic garbage."
+      },
+      {
+        "jp": "プラスチックは再利用可能だ。",
+        "vi": "Nhựa thì Hoàn Toàn Khả thi về mặt Tái Sử Dụng.",
+        "en": "Plastic is reusable."
+      }
+    ],
+    "id": "v_rkn2_91_903"
+  },
+  {
+    "kanji": "レンズ",
+    "hiragana": "レンズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mắt kính, thấu kính",
+      "en": "Lens"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "カメラのレンズは高価な品物だ。",
+        "vi": "Ống Kính (Lens) Máy ảnh quả thực là một món Vật Phẩm đắt tiền.",
+        "en": "A camera lens is an expensive item."
+      }
+    ],
+    "id": "v_rkn2_91_904"
+  },
+  {
+    "kanji": "ライトアップ",
+    "hiragana": "ライトアップ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chiếu sáng",
+      "en": "Light up / Illumination"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "夜になるとその建物は虹色にライトアップされる。",
+        "vi": "Cứ hễ Đêm xuống là tòa nhà đó Được Thắp sáng (Light up) Bằng Màu Cầu Vồng.",
+        "en": "At night, the building is illuminated in rainbow colors."
+      }
+    ],
+    "id": "v_rkn2_91_905"
+  },
+  {
+    "kanji": "マッチ",
+    "hiragana": "マッチ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Diêm / 2. Trận đấu / 3. Phù hợp",
+      "en": "1. Match (fire) 2. Match (game) 3. Match (suit)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "マッチで火をつける。",
+        "vi": "Châm lửa Bằng Que Diêm.",
+        "en": "Light a fire with a match."
+      },
+      {
+        "jp": "マッチプレー",
+        "vi": "Đấu Trận / Match Play.",
+        "en": "Match play."
+      },
+      {
+        "jp": "希望の条件にマッチする部屋を見つけた",
+        "vi": "T đã tìm ra 1 Căn phòng vô cùng Phù Hợp / Khớp (Match) với điều kiện nguyện vọng.",
+        "en": "I found a room that matches my desired conditions."
+      }
+    ],
+    "id": "v_rkn2_91_906"
+  },
+  {
+    "kanji": "ノーマル",
+    "hiragana": "ノーマル",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bình thường",
+      "en": "Normal"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "彼は良くも悪くもノーマルな考え方しかしない。",
+        "vi": "Dù là Tốt hay Xấu thì hắn ta chỉ có duy nhất Lối suy nghĩ Vô Cùng Bình thường (Normal).",
+        "en": "For better or worse, he only has a normal way of thinking."
+      }
+    ],
+    "id": "v_rkn2_91_907"
+  },
+  {
+    "kanji": "ルーズ",
+    "hiragana": "ルーズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lỏng lẻo, cẩu thả",
+      "en": "Loose / Careless / Sloppy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "彼は時間にルーズでよく人を待たせる。",
+        "vi": "A ta Rất Lỏng lẻo / Cẩu thả (Loose) trong vấn đề Thời gian, thế nên Rất Hay bắt mọi người phải chờ đợi.",
+        "en": "He is loose with time and often makes people wait."
+      }
+    ],
+    "id": "v_rkn2_91_908"
+  },
+  {
+    "kanji": "ストレス",
+    "hiragana": "ストレス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Căng thẳng, áp lực",
+      "en": "Stress"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "最近残業ばっかりでストレスが溜まる。",
+        "vi": "Dạo gần đây Toàn Làm thêm giờ đâm ra Áp lực (Stress) bị ứ đọng.",
+        "en": "Lately, I've been working overtime all the time, so stress is building up."
+      },
+      {
+        "jp": "私のストレス解消法は一人カラオケです。",
+        "vi": "Phương pháp Giải Tỏa Áp lực / Stress của tôi, chính là Đi Hát Karaoke 1 mình.",
+        "en": "My method of relieving stress is singing karaoke alone."
+      }
+    ],
+    "id": "v_rkn2_91_909"
+  },
+  {
+    "kanji": "カット",
+    "hiragana": "カット",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cắt",
+      "en": "Cut"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 91",
+    "examples": [
+      {
+        "jp": "このシーンはカットした方が良い。",
+        "vi": "Khung Cảnh này Nên Cắt/ Bỏ đi (Cut) thì Tốt Hơn.",
+        "en": "It would be better to cut this scene."
+      },
+      {
+        "jp": "髪が伸びてきたので美容院でカットした。",
+        "vi": "Bởi vì Tóc cũng dài ra rồi, Nên tôi đã đi Cắt (Cut) tại Thẩm mỹ viện.",
+        "en": "My hair got long, so I got it cut at the beauty salon."
+      }
+    ],
+    "id": "v_rkn2_91_910"
+  },
+  {
+    "kanji": "コントロール",
+    "hiragana": "コントロール",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Kiểm soát, quản lý",
+      "en": "Control"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "あのピッチャーはコントロールがいい。",
+        "vi": "Thằng chả Pitcher (Cầu thủ Ném bóng chày) đó Kiểm soát bóng (Control) rất tốt.",
+        "en": "That pitcher has good control."
+      }
+    ],
+    "id": "v_rkn2_92_911"
+  },
+  {
+    "kanji": "アイデア",
+    "hiragana": "アイデア",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ý tưởng",
+      "en": "Idea"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "天才はアイデアが無限に湧いていくる。",
+        "vi": "Các Bậc Thiên tài thì Ý Tưởng (Idea) Tuôn ra Một Cách Vô hạn.",
+        "en": "Geniuses have ideas welling up infinitely."
+      }
+    ],
+    "id": "v_rkn2_92_912"
+  },
+  {
+    "kanji": "チャンス",
+    "hiragana": "チャンス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cơ hội",
+      "en": "Chance / Opportunity"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "ピンチはチャンスだ。",
+        "vi": "Trong cái Khó, ló cái Cơ Hội (Chance).",
+        "en": "A crisis is an opportunity (chance)."
+      },
+      {
+        "jp": "もう一度だけチャンスを与える",
+        "vi": "Tao Ban Cho mày Cơ hội / Ân huệ (Chance) Một Lần Cuối Nữa Đấy Nhé.",
+        "en": "I will give you a chance just one more time."
+      }
+    ],
+    "id": "v_rkn2_92_913"
+  },
+  {
+    "kanji": "スケジュール",
+    "hiragana": "スケジュール",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thời khoá biểu, lịch trình",
+      "en": "Schedule"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "今週は朝から晩までスケジュールがパンパンだ。",
+        "vi": "Tuần này Lịch Trình (Schedule) Của tao từ Căng như dây đàn từ sáng chí tối (Kín Mít).",
+        "en": "This week my schedule is packed from morning to night."
+      },
+      {
+        "jp": "スケジュールを立てる",
+        "vi": "Lập Lịch Trình Công Việc (Schedule).",
+        "en": "Make a schedule."
+      },
+      {
+        "jp": "スケジュールを組む",
+        "vi": "Lên Kế hoạch / Sắp xếp Lịch Trình (Schedule).",
+        "en": "Put together a schedule."
+      }
+    ],
+    "id": "v_rkn2_92_914"
+  },
+  {
+    "kanji": "システム",
+    "hiragana": "システム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hệ thống",
+      "en": "System"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "会社のコンピュータシステムを新しくすることになった。",
+        "vi": "Đã có quyết định Sẽ Đổi mới Hệ thống Máy Tính của Công Ty (System).",
+        "en": "It has been decided to renew the company's computer system."
+      },
+      {
+        "jp": "顧客情報の管理システムに問題が発生し、情報が流出した。",
+        "vi": "Phát sinh Sự cố tại Hệ Thống (System) Quản lí Thông tin Khách hàng, khiến cho Thông tin Mật bị Rò rỉ ra ngoài.",
+        "en": "A problem occurred in the customer information management system, and the information leaked."
+      }
+    ],
+    "id": "v_rkn2_92_915"
+  },
+  {
+    "kanji": "モニター",
+    "hiragana": "モニター",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Màn hình / 2. Người dùng thử, đánh giá / 3. Giám sát",
+      "en": "1. Monitor (screen) 2. Product tester / Reviewer 3. Monitor (observe)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "仕事用に PC モニターを導入した。",
+        "vi": "Đã Setup / Ứng dụng Cái Màn Hình Máy tính (Monitor) phục vụ công việc.",
+        "en": "Introduced a PC monitor for work."
+      },
+      {
+        "jp": "新商品お試しモニター募集！",
+        "vi": "Chiêu Mộ / Tuyển Dụng Ng Dùng Thử Trải nghiệm SP Mới (Monitor)!",
+        "en": "Recruiting monitors to try new products!"
+      },
+      {
+        "jp": "ATM は監視カメラで常にモニターされている。",
+        "vi": "Cây ATM này Lúc nào cũng bị Giám sát (Monitor) Chặt chẽ bởi Camera Theo Dõi.",
+        "en": "ATMs are constantly monitored by surveillance cameras."
+      }
+    ],
+    "id": "v_rkn2_92_916"
+  },
+  {
+    "kanji": "ベテラン",
+    "hiragana": "ベテラン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Người kỳ cựu, lão làng",
+      "en": "Veteran / Expert"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "うちの父はこの道３０年のベテランだ。",
+        "vi": "Ông bô nhà Tớ là một Bậc Tiền Bối/Kỳ cựu (Veteran) Lão làng có 30 Năm Trong Nghề Này Rồi.",
+        "en": "My father is a 30-year veteran in this field."
+      }
+    ],
+    "id": "v_rkn2_92_917"
+  },
+  {
+    "kanji": "コメント",
+    "hiragana": "コメント",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bình luận",
+      "en": "Comment"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "この動画にはコメントが３００件もついた。",
+        "vi": "Video này đính kèm/Thu hút những 300 Cmt Bình Luận.",
+        "en": "This video got as many as 300 comments."
+      }
+    ],
+    "id": "v_rkn2_92_918"
+  },
+  {
+    "kanji": "パターン",
+    "hiragana": "パターン",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hoa văn, hình mẫu (Kiểu mẫu)",
+      "en": "Pattern"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "このパターンはもうあきた。",
+        "vi": "Cái Khuôn Mẫu (Pattern) Này Tao Đã Chán Ngấy Đến Tận Cổ Rồi.",
+        "en": "I'm already tired of this pattern."
+      }
+    ],
+    "id": "v_rkn2_92_919"
+  },
+  {
+    "kanji": "キャンパス",
+    "hiragana": "キャンパス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Khuôn viên (Đại học)",
+      "en": "Campus"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 92",
+    "examples": [
+      {
+        "jp": "4 月からのキャンパスライフが楽しみだ。",
+        "vi": "Rất Trông Đợi / Háo Hức Vào Cuộc Sống Trong Khuôn Viên (Campus) Trường ĐH Kể từ tháng 4 tới đây.",
+        "en": "I'm looking forward to campus life starting in April."
+      }
+    ],
+    "id": "v_rkn2_92_920"
+  },
+  {
+    "kanji": "フォント",
+    "hiragana": "フォント",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Phông chữ",
+      "en": "Font"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "英語のフォントに比べて日本語のフォントはかなり少ない。",
+        "vi": "So với Tiếng Anh, Thì Phông Chữ (Font) Tiếng Nhật ít hơn Đáng kể.",
+        "en": "Compared to English fonts, there are quite few Japanese fonts."
+      },
+      {
+        "jp": "どんなフォントを使うかで印象が大きく変わる。",
+        "vi": "Dựa vào việc Chọn Dùng Phông Chữ (Font) Nào, mà Ấn tượng Nhìn Vào Sẽ Thay đổi To lớn.",
+        "en": "The impression changes greatly depending on what font you use."
+      }
+    ],
+    "id": "v_rkn2_93_921"
+  },
+  {
+    "kanji": "デモ",
+    "hiragana": "デモ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "1. Biểu tình / 2. Thử nghiệm",
+      "en": "1. Demonstration (protest) 2. Demonstration (trial/display)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "デモのせいで道が封鎖されている。",
+        "vi": "Tại 1 Cuộc Biểu Tình (Demonstration) mà Con đường bị Phong tỏa / Cấm cửa hoàn toàn.",
+        "en": "The road is blockaded because of a demonstration."
+      },
+      {
+        "jp": "スーパーでデモしてから、商品を買った。",
+        "vi": "Đã Dùng Thử / Trải Nghiệm (Demo) Tại Siêu Thị, rùi mới Rút Ví Mua Món Hàng Đó.",
+        "en": "I bought the product after a demonstration at the supermarket."
+      }
+    ],
+    "id": "v_rkn2_93_922"
+  },
+  {
+    "kanji": "テロ",
+    "hiragana": "テロ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Khủng bố, kẻ khủng bố",
+      "en": "Terrorism / Terrorist"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "同時多発テロは残酷な事件だった。",
+        "vi": "Cuộc Khủng Bố Đa Phát Đồng Thời quả thực là 1 Vụ Án vô cùng Tàn khốc / Dã man.",
+        "en": "The simultaneous multiple terrorist attacks were a cruel incident."
+      }
+    ],
+    "id": "v_rkn2_93_923"
+  },
+  {
+    "kanji": "エコ",
+    "hiragana": "エコ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sinh thái (Thân thiện môi trường)",
+      "en": "Eco / Ecological"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "レジ袋が有料になったことでエコバックを持ち歩く人が増えた。",
+        "vi": "Kể từ khi Túi Bóng/Túi nilon Chuyển Sang Hình thức Trả tiền, thì lượng Người Đem Theo Túi Thân Thiện Môi trường (Eco bag) cũng gia tăng.",
+        "en": "Since plastic bags became charged, the number of people carrying eco bags has increased."
+      },
+      {
+        "jp": "エコバッグを持ち歩くことは環境にによい",
+        "vi": "Sử dụng Mang đi bằng Túi Bảo Vệ Môi Trường (Eco bag) Rất Tốt Cho Môi Trường Tự Nhiên.",
+        "en": "Carrying an eco bag is good for the environment."
+      }
+    ],
+    "id": "v_rkn2_93_924"
+  },
+  {
+    "kanji": "センス",
+    "hiragana": "センス",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Có khiếu thẩm mỹ, gu",
+      "en": "Sense / Taste (e.g. in fashion)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "彼の部屋はセンスが良い",
+        "vi": "Căn phòng của anh ta có 1 Cảm Quan Thiết Kế Thẩm Mỹ (Sense) rất Đỉnh / Tốt.",
+        "en": "His room has good sense/taste."
+      },
+      {
+        "jp": "雑誌を読んで、センスを磨く",
+        "vi": "Đọc Tạp chí để Mài giũa / Trau chuốt Khả Năng Thẩm Mỹ (Sense).",
+        "en": "Read magazines to polish one's sense."
+      }
+    ],
+    "id": "v_rkn2_93_925"
+  },
+  {
+    "kanji": "フリーサイズ",
+    "hiragana": "フリーサイズ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Free size (Freesize)",
+      "en": "One-size-fits-all"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [],
+    "id": "v_rkn2_93_926"
+  },
+  {
+    "kanji": "リズム",
+    "hiragana": "リズム",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhịp điệu, tiết tấu",
+      "en": "Rhythm"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "土日で生活リズムが狂う。",
+        "vi": "Tới T7, CN thì Nhịp điệu (Rhythm) Cuộc sống lại Hóa Điên / Điên Cuồng hơn hẳn.",
+        "en": "On weekends, the rhythm of life goes crazy."
+      },
+      {
+        "jp": "リズムに乗って踊る。",
+        "vi": "Hòa Lên Những Nhịp Điệu (Rhythm) và Nhảy Múa Nào.",
+        "en": "Dance to the rhythm."
+      }
+    ],
+    "id": "v_rkn2_93_927"
+  },
+  {
+    "kanji": "ユニーク",
+    "hiragana": "ユニーク",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Duy nhất, độc đáo",
+      "en": "Unique"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "この建物はユニークな形をしている。",
+        "vi": "Tòa Nhà Này Có Hình dáng Độc nhất / Chẳng Đụng Hàng (Unique).",
+        "en": "This building has a unique shape."
+      }
+    ],
+    "id": "v_rkn2_93_928"
+  },
+  {
+    "kanji": "ダウンロード",
+    "hiragana": "ダウンロード",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tải xuống",
+      "en": "Download"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "データをダウンロードする",
+        "vi": "Tải Data / Dữ liệu xuống (Download).",
+        "en": "Download the data."
+      }
+    ],
+    "id": "v_rkn2_93_929"
+  },
+  {
+    "kanji": "イラスト",
+    "hiragana": "イラスト",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hình minh họa",
+      "en": "Illustration"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 93",
+    "examples": [
+      {
+        "jp": "子供にはイラストを使って説明したほうがわかりやすい。",
+        "vi": "Đối với Bọn Trẻ con, Thì Việc Sử dụng Ảnh Minh Họa (Illustration) Để Giải Thích Sẽ Trực Quan/Dễ Hiểu Hơn.",
+        "en": "For children, it is easier to understand if you explain using illustrations."
+      }
+    ],
+    "id": "v_rkn2_93_930"
+  }
+]

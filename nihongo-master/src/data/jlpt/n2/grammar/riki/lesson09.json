@@ -1,0 +1,304 @@
+[
+  {
+    "id": "g_rkn2_09_01",
+    "level": "N2",
+    "structure": "〜とはいえ",
+    "structureKana": "〜とはいえ",
+    "meaning": {
+      "vi": "Mặc dù nói là... / Dẫu biết là vậy nhưng...",
+      "en": "Although it is said that... / Be that as it may..."
+    },
+    "formation": [
+      "Thể thông thường + とはいえ",
+      "N / Aな (bỏ だ) + とはいえ"
+    ],
+    "lesson": "Bài 9",
+    "group": "Contrast",
+    "confusedWith": [
+      "〜といっても"
+    ],
+    "caution": {
+      "vi": "Công nhận sự việc A là đúng, nhưng sự việc B theo sau lại phản bác, hoặc đưa ra kết quả không hoàn toàn theo lẽ thường. Đây là cách nói cứng hơn so với 'といっても'.",
+      "en": "Acknowledges that fact A is true, but clause B contradicts it or presents a result contrary to common expectation. It is a more formal expression than 'といっても'."
+    },
+    "examples": [
+      {
+        "jp": "いくら友達[とはいえ]、最低限の礼儀は守らないといけない。",
+        "kana": "いくらともだち[とはいえ]、さいていげんのれいぎはまもらないといけない。",
+        "vi": "[Dẫu biết là] bạn bè, [nhưng] vẫn phải giữ mức phép tắc tối thiểu.",
+        "en": "[Even if] you are friends, you still have to maintain basic manners."
+      },
+      {
+        "jp": "今日から3月だ。[とはいえ]、まだまだ寒い日が続きそうだ。",
+        "kana": "きょうからさんがつだ。[とはいえ]、まだまださむいひがつづきそうだ。",
+        "vi": "Từ hôm nay đã là tháng 3 rồi. [Mặc dù vậy nhưng] có vẻ những ngày lạnh giá vẫn sẽ tiếp diễn.",
+        "en": "Today marks the start of March. [Be that as it may], it seems the cold days will continue."
+      },
+      {
+        "jp": "これからは、人はみな自分の健康は自分で管理しなければならない。子供[とはいえ]例外ではない。",
+        "kana": "これからは、ひとはみなじぶんのけんこうはじぶんでかんりしなければならない。こども[とはいえ]れいがいではない。",
+        "vi": "Từ nay trở đi mọi người phải tự quản lý sức khỏe của mình. [Mặc dù là] trẻ em [nhưng cũng] không phải ngoại lệ.",
+        "en": "From now on, everyone must manage their own health. [Even though] they are children, they are no exception."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_09_02",
+    "level": "N2",
+    "structure": "〜ないことには",
+    "structureKana": "〜ないことには",
+    "meaning": {
+      "vi": "Nếu không... thì không thể...",
+      "en": "Unless... / If... not..."
+    },
+    "formation": [
+      "Vない + ことには",
+      "Aい (bỏ い) -> くない + ことには",
+      "N / Aな -> でない + ことには"
+    ],
+    "lesson": "Bài 9",
+    "group": "Condition_NegativeResult",
+    "confusedWith": [
+      "〜てからでないと"
+    ],
+    "caution": {
+      "vi": "Nếu không đạt được điều kiện A, thì không thể thực hiện được điều B. Vế sau luôn luôn đi với thể phủ định hoặc mang ý nghĩa tiêu cực. Dịch thoát nghĩa là 'Chừng nào chưa... thì chưa...'.",
+      "en": "If condition A is not met, action B cannot be realized. The following clause always takes a negative form or carries a negative meaning."
+    },
+    "examples": [
+      {
+        "jp": "社長が来[ないことには]、はじめられないかと。",
+        "kana": "しゃちょうがき[ないことには]、はじめられないかと。",
+        "vi": "[Nếu] giám đốc [không] đến [thì không thể] bắt đầu được đâu ạ.",
+        "en": "[Unless] the president comes, I don't think we can start."
+      },
+      {
+        "jp": "詳しい調査をし[ないことには]、対策を立てられない。",
+        "kana": "くわしいちょうさをし[ないことには]、たいさくをたてられない。",
+        "vi": "[Nếu không] điều tra chi tiết [thì không thể] lập kế hoạch đối phó được.",
+        "en": "[Unless] we conduct a detailed investigation, we cannot formulate countermeasures."
+      },
+      {
+        "jp": "どんな人か、実際会ってみ[ないことには]よくわからない。",
+        "kana": "どんなひとか、じっさいあってみ[ないことには]よくわからない。",
+        "vi": "[Nếu chưa] thực tế gặp mặt [thì sẽ không] hiểu rõ đó là người như thế nào đâu.",
+        "en": "[Unless] you actually meet them in person, you won't really know what kind of person they are."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_09_03",
+    "level": "N2",
+    "structure": "〜ないで済む / 〜ずに済む",
+    "structureKana": "〜ないですむ / 〜ずにすむ",
+    "meaning": {
+      "vi": "Khỏi phải (làm) / Không cần (làm) mà cũng xong",
+      "en": "Get by without doing... / Don't have to..."
+    },
+    "formation": [
+      "Vない + で済む",
+      "Vない (bỏ ない) + ずに済む",
+      "する -> せずに済む"
+    ],
+    "lesson": "Bài 9",
+    "group": "Avoidance",
+    "confusedWith": [
+      "〜なくて済む"
+    ],
+    "caution": {
+      "vi": "Chỉ việc không cần phải thực hiện hành động đó mà vấn đề vẫn được giải quyết xong xuôi, qua đó thể hiện sự nhẹ nhõm, an tâm của người nói (may quá không phải làm).",
+      "en": "Indicates that a problem was solved without having to perform a certain action, expressing the speaker's relief or peace of mind (glad I didn't have to do it)."
+    },
+    "examples": [
+      {
+        "jp": "遅刻してしまったが、きちんと理由を説明したら怒られ[ずに済んだ]。",
+        "kana": "ちこくしてしまったが、きちんとりゆうをせつめいしたらおこられ[ずにすんだ]。",
+        "vi": "Dù đi muộn nhưng vì giải thích lý do cẩn thận nên tôi đã [khỏi bị] mắng.",
+        "en": "Even though I was late, because I explained the reason properly, I [got by without being] scolded."
+      },
+      {
+        "jp": "今年の夏は涼しかったので、エアコンをあまり使わ[ずに済んだ]。",
+        "kana": "ことしのなつはすずしかったので、エアコンをあまりつかわ[ずにすんだ]。",
+        "vi": "Mùa hè năm nay mát mẻ nên [không cần] dùng nhiều điều hòa [mà cũng ổn].",
+        "en": "Because this summer was cool, we [managed without] using the air conditioner much."
+      },
+      {
+        "jp": "人身事故で電車が遅れたが、あまり待た[ないで済んだ]。",
+        "kana": "じんしんじこででんしゃがおくれたが、あまりまた[ないですんだ]。",
+        "vi": "Vì tai nạn nên tàu đến muộn, nhưng may mà tôi [không phải] đợi quá lâu.",
+        "en": "The train was delayed due to an accident, but I [didn't have to] wait too long."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_09_04",
+    "level": "N2",
+    "structure": "〜ないでもない / 〜なくもない",
+    "structureKana": "〜ないでもない / 〜なくもない",
+    "meaning": {
+      "vi": "Không phải là không... / Đôi khi cũng có...",
+      "en": "It's not that (I) won't... / It's not impossible to..."
+    },
+    "formation": [
+      "Vない + でもない / くもない",
+      "Aい (bỏ い) -> くない + でもない / くもない"
+    ],
+    "lesson": "Bài 9",
+    "group": "Partial_Affirmation",
+    "confusedWith": [
+      "〜わけではない"
+    ],
+    "caution": {
+      "vi": "Phủ định của phủ định tức là khẳng định nhẹ. Thể hiện ý: Không hẳn là không làm được, nếu cố/nếu có điều kiện thì cũng làm được. Dùng để đưa ra nhận xét cá nhân có phần rụt rè, không muốn nói thẳng tuột ra.",
+      "en": "Double negation meaning a soft affirmation. It means: 'It's not completely impossible, if I try/under certain conditions, it can be done.' Used to express a somewhat hesitant personal opinion without being too direct."
+    },
+    "examples": [
+      {
+        "jp": "一人で海外旅行に行け[なくもない]ですが、やっぱり一人だと不安ですね。",
+        "kana": "ひとりでかいがいりょこうにいけ[なくもない]ですが、やっぱりひとりだとふあんですね。",
+        "vi": "[Không phải là không] thể đi du lịch nước ngoài một mình, nhưng quả thực đi một mình thì vẫn có chút bất an.",
+        "en": "[It's not impossible] to travel abroad alone, but as expected, it's a bit anxiety-inducing to be by oneself."
+      },
+      {
+        "jp": "お酒は飲ま[ないでもない]が、特別な時だけ飲むことにしている。",
+        "kana": "おさけはのま[ないでもない]が、とくべつなときだけのむことにしている。",
+        "vi": "[Không phải là tôi không] uống rượu, nhưng tôi quyết định chỉ uống vào những dịp đặc biệt thôi.",
+        "en": "[It's not that I never] drink alcohol, but I've decided to only drink on special occasions."
+      },
+      {
+        "jp": "父の気持ちは分から[ないでもない]けど、すぐに怒鳴るのはやめて欲しい。",
+        "kana": "ちちのきもちはわから[ないでもない]けど、すぐけどなるのはやめてほしい。",
+        "vi": "[Không hẳn là không] hiểu được cảm xúc của bố, nhưng tôi mong bố đừng có động tí là quát tháo như thế.",
+        "en": "[It's not that I completely don't] understand my father's feelings, but I wish he'd stop yelling at the drop of a hat."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_09_05",
+    "level": "N2",
+    "structure": "〜ながら / 〜ながらも",
+    "structureKana": "〜ながら / 〜ながらも",
+    "meaning": {
+      "vi": "Mặc dù... nhưng...",
+      "en": "Even though... / Despite..."
+    },
+    "formation": [
+      "Vます (bỏ ます) + ながら / ながらも",
+      "Aい / Aな / N + ながら / ながらも"
+    ],
+    "lesson": "Bài 9",
+    "group": "Contrast",
+    "confusedWith": [
+      "〜つつ（も）"
+    ],
+    "caution": {
+      "vi": "Diễn tả hai trạng thái trái ngược nhau (giống のに / けれども) nhưng thường dùng cho những tình huống thực tế khác với suy nghĩ thông thường. Các cụm từ thường đi kèm: 残念ながら (Rất tiếc nhưng), 知りながら (Biết vậy mà), 思いながら (Nghĩ vậy mà).",
+      "en": "Expresses two contrasting states (similar to のに / けれども) but often used for real situations that differ from common expectations. Common phrases: 残念ながら (unfortunately), 知りながら (knowing full well), 思いながら (thinking that)."
+    },
+    "examples": [
+      {
+        "jp": "彼は貧しい[ながらも]暖かい家庭で育った。",
+        "kana": "かれはまずしい[ながらも]あたたかいかていでそだった。",
+        "vi": "Anh ấy [mặc dù] nghèo [nhưng] đã lớn lên trong một gia đình ấm áp.",
+        "en": "He grew up in a warm family [even though] they were poor."
+      },
+      {
+        "jp": "タバコは体に悪いと分かってい[ながら]、つい吸ってしまう。",
+        "kana": "タバコはからだにわるいとわかってい[ながら]、ついすってしまう。",
+        "vi": "[Mặc dù] biết thuốc lá có hại cho cơ thể [vậy mà] tôi lại lỡ hút mất rồi.",
+        "en": "[Even though] I know cigarettes are bad for my health, I end up smoking anyway."
+      },
+      {
+        "jp": "全力を出しましたが、残念[ながら]、優勝できませんでした。",
+        "kana": "ぜんりょくをだしましたが、ざんねん[ながら]、ゆうしょうできませんでした。",
+        "vi": "Đã cố gắng hết sức nhưng [rất tiếc là] chúng tôi đã không thể giành giải nhất.",
+        "en": "We gave it our all, but [unfortunately], we couldn't win the championship."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_09_06",
+    "level": "N2",
+    "structure": "〜に際して / 〜にあたって",
+    "structureKana": "〜にさいして / 〜にあたって",
+    "meaning": {
+      "vi": "Khi / Nhân dịp / Trước khi / Vào lúc...",
+      "en": "On the occasion of... / Prior to..."
+    },
+    "formation": [
+      "Vる + に際して / にあたって",
+      "N + に際して / にあたって"
+    ],
+    "lesson": "Bài 9",
+    "group": "Occasion",
+    "confusedWith": [
+      "〜のとき"
+    ],
+    "caution": {
+      "vi": "Dùng để chỉ thời điểm khi chuẩn bị bắt đầu một sự kiện lớn, quan trọng (ví dụ: mở công ty, xuất phát, kết hôn, thi cử). Là cách nói trang trọng, thường thấy trong các bài phát biểu, thông báo, thư từ. Khác với 'とき' dùng cho các sự việc thường ngày.",
+      "en": "Used to indicate the time just before starting a major, important event (e.g., starting a business, departing, getting married). It is a formal expression, often seen in speeches, notices, and letters. Differs from 'とき' which is for everyday events."
+    },
+    "examples": [
+      {
+        "jp": "受験[に際して]、本人確認があると思いますので、必ず自分証明書は携帯してください。",
+        "kana": "じゅけん[にさいして]、ほんにんかくにんがあるとおもいますので、かならずじぶんしょうめいしょはけいたいしてください。",
+        "vi": "[Khi] dự thi sẽ có bước xác nhận danh tính, nên mọi người hãy nhớ mang theo giấy tờ tùy thân nhé.",
+        "en": "[On the occasion of] taking the exam, there will be identity verification, so please be sure to carry your ID."
+      },
+      {
+        "jp": "出発[に際して]、いくつか連絡事項があるのでよく聞いてください。",
+        "kana": "しゅっぱつ[にさいして]、いくつかれんらくじこうがあるのでよくきいてください。",
+        "vi": "[Trước khi] xuất phát có một vài vấn đề cần thông báo nên mọi người hãy chú ý lắng nghe nhé.",
+        "en": "[Prior to] departure, there are a few announcements, so please listen carefully."
+      },
+      {
+        "jp": "事業を始める[にあたって]、何日も前から資料を準備した。",
+        "kana": "じぎょうをはじめる[にあたって]、なんにちもまえからしりょうをじゅんびした。",
+        "vi": "[Vào lúc] chuẩn bị bắt đầu dự án kinh doanh, tôi đã chuẩn bị tài liệu từ nhiều ngày trước đó.",
+        "en": "[When] starting the business, I prepared the documents many days in advance."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_09_07",
+    "level": "N2",
+    "structure": "〜に応じて",
+    "structureKana": "〜におうじて",
+    "meaning": {
+      "vi": "Ứng với / Phù hợp với / Tùy theo...",
+      "en": "Depending on / In accordance with..."
+    },
+    "formation": [
+      "N + に応じて / に応じた + N"
+    ],
+    "lesson": "Bài 9",
+    "group": "Corresponding",
+    "confusedWith": [
+      "〜によって"
+    ],
+    "caution": {
+      "vi": "Thay đổi (vế sau) sao cho phù hợp, tương ứng với sự thay đổi của điều kiện đa dạng (vế trước). Thường đi với các từ chỉ sự đa dạng, không cố định như: thể lực, tuổi tác, yêu cầu, ngân sách, số lượng...",
+      "en": "Changing the latter part to match or correspond with the varying conditions of the former part. Often used with words indicating variety or fluctuation, such as physical strength, age, requests, budget, quantity..."
+    },
+    "examples": [
+      {
+        "jp": "豚は重さ[に応じて]値段がつけられます。",
+        "kana": "ぶたはおもさ[におうじて]ねだんがつけられます。",
+        "vi": "Thịt lợn sẽ được định giá [tùy theo] trọng lượng.",
+        "en": "Pork is priced [depending on] its weight."
+      },
+      {
+        "jp": "来場いただいたお客様の数[に応じて]、質問の時間を調整する。",
+        "kana": "らいじょういただいたおきゃくさまのかず[におうじて]、しつもんのじかんをちょうせいする。",
+        "vi": "Chúng tôi sẽ điều chỉnh thời gian đặt câu hỏi [sao cho phù hợp với] số lượng khách tới tham dự.",
+        "en": "We will adjust the question time [in accordance with] the number of guests attending."
+      },
+      {
+        "jp": "旅行のプランは、お客様の希望[に応じて]変更できます。",
+        "kana": "りょこうのプランは、おきゃくさまのきぼう[におうじて]へんこうできます。",
+        "vi": "Kế hoạch du lịch có thể được thay đổi [tùy theo] nguyện vọng của quý khách.",
+        "en": "The travel plan can be changed [depending on] the customer's wishes."
+      }
+    ]
+  }
+]

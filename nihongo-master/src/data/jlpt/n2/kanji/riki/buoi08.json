@@ -1,0 +1,845 @@
+[
+  {
+    "id": "k_rkn2_08_103",
+    "character": "催",
+    "hanViet": "THÔI",
+    "onyomi": "サイ",
+    "mnemonic": "Chim trĩ (雉) THÔI thúc (催) người (人) leo núi (山)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_103_1",
+        "word": "開催",
+        "hiragana": "かいさい",
+        "hanVietWord": "KHAI THÔI",
+        "meaning": {
+          "vi": "Tổ chức (sự kiện)",
+          "en": "Holding, hosting (an event)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "オリンピックを開催する",
+            "vi": "Tổ chức thế vận hội Olympic",
+            "en": "Hold the Olympics"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_103_2",
+        "word": "催促",
+        "hiragana": "さいそく",
+        "hanVietWord": "THÔI XÚC",
+        "meaning": {
+          "vi": "Sự thúc giục, giục giã",
+          "en": "Urging, pressing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "支払いを催促する",
+            "vi": "Thúc giục thanh toán",
+            "en": "Urge payment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_104",
+    "character": "渇",
+    "hanViet": "KHÁT",
+    "kunyomi": "かわ-く",
+    "onyomi": "カツ",
+    "mnemonic": "Đi dưới mặt trời (日) khiến KHÁT (渇) nước(氵), phải uống liền 7 (七) cốc",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_104_1",
+        "word": "渇く",
+        "hiragana": "かわく",
+        "hanVietWord": "KHÁT",
+        "meaning": {
+          "vi": "Khát nước",
+          "en": "To be thirsty"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "のどが渇いた",
+            "vi": "Khát nước",
+            "en": "I'm thirsty"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_104_2",
+        "word": "枯渇",
+        "hiragana": "こかつ",
+        "hanVietWord": "KHÔ KHÁT",
+        "meaning": {
+          "vi": "Cạn kiệt",
+          "en": "Depletion, exhaustion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "資源が枯渇する",
+            "vi": "Tài nguyên cạn kiệt",
+            "en": "Resources are depleted"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_105",
+    "character": "騒",
+    "hanViet": "TAO",
+    "kunyomi": "さわ-ぐ",
+    "onyomi": "ソウ",
+    "mnemonic": "Lũ côn trùng (虫) lại đốt ngựa (馬) của TAO (騒)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_105_1",
+        "word": "騒ぐ",
+        "hiragana": "さわぐ",
+        "hanVietWord": "TAO",
+        "meaning": {
+          "vi": "Làm ồn, làm loạn",
+          "en": "To make noise, to make a fuss"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "電車内で騒ぐ子供たち",
+            "vi": "Bọn trẻ làm ồn trên tàu điện",
+            "en": "Children making noise on the train"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_105_2",
+        "word": "騒々しい",
+        "hiragana": "そうぞうしい",
+        "hanVietWord": "TAO",
+        "meaning": {
+          "vi": "Ồn ào, huyên náo",
+          "en": "Noisy, boisterous"
+        },
+        "type": "adj-i",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "騒々しい街",
+            "vi": "Con phố ồn ào",
+            "en": "A noisy street"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_105_3",
+        "word": "騒動",
+        "hiragana": "そうどう",
+        "hanVietWord": "TAO ĐỘNG",
+        "meaning": {
+          "vi": "Sự náo loạn, hỗn loạn",
+          "en": "Disturbance, riot, turmoil"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "パーティーの途中で騒動が起こる",
+            "vi": "Sự hỗn loạn xảy ra giữa bữa tiệc",
+            "en": "A disturbance occurs in the middle of the party"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_105_4",
+        "word": "騒音",
+        "hiragana": "そうおん",
+        "hanVietWord": "TAO ÂM",
+        "meaning": {
+          "vi": "Tiếng ồn",
+          "en": "Noise"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "騒音トラブル",
+            "vi": "Rắc rối do tiếng ồn",
+            "en": "Noise trouble"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_106",
+    "character": "延",
+    "hanViet": "DUYÊN",
+    "kunyomi": "の-びる, の-ばす",
+    "onyomi": "エン",
+    "mnemonic": "DUYÊN (延) dẫn (廴) Chính (正) đi chơi",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_106_1",
+        "word": "延びる",
+        "hiragana": "のびる",
+        "hanVietWord": "DUYÊN",
+        "meaning": {
+          "vi": "Kéo dài, dãn ra",
+          "en": "To be prolonged, to extend"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "これを飲むと寿命が延びるらしい",
+            "vi": "Nghe nói uống cái này tuổi thọ sẽ được kéo dài",
+            "en": "They say drinking this prolongs lifespan"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_106_2",
+        "word": "先延ばし",
+        "hiragana": "さきのばし",
+        "hanVietWord": "TIÊN DUYÊN",
+        "meaning": {
+          "vi": "Trì hoãn, lùi lịch",
+          "en": "Procrastination, postponement"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "試合開催をこれ以上、先延ばしはできない",
+            "vi": "Không thể hoãn lại việc tổ chức trận đấu thêm nữa",
+            "en": "The holding of the match cannot be postponed any longer"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_106_3",
+        "word": "遅延",
+        "hiragana": "ちえん",
+        "hanVietWord": "TRÌ DUYÊN",
+        "meaning": {
+          "vi": "Sự chậm trễ, trì hoãn",
+          "en": "Delay"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "電車が遅延する",
+            "vi": "Tàu điện bị chậm trễ",
+            "en": "The train is delayed"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_106_4",
+        "word": "延長",
+        "hiragana": "えんちょう",
+        "hanVietWord": "DUYÊN TRƯỜNG",
+        "meaning": {
+          "vi": "Sự kéo dài (thời gian, hạn)",
+          "en": "Extension, prolongation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "カラオケの時間を延長する",
+            "vi": "Kéo dài thời gian hát karaoke",
+            "en": "Extend karaoke time"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_107",
+    "character": "更",
+    "hanViet": "CANH/CÁNH",
+    "kunyomi": "ふ-かす, さら-に",
+    "onyomi": "コウ",
+    "mnemonic": "Một (一) người (人) CANH (更) tác ruộng (田)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_107_1",
+        "word": "更に",
+        "hiragana": "さらに",
+        "hanVietWord": "CÁNH",
+        "meaning": {
+          "vi": "Hơn nữa, vả lại",
+          "en": "Furthermore, in addition"
+        },
+        "type": "adv",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "今なら更に10%引きのお値段です!",
+            "vi": "Ngay lúc này giá còn giảm thêm 10% nữa!",
+            "en": "Now it's an extra 10% off the price!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_107_2",
+        "word": "夜更かし",
+        "hiragana": "よふかし",
+        "hanVietWord": "DẠ CANH",
+        "meaning": {
+          "vi": "Thức khuya",
+          "en": "Staying up late"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "連休初日なので、夜更かししてしまった",
+            "vi": "Vì là ngày đầu của kỳ nghỉ nên tôi đã lỡ thức khuya",
+            "en": "Because it's the first day of the consecutive holidays, I ended up staying up late"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_107_3",
+        "word": "更新",
+        "hiragana": "こうしん",
+        "hanVietWord": "CANH TÂN",
+        "meaning": {
+          "vi": "Sự cập nhật, gia hạn",
+          "en": "Update, renewal"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "情報が更新される",
+            "vi": "Thông tin được cập nhật",
+            "en": "Information is updated"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_107_4",
+        "word": "変更",
+        "hiragana": "へんこう",
+        "hanVietWord": "BIẾN CANH",
+        "meaning": {
+          "vi": "Sự thay đổi",
+          "en": "Change, alteration"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "予定/計画を変更する",
+            "vi": "Thay đổi kế hoạch/dự định",
+            "en": "Change the schedule/plan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_108",
+    "character": "徹",
+    "hanViet": "TRIỆT",
+    "onyomi": "テツ",
+    "mnemonic": "Người phụ nữ (女) triệt để (徹) đi (行) bên con để giáo dục (育) con nên người",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_108_1",
+        "word": "徹夜",
+        "hiragana": "てつや",
+        "hanVietWord": "TRIỆT DẠ",
+        "meaning": {
+          "vi": "Thức trắng đêm",
+          "en": "Staying up all night"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "試験勉強のために徹夜する",
+            "vi": "Thức trắng đêm để học thi",
+            "en": "Stay up all night to study for the exam"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_108_2",
+        "word": "徹底的",
+        "hiragana": "てっていてき",
+        "hanVietWord": "TRIỆT ĐỂ ĐÍCH",
+        "meaning": {
+          "vi": "Mang tính triệt để, thấu đáo",
+          "en": "Thorough, exhaustive"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "徹底的に掃除する",
+            "vi": "Dọn dẹp triệt để/kỹ càng",
+            "en": "Clean thoroughly"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_109",
+    "character": "憶",
+    "hanViet": "ỨC",
+    "onyomi": "オク",
+    "mnemonic": "Ký ức (憶) của anh là những ngày (日) mình đứng (立) cùng nhau, 2 con tim (心) đập chung 1 nhịp",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_109_1",
+        "word": "記憶力",
+        "hiragana": "きおくりょく",
+        "hanVietWord": "KÍ ỨC LỰC",
+        "meaning": {
+          "vi": "Trí nhớ",
+          "en": "Memory (ability to remember)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "記憶力がいい",
+            "vi": "Trí nhớ tốt",
+            "en": "Good memory"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_109_2",
+        "word": "追憶",
+        "hiragana": "ついおく",
+        "hanVietWord": "TRUY ỨC",
+        "meaning": {
+          "vi": "Sự hồi tưởng, nhớ lại",
+          "en": "Recollection, reminiscence"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_08_109_3",
+        "word": "憶測",
+        "hiragana": "おくそく",
+        "hanVietWord": "ỨC TRẮC",
+        "meaning": {
+          "vi": "Sự phỏng đoán, suy đoán",
+          "en": "Guess, speculation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "事実も確認せず、憶測で話すのは止めたほうがいい",
+            "vi": "Tốt nhất là nên ngừng việc nói chuyện dựa trên suy đoán mà không xác nhận sự thật",
+            "en": "You should stop speaking based on speculation without confirming the facts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_110",
+    "character": "携",
+    "hanViet": "HUỀ",
+    "kunyomi": "たずさ-わる",
+    "onyomi": "ケイ",
+    "mnemonic": "13 con chim (隹) bắt tay (手) làm huề (携)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_110_1",
+        "word": "携わる",
+        "hiragana": "たずさわる",
+        "hanVietWord": "HUỀ",
+        "meaning": {
+          "vi": "Tham gia vào, làm việc liên quan tới",
+          "en": "To participate, to take part in"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "大きなプロジェクトに携わる",
+            "vi": "Tham gia vào một dự án lớn",
+            "en": "Participate in a large project"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_110_2",
+        "word": "携帯電話",
+        "hiragana": "けいたいでんわ",
+        "hanVietWord": "HUỀ ĐỚI ĐIỆN THOẠI",
+        "meaning": {
+          "vi": "Điện thoại di động",
+          "en": "Mobile phone"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "携帯電話を買う",
+            "vi": "Mua điện thoại di động",
+            "en": "Buy a mobile phone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_111",
+    "character": "即",
+    "hanViet": "TỨC",
+    "kunyomi": "すなわ-ち",
+    "onyomi": "ソク",
+    "mnemonic": "Một người quỳ trước đồ ăn (食)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_111_1",
+        "word": "即ち",
+        "hiragana": "すなわち",
+        "hanVietWord": "TỨC",
+        "meaning": {
+          "vi": "Tức là, có nghĩa là",
+          "en": "Namely, that is"
+        },
+        "type": "adv",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼女は私の母の妹、即ち私の叔母にあたります",
+            "vi": "Cô ấy là em gái của mẹ tôi, tức là dì của tôi",
+            "en": "She is my mother's younger sister, namely my aunt"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_111_2",
+        "word": "即効性",
+        "hiragana": "そっこうせい",
+        "hanVietWord": "TỨC HIỆU TÍNH",
+        "meaning": {
+          "vi": "Tính hiệu quả tức thì",
+          "en": "Immediate effect"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "即効性のある薬です",
+            "vi": "Là loại thuốc có tác dụng tức thời",
+            "en": "It's a medicine with an immediate effect"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_111_3",
+        "word": "即実行",
+        "hiragana": "そくじっこう",
+        "hanVietWord": "TỨC THỰC HÀNH",
+        "meaning": {
+          "vi": "Thực hiện ngay lập tức",
+          "en": "Immediate execution"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "準備ができたら即実行だ",
+            "vi": "Chuẩn bị xong là thực hiện ngay lập tức",
+            "en": "Execute immediately once preparations are complete"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_111_4",
+        "word": "即席",
+        "hiragana": "そくせき",
+        "hanVietWord": "TỨC TỊCH",
+        "meaning": {
+          "vi": "Tức thì, ứng khẩu, ăn liền",
+          "en": "Impromptu, instant"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "即席ラーメン",
+            "vi": "Mì ăn liền",
+            "en": "Instant ramen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_112",
+    "character": "稼",
+    "hanViet": "GIÁ",
+    "kunyomi": "かせ-ぐ",
+    "onyomi": "カ",
+    "mnemonic": "Ngày xưa cây lúa (禾) có giá nên các gia đình (家) thường dựa vào nó để kiếm tiền (稼)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_112_1",
+        "word": "稼ぐ",
+        "hiragana": "かせぐ",
+        "hanVietWord": "GIÁ",
+        "meaning": {
+          "vi": "Kiếm (tiền)",
+          "en": "To earn (income)"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "日本で大金を稼ぐ",
+            "vi": "Kiếm được số tiền lớn ở Nhật",
+            "en": "Earn a lot of money in Japan"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_112_2",
+        "word": "稼働",
+        "hiragana": "かどう",
+        "hanVietWord": "GIÁ ĐỘNG",
+        "meaning": {
+          "vi": "Sự hoạt động, vận hành",
+          "en": "Operation, running (of a machine/system)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "連休中も工場は稼働している",
+            "vi": "Nhà máy vẫn đang hoạt động trong kỳ nghỉ dài",
+            "en": "The factory is operating even during the consecutive holidays"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_113",
+    "character": "需",
+    "hanViet": "NHU",
+    "onyomi": "ジュ",
+    "mnemonic": "Bé Nhi (而) có nhu cầu (需) ngắm mưa (雨)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_113_1",
+        "word": "需要",
+        "hiragana": "じゅよう",
+        "hanVietWord": "NHU YẾU",
+        "meaning": {
+          "vi": "Nhu cầu",
+          "en": "Demand, request"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "需要と供給",
+            "vi": "Nhu cầu và nguồn cung",
+            "en": "Supply and demand"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_113_2",
+        "word": "生活必需品",
+        "hiragana": "せいかつひつじゅひん",
+        "hanVietWord": "SINH HOẠT TẤT NHU PHẨM",
+        "meaning": {
+          "vi": "Nhu yếu phẩm sinh hoạt",
+          "en": "Daily necessities"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_114",
+    "character": "拒",
+    "hanViet": "CỰ",
+    "kunyomi": "こば-む",
+    "onyomi": "キョ",
+    "mnemonic": "Kháng cự (拒) bằng tay (手)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_114_1",
+        "word": "拒む",
+        "hiragana": "こばむ",
+        "hanVietWord": "CỰ",
+        "meaning": {
+          "vi": "Từ chối, cự tuyệt",
+          "en": "To refuse, to reject"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "治療を拒む患者",
+            "vi": "Bệnh nhân từ chối điều trị",
+            "en": "A patient who refuses treatment"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_114_2",
+        "word": "拒否",
+        "hiragana": "きょひ",
+        "hanVietWord": "CỰ PHỦ",
+        "meaning": {
+          "vi": "Sự từ chối, bác bỏ",
+          "en": "Rejection, denial"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "拒否する",
+            "vi": "Từ chối",
+            "en": "To reject"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_08_115",
+    "character": "厳",
+    "hanViet": "NGHIÊM",
+    "kunyomi": "おごそ-か, きび-しい",
+    "onyomi": "ゲン",
+    "mnemonic": "Cô gái (女) nghiêm khắc (厳) đánh 3 phát vào tai (耳) người công nhân (工) làm việc ở sườn núi (厂)",
+    "level": "N2",
+    "lesson": "Buổi 8",
+    "words": [
+      {
+        "id": "kw_rkn2_08_115_1",
+        "word": "厳か",
+        "hiragana": "おごそか",
+        "hanVietWord": "NGHIÊM",
+        "meaning": {
+          "vi": "Trang nghiêm, uy nghiêm",
+          "en": "Solemn, majestic"
+        },
+        "type": "adj-na",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "結婚式は厳かに行われた",
+            "vi": "Lễ cưới được tổ chức một cách trang nghiêm",
+            "en": "The wedding was held solemnly"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_115_2",
+        "word": "厳しい",
+        "hiragana": "きびしい",
+        "hanVietWord": "NGHIÊM",
+        "meaning": {
+          "vi": "Nghiêm khắc, khắt khe",
+          "en": "Strict, severe"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "うちの父はとても厳しい人だ",
+            "vi": "Bố tôi là người rất nghiêm khắc",
+            "en": "My father is a very strict person"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_115_3",
+        "word": "厳格",
+        "hiragana": "げんかく",
+        "hanVietWord": "NGHIÊM CÁCH",
+        "meaning": {
+          "vi": "Nghiêm ngặt, khắt khe",
+          "en": "Strict, rigid"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "厳格な人柄",
+            "vi": "Tính cách nghiêm khắc",
+            "en": "Strict personality"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_08_115_4",
+        "word": "時間厳守",
+        "hiragana": "じかんげんしゅ",
+        "hanVietWord": "THỜI GIAN NGHIÊM THỦ",
+        "meaning": {
+          "vi": "Tuân thủ thời gian nghiêm ngặt",
+          "en": "Punctuality, strict adherence to time"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  }
+]

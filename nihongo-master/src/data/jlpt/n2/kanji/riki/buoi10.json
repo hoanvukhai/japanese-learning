@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "k_rkn2_10_128",
+    "character": "症",
+    "hanViet": "CHỨNG",
+    "onyomi": "ショウ",
+    "mnemonic": "Không phải nói dối (嘘) đâu, tôi chính (正) xác đang bị bệnh (疒) mà, để tôi chứng (症) minh nhé!",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_128_1",
+        "word": "重症",
+        "hiragana": "じゅうしょう",
+        "hanVietWord": "TRỌNG CHỨNG",
+        "meaning": {
+          "vi": "Bệnh nặng",
+          "en": "Serious illness, severe condition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "かなりの重症です。いますぐ入院してください",
+            "vi": "Bệnh khá nặng đấy. Hãy nhập viện ngay lập tức đi",
+            "en": "It is quite a severe condition. Please get hospitalized immediately"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_128_2",
+        "word": "禁断症状",
+        "hiragana": "きんだんしょうじょう",
+        "hanVietWord": "CẤM ĐOẠN CHỨNG TRẠNG",
+        "meaning": {
+          "vi": "Hội chứng cai (thuốc, rượu)",
+          "en": "Withdrawal symptoms"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "タバコの禁断症状が出てくる",
+            "vi": "Xuất hiện hội chứng cai thuốc lá",
+            "en": "Withdrawal symptoms from smoking appear"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_128_3",
+        "word": "後遺症",
+        "hiragana": "こういしょう",
+        "hanVietWord": "HẬU DI CHỨNG",
+        "meaning": {
+          "vi": "Di chứng",
+          "en": "Aftereffects, sequelae"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "手術の後遺症で重い荷物を持てない",
+            "vi": "Do di chứng của cuộc phẫu thuật nên không thể xách đồ nặng",
+            "en": "Cannot carry heavy luggage due to the aftereffects of the surgery"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_129",
+    "character": "状",
+    "hanViet": "TRẠNG",
+    "onyomi": "ジョウ",
+    "mnemonic": "Trạng thái (状) của chú chó (犬) bên cạnh bức tường",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_129_1",
+        "word": "状態",
+        "hiragana": "じょうたい",
+        "hanVietWord": "TRẠNG THÁI",
+        "meaning": {
+          "vi": "Trạng thái, tình trạng",
+          "en": "Condition, state"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "犯人は血まみれの状態で発見された",
+            "vi": "Tên tội phạm được phát hiện trong tình trạng đẫm máu",
+            "en": "The culprit was discovered in a blood-stained condition"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_129_2",
+        "word": "現状",
+        "hiragana": "げんじょう",
+        "hanVietWord": "HIỆN TRẠNG",
+        "meaning": {
+          "vi": "Hiện trạng, tình trạng hiện tại",
+          "en": "Current status, present condition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "現状を確認し、問題を整理する",
+            "vi": "Xác nhận hiện trạng và chỉnh lý vấn đề",
+            "en": "Confirm the current situation and organize the problems"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_130",
+    "character": "況",
+    "hanViet": "HUỐNG",
+    "onyomi": "キョウ",
+    "mnemonic": "Đặt trong tình huống (況) người anh trai (兄) bị đuối nước (水)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_130_1",
+        "word": "状況",
+        "hiragana": "じょうきょう",
+        "hanVietWord": "TRẠNG HUỐNG",
+        "meaning": {
+          "vi": "Tình huống, hoàn cảnh",
+          "en": "Situation, circumstances"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "お客様の予約状況を確認できますか",
+            "vi": "Tôi có thể kiểm tra tình trạng đặt chỗ của quý khách không?",
+            "en": "May I check your reservation status?"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_130_2",
+        "word": "近況",
+        "hiragana": "きんきょう",
+        "hanVietWord": "CẬN HUỐNG",
+        "meaning": {
+          "vi": "Tình hình gần đây",
+          "en": "Recent state, present condition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "フェイスブックで近況報告したら50人からいいねをもらった",
+            "vi": "Báo cáo tình hình gần đây trên facebook thì nhận được 50 lượt thích",
+            "en": "When I reported my recent status on Facebook, I got 50 likes"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_130_3",
+        "word": "不況",
+        "hiragana": "ふきょう",
+        "hanVietWord": "BẤT HUỐNG",
+        "meaning": {
+          "vi": "Suy thoái kinh tế, khủng hoảng",
+          "en": "Recession, depression"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今は不況だから仕事がなかなか見つからない",
+            "vi": "Vì bây giờ đang suy thoái kinh tế nên mãi không tìm được việc",
+            "en": "Because it's a recession right now, it's hard to find a job"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_130_4",
+        "word": "好況",
+        "hiragana": "こうきょう",
+        "hanVietWord": "HẢO HUỐNG",
+        "meaning": {
+          "vi": "Kinh tế phồn vinh, hưng thịnh",
+          "en": "Prosperous condition, boom"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_131",
+    "character": "態",
+    "hanViet": "THÁI",
+    "onyomi": "タイ",
+    "mnemonic": "Trái tim (心) có khả năng (能) nói lên trạng thái (態)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_131_1",
+        "word": "状態",
+        "hiragana": "じょうたい",
+        "hanVietWord": "TRẠNG THÁI",
+        "meaning": {
+          "vi": "Trạng thái",
+          "en": "Condition, state"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "商品の状態を確認する",
+            "vi": "Kiểm tra trạng thái (tình trạng) của sản phẩm",
+            "en": "Check the condition of the product"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_131_2",
+        "word": "変態",
+        "hiragana": "へんたい",
+        "hanVietWord": "BIẾN THÁI",
+        "meaning": {
+          "vi": "Biến thái (nghĩa đen và bóng)",
+          "en": "Pervert, transformation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "触らないで!変態!",
+            "vi": "Đừng chạm vào tôi! Đồ biến thái!",
+            "en": "Don't touch me! Pervert!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_131_3",
+        "word": "態度",
+        "hiragana": "たいど",
+        "hanVietWord": "THÁI ĐỘ",
+        "meaning": {
+          "vi": "Thái độ",
+          "en": "Attitude, manner"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "授業態度がいい",
+            "vi": "Thái độ trong giờ học tốt",
+            "en": "Good attitude in class"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_132",
+    "character": "睡",
+    "hanViet": "THỤY",
+    "onyomi": "スイ",
+    "mnemonic": "Mắt (目) rủ xuống (垂) thì là buồn ngủ (睡)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_132_1",
+        "word": "睡眠",
+        "hiragana": "すいみん",
+        "hanVietWord": "THỤY MIÊN",
+        "meaning": {
+          "vi": "Giấc ngủ",
+          "en": "Sleep"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "質のいい睡眠を取ることが大切だ",
+            "vi": "Việc có một giấc ngủ chất lượng là rất quan trọng",
+            "en": "It is important to get good quality sleep"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_132_2",
+        "word": "睡魔",
+        "hiragana": "すいま",
+        "hanVietWord": "THỤY MA",
+        "meaning": {
+          "vi": "Cơn buồn ngủ",
+          "en": "Sleepiness, drowsiness"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "睡魔と戦う",
+            "vi": "Chiến đấu với cơn buồn ngủ",
+            "en": "Fight against sleepiness"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_133",
+    "character": "喫",
+    "hanViet": "KHIẾT",
+    "onyomi": "キツ",
+    "mnemonic": "Mỗi khi kí hợp đồng (契) thì mồm (口) lại được ăn uống (喫)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_133_1",
+        "word": "喫煙席",
+        "hiragana": "きつえんせき",
+        "hanVietWord": "KHIẾT YÊN TỊCH",
+        "meaning": {
+          "vi": "Chỗ ngồi được phép hút thuốc",
+          "en": "Smoking seat"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "喫煙席を探す",
+            "vi": "Tìm chỗ ngồi hút thuốc",
+            "en": "Look for a smoking seat"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_133_2",
+        "word": "喫茶店",
+        "hiragana": "きっさてん",
+        "hanVietWord": "KHIẾT TRÀ ĐIẾM",
+        "meaning": {
+          "vi": "Quán giải khát, quán cà phê",
+          "en": "Coffee shop, cafe"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "喫茶店でコーヒーを飲む",
+            "vi": "Uống cà phê ở quán nước",
+            "en": "Drink coffee at a cafe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_134",
+    "character": "傷",
+    "hanViet": "THƯƠNG",
+    "kunyomi": "きず",
+    "onyomi": "ショウ",
+    "mnemonic": "Dưới ánh nắng mặt trời (陽) 1 người (人) bị thương (傷) vì bị đâm bởi mũi tên (𠂉)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_134_1",
+        "word": "傷跡",
+        "hiragana": "きずあと",
+        "hanVietWord": "THƯƠNG TÍCH",
+        "meaning": {
+          "vi": "Vết sẹo",
+          "en": "Scar"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "手術後、傷跡が残る",
+            "vi": "Sau phẫu thuật để lại vết sẹo",
+            "en": "A scar remains after the surgery"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_134_2",
+        "word": "傷口",
+        "hiragana": "きずぐち",
+        "hanVietWord": "THƯƠNG KHẨU",
+        "meaning": {
+          "vi": "Miệng vết thương",
+          "en": "Wound, cut"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "傷口がずきずきする",
+            "vi": "Miệng vết thương đau nhức",
+            "en": "The wound throbs with pain"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_134_3",
+        "word": "傷つく",
+        "hiragana": "きずつく",
+        "hanVietWord": "THƯƠNG",
+        "meaning": {
+          "vi": "Bị tổn thương",
+          "en": "To be hurt, to be emotionally damaged"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼氏にひどいことを言われ、傷ついた",
+            "vi": "Bị bạn trai nói những lời thậm tệ nên đã tổn thương",
+            "en": "I was hurt by terrible things my boyfriend said"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_134_4",
+        "word": "負傷",
+        "hiragana": "ふしょう",
+        "hanVietWord": "PHỤ THƯƠNG",
+        "meaning": {
+          "vi": "Bị thương",
+          "en": "Injury"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "試合中に負傷する",
+            "vi": "Bị thương trong trận đấu",
+            "en": "Get injured during the match"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_134_5",
+        "word": "傷害事件",
+        "hiragana": "しょうがいじけん",
+        "hanVietWord": "THƯƠNG HẠI SỰ KIỆN",
+        "meaning": {
+          "vi": "Vụ án cố ý gây thương tích",
+          "en": "Assault case"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "傷害事件を起こす",
+            "vi": "Gây ra vụ án cố ý gây thương tích",
+            "en": "Cause an assault incident"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_135",
+    "character": "処",
+    "hanViet": "XỨ",
+    "kunyomi": "ところ",
+    "onyomi": "ショ",
+    "mnemonic": "Truy (夂) tìm cái bàn (几) để xử (処) lý công việc",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_135_1",
+        "word": "処分",
+        "hiragana": "しょぶん",
+        "hanVietWord": "XỨ PHÂN",
+        "meaning": {
+          "vi": "Sự vứt bỏ, xử lý",
+          "en": "Disposal, punishment"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "要らなくなった服を処分した",
+            "vi": "Vứt bỏ quần áo không cần tới nữa",
+            "en": "Disposed of clothes I no longer need"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_135_2",
+        "word": "処理",
+        "hiragana": "しょり",
+        "hanVietWord": "XỨ LÍ",
+        "meaning": {
+          "vi": "Xử lý, giải quyết",
+          "en": "Processing, dealing with"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "1時間で書類を10枚処理する",
+            "vi": "Xử lý 10 tờ tài liệu trong 1 giờ",
+            "en": "Process 10 documents in 1 hour"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_135_3",
+        "word": "対処",
+        "hiragana": "たいしょ",
+        "hanVietWord": "ĐỐI XỨ",
+        "meaning": {
+          "vi": "Đối phó, ứng phó",
+          "en": "Coping with, dealing with"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "緊急事態に対処する",
+            "vi": "Đối phó với tình huống khẩn cấp",
+            "en": "Deal with an emergency situation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_136",
+    "character": "針",
+    "hanViet": "CHÂM",
+    "kunyomi": "はり",
+    "onyomi": "シン",
+    "mnemonic": "10 (十) cây kim (金) châm (針) cứu bệnh nhân",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_136_1",
+        "word": "針",
+        "hiragana": "はり",
+        "hanVietWord": "CHÂM",
+        "meaning": {
+          "vi": "Cây kim",
+          "en": "Needle, pin"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "針の穴に糸を通す",
+            "vi": "Xỏ chỉ qua lỗ kim",
+            "en": "Thread a needle"
+          },
+          {
+            "jp": "時計の針の音が気になる",
+            "vi": "Bận tâm tiếng kim đồng hồ",
+            "en": "The sound of the clock hands bothers me"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_136_2",
+        "word": "方針",
+        "hiragana": "ほうしん",
+        "hanVietWord": "PHƯƠNG CHÂM",
+        "meaning": {
+          "vi": "Phương châm",
+          "en": "Policy, guideline"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "会社の方針を決める",
+            "vi": "Quyết định phương châm của công ty",
+            "en": "Decide the company's policy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_137",
+    "character": "抜",
+    "hanViet": "BẠT",
+    "kunyomi": "ぬ-く, ぬ-かす, ぬ-ける",
+    "onyomi": "バツ",
+    "mnemonic": "Dùng tay (手) BẠT (抜) tai người bằng hữu (友)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_137_1",
+        "word": "抜く",
+        "hiragana": "ぬく",
+        "hanVietWord": "BẠT",
+        "meaning": {
+          "vi": "Nhổ, rút",
+          "en": "To pull out, to extract"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "親知らずを抜く",
+            "vi": "Nhổ răng khôn",
+            "en": "Extract a wisdom tooth"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_137_2",
+        "word": "抜き",
+        "hiragana": "ぬき",
+        "hanVietWord": "BẠT",
+        "meaning": {
+          "vi": "Loại bỏ, không có",
+          "en": "Without, excluding"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "冗談抜きであなたのことが好きなんです。",
+            "vi": "Không đùa đâu, tôi thích bạn đấy.",
+            "en": "Jokes aside, I like you."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_137_3",
+        "word": "抜ける",
+        "hiragana": "ぬける",
+        "hanVietWord": "BẠT",
+        "meaning": {
+          "vi": "Rời khỏi, rút khỏi",
+          "en": "To drop out, to leave"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "チームから抜ける",
+            "vi": "Rút khỏi đội",
+            "en": "Leave the team"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_137_4",
+        "word": "抜歯",
+        "hiragana": "ばっし",
+        "hanVietWord": "BẠT XỈ",
+        "meaning": {
+          "vi": "Nhổ răng",
+          "en": "Tooth extraction"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "抜歯する",
+            "vi": "Nhổ răng",
+            "en": "Extract a tooth"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_137_5",
+        "word": "抜群",
+        "hiragana": "ばつぐん",
+        "hanVietWord": "BẠT QUẦN",
+        "meaning": {
+          "vi": "Xuất chúng, nổi bật",
+          "en": "Outstanding, excellent"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "抜群な成績をおさめる",
+            "vi": "Đạt được thành tích xuất sắc",
+            "en": "Achieve outstanding results"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_138",
+    "character": "菌",
+    "hanViet": "KHUẨN",
+    "onyomi": "キン",
+    "mnemonic": "Để cây lúa (禾) trong thùng để tránh nhiễm khuẩn (菌) từ cỏ (草)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_138_1",
+        "word": "菌",
+        "hiragana": "きん",
+        "hanVietWord": "KHUẨN",
+        "meaning": {
+          "vi": "Vi khuẩn, mầm bệnh",
+          "en": "Germ, bacteria"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "菌やウイルスを 100%落とせる洗剤",
+            "vi": "Chất tẩy rửa có thể loại bỏ 100% vi khuẩn và vi rút",
+            "en": "Detergent that can remove 100% of germs and viruses"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_138_2",
+        "word": "細菌",
+        "hiragana": "さいきん",
+        "hanVietWord": "TẾ KHUẨN",
+        "meaning": {
+          "vi": "Vi khuẩn",
+          "en": "Bacteria, bacillus"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "細菌に感染される",
+            "vi": "Bị nhiễm vi khuẩn",
+            "en": "Be infected by bacteria"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_139",
+    "character": "剤",
+    "hanViet": "TỄ",
+    "onyomi": "ザイ",
+    "mnemonic": "Mọi người cùng nhau (斉) giơ đao (刂) lên",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_139_1",
+        "word": "洗剤",
+        "hiragana": "せんざい",
+        "hanVietWord": "TẨY TỄ",
+        "meaning": {
+          "vi": "Chất tẩy rửa, xà phòng",
+          "en": "Detergent"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "洗剤を使って、お皿を洗う",
+            "vi": "Dùng chất tẩy rửa để rửa đĩa",
+            "en": "Wash the dishes using detergent"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_139_2",
+        "word": "薬剤師",
+        "hiragana": "やくざいし",
+        "hanVietWord": "DƯỢC TỄ SƯ",
+        "meaning": {
+          "vi": "Dược sĩ",
+          "en": "Pharmacist"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_140",
+    "character": "看",
+    "hanViet": "KHAN",
+    "kunyomi": "み-る",
+    "onyomi": "カン",
+    "mnemonic": "Khán (看) giả vừa xem (見) vừa vỗ tay (手)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_140_1",
+        "word": "看る",
+        "hiragana": "みる",
+        "hanVietWord": "KHAN",
+        "meaning": {
+          "vi": "Chăm sóc, trông nom",
+          "en": "To look after, to tend to"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "子供の面倒を看る",
+            "vi": "Chăm sóc, trông nom trẻ con",
+            "en": "Look after children"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_140_2",
+        "word": "看板",
+        "hiragana": "かんばん",
+        "hanVietWord": "KHAN BẢN",
+        "meaning": {
+          "vi": "Bảng hiệu",
+          "en": "Signboard"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "店前に看板を立てる",
+            "vi": "Dựng bảng hiệu trước cửa hàng",
+            "en": "Set up a signboard in front of the store"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_140_3",
+        "word": "看護師",
+        "hiragana": "かんごし",
+        "hanVietWord": "KHAN HỘ SƯ",
+        "meaning": {
+          "vi": "Y tá, điều dưỡng",
+          "en": "Nurse"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "将来の夢は看護師だ",
+            "vi": "Ước mơ tương lai là trở thành y tá",
+            "en": "My future dream is to be a nurse"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_140_4",
+        "word": "看病",
+        "hiragana": "かんびょう",
+        "hanVietWord": "KHAN BỆNH",
+        "meaning": {
+          "vi": "Sự chăm sóc (người bệnh)",
+          "en": "Nursing (a patient)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "母を看病する",
+            "vi": "Chăm sóc mẹ ốm",
+            "en": "Nurse my sick mother"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_141",
+    "character": "視",
+    "hanViet": "THỊ",
+    "kunyomi": "み-る",
+    "onyomi": "シ",
+    "mnemonic": "Nhìn (見) nè (ネ)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_141_1",
+        "word": "視察",
+        "hiragana": "しさつ",
+        "hanVietWord": "THỊ SÁT",
+        "meaning": {
+          "vi": "Sự thị sát, khảo sát",
+          "en": "Inspection, observation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "工場を視察する",
+            "vi": "Khảo sát nhà máy",
+            "en": "Inspect the factory"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_141_2",
+        "word": "視線",
+        "hiragana": "しせん",
+        "hanVietWord": "THỊ TUYẾN",
+        "meaning": {
+          "vi": "Ánh nhìn",
+          "en": "Line of sight, gaze"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "熱い視線を感じる",
+            "vi": "Cảm nhận được ánh nhìn say đắm",
+            "en": "Feel a passionate gaze"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_141_3",
+        "word": "視覚的",
+        "hiragana": "しかくてき",
+        "hanVietWord": "THỊ GIÁC ĐÍCH",
+        "meaning": {
+          "vi": "Mang tính thị giác",
+          "en": "Visual"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "視覚的効果",
+            "vi": "Hiệu ứng thị giác",
+            "en": "Visual effect"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_141_4",
+        "word": "視野",
+        "hiragana": "しや",
+        "hanVietWord": "THỊ DÃ",
+        "meaning": {
+          "vi": "Tầm nhìn, tầm hiểu biết",
+          "en": "Field of vision, perspective"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "海外旅行を通して視野を広げる",
+            "vi": "Mở rộng tầm nhìn thông qua việc đi du lịch nước ngoài",
+            "en": "Broaden one's perspective through overseas travel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_142",
+    "character": "眼",
+    "hanViet": "NHÃN",
+    "onyomi": "ガン",
+    "mnemonic": "Mắt (目) tốt là có nhãn (眼) quan tốt (良い)",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_142_1",
+        "word": "眼科",
+        "hiragana": "がんか",
+        "hanVietWord": "NHÃN KHOA",
+        "meaning": {
+          "vi": "Khoa mắt",
+          "en": "Ophthalmology"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "歯科と眼科へ行く",
+            "vi": "Đi khám nha khoa và khoa mắt",
+            "en": "Go to the dentist and the ophthalmologist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_10_143",
+    "character": "刺",
+    "hanViet": "THÍCH",
+    "kunyomi": "さ-す, さ-さる, さ-し",
+    "onyomi": "シ",
+    "mnemonic": "Người cầm đao (リ) trong thành phố (市) là THÍCH (刺) khách",
+    "level": "N2",
+    "lesson": "Buổi 10",
+    "words": [
+      {
+        "id": "kw_rkn2_10_143_1",
+        "word": "刺す",
+        "hiragana": "さす",
+        "hanVietWord": "THÍCH",
+        "meaning": {
+          "vi": "Đâm, châm, xiên",
+          "en": "To pierce, to stab"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "BBQの準備のために、肉をくしに刺す",
+            "vi": "Xiên thịt vào que để chuẩn bị BBQ",
+            "en": "Skewer meat to prepare for BBQ"
+          },
+          {
+            "jp": "夫をナイフで刺してしまった・・・!",
+            "vi": "Đã lỡ dùng dao đâm chồng mình...!",
+            "en": "Accidentally stabbed my husband with a knife...!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_143_2",
+        "word": "刺さる",
+        "hiragana": "ささる",
+        "hanVietWord": "THÍCH",
+        "meaning": {
+          "vi": "Bị đâm, bị châm, mắc",
+          "en": "To stick into, to be pierced"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "痛っ!とげが刺さった",
+            "vi": "Đau quá! Bị gai đâm rồi",
+            "en": "Ouch! Got pierced by a thorn"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_10_143_3",
+        "word": "刺激",
+        "hiragana": "しげき",
+        "hanVietWord": "THÍCH KÍCH",
+        "meaning": {
+          "vi": "Sự kích thích, kích động",
+          "en": "Stimulation, stimulus"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "都会は刺激が強い",
+            "vi": "Thành phố thì mang tính kích thích mạnh",
+            "en": "The city is highly stimulating"
+          }
+        ]
+      }
+    ]
+  }
+]

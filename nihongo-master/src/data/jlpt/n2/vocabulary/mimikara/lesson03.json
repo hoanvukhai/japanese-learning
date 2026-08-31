@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "v_mon2_03_221",
+    "kanji": "有難い",
+    "hanViet": "HỮU NAN",
+    "hiragana": "ありがたい",
+    "meaning": {
+      "vi": "Biết ơn, cảm kích",
+      "en": "Grateful, thankful"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "病気の時、友達が看病してくれて有難かった。",
+        "vi": "Khi tôi bị ốm, được bạn bè chăm sóc nên tôi rất biết ơn.",
+        "en": "I was grateful that my friends nursed me when I was sick."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_222",
+    "kanji": "申し訳ない",
+    "hanViet": "THÂN DỊCH",
+    "hiragana": "もうしわけない",
+    "meaning": {
+      "vi": "Xin lỗi, áy náy",
+      "en": "I'm sorry, inexcusable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "ご迷惑をおかけして、本当に申し訳ありませんでした。",
+        "vi": "Tôi thực sự xin lỗi vì đã làm phiền bạn.",
+        "en": "I am truly sorry for causing you trouble."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_223",
+    "kanji": "めでたい",
+    "hanViet": "",
+    "hiragana": "めでたい",
+    "meaning": {
+      "vi": "Đáng mừng, tốt lành",
+      "en": "Happy, auspicious"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "子供の大学合格という、めでたい知らせが届いた。",
+        "vi": "Có một tin tốt lành báo đến là con tôi đã thi đỗ đại học.",
+        "en": "I received the happy news that my child passed the university exam."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_224",
+    "kanji": "幸いな",
+    "hanViet": "HẠNH",
+    "hiragana": "さいわいな",
+    "meaning": {
+      "vi": "May mắn",
+      "en": "Fortunate, lucky"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "交通事故に遭ったが、幸いにもけがはなかった。",
+        "vi": "Bị tai nạn giao thông nhưng thật may mắn là tôi không bị thương.",
+        "en": "I was in a traffic accident, but fortunately I wasn't injured."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_225",
+    "kanji": "恋しい",
+    "hanViet": "LUYẾN",
+    "hiragana": "こいしい",
+    "meaning": {
+      "vi": "Nhớ nhung, mong mỏi",
+      "en": "Dear, longed for, missed"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "国の両親が恋しい。",
+        "vi": "Tôi nhớ bố mẹ ở quê nhà.",
+        "en": "I miss my parents in my home country."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_226",
+    "kanji": "懐かしい",
+    "hanViet": "HOÀI",
+    "hiragana": "なつかしい",
+    "meaning": {
+      "vi": "Nhớ thương, hoài niệm",
+      "en": "Nostalgic, fondly remembered"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "子供のころによく遊んだ公園が懐かしい。",
+        "vi": "Tôi thấy hoài niệm về công viên ngày xưa thường chơi hồi bé.",
+        "en": "I feel nostalgic for the park where I often played as a child."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_227",
+    "kanji": "幼い",
+    "hanViet": "ẤU",
+    "hiragana": "おさない",
+    "meaning": {
+      "vi": "Trẻ con, ngây thơ",
+      "en": "Young, childish"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "幼い子供が遊んでいる。",
+        "vi": "Những đứa trẻ thơ đang chơi đùa.",
+        "en": "Young children are playing."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_228",
+    "kanji": "心細い",
+    "hanViet": "TÂM TẾ",
+    "hiragana": "こころぼそい",
+    "meaning": {
+      "vi": "Cô đơn, bất an",
+      "en": "Lonely, helpless"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "初めての一人暮らしは心細かった。",
+        "vi": "Lần đầu tiên sống một mình, tôi cảm thấy rất bất an và cô đơn.",
+        "en": "Living alone for the first time, I felt lonely and helpless."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_229",
+    "kanji": "かわいそうな",
+    "hanViet": "",
+    "hiragana": "かわいそうな",
+    "meaning": {
+      "vi": "Đáng thương",
+      "en": "Pitiful, poor"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "雨にぬれた子犬がかわいそうだった。",
+        "vi": "Chú chó con bị ướt sũng trong mưa trông thật đáng thương.",
+        "en": "The puppy drenched in the rain looked pitiful."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_230",
+    "kanji": "気の毒な",
+    "hanViet": "KHÍ ĐỘC",
+    "hiragana": "きのどくな",
+    "meaning": {
+      "vi": "Tội nghiệp, đáng tiếc",
+      "en": "Pitiful, unfortunate"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "彼女の悲惨な話を聞いて、気の毒に思った。",
+        "vi": "Nghe câu chuyện bi thảm của cô ấy, tôi cảm thấy thật tội nghiệp.",
+        "en": "Hearing her tragic story, I felt sorry for her."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_231",
+    "kanji": "貧しい",
+    "hanViet": "BẦN",
+    "hiragana": "まずしい",
+    "meaning": {
+      "vi": "Nghèo, thiếu thốn",
+      "en": "Poor, needy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "彼は貧しい家に育った。",
+        "vi": "Anh ấy lớn lên trong một gia đình nghèo khó.",
+        "en": "He grew up in a poor family."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_232",
+    "kanji": "惜しい",
+    "hanViet": "TÍCH",
+    "hiragana": "おしい",
+    "meaning": {
+      "vi": "Đáng tiếc, không nỡ",
+      "en": "Regrettable, precious"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "あと1点で合格だったのに、惜しかった。",
+        "vi": "Chỉ còn 1 điểm nữa là đỗ rồi, thật đáng tiếc.",
+        "en": "I was only one point away from passing, it was a pity."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_233",
+    "kanji": "仕方ない",
+    "hanViet": "SĨ PHƯƠNG",
+    "hiragana": "しかたない",
+    "meaning": {
+      "vi": "Hết cách, đành chịu",
+      "en": "It can't be helped"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "雨が降っているから、試合が中止になるのも仕方ない。",
+        "vi": "Vì trời đang mưa nên trận đấu bị hủy cũng đành chịu thôi.",
+        "en": "It's raining, so it can't be helped that the game is canceled."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_234",
+    "kanji": "やむを得ない",
+    "hanViet": "ĐẮC",
+    "hiragana": "やむをえない",
+    "meaning": {
+      "vi": "Đành phải chấp nhận, không thể tránh khỏi",
+      "en": "Unavoidable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "やむを得ない事情で、会議を欠席した。",
+        "vi": "Vì lý do bất khả kháng nên tôi đã vắng mặt ở cuộc họp.",
+        "en": "I was absent from the meeting due to unavoidable circumstances."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_235",
+    "kanji": "面倒くさい",
+    "hanViet": "DIỆN ĐẢO",
+    "hiragana": "めんどうくさい",
+    "meaning": {
+      "vi": "Phiền phức, rắc rối",
+      "en": "Bothersome, tiresome"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "毎日ご飯を作るのは面倒くさい。",
+        "vi": "Ngày nào cũng nấu cơm thật là phiền phức.",
+        "en": "It's bothersome to cook every day."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_236",
+    "kanji": "しつこい",
+    "hanViet": "",
+    "hiragana": "しつこい",
+    "meaning": {
+      "vi": "Lì lợm, dai dẳng / Đậm (vị)",
+      "en": "Persistent, obstinate / Heavy (taste)"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "あのセールスマンはしつこい。",
+        "vi": "Người bán hàng đó rất dai dẳng.",
+        "en": "That salesman is very persistent."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_237",
+    "kanji": "くどい",
+    "hanViet": "",
+    "hiragana": "くどい",
+    "meaning": {
+      "vi": "Dài dòng, lê thê / Đậm ngấy",
+      "en": "Verbose, tedious / Heavy (taste)"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "あの先生の注意はくどくて、学生に嫌われている。",
+        "vi": "Lời nhắc nhở của thầy giáo đó rất dài dòng, nên bị học sinh ghét.",
+        "en": "That teacher's warnings are tedious, so he is disliked by students."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_238",
+    "kanji": "煙い",
+    "hanViet": "YÊN",
+    "hiragana": "けむい",
+    "meaning": {
+      "vi": "Nhiều khói, cay mắt vì khói",
+      "en": "Smoky"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "部屋の中がたばこの煙で煙い。",
+        "vi": "Trong phòng toàn khói thuốc nên rất ngột ngạt.",
+        "en": "The room is smoky with cigarette smoke."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_239",
+    "kanji": "邪魔な",
+    "hanViet": "TÀ MA",
+    "hiragana": "じゃまな",
+    "meaning": {
+      "vi": "Vướng víu, cản trở",
+      "en": "In the way, obstructive"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "廊下に箱が置いてあって邪魔だ。",
+        "vi": "Có cái hộp đặt ở hành lang rất vướng víu.",
+        "en": "There is a box in the hallway and it's in the way."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_240",
+    "kanji": "うるさい",
+    "hanViet": "",
+    "hiragana": "うるさい",
+    "meaning": {
+      "vi": "Ồn ào, phiền phức",
+      "en": "Noisy, annoying"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "外の工事の音がうるさくて、勉強に集中できない。",
+        "vi": "Âm thanh công trường bên ngoài ồn quá, không thể tập trung học được.",
+        "en": "The construction noise outside is so loud that I can't concentrate on my studies."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_241",
+    "kanji": "騒々しい",
+    "hanViet": "TAO",
+    "hiragana": "そうぞうしい",
+    "meaning": {
+      "vi": "Inh ỏi, ồn ào",
+      "en": "Noisy, boisterous"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "教室の中が騒々しい。",
+        "vi": "Bên trong lớp học rất ồn ào.",
+        "en": "It is noisy inside the classroom."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_242",
+    "kanji": "慌ただしい",
+    "hanViet": "HOẢNG",
+    "hiragana": "あわただしい",
+    "meaning": {
+      "vi": "Bận rộn, vội vã",
+      "en": "Busy, hurried"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "年末はいつも慌ただしい。",
+        "vi": "Cuối năm lúc nào cũng bận rộn vội vã.",
+        "en": "The end of the year is always hurried."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_243",
+    "kanji": "そそっかしい",
+    "hanViet": "",
+    "hiragana": "そそっかしい",
+    "meaning": {
+      "vi": "Hấp tấp, vội vàng",
+      "en": "Careless, hasty"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "彼はそそっかしくて、よく忘れ物をする。",
+        "vi": "Anh ấy rất hấp tấp nên thường hay bỏ quên đồ.",
+        "en": "He is careless and often forgets things."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_244",
+    "kanji": "思いがけない",
+    "hanViet": "TƯ",
+    "hiragana": "おもいがけない",
+    "meaning": {
+      "vi": "Ngoài dự tính, bất ngờ",
+      "en": "Unexpected, unforeseen"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "思いがけない幸運に恵まれた。",
+        "vi": "Tôi được ban cho một sự may mắn bất ngờ.",
+        "en": "I was blessed with unexpected good fortune."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_245",
+    "kanji": "何気ない",
+    "hanViet": "HÀ KHÍ",
+    "hiragana": "なにげない",
+    "meaning": {
+      "vi": "Tình cờ, vô ý",
+      "en": "Casual, unintentional"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "彼の何気ない一言が、私を勇気づけた。",
+        "vi": "Một lời nói vô tình của anh ấy đã tiếp thêm dũng khí cho tôi.",
+        "en": "His casual remark encouraged me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_246",
+    "kanji": "とんでもない",
+    "hanViet": "",
+    "hiragana": "とんでもない",
+    "meaning": {
+      "vi": "Không thể tin được, quá đáng",
+      "en": "Outrageous, unbelievable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "そのうわさはとんでもないうそだ。",
+        "vi": "Tin đồn đó là một lời nói dối không thể chấp nhận được.",
+        "en": "That rumor is an outrageous lie."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_247",
+    "kanji": "くだらない",
+    "hanViet": "",
+    "hiragana": "くだらない",
+    "meaning": {
+      "vi": "Vô nghĩa, vô giá trị",
+      "en": "Worthless, trifling"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "くだらない番組ばかりで、テレビを見る気がしない。",
+        "vi": "Chỉ toàn những chương trình vô nghĩa nên tôi không muốn xem tivi.",
+        "en": "There are only worthless programs, so I don't feel like watching TV."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_248",
+    "kanji": "ばかばかしい",
+    "hanViet": "",
+    "hiragana": "ばかばかしい",
+    "meaning": {
+      "vi": "Ngớ ngẩn, ngốc nghếch",
+      "en": "Absurd, ridiculous"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "そんなばかばかしい話は誰も信じないよ。",
+        "vi": "Câu chuyện ngớ ngẩn như vậy thì chẳng ai tin đâu.",
+        "en": "No one will believe such a ridiculous story."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_249",
+    "kanji": "でたらめな",
+    "hanViet": "",
+    "hiragana": "でたらめな",
+    "meaning": {
+      "vi": "Linh tinh, bừa bãi",
+      "en": "Random, nonsense"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "テストででたらめな答えを書いた。",
+        "vi": "Tôi đã viết câu trả lời bừa bãi trong bài kiểm tra.",
+        "en": "I wrote a random answer on the test."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_250",
+    "kanji": "だらしない",
+    "hanViet": "",
+    "hiragana": "だらしない",
+    "meaning": {
+      "vi": "Bừa bộn, lôi thôi",
+      "en": "Slovenly, untidy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "だらしない格好で外出する。",
+        "vi": "Đi ra ngoài với vẻ ngoài lôi thôi.",
+        "en": "Go out with an untidy appearance."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_251",
+    "kanji": "ずうずうしい",
+    "hanViet": "",
+    "hiragana": "ずうずうしい",
+    "meaning": {
+      "vi": "Trơ trẽn, vô liêm sỉ",
+      "en": "Impudent, shameless"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "列に割り込むなんて、ずうずうしい人だ。",
+        "vi": "Chen ngang hàng, thật là một người trơ trẽn.",
+        "en": "Cutting in line, what an impudent person."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_252",
+    "kanji": "ずるい",
+    "hanViet": "",
+    "hiragana": "ずるい",
+    "meaning": {
+      "vi": "Láu cá, khôn lỏi",
+      "en": "Sly, cunning"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "自分だけ楽をするなんてずるい。",
+        "vi": "Chỉ mình bản thân nhàn hạ thật là khôn lỏi.",
+        "en": "It's sly to take the easy way out just for yourself."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_253",
+    "kanji": "憎らしい",
+    "hanViet": "TĂNG",
+    "hiragana": "にくらしい",
+    "meaning": {
+      "vi": "Đáng ghét",
+      "en": "Hateful, detestable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "あの人は口を出すだけで何も手伝ってくれないので、憎らしい。",
+        "vi": "Người đó chỉ mở mồm mà không giúp gì nên rất đáng ghét.",
+        "en": "That person is hateful because he just complains and doesn't help at all."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_254",
+    "kanji": "憎い",
+    "hanViet": "TĂNG",
+    "hiragana": "にくい",
+    "meaning": {
+      "vi": "Đáng ghét, căm ghét",
+      "en": "Hateful"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "私を裏切った彼が憎い。",
+        "vi": "Tôi căm ghét anh ta vì đã phản bội tôi.",
+        "en": "I hate him for betraying me."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_255",
+    "kanji": "険しい",
+    "hanViet": "HIỂM",
+    "hiragana": "けわしい",
+    "meaning": {
+      "vi": "Nguy hiểm, dốc / Khắc nghiệt",
+      "en": "Steep, severe"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "険しい山道を登る。",
+        "vi": "Leo lên con đường mòn trên núi rất dốc.",
+        "en": "Climb a steep mountain path."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_256",
+    "kanji": "辛い",
+    "hanViet": "TÂN",
+    "hiragana": "つらい",
+    "meaning": {
+      "vi": "Đau đớn, khổ sở",
+      "en": "Painful, tough"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "一人で知らない国に住むのは辛い。",
+        "vi": "Sống một mình ở một đất nước xa lạ thật khổ sở.",
+        "en": "It is tough to live alone in a foreign country."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_257",
+    "kanji": "きつい",
+    "hanViet": "",
+    "hiragana": "きつい",
+    "meaning": {
+      "vi": "Chật chội, chặt chẽ, vất vả",
+      "en": "Tight, tough"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "この靴は少しきついです。",
+        "vi": "Đôi giày này hơi chật.",
+        "en": "These shoes are a bit tight."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_258",
+    "kanji": "緩い",
+    "hanViet": "HOÃN",
+    "hiragana": "ゆるい",
+    "meaning": {
+      "vi": "Rộng, lỏng",
+      "en": "Loose"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "ダイエットをしたら、ズボンが緩くなった。",
+        "vi": "Sau khi giảm cân, quần đã trở nên rộng.",
+        "en": "After going on a diet, my pants became loose."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_259",
+    "kanji": "鈍い",
+    "hanViet": "ĐỘN",
+    "hiragana": "にぶい",
+    "meaning": {
+      "vi": "Cùn, chậm chạp",
+      "en": "Dull, slow"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "この包丁は切れ味が鈍い。",
+        "vi": "Con dao này cắt cùn rồi.",
+        "en": "This knife has a dull blade."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_260",
+    "kanji": "鋭い",
+    "hanViet": "DUỆ",
+    "hiragana": "するどい",
+    "meaning": {
+      "vi": "Sắc bén",
+      "en": "Sharp"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "クマは鋭い爪を持っている。",
+        "vi": "Con gấu có móng vuốt sắc nhọn.",
+        "en": "A bear has sharp claws."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_261",
+    "kanji": "荒い",
+    "hanViet": "HOANG",
+    "hiragana": "あらい",
+    "meaning": {
+      "vi": "Thô bạo, dữ dội",
+      "en": "Rough, wild"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "彼は気が荒いので、よく人とけんかする。",
+        "vi": "Anh ta có tính khí nóng nảy nên thường hay cãi nhau với người khác.",
+        "en": "He has a rough temper, so he often fights with people."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_262",
+    "kanji": "強引な",
+    "hanViet": "CƯỜNG DẪN",
+    "hiragana": "ごういんな",
+    "meaning": {
+      "vi": "Cưỡng bức, ép buộc",
+      "en": "Overbearing, pushy"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "強引な方法で問題を解決しようとする。",
+        "vi": "Cố gắng giải quyết vấn đề bằng phương pháp cưỡng ép.",
+        "en": "Try to solve the problem by an overbearing method."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_263",
+    "kanji": "勝手な",
+    "hanViet": "THẮNG THỦ",
+    "hiragana": "かってな",
+    "meaning": {
+      "vi": "Tùy tiện, ích kỷ",
+      "en": "Selfish, arbitrary"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "人の物を勝手に使ってはいけません。",
+        "vi": "Không được tùy tiện sử dụng đồ của người khác.",
+        "en": "You must not use other people's things arbitrarily."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_264",
+    "kanji": "強気な",
+    "hanViet": "CƯỜNG KHÍ",
+    "hiragana": "つよきな",
+    "meaning": {
+      "vi": "Mạnh mẽ, vững chắc",
+      "en": "Firm, confident"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "どんな困難にも強気な態度で臨む。",
+        "vi": "Đứng trước bất kỳ khó khăn nào cũng giữ thái độ vững vàng.",
+        "en": "Face any difficulty with a firm attitude."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_265",
+    "kanji": "頑固な",
+    "hanViet": "NGOAN CỐ",
+    "hiragana": "がんこな",
+    "meaning": {
+      "vi": "Ngoan cố, bảo thủ",
+      "en": "Stubborn, obstinate"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "父は頑固で、一度決めたら決して意見を変えない。",
+        "vi": "Bố tôi rất bảo thủ, đã quyết định một lần thì tuyệt đối không đổi ý.",
+        "en": "My father is stubborn; once he decides, he never changes his opinion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_266",
+    "kanji": "過剰な",
+    "hanViet": "QUÁ THẶNG",
+    "hiragana": "かじょうな",
+    "meaning": {
+      "vi": "Thừa thãi, quá mức",
+      "en": "Excessive, over-"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "過剰な期待はプレッシャーになる。",
+        "vi": "Sự kỳ vọng quá mức sẽ trở thành áp lực.",
+        "en": "Excessive expectations become pressure."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_267",
+    "kanji": "重大な",
+    "hanViet": "TRỌNG ĐẠI",
+    "hiragana": "じゅうだいな",
+    "meaning": {
+      "vi": "Trọng đại",
+      "en": "Important, serious"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "重大な問題が発生した。",
+        "vi": "Đã phát sinh một vấn đề trọng đại.",
+        "en": "A serious problem has occurred."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_268",
+    "kanji": "深刻な",
+    "hanViet": "THÂM KHẮC",
+    "hiragana": "しんこくな",
+    "meaning": {
+      "vi": "Nghiêm trọng",
+      "en": "Serious, severe"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "地球温暖化は深刻な問題だ。",
+        "vi": "Sự nóng lên toàn cầu là một vấn đề nghiêm trọng.",
+        "en": "Global warming is a serious problem."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_269",
+    "kanji": "気楽な",
+    "hanViet": "KHÍ LẠC",
+    "hiragana": "きらくな",
+    "meaning": {
+      "vi": "Thoải mái, nhàn hạ",
+      "en": "Carefree, comfortable"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "休日は家で気楽に過ごす。",
+        "vi": "Ngày nghỉ tôi dành thời gian thong thả ở nhà.",
+        "en": "I spend my days off comfortably at home."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_03_270",
+    "kanji": "安易な",
+    "hanViet": "AN DỊCH",
+    "hiragana": "あんいな",
+    "meaning": {
+      "vi": "Dễ dàng",
+      "en": "Easy, simple"
+    },
+    "type": "adjective",
+    "level": "N2",
+    "lesson": "Bài 3",
+    "examples": [
+      {
+        "jp": "安易な考えで行動すると失敗するよ。",
+        "vi": "Hành động với suy nghĩ hời hợt (dễ dãi) thì sẽ thất bại đấy.",
+        "en": "If you act on simple thoughts, you will fail."
+      }
+    ]
+  }
+]

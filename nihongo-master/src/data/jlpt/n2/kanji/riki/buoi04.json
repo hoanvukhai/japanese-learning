@@ -1,0 +1,854 @@
+[
+  {
+    "id": "k_rkn2_04_44",
+    "character": "畳",
+    "hanViet": "ĐIỆP",
+    "kunyomi": "たた-む, たたみ",
+    "onyomi": "ジョウ",
+    "mnemonic": "ĐIỆP (畳) ra đồng (田) gấp chăn che mắt (目) ngủ",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_44_1",
+        "word": "畳む",
+        "hiragana": "たたむ",
+        "hanVietWord": "ĐIỆP",
+        "meaning": {
+          "vi": "Gấp, xếp",
+          "en": "To fold"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼のパンツを畳みながら、ため息をついた",
+            "vi": "Vừa gấp quần lót của anh ấy vừa thở dài",
+            "en": "While folding his underpants, I sighed"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_44_2",
+        "word": "畳部屋",
+        "hiragana": "たたみべや",
+        "hanVietWord": "ĐIỆP BỘ ỐC",
+        "meaning": {
+          "vi": "Phòng trải chiếu Tatami",
+          "en": "Tatami room"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_04_44_3",
+        "word": "折りたたみ傘",
+        "hiragana": "おりたたみがさ",
+        "hanVietWord": "CHIẾT ĐIỆP TẢN",
+        "meaning": {
+          "vi": "Ô gấp",
+          "en": "Folding umbrella"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "折りたたみ傘がほしい",
+            "vi": "Tôi muốn có một cái ô gấp",
+            "en": "I want a folding umbrella"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_44_4",
+        "word": "畳",
+        "hiragana": "じょう",
+        "hanVietWord": "ĐIỆP",
+        "meaning": {
+          "vi": "Đơn vị đếm diện tích phòng (số chiếu Tatami)",
+          "en": "Counter for tatami mats (room size)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "私の部屋は 5 畳です",
+            "vi": "Phòng của tôi rộng 5 chiếu Tatami",
+            "en": "My room is 5 tatami mats wide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_45",
+    "character": "床",
+    "hanViet": "SÀNG",
+    "kunyomi": "とこ, ゆか",
+    "onyomi": "ショウ",
+    "mnemonic": "Một cái cây (木) bao phủ nền nhà (床)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_45_1",
+        "word": "床屋",
+        "hiragana": "とこや",
+        "hanVietWord": "SÀNG ỐC",
+        "meaning": {
+          "vi": "Tiệm cắt tóc nam",
+          "en": "Barbershop"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "月に一回、床屋へ行く",
+            "vi": "Mỗi tháng đi tiệm cắt tóc nam một lần",
+            "en": "I go to the barbershop once a month"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_45_2",
+        "word": "床掃除",
+        "hiragana": "ゆかそうじ",
+        "hanVietWord": "SÀNG TẢO TRỪ",
+        "meaning": {
+          "vi": "Lau dọn sàn nhà",
+          "en": "Floor cleaning"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "床掃除をする",
+            "vi": "Lau dọn sàn nhà",
+            "en": "Clean the floor"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_45_3",
+        "word": "温床",
+        "hiragana": "おんしょう",
+        "hanVietWord": "ÔN SÀNG",
+        "meaning": {
+          "vi": "Ổ (dịch bệnh, tệ nạn)",
+          "en": "Hotbed, breeding ground"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "居酒屋はコロナの温床だ",
+            "vi": "Quán nhậu là ổ dịch Corona",
+            "en": "Izakayas are a hotbed for Corona"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_46",
+    "character": "軒",
+    "hanViet": "HIÊN",
+    "onyomi": "ケン",
+    "mnemonic": "Xe(車) được khô ráo(干) vì có HIÊN(軒)che",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_46_1",
+        "word": "軒",
+        "hiragana": "けん",
+        "hanVietWord": "HIÊN",
+        "meaning": {
+          "vi": "Đơn vị đếm tòa nhà, quán ăn",
+          "en": "Counter for houses/buildings"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "1 日でラーメン屋を4軒はしごした",
+            "vi": "Trong 1 ngày đi chầu chực ăn ở 4 quán ramen liên tiếp",
+            "en": "Bar-hopped 4 ramen shops in one day"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_46_2",
+        "word": "一軒家",
+        "hiragana": "いっけんや",
+        "hanVietWord": "NHẤT HIÊN GIA",
+        "meaning": {
+          "vi": "Nhà nguyên căn, nhà riêng",
+          "en": "Detached house, single-family home"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "将来、一軒家を建てたい",
+            "vi": "Tương lai, tôi muốn xây một căn nhà riêng",
+            "en": "In the future, I want to build a detached house"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_47",
+    "character": "玄",
+    "hanViet": "HUYỀN",
+    "onyomi": "ゲン",
+    "mnemonic": "Cái đầu (亠) của yêu (幺) tinh rất là HUYỀN (玄) bí",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_47_1",
+        "word": "玄米",
+        "hiragana": "げんまい",
+        "hanVietWord": "HUYỀN MỄ",
+        "meaning": {
+          "vi": "Gạo lứt",
+          "en": "Brown rice"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "カレーは、玄米で食べたい!",
+            "vi": "Tôi muốn ăn cà ri với gạo lứt!",
+            "en": "I want to eat curry with brown rice!"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_47_2",
+        "word": "玄人",
+        "hiragana": "くろうと",
+        "hanVietWord": "HUYỀN NHÂN",
+        "meaning": {
+          "vi": "Chuyên gia, người sành sỏi",
+          "en": "Expert, professional"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_48",
+    "character": "壁",
+    "hanViet": "BÍCH",
+    "kunyomi": "かべ",
+    "onyomi": "ヘキ",
+    "mnemonic": "Tường (壁) được xây bằng đất (土) của miệng (口) đời bao cay đắng (辛) của Lầu Ngưng BÍCH",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_48_1",
+        "word": "壁",
+        "hiragana": "かべ",
+        "hanVietWord": "BÍCH",
+        "meaning": {
+          "vi": "Bức tường, rào cản",
+          "en": "Wall, barrier"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "あの人は誰にでも壁がある",
+            "vi": "Người đó đối với ai cũng tạo ra một bức tường khoảng cách",
+            "en": "That person puts up a wall with anyone"
+          },
+          {
+            "jp": "壁にぶつかたら、乗り越えればいい",
+            "vi": "Nếu va phải rào cản, thì cứ vượt qua là được",
+            "en": "If you hit a wall, just overcome it"
+          },
+          {
+            "jp": "壁ドン",
+            "vi": "Hành động đập tay vào tường (thường dùng trong truyện tranh tình cảm)",
+            "en": "Kabe-don (hitting the wall with a hand, often in romance)"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_48_2",
+        "word": "壁画",
+        "hiragana": "へきが",
+        "hanVietWord": "BÍCH HỌA",
+        "meaning": {
+          "vi": "Bích họa (tranh vẽ trên tường)",
+          "en": "Fresco, mural"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "すばらしい壁画だ!",
+            "vi": "Quả là một bức bích họa tuyệt vời!",
+            "en": "What a wonderful mural!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_49",
+    "character": "契",
+    "hanViet": "KHẾ/TIẾT",
+    "onyomi": "ケイ",
+    "mnemonic": "Ông chủ (主) cầm đao (刀) to (大) làm KHẾ ước (契約)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_49_1",
+        "word": "契約",
+        "hiragana": "けいやく",
+        "hanVietWord": "KHẾ ƯỚC",
+        "meaning": {
+          "vi": "Hợp đồng",
+          "en": "Contract, agreement"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "A 会社と契約をする",
+            "vi": "Ký hợp đồng với công ty A",
+            "en": "Sign a contract with company A"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_49_2",
+        "word": "雇用契約書",
+        "hiragana": "こようけいやくしょ",
+        "hanVietWord": "CỐ DỤNG KHẾ ƯỚC THƯ",
+        "meaning": {
+          "vi": "Hợp đồng lao động",
+          "en": "Employment contract"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "雇用契約書にサインする",
+            "vi": "Ký vào hợp đồng lao động",
+            "en": "Sign the employment contract"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_50",
+    "character": "証",
+    "hanViet": "CHỨNG",
+    "onyomi": "ショウ",
+    "mnemonic": "Lời nói (言) chính xác (正) được đưa ra làm CHỨNG (証)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_50_1",
+        "word": "保証人",
+        "hiragana": "ほしょうにん",
+        "hanVietWord": "BẢO CHỨNG NHÂN",
+        "meaning": {
+          "vi": "Người bảo lãnh",
+          "en": "Guarantor"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この家を借りるには保証人が必要です",
+            "vi": "Để thuê căn nhà này thì cần có người bảo lãnh",
+            "en": "A guarantor is needed to rent this house"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_50_2",
+        "word": "学生証",
+        "hiragana": "がくせいしょう",
+        "hanVietWord": "HỌC SINH CHỨNG",
+        "meaning": {
+          "vi": "Thẻ học sinh / sinh viên",
+          "en": "Student ID card"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_04_50_3",
+        "word": "免許証",
+        "hiragana": "めんきょしょう",
+        "hanVietWord": "MIỄN HỨA CHỨNG",
+        "meaning": {
+          "vi": "Giấy phép (thường chỉ bằng lái xe)",
+          "en": "License (often driver's license)"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_04_50_4",
+        "word": "証明",
+        "hiragana": "しょうめい",
+        "hanVietWord": "CHỨNG MINH",
+        "meaning": {
+          "vi": "Chứng minh",
+          "en": "Proof, verification"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "学生証や免許証は身元を証明するものである",
+            "vi": "Thẻ học sinh và giấy phép lái xe là những thứ để chứng minh danh tính",
+            "en": "Student IDs and driver's licenses are things that prove one's identity"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_51",
+    "character": "域",
+    "hanViet": "VỰC",
+    "onyomi": "イキ",
+    "mnemonic": "Khu VỰC (地域) là 1 mảnh đất (土) có hình vuông (口) bên trong có 1 người cầm dao (戈)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_51_1",
+        "word": "地域",
+        "hiragana": "ちいき",
+        "hanVietWord": "ĐỊA VỰC",
+        "meaning": {
+          "vi": "Khu vực, vùng",
+          "en": "Area, region"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_04_51_2",
+        "word": "区域",
+        "hiragana": "くいき",
+        "hanVietWord": "KHU VỰC",
+        "meaning": {
+          "vi": "Khu vực, phạm vi",
+          "en": "Zone, district"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "立ち入り禁止区域",
+            "vi": "Khu vực cấm vào",
+            "en": "Restricted area (No entry zone)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_52",
+    "character": "届",
+    "hanViet": "GIỚI",
+    "kunyomi": "とど-ける, とど-く",
+    "mnemonic": "Lý do (理由) đến cửa nhà (戸) người khác là để giao (届) hành lý",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_52_1",
+        "word": "届く",
+        "hiragana": "とどく",
+        "hanVietWord": "GIỚI",
+        "meaning": {
+          "vi": "Tới, vươn tới, được giao đến",
+          "en": "To reach, to arrive, to be delivered"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "荷物は手の届かないところにある",
+            "vi": "Hành lý ở nơi mà tay không với tới được",
+            "en": "The luggage is out of reach"
+          },
+          {
+            "jp": "今日頼んだら明日には届く",
+            "vi": "Nếu đặt hôm nay thì ngày mai sẽ giao tới",
+            "en": "If ordered today, it will arrive tomorrow"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_52_2",
+        "word": "届ける",
+        "hiragana": "とどける",
+        "hanVietWord": "GIỚI",
+        "meaning": {
+          "vi": "Chuyển đến, gửi đến, giao hàng",
+          "en": "To deliver, to send"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "人に笑顔を届ける",
+            "vi": "Gửi nụ cười đến cho mọi người",
+            "en": "Deliver smiles to people"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_52_3",
+        "word": "欠席届",
+        "hiragana": "けっせきとどけ",
+        "hanVietWord": "KHIẾM TỊCH GIỚI",
+        "meaning": {
+          "vi": "Đơn xin nghỉ học / nghỉ làm",
+          "en": "Notice of absence"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "欠席届を出す",
+            "vi": "Nộp đơn xin phép nghỉ",
+            "en": "Submit a notice of absence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_53",
+    "character": "招",
+    "hanViet": "CHIÊU",
+    "kunyomi": "まね-く",
+    "onyomi": "ショウ",
+    "mnemonic": "Cầm 1 thanh kiếm (刀) trong tay (手), nấu ăn và mời (招待) bạn bè ăn bằng miệng(口)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_53_1",
+        "word": "招く",
+        "hiragana": "まねく",
+        "hanVietWord": "CHIÊU",
+        "meaning": {
+          "vi": "Mời, dẫn đến (hậu quả)",
+          "en": "To invite, to incur/cause"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "友達を家に招く",
+            "vi": "Mời bạn đến nhà",
+            "en": "Invite a friend to the house"
+          },
+          {
+            "jp": "誤解を招く行動",
+            "vi": "Hành động dẫn đến/gây ra sự hiểu lầm",
+            "en": "Behavior that invites misunderstanding"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_53_2",
+        "word": "招待",
+        "hiragana": "しょうたい",
+        "hanVietWord": "CHIÊU ĐÃI",
+        "meaning": {
+          "vi": "Mời, chiêu đãi",
+          "en": "Invitation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "友達を LINE に招待する",
+            "vi": "Mời bạn bè qua LINE",
+            "en": "Invite friends on LINE"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_53_3",
+        "word": "招待状",
+        "hiragana": "しょうたいじょう",
+        "hanVietWord": "CHIÊU ĐÃI TRẠNG",
+        "meaning": {
+          "vi": "Thiệp mời, giấy mời",
+          "en": "Letter of invitation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "結婚式の招待状を送る",
+            "vi": "Gửi thiệp mời đám cưới",
+            "en": "Send a wedding invitation"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_53_4",
+        "word": "招集",
+        "hiragana": "しょうしゅう",
+        "hanVietWord": "CHIÊU TẬP",
+        "meaning": {
+          "vi": "Triệu tập",
+          "en": "Calling together, convening"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "海外にいる選手たちを招集する",
+            "vi": "Triệu tập các tuyển thủ đang ở nước ngoài về",
+            "en": "Convene players who are overseas"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_54",
+    "character": "贈",
+    "hanViet": "TẶNG",
+    "kunyomi": "おく-る",
+    "onyomi": "ゾウ",
+    "mnemonic": "Trong 1 ngày (日) TẶNG (贈) 1 mảnh ruộng (田) và 1 con sò (貝) cho bạn",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_54_1",
+        "word": "贈る",
+        "hiragana": "おくる",
+        "hanVietWord": "TẶNG",
+        "meaning": {
+          "vi": "Tặng",
+          "en": "To give (a gift)"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "好きな人にプレゼントを贈る",
+            "vi": "Tặng quà cho người mình thích",
+            "en": "Give a present to the person I like"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_54_2",
+        "word": "寄贈",
+        "hiragana": "きぞう",
+        "hanVietWord": "KÍ TẶNG",
+        "meaning": {
+          "vi": "Quyên tặng, biếu tặng",
+          "en": "Donation, presentation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "図書館に図書を寄贈する",
+            "vi": "Quyên tặng sách cho thư viện",
+            "en": "Donate books to the library"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_55",
+    "character": "寮",
+    "hanViet": "LIÊU",
+    "onyomi": "リョウ",
+    "mnemonic": "Ngôi nhà (宀) nơi bạn ở từ nhỏ (小) tới lớn (大) cả ngày (日) là ký túc xá (寮)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_55_1",
+        "word": "学生寮",
+        "hiragana": "がくせいりょう",
+        "hanVietWord": "HỌC SINH LIÊU",
+        "meaning": {
+          "vi": "Ký túc xá học sinh/sinh viên",
+          "en": "Student dormitory"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_04_55_2",
+        "word": "社員寮",
+        "hiragana": "しゃいんりょう",
+        "hanVietWord": "XÃ VIÊN LIÊU",
+        "meaning": {
+          "vi": "Ký túc xá nhân viên",
+          "en": "Company dormitory for employees"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": []
+      },
+      {
+        "id": "kw_rkn2_04_55_3",
+        "word": "会社寮",
+        "hiragana": "かいしゃりょう",
+        "hanVietWord": "HỘI XÃ LIÊU",
+        "meaning": {
+          "vi": "Ký túc xá công ty",
+          "en": "Company dormitory"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "同僚と会社寮に住む",
+            "vi": "Sống trong ký túc xá công ty cùng với đồng nghiệp",
+            "en": "Live in the company dormitory with a colleague"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_56",
+    "character": "隣",
+    "hanViet": "LÂN",
+    "kunyomi": "とな-る, となり",
+    "onyomi": "リン",
+    "mnemonic": "Hàng xóm (隣) sát vách tối (夕) lửa tắt đèn nấu cơm (米) cho nhau năm này qua năm khác (年)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_56_1",
+        "word": "隣",
+        "hiragana": "となり",
+        "hanVietWord": "LÂN",
+        "meaning": {
+          "vi": "Bên cạnh, hàng xóm",
+          "en": "Next to, neighbor"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "好きな子と隣の席になる",
+            "vi": "Được ngồi ghế bên cạnh người mình thích",
+            "en": "Got a seat next to the child I like"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_56_2",
+        "word": "隣接",
+        "hiragana": "りんせつ",
+        "hanVietWord": "LÂN TIẾP",
+        "meaning": {
+          "vi": "Sự tiếp giáp, lân cận",
+          "en": "Adjacency, bordering"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "埼玉は東京に隣接している",
+            "vi": "Saitama nằm tiếp giáp với Tokyo",
+            "en": "Saitama is adjacent to Tokyo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_04_57",
+    "character": "狭",
+    "hanViet": "HIỆP",
+    "kunyomi": "せま-い, せば-める",
+    "mnemonic": "Loài chó (犭) thì thường suy nghĩ hạn hẹp (狭)",
+    "level": "N2",
+    "lesson": "Buổi 4",
+    "words": [
+      {
+        "id": "kw_rkn2_04_57_1",
+        "word": "狭い",
+        "hiragana": "せまい",
+        "hanVietWord": "HIỆP",
+        "meaning": {
+          "vi": "Chật, hẹp",
+          "en": "Narrow, small (space)"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "この部屋、ちょっと狭いですね。",
+            "vi": "Căn phòng này hơi chật nhỉ.",
+            "en": "This room is a bit small, isn't it?"
+          },
+          {
+            "jp": "彼は視野が狭いため、重要なことに気づかない",
+            "vi": "Bởi vì tầm nhìn của anh ta hạn hẹp nên không nhận ra những điều quan trọng",
+            "en": "Because his field of vision is narrow, he doesn't notice important things"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_04_57_2",
+        "word": "狭める",
+        "hiragana": "せばめる",
+        "hanVietWord": "HIỆP",
+        "meaning": {
+          "vi": "Thu hẹp lại",
+          "en": "To narrow, to contract"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "ズボンの幅を狭める",
+            "vi": "Thu hẹp chiều rộng của ống quần",
+            "en": "Narrow the width of the pants"
+          }
+        ]
+      }
+    ]
+  }
+]

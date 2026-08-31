@@ -1,0 +1,301 @@
+[
+  {
+    "id": "g_rkn2_01_01",
+    "level": "N2",
+    "structure": "〜一方だ",
+    "structureKana": "〜いっぽうだ",
+    "meaning": {
+      "vi": "Càng ngày càng...",
+      "en": "More and more... / Continue to..."
+    },
+    "formation": [
+      "Vる + 一方だ"
+    ],
+    "lesson": "Bài 1",
+    "group": "Change",
+    "confusedWith": [
+      "〜ばかりだ"
+    ],
+    "caution": {
+      "vi": "Diễn tả tình trạng biến đổi theo một chiều hướng nhất định (có thể là chiều hướng tốt hoặc xấu, nhưng thường nhấn mạnh sự tiếp diễn không ngừng). So với cách nói 「〜ばかりだ」thì văn phong cứng hơn.",
+      "en": "Expresses a continuous change in one direction. Compared to 「〜ばかりだ」, it is more formal."
+    },
+    "examples": [
+      {
+        "jp": "ここ数年、ベトナム人留学生の数は増える[一方だ]。",
+        "kana": "ここすうねん、ベトナムじんりゅうがくせいの数はふえる[いっぽうだ]。",
+        "vi": "Vài năm gần đây, số lượng du học sinh Việt Nam [càng ngày càng] tăng.",
+        "en": "In recent years, the number of Vietnamese international students continues to increase."
+      },
+      {
+        "jp": "彼の今後の活躍に周囲の期待は高まる[一方だ]。",
+        "kana": "かれのこんごのかつやくにしゅういのきたいはたかまる[いっぽうだ]。",
+        "vi": "Kỳ vọng của những người xung quanh vào hoạt động sắp tới của anh ấy [ngày càng] tăng cao.",
+        "en": "The expectations of those around him for his future activities continue to rise."
+      },
+      {
+        "jp": "家の中は要らない物が増える[一方だ]。",
+        "kana": "いえのなかはいらないものがふえる[いっぽうだ]。",
+        "vi": "Những đồ không cần thiết trong nhà [ngày càng] tăng lên.",
+        "en": "The unneeded things inside the house continue to increase."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_01_02",
+    "level": "N2",
+    "structure": "〜上で",
+    "structureKana": "〜うえで",
+    "meaning": {
+      "vi": "Sau khi... / Về mặt..., trong quá trình...",
+      "en": "Upon... / When doing..., in the process of..."
+    },
+    "formation": [
+      "Vた + 上で (Sau khi)",
+      "N + の上で (Sau khi)",
+      "Vる + 上で (Trong quá trình, về mặt)"
+    ],
+    "lesson": "Bài 1",
+    "group": "Condition_Time",
+    "confusedWith": [
+      "〜てから",
+      "〜に際して"
+    ],
+    "caution": {
+      "vi": "1. 「た上で」: Phải làm hành động 1 (như một điều kiện chuẩn bị) rồi mới làm hành động 2. 2. 「る上で」: Đưa ra lời khuyên hoặc nhấn mạnh tầm quan trọng trong quá trình làm việc gì đó. Thường dùng trong văn phong trang trọng.",
+      "en": "1. 「た上で」: Must do action 1 as a prerequisite before doing action 2. 2. 「る上で」: Gives advice or emphasizes importance during a process. Used in formal contexts."
+    },
+    "examples": [
+      {
+        "jp": "スケジュールを確認した[上で]、すぐ答えます。",
+        "kana": "スケジュールをかくにんした[うえで]、すぐこたえます。",
+        "vi": "[Sau khi] xác nhận lịch trình, tôi sẽ trả lời ngay.",
+        "en": "[Upon] checking the schedule, I will answer immediately."
+      },
+      {
+        "jp": "お電話でご予約の[上]、ご来店いただけませんでしょうか？",
+        "kana": "おでんわでごよやくの[うえ]、ごらいてんいただけませんでしょうか？",
+        "vi": "Quý khách có thể vui lòng đến quán [sau khi] đặt trước qua điện thoại được không ạ?",
+        "en": "Could you please come to the store [after] making a reservation by phone?"
+      },
+      {
+        "jp": "結婚生活を送る[うえで]何が大切かといえば、パートナーに対する誠実さだと思う。",
+        "kana": "けっこんせいかつをおくる[うえで]なにがたいせつかといえば、パートナーにたいするせいじつさだとおもう。",
+        "vi": "[Trong quá trình] chung sống, điều quan trọng nhất chính là sự chân thành với đối phương.",
+        "en": "[When] leading a married life, the most important thing is sincerity towards your partner."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_01_03",
+    "level": "N2",
+    "structure": "〜ようとする",
+    "structureKana": "〜ようとする",
+    "meaning": {
+      "vi": "Định làm... / Vừa mới định làm...",
+      "en": "Try to... / Be about to..."
+    },
+    "formation": [
+      "V (thể ý chí) + ようとする"
+    ],
+    "lesson": "Bài 1",
+    "group": "Action_Attempt",
+    "confusedWith": [
+      "〜ところだ"
+    ],
+    "caution": {
+      "vi": "Diễn tả việc đang định làm gì đó hoặc cố gắng làm gì đó nhưng thường là không thành công hoặc bị ngắt quãng bởi một sự việc khác.",
+      "en": "Expresses an attempt or intention to do something, often implying the action was unsuccessful or interrupted by something else."
+    },
+    "examples": [
+      {
+        "jp": "かばんからカメラを取り出そうと[している]うちに彼女は車に乗ってしまった。",
+        "kana": "かばんからカメラをとりだそうと[している]うちにかのじょはくるまにのってしまった。",
+        "vi": "Trong lúc tôi [đang loay hoay định] lấy máy ảnh ra khỏi túi thì cô ấy đã lên xe mất rồi.",
+        "en": "While I was [trying to] take the camera out of my bag, she got into the car."
+      },
+      {
+        "jp": "バスに乗ろうと[した]が、人が多くて結局乗れなかった。",
+        "kana": "バスにのろうと[した]が、ひとがおおくてけっきょくのれなかった。",
+        "vi": "Tôi [đã định] lên xe buýt nhưng đông người quá rốt cuộc không lên được.",
+        "en": "I [tried to] get on the bus, but there were too many people, so I ended up not being able to."
+      },
+      {
+        "jp": "好きな人に告白しようと[した]が、急に恥ずかしくなって何も言えなかった。",
+        "kana": "すきなひとにこくはくしようと[した]が、きゅうにはずかしくなってなにもいえなかった。",
+        "vi": "Tôi [đã định] tỏ tình với người mình thích, nhưng đột nhiên thấy xấu hổ nên không nói được gì cả.",
+        "en": "I [was about to] confess to the person I like, but suddenly felt embarrassed and couldn't say anything."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_01_04",
+    "level": "N2",
+    "structure": "〜欠かさず / 欠かせない",
+    "structureKana": "〜かかさず / かかせない",
+    "meaning": {
+      "vi": "Không thể thiếu / Không bỏ sót...",
+      "en": "Without fail / Indispensable"
+    },
+    "formation": [
+      "N + に欠かせない (Không thể thiếu đối với N)",
+      "Vる・N + を欠かさず (Không bỏ sót, đều đặn làm)"
+    ],
+    "lesson": "Bài 1",
+    "group": "Necessity_Habit",
+    "confusedWith": [],
+    "caution": {
+      "vi": "1. 「欠かさず」: Nhấn mạnh việc làm gì đó đều đặn, không sót ngày nào. 2. 「欠かせない」: Nhấn mạnh điều gì đó rất quan trọng, tuyệt đối không thể thiếu.",
+      "en": "1. 「欠かさず」: Emphasizes doing something regularly without missing a single time. 2. 「欠かせない」: Emphasizes that something is very important and absolutely indispensable."
+    },
+    "examples": [
+      {
+        "jp": "1日も[欠かさず]日記を書くなんて、その努力はすごいと思う。",
+        "kana": "いちにちも[かかさず]にっきをかくなんて、そのどりょくはすごいとおもう。",
+        "vi": "Viết nhật ký không [bỏ sót] ngày nào, tôi nghĩ sự nỗ lực đó thật tuyệt vời.",
+        "en": "I think the effort to write a diary without [missing] a single day is amazing."
+      },
+      {
+        "jp": "みそは日本食を作るのに[欠かせない]調味料です。",
+        "kana": "みそはにほんしょくをつくるのに[かかせない]ちょうみりょうです。",
+        "vi": "Miso là một loại gia vị [không thể thiếu] khi nấu món ăn Nhật.",
+        "en": "Miso is an [indispensable] seasoning for making Japanese food."
+      },
+      {
+        "jp": "私たちの生活において自動車は[欠かせない]存在になっています。",
+        "kana": "わたしたちのせいかつにおいてじどうしゃは[かかせない]そんざいになっています。",
+        "vi": "Trong cuộc sống của chúng ta, ô tô đã trở thành một thứ [không thể thiếu].",
+        "en": "In our lives, cars have become an [indispensable] presence."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_01_05",
+    "level": "N2",
+    "structure": "〜ことはない・こともない",
+    "structureKana": "〜ことはない・こともない",
+    "meaning": {
+      "vi": "Không cần phải... / Việc gì phải...",
+      "en": "There is no need to..."
+    },
+    "formation": [
+      "Vる + ことはない"
+    ],
+    "lesson": "Bài 1",
+    "group": "Necessity",
+    "confusedWith": [
+      "〜必要がない"
+    ],
+    "caution": {
+      "vi": "Thường dùng để khuyên nhủ ai đó không cần thiết phải làm một việc gì đó, hoặc không làm cũng không sao. Thường đi kèm với 「わざわざ」.",
+      "en": "Often used to advise someone that it is not necessary to do something. Frequently accompanied by 「わざわざ」."
+    },
+    "examples": [
+      {
+        "jp": "大学の合格発表はネットでも見れるからわざわざ大学まで行く[ことはない]。",
+        "kana": "だいがくのごうかくはっぴょうはネットでもみれるからわざわざだいがくまでいく[ことはない]。",
+        "vi": "Kết quả trúng tuyển đại học có thể xem trên mạng nên [không cần phải] cất công đến tận trường làm gì.",
+        "en": "University acceptance results can be seen online, so there is [no need to] go all the way to the university."
+      },
+      {
+        "jp": "この仕事、本当に向いてないと思うなら、無理して続ける[こともない]。",
+        "kana": "このしごと、ほんとうにむいてないとおもうなら、むりしてつづける[こともない]。",
+        "vi": "Nếu thực sự thấy không hợp với công việc này thì [không cần phải] cố gắng tiếp tục đâu.",
+        "en": "If you really think you're not suited for this job, there's [no need to] force yourself to continue."
+      },
+      {
+        "jp": "熱が多少あっても、元気に遊んでいるなら、慌てる[ことはありません]。",
+        "kana": "ねつがたしょうあっても、げんきにあそんでいるなら、あわてる[ことはありません]。",
+        "vi": "Dù có sốt một chút mà bé vẫn đang chơi ngoan thì [không cần phải] cuống lên đâu.",
+        "en": "Even if they have a slight fever, if they are playing happily, there is [no need to] panic."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_01_06",
+    "level": "N2",
+    "structure": "〜さえ・すら",
+    "structureKana": "〜さえ・すら",
+    "meaning": {
+      "vi": "Đến cả, thậm chí, ngay cả...",
+      "en": "Even..."
+    },
+    "formation": [
+      "N + さえ",
+      "N + すら",
+      "N + でさえ / ですら"
+    ],
+    "lesson": "Bài 1",
+    "group": "Emphasis",
+    "confusedWith": [
+      "〜も"
+    ],
+    "caution": {
+      "vi": "Dùng để đưa ra một ví dụ ở mức độ cực đoan (cao nhất/thấp nhất) để ngụ ý rằng những thứ khác thì khỏi phải nói. 「すら」thường mang sắc thái tiêu cực hoặc bất ngờ hơn.",
+      "en": "Used to give an extreme example to imply that other things go without saying. 「すら」often carries a more negative or surprising nuance."
+    },
+    "examples": [
+      {
+        "jp": "両親に[すら]なぐられたことはなかったのに…",
+        "kana": "りょうしんに[すら]なぐられたことはなかったのに…",
+        "vi": "[Ngay cả] bố mẹ còn chưa từng đánh tôi bao giờ vậy mà...",
+        "en": "[Even] my parents have never hit me, and yet..."
+      },
+      {
+        "jp": "彼、質問の内容[すら]理解できてないんじゃない？",
+        "kana": "かれ、しつもんのないよう[すら]りかいできてないんじゃない？",
+        "vi": "Anh ta [đến cả] nội dung câu hỏi hình như còn chưa hiểu thì phải?",
+        "en": "Doesn't it seem like he can't [even] understand the content of the question?"
+      },
+      {
+        "jp": "プロ[でさえ]失敗するぐらいこれは難しい。",
+        "kana": "プロ[でさえ]しっぱいするぐらいこれはむずかしい。",
+        "vi": "Cái này khó đến mức [ngay cả] dân chuyên nghiệp cũng sẽ thất bại.",
+        "en": "This is so difficult that [even] professionals would fail."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_01_07",
+    "level": "N2",
+    "structure": "〜次第",
+    "structureKana": "〜しだい",
+    "meaning": {
+      "vi": "Ngay sau khi...",
+      "en": "As soon as..."
+    },
+    "formation": [
+      "Vます (bỏ ます) + 次第"
+    ],
+    "lesson": "Bài 1",
+    "group": "Time_Condition",
+    "confusedWith": [
+      "〜たらすぐに",
+      "〜たとたん"
+    ],
+    "caution": {
+      "vi": "Diễn tả hành động diễn ra ngay lập tức sau khi hành động trước hoàn thành. Rất hay dùng trong môi trường công sở (ビジネス用語) hoặc thông báo trang trọng. Không dùng cho thì quá khứ.",
+      "en": "Expresses an action taking place immediately after the completion of the previous action. Very often used in business contexts or formal announcements. Not used for past events."
+    },
+    "examples": [
+      {
+        "jp": "田中が戻り[次第]、連絡いたします。",
+        "kana": "たなかがもどり[しだい]、れんらくいたします。",
+        "vi": "[Ngay sau khi] Tanaka quay lại, tôi sẽ liên lạc.",
+        "en": "[As soon as] Tanaka returns, I will contact you."
+      },
+      {
+        "jp": "場所が決まり[次第]、お知らせします。",
+        "kana": "ばしょがきまり[しだい]、おしらせします。",
+        "vi": "[Ngay sau khi] quyết định được địa điểm, chúng tôi sẽ thông báo.",
+        "en": "We will inform you [as soon as] the location is decided."
+      },
+      {
+        "jp": "雨が止み[次第]、捜査を再開しましょう。",
+        "kana": "あめがやみ[しだい]、そうさをさいかいしましょう。",
+        "vi": "[Ngay sau khi] tạnh mưa, chúng ta hãy tiếp tục việc tìm kiếm.",
+        "en": "[As soon as] the rain stops, let's resume the search."
+      }
+    ]
+  }
+]

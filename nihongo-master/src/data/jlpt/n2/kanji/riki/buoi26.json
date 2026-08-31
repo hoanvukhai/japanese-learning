@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "k_rkn2_26_358",
+    "character": "模",
+    "hanViet": "MÔ",
+    "onyomi": "ボ, モ",
+    "mnemonic": "MÔ hình trồng Cây (木) Cỏ (艹) trên Nắng (日) Lớn (大)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_358_1",
+        "word": "大規模",
+        "hiragana": "だいきぼ",
+        "hanVietWord": "ĐẠI QUY MÔ",
+        "meaning": {
+          "vi": "Quy mô lớn",
+          "en": "Large-scale"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この辺りは明日から大規模な工事が行われる",
+            "vi": "Khu vực này từ ngày mai sẽ tiến hành thi công quy mô lớn",
+            "en": "Large-scale construction will take place in this area starting tomorrow"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_358_2",
+        "word": "模様",
+        "hiragana": "もよう",
+        "hanVietWord": "MÔ DẠNG",
+        "meaning": {
+          "vi": "Hoa văn, họa tiết",
+          "en": "Pattern, design"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "羊模様のワンピースを買った",
+            "vi": "Đã mua chiếc váy liền có họa tiết con cừu",
+            "en": "Bought a dress with a sheep pattern"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_358_3",
+        "word": "模擬試験",
+        "hiragana": "もぎしけん",
+        "hanVietWord": "MÔ NGHĨ THÍ NGHIỆM",
+        "meaning": {
+          "vi": "Kỳ thi thử",
+          "en": "Mock exam"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "JLPTの模擬試験を受ける",
+            "vi": "Tham gia kỳ thi thử JLPT",
+            "en": "Take the JLPT mock exam"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_358_4",
+        "word": "模索",
+        "hiragana": "もさく",
+        "hanVietWord": "MÔ TÁC",
+        "meaning": {
+          "vi": "Mò mẫm, tìm kiếm (hướng đi)",
+          "en": "Groping (for), exploring"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "解決方法を模索する",
+            "vi": "Tìm kiếm phương pháp giải quyết",
+            "en": "Explore solutions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_359",
+    "character": "範",
+    "hanViet": "PHẠM",
+    "onyomi": "ハン",
+    "mnemonic": "Ở rừng TRÚC (竹) Xe (車) chỉ được chạy trong PHẠM (範) VI cho phép",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_359_1",
+        "word": "模範的",
+        "hiragana": "もはんてき",
+        "hanVietWord": "MÔ PHẠM ĐÍCH",
+        "meaning": {
+          "vi": "Mang tính mẫu mực, gương mẫu",
+          "en": "Exemplary, model"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "グエンさんはいつも模範的な行動をしている",
+            "vi": "Nguyễn luôn có những hành động mẫu mực",
+            "en": "Mr. Nguyen always acts in an exemplary manner"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_359_2",
+        "word": "師範",
+        "hiragana": "しはん",
+        "hanVietWord": "SƯ PHẠM",
+        "meaning": {
+          "vi": "Sư phạm, người thầy, sư phụ",
+          "en": "Instructor, master, model"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "鈴木さんは師範の免許をもっている",
+            "vi": "Suzuki có bằng sư phạm/sư phụ",
+            "en": "Mr. Suzuki has a master instructor's license"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_359_3",
+        "word": "範囲",
+        "hiragana": "はんい",
+        "hanVietWord": "PHẠM VI",
+        "meaning": {
+          "vi": "Phạm vi",
+          "en": "Extent, scope, range"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "テスト範囲はここまでです",
+            "vi": "Phạm vi bài kiểm tra là đến đây",
+            "en": "The scope of the test is up to here"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_360",
+    "character": "幼",
+    "hanViet": "ẤU",
+    "kunyomi": "おさな-い",
+    "onyomi": "ヨウ",
+    "mnemonic": "Lực (力) mà nhỏ (幺) thì là bọn trẻ con (幼)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_360_1",
+        "word": "幼稚園",
+        "hiragana": "ようちえん",
+        "hanVietWord": "ẤU TRĨ VIÊN",
+        "meaning": {
+          "vi": "Trường mẫu giáo",
+          "en": "Kindergarten"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "姉の子どもは今年、幼稚園に入園する",
+            "vi": "Con của chị gái năm nay sẽ vào trường mẫu giáo",
+            "en": "My sister's child will enter kindergarten this year"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_360_2",
+        "word": "幼少期",
+        "hiragana": "ようしょうき",
+        "hanVietWord": "ẤU THIẾU KÌ",
+        "meaning": {
+          "vi": "Thời thơ ấu",
+          "en": "Childhood"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "幼少期から習字をならっている",
+            "vi": "Học thư pháp từ thời thơ ấu",
+            "en": "Learning calligraphy since childhood"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_360_3",
+        "word": "幼児",
+        "hiragana": "ようじ",
+        "hanVietWord": "ẤU NHI",
+        "meaning": {
+          "vi": "Trẻ thơ, trẻ nhỏ",
+          "en": "Infant, young child"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "幼児は大人代金の半額でいい",
+            "vi": "Trẻ con thì giá vé bằng một nửa người lớn là được",
+            "en": "Infants pay half the adult fare"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_360_4",
+        "word": "幼い",
+        "hiragana": "おさない",
+        "hanVietWord": "ẤU",
+        "meaning": {
+          "vi": "Ngây thơ, non nớt",
+          "en": "Very young, childish, immature"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "幼い考え",
+            "vi": "Suy nghĩ non nớt/ấu trĩ",
+            "en": "Childish thought"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_361",
+    "character": "稚",
+    "hanViet": "TRĨ",
+    "onyomi": "チ",
+    "mnemonic": "Con chim (隹) trĩ (稚) đang ăn lúa (禾) NON",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_361_1",
+        "word": "幼稚",
+        "hiragana": "ようち",
+        "hanVietWord": "ẤU TRĨ",
+        "meaning": {
+          "vi": "Ấu trĩ, trẻ con",
+          "en": "Childish, immature"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼女から幼稚な発言しないで、と注意された",
+            "vi": "Bị cô ấy nhắc nhở là đừng có phát ngôn ấu trĩ nữa",
+            "en": "I was warned by her not to make childish remarks"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_362",
+    "character": "継",
+    "hanViet": "KẾ",
+    "kunyomi": "つ-ぐ",
+    "onyomi": "ケイ",
+    "mnemonic": "Liên tục (継) buộc dây (糸) vào gạo (米)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_362_1",
+        "word": "継続",
+        "hiragana": "けいぞく",
+        "hanVietWord": "KẾ TỤC",
+        "meaning": {
+          "vi": "Sự tiếp tục, duy trì",
+          "en": "Continuation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "語学は継続して続けることが大切だ",
+            "vi": "Việc học ngoại ngữ thì duy trì liên tục là rất quan trọng",
+            "en": "It is important to continue learning languages"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_362_2",
+        "word": "生中継",
+        "hiragana": "なまちゅうけい",
+        "hanVietWord": "SINH TRUNG KẾ",
+        "meaning": {
+          "vi": "Truyền hình trực tiếp",
+          "en": "Live broadcast"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "レッドカーペットから生中継されている",
+            "vi": "Đang được truyền hình trực tiếp từ thảm đỏ",
+            "en": "Broadcast live from the red carpet"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_362_3",
+        "word": "後継者",
+        "hiragana": "こうけいしゃ",
+        "hanVietWord": "HẬU KẾ GIẢ",
+        "meaning": {
+          "vi": "Người thừa kế, người kế nhiệm",
+          "en": "Successor"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "農家は後継者不足に悩んでいる",
+            "vi": "Nông dân đang đau đầu vì thiếu người kế nhiệm",
+            "en": "Farmers are troubled by a lack of successors"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_362_4",
+        "word": "引継ぎ",
+        "hiragana": "ひきつぎ",
+        "hanVietWord": "DẪN KẾ",
+        "meaning": {
+          "vi": "Sự bàn giao (công việc)",
+          "en": "Handover, taking over"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "引継ぎ",
+            "vi": "Sự bàn giao",
+            "en": "Handover"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_363",
+    "character": "恥",
+    "hanViet": "SỈ",
+    "kunyomi": "はじ, は-ずかしい",
+    "mnemonic": "Xấu hổ (恥) khi áp tai (耳) vào trái tim (心) để nghe âm thanh",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_363_1",
+        "word": "恥",
+        "hiragana": "はじ",
+        "hanVietWord": "SỈ",
+        "meaning": {
+          "vi": "Sự xấu hổ",
+          "en": "Shame, disgrace"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "恥を知らない人ですね。",
+            "vi": "Thật là người không biết xấu hổ nhỉ.",
+            "en": "What a shameless person."
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_363_2",
+        "word": "恥ずかしい",
+        "hiragana": "はずかしい",
+        "hanVietWord": "SỈ",
+        "meaning": {
+          "vi": "Xấu hổ, ngượng ngùng",
+          "en": "Shameful, embarrassing, shy"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "この場から消えたいほど恥ずかしい...",
+            "vi": "Xấu hổ đến mức muốn biến mất khỏi chỗ này...",
+            "en": "So embarrassed that I want to disappear from this place..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_364",
+    "character": "旬",
+    "hanViet": "TUẦN",
+    "onyomi": "シュン, ジュン",
+    "mnemonic": "Bao (勹) cả tuần (旬) bằng 10 ngày (日)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_364_1",
+        "word": "初旬",
+        "hiragana": "しょじゅん",
+        "hanVietWord": "SƠ TUẦN",
+        "meaning": {
+          "vi": "10 ngày đầu của tháng (từ ngày 1 đến 10)",
+          "en": "The first 10 days of the month"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "来月の初旬には結果がわかると思います",
+            "vi": "Tôi nghĩ vào đầu tháng tới sẽ biết kết quả",
+            "en": "I think we will know the result early next month"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_364_2",
+        "word": "中旬",
+        "hiragana": "ちゅうじゅん",
+        "hanVietWord": "TRUNG TUẦN",
+        "meaning": {
+          "vi": "10 ngày giữa của tháng (từ ngày 11 đến 20)",
+          "en": "The middle 10 days of the month"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "6月中旬には梅雨も明けるでしょう",
+            "vi": "Có lẽ mùa mưa sẽ kết thúc vào giữa tháng 6",
+            "en": "The rainy season will probably end in mid-June"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_364_3",
+        "word": "下旬",
+        "hiragana": "げじゅん",
+        "hanVietWord": "HẠ TUẦN",
+        "meaning": {
+          "vi": "10 ngày cuối của tháng (từ ngày 21 đến cuối tháng)",
+          "en": "The last third of the month"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "桜は、3月の下旬頃に咲く予定ですよ",
+            "vi": "Hoa anh đào dự kiến sẽ nở vào khoảng cuối tháng 3 đấy",
+            "en": "Cherry blossoms are scheduled to bloom around late March"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_364_4",
+        "word": "旬",
+        "hiragana": "しゅん",
+        "hanVietWord": "TUẦN",
+        "meaning": {
+          "vi": "Đúng mùa, mùa vụ (thời điểm ngon nhất)",
+          "en": "Season (e.g. for fruit), time of best flavor"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今、旬の魚はマグロですよ",
+            "vi": "Bây giờ, loại cá đúng mùa (ngon nhất) là cá ngừ đấy",
+            "en": "Right now, the fish in season is tuna"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_365",
+    "character": "補",
+    "hanViet": "BỔ",
+    "kunyomi": "おぎな-う",
+    "onyomi": "ホ",
+    "mnemonic": "Bổ (補) sung thêm bộ y (衤) phục để sử dụng",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_365_1",
+        "word": "補給",
+        "hiragana": "ほきゅう",
+        "hanVietWord": "BỔ CẤP",
+        "meaning": {
+          "vi": "Sự bổ sung, cung cấp thêm",
+          "en": "Supply, replenishment"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "今日は暑いので、水分をこまめに補給してくださいね",
+            "vi": "Hôm nay trời nóng nên hãy thường xuyên bổ sung nước nhé",
+            "en": "It's hot today, so please stay hydrated frequently"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_365_2",
+        "word": "候補",
+        "hiragana": "こうほ",
+        "hanVietWord": "HẬU BỔ",
+        "meaning": {
+          "vi": "Ứng cử viên, sự lựa chọn",
+          "en": "Candidate, choice"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼女にいくつかお店の候補を出して選んでもらう",
+            "vi": "Đưa ra vài lựa chọn cửa hàng cho cô ấy chọn",
+            "en": "Give her some choices of restaurants to choose from"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_365_3",
+        "word": "補足",
+        "hiragana": "ほそく",
+        "hanVietWord": "BỔ TÚC",
+        "meaning": {
+          "vi": "Sự bổ sung, phần bổ sung thêm (giải thích)",
+          "en": "Supplement, addition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "説明を補足する",
+            "vi": "Bổ sung thêm giải thích",
+            "en": "Supplement the explanation"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_365_4",
+        "word": "補う",
+        "hiragana": "おぎなう",
+        "hanVietWord": "BỔ",
+        "meaning": {
+          "vi": "Bù đắp, bổ sung",
+          "en": "To compensate for, to supplement"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "補いあってこその夫婦だ",
+            "vi": "Vợ chồng là phải bù đắp cho nhau",
+            "en": "A husband and wife are meant to make up for each other's shortcomings"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_366",
+    "character": "隠",
+    "hanViet": "ẨN",
+    "kunyomi": "かく-れる, かく-す",
+    "onyomi": "イン",
+    "mnemonic": "Bố (阝) sống nội tâm (心) nên đương (ヨ) nhiên sẽ về ở ẩn (隠)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_366_1",
+        "word": "隠れる",
+        "hiragana": "かくれる",
+        "hanVietWord": "ẨN",
+        "meaning": {
+          "vi": "Ẩn nấp, trốn, khuất",
+          "en": "To hide, to be hidden"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "子どもたちと隠れんぼうをして遊ぶ",
+            "vi": "Chơi trốn tìm với bọn trẻ",
+            "en": "Play hide-and-seek with the kids"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_366_2",
+        "word": "隠す",
+        "hiragana": "かくす",
+        "hanVietWord": "ẨN",
+        "meaning": {
+          "vi": "Che giấu, giấu giếm",
+          "en": "To hide, to conceal"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "犬にくつを隠され、毎日困っている",
+            "vi": "Ngày nào cũng khốn khổ vì bị chó giấu giày",
+            "en": "I'm in trouble every day because the dog hides my shoes"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_366_3",
+        "word": "隠居",
+        "hiragana": "いんきょ",
+        "hanVietWord": "ẨN CƯ",
+        "meaning": {
+          "vi": "Sự về hưu, ở ẩn",
+          "en": "Retirement, seclusion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "恩師は80を過ぎ、田舎へ隠居することにしたそうだ",
+            "vi": "Nghe nói ân sư đã qua tuổi 80 nên quyết định về quê ở ẩn",
+            "en": "I heard that my old teacher is over 80 and decided to retire to the countryside"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_367",
+    "character": "劣",
+    "hanViet": "LIỆT",
+    "kunyomi": "おと-る",
+    "onyomi": "レツ",
+    "mnemonic": "Lực (力) ít (少) bị liệt (劣) vào hàng yếu kém (劣)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_367_1",
+        "word": "劣悪",
+        "hiragana": "れつあく",
+        "hanVietWord": "LIỆT ÁC",
+        "meaning": {
+          "vi": "Tồi tệ, thấp kém",
+          "en": "Inferior, coarse, poor"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "彼は日本の工場の劣悪な職場環境にも負けず、働き続けた",
+            "vi": "Anh ấy không chịu thua trước môi trường làm việc tồi tệ của nhà máy Nhật mà vẫn tiếp tục làm việc",
+            "en": "He kept working without giving in to the poor working environment of the Japanese factory"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_367_2",
+        "word": "劣化",
+        "hiragana": "れっか",
+        "hanVietWord": "LIỆT HÓA",
+        "meaning": {
+          "vi": "Sự xuống cấp, hư hỏng",
+          "en": "Deterioration, degradation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "スマホの充電器が劣化してきた",
+            "vi": "Cục sạc điện thoại đang dần xuống cấp",
+            "en": "The smartphone charger has started to deteriorate"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_367_3",
+        "word": "劣等感",
+        "hiragana": "れっとうかん",
+        "hanVietWord": "LIỆT ĐẲNG CẢM",
+        "meaning": {
+          "vi": "Cảm giác tự ti",
+          "en": "Inferiority complex"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "親にたくさん叱られて育つと、劣等感をもちやすい大人になるらしい",
+            "vi": "Nếu lớn lên mà bị bố mẹ mắng mỏ nhiều thì có vẻ sẽ trở thành người lớn dễ có cảm giác tự ti",
+            "en": "It seems that if you grow up being scolded a lot by your parents, you become an adult who easily has an inferiority complex"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_367_4",
+        "word": "劣る",
+        "hiragana": "おとる",
+        "hanVietWord": "LIỆT",
+        "meaning": {
+          "vi": "Kém hơn, suy yếu",
+          "en": "To be inferior to, to be worse"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "有名なレストランには劣るものの、なかなか上手にオムライスが作れた",
+            "vi": "Tuy kém hơn nhà hàng nổi tiếng, nhưng tôi đã làm được món cơm cuộn trứng khá giỏi",
+            "en": "Although inferior to a famous restaurant, I was able to make omurice quite well"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_368",
+    "character": "伴",
+    "hanViet": "BẠN",
+    "kunyomi": "ともな-う",
+    "onyomi": "ハン, バン",
+    "mnemonic": "1 nửa (半) của bản thân (亻) chính là người BẠN (伴)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_368_1",
+        "word": "伴う",
+        "hiragana": "ともなう",
+        "hanVietWord": "BẠN",
+        "meaning": {
+          "vi": "Kéo theo, đi kèm với",
+          "en": "To accompany, to bring with, to be accompanied by"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "事業拡大に伴い、部署異動になった",
+            "vi": "Kéo theo việc mở rộng kinh doanh, tôi đã bị chuyển phòng ban",
+            "en": "Along with the business expansion, I was transferred to another department"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_368_2",
+        "word": "伴侶",
+        "hiragana": "はんりょ",
+        "hanVietWord": "BẠN LỮ",
+        "meaning": {
+          "vi": "Bạn đời",
+          "en": "Partner, mate, spouse"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "生涯の伴侶をみつけ",
+            "vi": "Tìm thấy người bạn đời của cả cuộc đời",
+            "en": "Find a lifelong partner"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_368_3",
+        "word": "伴奏",
+        "hiragana": "ばんそう",
+        "hanVietWord": "BẠN TẤU",
+        "meaning": {
+          "vi": "Sự đệm nhạc",
+          "en": "Musical accompaniment"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "ピアノの伴奏に合わせて歌う",
+            "vi": "Hát theo phần đệm đàn piano",
+            "en": "Sing to a piano accompaniment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_369",
+    "character": "絞",
+    "hanViet": "GIẢO / HÀO",
+    "kunyomi": "しま-る, しめ-る, しぼ-る",
+    "onyomi": "コウ",
+    "mnemonic": "Sợi dây (糸) giao (交) nhau là điểm thắt siết bóp",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_369_1",
+        "word": "絞る",
+        "hiragana": "しぼる",
+        "hanVietWord": "GIẢO",
+        "meaning": {
+          "vi": "Vắt, bóp",
+          "en": "To wring, to squeeze"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "雑巾を絞る",
+            "vi": "Vắt giẻ lau",
+            "en": "Wring a rag"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_369_2",
+        "word": "お絞り",
+        "hiragana": "おしぼり",
+        "hanVietWord": "GIẢO",
+        "meaning": {
+          "vi": "Khăn ướt (lau tay)",
+          "en": "Wet towel (supplied at a restaurant)"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "お絞り",
+            "vi": "Khăn ướt",
+            "en": "Wet towel"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_369_3",
+        "word": "絞まる",
+        "hiragana": "しまる",
+        "hanVietWord": "GIẢO",
+        "meaning": {
+          "vi": "Bị thắt chặt, siết lại",
+          "en": "To be strangled, to be constricted"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "このシャツは首元が細いからのどのところが絞まってきつい",
+            "vi": "Chiếc áo sơ mi này cổ áo nhỏ nên chỗ họng bị thắt lại rất chật",
+            "en": "This shirt has a narrow neck, so the throat area is tight and constricting"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_369_4",
+        "word": "絞殺",
+        "hiragana": "こうさつ",
+        "hanVietWord": "GIẢO SÁT",
+        "meaning": {
+          "vi": "Sự siết cổ đến chết",
+          "en": "Strangulation"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "絞殺とは、首を絞めて殺すことだ",
+            "vi": "Giao sát nghĩa là siết cổ đến chết",
+            "en": "Strangulation means killing by squeezing the neck"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_369_5",
+        "word": "絞める",
+        "hiragana": "しめる",
+        "hanVietWord": "GIẢO",
+        "meaning": {
+          "vi": "Siết cổ, bóp",
+          "en": "To strangle, to constrict"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "首を絞める",
+            "vi": "Siết cổ",
+            "en": "Strangle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_370",
+    "character": "憎",
+    "hanViet": "TĂNG",
+    "kunyomi": "にく-い, にく-む",
+    "onyomi": "ゾウ",
+    "mnemonic": "Tâm (忄) tăng (曽) xông vì phải làm việc suốt ngày",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_370_1",
+        "word": "憎い",
+        "hiragana": "にくい",
+        "hanVietWord": "TĂNG",
+        "meaning": {
+          "vi": "Đáng ghét, căm thù",
+          "en": "Hateful, detestable"
+        },
+        "type": "adj-i",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "浮気をしていた彼が憎くて仕方ない",
+            "vi": "Tôi vô cùng căm ghét gã bạn trai đã ngoại tình",
+            "en": "I can't help but hate my boyfriend who was cheating"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_370_2",
+        "word": "憎む",
+        "hiragana": "にくむ",
+        "hanVietWord": "TĂNG",
+        "meaning": {
+          "vi": "Ghét, căm ghét",
+          "en": "To hate, to detest"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "彼女のことを憎んでも解決にはならない",
+            "vi": "Dù có căm ghét cô ấy thì cũng không giải quyết được gì",
+            "en": "Even if you hate her, it won't solve anything"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_370_3",
+        "word": "憎悪",
+        "hiragana": "ぞうお",
+        "hanVietWord": "TĂNG ÁC",
+        "meaning": {
+          "vi": "Sự căm thù, ghét cay ghét đắng",
+          "en": "Hatred, loathing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "憎悪の感情でいっぱいになる",
+            "vi": "Tràn ngập cảm xúc căm thù",
+            "en": "To be filled with feelings of hatred"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_371",
+    "character": "率",
+    "hanViet": "SUẤT / LUẬT",
+    "kunyomi": "ひき-いる",
+    "onyomi": "ソツ, リツ",
+    "mnemonic": "Huyền (玄) sản xuất Băng (冫) đạt năng SUẤT (率) x10 lần (十)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_371_1",
+        "word": "確率",
+        "hiragana": "かくりつ",
+        "hanVietWord": "XÁC SUẤT",
+        "meaning": {
+          "vi": "Xác suất",
+          "en": "Probability, likelihood"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "明日の降水確率は100%らしい",
+            "vi": "Xác suất có mưa ngày mai nghe nói là 100%",
+            "en": "The probability of precipitation tomorrow seems to be 100%"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_371_2",
+        "word": "比率",
+        "hiragana": "ひりつ",
+        "hanVietWord": "TỈ SUẤT",
+        "meaning": {
+          "vi": "Tỉ lệ",
+          "en": "Ratio, proportion"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "男女比率",
+            "vi": "Tỉ lệ nam nữ",
+            "en": "Male-to-female ratio"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_371_3",
+        "word": "軽率",
+        "hiragana": "けいそつ",
+        "hanVietWord": "KHINH SUẤT",
+        "meaning": {
+          "vi": "Sự khinh suất, thiếu suy nghĩ",
+          "en": "Rash, thoughtless, careless"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "軽率な行動は控えなさい",
+            "vi": "Hãy hạn chế những hành động khinh suất",
+            "en": "Please refrain from rash actions"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_371_4",
+        "word": "率いる",
+        "hiragana": "ひきいる",
+        "hanVietWord": "SUẤT",
+        "meaning": {
+          "vi": "Dẫn dắt, chỉ huy",
+          "en": "To lead, to spearhead (a group)"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "社員を率いて取引先へ挨拶へ行く",
+            "vi": "Dẫn dắt nhân viên đi chào hỏi đối tác",
+            "en": "Lead the employees to go greet the client"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_26_372",
+    "character": "垂",
+    "hanViet": "THÙY",
+    "kunyomi": "た-れる",
+    "onyomi": "スイ",
+    "mnemonic": "Cả nghìn (千) cây cỏ rủ xuống (垂) mặt đất (土)",
+    "level": "N2",
+    "lesson": "Buổi 26",
+    "words": [
+      {
+        "id": "kw_rkn2_26_372_1",
+        "word": "垂直",
+        "hiragana": "すいちょく",
+        "hanVietWord": "THÙY TRỰC",
+        "meaning": {
+          "vi": "Thẳng đứng, vuông góc",
+          "en": "Vertical, perpendicular"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "横線に垂直に線を引く",
+            "vi": "Kẻ một đường vuông góc với đường ngang",
+            "en": "Draw a line perpendicular to a horizontal line"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_26_372_2",
+        "word": "垂れる",
+        "hiragana": "たれる",
+        "hanVietWord": "THÙY",
+        "meaning": {
+          "vi": "Chảy nhỏ giọt, rủ xuống",
+          "en": "To hang down, to droop, to drip"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "よだれが垂れる",
+            "vi": "Nước dãi chảy ròng ròng",
+            "en": "Drool is dripping"
+          }
+        ]
+      }
+    ]
+  }
+]

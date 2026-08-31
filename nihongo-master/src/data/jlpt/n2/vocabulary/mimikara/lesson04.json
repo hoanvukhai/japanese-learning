@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "v_mon2_04_271",
+    "kanji": "運",
+    "hanViet": "VẬN",
+    "hiragana": "うん",
+    "meaning": {
+      "vi": "Vận mệnh, may mắn",
+      "en": "Luck, fortune"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "今日は運がいい。",
+        "vi": "Hôm nay thật may mắn.",
+        "en": "I am lucky today."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_272",
+    "kanji": "勘",
+    "hanViet": "KHÁM",
+    "hiragana": "かん",
+    "meaning": {
+      "vi": "Linh cảm, trực giác",
+      "en": "Intuition, sixth sense"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "母の勘はよく当たる。",
+        "vi": "Linh cảm của mẹ thường rất đúng.",
+        "en": "My mother's intuition is often right."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_273",
+    "kanji": "感覚",
+    "hanViet": "CẢM GIÁC",
+    "hiragana": "かんかく",
+    "meaning": {
+      "vi": "Cảm giác",
+      "en": "Sense, sensation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "寒さで手足の感覚がなくなった。",
+        "vi": "Vì lạnh nên tay chân mất đi cảm giác.",
+        "en": "I lost sensation in my hands and feet due to the cold."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_274",
+    "kanji": "神経",
+    "hanViet": "THẦN KINH",
+    "hiragana": "しんけい",
+    "meaning": {
+      "vi": "Thần kinh, nhạy cảm",
+      "en": "Nerve, sensitivity"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "虫歯が神経に触って痛い。",
+        "vi": "Răng sâu chạm vào dây thần kinh nên đau.",
+        "en": "My decayed tooth touches a nerve and hurts."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_275",
+    "kanji": "記憶",
+    "hanViet": "KÍ ỨC",
+    "hiragana": "きおく",
+    "meaning": {
+      "vi": "Ký ức, trí nhớ",
+      "en": "Memory"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "子供のころの記憶がほとんどない。",
+        "vi": "Tôi hầu như không có ký ức gì về thời thơ ấu.",
+        "en": "I have almost no memory of my childhood."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_276",
+    "kanji": "様子",
+    "hanViet": "DẠNG TỬ",
+    "hiragana": "ようす",
+    "meaning": {
+      "vi": "Dáng vẻ, tình trạng",
+      "en": "State, appearance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "手術を受けた母の様子を見に行く。",
+        "vi": "Tôi đi xem tình trạng của mẹ sau ca phẫu thuật.",
+        "en": "I'm going to see how my mother is doing after her surgery."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_277",
+    "kanji": "雰囲気",
+    "hanViet": "PHÂN VI KHÍ",
+    "hiragana": "ふんいき",
+    "meaning": {
+      "vi": "Bầu không khí",
+      "en": "Atmosphere, mood"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "このレストランは雰囲気がいい。",
+        "vi": "Nhà hàng này có bầu không khí rất tuyệt.",
+        "en": "This restaurant has a good atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_278",
+    "kanji": "魅力",
+    "hanViet": "MỊ LỰC",
+    "hiragana": "みりょく",
+    "meaning": {
+      "vi": "Sức hấp dẫn, sức quyến rũ",
+      "en": "Charm, appeal"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "初めて歌舞伎を見て、その魅力に引かれた。",
+        "vi": "Lần đầu tiên xem Kabuki, tôi đã bị thu hút bởi sức hấp dẫn của nó.",
+        "en": "Seeing Kabuki for the first time, I was drawn to its charm."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_279",
+    "kanji": "機嫌",
+    "hanViet": "CƠ HIỀM",
+    "hiragana": "きげん",
+    "meaning": {
+      "vi": "Tâm trạng",
+      "en": "Mood, temper"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "父は機嫌が悪い。",
+        "vi": "Bố tôi đang có tâm trạng tồi tệ.",
+        "en": "My father is in a bad mood."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_280",
+    "kanji": "関心",
+    "hanViet": "QUAN TÂM",
+    "hiragana": "かんしん",
+    "meaning": {
+      "vi": "Sự quan tâm",
+      "en": "Interest, concern"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "私は政治に関心がある。",
+        "vi": "Tôi có quan tâm đến chính trị.",
+        "en": "I have an interest in politics."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_281",
+    "kanji": "意欲",
+    "hanViet": "Ý DỤC",
+    "hiragana": "いよく",
+    "meaning": {
+      "vi": "Ý muốn, mong muốn, động lực",
+      "en": "Will, desire, ambition"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "働く意欲はあるが、仕事が見つからない。",
+        "vi": "Tôi có ý muốn làm việc nhưng không tìm được việc.",
+        "en": "I have the desire to work, but I can't find a job."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_282",
+    "kanji": "全力",
+    "hanViet": "TOÀN LỰC",
+    "hiragana": "ぜんりょく",
+    "meaning": {
+      "vi": "Toàn lực",
+      "en": "All one's power, full effort"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "全力を尽くして戦う。",
+        "vi": "Dốc toàn lực để chiến đấu.",
+        "en": "Fight with all one's power."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_283",
+    "kanji": "本気",
+    "hanViet": "BỔN KHÍ",
+    "hiragana": "ほんき",
+    "meaning": {
+      "vi": "Nghiêm túc, thật lòng",
+      "en": "Seriousness, earnestness"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "あの学生はついに本気になって勉強を始めた。",
+        "vi": "Học sinh đó cuối cùng cũng bắt đầu học một cách nghiêm túc.",
+        "en": "That student finally became serious and started studying."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_284",
+    "kanji": "意識",
+    "hanViet": "Ý THỨC",
+    "hiragana": "いしき",
+    "meaning": {
+      "vi": "Ý thức",
+      "en": "Consciousness, awareness"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "事故で意識を失った。",
+        "vi": "Bị mất ý thức do tai nạn.",
+        "en": "Lost consciousness in an accident."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_285",
+    "kanji": "感激",
+    "hanViet": "CẢM KÍCH",
+    "hiragana": "かんげき",
+    "meaning": {
+      "vi": "Cảm kích, vô cùng cảm động",
+      "en": "Deep emotion, inspiration"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "人々の温かい支援に感激した。",
+        "vi": "Tôi vô cùng cảm kích trước sự hỗ trợ ấm áp của mọi người.",
+        "en": "I was deeply moved by the warm support of the people."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_286",
+    "kanji": "同情",
+    "hanViet": "ĐỒNG TÌNH",
+    "hiragana": "どうじょう",
+    "meaning": {
+      "vi": "Đồng tình, thương xót",
+      "en": "Sympathy, compassion"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "苦しんでいる人々に同情する。",
+        "vi": "Đồng cảm với những người đang chịu đau khổ.",
+        "en": "Sympathize with people who are suffering."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_287",
+    "kanji": "同意",
+    "hanViet": "ĐỒNG Ý",
+    "hiragana": "どうい",
+    "meaning": {
+      "vi": "Đồng ý",
+      "en": "Agreement, consent"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "提案に同意する。",
+        "vi": "Đồng ý với đề xuất.",
+        "en": "Agree to the proposal."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_288",
+    "kanji": "同感",
+    "hanViet": "ĐỒNG CẢM",
+    "hiragana": "どうかん",
+    "meaning": {
+      "vi": "Đồng cảm, cùng suy nghĩ",
+      "en": "Same opinion, sympathy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "私も彼に同感だ。",
+        "vi": "Tôi cũng đồng quan điểm với anh ấy.",
+        "en": "I share the same opinion with him."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_289",
+    "kanji": "対立",
+    "hanViet": "ĐỐI LẬP",
+    "hiragana": "たいりつ",
+    "meaning": {
+      "vi": "Đối lập",
+      "en": "Opposition, conflict"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "二つの国が対立している。",
+        "vi": "Hai quốc gia đang đối lập nhau.",
+        "en": "The two countries are in conflict."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_290",
+    "kanji": "主張",
+    "hanViet": "CHỦ TRƯƠNG",
+    "hiragana": "しゅちょう",
+    "meaning": {
+      "vi": "Chủ trương, khẳng định",
+      "en": "Assertion, claim"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "自分の意見を主張する。",
+        "vi": "Khẳng định (chủ trương) ý kiến của bản thân.",
+        "en": "Assert one's own opinion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_291",
+    "kanji": "要求",
+    "hanViet": "YẾU CẦU",
+    "hiragana": "ようきゅう",
+    "meaning": {
+      "vi": "Yêu cầu",
+      "en": "Requirement, demand"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "労働組合が会社に賃上げを要求する。",
+        "vi": "Công đoàn yêu cầu công ty tăng lương.",
+        "en": "The labor union demands a wage increase from the company."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_292",
+    "kanji": "得",
+    "hanViet": "ĐẮC",
+    "hiragana": "とく",
+    "meaning": {
+      "vi": "Lợi, lãi",
+      "en": "Profit, advantage"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "株を買って得をした。",
+        "vi": "Mua cổ phiếu và đã có lãi.",
+        "en": "I bought stocks and made a profit."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_293",
+    "kanji": "損",
+    "hanViet": "TỔN",
+    "hiragana": "そん",
+    "meaning": {
+      "vi": "Lỗ, tổn thất",
+      "en": "Loss, disadvantage"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "株を買って損をした。",
+        "vi": "Mua cổ phiếu và đã bị lỗ.",
+        "en": "I bought stocks and suffered a loss."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_294",
+    "kanji": "勝負",
+    "hanViet": "THẮNG PHỤ",
+    "hiragana": "しょうぶ",
+    "meaning": {
+      "vi": "Thắng thua, trận đấu",
+      "en": "Victory or defeat, match"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "じゃんけんで勝負を決める。",
+        "vi": "Phân định thắng thua bằng oẳn tù tì.",
+        "en": "Decide the winner by rock-paper-scissors."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_295",
+    "kanji": "勢い",
+    "hanViet": "THẾ",
+    "hiragana": "いきおい",
+    "meaning": {
+      "vi": "Tràn trề sinh lực, đà, thế",
+      "en": "Vigor, momentum"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "風の勢いが強い。",
+        "vi": "Thế gió rất mạnh.",
+        "en": "The force of the wind is strong."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_296",
+    "kanji": "爆発",
+    "hanViet": "BẠO PHÁT",
+    "hiragana": "ばくはつ",
+    "meaning": {
+      "vi": "Vụ nổ, bùng nổ",
+      "en": "Explosion"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "工場で爆発があった。",
+        "vi": "Đã xảy ra một vụ nổ ở nhà máy.",
+        "en": "There was an explosion at the factory."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_297",
+    "kanji": "災害",
+    "hanViet": "TAI HẠI",
+    "hiragana": "さいがい",
+    "meaning": {
+      "vi": "Tai họa, thảm họa",
+      "en": "Disaster, calamity"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "地震は恐ろしい災害だ。",
+        "vi": "Động đất là một thảm họa đáng sợ.",
+        "en": "An earthquake is a terrifying disaster."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_298",
+    "kanji": "天候",
+    "hanViet": "THIÊN HẬU",
+    "hiragana": "てんこう",
+    "meaning": {
+      "vi": "Thời tiết",
+      "en": "Weather"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "今日は天候が悪い。",
+        "vi": "Hôm nay thời tiết xấu.",
+        "en": "The weather is bad today."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_299",
+    "kanji": "乾燥",
+    "hanViet": "KIỀN TÁO",
+    "hiragana": "かんそう",
+    "meaning": {
+      "vi": "Khô hanh, sấy khô",
+      "en": "Dryness, drying"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "空気が乾燥している。",
+        "vi": "Không khí đang hanh khô.",
+        "en": "The air is dry."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_300",
+    "kanji": "観測",
+    "hanViet": "QUAN TRẮC",
+    "hiragana": "かんそく",
+    "meaning": {
+      "vi": "Quan trắc, quan sát",
+      "en": "Observation, measurement"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "星を観測する。",
+        "vi": "Quan sát các vì sao.",
+        "en": "Observe the stars."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_301",
+    "kanji": "遭難",
+    "hanViet": "TAO NAN",
+    "hiragana": "そうなん",
+    "meaning": {
+      "vi": "Gặp nạn, thảm họa",
+      "en": "Disaster, accident (e.g. at sea, in mountains)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "雪山で遭難した。",
+        "vi": "Đã gặp nạn trên núi tuyết.",
+        "en": "Met with an accident on the snowy mountain."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_302",
+    "kanji": "発生",
+    "hanViet": "PHÁT SINH",
+    "hiragana": "はっせい",
+    "meaning": {
+      "vi": "Phát sinh, xảy ra",
+      "en": "Occurrence, outbreak"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "火災が発生した。",
+        "vi": "Hỏa hoạn đã phát sinh.",
+        "en": "A fire broke out."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_303",
+    "kanji": "登場",
+    "hanViet": "ĐĂNG TRƯỜNG",
+    "hiragana": "とうじょう",
+    "meaning": {
+      "vi": "Xuất hiện, tung ra thị trường",
+      "en": "Appearance, entering the stage"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "新しいスマートフォンが登場した。",
+        "vi": "Một chiếc điện thoại thông minh mới đã được tung ra thị trường.",
+        "en": "A new smartphone has appeared on the market."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_304",
+    "kanji": "回復",
+    "hanViet": "HỒI PHỤC",
+    "hiragana": "かいふく",
+    "meaning": {
+      "vi": "Hồi phục, phục hồi",
+      "en": "Recovery, restoration"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "景気が回復する。",
+        "vi": "Kinh tế phục hồi.",
+        "en": "The economy recovers."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_305",
+    "kanji": "援助",
+    "hanViet": "VIỆN TRỢ",
+    "hiragana": "えんじょ",
+    "meaning": {
+      "vi": "Viện trợ, hỗ trợ",
+      "en": "Assistance, aid"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "貧しい国に食料を援助する。",
+        "vi": "Viện trợ lương thực cho các nước nghèo.",
+        "en": "Provide food aid to poor countries."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_306",
+    "kanji": "保険",
+    "hanViet": "BẢO HIỂM",
+    "hiragana": "ほけん",
+    "meaning": {
+      "vi": "Bảo hiểm",
+      "en": "Insurance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "生命保険に入る。",
+        "vi": "Tham gia bảo hiểm nhân thọ.",
+        "en": "To buy life insurance."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_307",
+    "kanji": "追加",
+    "hanViet": "TRUY GIA",
+    "hiragana": "ついか",
+    "meaning": {
+      "vi": "Thêm vào",
+      "en": "Addition, supplement"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "ご飯を追加する。",
+        "vi": "Gọi thêm cơm.",
+        "en": "Order an additional serving of rice."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_308",
+    "kanji": "応用",
+    "hanViet": "ỨNG DỤNG",
+    "hiragana": "おうよう",
+    "meaning": {
+      "vi": "Ứng dụng",
+      "en": "Application"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "この技術は色々な分野に応用できる。",
+        "vi": "Kỹ thuật này có thể ứng dụng vào nhiều lĩnh vực khác nhau.",
+        "en": "This technology can be applied to various fields."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_309",
+    "kanji": "回答",
+    "hanViet": "HỒI ĐÁP",
+    "hiragana": "かいとう",
+    "meaning": {
+      "vi": "Trản lời, hồi đáp",
+      "en": "Reply, answer"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "アンケートに回答する。",
+        "vi": "Trả lời bảng khảo sát.",
+        "en": "Reply to a questionnaire."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_310",
+    "kanji": "結論",
+    "hanViet": "KẾT LUẬN",
+    "hiragana": "けつろん",
+    "meaning": {
+      "vi": "Kết luận",
+      "en": "Conclusion"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "会議で結論が出る。",
+        "vi": "Đưa ra kết luận tại cuộc họp.",
+        "en": "Reach a conclusion at the meeting."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_311",
+    "kanji": "案",
+    "hanViet": "ÁN",
+    "hiragana": "あん",
+    "meaning": {
+      "vi": "Dự thảo, phương án",
+      "en": "Plan, proposal, draft"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "新しい案を出す。",
+        "vi": "Đưa ra phương án mới.",
+        "en": "Propose a new plan."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_312",
+    "kanji": "集中",
+    "hanViet": "TẬP TRUNG",
+    "hiragana": "しゅうちゅう",
+    "meaning": {
+      "vi": "Tập trung",
+      "en": "Concentration, focus"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "勉強に集中する。",
+        "vi": "Tập trung vào việc học.",
+        "en": "Concentrate on studying."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_313",
+    "kanji": "区別",
+    "hanViet": "KHU BIỆT",
+    "hiragana": "くべつ",
+    "meaning": {
+      "vi": "Phân biệt",
+      "en": "Distinction, differentiation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "善と悪を区別する。",
+        "vi": "Phân biệt thiện và ác.",
+        "en": "Distinguish between good and evil."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_314",
+    "kanji": "差別",
+    "hanViet": "SAI BIỆT",
+    "hiragana": "さべつ",
+    "meaning": {
+      "vi": "Phân biệt đối xử",
+      "en": "Discrimination"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "人種差別をなくす。",
+        "vi": "Xóa bỏ nạn phân biệt chủng tộc.",
+        "en": "Eliminate racial discrimination."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_315",
+    "kanji": "中間",
+    "hanViet": "TRUNG GIAN",
+    "hiragana": "ちゅうかん",
+    "meaning": {
+      "vi": "Ở giữa, trung gian",
+      "en": "Middle, intermediate"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "名古屋は東京と大阪の中間にある。",
+        "vi": "Nagoya nằm ở giữa Tokyo và Osaka.",
+        "en": "Nagoya is located halfway between Tokyo and Osaka."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_316",
+    "kanji": "逆",
+    "hanViet": "NGHỊCH",
+    "hiragana": "ぎゃく",
+    "meaning": {
+      "vi": "Ngược lại",
+      "en": "Reverse, opposite"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "シャツを逆に着てしまった。",
+        "vi": "Tôi lỡ mặc áo sơ mi ngược mất rồi.",
+        "en": "I accidentally wore my shirt backwards."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_317",
+    "kanji": "よそ",
+    "hanViet": "",
+    "hiragana": "よそ",
+    "meaning": {
+      "vi": "Nơi khác, chỗ khác",
+      "en": "Somewhere else, another place"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "よそへ行って遊んでください。",
+        "vi": "Hãy đi chỗ khác chơi đi.",
+        "en": "Please go play somewhere else."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_318",
+    "kanji": "外",
+    "hanViet": "NGOẠI",
+    "hiragana": "ほか",
+    "meaning": {
+      "vi": "Khác, ngoài ra",
+      "en": "Other, besides"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "外に何か質問はありますか。",
+        "vi": "Ngoài ra còn câu hỏi nào khác không?",
+        "en": "Do you have any other questions?"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_319",
+    "kanji": "境",
+    "hanViet": "CẢNH",
+    "hiragana": "さかい",
+    "meaning": {
+      "vi": "Ranh giới, biên giới",
+      "en": "Boundary, border"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "生と死の境をさまよう。",
+        "vi": "Lạc lõng giữa ranh giới sự sống và cái chết.",
+        "en": "Wander on the border between life and death."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_320",
+    "kanji": "半ば",
+    "hanViet": "BÁN",
+    "hiragana": "なかば",
+    "meaning": {
+      "vi": "Một nửa, giữa chừng",
+      "en": "Half, middle"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "仕事はまだ半ばだ。",
+        "vi": "Công việc mới chỉ xong một nửa.",
+        "en": "The work is only half done."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_321",
+    "kanji": "普段",
+    "hanViet": "PHỔ ĐOẠN",
+    "hiragana": "ふだん",
+    "meaning": {
+      "vi": "Bình thường, thông thường",
+      "en": "Usually, normal"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "普段は電車で通勤している。",
+        "vi": "Bình thường tôi đi làm bằng tàu điện.",
+        "en": "I usually commute by train."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_322",
+    "kanji": "日常",
+    "hanViet": "NHẬT THƯỜNG",
+    "hiragana": "にちじょう",
+    "meaning": {
+      "vi": "Thường ngày",
+      "en": "Daily life, everyday"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日常生活を楽しむ。",
+        "vi": "Tận hưởng cuộc sống thường ngày.",
+        "en": "Enjoy everyday life."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_323",
+    "kanji": "一般",
+    "hanViet": "NHẤT BAN",
+    "hiragana": "いっぱん",
+    "meaning": {
+      "vi": "Thông thường, chung chung",
+      "en": "General, common"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "これは一般の人には難しい。",
+        "vi": "Cái này thì khó đối với người bình thường.",
+        "en": "This is difficult for general people."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_324",
+    "kanji": "常識",
+    "hanViet": "THƯỜNG THỨC",
+    "hiragana": "じょうしき",
+    "meaning": {
+      "vi": "Kiến thức thông thường, lẽ thường",
+      "en": "Common sense"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "常識がない人だ。",
+        "vi": "Đó là một người không có ý thức thông thường.",
+        "en": "That person has no common sense."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_325",
+    "kanji": "ことわざ",
+    "hanViet": "",
+    "hiragana": "ことわざ",
+    "meaning": {
+      "vi": "Tục ngữ",
+      "en": "Proverb"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日本のことわざを学ぶ。",
+        "vi": "Học tục ngữ Nhật Bản.",
+        "en": "Learn Japanese proverbs."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_326",
+    "kanji": "権利",
+    "hanViet": "QUYỀN LỢI",
+    "hiragana": "けんり",
+    "meaning": {
+      "vi": "Quyền lợi",
+      "en": "Right, privilege"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "国民には教育を受ける権利がある。",
+        "vi": "Người dân có quyền lợi được nhận giáo dục.",
+        "en": "Citizens have the right to receive an education."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_327",
+    "kanji": "義務",
+    "hanViet": "NGHĨA VỤ",
+    "hiragana": "ぎむ",
+    "meaning": {
+      "vi": "Nghĩa vụ",
+      "en": "Duty, obligation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "税金を払うのは国民の義務だ。",
+        "vi": "Nộp thuế là nghĩa vụ của công dân.",
+        "en": "Paying taxes is a citizen's duty."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_328",
+    "kanji": "きっかけ",
+    "hanViet": "",
+    "hiragana": "きっかけ",
+    "meaning": {
+      "vi": "Cơ hội, duyên cớ",
+      "en": "Trigger, chance, cue"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "旅行がきっかけで彼女と親しくなった。",
+        "vi": "Chuyến du lịch là cơ hội để tôi thân thiết với cô ấy.",
+        "en": "The trip was the chance that made me close to her."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_329",
+    "kanji": "行動",
+    "hanViet": "HÀNH ĐỘNG",
+    "hiragana": "こうどう",
+    "meaning": {
+      "vi": "Hành động",
+      "en": "Action, behavior"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "計画を行動に移す。",
+        "vi": "Đưa kế hoạch vào hành động.",
+        "en": "Put a plan into action."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_330",
+    "kanji": "使用",
+    "hanViet": "SỬ DỤNG",
+    "hiragana": "しよう",
+    "meaning": {
+      "vi": "Sử dụng",
+      "en": "Use, application"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "パソコンを使用する。",
+        "vi": "Sử dụng máy tính cá nhân.",
+        "en": "Use a personal computer."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_331",
+    "kanji": "提出",
+    "hanViet": "ĐỀ XUẤT",
+    "hiragana": "ていしゅつ",
+    "meaning": {
+      "vi": "Sự nộp, đệ trình",
+      "en": "Submission"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "レポートを提出する。",
+        "vi": "Nộp báo cáo.",
+        "en": "Submit a report."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_332",
+    "kanji": "期限",
+    "hanViet": "KÌ HẠN",
+    "hiragana": "きげん",
+    "meaning": {
+      "vi": "Kỳ hạn, thời hạn",
+      "en": "Deadline, time limit"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "提出の期限を守る。",
+        "vi": "Tuân thủ thời hạn nộp.",
+        "en": "Keep the submission deadline."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_333",
+    "kanji": "延期",
+    "hanViet": "DUYÊN KÌ",
+    "hiragana": "えんき",
+    "meaning": {
+      "vi": "Trì hoãn, hoãn lại",
+      "en": "Postponement"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "雨のため、試合は延期された。",
+        "vi": "Vì trời mưa nên trận đấu đã bị hoãn.",
+        "en": "The game was postponed due to rain."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_334",
+    "kanji": "延長",
+    "hanViet": "DUYÊN TRƯỜNG",
+    "hiragana": "えんちょう",
+    "meaning": {
+      "vi": "Kéo dài (thời gian, quãng đường)",
+      "en": "Extension, prolongation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "営業時間を延長する。",
+        "vi": "Kéo dài thời gian kinh doanh.",
+        "en": "Extend business hours."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_335",
+    "kanji": "短縮",
+    "hanViet": "ĐOẢN SÚC",
+    "hiragana": "たんしゅく",
+    "meaning": {
+      "vi": "Rút ngắn",
+      "en": "Shortening, reduction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "作業時間を短縮する。",
+        "vi": "Rút ngắn thời gian làm việc.",
+        "en": "Shorten the working hours."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_336",
+    "kanji": "映像",
+    "hanViet": "ÁNH TƯỢNG",
+    "hiragana": "えいぞう",
+    "meaning": {
+      "vi": "Hình ảnh, video",
+      "en": "Image, video"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "テレビの美しい映像を見る。",
+        "vi": "Xem những hình ảnh đẹp trên tivi.",
+        "en": "Watch beautiful images on TV."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_337",
+    "kanji": "撮影",
+    "hanViet": "TOÁT ẢNH",
+    "hiragana": "さつえい",
+    "meaning": {
+      "vi": "Chụp ảnh, quay phim",
+      "en": "Photographing, filming"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "記念写真を撮影する。",
+        "vi": "Chụp ảnh kỷ niệm.",
+        "en": "Take a commemorative photo."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_338",
+    "kanji": "背景",
+    "hanViet": "BỐI CẢNH",
+    "hiragana": "はいけい",
+    "meaning": {
+      "vi": "Bối cảnh",
+      "en": "Background"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "山の風景を背景にして写真を撮った。",
+        "vi": "Chụp ảnh với bối cảnh là phong cảnh núi non.",
+        "en": "Took a photo with the mountain scenery as a background."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_339",
+    "kanji": "独立",
+    "hanViet": "ĐỘC LẬP",
+    "hiragana": "どくりつ",
+    "meaning": {
+      "vi": "Độc lập",
+      "en": "Independence"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "親から独立して暮らす。",
+        "vi": "Sống độc lập không phụ thuộc vào bố mẹ.",
+        "en": "Live independently from parents."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_340",
+    "kanji": "候補",
+    "hanViet": "HẬU BỔ",
+    "hiragana": "こうほ",
+    "meaning": {
+      "vi": "Ứng cử, ứng cử viên",
+      "en": "Candidate"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "彼は次の社長の候補だ。",
+        "vi": "Anh ấy là ứng cử viên cho chức giám đốc tiếp theo.",
+        "en": "He is a candidate for the next president."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_341",
+    "kanji": "支持",
+    "hanViet": "CHI TRÌ",
+    "hiragana": "しじ",
+    "meaning": {
+      "vi": "Ủng hộ",
+      "en": "Support, backing"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "多くの人が彼の意見を支持した。",
+        "vi": "Nhiều người đã ủng hộ ý kiến của anh ấy.",
+        "en": "Many people supported his opinion."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_342",
+    "kanji": "投票",
+    "hanViet": "ĐẦU PHIẾU",
+    "hiragana": "とうひょう",
+    "meaning": {
+      "vi": "Bỏ phiếu",
+      "en": "Voting, poll"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "選挙で投票する。",
+        "vi": "Bỏ phiếu trong cuộc bầu cử.",
+        "en": "Vote in an election."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_343",
+    "kanji": "当選",
+    "hanViet": "ĐƯƠNG TUYỂN",
+    "hiragana": "とうせん",
+    "meaning": {
+      "vi": "Trúng cử, trúng tuyển",
+      "en": "Being elected, winning a prize"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "宝くじに当選した。",
+        "vi": "Tôi đã trúng xổ số.",
+        "en": "I won the lottery."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_344",
+    "kanji": "抽選",
+    "hanViet": "TRỪU TUYỂN",
+    "hiragana": "ちゅうせん",
+    "meaning": {
+      "vi": "Rút thăm, bốc thăm",
+      "en": "Lottery, drawing"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "抽選でプレゼントが当たる。",
+        "vi": "Trúng quà thông qua bốc thăm.",
+        "en": "Win a present by drawing lots."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_345",
+    "kanji": "配布",
+    "hanViet": "PHỐI BỐ",
+    "hiragana": "はいふ",
+    "meaning": {
+      "vi": "Phân phát, phân bố",
+      "en": "Distribution"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "駅前でチラシを配布する。",
+        "vi": "Phân phát tờ rơi trước nhà ga.",
+        "en": "Distribute flyers in front of the station."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_346",
+    "kanji": "失格",
+    "hanViet": "THẤT CÁCH",
+    "hiragana": "しっかく",
+    "meaning": {
+      "vi": "Mất tư cách, tước quyền",
+      "en": "Disqualification"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "試合で反則をして失格になった。",
+        "vi": "Phạm luật trong trận đấu nên bị truất quyền thi đấu (mất tư cách).",
+        "en": "I committed a foul in the match and was disqualified."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_347",
+    "kanji": "余暇",
+    "hanViet": "DƯ HẠ",
+    "hiragana": "よか",
+    "meaning": {
+      "vi": "Thời gian rảnh rỗi",
+      "en": "Leisure, spare time"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "余暇を利用して語学の勉強をする。",
+        "vi": "Tận dụng thời gian rảnh để học ngoại ngữ.",
+        "en": "Utilize spare time to study languages."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_348",
+    "kanji": "行事",
+    "hanViet": "HÀNH SỰ",
+    "hiragana": "ぎょうじ",
+    "meaning": {
+      "vi": "Sự kiện, sự kiện truyền thống",
+      "en": "Event, function"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日本の伝統的な行事に参加する。",
+        "vi": "Tham gia vào một sự kiện truyền thống của Nhật Bản.",
+        "en": "Participate in a traditional Japanese event."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_349",
+    "kanji": "理想",
+    "hanViet": "LÍ TƯỞNG",
+    "hiragana": "りそう",
+    "meaning": {
+      "vi": "Lý tưởng",
+      "en": "Ideal"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "理想の人と結婚する。",
+        "vi": "Kết hôn với người lý tưởng.",
+        "en": "Marry an ideal person."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_350",
+    "kanji": "現実",
+    "hanViet": "HIỆN THỰC",
+    "hiragana": "げんじつ",
+    "meaning": {
+      "vi": "Hiện thực, thực tế",
+      "en": "Reality"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "理想と現実は違う。",
+        "vi": "Lý tưởng và hiện thực khác nhau.",
+        "en": "Ideal and reality are different."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_351",
+    "kanji": "体験",
+    "hanViet": "THỂ NGHIỆM",
+    "hiragana": "たいけん",
+    "meaning": {
+      "vi": "Trải nghiệm",
+      "en": "Experience (personal)"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "日本での生活は良い体験になった。",
+        "vi": "Cuộc sống ở Nhật đã trở thành một trải nghiệm tốt.",
+        "en": "Living in Japan was a good experience."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_352",
+    "kanji": "空想",
+    "hanViet": "KHÔNG TƯỞNG",
+    "hiragana": "くうそう",
+    "meaning": {
+      "vi": "Mơ mộng, không tưởng",
+      "en": "Daydream, fantasy"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "空想の世界で遊ぶ。",
+        "vi": "Vui chơi trong thế giới không tưởng.",
+        "en": "Play in a fantasy world."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_353",
+    "kanji": "実物",
+    "hanViet": "THỰC VẬT",
+    "hiragana": "じつぶつ",
+    "meaning": {
+      "vi": "Đồ thật, vật thực",
+      "en": "Real thing, original"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "写真よりも実物のほうがきれいだ。",
+        "vi": "Đồ thật trông đẹp hơn trên ảnh.",
+        "en": "The real thing is more beautiful than the picture."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_354",
+    "kanji": "実現",
+    "hanViet": "THỰC HIỆN",
+    "hiragana": "じつげん",
+    "meaning": {
+      "vi": "Thực hiện, hiện thực hóa",
+      "en": "Realization, implementation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "ついに夢が実現した。",
+        "vi": "Cuối cùng thì giấc mơ đã trở thành hiện thực.",
+        "en": "My dream finally came true."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_355",
+    "kanji": "実施",
+    "hanViet": "THỰC THI",
+    "hiragana": "じっし",
+    "meaning": {
+      "vi": "Thực thi, tiến hành",
+      "en": "Enforcement, execution"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "新しい計画を実施する。",
+        "vi": "Thực thi kế hoạch mới.",
+        "en": "Implement a new plan."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_356",
+    "kanji": "許可",
+    "hanViet": "HỨA KHẢ",
+    "hiragana": "きょか",
+    "meaning": {
+      "vi": "Cho phép",
+      "en": "Permission"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "親の許可をもらって旅行に行く。",
+        "vi": "Nhận được sự cho phép của bố mẹ rồi đi du lịch.",
+        "en": "Get permission from parents and go on a trip."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_357",
+    "kanji": "全体",
+    "hanViet": "TOÀN THỂ",
+    "hiragana": "ぜんたい",
+    "meaning": {
+      "vi": "Toàn thể, toàn bộ",
+      "en": "Whole, entirety"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "学生全体を対象にしたアンケート。",
+        "vi": "Bản khảo sát hướng tới toàn thể học sinh.",
+        "en": "A survey targeting all students."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_358",
+    "kanji": "部分",
+    "hanViet": "BỘ PHẬN",
+    "hiragana": "ぶぶん",
+    "meaning": {
+      "vi": "Bộ phận, phần",
+      "en": "Part, section"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "この文章の一部を修正する。",
+        "vi": "Chỉnh sửa một phần của đoạn văn này.",
+        "en": "Correct a part of this sentence."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_359",
+    "kanji": "統一",
+    "hanViet": "THỐNG NHẤT",
+    "hiragana": "とういつ",
+    "meaning": {
+      "vi": "Thống nhất",
+      "en": "Unity, consolidation"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "皆の意見を統一する。",
+        "vi": "Thống nhất ý kiến của mọi người.",
+        "en": "Unify everyone's opinions."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_360",
+    "kanji": "拡大",
+    "hanViet": "KHUẾCH ĐẠI",
+    "hiragana": "かくだい",
+    "meaning": {
+      "vi": "Khuếch đại, phóng to, mở rộng",
+      "en": "Expansion, enlargement"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "写真を拡大する。",
+        "vi": "Phóng to bức ảnh.",
+        "en": "Enlarge a photograph."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_361",
+    "kanji": "縮小",
+    "hanViet": "SÚC TIỂU",
+    "hiragana": "しゅくしょう",
+    "meaning": {
+      "vi": "Thu nhỏ, nén lại",
+      "en": "Reduction, shrinking"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "事業を縮小する。",
+        "vi": "Thu hẹp quy mô kinh doanh.",
+        "en": "Scale down the business."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_362",
+    "kanji": "集合",
+    "hanViet": "TẬP HỢP",
+    "hiragana": "しゅうごう",
+    "meaning": {
+      "vi": "Tập hợp, tụ tập",
+      "en": "Gathering, assembly"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "明日は駅前に集合してください。",
+        "vi": "Ngày mai hãy tập hợp ở trước nhà ga.",
+        "en": "Please gather in front of the station tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_363",
+    "kanji": "方向",
+    "hanViet": "PHƯƠNG HƯỚNG",
+    "hiragana": "ほうこう",
+    "meaning": {
+      "vi": "Phương hướng",
+      "en": "Direction"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "駅はどの方向ですか。",
+        "vi": "Nhà ga nằm ở hướng nào vậy?",
+        "en": "Which direction is the station?"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_364",
+    "kanji": "間隔",
+    "hanViet": "GIAN CÁCH",
+    "hiragana": "かんかく",
+    "meaning": {
+      "vi": "Khoảng cách (không gian, thời gian)",
+      "en": "Interval, distance"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "前の車と間隔を空けて運転する。",
+        "vi": "Lái xe giữ khoảng cách với xe phía trước.",
+        "en": "Drive keeping a distance from the car in front."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_365",
+    "kanji": "脇",
+    "hanViet": "HIẾP",
+    "hiragana": "わき",
+    "meaning": {
+      "vi": "Nách, một bên",
+      "en": "Armpit, side"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "荷物を脇に置く。",
+        "vi": "Đặt hành lý sang một bên.",
+        "en": "Put the luggage aside."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_366",
+    "kanji": "通過",
+    "hanViet": "THÔNG QUÁ",
+    "hiragana": "つうか",
+    "meaning": {
+      "vi": "Đi qua, thông qua",
+      "en": "Passage, passing through"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "特急電車が駅を通過した。",
+        "vi": "Tàu tốc hành đã đi ngang qua nhà ga.",
+        "en": "The limited express train passed through the station."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_367",
+    "kanji": "移動",
+    "hanViet": "DI ĐỘNG",
+    "hiragana": "いどう",
+    "meaning": {
+      "vi": "Di chuyển, di động",
+      "en": "Movement, transfer"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "次の場所へ移動する。",
+        "vi": "Di chuyển đến địa điểm tiếp theo.",
+        "en": "Move to the next location."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_368",
+    "kanji": "停止",
+    "hanViet": "ĐÌNH CHỈ",
+    "hiragana": "ていし",
+    "meaning": {
+      "vi": "Dừng lại, đình chỉ",
+      "en": "Stop, suspension"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "機械が突然停止した。",
+        "vi": "Máy móc đột nhiên dừng hoạt động.",
+        "en": "The machine suddenly stopped."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_369",
+    "kanji": "低下",
+    "hanViet": "ĐÊ HẠ",
+    "hiragana": "ていか",
+    "meaning": {
+      "vi": "Suy giảm, kém đi",
+      "en": "Decline, fall"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "学力が低下している。",
+        "vi": "Học lực đang suy giảm.",
+        "en": "Academic ability is declining."
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_04_370",
+    "kanji": "超過",
+    "hanViet": "SIÊU QUÁ",
+    "hiragana": "ちょうか",
+    "meaning": {
+      "vi": "Vượt quá",
+      "en": "Excess, being over"
+    },
+    "type": "noun",
+    "level": "N2",
+    "lesson": "Bài 4",
+    "examples": [
+      {
+        "jp": "荷物の重さが制限を超過した。",
+        "vi": "Trọng lượng hành lý đã vượt quá giới hạn.",
+        "en": "The weight of the luggage exceeded the limit."
+      }
+    ]
+  }
+]

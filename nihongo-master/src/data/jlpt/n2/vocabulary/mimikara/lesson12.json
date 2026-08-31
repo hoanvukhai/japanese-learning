@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "v_mon2_12_991",
+    "kanji": "編む",
+    "hiragana": "あむ",
+    "hanViet": "BIÊN",
+    "meaning": {
+      "vi": "Đan, móc",
+      "en": "To knit"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "セーターを編む。",
+        "vi": "Đan áo len.",
+        "en": "To knit"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_992",
+    "kanji": "縫う",
+    "hiragana": "ぬう",
+    "hanViet": "PHÙNG",
+    "meaning": {
+      "vi": "Khâu, may",
+      "en": "To sew"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "服を縫う。",
+        "vi": "May quần áo.",
+        "en": "To sew"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_993",
+    "kanji": "指す",
+    "hiragana": "さす",
+    "hanViet": "CHỈ",
+    "meaning": {
+      "vi": "Chỉ, nhắm",
+      "en": "To point at"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "指を指す。",
+        "vi": "Chỉ ngón tay.",
+        "en": "To point at"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_994",
+    "kanji": "示す",
+    "hiragana": "しめす",
+    "hanViet": "THỊ",
+    "meaning": {
+      "vi": "Biểu thị, chỉ ra",
+      "en": "To show, indicate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "例を示す。",
+        "vi": "Đưa ra ví dụ.",
+        "en": "To show, indicate"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_995",
+    "kanji": "注ぐ",
+    "hiragana": "そそぐ",
+    "hanViet": "CHÚ",
+    "meaning": {
+      "vi": "Rót, đổ",
+      "en": "To pour"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "お茶を注ぐ。",
+        "vi": "Rót trà.",
+        "en": "To pour"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_996",
+    "kanji": "",
+    "hiragana": "すすぐ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Rửa, súc, giũ",
+      "en": "To rinse"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "口をすすぐ。",
+        "vi": "Súc miệng.",
+        "en": "To rinse"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_997",
+    "kanji": "触る",
+    "hiragana": "さわる",
+    "hanViet": "XÚC",
+    "meaning": {
+      "vi": "Sờ, chạm",
+      "en": "To touch"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "絵に触る。",
+        "vi": "Sờ vào bức tranh.",
+        "en": "To touch"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_998",
+    "kanji": "触れる",
+    "hiragana": "ふれる",
+    "hanViet": "XÚC",
+    "meaning": {
+      "vi": "Chạm, tiếp xúc",
+      "en": "To touch, feel"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "空気に触れる。",
+        "vi": "Tiếp xúc với không khí.",
+        "en": "To touch, feel"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_999",
+    "kanji": "抱く",
+    "hiragana": "いだく",
+    "hanViet": "BÃO",
+    "meaning": {
+      "vi": "Ôm, nắm",
+      "en": "To hold in one's arms"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "夢を抱く。",
+        "vi": "Ôm ấp giấc mơ.",
+        "en": "To hold in one's arms"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1000",
+    "kanji": "抱える",
+    "hiragana": "かかえる",
+    "hanViet": "BÃO",
+    "meaning": {
+      "vi": "Xách, cầm",
+      "en": "To hold, carry"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "荷物を抱える。",
+        "vi": "Ôm hành lý.",
+        "en": "To hold, carry"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1001",
+    "kanji": "担ぐ",
+    "hiragana": "かつぐ",
+    "hanViet": "ĐAM",
+    "meaning": {
+      "vi": "Mang vác",
+      "en": "To carry on shoulder"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "荷物を担ぐ。",
+        "vi": "Vác hành lý trên vai.",
+        "en": "To carry on shoulder"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1002",
+    "kanji": "剥がす",
+    "hiragana": "はがす",
+    "hanViet": "BÁC",
+    "meaning": {
+      "vi": "Bóc, lột",
+      "en": "To tear off, peel"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "シールを剥がす。",
+        "vi": "Bóc miếng dán.",
+        "en": "To tear off, peel"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1003",
+    "kanji": "描く",
+    "hiragana": "えがく",
+    "hanViet": "MIÊU",
+    "meaning": {
+      "vi": "Vẽ, miêu tả",
+      "en": "To draw, depict"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "絵を描く。",
+        "vi": "Vẽ tranh.",
+        "en": "To draw, depict"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1004",
+    "kanji": "砕ける",
+    "hiragana": "くだける",
+    "hanViet": "TOÁI",
+    "meaning": {
+      "vi": "Vỡ",
+      "en": "To break, be smashed"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "ガラスが砕ける。",
+        "vi": "Kính bị vỡ.",
+        "en": "To break, be smashed"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1005",
+    "kanji": "砕く",
+    "hiragana": "くだく",
+    "hanViet": "TOÁI",
+    "meaning": {
+      "vi": "Đập vỡ, xay",
+      "en": "To break, smash"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "氷を砕く。",
+        "vi": "Đập vỡ đá.",
+        "en": "To break, smash"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1006",
+    "kanji": "",
+    "hiragana": "ふさがる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nghẽn, tắc",
+      "en": "To be blocked"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "道がふさがる。",
+        "vi": "Đường bị tắc.",
+        "en": "To be blocked"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1007",
+    "kanji": "",
+    "hiragana": "ふさぐ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bế tắc,bịt,chặn(đường)",
+      "en": "To block, plug up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "穴をふさぐ。",
+        "vi": "Bịt lỗ hổng.",
+        "en": "To block, plug up"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1008",
+    "kanji": "避ける",
+    "hiragana": "さける",
+    "hanViet": "TỊ",
+    "meaning": {
+      "vi": "Tránh",
+      "en": "To avoid"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "危険を避ける。",
+        "vi": "Tránh nguy hiểm.",
+        "en": "To avoid"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1009",
+    "kanji": "",
+    "hiragana": "よける",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tránh, né",
+      "en": "To dodge, avoid"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "水たまりをよける。",
+        "vi": "Né vũng nước.",
+        "en": "To dodge, avoid"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1010",
+    "kanji": "",
+    "hiragana": "それる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trượt, lờ",
+      "en": "To go astray, deviate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "話がそれる。",
+        "vi": "Câu chuyện đi lạc đề.",
+        "en": "To go astray, deviate"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1011",
+    "kanji": "",
+    "hiragana": "そらす",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lờ đi, lảng tránh",
+      "en": "To avert, change (the subject)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "目をそらす。",
+        "vi": "Lảng tránh ánh mắt.",
+        "en": "To avert, change (the subject)"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1012",
+    "kanji": "見つめる",
+    "hiragana": "みつめる",
+    "hanViet": "KIẾN",
+    "meaning": {
+      "vi": "Nhìn chằm chằm",
+      "en": "To stare at"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "顔を見つめる。",
+        "vi": "Nhìn chằm chằm vào mặt.",
+        "en": "To stare at"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1013",
+    "kanji": "眺める",
+    "hiragana": "ながめる",
+    "hanViet": "THIẾU",
+    "meaning": {
+      "vi": "Nhìn ngắm, quan sát",
+      "en": "To gaze at, look at"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "景色を眺める。",
+        "vi": "Ngắm cảnh.",
+        "en": "To gaze at, look at"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1014",
+    "kanji": "見合わせる",
+    "hiragana": "みあわせる",
+    "hanViet": "KIẾN HỢP",
+    "meaning": {
+      "vi": "Nhìn nhau",
+      "en": "To exchange glances, postpone"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "顔を見合わせる。",
+        "vi": "Nhìn nhau.",
+        "en": "To exchange glances, postpone"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1015",
+    "kanji": "見送る",
+    "hiragana": "みおくる",
+    "hanViet": "KIẾN TỐNG",
+    "meaning": {
+      "vi": "Đưa tiễn",
+      "en": "To see off"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "客を見送る。",
+        "vi": "Tiễn khách.",
+        "en": "To see off"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1016",
+    "kanji": "訪れる",
+    "hiragana": "おとずれる",
+    "hanViet": "PHÓNG",
+    "meaning": {
+      "vi": "Đến thăm",
+      "en": "To visit"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "京都を訪れる。",
+        "vi": "Đến thăm Kyoto.",
+        "en": "To visit"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1017",
+    "kanji": "引き返す",
+    "hiragana": "ひきかえす",
+    "hanViet": "DẪN PHẢN",
+    "meaning": {
+      "vi": "Quay lại",
+      "en": "To turn back"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "家へ引き返す。",
+        "vi": "Quay trở lại nhà.",
+        "en": "To turn back"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1018",
+    "kanji": "去る",
+    "hiragana": "さる",
+    "hanViet": "KHỨ",
+    "meaning": {
+      "vi": "Trải qua",
+      "en": "To leave, pass"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "冬が去る。",
+        "vi": "Mùa đông qua đi.",
+        "en": "To leave, pass"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1019",
+    "kanji": "",
+    "hiragana": "すする",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Húp, hớp",
+      "en": "To sip, slurp"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "お茶をすする。",
+        "vi": "Húp trà.",
+        "en": "To sip, slurp"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1020",
+    "kanji": "味わう",
+    "hiragana": "あじわう",
+    "hanViet": "VỊ",
+    "meaning": {
+      "vi": "Nếm",
+      "en": "To taste, savor"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "料理を味わう。",
+        "vi": "Thưởng thức món ăn.",
+        "en": "To taste, savor"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1021",
+    "kanji": "匂う",
+    "hiragana": "におう",
+    "hanViet": "MÙI",
+    "meaning": {
+      "vi": "Ngửi, bốc mùi",
+      "en": "To smell"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "花が匂う。",
+        "vi": "Hoa tỏa hương.",
+        "en": "To smell"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1022",
+    "kanji": "飢える",
+    "hiragana": "うえる",
+    "hanViet": "CƠ",
+    "meaning": {
+      "vi": "Đói lả",
+      "en": "To starve"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "愛に飢える。",
+        "vi": "Khao khát tình yêu.",
+        "en": "To starve"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1023",
+    "kanji": "問う",
+    "hiragana": "とう",
+    "hanViet": "GIAN",
+    "meaning": {
+      "vi": "Hỏi",
+      "en": "To ask, question"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "責任を問う。",
+        "vi": "Truy cứu trách nhiệm.",
+        "en": "To ask, question"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1024",
+    "kanji": "語る",
+    "hiragana": "かたる",
+    "hanViet": "NGỮ",
+    "meaning": {
+      "vi": "Nói, kể cho nhau",
+      "en": "To talk, tell"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "経験を語る。",
+        "vi": "Kể về kinh nghiệm.",
+        "en": "To talk, tell"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1025",
+    "kanji": "誓う",
+    "hiragana": "ちかう",
+    "hanViet": "THỆ",
+    "meaning": {
+      "vi": "Thề, hứa",
+      "en": "To swear, vow"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "愛を誓う。",
+        "vi": "Thề non hẹn biển.",
+        "en": "To swear, vow"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1026",
+    "kanji": "支える",
+    "hiragana": "ささえる",
+    "hanViet": "CHI",
+    "meaning": {
+      "vi": "Hỗ trợ",
+      "en": "To support"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "家族を支える。",
+        "vi": "Hỗ trợ gia đình.",
+        "en": "To support"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1027",
+    "kanji": "費やす",
+    "hiragana": "ついやす",
+    "hanViet": "PHÍ",
+    "meaning": {
+      "vi": "Dùng, chi dùng",
+      "en": "To spend, waste"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "時間を費やす。",
+        "vi": "Tiêu tốn thời gian.",
+        "en": "To spend, waste"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1028",
+    "kanji": "用いる",
+    "hiragana": "もちいる",
+    "hanViet": "DỤNG",
+    "meaning": {
+      "vi": "Sử dụng",
+      "en": "To use"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "道具を用いる。",
+        "vi": "Sử dụng công cụ.",
+        "en": "To use"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1029",
+    "kanji": "改まる",
+    "hiragana": "あらたまる",
+    "hanViet": "CẢI",
+    "meaning": {
+      "vi": "Cải thiện, thay thế",
+      "en": "To be renewed, improved"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "年が改まる。",
+        "vi": "Sang năm mới.",
+        "en": "To be renewed, improved"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1030",
+    "kanji": "改める",
+    "hiragana": "あらためる",
+    "hanViet": "CẢI",
+    "meaning": {
+      "vi": "Cải thiện, sửa đổi",
+      "en": "To change, correct"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "態度を改める。",
+        "vi": "Sửa đổi thái độ.",
+        "en": "To change, correct"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1031",
+    "kanji": "収まる",
+    "hiragana": "おさまる",
+    "hanViet": "THU",
+    "meaning": {
+      "vi": "Thu nạp, giải quyết",
+      "en": "To fit into, settle down"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "本が本棚に収まる。",
+        "vi": "Sách được xếp gọn vào giá.",
+        "en": "To fit into, settle down"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1032",
+    "kanji": "収める",
+    "hiragana": "おさめる",
+    "hanViet": "THU",
+    "meaning": {
+      "vi": "Giao, nộp, giành được, cất giữ",
+      "en": "To supply, store, obtain"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "成功を収める。",
+        "vi": "Gặt hái thành công.",
+        "en": "To supply, store, obtain"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1033",
+    "kanji": "沿う",
+    "hiragana": "そう",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Dọc theo, men theo",
+      "en": "To run along, follow"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "川に沿って歩く。",
+        "vi": "Đi bộ dọc theo con sông.",
+        "en": "To run along, follow"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1034",
+    "kanji": "添える",
+    "hiragana": "そえる",
+    "hanViet": "THIÊM",
+    "meaning": {
+      "vi": "Kèm theo, đính kèm",
+      "en": "To attach, add"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "手紙を添える。",
+        "vi": "Đính kèm bức thư.",
+        "en": "To attach, add"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1035",
+    "kanji": "兼ねる",
+    "hiragana": "かねる",
+    "hanViet": "KIÊM",
+    "meaning": {
+      "vi": "Gồm, kết hợp, kiêm",
+      "en": "To combine, serve two purposes"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "趣味と実益を兼ねる。",
+        "vi": "Kết hợp sở thích và lợi ích.",
+        "en": "To combine, serve two purposes"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1036",
+    "kanji": "適する",
+    "hiragana": "てきする",
+    "hanViet": "THÍCH",
+    "meaning": {
+      "vi": "Thích hợp",
+      "en": "To fit, suit"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "条件に適する。",
+        "vi": "Thích hợp với điều kiện.",
+        "en": "To fit, suit"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1037",
+    "kanji": "相当する",
+    "hiragana": "そうとうする",
+    "hanViet": "TƯƠNG ĐƯƠNG",
+    "meaning": {
+      "vi": "Tương đương",
+      "en": "To correspond to"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "１万円に相当する。",
+        "vi": "Tương đương với 1 vạn yên.",
+        "en": "To correspond to"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1038",
+    "kanji": "伴う",
+    "hiragana": "ともなう",
+    "hanViet": "BẠN",
+    "meaning": {
+      "vi": "Phát sinh, kèm theo",
+      "en": "To accompany, bring with"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "危険が伴う。",
+        "vi": "Đi kèm với rủi ro.",
+        "en": "To accompany, bring with"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1039",
+    "kanji": "響く",
+    "hiragana": "ひびく",
+    "hanViet": "HƯỞNG",
+    "meaning": {
+      "vi": "Vang vọng",
+      "en": "To resound, echo"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "声が響く。",
+        "vi": "Giọng nói vang vọng.",
+        "en": "To resound, echo"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1040",
+    "kanji": "次ぐ",
+    "hiragana": "つぐ",
+    "hanViet": "THỨ",
+    "meaning": {
+      "vi": "Tiếp theo",
+      "en": "To rank next to, come after"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "東京に次ぐ大都市。",
+        "vi": "Thành phố lớn thứ hai sau Tokyo.",
+        "en": "To rank next to, come after"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1041",
+    "kanji": "略す",
+    "hiragana": "りゃくす",
+    "hanViet": "LƯỢC",
+    "meaning": {
+      "vi": "Rút gọn, tóm tắt",
+      "en": "To abbreviate, omit"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "挨拶を略す。",
+        "vi": "Lược bỏ lời chào.",
+        "en": "To abbreviate, omit"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1042",
+    "kanji": "迫る",
+    "hiragana": "せまる",
+    "hanViet": "BÁCH",
+    "meaning": {
+      "vi": "Tiến sát",
+      "en": "To approach, press"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "危険が迫る。",
+        "vi": "Nguy hiểm đến gần.",
+        "en": "To approach, press"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1043",
+    "kanji": "狙う",
+    "hiragana": "ねらう",
+    "hanViet": "THƯ",
+    "meaning": {
+      "vi": "Hướng đến, nhắm đến",
+      "en": "To aim at"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "的を狙う。",
+        "vi": "Nhắm vào đích.",
+        "en": "To aim at"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1044",
+    "kanji": "犯す",
+    "hiragana": "おかす",
+    "hanViet": "THƯ",
+    "meaning": {
+      "vi": "Phạm tội, vi phạm",
+      "en": "To commit (a crime)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "罪を犯す。",
+        "vi": "Phạm tội.",
+        "en": "To commit (a crime)"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1045",
+    "kanji": "侵す",
+    "hiragana": "おかす",
+    "hanViet": "XÂM",
+    "meaning": {
+      "vi": "Xâm chiếm, xâm phạm",
+      "en": "To invade, violate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "領土を侵す。",
+        "vi": "Xâm chiếm lãnh thổ.",
+        "en": "To invade, violate"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1046",
+    "kanji": "冒す",
+    "hiragana": "おかす",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đương đầu",
+      "en": "To brave, risk"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "危険を冒す。",
+        "vi": "Đương đầu với nguy hiểm.",
+        "en": "To brave, risk"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1047",
+    "kanji": "脅す",
+    "hiragana": "おどす",
+    "hanViet": "HIẾP",
+    "meaning": {
+      "vi": "Bắt nạt, đe dọa",
+      "en": "To threaten"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "ナイフで人を脅す。",
+        "vi": "Dùng dao đe dọa người khác.",
+        "en": "To threaten"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1048",
+    "kanji": "脅かす",
+    "hiragana": "おどかす",
+    "hanViet": "HIẾP",
+    "meaning": {
+      "vi": "Dọa, hù dọa",
+      "en": "To intimidate, surprise"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "暗闇で人を脅かす。",
+        "vi": "Hù dọa người trong bóng tối.",
+        "en": "To intimidate, surprise"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1049",
+    "kanji": "逆らう",
+    "hiragana": "さからう",
+    "hanViet": "NGHỊCH",
+    "meaning": {
+      "vi": "Chống đối, ngược lại",
+      "en": "To oppose, go against"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "親に逆らう。",
+        "vi": "Chống đối bố mẹ.",
+        "en": "To oppose, go against"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1050",
+    "kanji": "妨げる",
+    "hiragana": "さまたげる",
+    "hanViet": "PHƯƠNG",
+    "meaning": {
+      "vi": "Ngăn chặn, quấy rầy, cản trở",
+      "en": "To disturb, prevent"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "進行を妨げる。",
+        "vi": "Cản trở tiến độ.",
+        "en": "To disturb, prevent"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1051",
+    "kanji": "打ち消す",
+    "hiragana": "うちけす",
+    "hanViet": "ĐẢ TIÊU",
+    "meaning": {
+      "vi": "Phủ nhận, bác bỏ",
+      "en": "To deny, negate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "うわさを打ち消す。",
+        "vi": "Bác bỏ tin đồn.",
+        "en": "To deny, negate"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1052",
+    "kanji": "応じる",
+    "hiragana": "おうじる",
+    "hanViet": "ỨNG",
+    "meaning": {
+      "vi": "Đáp ứng, đáp lại",
+      "en": "To respond, answer"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "要求に応じる。",
+        "vi": "Đáp ứng yêu cầu.",
+        "en": "To respond, answer"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1053",
+    "kanji": "承る",
+    "hiragana": "うけたまわる",
+    "hanViet": "THỪA",
+    "meaning": {
+      "vi": "Hiểu rõ, tiếp nhận",
+      "en": "To hear, receive (humble)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "注文を承る。",
+        "vi": "Tiếp nhận đơn hàng.",
+        "en": "To hear, receive (humble)"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1054",
+    "kanji": "頂戴する",
+    "hiragana": "ちょうだいする",
+    "hanViet": "ĐÍNH ĐÁI",
+    "meaning": {
+      "vi": "Nhận",
+      "en": "To receive (humble)"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "お土産を頂戴する。",
+        "vi": "Nhận quà lưu niệm.",
+        "en": "To receive (humble)"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1055",
+    "kanji": "学ぶ",
+    "hiragana": "まなぶ",
+    "hanViet": "HỌC",
+    "meaning": {
+      "vi": "Học",
+      "en": "To learn"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "日本語を学ぶ。",
+        "vi": "Học tiếng Nhật.",
+        "en": "To learn"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1056",
+    "kanji": "練る",
+    "hiragana": "ねる",
+    "hanViet": "LUYỆN",
+    "meaning": {
+      "vi": "Nhào nặn",
+      "en": "To knead, polish"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "パンの生地を練る。",
+        "vi": "Nhào bột bánh mì.",
+        "en": "To knead, polish"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1057",
+    "kanji": "負う",
+    "hiragana": "おう",
+    "hanViet": "PHỤ",
+    "meaning": {
+      "vi": "Gánh vác",
+      "en": "To bear, take responsibility"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "責任を負う。",
+        "vi": "Gánh vác trách nhiệm.",
+        "en": "To bear, take responsibility"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1058",
+    "kanji": "果たす",
+    "hiragana": "はたす",
+    "hanViet": "QUẢ",
+    "meaning": {
+      "vi": "Hoàn thành",
+      "en": "To accomplish, fulfill"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "目的を果たす。",
+        "vi": "Hoàn thành mục đích.",
+        "en": "To accomplish, fulfill"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1059",
+    "kanji": "引き受ける",
+    "hiragana": "ひきうける",
+    "hanViet": "DẪN THỤ",
+    "meaning": {
+      "vi": "Đảm nhận",
+      "en": "To undertake, take over"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "仕事を引き受ける。",
+        "vi": "Đảm nhận công việc.",
+        "en": "To undertake, take over"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1060",
+    "kanji": "増す",
+    "hiragana": "ます",
+    "hanViet": "TĂNG",
+    "meaning": {
+      "vi": "Tăng lên",
+      "en": "To increase"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "体重が増す。",
+        "vi": "Cân nặng tăng lên.",
+        "en": "To increase"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1061",
+    "kanji": "欠ける",
+    "hiragana": "かける",
+    "hanViet": "KHIẾM",
+    "meaning": {
+      "vi": "Thiếu, khuyết",
+      "en": "To lack, be missing"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "皿が欠ける。",
+        "vi": "Cái đĩa bị mẻ.",
+        "en": "To lack, be missing"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1062",
+    "kanji": "欠かす",
+    "hiragana": "かかす",
+    "hanViet": "KHIẾM",
+    "meaning": {
+      "vi": "Thiếu, khuyết",
+      "en": "To miss, fail to do"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "努力を欠かす。",
+        "vi": "Thiếu sự nỗ lực.",
+        "en": "To miss, fail to do"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1063",
+    "kanji": "澄む",
+    "hiragana": "すむ",
+    "hanViet": "TRỪNG",
+    "meaning": {
+      "vi": "Trong lành, trong sạch",
+      "en": "To become clear"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "水が澄む。",
+        "vi": "Nước trở nên trong vắt.",
+        "en": "To become clear"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1064",
+    "kanji": "濁る",
+    "hiragana": "にごる",
+    "hanViet": "TRỌC",
+    "meaning": {
+      "vi": "Đục",
+      "en": "To become muddy"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "川が濁る。",
+        "vi": "Dòng sông bị vẩn đục.",
+        "en": "To become muddy"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1065",
+    "kanji": "濁す",
+    "hiragana": "にごす",
+    "hanViet": "TRỌC",
+    "meaning": {
+      "vi": "Làm đục",
+      "en": "To make turbid, evade"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "お茶を濁す。",
+        "vi": "Nói lảng đi.",
+        "en": "To make turbid, evade"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1066",
+    "kanji": "生じる",
+    "hiragana": "しょうじる",
+    "hanViet": "SINH",
+    "meaning": {
+      "vi": "Phát sinh",
+      "en": "To produce, yield"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "問題が生じる。",
+        "vi": "Phát sinh vấn đề.",
+        "en": "To produce, yield"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1067",
+    "kanji": "及ぶ",
+    "hiragana": "およぶ",
+    "hanViet": "CẬP",
+    "meaning": {
+      "vi": "Lan tới, mở rộng",
+      "en": "To reach, extend"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "影響が及ぶ。",
+        "vi": "Ảnh hưởng lan rộng.",
+        "en": "To reach, extend"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1068",
+    "kanji": "及ぼす",
+    "hiragana": "およぼす",
+    "hanViet": "CẬP",
+    "meaning": {
+      "vi": "Gây ảnh hưởng",
+      "en": "To exert, cause"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "被害を及ぼす。",
+        "vi": "Gây ra thiệt hại.",
+        "en": "To exert, cause"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1069",
+    "kanji": "至る",
+    "hiragana": "いたる",
+    "hanViet": "CHÍ",
+    "meaning": {
+      "vi": "Dẫn đến",
+      "en": "To arrive at, lead to"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "結論に至る。",
+        "vi": "Đi đến kết luận.",
+        "en": "To arrive at, lead to"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1070",
+    "kanji": "達する",
+    "hiragana": "たっする",
+    "hanViet": "ĐẠT",
+    "meaning": {
+      "vi": "Đạt đến, lan ra",
+      "en": "To reach, attain"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "目標に達する。",
+        "vi": "Đạt đến mục tiêu.",
+        "en": "To reach, attain"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1071",
+    "kanji": "実る",
+    "hiragana": "みのる",
+    "hanViet": "THỰC",
+    "meaning": {
+      "vi": "Đạt thành quả, kết quả",
+      "en": "To bear fruit, ripen"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "努力が実る。",
+        "vi": "Nỗ lực đơm hoa kết trái.",
+        "en": "To bear fruit, ripen"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1072",
+    "kanji": "暮れる",
+    "hiragana": "くれる",
+    "hanViet": "MỘ",
+    "meaning": {
+      "vi": "Tối, lặn",
+      "en": "To grow dark, end"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "日が暮れる。",
+        "vi": "Mặt trời lặn.",
+        "en": "To grow dark, end"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1073",
+    "kanji": "劣る",
+    "hiragana": "おとる",
+    "hanViet": "LIỆT",
+    "meaning": {
+      "vi": "Kém hơn",
+      "en": "To be inferior to"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "性能が劣る。",
+        "vi": "Tính năng kém hơn.",
+        "en": "To be inferior to"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1074",
+    "kanji": "異なる",
+    "hiragana": "ことなる",
+    "hanViet": "DỊ",
+    "meaning": {
+      "vi": "Khác",
+      "en": "To differ, vary"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "考えが異なる。",
+        "vi": "Suy nghĩ khác biệt.",
+        "en": "To differ, vary"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1075",
+    "kanji": "乱れる",
+    "hiragana": "みだれる",
+    "hanViet": "LOẠN",
+    "meaning": {
+      "vi": "Rối, rối loạn",
+      "en": "To be disordered"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "列が乱れる。",
+        "vi": "Hàng ngũ bị rối loạn.",
+        "en": "To be disordered"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1076",
+    "kanji": "乱す",
+    "hiragana": "みだす",
+    "hanViet": "LOẠN",
+    "meaning": {
+      "vi": "Đảo lộn, lộn xộn",
+      "en": "To disturb, throw out of order"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "秩序を乱す。",
+        "vi": "Làm đảo lộn trật tự.",
+        "en": "To disturb, throw out of order"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1077",
+    "kanji": "緩む",
+    "hiragana": "ゆるむ",
+    "hanViet": "HOÃN",
+    "meaning": {
+      "vi": "Lỏng",
+      "en": "To loosen, slacken"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "靴ひもが緩む。",
+        "vi": "Dây giày bị lỏng.",
+        "en": "To loosen, slacken"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1078",
+    "kanji": "緩める",
+    "hiragana": "ゆるめる",
+    "hanViet": "HOÃN",
+    "meaning": {
+      "vi": "Nới lỏng",
+      "en": "To loosen, relax"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "気を緩める。",
+        "vi": "Thư giãn tinh thần.",
+        "en": "To loosen, relax"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1079",
+    "kanji": "",
+    "hiragana": "さびる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bị han gỉ",
+      "en": "To rust"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "鉄がさびる。",
+        "vi": "Sắt bị gỉ.",
+        "en": "To rust"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1080",
+    "kanji": "接する",
+    "hiragana": "せっする",
+    "hanViet": "TIẾP",
+    "meaning": {
+      "vi": "Tiếp xúc",
+      "en": "To touch, come in contact"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "外国人と接する。",
+        "vi": "Tiếp xúc với người nước ngoài.",
+        "en": "To touch, come in contact"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1081",
+    "kanji": "属する",
+    "hiragana": "ぞくする",
+    "hanViet": "CHÚC",
+    "meaning": {
+      "vi": "Thuộc về",
+      "en": "To belong to"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "野球部に属する。",
+        "vi": "Thuộc về câu lạc bộ bóng chày.",
+        "en": "To belong to"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1082",
+    "kanji": "占める",
+    "hiragana": "しめる",
+    "hanViet": "CHIÊM",
+    "meaning": {
+      "vi": "Chiếm (bao nhiêu%), nắm giữ",
+      "en": "To occupy, hold"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "トップを占める。",
+        "vi": "Chiếm vị trí hàng đầu.",
+        "en": "To occupy, hold"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1083",
+    "kanji": "",
+    "hiragana": "くたぶれる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mệt mỏi, kiệt sức",
+      "en": "To get tired out"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "歩き疲れてくたぶれる。",
+        "vi": "Mệt mỏi vì đi bộ.",
+        "en": "To get tired out"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1084",
+    "kanji": "恵まれる",
+    "hiragana": "めぐまれる",
+    "hanViet": "HUỆ",
+    "meaning": {
+      "vi": "Được ban tặng, trời phú",
+      "en": "To be blessed with"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "才能に恵まれる。",
+        "vi": "Được ban cho tài năng.",
+        "en": "To be blessed with"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1085",
+    "kanji": "湧く",
+    "hiragana": "わく",
+    "hanViet": "DŨNG",
+    "meaning": {
+      "vi": "Sôi lên, phun lên",
+      "en": "To boil, spring up"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "お湯が湧く。",
+        "vi": "Nước sôi.",
+        "en": "To boil, spring up"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1086",
+    "kanji": "",
+    "hiragana": "ほほえむ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cười",
+      "en": "To smile"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "にっこりほほえむ。",
+        "vi": "Mỉm cười rạng rỡ.",
+        "en": "To smile"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1087",
+    "kanji": "",
+    "hiragana": "ふざける",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đùa cợt, chế nhạo",
+      "en": "To fool around, joke"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "ふざけて笑う。",
+        "vi": "Đùa giỡn cười cợt.",
+        "en": "To fool around, joke"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1088",
+    "kanji": "悔やむ",
+    "hiragana": "くやむ",
+    "hanViet": "HỐI",
+    "meaning": {
+      "vi": "Hối tiếc",
+      "en": "To regret, mourn"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "失敗を悔やむ。",
+        "vi": "Hối hận vì thất bại.",
+        "en": "To regret, mourn"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1089",
+    "kanji": "",
+    "hiragana": "ためらう",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lưỡng lự, chần chừ",
+      "en": "To hesitate"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "返事をためらう。",
+        "vi": "Chần chừ trả lời.",
+        "en": "To hesitate"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_12_1090",
+    "kanji": "敬う",
+    "hiragana": "うやまう",
+    "hanViet": "KÍNH",
+    "meaning": {
+      "vi": "Tôn trọng",
+      "en": "To respect, revere"
+    },
+    "type": "verb",
+    "level": "N2",
+    "lesson": "Bài 12",
+    "examples": [
+      {
+        "jp": "年上を敬う。",
+        "vi": "Tôn trọng người lớn tuổi.",
+        "en": "To respect, revere"
+      }
+    ]
+  }
+]

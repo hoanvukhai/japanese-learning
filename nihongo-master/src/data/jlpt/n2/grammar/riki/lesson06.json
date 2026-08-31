@@ -1,0 +1,302 @@
+[
+  {
+    "id": "g_rkn2_06_01",
+    "level": "N2",
+    "structure": "〜かというと / 〜かといえば",
+    "structureKana": "〜かというと / 〜かといえば",
+    "meaning": {
+      "vi": "Nếu nói là... (thì thật ra không hẳn) / Lý do là...",
+      "en": "If one were to say... (it is not necessarily so) / The reason is..."
+    },
+    "formation": [
+      "Thể thông thường + かというと / かといえば + 〜ではない / 〜とは限らない",
+      "Nghi vấn từ + かというと / かといえば"
+    ],
+    "lesson": "Bài 6",
+    "group": "Condition_Reason",
+    "confusedWith": [],
+    "caution": {
+      "vi": "1. 'Nếu nói là... thì không hẳn' (Phủ định lại một dự đoán). 2. 'Nếu hỏi tại sao... thì là vì' (Nêu vấn đề rồi tự giải thích). 3. 'どちらかというと' mang nghĩa 'Nếu buộc phải chọn 1 trong 2 thì...'.",
+      "en": "1. 'If you think that... it's not entirely true' (Denying an assumption). 2. 'If you ask why... it's because' (Self-questioning and answering). 3. 'どちらかというと' means 'If I had to choose, I would say...'."
+    },
+    "examples": [
+      {
+        "jp": "なぜ日本語を勉強しようと思った[かというと]、日本の俳優が好きだったからです。",
+        "kana": "なぜにほんごをべんきょうしようとおもった[かというと]、にほんのはいゆうがすきだったからです。",
+        "vi": "Nếu hỏi tại sao tôi lại định học tiếng Nhật [thì lý do là] vì tôi thích diễn viên Nhật Bản.",
+        "en": "If you ask why I decided to study Japanese, [it's because] I liked Japanese actors."
+      },
+      {
+        "jp": "お金があるから幸せ[かと言うと]、もちろん、そうとは限らない。",
+        "kana": "おかねがあるからしあわせ[かというと]、もちろん、そうとはかぎらない。",
+        "vi": "[Nếu nói] cứ có tiền là hạnh phúc [thì] tất nhiên không hẳn là như vậy.",
+        "en": "[If one were to say] having money makes you happy, of course, that is not necessarily the case."
+      },
+      {
+        "jp": "どちら[かというと]、彼はベトナム人よりかは日本人っぽい。",
+        "kana": "どちら[かというと]、かれはベトナムじんよりかはにほんじんっぽい。",
+        "vi": "[Nếu buộc phải chọn] xem giống ai hơn thì anh ấy giống người Nhật hơn là người Việt Nam.",
+        "en": "[If I had to choose], he seems more like a Japanese person than a Vietnamese person."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_06_02",
+    "level": "N2",
+    "structure": "〜かのようだ",
+    "structureKana": "〜かのようだ",
+    "meaning": {
+      "vi": "Cứ như là...",
+      "en": "As if..."
+    },
+    "formation": [
+      "Thể thông thường + かのようだ / かのように"
+    ],
+    "lesson": "Bài 6",
+    "group": "Metaphor",
+    "confusedWith": [
+      "〜ようだ",
+      "〜みたいだ"
+    ],
+    "caution": {
+      "vi": "Thực tế không phải như vậy, nhưng biểu hiện/tình trạng cứ hệt như thế, khiến mình có cảm giác như thế. Thường đi kèm với 'まるで'.",
+      "en": "In reality, it is not the case, but it looks or feels exactly like it. Often used together with 'まるで'."
+    },
+    "examples": [
+      {
+        "jp": "けんかしていたのに、まるで何事もなかった[かのように]話している。",
+        "kana": "けんかしていたのに、まるでもなにごともなかった[かのように]はなしている。",
+        "vi": "Mặc dù đang cãi nhau thế mà họ vẫn nói chuyện [cứ như thể] không có chuyện gì xảy ra.",
+        "en": "Even though they were fighting, they are talking [as if] nothing happened at all."
+      },
+      {
+        "jp": "賞をもらったのは弟だというのに、彼女の喜ぶ様子はまるで自分が賞をもらった[かのようだ]。",
+        "kana": "しょうをもらったのはおとうとだというのに、かのじょのよろこぶようすはまるでじぶんがしょうをもらった[かのようだ]。",
+        "vi": "Người nhận được giải thưởng là em trai vậy mà bộ dạng vui mừng của cô ấy [cứ như thể] chính cô ấy là người nhận giải vậy.",
+        "en": "Even though her younger brother won the award, her joyful appearance is [as if] she won it herself."
+      },
+      {
+        "jp": "十月なのに暑くて、まる夏に戻った[かのようだ]。",
+        "kana": "じゅうがつなのにあつくて、まるなつにもどった[かのようだ]。",
+        "vi": "Dù đã tháng mười rồi mà vẫn nóng, [cứ như là] mùa hè quay trở lại vậy.",
+        "en": "Even though it's October, it's so hot, [as if] summer has returned."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_06_03",
+    "level": "N2",
+    "structure": "〜からすると / 〜からすれば",
+    "structureKana": "〜からすると / 〜からすれば",
+    "meaning": {
+      "vi": "Xét từ mặt / Đứng từ lập trường...",
+      "en": "Judging from... / From the perspective of..."
+    },
+    "formation": [
+      "N + からすると / からすれば"
+    ],
+    "lesson": "Bài 6",
+    "group": "Basis_Perspective",
+    "confusedWith": [
+      "〜からして",
+      "〜から見ると"
+    ],
+    "caution": {
+      "vi": "Nhìn từ lập trường của ai đó, hoặc căn cứ từ cơ sở/trạng thái nào đó để đưa ra phán đoán/quyết định.",
+      "en": "Used to make a judgment based on a certain situation/basis, or looking from someone's perspective."
+    },
+    "examples": [
+      {
+        "jp": "みなさんの実力[からすると]、合格できると思います。",
+        "kana": "みなさんのじつりょく[からすると]、ごうかくできるとおもいます。",
+        "vi": "[Xét từ] thực lực của các bạn thì tôi nghĩ các bạn có thể thi đỗ.",
+        "en": "[Judging from] everyone's ability, I think you can pass."
+      },
+      {
+        "jp": "あの話し方[からすると]、彼は東京の人ではないようだ。",
+        "kana": "あのはなしかた[からすると]、かれはとうきょうのひとではないようだ。",
+        "vi": "[Căn cứ từ] cách nói chuyện đó thì có vẻ anh ấy không phải là người Tokyo.",
+        "en": "[Judging from] that way of speaking, he doesn't seem to be from Tokyo."
+      },
+      {
+        "jp": "今の雲の様子[からすると]、おそらく雨だと思います。",
+        "kana": "いまのくものようす[からすると]、おそらくあめだとおもいます。",
+        "vi": "[Nhìn từ] tình trạng mây hiện tại thì tôi nghĩ có lẽ trời sẽ mưa.",
+        "en": "[Judging from] the current condition of the clouds, I think it will probably rain."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_06_04",
+    "level": "N2",
+    "structure": "〜がる / 〜がらずに",
+    "structureKana": "〜がる / 〜がらずに",
+    "meaning": {
+      "vi": "Có vẻ (mong muốn/cảm giác của người khác) / Đừng ngại, đừng sợ...",
+      "en": "To show signs of... / Without hesitating or being afraid..."
+    },
+    "formation": [
+      "Aい (bỏ い) + がる",
+      "Aな (bỏ な) + がる",
+      "Vたい (bỏ い) + がる"
+    ],
+    "lesson": "Bài 6",
+    "group": "Emotion_Desire",
+    "confusedWith": [],
+    "caution": {
+      "vi": "Chỉ mong muốn, cảm giác của người thứ 3 (không dùng cho bản thân). 'がる' thể hiện thói quen, 'がっている' thể hiện cảm xúc hiện tại. Dạng phủ định 'がらずに / がらないで' mang nghĩa khuyên bảo 'đừng có ngại/sợ... mà hãy...'.",
+      "en": "Indicates the feelings or desires of a third person (not used for oneself). 'がる' implies a habit, 'がっている' shows current emotion. The negative form 'がらずに / がらないで' acts as advice meaning 'don't be afraid/shy, just do it'."
+    },
+    "examples": [
+      {
+        "jp": "うちの子はいつも肉を食べた[がります]。",
+        "kana": "うちのこはいつもにくをたべた[がります]。",
+        "vi": "Đứa con nhà tôi lúc nào cũng [đòi/thích] ăn thịt.",
+        "en": "My child always [wants] to eat meat."
+      },
+      {
+        "jp": "大丈夫ですよ。怖[がらずに]話してください。",
+        "kana": "だいじょうぶですよ。こわ[がらずに]はなしてください。",
+        "vi": "Không sao đâu. Hãy [đừng sợ hãi] mà cứ nói chuyện đi.",
+        "en": "It's okay. Please speak [without being afraid]."
+      },
+      {
+        "jp": "恥ずかし[がらないで]、堂々と話して。",
+        "kana": "はずかし[がらないで]、どうどうとはなして。",
+        "vi": "[Đừng có] xấu hổ, hãy nói một cách tự tin lên.",
+        "en": "[Don't be] shy, speak confidently."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_06_05",
+    "level": "N2",
+    "structure": "〜きり / 〜きりだ",
+    "structureKana": "〜きり / 〜きりだ",
+    "meaning": {
+      "vi": "Kể từ sau khi / Chỉ (mỗi)...",
+      "en": "Ever since / Only, just..."
+    },
+    "formation": [
+      "Vた + きり",
+      "N + きり"
+    ],
+    "lesson": "Bài 6",
+    "group": "Limit_Continuing",
+    "confusedWith": [
+      "〜以来",
+      "〜だけ"
+    ],
+    "caution": {
+      "vi": "1. Vた + きり: Kể từ sau khi làm V thì một hành động/trạng thái cứ kéo dài mãi (không có sự thay đổi mong đợi diễn ra sau đó). 2. N + きり: Chỉ có giới hạn như vậy (giống だけ nhưng mang sắc thái ít ỏi, giới hạn).",
+      "en": "1. Vた + きり: Ever since doing V, a state continues (an expected change does not occur). 2. N + きり: Only that limit (similar to だけ but emphasizes a small amount or limitation)."
+    },
+    "examples": [
+      {
+        "jp": "彼は「五分後電話する」と言った[きり]全然連絡しない。",
+        "kana": "かれは「ごふんごでんわする」といった[きり]ぜんぜんれんらくしない。",
+        "vi": "Anh ấy [sau khi] nói '5 phút sau sẽ gọi' [thì] hoàn toàn không liên lạc gì nữa.",
+        "en": "[Ever since] he said 'I will call in 5 minutes', he hasn't contacted me at all."
+      },
+      {
+        "jp": "人生は一度[きり]ですから、やりたいことをやりましょう！",
+        "kana": "じんせいはいちど[きり]ですから、やりたいことをやりましょう！",
+        "vi": "Vì cuộc đời [chỉ có] một lần duy nhất, nên hãy làm những gì mình muốn!",
+        "en": "Since you [only] live once, let's do what we want to do!"
+      },
+      {
+        "jp": "ご飯は昨日のお昼食べた[きり]、何も食べてません。",
+        "kana": "ごはんあきのうのおひるたべた[きり]、なにもたべてません。",
+        "vi": "[Kể từ sau khi] ăn bữa trưa ngày hôm qua xong thì tôi chưa ăn thêm gì cả.",
+        "en": "[Ever since] I ate lunch yesterday, I haven't eaten anything."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_06_06",
+    "level": "N2",
+    "structure": "〜こと",
+    "structureKana": "〜こと",
+    "meaning": {
+      "vi": "Phải (không được) / Nên / Thật là (biết bao)...",
+      "en": "Must (not) / Should / How very..."
+    },
+    "formation": [
+      "Vる / Vない + こと (Mệnh lệnh)",
+      "Vる / Vない + ことだ (Khuyên bảo)",
+      "Aい / Aな + ことか (Cảm thán)"
+    ],
+    "lesson": "Bài 6",
+    "group": "Command_Advice_Emotion",
+    "confusedWith": [
+      "〜べきだ",
+      "〜ものだ"
+    ],
+    "caution": {
+      "vi": "1. ~こと: Mệnh lệnh hoặc quy tắc (phải/không được làm gì). 2. ~ことだ: Khuyên bảo (làm thế là thích hợp nhất/tốt nhất). 3. ~ことか: Cảm thán (vô cùng to lớn, rất nhiều), hay đi với なんと, どんなに, どれほど.",
+      "en": "1. ~こと: Command or rule (must/must not). 2. ~ことだ: Advice (it is best to). 3. ~ことか: Exclamation (how very...), often used with なんと, どんなに, どれほど."
+    },
+    "examples": [
+      {
+        "jp": "薬品などは下のたなに置かない[こと]。",
+        "kana": "やくひんなどはしたのたなにおかない[こと]。",
+        "vi": "[Không được] để dược phẩm ở kệ dưới (mệnh lệnh, quy tắc).",
+        "en": "You [must not] put medicines on the bottom shelf."
+      },
+      {
+        "jp": "風邪を早く治したいんだったら、暖かくしてゆっくり寝る[ことだ]。",
+        "kana": "かぜをはやくなおしたいんだったら、あたたかくしてゆっくりねる[ことだ]。",
+        "vi": "Nếu muốn mau khỏi cảm thì [tốt nhất là] nên giữ ấm và ngủ nghỉ thoải mái.",
+        "en": "If you want to cure your cold quickly, you [should] keep warm and sleep well."
+      },
+      {
+        "jp": "何度注意した[ことか]。",
+        "kana": "なんどちゅういした[ことか]。",
+        "vi": "Tôi đã nhắc nhở [không biết bao nhiêu lần rồi cơ chứ].",
+        "en": "[How many times] have I warned you!"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_06_07",
+    "level": "N2",
+    "structure": "〜ことで",
+    "structureKana": "〜ことで",
+    "meaning": {
+      "vi": "Bằng việc / Thông qua việc...",
+      "en": "By doing... / Through..."
+    },
+    "formation": [
+      "Vる + ことで"
+    ],
+    "lesson": "Bài 6",
+    "group": "Method_Cause",
+    "confusedWith": [
+      "〜ことによって"
+    ],
+    "caution": {
+      "vi": "Nhấn mạnh vào kết quả đằng sau có được là nhờ cách thức đằng trước. Tương tự 'ことによって' nhưng 'ことによって' nhấn mạnh vào cách thức (cái dùng để làm), còn 'ことで' nhấn mạnh vào kết quả đạt được.",
+      "en": "Emphasizes the result achieved through the method mentioned before. Similar to 'ことによって', but 'ことによって' focuses on the means, whereas 'ことで' focuses on the successful outcome."
+    },
+    "examples": [
+      {
+        "jp": "新たな材料を見つける[ことで]開発に成功しました。",
+        "kana": "あらたなざいりょうをみつける[ことで]かいはつにせいこうしました。",
+        "vi": "[Bằng việc] tìm ra vật liệu mới, chúng tôi đã thành công trong việc phát triển.",
+        "en": "[By] finding a new material, we succeeded in the development."
+      },
+      {
+        "jp": "悩んでいる時は、誰かに話をじっくり聞いてもらう[ことで]気持ちが楽になる場合もある。",
+        "kana": "なやんでいるときは、だれかにはなしをじっくりきいてもらう[ことで]きもちがらくになるばあいもある。",
+        "vi": "Khi có chuyện buồn phiền, đôi khi [thông qua việc] có ai đó chăm chú lắng nghe mình nói, tâm trạng sẽ nhẹ nhõm hơn.",
+        "en": "When you are troubled, sometimes your mood lightens [by] having someone listen attentively to you."
+      },
+      {
+        "jp": "注射を打つ[ことで]、病気を予防する。",
+        "kana": "ちゅうしゃをうつ[ことで]、びょうきをよぼうする。",
+        "vi": "[Bằng việc] tiêm vắc-xin, chúng ta sẽ phòng ngừa được bệnh.",
+        "en": "[By] getting an injection, we prevent illnesses."
+      }
+    ]
+  }
+]

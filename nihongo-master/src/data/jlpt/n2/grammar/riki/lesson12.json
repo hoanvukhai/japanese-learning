@@ -1,0 +1,299 @@
+[
+  {
+    "id": "g_rkn2_12_01",
+    "level": "N2",
+    "structure": "〜を問わず",
+    "structureKana": "〜をとわず",
+    "meaning": {
+      "vi": "Bất kể, không quan trọng (có hay không)...",
+      "en": "Regardless of... / Without distinction of..."
+    },
+    "formation": [
+      "N + を問わず"
+    ],
+    "lesson": "Bài 12",
+    "group": "Condition_Irrelevance",
+    "confusedWith": [
+      "〜にかかわらず"
+    ],
+    "caution": {
+      "vi": "Thường đi kèm với các từ có tính đối lập (nam nữ, ngày đêm, trong ngoài, có không) hoặc các từ chỉ sự đa dạng (tuổi tác, quốc tịch, kinh nghiệm). Có nghĩa là điều kiện A có khác biệt thế nào cũng không quan trọng, hành động B vẫn được thực hiện.",
+      "en": "Often used with words indicating opposites (male/female, day/night, inside/outside, presence/absence) or diversity (age, nationality, experience). Means that differences in condition A do not matter, action B is still carried out."
+    },
+    "examples": [
+      {
+        "jp": "このマラソン大会には性別、年齢[を問わず]、だれでも参加できます。",
+        "kana": "このマラソンたいかいにはせいべつ、ねんれい[をとわず]、だれでもさんかできます。",
+        "vi": "Giải marathon này [bất kể] giới tính, tuổi tác, ai cũng có thể tham gia.",
+        "en": "Anyone can participate in this marathon [regardless of] gender or age."
+      },
+      {
+        "jp": "男女[を問わず]応募できます。",
+        "kana": "だんじょ[をとわず]おうぼできます。",
+        "vi": "[Bất kể] nam nữ đều có thể ứng tuyển.",
+        "en": "You can apply [regardless of] being male or female."
+      },
+      {
+        "jp": "私たちのサークルは、ゴルフの経験の有無[を問わず]誰でも入会できます。",
+        "kana": "わたしたちのサークルは、ゴルフのけいけんのうむ[をとわず]だれでもにゅうかいできます。",
+        "vi": "Câu lạc bộ của chúng tôi ai cũng có thể tham gia [bất kể] có kinh nghiệm chơi golf hay không.",
+        "en": "Anyone can join our club [regardless of] whether they have golf experience or not."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_12_02",
+    "level": "N2",
+    "structure": "〜をはじめ / 〜をはじめとする",
+    "structureKana": "〜をはじめ / 〜をはじめとする",
+    "meaning": {
+      "vi": "Trước hết là / Tiêu biểu là...",
+      "en": "Starting with... / First and foremost..."
+    },
+    "formation": [
+      "N + をはじめ / をはじめとして",
+      "N + をはじめとする + N"
+    ],
+    "lesson": "Bài 12",
+    "group": "Example_Representation",
+    "confusedWith": [],
+    "caution": {
+      "vi": "Đưa ra một ví dụ tiêu biểu nhất, đại diện nhất trong một nhóm, ngụ ý ngoài ra còn rất nhiều cái khác nữa. Là cách nói trang trọng (thường dùng trong văn viết, phát biểu).",
+      "en": "Gives the most typical or representative example of a group, implying there are many others as well. Formal expression (often used in written language or speeches)."
+    },
+    "examples": [
+      {
+        "jp": "北海道はカニ[をはじめとする]海産物がおいしいことで有名だ。",
+        "kana": "ほっかいどうはカニ[をはじめとする]かいさんぶつがおいしいことでゆうめいだ。",
+        "vi": "Hokkaido nổi tiếng với hải sản ngon, [tiêu biểu là] cua.",
+        "en": "Hokkaido is famous for its delicious seafood, [starting with] crabs."
+      },
+      {
+        "jp": "都市ではゴミ問題[をはじめ]、地震対策、交通渋滞など...",
+        "kana": "としではゴミもんだい[をはじめ]、じしんたいさく、こうつうじゅうたいなど...",
+        "vi": "Ở các đô thị, [trước hết phải kể đến] vấn đề rác thải, sau đó là đối phó động đất, tắc đường...",
+        "en": "In cities, [starting with] the garbage problem, there are also earthquake countermeasures, traffic jams, etc..."
+      },
+      {
+        "jp": "社長[をはじめ]、社員の皆さんに感謝いたします。",
+        "kana": "しゃちょう[をはじめ]、しゃいんのみなさんにかんしゃいたします。",
+        "vi": "Tôi xin gửi lời cảm ơn tới toàn thể nhân viên trong công ty, [trước hết là] giám đốc.",
+        "en": "I would like to express my gratitude to all employees, [first and foremost] the president."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_12_03",
+    "level": "N2",
+    "structure": "〜ようではないか / 〜ようじゃないか",
+    "structureKana": "〜ようではないか / 〜ようじゃないか",
+    "meaning": {
+      "vi": "Chúng ta hãy cùng...",
+      "en": "Let's... / Shall we..."
+    },
+    "formation": [
+      "V (thể ý chí) + ようではないか / ようじゃないか"
+    ],
+    "lesson": "Bài 12",
+    "group": "Volition_Invitation",
+    "confusedWith": [
+      "〜ましょう"
+    ],
+    "caution": {
+      "vi": "Đưa ra chủ trương, kêu gọi mọi người cùng làm gì đó. Mang sắc thái hô hào mạnh mẽ, chủ yếu dùng bởi nam giới hoặc trong các bài diễn thuyết chính trị, xã luận.",
+      "en": "Advocates an idea and calls on people to do something together. Carries a strong rallying tone, mostly used by men or in political speeches and editorials."
+    },
+    "examples": [
+      {
+        "jp": "みんなでこの国を変え[ようじゃないか]！",
+        "kana": "みんなでこのくにをかえ[ようじゃないか]！",
+        "vi": "Mọi người [hãy cùng nhau] thay đổi đất nước này [nào]!",
+        "en": "[Let's] change this country together!"
+      },
+      {
+        "jp": "今諦めるのはまだ早い。もう一度頑張ってみ[ようじゃないか]。",
+        "kana": "いまあきらめるのはまだはやい。もういちどがんばってみ[ようじゃないか]。",
+        "vi": "Bây giờ từ bỏ là còn quá sớm. [Chúng ta hãy cùng] cố gắng thêm một lần nữa [xem sao].",
+        "en": "It's too early to give up now. [Let's] try our best one more time."
+      },
+      {
+        "jp": "食料不足で困っている人たちに、できる限りの援助をし[ようじゃないか]。",
+        "kana": "しょくりょうぶそくでこまっているひとたちに、できるかぎりのえんじょをし[ようじゃないか]。",
+        "vi": "[Chúng ta hãy cùng] viện trợ hết mức có thể cho những người đang khốn khổ vì thiếu lương thực.",
+        "en": "[Let's] provide as much assistance as possible to those suffering from food shortages."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_12_04",
+    "level": "N2",
+    "structure": "〜うる / 〜える / 〜えない",
+    "structureKana": "〜うる / 〜える / 〜えない",
+    "meaning": {
+      "vi": "Có thể (xảy ra) / Không thể (xảy ra)...",
+      "en": "Possible to... / Can (occur)... / Cannot (occur)"
+    },
+    "formation": [
+      "Vます (bỏ ます) + うる / える / えない"
+    ],
+    "lesson": "Bài 12",
+    "group": "Possibility",
+    "confusedWith": [
+      "〜できる",
+      "〜られない"
+    ],
+    "caution": {
+      "vi": "Chỉ tính khả thi, tiềm năng của một sự việc (có khả năng xảy ra hay không). Không dùng diễn tả năng lực cá nhân (VD: không dùng cho việc 'có thể nói được tiếng Nhật hay không'). Trong hội thoại thường dùng dạng 'ありえる / ありえない'.",
+      "en": "Indicates the feasibility or potential of an event (whether it can happen or not). Not used for personal abilities (e.g., cannot be used for 'can speak Japanese'). 'ありえる/ありえない' is frequently used in conversation."
+    },
+    "examples": [
+      {
+        "jp": "事故はいつでも起こり[得る]ので気をつけている。",
+        "kana": "じこはいつでもおこり[える]のできをつけている。",
+        "vi": "Tai nạn [có thể] xảy ra bất cứ lúc nào nên tôi luôn cẩn thận.",
+        "en": "Accidents [can] happen at any time, so I am careful."
+      },
+      {
+        "jp": "10年後、宇宙旅行は十分あり[うる]ことだ。",
+        "kana": "じゅうねんご、うちゅうりょこうはじゅうぶんあり[うる]ことだ。",
+        "vi": "10 năm sau, du lịch vũ trụ là việc hoàn toàn [có thể xảy ra].",
+        "en": "In 10 years, space travel is entirely [possible]."
+      },
+      {
+        "jp": "ゆうれい？そんなのあり[えない]でしょ？",
+        "kana": "ゆうれい？そんなのあり[えない]でしょ？",
+        "vi": "Ma á? Chuyện đó [không thể nào] có được đúng không?",
+        "en": "Ghosts? That's [impossible], right?"
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_12_05",
+    "level": "N2",
+    "structure": "〜かぎり / 〜かぎりでは / 〜ないかぎり",
+    "structureKana": "〜かぎり / 〜かぎりでは / 〜ないかぎり",
+    "meaning": {
+      "vi": "Chừng nào còn... / Theo như... / Trừ phi...",
+      "en": "As long as... / As far as... / Unless..."
+    },
+    "formation": [
+      "Vる / Vている / Vない + かぎり",
+      "Vる / Vた / Vている + かぎりでは",
+      "N + である + かぎり"
+    ],
+    "lesson": "Bài 12",
+    "group": "Limit_Condition",
+    "confusedWith": [
+      "〜範囲では"
+    ],
+    "caution": {
+      "vi": "1. かぎり: Chừng nào trạng thái A còn tiếp diễn thì trạng thái B vẫn tiếp diễn. 2. ないかぎり: Nếu không thay đổi A thì B không thay đổi (trừ phi...). 3. かぎりでは: Trong giới hạn phạm vi thông tin có được (theo như tôi biết, theo như điều tra...).",
+      "en": "1. かぎり: As long as state A continues, state B continues. 2. ないかぎり: Unless A changes, B won't change. 3. かぎりでは: Within the limits of the information obtained (as far as I know/investigated)."
+    },
+    "examples": [
+      {
+        "jp": "あの女が生きている[かぎり]、私は幸せになれない。",
+        "kana": "あのおんながいきている[かぎり]、わたしはしあわせになれない。",
+        "vi": "[Chừng nào] người đàn bà đó còn sống [thì] tôi không thể hạnh phúc được.",
+        "en": "[As long as] that woman is alive, I cannot be happy."
+      },
+      {
+        "jp": "ここにいる[限り]は、何も変わらない。",
+        "kana": "ここにいる[かぎり]は、なにもかわらない。",
+        "vi": "[Chừng nào] còn ở đây [thì] sẽ không có gì thay đổi cả.",
+        "en": "[As long as] we are here, nothing will change."
+      },
+      {
+        "jp": "私が知っている[限りでは]、彼は英語が話せる。",
+        "kana": "わたしがしっている[かぎりでは]、かれはえいごがはなせる。",
+        "vi": "[Theo như] tôi biết [thì] anh ấy có thể nói được tiếng Anh.",
+        "en": "[As far as] I know, he can speak English."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_12_06",
+    "level": "N2",
+    "structure": "〜かねる",
+    "structureKana": "〜かねる",
+    "meaning": {
+      "vi": "Không thể / Khó có thể...",
+      "en": "Cannot / Hard to (do something politely)..."
+    },
+    "formation": [
+      "Vます (bỏ ます) + かねる"
+    ],
+    "lesson": "Bài 12",
+    "group": "Polite_Refusal",
+    "confusedWith": [
+      "〜できない"
+    ],
+    "caution": {
+      "vi": "Muốn làm nhưng không thể làm được (do liên quan đến quy định, trách nhiệm, hay hoàn cảnh). Đây là cách từ chối khéo léo, lịch sự, thường được dùng trong môi trường kinh doanh và dịch vụ. Không dùng với nghĩa 'thiếu năng lực bản thân' (như できない).",
+      "en": "Want to do it but cannot (due to rules, responsibilities, or circumstances). It is a polite and tactful way to refuse, commonly used in business and customer service. Not used to mean 'lack of personal ability' (like できない)."
+    },
+    "examples": [
+      {
+        "jp": "大変申し訳ございません。そのコートはセール中の商品ですので、返品でき[かねます]。",
+        "kana": "たいへんもうしわけございません。そのコートはセールちゅうのしょうひんですので、へんぴんでき[かねます]。",
+        "vi": "Vô cùng xin lỗi quý khách. Chiếc áo khoác đó là hàng đang giảm giá nên chúng tôi [không thể] nhận đổi trả.",
+        "en": "We are very sorry. That coat is a sale item, so we [cannot] accept returns."
+      },
+      {
+        "jp": "私では分かり[かねます]。申し訳ございません。",
+        "kana": "わたしではわかり[かねます]。もうしわけございません。",
+        "vi": "Bản thân tôi thì [không thể] biết được (vượt quá quyền hạn). Xin lỗi quý khách.",
+        "en": "I [cannot] know the answer to that (beyond my authority). I am sorry."
+      },
+      {
+        "jp": "まだ結果が全部出ていない現時点では判断し[かねます]ので...",
+        "kana": "まだけっかがぜんぶでていないげんじてんでははんだんし[かねます]ので...",
+        "vi": "Ở thời điểm hiện tại khi chưa có toàn bộ kết quả thì [khó có thể] đưa ra phán đoán được nên...",
+        "en": "At this point, since all the results are not yet out, it is [difficult to] make a judgment..."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_12_07",
+    "level": "N2",
+    "structure": "〜かねない",
+    "structureKana": "〜かねない",
+    "meaning": {
+      "vi": "Có khả năng / Có nguy cơ (xảy ra chuyện xấu)...",
+      "en": "Might happen / Danger of (something bad)..."
+    },
+    "formation": [
+      "Vます (bỏ ます) + かねない"
+    ],
+    "lesson": "Bài 12",
+    "group": "Negative_Possibility",
+    "confusedWith": [
+      "〜かもしれない",
+      "〜おそれがある"
+    ],
+    "caution": {
+      "vi": "Chỉ ra rằng có nguy cơ hoặc khả năng cao sẽ xảy ra một kết quả xấu nào đó (thường dịch là 'e là sẽ', 'có nguy cơ sẽ'). Chú ý: 'かねる' là Không thể, còn 'かねない' lại mang nghĩa Có khả năng (nguy cơ).",
+      "en": "Indicates that there is a risk or high possibility of a bad result occurring (often translated as 'might', 'there is a danger that'). Note: 'かねる' means 'Cannot', while 'かねない' means 'Possible (danger)'."
+    },
+    "examples": [
+      {
+        "jp": "時々日本人に英語を使うと、誤解され[かねない]。",
+        "kana": "ときどきにほんじんにえいごをつかうと、ごかいされ[かねない]。",
+        "vi": "Thi thoảng dùng tiếng Anh với người Nhật thì [có nguy cơ] sẽ bị hiểu lầm.",
+        "en": "Sometimes using English with Japanese people [can lead to] misunderstandings."
+      },
+      {
+        "jp": "そんな乱暴な運転をしたら事故を起こし[かねない]よ。",
+        "kana": "そんならんぼうなうんてんをしたらじこをおこし[かねない]よ。",
+        "vi": "Nếu lái xe ẩu như thế thì [có thể] sẽ gây tai nạn đấy.",
+        "en": "If you drive so recklessly, you [might] cause an accident."
+      },
+      {
+        "jp": "このままだと同じ問題が起き[かねない]。",
+        "kana": "このままだとおなじもんだいがおき[かねない]。",
+        "vi": "Nếu cứ để nguyên thế này thì [có khả năng] sẽ xảy ra vấn đề tương tự.",
+        "en": "If things stay as they are, the same problem [might] happen."
+      }
+    ]
+  }
+]

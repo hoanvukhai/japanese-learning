@@ -1,0 +1,308 @@
+[
+  {
+    "id": "g_rkn2_03_01",
+    "level": "N2",
+    "structure": "〜というと / 〜といえば",
+    "structureKana": "〜というと / 〜といえば",
+    "meaning": {
+      "vi": "Nói đến / Nhắc tới... thì...",
+      "en": "Speaking of... / When you mention..."
+    },
+    "formation": [
+      "N + というと / といえば",
+      "V + といえば + V + が"
+    ],
+    "lesson": "Bài 3",
+    "group": "Topic_Focus",
+    "confusedWith": [],
+    "caution": {
+      "vi": "Dùng khi nhắc tới một chủ đề thì liên tưởng ngay đến đại diện, nét đặc trưng tiêu biểu nhất. Hoặc dùng để xác nhận lại thông tin. Với cấu trúc `VといえばVが` mang sắc thái 'công nhận là có như thế thật nhưng mà...' (khen nhẹ rồi phủ định nhẹ).",
+      "en": "Used to bring up the most representative or characteristic example of a topic just mentioned. Can also be used to confirm information. The pattern `VといえばVが` means 'It is true that [V], but...'."
+    },
+    "examples": [
+      {
+        "jp": "ベトナム料理[といえば]フォーが好きですね。",
+        "kana": "ベトナムりょうり[といえば]フォーがすきですね。",
+        "vi": "[Nói đến] ẩm thực Việt Nam thì tôi thích Phở.",
+        "en": "[Speaking of] Vietnamese cuisine, I like Pho."
+      },
+      {
+        "jp": "日本[といえば]桜ですね。",
+        "kana": "にほん[といえば]さくらですね。",
+        "vi": "[Nói đến] Nhật Bản thì phải nhắc tới hoa anh đào.",
+        "en": "[Speaking of] Japan, it has to be cherry blossoms."
+      },
+      {
+        "jp": "今日は寒い[といえば]寒いけど、コートを着るほどじゃないね。",
+        "kana": "きょうはさむい[といえば]さむいけど、コートをきるほどじゃないね。",
+        "vi": "Hôm nay [nói] lạnh [thì cũng] lạnh thật đấy, nhưng chưa đến mức phải mặc áo khoác.",
+        "en": "[It is true that] it's cold today, but it's not cold enough to wear a coat."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_03_02",
+    "level": "N2",
+    "structure": "〜といった",
+    "structureKana": "〜といった",
+    "meaning": {
+      "vi": "Những thứ như... / Ví dụ như...",
+      "en": "Such as... / Things like..."
+    },
+    "formation": [
+      "N1 や N2 + といった + N_tổng_quát"
+    ],
+    "lesson": "Bài 3",
+    "group": "Example",
+    "confusedWith": [
+      "〜のような",
+      "〜など"
+    ],
+    "caution": {
+      "vi": "Đưa ra một vài ví dụ tiêu biểu (thường dùng chung với や, とか) rồi sau đó tóm tắt lại bằng một danh từ chỉ nhóm tổng quát ở phía sau.",
+      "en": "Used to give a few representative examples (often with や or とか) and then summarize them with a broader categorical noun."
+    },
+    "examples": [
+      {
+        "jp": "ベトナムでもすしやラーメン[といった]日本料理が最近人気だ。",
+        "kana": "ベトナムでもすしやラーメン[といった]にほんりょうりがさいきんにんきだ。",
+        "vi": "Ở Việt Nam dạo gần đây những món ăn Nhật Bản [như là] sushi hay ramen rất được ưa chuộng.",
+        "en": "In Vietnam recently, Japanese foods [such as] sushi and ramen have become popular."
+      },
+      {
+        "jp": "トヨタやホンダ[といった]日本企業は世界でも有名だ。",
+        "kana": "トヨタやホンダ[といった]にほんきぎょうはせかいでもゆうめいだ。",
+        "vi": "Những doanh nghiệp Nhật Bản [như là] Toyota hay Honda thì nổi tiếng trên toàn thế giới.",
+        "en": "Japanese companies [such as] Toyota and Honda are famous worldwide."
+      },
+      {
+        "jp": "夏の楽しみといえば、音楽フェス、花火大会、お祭り[といった]大規模なイベントを思い浮かぶだろう。",
+        "kana": "なつのたのしみといえば、おんがくフェス、はなびたいかい、おまつり[といった]だいきぼなイベントをおもいうかぶだろう。",
+        "vi": "Nói đến niềm vui mùa hè, có lẽ người ta sẽ nghĩ ngay đến những sự kiện quy mô lớn [như là] lễ hội âm nhạc, lễ hội pháo hoa, hay các dịp lễ hội truyền thống.",
+        "en": "Speaking of summer fun, large-scale events [such as] music festivals, fireworks displays, and traditional festivals probably come to mind."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_03_03",
+    "level": "N2",
+    "structure": "〜としたら / 〜とすれば / 〜とすると",
+    "structureKana": "〜としたら / 〜とすれば / 〜とすると",
+    "meaning": {
+      "vi": "Nếu như / Giả sử...",
+      "en": "Assuming that... / Suppose that... / If it were the case that..."
+    },
+    "formation": [
+      "Thể thông thường + としたら / とすれば / とすると"
+    ],
+    "lesson": "Bài 3",
+    "group": "Condition_Hypothesis",
+    "confusedWith": [
+      "〜ば",
+      "〜たら",
+      "〜なら"
+    ],
+    "caution": {
+      "vi": "Đưa ra một giả định (thường là những điều khó hoặc không thể xảy ra trong thực tế). Vế sau thể hiện ý chí, phán đoán, hay nhận định của người nói. としたら thường đi với động từ, とすれば/とすると thường đi với danh từ/tính từ.",
+      "en": "Introduces a hypothesis (often something unlikely or impossible in reality). The following clause expresses the speaker's volition, judgment, or opinion."
+    },
+    "examples": [
+      {
+        "jp": "もし明日死ぬ[としたら]どうしますか。",
+        "kana": "もしあしたしぬ[としたら]どうしますか。",
+        "vi": "Giả sử [nếu] ngày mai phải chết [thì] bạn sẽ làm gì?",
+        "en": "[Assuming that] you would die tomorrow, what would you do?"
+      },
+      {
+        "jp": "それが事実だ[とすれば]大変なことになる。",
+        "kana": "それがじじつだ[とすれば]たいへんなことになる。",
+        "vi": "[Giả sử nếu] đó là sự thật thì sẽ thành chuyện lớn đấy.",
+        "en": "[If it is true that] it's a fact, it will become a serious matter."
+      },
+      {
+        "jp": "仮に通勤に往復2時間かける[とすると]一年で240時間以上も通勤していることになる。",
+        "kana": "かりにつうきんにおうふく2じかんかける[とすると]いちねんで240じかんいじょうもつうきんしていることになる。",
+        "vi": "[Giả sử nếu] mất 2 tiếng cho việc đi làm khứ hồi thì có nghĩa là một năm bạn dành hơn 240 tiếng chỉ để đi lại.",
+        "en": "[Suppose that] you spend 2 hours round-trip commuting, it means you commute for more than 240 hours a year."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_03_04",
+    "level": "N2",
+    "structure": "〜として / 〜としては / 〜としても",
+    "structureKana": "〜として / 〜としては / 〜としても",
+    "meaning": {
+      "vi": "Với tư cách là / Dưới danh nghĩa là / Xét về tư cách...",
+      "en": "As... / In the capacity of... / From the perspective of..."
+    },
+    "formation": [
+      "N + として / としては / としても"
+    ],
+    "lesson": "Bài 3",
+    "group": "Role_Position",
+    "confusedWith": [
+      "〜にとって"
+    ],
+    "caution": {
+      "vi": "Nói về tư cách, lập trường, vai trò, danh nghĩa của một người hay sự vật. Khác với にとって (đối với cá nhân ai đó thì...).",
+      "en": "Talks about someone's or something's capacity, standpoint, role, or title. Differs from にとって (from the personal perspective/value of someone)."
+    },
+    "examples": [
+      {
+        "jp": "小野さんは医者[として]働いています。",
+        "kana": "おのさんはいしゃ[として]はたらいています。",
+        "vi": "Chị Ono đang làm việc [với tư cách là] bác sĩ.",
+        "en": "Ms. Ono is working [as] a doctor."
+      },
+      {
+        "jp": "子供を応援するのは親[として]当然だ。",
+        "kana": "こどもをおうえんするのはおや[として]とうぜんだ。",
+        "vi": "Việc ủng hộ con cái là điều đương nhiên [với tư cách là] một người làm cha mẹ.",
+        "en": "Supporting one's children is natural [as] a parent."
+      },
+      {
+        "jp": "田中さんは有名な歌手ですが、俳優[としても]すばらしいです。",
+        "kana": "たなかさんはゆうめいなかしゅですが、はいゆう[としても]すばらしいです。",
+        "vi": "Anh Tanaka là một ca sĩ nổi tiếng, nhưng [ngay cả với tư cách là] một diễn viên thì anh ấy cũng rất tuyệt vời.",
+        "en": "Mr. Tanaka is a famous singer, but he is also wonderful [even as] an actor."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_03_05",
+    "level": "N2",
+    "structure": "〜にかけては",
+    "structureKana": "〜にかけては",
+    "meaning": {
+      "vi": "Về mặt... thì / Riêng trong lĩnh vực... thì...",
+      "en": "When it comes to... / In the area of..."
+    },
+    "formation": [
+      "N + にかけては"
+    ],
+    "lesson": "Bài 3",
+    "group": "Evaluation",
+    "confusedWith": [
+      "〜について",
+      "〜に関して"
+    ],
+    "caution": {
+      "vi": "Dùng để đánh giá cao năng lực của một người trong một lĩnh vực cụ thể. Vế sau luôn mang nghĩa khen ngợi kiểu 'không ai sánh bằng', 'là số 1', 'tự tin nhất'.",
+      "en": "Used to highly evaluate someone's ability in a specific field. The following clause always carries a tone of high praise, such as 'second to none', 'number one', or 'most confident'."
+    },
+    "examples": [
+      {
+        "jp": "文法[にかけては]、彼女がこのクラスで一番だ。",
+        "kana": "ぶんぽう[にかけては]、かのじょがこのクラスでいちばんだ。",
+        "vi": "[Về mặt] ngữ pháp thì cô ấy là số 1 trong lớp này.",
+        "en": "[When it comes to] grammar, she is the best in this class."
+      },
+      {
+        "jp": "彼は運動[にかけては]誰にも負けない。",
+        "kana": "かれはうんどう[にかけては]だれにもまけない。",
+        "vi": "Anh ấy [trong lĩnh vực] thể thao thì không thua bất kỳ ai.",
+        "en": "[In the area of] sports, he loses to no one."
+      },
+      {
+        "jp": "おいしいパンを作ること[にかけては]お母さんに勝つ人はいないと思う。",
+        "kana": "おいしいパンをつくること[にかけては]おかあさんにかつひとはいないとおもう。",
+        "vi": "[Riêng về khoản] làm bánh mì ngon thì tôi nghĩ không ai chiến thắng được mẹ.",
+        "en": "[When it comes to] making delicious bread, I think no one can beat mom."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_03_06",
+    "level": "N2",
+    "structure": "〜にすぎない",
+    "structureKana": "〜にすぎない",
+    "meaning": {
+      "vi": "Chỉ là... (không hơn không kém)",
+      "en": "Is nothing more than... / Is merely..."
+    },
+    "formation": [
+      "V (thể thông thường) + にすぎない",
+      "N (である) + にすぎない",
+      "Aな (である) + にすぎない"
+    ],
+    "lesson": "Bài 3",
+    "group": "Limit_Extent",
+    "confusedWith": [
+      "〜だけだ"
+    ],
+    "caution": {
+      "vi": "Diễn tả sự vật, sự việc, tình trạng chỉ dừng lại ở mức độ đó, không hơn được. Thường nhấn mạnh sự đánh giá thấp hoặc sự nhỏ bé của vấn đề.",
+      "en": "Expresses that a matter or state remains only at that level and is nothing more. Often emphasizes a low evaluation or the insignificance of the issue."
+    },
+    "examples": [
+      {
+        "jp": "私がしたことは大したことではありません。少しあなたのお手伝いをした[にすぎません]。",
+        "kana": "わたしがしたことはたいしたことではありません。すこしあなたのおてつだいをした[にすぎません]。",
+        "vi": "Những việc tôi làm không có gì to tát đâu. [Chỉ đơn giản là] tôi đã giúp đỡ bạn một chút thôi.",
+        "en": "What I did was not a big deal. I [merely] helped you a little bit."
+      },
+      {
+        "jp": "彼はただの子供[にすぎません]。一人で暮らすことなどできません。",
+        "kana": "かれはただのこども[にすぎません]。ひとりでくらすことなどできません。",
+        "vi": "Nó [chỉ là] một đứa trẻ. Không thể nào sống một mình được đâu.",
+        "en": "He [is nothing more than] a mere child. He cannot live alone or anything."
+      },
+      {
+        "jp": "スマホは単なる一つの道具[にすぎない]。その道具をどう使うかが大切だ。",
+        "kana": "スマホはたんなるひとつのどうぐ[にすぎない]。そのどうぐをどうつかうかがたいせつだ。",
+        "vi": "Điện thoại thông minh [chỉ đơn thuần là] một công cụ. Việc sử dụng công cụ đó như thế nào mới là quan trọng.",
+        "en": "A smartphone [is merely] a tool. How you use that tool is what's important."
+      }
+    ]
+  },
+  {
+    "id": "g_rkn2_03_07",
+    "level": "N2",
+    "structure": "〜によって / 〜により / 〜によらず",
+    "structureKana": "〜によって / 〜により / 〜によらず",
+    "meaning": {
+      "vi": "Bởi / Bằng cách / Tuỳ thuộc vào / Vì...",
+      "en": "By / By means of / Depending on / Due to..."
+    },
+    "formation": [
+      "N + によって / により / によらず",
+      "N + によっては"
+    ],
+    "lesson": "Bài 3",
+    "group": "Method_Cause_Dependence",
+    "confusedWith": [
+      "〜によると"
+    ],
+    "caution": {
+      "vi": "Có 4 nghĩa chính: 1. Vì... nên (nguyên nhân). 2. Tuỳ thuộc vào... mà khác nhau. 3. Bởi ai đó (trong câu bị động). 4. Bằng cách/thông qua (cách thức). Chú ý: 「によらず」nghĩa là 'bất kể...'. Khác hoàn toàn với 「によると / によれば」 (Theo như...).",
+      "en": "Has 4 main meanings: 1. Due to (cause). 2. Depending on. 3. By someone (in passive sentences). 4. By means of (method). Note: 「によらず」means 'regardless of'. Completely different from 「によると / によれば」 (According to...)."
+    },
+    "examples": [
+      {
+        "jp": "最近バイク[による]事故が増えている。",
+        "kana": "さいきんバイク[による]じこがふえている。",
+        "vi": "Gần đây, tai nạn [do] xe máy gây ra đang tăng lên.",
+        "en": "Recently, accidents [due to] motorcycles are increasing."
+      },
+      {
+        "jp": "人[によって]考え方が違う。",
+        "kana": "ひと[によって]かんがえかたがちがう。",
+        "vi": "[Tùy thuộc vào] mỗi người mà cách suy nghĩ sẽ khác nhau.",
+        "en": "[Depending on] the person, ways of thinking differ."
+      },
+      {
+        "jp": "このビルは有名なデザイナー[によって]デザインされた。",
+        "kana": "このビルはゆうめいなデザイナー[によって]デザインされた。",
+        "vi": "Tòa nhà này được thiết kế [bởi] một nhà thiết kế nổi tiếng.",
+        "en": "This building was designed [by] a famous designer."
+      },
+      {
+        "jp": "この学校では年齢や学歴[によらず]、能力のあるなしによって評価される。",
+        "kana": "このがっこうではねんれいやがくれき[によらず]、のうりょくのあるなしによってひょうかされる。",
+        "vi": "Ở trường này, học sinh được đánh giá dựa trên năng lực, [bất kể] tuổi tác hay học vấn.",
+        "en": "In this school, you are evaluated based on ability, [regardless of] age or educational background."
+      }
+    ]
+  }
+]

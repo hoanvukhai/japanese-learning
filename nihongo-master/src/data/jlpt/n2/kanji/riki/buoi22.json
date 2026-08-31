@@ -1,0 +1,891 @@
+[
+  {
+    "id": "k_rkn2_22_302",
+    "character": "劇",
+    "hanViet": "KỊCH",
+    "onyomi": "ゲキ",
+    "mnemonic": "Một người đeo mặt nạ lợn (豕) và hổ (虍) múa kiếm (刂) đó chính là kịch (劇)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_302_1",
+        "word": "演劇部",
+        "hiragana": "えんげきぶ",
+        "hanVietWord": "DIỄN KỊCH BỘ",
+        "meaning": {
+          "vi": "Câu lạc bộ kịch",
+          "en": "Drama club"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "演劇部に入る",
+            "vi": "Tham gia câu lạc bộ kịch",
+            "en": "Join the drama club"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_302_2",
+        "word": "悲劇的",
+        "hiragana": "ひげきてき",
+        "hanVietWord": "BI KỊCH ĐÍCH",
+        "meaning": {
+          "vi": "Mang tính bi kịch, thê thảm",
+          "en": "Tragic"
+        },
+        "type": "adj-na",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "悲劇的な結末",
+            "vi": "Kết cục bi kịch",
+            "en": "A tragic ending"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_303",
+    "character": "舞",
+    "hanViet": "VŨ",
+    "kunyomi": "ま-う, ま-い",
+    "onyomi": "ブ",
+    "mnemonic": "Chiều tối (夕) cuối năm (年) mọi người cùng nhau nhảy múa (舞)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_303_1",
+        "word": "舞踊",
+        "hiragana": "ぶよう",
+        "hanVietWord": "VŨ DƯỢC",
+        "meaning": {
+          "vi": "Vũ điệu, múa",
+          "en": "Dance, dancing"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "日本の舞踊",
+            "vi": "Điệu múa của Nhật Bản",
+            "en": "Japanese dance"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_303_2",
+        "word": "舞い落ちる",
+        "hiragana": "まいおちる",
+        "hanVietWord": "VŨ LẠC",
+        "meaning": {
+          "vi": "Bay lả tả, rơi rụng",
+          "en": "To flutter down, to fall"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "舞い落ちる花びら",
+            "vi": "Những cánh hoa rơi lả tả",
+            "en": "Fluttering flower petals"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_303_3",
+        "word": "初舞台",
+        "hiragana": "はつぶたい",
+        "hanVietWord": "SƠ VŨ ĐÀI",
+        "meaning": {
+          "vi": "Lần đầu lên sân khấu",
+          "en": "Stage debut"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "初舞台で緊張だろうけど、公演頑張ってね",
+            "vi": "Có lẽ cậu sẽ căng thẳng vì là lần đầu lên sân khấu, nhưng hãy cố gắng cho buổi công diễn nhé",
+            "en": "You might be nervous because it's your stage debut, but do your best for the performance"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_303_4",
+        "word": "お見舞い",
+        "hiragana": "おみまい",
+        "hanVietWord": "KIẾN VŨ",
+        "meaning": {
+          "vi": "Việc đi thăm bệnh",
+          "en": "Visiting a sick person, inquiring after someone's health"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "父のお見舞いに行く",
+            "vi": "Đi thăm bố ốm",
+            "en": "Go to visit my sick father"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_304",
+    "character": "堂",
+    "hanViet": "ĐƯỜNG",
+    "onyomi": "ドウ",
+    "mnemonic": "Có người nhoẻn miệng (口) cười đứng dưới đất (土) dưới mái nhà rộng lớn",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_304_1",
+        "word": "食堂",
+        "hiragana": "しょくどう",
+        "hanVietWord": "THỰC ĐƯỜNG",
+        "meaning": {
+          "vi": "Nhà ăn",
+          "en": "Dining hall, cafeteria"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "平日は社員食堂でご飯を食べる",
+            "vi": "Ngày thường tôi ăn cơm ở nhà ăn của nhân viên",
+            "en": "On weekdays, I eat at the company cafeteria"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_304_2",
+        "word": "大講堂",
+        "hiragana": "だいこうどう",
+        "hanVietWord": "ĐẠI GIẢNG ĐƯỜNG",
+        "meaning": {
+          "vi": "Giảng đường lớn",
+          "en": "Large auditorium"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "卒業式は大講堂で行われます",
+            "vi": "Lễ tốt nghiệp sẽ được tổ chức ở giảng đường lớn",
+            "en": "The graduation ceremony will be held in the large auditorium"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_304_3",
+        "word": "国会議事堂",
+        "hiragana": "こっかいぎじどう",
+        "hanVietWord": "QUỐC HỘI NGHỊ SỰ ĐƯỜNG",
+        "meaning": {
+          "vi": "Tòa nhà Quốc hội",
+          "en": "National Diet Building"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "国会議事堂",
+            "vi": "Tòa nhà Quốc hội",
+            "en": "National Diet Building"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_304_4",
+        "word": "堂々と",
+        "hiragana": "どうどうと",
+        "hanVietWord": "ĐƯỜNG",
+        "meaning": {
+          "vi": "Đường hoàng, tự tin, oai bệ",
+          "en": "Magnificently, boldly, confidently"
+        },
+        "type": "adv",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "人前で、緊張せず堂々と話す",
+            "vi": "Nói chuyện một cách tự tin, không căng thẳng trước đám đông",
+            "en": "Speak confidently in front of people without being nervous"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_305",
+    "character": "展",
+    "hanViet": "TRIỂN",
+    "onyomi": "テン",
+    "mnemonic": "Chị Thảo (草) mặc y (衣) phục đứng trước cửa phòng triển (展) lãm",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_305_1",
+        "word": "展示会",
+        "hiragana": "てんじかい",
+        "hanVietWord": "TRIỂN THỊ HỘI",
+        "meaning": {
+          "vi": "Buổi triển lãm",
+          "en": "Exhibition"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "展示会が開かれる",
+            "vi": "Buổi triển lãm được tổ chức",
+            "en": "An exhibition is held"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_305_2",
+        "word": "発展",
+        "hiragana": "はってん",
+        "hanVietWord": "PHÁT TRIỂN",
+        "meaning": {
+          "vi": "Sự phát triển",
+          "en": "Development, growth"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "この国はすごい勢いで発展している",
+            "vi": "Quốc gia này đang phát triển với tốc độ đáng kinh ngạc",
+            "en": "This country is developing at an incredible pace"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_305_3",
+        "word": "展開",
+        "hiragana": "てんかい",
+        "hanVietWord": "TRIỂN KHAI",
+        "meaning": {
+          "vi": "Sự triển khai, diễn biến",
+          "en": "Development, progression, unfolding"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "このドラマは話の展開が早い",
+            "vi": "Bộ phim này có diễn biến câu chuyện nhanh",
+            "en": "This drama has a fast-paced story progression"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_305_4",
+        "word": "進展",
+        "hiragana": "しんてん",
+        "hanVietWord": "TIẾN TRIỂN",
+        "meaning": {
+          "vi": "Sự tiến triển",
+          "en": "Progress, development"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "進展のない捜査",
+            "vi": "Cuộc điều tra không có tiến triển",
+            "en": "An investigation with no progress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_306",
+    "character": "跡",
+    "hanViet": "TÍCH",
+    "kunyomi": "あと",
+    "onyomi": "セキ",
+    "mnemonic": "Bước chân (足) có vết tích màu đỏ (亦)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_306_1",
+        "word": "足跡",
+        "hiragana": "あしあと",
+        "hanVietWord": "TÚC TÍCH",
+        "meaning": {
+          "vi": "Vết chân, dấu chân",
+          "en": "Footprint"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "雪の上を歩いて足跡を残す",
+            "vi": "Đi trên tuyết và để lại dấu chân",
+            "en": "Walk on the snow and leave footprints"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_306_2",
+        "word": "遺跡",
+        "hiragana": "いせき",
+        "hanVietWord": "DI TÍCH",
+        "meaning": {
+          "vi": "Di tích",
+          "en": "Historic ruins, remains"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "遺跡をめぐる旅行をしたい",
+            "vi": "Muốn đi du lịch dạo quanh các di tích",
+            "en": "Want to go on a trip touring the ruins"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_306_3",
+        "word": "奇跡",
+        "hiragana": "きせき",
+        "hanVietWord": "KÌ TÍCH",
+        "meaning": {
+          "vi": "Kỳ tích, phép màu",
+          "en": "Miracle"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "奇跡が起こった!",
+            "vi": "Kỳ tích đã xảy ra!",
+            "en": "A miracle happened!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_307",
+    "character": "祈",
+    "hanViet": "KÌ",
+    "kunyomi": "いの-る",
+    "onyomi": "キ",
+    "mnemonic": "Đốt cây nến (礻) để cầu nguyện (祈)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_307_1",
+        "word": "祈る",
+        "hiragana": "いのる",
+        "hanVietWord": "KÌ",
+        "meaning": {
+          "vi": "Cầu nguyện",
+          "en": "To pray"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "面接がうまくいくように祈る",
+            "vi": "Cầu nguyện cho buổi phỏng vấn diễn ra suôn sẻ",
+            "en": "Pray that the interview goes well"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_307_2",
+        "word": "祈願",
+        "hiragana": "きがん",
+        "hanVietWord": "KÌ NGUYỆN",
+        "meaning": {
+          "vi": "Sự cầu nguyện, lời cầu nguyện",
+          "en": "Prayer"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "仕事の成功を祈願する",
+            "vi": "Cầu nguyện cho công việc thành công",
+            "en": "Pray for success in work"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_308",
+    "character": "恵",
+    "hanViet": "HUỆ",
+    "kunyomi": "めぐ-む",
+    "onyomi": "ケイ, エ",
+    "mnemonic": "10 lần (十) suy nghĩ (思) về ân huệ (恵) đó",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_308_1",
+        "word": "知恵",
+        "hiragana": "ちえ",
+        "hanVietWord": "TRI HUỆ",
+        "meaning": {
+          "vi": "Trí tuệ, sự khôn ngoan",
+          "en": "Wisdom, intelligence"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "生活の知恵を身につける",
+            "vi": "Trang bị cho mình những sự khôn ngoan/kỹ năng trong cuộc sống",
+            "en": "Acquire wisdom for life"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_308_2",
+        "word": "恩恵",
+        "hiragana": "おんけい",
+        "hanVietWord": "ÂN HUỆ",
+        "meaning": {
+          "vi": "Ân huệ, phước lành, lợi ích",
+          "en": "Grace, favor, benefit"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "自然の恩恵を受ける",
+            "vi": "Nhận được ân huệ/phước lành của thiên nhiên",
+            "en": "Receive the blessings of nature"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_308_3",
+        "word": "恵まれる",
+        "hiragana": "めぐまれる",
+        "hanVietWord": "HUỆ",
+        "meaning": {
+          "vi": "Được ban cho, may mắn có được",
+          "en": "To be blessed with, to be rich in"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "恵まれた環境で勉強できた",
+            "vi": "Tôi đã có thể học tập trong một môi trường được ban cho nhiều điều kiện tốt",
+            "en": "I was able to study in a blessed environment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_309",
+    "character": "至",
+    "hanViet": "CHÍ",
+    "kunyomi": "いた-る",
+    "onyomi": "シ",
+    "mnemonic": "1 mình (一) ngồi khoanh chân (厶) dưới đất (土) quyết chí (至)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_309_1",
+        "word": "至急",
+        "hiragana": "しきゅう",
+        "hanVietWord": "CHÍ CẤP",
+        "meaning": {
+          "vi": "Khẩn cấp, ngay lập tức",
+          "en": "Urgent, pressing"
+        },
+        "type": "adv",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "至急、社長室に行ってください",
+            "vi": "Hãy đến phòng giám đốc ngay lập tức",
+            "en": "Please go to the president's office urgently"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_309_2",
+        "word": "至るところ",
+        "hiragana": "いたるところ",
+        "hanVietWord": "CHÍ",
+        "meaning": {
+          "vi": "Khắp nơi, mọi nơi",
+          "en": "Everywhere"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "至るところ",
+            "vi": "Khắp nơi",
+            "en": "Everywhere"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_310",
+    "character": "警",
+    "hanViet": "CẢNH",
+    "onyomi": "ケイ",
+    "mnemonic": "Người cảnh sát (警) nói (言) lời kính trọng (敬) với người già",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_310_1",
+        "word": "警察",
+        "hiragana": "けいさつ",
+        "hanVietWord": "CẢNH SÁT",
+        "meaning": {
+          "vi": "Cảnh sát",
+          "en": "Police"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "警察は犯人を捕まえた",
+            "vi": "Cảnh sát đã bắt được thủ phạm",
+            "en": "The police caught the criminal"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_310_2",
+        "word": "警備会社",
+        "hiragana": "けいびがいしゃ",
+        "hanVietWord": "CẢNH BỊ HỘI XÃ",
+        "meaning": {
+          "vi": "Công ty bảo vệ, an ninh",
+          "en": "Security company"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "警備会社に就職する",
+            "vi": "Xin việc vào công ty bảo vệ",
+            "en": "Get a job at a security company"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_310_3",
+        "word": "警告文",
+        "hiragana": "けいこくぶん",
+        "hanVietWord": "CẢNH CÁO VĂN",
+        "meaning": {
+          "vi": "Văn bản cảnh báo, giấy cảnh cáo",
+          "en": "Warning letter"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "警告文が廊下に張り出される",
+            "vi": "Giấy cảnh cáo được dán ở hành lang",
+            "en": "A warning letter is posted in the hallway"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_311",
+    "character": "署",
+    "hanViet": "THỰ",
+    "onyomi": "ショ",
+    "mnemonic": "Con mắt (目) giả (者) trước biệt thự (署) là camera",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_311_1",
+        "word": "警察署",
+        "hiragana": "けいさつしょ",
+        "hanVietWord": "CẢNH SÁT THỰ",
+        "meaning": {
+          "vi": "Đồn cảnh sát",
+          "en": "Police station"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "警察署に連行される",
+            "vi": "Bị giải đến đồn cảnh sát",
+            "en": "Taken to the police station"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_311_2",
+        "word": "消防署",
+        "hiragana": "しょうぼうしょ",
+        "hanVietWord": "TIÊU PHÒNG THỰ",
+        "meaning": {
+          "vi": "Trạm cứu hỏa",
+          "en": "Fire station"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "消防署を見学する",
+            "vi": "Tham quan trạm cứu hỏa",
+            "en": "Visit a fire station"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_311_3",
+        "word": "署名活動",
+        "hiragana": "しょめいかつどう",
+        "hanVietWord": "THỰ DANH HOẠT ĐỘNG",
+        "meaning": {
+          "vi": "Hoạt động lấy chữ ký",
+          "en": "Signature campaign"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "署名活動をする",
+            "vi": "Thực hiện hoạt động lấy chữ ký",
+            "en": "Conduct a signature campaign"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_311_4",
+        "word": "部署",
+        "hiragana": "ぶしょ",
+        "hanVietWord": "BỘ THỰ",
+        "meaning": {
+          "vi": "Phòng ban, bộ phận",
+          "en": "Department, section"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "来週、新しい部署に異動になる",
+            "vi": "Tuần sau tôi sẽ được chuyển sang bộ phận mới",
+            "en": "I will be transferred to a new department next week"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_312",
+    "character": "乱",
+    "hanViet": "LOẠN",
+    "kunyomi": "みだ-れる, みだ-す",
+    "onyomi": "ラン",
+    "mnemonic": "Lưỡi (舌) mà mắc câu (乙) thì bơi loạn xạ (乱)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_312_1",
+        "word": "乱れる",
+        "hiragana": "みだれる",
+        "hanVietWord": "LOẠN",
+        "meaning": {
+          "vi": "Bị xáo trộn, rối bời, lộn xộn",
+          "en": "To be disordered, to be disturbed"
+        },
+        "type": "verb",
+        "group": 2,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "乱れた髪",
+            "vi": "Mái tóc rối bời",
+            "en": "Messy hair"
+          },
+          {
+            "jp": "生活が乱れてしまった",
+            "vi": "Cuộc sống đã bị xáo trộn/lộn xộn",
+            "en": "My life has become chaotic"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_312_2",
+        "word": "乱す",
+        "hiragana": "みだす",
+        "hanVietWord": "LOẠN",
+        "meaning": {
+          "vi": "Làm lộn xộn, phá rối",
+          "en": "To throw out of order, to disturb"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "チームワークを乱す",
+            "vi": "Làm rối loạn tinh thần làm việc nhóm",
+            "en": "Disrupt teamwork"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_312_3",
+        "word": "混乱",
+        "hiragana": "こんらん",
+        "hanVietWord": "HỖN LOẠN",
+        "meaning": {
+          "vi": "Sự hỗn loạn, lúng túng",
+          "en": "Confusion, disorder"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "いろいろなことを一気に言われ混乱している",
+            "vi": "Bị nói nhiều thứ cùng một lúc nên tôi đang rất lúng túng/hỗn loạn",
+            "en": "I'm confused because I was told many things at once"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_313",
+    "character": "扱",
+    "hanViet": "TRÁP",
+    "kunyomi": "あつか-う",
+    "mnemonic": "Tay (扌) run lập cập (及) khi bê tráp (扱)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_313_1",
+        "word": "扱う",
+        "hiragana": "あつかう",
+        "hanVietWord": "TRÁP",
+        "meaning": {
+          "vi": "Đối xử, xử lý, thao tác",
+          "en": "To handle, to treat, to deal with"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "あの先生はどんなに小さい子どもでも1人の人間として扱う",
+            "vi": "Giáo viên đó dù là trẻ con nhỏ tuổi đến đâu cũng đối xử như một con người độc lập",
+            "en": "That teacher treats even the smallest children as individual human beings"
+          },
+          {
+            "jp": "他人/物を丁寧に、大事に扱う(接する)",
+            "vi": "Đối xử với người khác / Đồ vật một cách cẩn thận, trân trọng",
+            "en": "Treat others/things carefully and with importance"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_313_2",
+        "word": "取扱説明書",
+        "hiragana": "とりあつかいせつめいしょ",
+        "hanVietWord": "THỦ TRÁP THUYẾT MINH THƯ",
+        "meaning": {
+          "vi": "Sách hướng dẫn sử dụng",
+          "en": "Instruction manual"
+        },
+        "type": "noun",
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "取扱説明書",
+            "vi": "Sách hướng dẫn sử dụng",
+            "en": "Instruction manual"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "k_rkn2_22_314",
+    "character": "及",
+    "hanViet": "CẬP",
+    "kunyomi": "およ-ぶ",
+    "onyomi": "キュウ",
+    "mnemonic": "Phổ cập (及) cho 3 người (人) đừng hút thuốc (吸)",
+    "level": "N2",
+    "lesson": "Buổi 22",
+    "words": [
+      {
+        "id": "kw_rkn2_22_314_1",
+        "word": "及ぶ",
+        "hiragana": "およぶ",
+        "hanVietWord": "CẬP",
+        "meaning": {
+          "vi": "Đạt đến, lan ra, kéo dài",
+          "en": "To reach, to extend"
+        },
+        "type": "verb",
+        "group": 1,
+        "readingType": "訓",
+        "examples": [
+          {
+            "jp": "影響/被害は全国各地に及んだ",
+            "vi": "Ảnh hưởng / Thiệt hại đã lan ra các vùng trên toàn quốc",
+            "en": "The impact/damage extended to various parts of the country"
+          }
+        ]
+      },
+      {
+        "id": "kw_rkn2_22_314_2",
+        "word": "言及",
+        "hiragana": "げんきゅう",
+        "hanVietWord": "NGÔN CẬP",
+        "meaning": {
+          "vi": "Sự đề cập, nhắc đến",
+          "en": "Reference, mention"
+        },
+        "type": "noun",
+        "readingType": "音",
+        "examples": [
+          {
+            "jp": "事件について言及する",
+            "vi": "Đề cập đến vụ án",
+            "en": "Refer to the incident"
+          }
+        ]
+      }
+    ]
+  }
+]

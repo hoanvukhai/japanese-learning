@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "v_mon2_13_1091",
+    "kanji": "",
+    "hiragana": "さっぱり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Hoàn toàn, sảng khoái",
+      "en": "Completely, feeling refreshed"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "お風呂に入ってさっぱりした。",
+        "vi": "Tắm xong thấy hoàn toàn sảng khoái.",
+        "en": "Completely, feeling refreshed"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1092",
+    "kanji": "",
+    "hiragana": "すっきり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Sảng khoái, khoan khooái, thoải mái",
+      "en": "Refreshed, clear"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "頭がすっきりする。",
+        "vi": "Đầu óc tỉnh táo thoải mái.",
+        "en": "Refreshed, clear"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1093",
+    "kanji": "実に",
+    "hiragana": "じつに",
+    "hanViet": "THỰC",
+    "meaning": {
+      "vi": "Thực ra, thật sự",
+      "en": "Indeed, really"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "実に素晴らしい。",
+        "vi": "Thật sự rất tuyệt vời.",
+        "en": "Indeed, really"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1094",
+    "kanji": "思い切り",
+    "hiragana": "おもいきり",
+    "hanViet": "TƯ THIẾT",
+    "meaning": {
+      "vi": "Hết sức, dứt khoát, quyết tâm",
+      "en": "With all one's might, completely"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "思い切り遊ぶ。",
+        "vi": "Chơi hết mình.",
+        "en": "With all one's might, completely"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1095",
+    "kanji": "何となく",
+    "hiragana": "なんとなく",
+    "hanViet": "HÀ",
+    "meaning": {
+      "vi": "Không hiểu sao",
+      "en": "Somehow"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "何となく気分が悪い。",
+        "vi": "Không hiểu sao thấy trong người khó chịu.",
+        "en": "Somehow"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1096",
+    "kanji": "何だか",
+    "hiragana": "なんだか",
+    "hanViet": "HÀ",
+    "meaning": {
+      "vi": "Hơi hơi, 1 chút",
+      "en": "Somewhat, somehow"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "何だか寒気がする。",
+        "vi": "Cảm thấy hơi ớn lạnh một chút.",
+        "en": "Somewhat, somehow"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1097",
+    "kanji": "",
+    "hiragana": "どうにか",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bằng cách nào đó, như thế nào đó",
+      "en": "Somehow or other"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "どうにか間に合った。",
+        "vi": "Bằng cách nào đó đã kịp giờ.",
+        "en": "Somehow or other"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1098",
+    "kanji": "",
+    "hiragana": "どうにも",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Chẳng làm được gì",
+      "en": "By no means"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "どうにもならない。",
+        "vi": "Chẳng thể làm được gì cả.",
+        "en": "By no means"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1099",
+    "kanji": "何とか",
+    "hiragana": "なんとか",
+    "hanViet": "HÀ",
+    "meaning": {
+      "vi": "Dù thế nào đi nữa",
+      "en": "Somehow, one way or another"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "何とか合格したい。",
+        "vi": "Dù thế nào cũng muốn thi đậu.",
+        "en": "Somehow, one way or another"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1100",
+    "kanji": "何とも",
+    "hiragana": "なんとも",
+    "hanViet": "HÀ",
+    "meaning": {
+      "vi": "Không ... 1 chút nào",
+      "en": "Not at all"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "何とも思わない。",
+        "vi": "Chẳng bận tâm một chút nào.",
+        "en": "Not at all"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1101",
+    "kanji": "",
+    "hiragana": "わざと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cố tình",
+      "en": "On purpose"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "わざと負ける。",
+        "vi": "Cố tình thua.",
+        "en": "On purpose"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1102",
+    "kanji": "",
+    "hiragana": "わざわざ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Phiền hà",
+      "en": "Taking the trouble to"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "わざわざ来てくれてありがとう。",
+        "vi": "Cảm ơn vì đã cất công đến.",
+        "en": "Taking the trouble to"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1103",
+    "kanji": "",
+    "hiragana": "せっかく",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mất công",
+      "en": "With trouble, precious"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "せっかくの休みなのに。",
+        "vi": "Đã cất công được nghỉ vậy mà.",
+        "en": "With trouble, precious"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1104",
+    "kanji": "",
+    "hiragana": "あいにく",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đáng tiếc, không may",
+      "en": "Unfortunately"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "あいにく留守です。",
+        "vi": "Đáng tiếc là tôi đi vắng.",
+        "en": "Unfortunately"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1105",
+    "kanji": "案の定",
+    "hiragana": "あんのじょう",
+    "hanViet": "ÁN ĐỊNH",
+    "meaning": {
+      "vi": "Quả nhiên, đúng như dự tính",
+      "en": "As expected"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "案の定、雨が降った。",
+        "vi": "Quả nhiên trời đã mưa.",
+        "en": "As expected"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1106",
+    "kanji": "",
+    "hiragana": "いよいよ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cuối cùng",
+      "en": "At last, increasingly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "いよいよ出発だ。",
+        "vi": "Cuối cùng cũng đến lúc xuất phát.",
+        "en": "At last, increasingly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1107",
+    "kanji": "",
+    "hiragana": "さすが",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Quả là, thật đúng là",
+      "en": "As expected, even"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "さすがプロだ。",
+        "vi": "Quả thật là dân chuyên nghiệp.",
+        "en": "As expected, even"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1108",
+    "kanji": "",
+    "hiragana": "とにかく",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Dù sao",
+      "en": "Anyway"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "とにかくやってみよう。",
+        "vi": "Dù sao thì cũng làm thử xem sao.",
+        "en": "Anyway"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1109",
+    "kanji": "",
+    "hiragana": "ともかく",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Dù sao, dù cách này hay cách khác",
+      "en": "Anyhow"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ともかく無事でよかった。",
+        "vi": "Dù sao thì an toàn là tốt rồi.",
+        "en": "Anyhow"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1110",
+    "kanji": "",
+    "hiragana": "せめて",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tối thiểu",
+      "en": "At least"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "せめて声だけでも聞きたい。",
+        "vi": "Tối thiểu cũng muốn nghe giọng nói.",
+        "en": "At least"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1111",
+    "kanji": "",
+    "hiragana": "せいぜい",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tối đa",
+      "en": "At most"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "せいぜい頑張ります。",
+        "vi": "Tôi sẽ cố gắng tối đa.",
+        "en": "At most"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1112",
+    "kanji": "",
+    "hiragana": "どうせ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Dù cho, đằng nào thì",
+      "en": "Anyway, at any rate"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "どうせ無理だ。",
+        "vi": "Đằng nào thì cũng vô ích thôi.",
+        "en": "Anyway, at any rate"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1113",
+    "kanji": "",
+    "hiragana": "ぎっしり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lén chặt, đầy ắp",
+      "en": "Tightly, fully"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "予定がぎっしり詰まっている。",
+        "vi": "Lịch trình kín bưng.",
+        "en": "Tightly, fully"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1114",
+    "kanji": "",
+    "hiragana": "ずらりと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cùng 1 hàng",
+      "en": "In a row"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "本がずらりと並んでいる。",
+        "vi": "Sách được xếp thành một hàng dài.",
+        "en": "In a row"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1115",
+    "kanji": "",
+    "hiragana": "あっさり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhẹ nhàng, đơn giản",
+      "en": "Easily, lightly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "あっさり諦める。",
+        "vi": "Từ bỏ một cách nhẹ nhàng dễ dàng.",
+        "en": "Easily, lightly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1116",
+    "kanji": "",
+    "hiragana": "しんと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Im lặng, lặng lẽ",
+      "en": "Silently"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "部屋がしんとしている。",
+        "vi": "Căn phòng yên lặng như tờ.",
+        "en": "Silently"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1117",
+    "kanji": "",
+    "hiragana": "ちゃんと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nghiêm chỉnh",
+      "en": "Properly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ちゃんと約束を守る。",
+        "vi": "Giữ đúng lời hứa một cách nghiêm chỉnh.",
+        "en": "Properly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1118",
+    "kanji": "続々",
+    "hiragana": "ぞくぞく",
+    "hanViet": "TỤC",
+    "meaning": {
+      "vi": "Liên tục",
+      "en": "One after another"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "客が続々と集まる。",
+        "vi": "Khách hàng liên tục tập trung lại.",
+        "en": "One after another"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1119",
+    "kanji": "",
+    "hiragana": "どっと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Bất thình lình, cùng 1 lúc",
+      "en": "Suddenly, all of a sudden"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "どっと笑う。",
+        "vi": "Cười phá lên.",
+        "en": "Suddenly, all of a sudden"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1120",
+    "kanji": "",
+    "hiragana": "ばったり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đột nhiên, bất thình lình",
+      "en": "Unexpectedly, suddenly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ばったり友達に会う。",
+        "vi": "Tình cờ bắt gặp bạn bè.",
+        "en": "Unexpectedly, suddenly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1121",
+    "kanji": "",
+    "hiragana": "さっさと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhanh chóng",
+      "en": "Promptly, quickly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "さっさと帰る。",
+        "vi": "Nhanh chóng ra về.",
+        "en": "Promptly, quickly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1122",
+    "kanji": "",
+    "hiragana": "さっと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhanh",
+      "en": "Quickly, suddenly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "さっと立ち上がる。",
+        "vi": "Đứng phắt dậy.",
+        "en": "Quickly, suddenly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1123",
+    "kanji": "",
+    "hiragana": "すっと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thẳng, khoan khoái",
+      "en": "Straight, feeling refreshed"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "胸がすっとする。",
+        "vi": "Cảm thấy nhẹ nhõm khoan khoái.",
+        "en": "Straight, feeling refreshed"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1124",
+    "kanji": "",
+    "hiragana": "せっせと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Siêng năng, chăm chỉ",
+      "en": "Diligently"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "せっせと働く。",
+        "vi": "Làm việc siêng năng chăm chỉ.",
+        "en": "Diligently"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1125",
+    "kanji": "",
+    "hiragana": "ざっと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đại khái, qua loa",
+      "en": "Roughly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ざっと計算する。",
+        "vi": "Tính toán đại khái.",
+        "en": "Roughly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1126",
+    "kanji": "",
+    "hiragana": "こっそり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Lén lút, dấm dúi, vụng trộm",
+      "en": "Secretly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "こっそり逃げる。",
+        "vi": "Lén lút bỏ trốn.",
+        "en": "Secretly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1127",
+    "kanji": "生き生き",
+    "hiragana": "いきいき",
+    "hanViet": "SINH SINH",
+    "meaning": {
+      "vi": "Sinh động, năng nô",
+      "en": "Lively, vividly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "生き生きと話す。",
+        "vi": "Nói chuyện một cách sinh động đầy sức sống.",
+        "en": "Lively, vividly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1128",
+    "kanji": "",
+    "hiragana": "ぼんやり",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mờ ảo, không rõ",
+      "en": "Dimly, absently"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ぼんやりと思い出す。",
+        "vi": "Nhớ lại một cách lờ mờ.",
+        "en": "Dimly, absently"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1129",
+    "kanji": "",
+    "hiragana": "ふと",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đột nhiên",
+      "en": "Suddenly, accidentally"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ふと空を見上げる。",
+        "vi": "Đột nhiên ngước nhìn lên bầu trời.",
+        "en": "Suddenly, accidentally"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1130",
+    "kanji": "",
+    "hiragana": "じかに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Trực tiếp",
+      "en": "Directly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "社長にじかに話す。",
+        "vi": "Nói chuyện trực tiếp với giám đốc.",
+        "en": "Directly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1131",
+    "kanji": "一度に",
+    "hiragana": "いちどに",
+    "hanViet": "NHẤT ĐỘ",
+    "meaning": {
+      "vi": "Cùng lúc, 1 lần",
+      "en": "At once, at the same time"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "一度にたくさんのことをする。",
+        "vi": "Làm nhiều việc cùng một lúc.",
+        "en": "At once, at the same time"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1132",
+    "kanji": "一斉に",
+    "hiragana": "いっせいに",
+    "hanViet": "NHẤT TẾ",
+    "meaning": {
+      "vi": "Cùng lúc",
+      "en": "All at once"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "一斉にスタートする。",
+        "vi": "Xuất phát cùng lúc.",
+        "en": "All at once"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1133",
+    "kanji": "共に",
+    "hiragana": "ともに",
+    "hanViet": "CUNG",
+    "meaning": {
+      "vi": "Cùng với, với",
+      "en": "Together"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "共に生きる。",
+        "vi": "Sống cùng nhau.",
+        "en": "Together"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1134",
+    "kanji": "相互に",
+    "hiragana": "そうごに",
+    "hanViet": "TƯƠNG HỖ",
+    "meaning": {
+      "vi": "Cùng nhau",
+      "en": "Mutually"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "相互に助け合う。",
+        "vi": "Tương trợ lẫn nhau.",
+        "en": "Mutually"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1135",
+    "kanji": "一人一人",
+    "hiragana": "ひとりひとり",
+    "hanViet": "NHẤT NHÂN",
+    "meaning": {
+      "vi": "Từng người",
+      "en": "One by one"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "一人一人意見を聞く。",
+        "vi": "Hỏi ý kiến từng người một.",
+        "en": "One by one"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1136",
+    "kanji": "",
+    "hiragana": "いちいち",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Từng cái 1",
+      "en": "One by one, in detail"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "いちいち文句を言う。",
+        "vi": "Phàn nàn từng ly từng tí.",
+        "en": "One by one, in detail"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1137",
+    "kanji": "所々",
+    "hiragana": "ところどころ",
+    "hanViet": "SỞ",
+    "meaning": {
+      "vi": "Đây đó, vài chỗ",
+      "en": "Here and there"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "所々に花が咲いている。",
+        "vi": "Hoa nở rải rác chỗ này chỗ kia.",
+        "en": "Here and there"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1138",
+    "kanji": "",
+    "hiragana": "どうか",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vui long",
+      "en": "Please"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "どうか許してください。",
+        "vi": "Xin vui lòng tha thứ cho tôi.",
+        "en": "Please"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1139",
+    "kanji": "",
+    "hiragana": "できれば",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nếu có thể",
+      "en": "If possible"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "できれば参加したい。",
+        "vi": "Nếu được thì tôi muốn tham gia.",
+        "en": "If possible"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1140",
+    "kanji": "",
+    "hiragana": "たいして",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Không ... lắm",
+      "en": "Not so much"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "たいして面白くない。",
+        "vi": "Không thú vị lắm.",
+        "en": "Not so much"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1141",
+    "kanji": "恐らく",
+    "hiragana": "おそらく",
+    "hanViet": "KHỦNG",
+    "meaning": {
+      "vi": "Có lẽ, có thể",
+      "en": "Probably, perhaps"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "恐らく雨だろう。",
+        "vi": "Có lẽ trời sẽ mưa.",
+        "en": "Probably, perhaps"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1142",
+    "kanji": "",
+    "hiragana": "むしろ",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thà ... còn hơn",
+      "en": "Rather"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "むしろ私のほうが悪い。",
+        "vi": "Thà nói là tôi sai còn hơn.",
+        "en": "Rather"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1143",
+    "kanji": "果たして",
+    "hiragana": "はたして",
+    "hanViet": "QUẢ",
+    "meaning": {
+      "vi": "Quả nhiên, quả thật",
+      "en": "As expected"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "果たして成功するだろうか。",
+        "vi": "Liệu có thành công như mong đợi không?",
+        "en": "As expected"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1144",
+    "kanji": "",
+    "hiragana": "かえって",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Ngược lại",
+      "en": "On the contrary"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "かえって面倒だ。",
+        "vi": "Ngược lại còn phiền phức hơn.",
+        "en": "On the contrary"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1145",
+    "kanji": "必ずしも",
+    "hiragana": "かならずしも",
+    "hanViet": "TẤT",
+    "meaning": {
+      "vi": "Không hẳn, không nhất thiết",
+      "en": "Not necessarily"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "必ずしも正しいとは限らない。",
+        "vi": "Không nhất thiết là đúng hoàn toàn.",
+        "en": "Not necessarily"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1146",
+    "kanji": "単に",
+    "hiragana": "たんに",
+    "hanViet": "ĐƠN",
+    "meaning": {
+      "vi": "Đơn giản, chỉ là",
+      "en": "Simply, merely"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "単なるうわさだ。",
+        "vi": "Đơn thuần chỉ là tin đồn.",
+        "en": "Simply, merely"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1147",
+    "kanji": "",
+    "hiragana": "いまだに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vẫn chưa",
+      "en": "Still, even now"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "いまだに信じられない。",
+        "vi": "Đến giờ vẫn chưa thể tin nổi.",
+        "en": "Still, even now"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1148",
+    "kanji": "",
+    "hiragana": "ついでに",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Nhân tiện",
+      "en": "Incidentally"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "買い物のついでに寄る。",
+        "vi": "Nhân tiện đi mua sắm thì ghé qua.",
+        "en": "Incidentally"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1149",
+    "kanji": "",
+    "hiragana": "とりあえず",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Đầu tiên trước hết",
+      "en": "For the time being"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "とりあえずビール。",
+        "vi": "Trước mắt cứ cho bia đi.",
+        "en": "For the time being"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1150",
+    "kanji": "万一",
+    "hiragana": "まんいち",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Vạn bất đắc dĩ, trường hợp xấu",
+      "en": "By any chance, if by any chance"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "万一の時に備える。",
+        "vi": "Chuẩn bị cho trường hợp vạn bất đắc dĩ.",
+        "en": "By any chance, if by any chance"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1151",
+    "kanji": "偶然",
+    "hiragana": "ぐうぜん",
+    "hanViet": "NGẪU NHIÊN",
+    "meaning": {
+      "vi": "Ngẫu nhiên, tình cờ",
+      "en": "By chance, accidentally"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "偶然出会う。",
+        "vi": "Tình cờ gặp gỡ.",
+        "en": "By chance, accidentally"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1152",
+    "kanji": "",
+    "hiragana": "たまたま",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Thỉnh thoảng, tình cờ",
+      "en": "Occasionally, by chance"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "たまたま駅で見かけた。",
+        "vi": "Tình cờ thấy ở nhà ga.",
+        "en": "Occasionally, by chance"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1153",
+    "kanji": "実際",
+    "hiragana": "じっさい",
+    "hanViet": "THỰC TẾ",
+    "meaning": {
+      "vi": "Thực ra là, thực tế",
+      "en": "Actually"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "実際にやってみる。",
+        "vi": "Thực tế làm thử xem.",
+        "en": "Actually"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1154",
+    "kanji": "同様",
+    "hiragana": "どうよう",
+    "hanViet": "ĐỒNG DẠNG",
+    "meaning": {
+      "vi": "Giống, tương tự",
+      "en": "Similarly"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "前と同じように。",
+        "vi": "Giống y như trước đây.",
+        "en": "Similarly"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1155",
+    "kanji": "元々",
+    "hiragana": "もともと",
+    "hanViet": "NGUYÊN",
+    "meaning": {
+      "vi": "Vốn dĩ",
+      "en": "Originally"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "元々無理な話だ。",
+        "vi": "Vốn dĩ là chuyện không thể.",
+        "en": "Originally"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1156",
+    "kanji": "本来",
+    "hiragana": "ほんらい",
+    "hanViet": "BẢN LAI",
+    "meaning": {
+      "vi": "Bản chất",
+      "en": "Originally, essentially"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "本来の目的。",
+        "vi": "Mục đích bản chất ban đầu.",
+        "en": "Originally, essentially"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1157",
+    "kanji": "",
+    "hiragana": "ある",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Mỗi 1",
+      "en": "A certain, some"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "ある日突然。",
+        "vi": "Một ngày nọ đột nhiên.",
+        "en": "A certain, some"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1158",
+    "kanji": "",
+    "hiragana": "あらゆる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Tất cả",
+      "en": "All, every"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "あらゆる手段を尽くす。",
+        "vi": "Tận dụng mọi thủ đoạn.",
+        "en": "All, every"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1159",
+    "kanji": "",
+    "hiragana": "たいした",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Quan trọng",
+      "en": "Important, a big deal"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "たいした怪我ではない。",
+        "vi": "Không phải là vết thương nghiêm trọng.",
+        "en": "Important, a big deal"
+      }
+    ]
+  },
+  {
+    "id": "v_mon2_13_1160",
+    "kanji": "",
+    "hiragana": "いわゆる",
+    "hanViet": "",
+    "meaning": {
+      "vi": "Cái gọi là",
+      "en": "What is called, so-called"
+    },
+    "type": "adverb",
+    "level": "N2",
+    "lesson": "Bài 13",
+    "examples": [
+      {
+        "jp": "彼はいわゆる天才だ。",
+        "vi": "Anh ấy là cái mà người ta gọi là thiên tài.",
+        "en": "What is called, so-called"
+      }
+    ]
+  }
+]
