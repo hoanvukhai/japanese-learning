@@ -74,7 +74,7 @@ export default function Explore() {
                     </button>
                   ) : (
                     <button
-                      onClick={(e) => { e.preventDefault(); handleAddCourse(c.id); }}
+                      onClick={(e) => { e.preventDefault(); e.stopPropagation(); handleAddCourse(c.id); }}
                       className="w-full py-3 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-900/20 dark:hover:bg-indigo-900/40 text-indigo-600 dark:text-indigo-400 font-bold rounded-xl flex items-center justify-center gap-2 border border-indigo-200 dark:border-indigo-800/50 transition-colors"
                     >
                       <Plus size={18} />

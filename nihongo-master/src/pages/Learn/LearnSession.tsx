@@ -8,7 +8,7 @@ import { useAuth } from '../../context/auth/useAuth';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Volume2, RotateCcw, Sparkles, ChevronRight, X, ChevronsUp, MousePointerClick, Keyboard, Check, Swords } from 'lucide-react';
 
-import { romajiToHiragana } from '../../lib/romajiConverter';
+
 import * as wanakana from 'wanakana';
 import {
   saveWordProgress,
@@ -205,7 +205,7 @@ export default function LearnSession() {
   const [savedIds, setSavedIds] = useState<Set<string>>(new Set()); //  ã lưu Firestore
   const [correctCounts, setCorrectCounts] = useState<Map<string, number>>(new Map());
   const [autoPlayAudio, setAutoPlayAudio] = useState(false);
-  const [showKana, setShowKana] = useState(true);
+
   const [sessionTotalExp, setSessionTotalExp] = useState(0);
   const [isPreviewTransitioning, setIsPreviewTransitioning] = useState(false);
   const [initialTestCount, setInitialTestCount] = useState(0);
@@ -418,7 +418,7 @@ export default function LearnSession() {
         const learnSettings = userSnap.exists() ? userSnap.data()?.learnSettings : null;
         const sessionSize = modeParam === 'review' ? (learnSettings?.reviewSessionSize ?? 30) : (learnSettings?.sessionSize ?? 5);
         setAutoPlayAudio(learnSettings?.autoPlayAudio ?? false);
-        setShowKana(learnSettings?.showKana ?? true);
+
 
         if (modeParam === 'review') {
           const dueList = await fetchDueItems(user.uid, course.id);
@@ -701,6 +701,9 @@ export default function LearnSession() {
 
     savedIdsRef.current.add(raw.id);
     setSavedIds(prev => new Set([...prev, raw.id]));
+
+    // Xóa item đã Mark Mastered ra khỏi sessionItems để không xuất hiện trong test queue
+    setSessionItems(prev => prev.filter(item => item.id !== raw.id));
 
     // Bỏ qua từ này trong preview, chuyển sang từ tiếp theo
     if (previewItemIdx + 1 < currentBatch.length) {
@@ -1046,12 +1049,13 @@ export default function LearnSession() {
                   <p className="text-xs text-slate-400 dark:text-slate-500 font-medium">
                     {currentQ.raw.isSingleKanjiChar
                       ? 'Gõ Âm Hán Việt (VD: NHIỆM)'
-                      : 'Gõ Romaji (Hiragana/Katakana)'}
+                      : 'Gõ Romaji (sẽ tự chuyển Hiragana)'}
                   </p>
                   <input type="text" value={userTyping}
                     onChange={e => {
                       if (!currentQ.raw.isSingleKanjiChar) {
-                        setUserTyping(wanakana.toKana(e.target.value, { IMEMode: true }));
+                        // Dùng toHiragana thay vì toKana để chắc chắc chỉ ra Hiragana, không bị Katakana
+                        setUserTyping(wanakana.toHiragana(e.target.value, { IMEMode: true }));
                       } else {
                         setUserTyping(e.target.value);
                       }
@@ -1060,13 +1064,13 @@ export default function LearnSession() {
                     placeholder={currentQ.raw.isSingleKanjiChar ? 'Âm Hán Việt...' : 'Romaji...'}
                     disabled={feedback !== 'none'}
                     autoFocus
+                    autoComplete="off"
+                    autoCorrect="off"
+                    autoCapitalize="none"
+                    spellCheck={false}
                     className="w-full py-4 px-5 bg-white dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-700 rounded-2xl text-left font-black text-2xl text-indigo-600 dark:text-indigo-400 placeholder:text-slate-300 dark:placeholder:text-slate-600 focus:outline-none focus:border-indigo-400 dark:focus:border-indigo-500 transition-all disabled:opacity-60 shadow-sm"
                   />
-                  {!currentQ.raw.isSingleKanjiChar && userTyping && showKana && (
-                    <div className="text-sm text-indigo-500 dark:text-indigo-400 font-mono">
-                      → <strong>{romajiToHiragana(userTyping)}</strong>
-                    </div>
-                  )}
+
                   {feedback === 'wrong' && (
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-sm font-bold text-red-500 dark:text-red-400 mt-2">
                       Đáp án đúng: {currentQ.raw.hiragana}

@@ -25,7 +25,7 @@ export default function LoginScreen() {
     try {
       setLoading(true);
       await signInWithEmail(email, password);
-      navigate('/learn');
+      navigate('/');
     } catch (err: any) {
       const errorMap: Record<string, string> = {
         'auth/user-not-found': 'Tài khoản không tồn tại.',
