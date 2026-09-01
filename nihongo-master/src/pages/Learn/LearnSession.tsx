@@ -1054,8 +1054,12 @@ export default function LearnSession() {
                   <input type="text" value={userTyping}
                     onChange={e => {
                       if (!currentQ.raw.isSingleKanjiChar) {
-                        // Dùng toHiragana thay vì toKana để chắc chắc chỉ ra Hiragana, không bị Katakana
-                        setUserTyping(wanakana.toHiragana(e.target.value, { IMEMode: true }));
+                        const isExpectedKatakana = /^[\u30A0-\u30FF\u30FC\s]+$/.test(currentQ.raw.hiragana);
+                        if (isExpectedKatakana) {
+                          setUserTyping(wanakana.toKatakana(e.target.value, { IMEMode: true }));
+                        } else {
+                          setUserTyping(wanakana.toHiragana(e.target.value, { IMEMode: true }));
+                        }
                       } else {
                         setUserTyping(e.target.value);
                       }
