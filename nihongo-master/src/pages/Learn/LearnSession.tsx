@@ -211,8 +211,9 @@ export default function LearnSession() {
   const [initialTestCount, setInitialTestCount] = useState(0);
   const [correctTestCount, setCorrectTestCount] = useState(0);
 
-  // Ref  Ồ auto-save khi unmount
+  // Ref để auto-save khi unmount và tracking
   const savedIdsRef = useRef<Set<string>>(new Set());
+  const wrongIdsRef = useRef<Set<string>>(new Set());
   const sessionItemsRef = useRef<RawItem[]>([]);
   const progressMapRef = useRef<Map<string, WordProgress>>(new Map());
 
@@ -573,13 +574,18 @@ export default function LearnSession() {
 
     if (isCorrect) {
       setCorrectTestCount(c => c + 1);
+    } else {
+      wrongIdsRef.current.add(raw.id);
     }
 
     // Cập nhật correct counts và trigger saveItem một cách an toàn
     setCorrectCounts(prev => {
       const current = prev.get(raw.id) || 0;
       if (isCorrect && current === 0) {
-        saveItem(raw);
+        // Chỉ thưởng EXP và tăng Level (qua saveItem) nếu họ KHÔNG làm sai từ này trong toàn bộ phiên!
+        if (!wrongIdsRef.current.has(raw.id)) {
+          saveItem(raw);
+        }
       }
       const next = new Map(prev);
       next.set(raw.id, current + (isCorrect ? 1 : 0));
