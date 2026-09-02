@@ -616,7 +616,14 @@ export default function LearnSession() {
         handleReviewWrong(currentQ.raw);
       }
       setTestQueue(prev => {
-        const wrongItem = { ...prev[currentQIdx], attempt: (prev[currentQIdx].attempt || 0) + 1 };
+        const wrongItem = { ...prev[currentQIdx], attempt: (prev[currentQIdx].attempt || 0) + 1 } as any;
+        if (wrongItem.phase === 'quiz') {
+          const allMeanings = allRawItems.map(i => i.meaning);
+          const allKanji = allRawItems.map(i => i.kanji);
+          const correct = wrongItem.direction === 'fwd' ? wrongItem.raw.meaning : wrongItem.raw.kanji;
+          const pool = wrongItem.direction === 'fwd' ? allMeanings : allKanji;
+          wrongItem.quizOptions = generateQuizOptions(correct, pool);
+        }
         const previewItem: QueueItem = { ...wrongItem, phase: 'preview' };
         const remaining = [...prev];
         remaining.splice(currentQIdx, 1, previewItem); // Chèn Preview vào ngay vị trí hiện tại
@@ -632,7 +639,7 @@ export default function LearnSession() {
     } else {
       setCurrentQIdx(nextIdx);
     }
-  }, [currentQ, currentQIdx, testQueue, feedback, modeParam, handleReviewWrong, handleBatchDone]);
+  }, [currentQ, currentQIdx, testQueue, feedback, modeParam, handleReviewWrong, handleBatchDone, allRawItems]);
 
   // Expose advanceNext to ref for keyboard
   const advanceNextRef = useRef(advanceNext);
