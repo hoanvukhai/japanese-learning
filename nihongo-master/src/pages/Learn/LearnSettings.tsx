@@ -191,28 +191,7 @@ export default function LearnSettingsPage() {
           </div>
         </div>
 
-        {/* Tự động phát âm thanh */}
-        <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm flex items-center justify-between">
-          <div>
-            <h3 className="font-semibold text-slate-800 dark:text-white mb-1">
-              Tự động phát âm thanh
-            </h3>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              Phát âm từ vựng khi lật xem đáp án trong phiên học
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={() => setSettings(s => ({ ...s, autoPlayAudio: !s.autoPlayAudio }))}
-            className={`w-12 h-6 rounded-full transition-colors relative p-1 ${
-              settings.autoPlayAudio ? 'bg-indigo-600' : 'bg-slate-300 dark:bg-slate-600'
-            }`}
-          >
-            <div className={`w-4 h-4 bg-white rounded-full transition-transform ${
-              settings.autoPlayAudio ? 'translate-x-6' : 'translate-x-0'
-            }`} />
-          </button>
-        </div>
+
 
         {/* Hiển thị Furigana */}
         <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm flex items-center justify-between">
