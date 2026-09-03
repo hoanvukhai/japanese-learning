@@ -176,7 +176,7 @@ export default function CourseHub() {
                             {Math.max(0, totalItems - ((courseStat?.masteryCounts || []).reduce((a, b) => a + b, 0)))}
                           </span>
                         </div>
-                        {[0, 1, 2, 3, 4, 5, 6, 7].map((level) => (
+                        {[1, 2, 3, 4, 5, 6, 7].map((level) => (
                           <div key={level} className="flex items-center gap-2" title={`Level ${level}: ${(courseStat?.masteryCounts || [])[level] || 0} từ`}>
                             <MasteryIcon level={level} size="sm" />
                             <span className="text-xs font-bold text-slate-600 dark:text-slate-300">

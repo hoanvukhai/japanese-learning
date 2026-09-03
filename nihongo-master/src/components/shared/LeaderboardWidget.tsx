@@ -66,7 +66,7 @@ export function LeaderboardWidget({
               {title}
             </h2>
           </div>
-          {subtitle && <div className="mt-2">{subtitle}</div>}
+          {subtitle && <div className="mt-2 text-slate-500 dark:text-slate-400 text-sm">{subtitle}</div>}
         </div>
       )}
 
