@@ -512,7 +512,7 @@ export default function LearnSession() {
           }
           
           const { recordSrsExp } = await import('../../lib/srs/pointsEngine');
-          const exp = await recordSrsExp(user.uid, expType, courseIdParam, updated.masteryLevel);
+          const exp = await recordSrsExp(user.uid, expType, courseIdParam, existing.masteryLevel);
           setSessionTotalExp(prev => prev + exp);
 
           savedIdsRef.current.add(raw.id);
