@@ -203,7 +203,7 @@ export async function recordSrsExp(
     let awardedExp = 0;
     if (type === 'new') awardedExp = 5;
     else if (type === 'review_up') awardedExp = level || 1;
-    else if (type === 'maintain_max') awardedExp = 8;
+    else if (type === 'maintain_max') awardedExp = 7;
     else awardedExp = 1;
 
     const updates: any = {
