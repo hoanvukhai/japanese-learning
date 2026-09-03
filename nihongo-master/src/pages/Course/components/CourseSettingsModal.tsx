@@ -206,28 +206,7 @@ export function CourseSettingsModal({ isOpen, onClose }: Props) {
                 </div>
               </div>
 
-              {/* Toggles */}
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-slate-50 dark:bg-slate-900/50 rounded-2xl p-4 border border-slate-100 dark:border-slate-700/50 flex flex-col items-start gap-3">
-                  <div className="flex-1">
-                    <h3 className="font-semibold text-slate-800 dark:text-white text-sm">
-                      Âm thanh
-                    </h3>
-                    <p className="text-[11px] text-slate-500 mt-0.5">Tự động phát</p>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setSettings(s => ({ ...s, autoPlayAudio: !s.autoPlayAudio }))}
-                    className={`w-11 h-6 rounded-full transition-colors relative p-1 ${
-                      settings.autoPlayAudio ? 'bg-indigo-600' : 'bg-slate-300 dark:bg-slate-600'
-                    }`}
-                  >
-                    <div className={`w-4 h-4 bg-white rounded-full transition-transform ${
-                      settings.autoPlayAudio ? 'translate-x-5' : 'translate-x-0'
-                    }`} />
-                  </button>
-                </div>
-              </div>
+              {/* Toggles (Removed Audio toggle) */}
 
 
             </>

@@ -39,6 +39,7 @@ interface RawItem {
   exampleKanji?: string;
   exampleMeaning?: string;
   isSingleKanjiChar?: boolean;
+  originalData?: any;
 }
 
 type QueuePhase = 'preview' | 'quiz' | 'typing';
@@ -67,16 +68,17 @@ function buildRawList(course: Course): RawItem[] {
       exampleKanji: w.example?.kanji,
       exampleMeaning: typeof w.example?.meaning === 'object' ? w.example?.meaning?.vi : w.example?.meaning,
       isSingleKanjiChar: false,
+      originalData: w,
     }));
   }
 
   if (subject === 'kanji_single') {
     const items: RawItem[] = [];
     data.forEach((k: any) => {
-      items.push({ id: k.id || k.character, kanji: k.character, hiragana: k.hanViet, meaning: `Âm Hán Việt: ${k.hanViet}`, lesson: k.lesson || 'Bài 1', isSingleKanjiChar: true });
+      items.push({ id: k.id || k.character, kanji: k.character, hiragana: k.hanViet, meaning: `Âm Hán Việt: ${k.hanViet}`, lesson: k.lesson || 'Bài 1', isSingleKanjiChar: true, originalData: k });
       if (k.words) k.words.forEach((w: any) => {
         const m = typeof w.meaning === 'object' ? w.meaning.vi : w.meaning;
-        items.push({ id: w.id || `${k.character}_${w.word}`, kanji: w.word, hiragana: w.hanVietWord || k.hanViet, meaning: `Từ Ghép: ${w.hanVietWord || k.hanViet} · ${m}`, lesson: k.lesson || 'Bài 1', isSingleKanjiChar: true });
+        items.push({ id: w.id || `${k.character}_${w.word}`, kanji: w.word, hiragana: w.hanVietWord || k.hanViet, meaning: `Từ Ghép: ${w.hanVietWord || k.hanViet} · ${m}`, lesson: k.lesson || 'Bài 1', isSingleKanjiChar: true, originalData: w });
       });
     });
     return items;
@@ -86,14 +88,14 @@ function buildRawList(course: Course): RawItem[] {
     const items: RawItem[] = [];
     data.forEach((k: any) => {
       if (k.words) k.words.forEach((w: any) => {
-        items.push({ id: w.id || `${k.character}_${w.word}`, kanji: w.word, hiragana: w.hiragana, meaning: typeof w.meaning === 'object' ? w.meaning.vi : w.meaning, lesson: k.lesson || 'Bài 1', exampleKanji: w.examples?.[0]?.jp, exampleMeaning: w.examples?.[0]?.vi, isSingleKanjiChar: false });
+        items.push({ id: w.id || `${k.character}_${w.word}`, kanji: w.word, hiragana: w.hiragana, meaning: typeof w.meaning === 'object' ? w.meaning.vi : w.meaning, lesson: k.lesson || 'Bài 1', exampleKanji: w.examples?.[0]?.jp, exampleMeaning: w.examples?.[0]?.vi, isSingleKanjiChar: false, originalData: w });
       });
     });
     return items;
   }
 
   if (subject === 'grammar') {
-    return data.map((g: any) => ({ id: g.id || g.structure, kanji: g.structure, hiragana: g.structure, meaning: typeof g.meaning === 'object' ? g.meaning.vi : g.meaning, lesson: g.lesson || 'Bài 1', isSingleKanjiChar: false }));
+    return data.map((g: any) => ({ id: g.id || g.structure, kanji: g.structure, hiragana: g.structure, meaning: typeof g.meaning === 'object' ? g.meaning.vi : g.meaning, lesson: g.lesson || 'Bài 1', isSingleKanjiChar: false, originalData: g }));
   }
 
   return [];
@@ -128,46 +130,193 @@ function buildBatchQueue(items: RawItem[], mode: string): QueueItem[] {
 
 
 
-const PreviewWordContent = ({ word, speak }: { word: any, speak: (text: string) => void }) => (
-  <>
-    {/* Japanese label + word */}
-    <div>
-      <p className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400 dark:text-indigo-500 mb-2">日本語 · Japanese</p>
-      <h1 className="text-6xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tight leading-[1.05] break-words">
-        {word.kanji}
-      </h1>
-      <p className="text-xl md:text-2xl font-bold text-slate-400 dark:text-slate-500 mt-2 tracking-wide">
-        {word.hiragana}
-      </p>
+const PreviewWordContent = ({ word, speak }: { word: any, speak: (text: string) => void }) => {
+  const data = word.originalData;
+  const isKanjiSingle = word.isSingleKanjiChar && data?.character;
+  const isKanjiWord = word.isSingleKanjiChar && data?.word; // from kanji.words array
+  const isGrammar = !!data?.structure;
+  const isVocab = !isKanjiSingle && !isKanjiWord && !isGrammar;
 
-      <button onClick={() => speak(word.kanji)}
-        className="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-500 dark:text-indigo-400 hover:text-indigo-700 transition-colors">
-        <Volume2 className="w-4 h-4" /> Phát âm
-        <kbd className="hidden md:inline bg-slate-100 dark:bg-slate-800 px-1.5 rounded text-[10px] text-slate-500 ml-1">S</kbd>
-      </button>
+  return (
+    <div className="space-y-6">
+      {/* ─── HÁN TỰ (Single Kanji) ─── */}
+      {isKanjiSingle && (
+        <div className="space-y-4">
+          <div className="flex gap-6 items-start">
+            <div className="shrink-0 flex flex-col items-center">
+              <h1 className="text-7xl md:text-8xl font-black text-slate-900 dark:text-white tracking-tight leading-none bg-slate-100 dark:bg-slate-800 rounded-3xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
+                {data.character}
+              </h1>
+              <p className="text-xl font-bold text-indigo-600 dark:text-indigo-400 mt-3">{data.hanViet}</p>
+            </div>
+            <div className="flex-1 space-y-3 pt-2">
+              <div className="space-y-1">
+                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Âm On</p>
+                <p className="text-sm md:text-base font-medium text-slate-700 dark:text-slate-200">{data.onyomi || '-'}</p>
+              </div>
+              <div className="space-y-1">
+                <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Âm Kun</p>
+                <p className="text-sm md:text-base font-medium text-slate-700 dark:text-slate-200">{data.kunyomi || '-'}</p>
+              </div>
+              <button onClick={() => speak(data.character)}
+                className="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-500 dark:text-indigo-400 hover:text-indigo-700 transition-colors">
+                <Volume2 className="w-4 h-4" /> Phát âm
+                <kbd className="hidden md:inline bg-slate-100 dark:bg-slate-800 px-1.5 rounded text-[10px] text-slate-500 ml-1">S</kbd>
+              </button>
+            </div>
+          </div>
+          {data.mnemonic && (
+            <div className="p-4 rounded-2xl bg-amber-50/50 dark:bg-amber-900/10 border border-amber-200/50 dark:border-amber-800/30">
+              <p className="text-xs font-black uppercase tracking-widest text-amber-600 dark:text-amber-500 mb-1">Mẹo nhớ</p>
+              <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{data.mnemonic}</p>
+            </div>
+          )}
+          {data.words && data.words.length > 0 && (
+            <div className="space-y-2">
+              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Từ vựng ví dụ</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {data.words.slice(0, 4).map((w: any, i: number) => (
+                  <div key={i} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 flex flex-col">
+                    <span className="font-black text-slate-800 dark:text-slate-100">{w.word} <span className="text-xs font-normal text-slate-500">({w.hiragana})</span></span>
+                    <span className="text-xs text-slate-500 dark:text-slate-400 mt-1">{typeof w.meaning === 'object' ? w.meaning.vi : w.meaning}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ─── TỪ VỰNG CHỮ HÁN (Kanji Words) ─── */}
+      {isKanjiWord && (
+        <div className="space-y-5">
+          <p className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400 dark:text-indigo-500">Từ Vựng</p>
+          <div className="flex items-end gap-4 flex-wrap">
+            <h1 className="text-5xl md:text-6xl font-black text-slate-900 dark:text-white tracking-tight leading-none break-words">
+              {data.word}
+            </h1>
+            <div className="flex flex-col mb-1">
+              <span className="text-lg md:text-xl font-bold text-slate-500 dark:text-slate-400">{data.hiragana}</span>
+              {data.hanVietWord && <span className="text-sm font-semibold text-indigo-500 dark:text-indigo-400">{data.hanVietWord}</span>}
+            </div>
+          </div>
+          <button onClick={() => speak(data.word)}
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-500 dark:text-indigo-400 hover:text-indigo-700 transition-colors">
+            <Volume2 className="w-4 h-4" /> Phát âm
+            <kbd className="hidden md:inline bg-slate-100 dark:bg-slate-800 px-1.5 rounded text-[10px] text-slate-500 ml-1">S</kbd>
+          </button>
+          
+          <div className="w-12 h-1 rounded-full bg-indigo-300 dark:bg-indigo-700" />
+          
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-[0.2em] text-violet-400 dark:text-violet-500 mb-1">Nghĩa</p>
+            <p className="text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-100 leading-tight">
+              {typeof data.meaning === 'object' ? data.meaning.vi : data.meaning}
+            </p>
+          </div>
+          
+          {data.examples && data.examples.length > 0 && (
+            <div className="space-y-3 pt-2">
+              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Ví dụ</p>
+              {data.examples.map((ex: any, i: number) => (
+                <div key={i} className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 space-y-1.5">
+                  <p className="text-sm md:text-base font-medium text-slate-700 dark:text-slate-300">{ex.jp}</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">{ex.vi}</p>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ─── TỪ VỰNG THƯỜNG (Vocab) ─── */}
+      {isVocab && (
+        <div className="space-y-5">
+          <p className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400 dark:text-indigo-500">Từ Vựng</p>
+          <div className="flex items-end gap-4 flex-wrap">
+            <h1 className="text-5xl md:text-6xl font-black text-slate-900 dark:text-white tracking-tight leading-none break-words">
+              {data?.kanji || word.kanji}
+            </h1>
+            <p className="text-xl md:text-2xl font-bold text-slate-400 dark:text-slate-500 mb-1 tracking-wide">
+              {data?.hiragana || word.hiragana}
+            </p>
+          </div>
+          <button onClick={() => speak(data?.kanji || word.kanji)}
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-500 dark:text-indigo-400 hover:text-indigo-700 transition-colors">
+            <Volume2 className="w-4 h-4" /> Phát âm
+            <kbd className="hidden md:inline bg-slate-100 dark:bg-slate-800 px-1.5 rounded text-[10px] text-slate-500 ml-1">S</kbd>
+          </button>
+          
+          <div className="w-12 h-1 rounded-full bg-indigo-300 dark:bg-indigo-700" />
+          
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-[0.2em] text-violet-400 dark:text-violet-500 mb-1">Nghĩa</p>
+            <p className="text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-100 leading-tight">
+              {data?.meaning && typeof data.meaning === 'object' ? data.meaning.vi : (data?.meaning || word.meaning)}
+            </p>
+          </div>
+          
+          {data?.examples && data.examples.length > 0 && (
+            <div className="space-y-3 pt-2">
+              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Ví dụ</p>
+              {data.examples.map((ex: any, i: number) => (
+                <div key={i} className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 space-y-1.5">
+                  <p className="text-sm md:text-base font-medium text-slate-700 dark:text-slate-300">{ex.jp}</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">{ex.vi}</p>
+                </div>
+              ))}
+            </div>
+          )}
+          {(!data?.examples || data.examples.length === 0) && word.exampleKanji && (
+            <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 space-y-1.5">
+              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 dark:text-slate-500">Ví dụ</p>
+              <p className="text-base md:text-lg font-medium text-slate-700 dark:text-slate-300">{word.exampleKanji}</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400">{word.exampleMeaning}</p>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ─── NGỮ PHÁP (Grammar) ─── */}
+      {isGrammar && (
+        <div className="space-y-5">
+          <p className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-500 dark:text-emerald-400">Ngữ Pháp</p>
+          <h1 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+            {data.structure}
+          </h1>
+          
+          <div className="w-12 h-1 rounded-full bg-emerald-400 dark:bg-emerald-600" />
+          
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-[0.2em] text-violet-400 dark:text-violet-500 mb-1">Ý nghĩa</p>
+            <p className="text-lg md:text-xl font-bold text-slate-800 dark:text-slate-100 leading-relaxed">
+              {typeof data.meaning === 'object' ? data.meaning.vi : data.meaning}
+            </p>
+          </div>
+          
+          {data.formation && (
+            <div className="p-4 rounded-2xl bg-emerald-50/50 dark:bg-emerald-900/10 border border-emerald-200/50 dark:border-emerald-800/30">
+              <p className="text-xs font-black uppercase tracking-widest text-emerald-600 dark:text-emerald-500 mb-2">Cấu trúc</p>
+              <p className="text-sm md:text-base font-semibold text-slate-700 dark:text-slate-300 whitespace-pre-line">{data.formation}</p>
+            </div>
+          )}
+          
+          {data.examples && data.examples.length > 0 && (
+            <div className="space-y-3 pt-2">
+              <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Ví dụ</p>
+              {data.examples.map((ex: any, i: number) => (
+                <div key={i} className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 space-y-1.5">
+                  <p className="text-sm md:text-base font-medium text-slate-700 dark:text-slate-300">{ex.jp}</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">{ex.vi}</p>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
-
-    {/* Divider */}
-    <div className="w-12 h-1 rounded-full bg-indigo-300 dark:bg-indigo-700" />
-
-    {/* Meaning */}
-    <div>
-      <p className="text-[10px] font-black uppercase tracking-[0.2em] text-violet-400 dark:text-violet-500 mb-1">Nghĩa · Vietnamese</p>
-      <p className="text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-100 leading-tight">
-        {word.meaning}
-      </p>
-    </div>
-
-    {/* Example (if any) */}
-    {word.exampleKanji && (
-      <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 space-y-1.5">
-        <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 dark:text-slate-500">Ví dụ</p>
-        <p className="text-base md:text-lg font-medium text-slate-700 dark:text-slate-300">{word.exampleKanji}</p>
-        <p className="text-sm text-slate-500 dark:text-slate-400">{word.exampleMeaning}</p>
-      </div>
-    )}
-  </>
-);
+  );
+};
 
 export default function LearnSession() {
 
@@ -204,7 +353,7 @@ export default function LearnSession() {
   const [quizOptions, setQuizOptions] = useState<string[]>([]);
   const [savedIds, setSavedIds] = useState<Set<string>>(new Set()); //  ã lưu Firestore
   const [correctCounts, setCorrectCounts] = useState<Map<string, number>>(new Map());
-  const [autoPlayAudio, setAutoPlayAudio] = useState(false);
+
 
   const [sessionTotalExp, setSessionTotalExp] = useState(0);
   const [isPreviewTransitioning, setIsPreviewTransitioning] = useState(false);
@@ -312,26 +461,33 @@ export default function LearnSession() {
         return;
       }
 
-      // QUIZ: 1-4
+      // QUIZ: 1-4 & Enter
       if (cQ.phase === 'quiz') {
         const quizOpts = (cQ as any).quizOptions?.length ? (cQ as any).quizOptions : opts;
-        const num = parseInt(e.key);
-        if (num >= 1 && num <= quizOpts.length) { e.preventDefault(); submitQuizRef.current(quizOpts[num - 1]); }
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          submitQuizRef.current(''); // nộp đáp án trống -> sai
+        } else {
+          const num = parseInt(e.key);
+          if (num >= 1 && num <= quizOpts.length) { e.preventDefault(); submitQuizRef.current(quizOpts[num - 1]); }
+        }
       }
 
       // TYPING: Enter
       if (cQ.phase === 'typing' && e.key === 'Enter') {
         e.preventDefault();
-        if (!userTypingRef.current.trim()) {
-          // Chịu thua (Gõ trống rỗng) -> Submit empty to fail
-          submitTypingRef.current();
-        } else {
-          submitTypingRef.current();
-        }
+        submitTypingRef.current(); // Không cần check trống, submitTyping tự xử lý
       }
 
-      // S: phat am
-      if ((e.key === 's' || e.key === 'S') && cQ) { e.preventDefault(); speakRef.current(cQ.raw.kanji); }
+      // S: Phát âm (Chỉ cho phép ở Preview hoặc khi đã lật kết quả)
+      if ((e.key === 's' || e.key === 'S') && cQ) {
+        if (ph === 'test' && fb === 'none') {
+          // Block audio during active test
+        } else {
+          e.preventDefault();
+          speakRef.current(cQ.raw.kanji);
+        }
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -418,7 +574,6 @@ export default function LearnSession() {
         const userSnap = await getDoc(userRef);
         const learnSettings = userSnap.exists() ? userSnap.data()?.learnSettings : null;
         const sessionSize = modeParam === 'review' ? (learnSettings?.reviewSessionSize ?? 30) : (learnSettings?.sessionSize ?? 5);
-        setAutoPlayAudio(learnSettings?.autoPlayAudio ?? false);
 
 
         if (modeParam === 'review') {
@@ -555,18 +710,12 @@ export default function LearnSession() {
     }
   }, [currentQIdx, testQueue]);
 
-  // ── Auto Play Audio ──────────────────────────────────────────────────
+  // ── Auto Play Audio (Preview Only) ──────────────────────────────────
   useEffect(() => {
-    if (phase === 'preview' && autoPlayAudio && currentBatch[previewItemIdx]) {
+    if (phase === 'preview' && currentBatch[previewItemIdx]) {
       speak(currentBatch[previewItemIdx].kanji);
     }
-  }, [phase, previewItemIdx, autoPlayAudio, currentBatch]);
-
-  useEffect(() => {
-    if (phase === 'test' && feedback !== 'none' && autoPlayAudio && currentQ) {
-      speak(currentQ.raw.kanji);
-    }
-  }, [phase, feedback, autoPlayAudio, currentQ]);
+  }, [phase, previewItemIdx, currentBatch]);
 
   //    Handle Answer                                                       
   const handleAnswer = useCallback((isCorrect: boolean, raw: RawItem) => {

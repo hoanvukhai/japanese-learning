@@ -111,7 +111,6 @@ export interface LearnSettings {
   maxPendingWords: number;      // Mặc định: 50
   sessionSize: number;          // Mặc định: 15
   reviewSessionSize: number;    // Mặc định: 30
-  autoPlayAudio: boolean;       // Tự động phát âm thanh
   showKana: boolean;            // Hiện furigana (chữ Kana nhỏ)
 }
 
@@ -120,6 +119,5 @@ export const DEFAULT_LEARN_SETTINGS: LearnSettings = {
   maxPendingWords: 50,
   sessionSize: 15,
   reviewSessionSize: 30,
-  autoPlayAudio: false,
   showKana: true,
 };
