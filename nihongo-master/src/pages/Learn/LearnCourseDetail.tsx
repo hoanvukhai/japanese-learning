@@ -196,14 +196,12 @@ export default function LearnCourseDetail() {
           if (mins < 60) {
             timeLeftFormatted = `${mins}p`;
           } else {
-            const hours = Math.floor(mins / 60);
-            const rMins = mins % 60;
+            const hours = Math.round(mins / 60);
             if (hours < 24) {
-              timeLeftFormatted = rMins > 0 ? `${hours}h ${rMins}p` : `${hours}h`;
+              timeLeftFormatted = `${hours}h`;
             } else {
-              const days = Math.floor(hours / 24);
-              const rHours = hours % 24;
-              timeLeftFormatted = rHours > 0 ? `${days}d ${rHours}h` : `${days}d`;
+              const days = Math.round(hours / 24);
+              timeLeftFormatted = `${days}d`;
             }
           }
         }
