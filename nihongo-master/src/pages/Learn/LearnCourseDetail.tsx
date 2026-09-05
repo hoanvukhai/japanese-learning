@@ -28,6 +28,7 @@ interface LessonGroupItem {
   nextReviewDate?: Date | null;
   isDue?: boolean;
   hoursLeft?: number;
+  timeLeftStr?: string;
 }
 
 interface LessonGroup {
