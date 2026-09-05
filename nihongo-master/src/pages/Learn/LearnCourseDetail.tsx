@@ -188,9 +188,23 @@ export default function LearnCourseDetail() {
           ? prog.nextReviewDate <= now && prog.status !== 'new'
           : false;
 
-        let hoursLeft = -1;
+        let timeLeftFormatted = '';
         if (prog?.nextReviewDate && prog.nextReviewDate > now && prog.status !== 'new') {
-          hoursLeft = Math.ceil((prog.nextReviewDate.getTime() - now.getTime()) / (1000 * 60 * 60));
+          const msLeft = prog.nextReviewDate.getTime() - now.getTime();
+          const mins = Math.ceil(msLeft / (1000 * 60));
+          if (mins < 60) {
+            timeLeftFormatted = `${mins}p`;
+          } else {
+            const hours = Math.floor(mins / 60);
+            const rMins = mins % 60;
+            if (hours < 24) {
+              timeLeftFormatted = rMins > 0 ? `${hours}h ${rMins}p` : `${hours}h`;
+            } else {
+              const days = Math.floor(hours / 24);
+              const rHours = hours % 24;
+              timeLeftFormatted = rHours > 0 ? `${days}d ${rHours}h` : `${days}d`;
+            }
+          }
         }
 
         return {
@@ -203,7 +217,7 @@ export default function LearnCourseDetail() {
           isMastered,
           nextReviewDate: prog?.nextReviewDate ?? null,
           isDue,
-          hoursLeft,
+          timeLeftStr: timeLeftFormatted,
         };
       });
 
@@ -547,7 +561,7 @@ export default function LearnCourseDetail() {
                                 <Droplet size={14} className="text-sky-500 dark:text-sky-400 fill-current" />
                               </div>
                             )}
-                            {item.hoursLeft !== undefined && item.hoursLeft > 0 && <span className="flex items-center gap-1 text-[11px] font-black tracking-wider text-slate-500 bg-slate-100 px-2.5 py-1 rounded-lg border border-slate-200"><Droplet size={12} className="fill-current opacity-70" /> {item.hoursLeft}h</span>}
+                            {item.timeLeftStr && <span className="flex items-center gap-1 text-[11px] font-black tracking-wider text-slate-500 bg-slate-100 px-2.5 py-1 rounded-lg border border-slate-200"><Droplet size={12} className="fill-current opacity-70" /> {item.timeLeftStr}</span>}
                             {item.masteryLevel === 0 && (
                               <div className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-50 dark:bg-slate-800/30 border border-slate-200/60 dark:border-slate-700/50" title="Chưa học (Hạt giống mới)">
                                 <EyeOff size={14} className="text-slate-400 dark:text-slate-500" />
